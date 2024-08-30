@@ -1,40 +1,27 @@
 {
   "vaultName": "LogseqVault",
-  "lastExport": 1725006361649,
+  "lastExport": 1725006573109,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager show-inline-title show-ribbon fancy-code h2-underline theme-dark",
-  "useCustomHeadContent": false,
+  "useCustomHeadContent": true,
   "useCustomFavicon": false,
   "files": [
-    "复分析/复分析做题日记.md",
-    "复分析/An Introduction to Homological Algebra Second Edition (Joseph J. Rotman) (Z-Library).pdf",
-    "复分析/Lecture 4.md",
     "复分析/Lecture 5.md",
-    "复分析/Lecture 6.md",
-    "复分析/Lecture 7.md",
-    "复分析/Lecture 8.md",
-    "复分析/Lecture 9.md",
-    "复分析/Lecture 10.md",
-    "复分析/Lecture 11.md",
-    "复分析/Lecture 12.md",
-    "复分析/Lecture 13.md",
-    "复分析/Lecture 14.md",
-    "复分析/Lecture 15.md",
-    "复分析/Lecture 16.md",
     "lib/html/file-tree.html",
     "lib/scripts/webpage.js",
     "lib/media/favicon.png",
+    "lib/html/custom-head-content.html",
     "lib/styles/obsidian.css",
     "lib/styles/theme.css",
     "lib/styles/global-variable-styles.css",
     "lib/styles/main-styles.css",
-    "lib/styles/snippets.css",
-    "复分析/an-introduction-to-homological-algebra-second-edition-(joseph-j.-rotman)-(z-library).pdf"
+    "lib/styles/snippets.css"
   ],
   "mainDependencies": [
     "lib/html/file-tree.html",
     "lib/scripts/webpage.js",
     "lib/media/favicon.png",
+    "lib/html/custom-head-content.html",
     "lib/styles/obsidian.css",
     "lib/styles/theme.css",
     "lib/styles/global-variable-styles.css",
@@ -42,156 +29,62 @@
     "lib/styles/snippets.css"
   ],
   "fileInfo": {
-    "复分析/复分析做题日记.md": {
-      "modifiedTime": 1725006361649,
-      "sourceSize": 1226,
-      "exportedPath": "复分析/复分析做题日记.html",
-      "dependencies": []
-    },
-    "复分析/An Introduction to Homological Algebra Second Edition (Joseph J. Rotman) (Z-Library).pdf": {
-      "modifiedTime": 1725006361649,
-      "sourceSize": 4056973,
-      "exportedPath": "复分析/an-introduction-to-homological-algebra-second-edition-(joseph-j.-rotman)-(z-library).pdf",
-      "dependencies": []
-    },
-    "复分析/Lecture 4.md": {
-      "modifiedTime": 1725006361649,
-      "sourceSize": 2302,
-      "exportedPath": "复分析/lecture-4.html",
-      "dependencies": []
-    },
     "复分析/Lecture 5.md": {
-      "modifiedTime": 1725006361649,
+      "modifiedTime": 1725006573109,
       "sourceSize": 3219,
       "exportedPath": "复分析/lecture-5.html",
       "dependencies": []
     },
-    "复分析/Lecture 6.md": {
-      "modifiedTime": 1725006361649,
-      "sourceSize": 4695,
-      "exportedPath": "复分析/lecture-6.html",
-      "dependencies": [
-        "复分析/an-introduction-to-homological-algebra-second-edition-(joseph-j.-rotman)-(z-library).pdf"
-      ]
-    },
-    "复分析/Lecture 7.md": {
-      "modifiedTime": 1725006361649,
-      "sourceSize": 1988,
-      "exportedPath": "复分析/lecture-7.html",
-      "dependencies": []
-    },
-    "复分析/Lecture 8.md": {
-      "modifiedTime": 1725006361649,
-      "sourceSize": 4957,
-      "exportedPath": "复分析/lecture-8.html",
-      "dependencies": []
-    },
-    "复分析/Lecture 9.md": {
-      "modifiedTime": 1725006361649,
-      "sourceSize": 3670,
-      "exportedPath": "复分析/lecture-9.html",
-      "dependencies": []
-    },
-    "复分析/Lecture 10.md": {
-      "modifiedTime": 1725006361649,
-      "sourceSize": 3392,
-      "exportedPath": "复分析/lecture-10.html",
-      "dependencies": []
-    },
-    "复分析/Lecture 11.md": {
-      "modifiedTime": 1725006361649,
-      "sourceSize": 4134,
-      "exportedPath": "复分析/lecture-11.html",
-      "dependencies": [
-        "复分析/an-introduction-to-homological-algebra-second-edition-(joseph-j.-rotman)-(z-library).pdf"
-      ]
-    },
-    "复分析/Lecture 12.md": {
-      "modifiedTime": 1725006361649,
-      "sourceSize": 2138,
-      "exportedPath": "复分析/lecture-12.html",
-      "dependencies": []
-    },
-    "复分析/Lecture 13.md": {
-      "modifiedTime": 1725006361649,
-      "sourceSize": 2675,
-      "exportedPath": "复分析/lecture-13.html",
-      "dependencies": []
-    },
-    "复分析/Lecture 14.md": {
-      "modifiedTime": 1725006361649,
-      "sourceSize": 1188,
-      "exportedPath": "复分析/lecture-14.html",
-      "dependencies": []
-    },
-    "复分析/Lecture 15.md": {
-      "modifiedTime": 1725006361649,
-      "sourceSize": 1278,
-      "exportedPath": "复分析/lecture-15.html",
-      "dependencies": []
-    },
-    "复分析/Lecture 16.md": {
-      "modifiedTime": 1725006361649,
-      "sourceSize": 917,
-      "exportedPath": "复分析/lecture-16.html",
-      "dependencies": []
-    },
-    "复分析/an-introduction-to-homological-algebra-second-edition-(joseph-j.-rotman)-(z-library).pdf": {
-      "modifiedTime": 1725006361649,
-      "sourceSize": 4056973,
-      "exportedPath": "复分析/an-introduction-to-homological-algebra-second-edition-(joseph-j.-rotman)-(z-library).pdf",
-      "dependencies": []
-    },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1725006361649,
-      "sourceSize": 6198,
+      "modifiedTime": 1725006573109,
+      "sourceSize": 1608,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1725006361649,
+      "modifiedTime": 1725006573109,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1725006361649,
+      "modifiedTime": 1725006573109,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/html/custom-head-content.html": {
-      "modifiedTime": 1725005649202,
+      "modifiedTime": 1725006573109,
       "sourceSize": 131,
       "exportedPath": "lib/html/custom-head-content.html",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1725006361649,
+      "modifiedTime": 1725006573109,
       "sourceSize": 130164,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/theme.css": {
-      "modifiedTime": 1725006361649,
+      "modifiedTime": 1725006573109,
       "sourceSize": 41426,
       "exportedPath": "lib/styles/theme.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1725006361649,
+      "modifiedTime": 1725006573109,
       "sourceSize": 519,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1725006361649,
+      "modifiedTime": 1725006573109,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
     },
     "lib/styles/snippets.css": {
-      "modifiedTime": 1725006361649,
+      "modifiedTime": 1725006573109,
       "sourceSize": 1249,
       "exportedPath": "lib/styles/snippets.css",
       "dependencies": []
