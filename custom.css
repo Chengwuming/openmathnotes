@@ -1,0 +1,14 @@
+.tree-container .tree-scroll-area {
+    /* 你可以在这里调整 top 的值 */
+    top: -3em !important;/* 这是一个示例值，你可以根据需要调整 */
+}
+
+.clickable-icon.sidebar-collapse-icon svg.svg-icon {
+    width: 93% !important;
+    height: 93% !important;
+    stroke-width: 1.2 !important; /* 强制应用 */
+}
+
+.tree-header {
+    display: none !important;
+}
