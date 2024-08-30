@@ -7,8 +7,8 @@ body{--color-fade-speed:0.2s}.tree-container{position:relative;height:100%;width
 .clickable-icon.sidebar-collapse-icon svg.svg-icon {
     width: 80%;
     height: 80%;
-}
-
-svg[属性样式] {
     stroke-width: 1.2 !important; /* 强制应用 */
 }
+
+
+
