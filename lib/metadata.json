@@ -1,17 +1,51 @@
 {
   "vaultName": "LogseqVault",
-  "lastExport": 1725017152062,
+  "lastExport": 1725017362554,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager show-inline-title show-ribbon fancy-code h2-underline theme-dark",
   "useCustomHeadContent": true,
   "useCustomFavicon": false,
   "files": [
+    "复分析/复分析做题日记.md",
+    "复分析/An Introduction to Homological Algebra Second Edition (Joseph J. Rotman) (Z-Library).pdf",
+    "复分析/CA Lecture 4.md",
+    "复分析/CA Lecture 5.md",
+    "复分析/CA Lecture 6.md",
+    "复分析/CA Lecture 7.md",
+    "复分析/CA Lecture 8.md",
+    "复分析/CA Lecture 9.md",
+    "复分析/CA Lecture 10.md",
+    "复分析/CA Lecture 11.md",
+    "复分析/CA Lecture 12.md",
+    "复分析/CA Lecture 13.md",
+    "复分析/CA Lecture 14.md",
+    "复分析/CA Lecture 15.md",
+    "复分析/CA Lecture 16.md",
+    "高等线性代数2/高代ppt/Lecture 19 正交相似 I.pdf",
+    "高等线性代数2/高代ppt/Lecture 20 正交相似 II.pdf",
+    "高等线性代数2/高代ppt/Lecture 21 酉变换.pdf",
+    "高等线性代数2/高代ppt/Lecture 22 复正规变换.pdf",
+    "高等线性代数2/作业/作业9.md",
+    "高等线性代数2/LA Lecture 19.md",
+    "高等线性代数2/LA Lecture 20.md",
+    "高等线性代数2/LA Lecture 21.md",
+    "高等线性代数2/LA Lecture 22.md",
+    "高等线性代数2/LA Lecture 23.md",
+    "高等线性代数2/LA Lecture 24.md",
+    "高等线性代数2/LA Lecture 25.md",
+    "高等线性代数2/LA Lecture 26.md",
+    "高等线性代数2/LA Lecture 28.md",
+    "高等线性代数2/LA Lecture 29.md",
     "敲敲Latex/年代久远的线性代数笔记.pdf",
     "敲敲Latex/希望以后能续上的数分笔记.pdf",
     "敲敲Latex/小学期学分来源的Jordan标准型报告.pdf",
     "敲敲Latex/意思Amann读书笔记惨遭放弃.pdf",
     "敲敲Latex/意义不明的笔记废稿.pdf",
     "敲敲Latex/意义不明的代数笔记废稿.pdf",
+    "物理/大雾/简谐波.md",
+    "想法/可交换.md",
+    "想法/如何学习数学.md",
+    "想法/作业感悟.md",
     "作业/高代作业/高代作业1.pdf",
     "作业/高代作业/高代作业9.pdf",
     "作业/高代作业/高代作业10.pdf",
@@ -20,6 +54,48 @@
     "作业/数分作业/数学分析1.pdf",
     "作业/数分作业/week13.pdf",
     "作业/数分作业/week14.pdf",
+    "Singular/Singular Lecture 1.md",
+    "Singular/Singular Lecture 2.md",
+    "Singular/Singular Lecture 3.md",
+    "Singular/Singular Lecture 4.md",
+    "Singular/Singular Lecture 5.md",
+    "曲面.md",
+    "未命名.canvas",
+    "lib/media/pasted-image-20240710114634.png",
+    "lib/media/pasted-image-20240710114835.png",
+    "lib/media/pasted-image-20240710191835.png",
+    "lib/media/pasted-image-20240710193756.png",
+    "lib/media/pasted-image-20240710214710.png",
+    "lib/media/pasted-image-20240711191943.png",
+    "lib/media/pasted-image-20240713103310.png",
+    "lib/media/pasted-image-20240713103436.png",
+    "lib/media/pasted-image-20240713103523.png",
+    "lib/media/pasted-image-20240713104505.png",
+    "lib/media/pasted-image-20240713105230.png",
+    "lib/media/pasted-image-20240713105239.png",
+    "lib/media/pasted-image-20240713105253.png",
+    "lib/media/pasted-image-20240713105403.png",
+    "lib/media/pasted-image-20240713105546.png",
+    "lib/media/pasted-image-20240714083729.png",
+    "lib/media/pasted-image-20240714091706.png",
+    "lib/media/pasted-image-20240715091839.png",
+    "lib/media/pasted-image-20240715091951.png",
+    "lib/media/pasted-image-20240715095820.png",
+    "lib/media/pasted-image-20240716082932.png",
+    "lib/media/pasted-image-20240716083003.png",
+    "lib/media/pasted-image-20240716084109.png",
+    "lib/media/pasted-image-20240716101616.png",
+    "lib/media/pasted-image-20240716102726.png",
+    "lib/media/pasted-image-20240513205638.png",
+    "lib/media/pasted-image-20240515224835.png",
+    "lib/media/1715784702462.jpg",
+    "lib/media/pasted-image-20240515222634.png",
+    "lib/media/img_20240515_223734.jpg",
+    "lib/media/pasted-image-20240515230903.png",
+    "lib/media/img_20240515_215510.jpg",
+    "lib/media/img_20240515_213518.jpg",
+    "lib/media/pasted-image-20240511095008.png",
+    "assets/数学类图片/pasted-image-20240517103127.png",
     "lib/html/file-tree.html",
     "lib/scripts/webpage.js",
     "lib/media/favicon.png",
@@ -43,165 +119,681 @@
   ],
   "fileInfo": {
     "lib/html/file-tree.html": {
-      "modifiedTime": 1725017152062,
-      "sourceSize": 8112,
+      "modifiedTime": 1725017362554,
+      "sourceSize": 26740,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1725017152062,
+      "modifiedTime": 1725017362554,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1725017152062,
+      "modifiedTime": 1725017362554,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/html/custom-head-content.html": {
-      "modifiedTime": 1725017152062,
+      "modifiedTime": 1725017362554,
       "sourceSize": 173,
       "exportedPath": "lib/html/custom-head-content.html",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1725017152062,
+      "modifiedTime": 1725017362554,
       "sourceSize": 130164,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/theme.css": {
-      "modifiedTime": 1725017152062,
+      "modifiedTime": 1725017362554,
       "sourceSize": 41426,
       "exportedPath": "lib/styles/theme.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1725017152062,
+      "modifiedTime": 1725017362554,
       "sourceSize": 519,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1725017152062,
+      "modifiedTime": 1725017362554,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
     },
     "lib/styles/snippets.css": {
-      "modifiedTime": 1725017152062,
+      "modifiedTime": 1725017362554,
       "sourceSize": 1249,
       "exportedPath": "lib/styles/snippets.css",
       "dependencies": []
     },
     "高等线性代数2/高代ppt/lecture-19-正交相似-i.pdf": {
-      "modifiedTime": 1725015777864,
+      "modifiedTime": 1725017362554,
       "sourceSize": 159286,
       "exportedPath": "高等线性代数2/高代ppt/lecture-19-正交相似-i.pdf",
       "dependencies": []
     },
     "高等线性代数2/高代ppt/lecture-20-正交相似-ii.pdf": {
-      "modifiedTime": 1725015777864,
+      "modifiedTime": 1725017362554,
       "sourceSize": 168973,
       "exportedPath": "高等线性代数2/高代ppt/lecture-20-正交相似-ii.pdf",
       "dependencies": []
     },
     "高等线性代数2/高代ppt/lecture-21-酉变换.pdf": {
-      "modifiedTime": 1725015777864,
+      "modifiedTime": 1725017362554,
       "sourceSize": 181989,
       "exportedPath": "高等线性代数2/高代ppt/lecture-21-酉变换.pdf",
       "dependencies": []
     },
     "高等线性代数2/高代ppt/lecture-22-复正规变换.pdf": {
-      "modifiedTime": 1725015777864,
+      "modifiedTime": 1725017362554,
       "sourceSize": 168224,
       "exportedPath": "高等线性代数2/高代ppt/lecture-22-复正规变换.pdf",
       "dependencies": []
     },
     "敲敲Latex/年代久远的线性代数笔记.pdf": {
-      "modifiedTime": 1725017152062,
+      "modifiedTime": 1725017362554,
       "sourceSize": 177001,
       "exportedPath": "敲敲latex/年代久远的线性代数笔记.pdf",
       "dependencies": []
     },
     "敲敲Latex/希望以后能续上的数分笔记.pdf": {
-      "modifiedTime": 1725017152062,
+      "modifiedTime": 1725017362554,
       "sourceSize": 1433605,
       "exportedPath": "敲敲latex/希望以后能续上的数分笔记.pdf",
       "dependencies": []
     },
     "敲敲Latex/小学期学分来源的Jordan标准型报告.pdf": {
-      "modifiedTime": 1725017152062,
+      "modifiedTime": 1725017362554,
       "sourceSize": 112518,
       "exportedPath": "敲敲latex/小学期学分来源的jordan标准型报告.pdf",
       "dependencies": []
     },
     "敲敲Latex/意思Amann读书笔记惨遭放弃.pdf": {
-      "modifiedTime": 1725017152062,
+      "modifiedTime": 1725017362554,
       "sourceSize": 1527934,
       "exportedPath": "敲敲latex/意思amann读书笔记惨遭放弃.pdf",
       "dependencies": []
     },
     "敲敲Latex/意义不明的笔记废稿.pdf": {
-      "modifiedTime": 1725017152062,
+      "modifiedTime": 1725017362554,
       "sourceSize": 94130,
       "exportedPath": "敲敲latex/意义不明的笔记废稿.pdf",
       "dependencies": []
     },
     "敲敲Latex/意义不明的代数笔记废稿.pdf": {
-      "modifiedTime": 1725017152062,
+      "modifiedTime": 1725017362554,
       "sourceSize": 182813,
       "exportedPath": "敲敲latex/意义不明的代数笔记废稿.pdf",
       "dependencies": []
     },
     "作业/高代作业/高代作业1.pdf": {
-      "modifiedTime": 1725017152062,
+      "modifiedTime": 1725017362554,
       "sourceSize": 72062,
       "exportedPath": "作业/高代作业/高代作业1.pdf",
       "dependencies": []
     },
     "作业/高代作业/高代作业9.pdf": {
-      "modifiedTime": 1725017152062,
+      "modifiedTime": 1725017362554,
       "sourceSize": 94853,
       "exportedPath": "作业/高代作业/高代作业9.pdf",
       "dependencies": []
     },
     "作业/高代作业/高代作业10.pdf": {
-      "modifiedTime": 1725017152062,
+      "modifiedTime": 1725017362554,
       "sourceSize": 66130,
       "exportedPath": "作业/高代作业/高代作业10.pdf",
       "dependencies": []
     },
     "作业/高代作业/高代作业11.pdf": {
-      "modifiedTime": 1725017152062,
+      "modifiedTime": 1725017362554,
       "sourceSize": 60565,
       "exportedPath": "作业/高代作业/高代作业11.pdf",
       "dependencies": []
     },
     "作业/高代作业/高代作业12.pdf": {
-      "modifiedTime": 1725017152062,
+      "modifiedTime": 1725017362554,
       "sourceSize": 59475,
       "exportedPath": "作业/高代作业/高代作业12.pdf",
       "dependencies": []
     },
     "作业/数分作业/数学分析1.pdf": {
-      "modifiedTime": 1725017152062,
+      "modifiedTime": 1725017362554,
       "sourceSize": 91836,
       "exportedPath": "作业/数分作业/数学分析1.pdf",
       "dependencies": []
     },
     "作业/数分作业/week13.pdf": {
-      "modifiedTime": 1725017152062,
+      "modifiedTime": 1725017362554,
       "sourceSize": 65794,
       "exportedPath": "作业/数分作业/week13.pdf",
       "dependencies": []
     },
     "作业/数分作业/week14.pdf": {
-      "modifiedTime": 1725017152062,
+      "modifiedTime": 1725017362554,
       "sourceSize": 65525,
       "exportedPath": "作业/数分作业/week14.pdf",
+      "dependencies": []
+    },
+    "复分析/复分析做题日记.md": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 1259,
+      "exportedPath": "复分析/复分析做题日记.html",
+      "dependencies": []
+    },
+    "复分析/An Introduction to Homological Algebra Second Edition (Joseph J. Rotman) (Z-Library).pdf": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 4056973,
+      "exportedPath": "复分析/an-introduction-to-homological-algebra-second-edition-(joseph-j.-rotman)-(z-library).pdf",
+      "dependencies": []
+    },
+    "复分析/CA Lecture 4.md": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 2302,
+      "exportedPath": "复分析/ca-lecture-4.html",
+      "dependencies": []
+    },
+    "复分析/CA Lecture 5.md": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 3219,
+      "exportedPath": "复分析/ca-lecture-5.html",
+      "dependencies": []
+    },
+    "复分析/CA Lecture 6.md": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 4695,
+      "exportedPath": "复分析/ca-lecture-6.html",
+      "dependencies": [
+        "lib/media/pasted-image-20240710114634.png",
+        "lib/media/pasted-image-20240710114835.png",
+        "复分析/an-introduction-to-homological-algebra-second-edition-(joseph-j.-rotman)-(z-library).pdf"
+      ]
+    },
+    "复分析/CA Lecture 7.md": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 1988,
+      "exportedPath": "复分析/ca-lecture-7.html",
+      "dependencies": []
+    },
+    "复分析/CA Lecture 8.md": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 4957,
+      "exportedPath": "复分析/ca-lecture-8.html",
+      "dependencies": [
+        "lib/media/pasted-image-20240710191835.png",
+        "lib/media/pasted-image-20240710193756.png",
+        "lib/media/pasted-image-20240710214710.png"
+      ]
+    },
+    "复分析/CA Lecture 9.md": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 3670,
+      "exportedPath": "复分析/ca-lecture-9.html",
+      "dependencies": [
+        "lib/media/pasted-image-20240711191943.png"
+      ]
+    },
+    "复分析/CA Lecture 10.md": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 3392,
+      "exportedPath": "复分析/ca-lecture-10.html",
+      "dependencies": []
+    },
+    "复分析/CA Lecture 11.md": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 4134,
+      "exportedPath": "复分析/ca-lecture-11.html",
+      "dependencies": [
+        "lib/media/pasted-image-20240713103310.png",
+        "lib/media/pasted-image-20240713103436.png",
+        "lib/media/pasted-image-20240713103523.png",
+        "lib/media/pasted-image-20240713104505.png",
+        "lib/media/pasted-image-20240713105230.png",
+        "lib/media/pasted-image-20240713105239.png",
+        "lib/media/pasted-image-20240713105253.png",
+        "lib/media/pasted-image-20240713105403.png",
+        "lib/media/pasted-image-20240713105546.png",
+        "复分析/an-introduction-to-homological-algebra-second-edition-(joseph-j.-rotman)-(z-library).pdf"
+      ]
+    },
+    "复分析/CA Lecture 12.md": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 2138,
+      "exportedPath": "复分析/ca-lecture-12.html",
+      "dependencies": [
+        "lib/media/pasted-image-20240714083729.png",
+        "lib/media/pasted-image-20240714091706.png"
+      ]
+    },
+    "复分析/CA Lecture 13.md": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 2675,
+      "exportedPath": "复分析/ca-lecture-13.html",
+      "dependencies": [
+        "lib/media/pasted-image-20240715091839.png",
+        "lib/media/pasted-image-20240715091951.png",
+        "lib/media/pasted-image-20240715095820.png"
+      ]
+    },
+    "复分析/CA Lecture 14.md": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 1188,
+      "exportedPath": "复分析/ca-lecture-14.html",
+      "dependencies": [
+        "lib/media/pasted-image-20240716082932.png",
+        "lib/media/pasted-image-20240716083003.png",
+        "lib/media/pasted-image-20240716084109.png",
+        "lib/media/pasted-image-20240716101616.png",
+        "lib/media/pasted-image-20240716102726.png"
+      ]
+    },
+    "复分析/CA Lecture 15.md": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 1278,
+      "exportedPath": "复分析/ca-lecture-15.html",
+      "dependencies": []
+    },
+    "复分析/CA Lecture 16.md": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 917,
+      "exportedPath": "复分析/ca-lecture-16.html",
+      "dependencies": []
+    },
+    "高等线性代数2/高代ppt/Lecture 19 正交相似 I.pdf": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 159286,
+      "exportedPath": "高等线性代数2/高代ppt/lecture-19-正交相似-i.pdf",
+      "dependencies": []
+    },
+    "高等线性代数2/高代ppt/Lecture 20 正交相似 II.pdf": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 168973,
+      "exportedPath": "高等线性代数2/高代ppt/lecture-20-正交相似-ii.pdf",
+      "dependencies": []
+    },
+    "高等线性代数2/高代ppt/Lecture 21 酉变换.pdf": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 181989,
+      "exportedPath": "高等线性代数2/高代ppt/lecture-21-酉变换.pdf",
+      "dependencies": []
+    },
+    "高等线性代数2/高代ppt/Lecture 22 复正规变换.pdf": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 168224,
+      "exportedPath": "高等线性代数2/高代ppt/lecture-22-复正规变换.pdf",
+      "dependencies": []
+    },
+    "高等线性代数2/作业/作业9.md": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 6028,
+      "exportedPath": "高等线性代数2/作业/作业9.html",
+      "dependencies": [
+        "lib/media/pasted-image-20240513205638.png",
+        "lib/media/pasted-image-20240515224835.png",
+        "lib/media/1715784702462.jpg",
+        "lib/media/pasted-image-20240515222634.png",
+        "lib/media/img_20240515_223734.jpg",
+        "lib/media/pasted-image-20240515230903.png",
+        "lib/media/img_20240515_215510.jpg",
+        "lib/media/img_20240515_213518.jpg"
+      ]
+    },
+    "高等线性代数2/LA Lecture 19.md": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 1751,
+      "exportedPath": "高等线性代数2/la-lecture-19.html",
+      "dependencies": [
+        "lib/media/pasted-image-20240511095008.png",
+        "高等线性代数2/高代ppt/lecture-19-正交相似-i.pdf"
+      ]
+    },
+    "高等线性代数2/LA Lecture 20.md": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 807,
+      "exportedPath": "高等线性代数2/la-lecture-20.html",
+      "dependencies": [
+        "高等线性代数2/高代ppt/lecture-20-正交相似-ii.pdf"
+      ]
+    },
+    "高等线性代数2/LA Lecture 21.md": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 2608,
+      "exportedPath": "高等线性代数2/la-lecture-21.html",
+      "dependencies": [
+        "高等线性代数2/高代ppt/lecture-21-酉变换.pdf"
+      ]
+    },
+    "高等线性代数2/LA Lecture 22.md": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 3788,
+      "exportedPath": "高等线性代数2/la-lecture-22.html",
+      "dependencies": [
+        "高等线性代数2/高代ppt/lecture-22-复正规变换.pdf"
+      ]
+    },
+    "高等线性代数2/LA Lecture 23.md": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 4672,
+      "exportedPath": "高等线性代数2/la-lecture-23.html",
+      "dependencies": []
+    },
+    "高等线性代数2/LA Lecture 24.md": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 3376,
+      "exportedPath": "高等线性代数2/la-lecture-24.html",
+      "dependencies": []
+    },
+    "高等线性代数2/LA Lecture 25.md": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 1299,
+      "exportedPath": "高等线性代数2/la-lecture-25.html",
+      "dependencies": []
+    },
+    "高等线性代数2/LA Lecture 26.md": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 1431,
+      "exportedPath": "高等线性代数2/la-lecture-26.html",
+      "dependencies": []
+    },
+    "高等线性代数2/LA Lecture 28.md": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 2996,
+      "exportedPath": "高等线性代数2/la-lecture-28.html",
+      "dependencies": []
+    },
+    "高等线性代数2/LA Lecture 29.md": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 1487,
+      "exportedPath": "高等线性代数2/la-lecture-29.html",
+      "dependencies": []
+    },
+    "物理/大雾/简谐波.md": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 1172,
+      "exportedPath": "物理/大雾/简谐波.html",
+      "dependencies": []
+    },
+    "想法/可交换.md": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 293,
+      "exportedPath": "想法/可交换.html",
+      "dependencies": []
+    },
+    "想法/如何学习数学.md": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 150,
+      "exportedPath": "想法/如何学习数学.html",
+      "dependencies": []
+    },
+    "想法/作业感悟.md": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 1029,
+      "exportedPath": "想法/作业感悟.html",
+      "dependencies": []
+    },
+    "Singular/Singular Lecture 1.md": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 2147,
+      "exportedPath": "singular/singular-lecture-1.html",
+      "dependencies": []
+    },
+    "Singular/Singular Lecture 2.md": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 1726,
+      "exportedPath": "singular/singular-lecture-2.html",
+      "dependencies": []
+    },
+    "Singular/Singular Lecture 3.md": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 17,
+      "exportedPath": "singular/singular-lecture-3.html",
+      "dependencies": []
+    },
+    "Singular/Singular Lecture 4.md": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 1637,
+      "exportedPath": "singular/singular-lecture-4.html",
+      "dependencies": []
+    },
+    "Singular/Singular Lecture 5.md": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 4922,
+      "exportedPath": "singular/singular-lecture-5.html",
+      "dependencies": []
+    },
+    "曲面.md": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 4444,
+      "exportedPath": "曲面.html",
+      "dependencies": [
+        "assets/数学类图片/pasted-image-20240517103127.png"
+      ]
+    },
+    "未命名.canvas": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 3272,
+      "exportedPath": "未命名.html",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240710114634.png": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 153722,
+      "exportedPath": "lib/media/pasted-image-20240710114634.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240710114835.png": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 37684,
+      "exportedPath": "lib/media/pasted-image-20240710114835.png",
+      "dependencies": []
+    },
+    "复分析/an-introduction-to-homological-algebra-second-edition-(joseph-j.-rotman)-(z-library).pdf": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 4056973,
+      "exportedPath": "复分析/an-introduction-to-homological-algebra-second-edition-(joseph-j.-rotman)-(z-library).pdf",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240710191835.png": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 67341,
+      "exportedPath": "lib/media/pasted-image-20240710191835.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240710193756.png": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 30948,
+      "exportedPath": "lib/media/pasted-image-20240710193756.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240710214710.png": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 49149,
+      "exportedPath": "lib/media/pasted-image-20240710214710.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240711191943.png": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 16557,
+      "exportedPath": "lib/media/pasted-image-20240711191943.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240713103310.png": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 109814,
+      "exportedPath": "lib/media/pasted-image-20240713103310.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240713103436.png": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 128900,
+      "exportedPath": "lib/media/pasted-image-20240713103436.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240713103523.png": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 59205,
+      "exportedPath": "lib/media/pasted-image-20240713103523.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240713104505.png": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 219189,
+      "exportedPath": "lib/media/pasted-image-20240713104505.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240713105230.png": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 11513,
+      "exportedPath": "lib/media/pasted-image-20240713105230.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240713105239.png": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 8576,
+      "exportedPath": "lib/media/pasted-image-20240713105239.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240713105253.png": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 41949,
+      "exportedPath": "lib/media/pasted-image-20240713105253.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240713105403.png": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 39520,
+      "exportedPath": "lib/media/pasted-image-20240713105403.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240713105546.png": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 111326,
+      "exportedPath": "lib/media/pasted-image-20240713105546.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240714083729.png": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 118050,
+      "exportedPath": "lib/media/pasted-image-20240714083729.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240714091706.png": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 59922,
+      "exportedPath": "lib/media/pasted-image-20240714091706.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240715091839.png": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 57130,
+      "exportedPath": "lib/media/pasted-image-20240715091839.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240715091951.png": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 323454,
+      "exportedPath": "lib/media/pasted-image-20240715091951.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240715095820.png": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 93329,
+      "exportedPath": "lib/media/pasted-image-20240715095820.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240716082932.png": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 74354,
+      "exportedPath": "lib/media/pasted-image-20240716082932.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240716083003.png": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 101418,
+      "exportedPath": "lib/media/pasted-image-20240716083003.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240716084109.png": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 390743,
+      "exportedPath": "lib/media/pasted-image-20240716084109.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240716101616.png": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 126022,
+      "exportedPath": "lib/media/pasted-image-20240716101616.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240716102726.png": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 225244,
+      "exportedPath": "lib/media/pasted-image-20240716102726.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240513205638.png": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 274674,
+      "exportedPath": "lib/media/pasted-image-20240513205638.png",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240515224835.png": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 150083,
+      "exportedPath": "lib/media/pasted-image-20240515224835.png",
+      "dependencies": []
+    },
+    "lib/media/1715784702462.jpg": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 4412273,
+      "exportedPath": "lib/media/1715784702462.jpg",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240515222634.png": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 312257,
+      "exportedPath": "lib/media/pasted-image-20240515222634.png",
+      "dependencies": []
+    },
+    "lib/media/img_20240515_223734.jpg": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 2839131,
+      "exportedPath": "lib/media/img_20240515_223734.jpg",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240515230903.png": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 42233,
+      "exportedPath": "lib/media/pasted-image-20240515230903.png",
+      "dependencies": []
+    },
+    "lib/media/img_20240515_215510.jpg": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 2577550,
+      "exportedPath": "lib/media/img_20240515_215510.jpg",
+      "dependencies": []
+    },
+    "lib/media/img_20240515_213518.jpg": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 2570459,
+      "exportedPath": "lib/media/img_20240515_213518.jpg",
+      "dependencies": []
+    },
+    "lib/media/pasted-image-20240511095008.png": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 73166,
+      "exportedPath": "lib/media/pasted-image-20240511095008.png",
+      "dependencies": []
+    },
+    "assets/数学类图片/pasted-image-20240517103127.png": {
+      "modifiedTime": 1725017362554,
+      "sourceSize": 22304,
+      "exportedPath": "assets/数学类图片/pasted-image-20240517103127.png",
       "dependencies": []
     }
   }
