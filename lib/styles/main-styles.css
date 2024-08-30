@@ -5,14 +5,10 @@ body{--color-fade-speed:0.2s}.tree-container{position:relative;height:100%;width
 }
 
 .clickable-icon.sidebar-collapse-icon svg.svg-icon {
-    width: 60%;
-    height: 60%;
+    width: 80%;
+    height: 80%;
 }
 
 svg[属性样式] {
-    fill: none;
-    stroke: currentcolor;
-    stroke-width: 1.2; /* 修改此处的值 */
-    stroke-linecap: round;
-    stroke-linejoin: round;
+    stroke-width: 1.2 !important; /* 强制应用 */
 }
