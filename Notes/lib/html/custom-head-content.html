@@ -1,4 +1,5 @@
-<link rel="stylesheet" href="custom.css">
+<head>
+  <link rel="stylesheet" href="custom.css">
 
 <script type="text/javascript" async
   src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.0/es5/tex-mml-chtml.js">
@@ -43,3 +44,20 @@
       document.body.appendChild(homeButton);
   });
 </script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+      // 监听键盘按下事件
+      document.addEventListener('keydown', function(event) {
+          // 检查按下的键是否是 'H'（可以使用其他键码或字符）
+          if (event.key === 'H' || event.key === 'h') {
+              // 阻止默认行为（如果有必要）
+              event.preventDefault();
+              // 跳转到主页
+              window.location.href = 'https://chengwuming.github.io/openmathnotes/index.html'; // 替换为你的主页链接
+          }
+      });
+  });
+</script>
+
+</head>
