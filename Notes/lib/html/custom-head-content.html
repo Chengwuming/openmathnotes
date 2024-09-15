@@ -18,6 +18,15 @@
   HOME
 </a>
 <!-- CSS 部分 -->
+
+<style>
+  body {
+      visibility: hidden; /* 初始状态为不可见 */
+      opacity: 0; /* 初始状态为透明 */
+      transition: visibility 0s, opacity 0.1s linear; /* 添加过渡效果 */
+  }
+</style>
+
 <style>
   .back-to-home {
       position: fixed;
@@ -98,3 +107,12 @@
 
 
 </head>
+<body>
+  <script>
+  document.addEventListener("DOMContentLoaded", function() {
+      // 页面加载完毕后显示页面
+      document.body.style.visibility = "visible";
+      document.body.style.opacity = 1;
+  });
+</script>
+</body>
