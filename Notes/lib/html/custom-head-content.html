@@ -64,27 +64,32 @@
   });
 </script-->
 <!-- HTML 部分 -->
-<a href="你的主页链接" class="back-to-home">
+<a href="https://chengwuming.github.io/openmathnotes" class="back-to-home">
   返回主页
 </a>
 
 <!-- CSS 部分 -->
 <style>
-  .back-to-home {
-      position: fixed;
-      top: 10px;  /* 离页面顶端10像素 */
-      right: 10px;  /* 离页面右边10像素 */
-      padding: 10px 20px;  /* 按钮的内边距 */
-      background-color: #4CAF50;  /* 按钮背景颜色，可以修改 */
-      color: white;  /* 按钮文字颜色 */
-      text-decoration: none;  /* 移除下划线 */
-      border-radius: 5px;  /* 按钮圆角 */
-      font-size: 16px;  /* 按钮文字大小 */
-  }
+.back-to-home {
+    position: fixed;
+    top: 10px;
+    right: -70px; /* 按钮初始状态时隐藏一部分（根据按钮宽度调整） */
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    z-index: 1000;
+    transition: right 0.3s ease;  /* 添加过渡效果 */
+}
 
-  .back-to-home:hover {
-      background-color: #45a049;  /* 鼠标悬停时的颜色 */
-  }
+/* 当用户将鼠标移到按钮上时，将按钮移回可视区域 */
+.back-to-home:hover {
+    right: 10px;  /* 按钮完全显示 */
+    background-color: #45a049;  /* 可选：鼠标悬停时更改按钮颜色 */
+}
+
 </style>
 
 </head>
