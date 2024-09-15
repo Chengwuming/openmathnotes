@@ -15,44 +15,35 @@
 <!-- HTML 部分 -->
 
 <a href="https://chengwuming.github.io/openmathnotes" class="back-to-home">
-  HOME
+  Home
 </a>
-<!-- CSS 部分 -->
-
-<style>
-  body {
-      visibility: hidden; /* 初始状态为不可见 */
-      opacity: 0; /* 初始状态为透明 */
-      transition: visibility 0s, opacity 0.1s linear; /* 添加过渡效果 */
-  }
-</style>
 
 <style>
   .back-to-home {
       position: fixed;
       top: 20px;
       right: -100px; /* 初始状态：按钮隐藏在右边 */
-      padding: 12px 24px;
-      background: linear-gradient(45deg, #5d58ee, #5a66eb);  /* 渐变色背景 */
-      color: white;
+      padding: 15px 30px; /* 稍微大一点 */
+      background: rgba(255, 255, 255, 0.2); /* 相对透明无色背景 */
+      color: #333; /* 文字颜色 */
       text-decoration: none;
-      border-radius: 25px;  /* 圆角按钮 */
-      font-size: 16px;
+      border-radius: 10px; /* 圆角按钮，稍微方一点 */
+      font-size: 18px; /* 稍微大一点 */
       font-weight: bold;
       font-family: 'Arial', sans-serif;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);  /* 阴影效果，增加质感 */
-      opacity: 0.7;  /* 半透明，带来现代感 */
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* 阴影效果，增加质感 */
+      opacity: 0.7; /* 半透明，带来现代感 */
       z-index: 1000;
-      transition: all 0.5s ease;  /* 平滑的动画过渡效果 */
+      transition: all 0.5s ease; /* 平滑的动画过渡效果 */
   }
 
   /* 鼠标悬停时按钮出现的效果 */
   .back-to-home:hover {
-      right: 20px;  /* 按钮完全显示 */
-      opacity: 1;  /* 全透明 */
-      transform: scale(1.05);  /* 微小的放大效果，提升交互感 */
-      background: linear-gradient(45deg, #5459da, #3671de);  /* 悬停时的渐变色变化 */
-      box-shadow: 0 6px 14px rgba(0, 0, 0, 0.4);  /* 增加悬停时的阴影效果 */
+      right: 20px; /* 按钮完全显示 */
+      opacity: 1; /* 全透明 */
+      transform: scale(1.05); /* 微小的放大效果，提升交互感 */
+      background: rgba(255, 255, 255, 0.3); /* 悬停时的背景变化 */
+      box-shadow: 0 6px 14px rgba(0, 0, 0, 0.4); /* 增加悬停时的阴影效果 */
   }
 
   /* 动画效果：按钮从隐藏状态到显示状态 */
@@ -63,17 +54,15 @@
   /* 定义从隐藏到显示的动画 */
   @keyframes slideIn {
       from {
-          right: -100px;  /* 初始状态：按钮隐藏 */
-          opacity: 0;  /* 完全透明 */
+          right: -100px; /* 初始状态：按钮隐藏 */
+          opacity: 0; /* 完全透明 */
       }
       to {
-          right: 20px;  /* 最终状态：按钮显示 */
-          opacity: 0.7;  /* 半透明 */
+          right: 20px; /* 最终状态：按钮显示 */
+          opacity: 0.7; /* 半透明 */
       }
   }
 </style>
-
-
 <!-- lib/html/custom-head-content.html -->
 
 <!-- 自定义 JavaScript -->
