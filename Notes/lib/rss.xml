@@ -1,60 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[LogseqVault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>LogseqVault</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sun, 15 Sep 2024 15:13:07 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sun, 15 Sep 2024 15:12:48 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[Intro]]></title><description><![CDATA[<a class="tag" href="?query=tag:单词" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#单词</a> 
- <br><a href=".?query=tag:单词" class="tag" target="_blank" rel="noopener">#单词</a><br><br><br>出生率 ，在满足  的情况下讨论  的连续可微解。称之为  （IVP）。<br>
-<br>
-对于 ，<br>
-我们有   显然 不会换号，所以得到
-
-<br>
-Logistic Equation<br>
-我们假设   那么当  较大时，出生率为负，更符合实际情况。<br>
-我们有其满足 ,其中 。令 从而得到   从此式中我们看出，非零，分母分子同时不为零。讨论然后去绝对值。  
-
-<br>
-Predator-Prey Model<br>
- 吃  ，懒得写了
-
-<br><br>第一节课用一个词形容，就是幽默。<br>课堂上就证明了两个定理，板书也是令人难绷，哎。<br>这节课讨论的方程为<br>
-证明了此解的存在性于唯一性，以及最大延申解。<br>解的存在性与唯一性<br><br>定理 1
-对于 对任意的初值 ，此方程存在解且唯一。
-<br>习题里面证明此处  不一定要  。但是至少可微。考虑反例<br>
-则 都是解。<br>证明
-首先是平衡点的情况。 。则对任意的 , 为开区间，则其上存在解 , 使得  。
-我们来证明这一事实，如果存在 , 由于  的连续性，可以看出<br>
- （不妨就令 <br>
-存在且 ，（为什么存在？RHS的集合是闭集的原像）
-所以  在  上内闭可积。通过积分得到一个时间差 ，这是一个实数，记为 ，但是由于  是 Lipschitz 连续（)，可以将积分放缩<br>
-从而  时黄色部分爆掉，矛盾。
-然后我们来看非平衡点的情况，
-<br>定理 2 最大延伸解
-对于  ，若 ，则存在最大延伸解<br>
-，其中  是开区间，且
-
-<br>
-<br>局部的唯一性，即子区间上的任意解都等于最大延伸解在其上的限制。
-
-<br>证明
-找到保持  的上下界，记为 ，记 
-在  上放心大胆的积分。我们记 ，这是一个严格单调递增函数(对  )。来找  空间对应的 
- 即为所求。解为 。
-下面我们证第二点。由 以及定理一得到 ，其中 
-从而可以积分，从而证明了其唯一性
-
-<br>最后我们证明它是最大延伸的。
-
-<br>你会翻译证明中  的定义吗？<br>
-<br><br>
-<br>第二点证明中，为什么需要用到定理一？  的定义不是已经有其上  了吗？
-<br>这里对唯一的证明是否有不严谨之处？
-<br><br>propagation::传播<br><br>optics::光学<br>
-impact theory::影响理论<br>
-elasticity theory::弹性理论<br>
-acoustics::声学<br>
-substance::物质<br>
-cord::绳索<br>
-wagons::马车<br>
-depicted::描绘<br>
-trajectories of the motion of the phase point::相点运动轨迹<br>
-abscissa::横坐标<br>Arnold 你英语真好 :P]]></description><link>常微分方程\ode-notes-1.html</link><guid isPermaLink="false">常微分方程/ODE Notes 1.md</guid><pubDate>Fri, 13 Sep 2024 05:17:09 GMT</pubDate></item><item><title><![CDATA[作业9]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[LogseqVault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>LogseqVault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sun, 15 Sep 2024 15:43:39 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sun, 15 Sep 2024 15:43:17 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[作业9]]></title><description><![CDATA[ 
  <br>
 <br>
 <img alt="Pasted image 20240513205638.png" src="lib\media\pasted-image-20240513205638.png">
@@ -109,7 +53,7 @@ abscissa::横坐标<br>Arnold 你英语真好 :P]]></description><link>常微分
 <br>
 23  可交换，又  显然是正定实对称阵（由之前作业，  可表示为  的多项式），从而  可同时对角化，设在 ，从而  是实对称阵且 ，其中 ，故  半正定。  
 
-]]></description><link>代数\高等线性代数2\作业\作业9.html</link><guid isPermaLink="false">代数/高等线性代数2/作业/作业9.md</guid><pubDate>Fri, 30 Aug 2024 10:53:48 GMT</pubDate><enclosure url="lib\media\pasted-image-20240513205638.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\pasted-image-20240513205638.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[正交相似 1]]></title><description><![CDATA[ 
+]]></description><link>代数\高等线性代数2\作业\作业9.html</link><guid isPermaLink="false">代数/高等线性代数2/作业/作业9.md</guid><pubDate>Fri, 30 Aug 2024 10:53:48 GMT</pubDate><enclosure url="lib\media\pasted-image-20240513205638.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240513205638.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[正交相似 1]]></title><description><![CDATA[ 
  <br><br><br><br>标准正交基之间的线性映射是保积映射，对应矩阵即正交矩阵。<br>定义
   两个  阶实方阵，若存在  阶正交矩阵  使得
 
@@ -120,13 +64,12 @@ abscissa::横坐标<br>Arnold 你英语真好 :P]]></description><link>常微分
 <br>欧氏空间中线性变换的伴随是唯一的，存在性由表示矩阵的转置来看。唯一性：假设<br><br>从而 ，令  ，由  的任意性得 。<br> 是  的不变子空间，则  是  的不变子空间。<br>给出（反）对称变换的定义。<br>
 <br>例子，正交投影是对称变换。
 <br>对称变换属于不同特征值的特征向量相互正交：
-<br>从而 <br><br>选取子空间的标准正交基组合得到全空间的标准正交基，在此基下的表示矩阵是对角阵。<br>也可以用矩阵归纳：<img alt="Pasted image 20240511095008.png" src="lib\media\pasted-image-20240511095008.png"><br>·
-复制<br>]]></description><link>代数\高等线性代数2\la-lecture-19.html</link><guid isPermaLink="false">代数/高等线性代数2/LA Lecture 19.md</guid><pubDate>Fri, 14 Jun 2024 08:41:54 GMT</pubDate><enclosure url="lib\media\pasted-image-20240511095008.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\pasted-image-20240511095008.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[正交相似 2]]></title><description><![CDATA[ 
- <br><br><br>
+<br>从而 <br><br>选取子空间的标准正交基组合得到全空间的标准正交基，在此基下的表示矩阵是对角阵。<br>也可以用矩阵归纳：<img alt="Pasted image 20240511095008.png" src="lib\media\pasted-image-20240511095008.png"><br><a data-href="LA Lecture 20" href="代数\高等线性代数2\la-lecture-20.html" class="internal-link" target="_self" rel="noopener">LA Lecture 20</a><br>]]></description><link>代数\高等线性代数2\la-lecture-19.html</link><guid isPermaLink="false">代数/高等线性代数2/LA Lecture 19.md</guid><pubDate>Sun, 15 Sep 2024 15:37:40 GMT</pubDate><enclosure url="lib\media\pasted-image-20240511095008.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240511095008.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[正交相似 2]]></title><description><![CDATA[ 
+ <br><a data-href="LA Lecture 19" href="代数\高等线性代数2\la-lecture-19.html" class="internal-link" target="_self" rel="noopener">LA Lecture 19</a><br><br><br>
 <br>实对称轴的特征值是实对称矩阵正交相似的全系不变量。
 <br>主轴定理：  元实二次型的在可逆线性变换下有主轴表示。
-<br>推论：正定阵限制下矩阵的开方。<br><br><br>矩阵下有直观的视角：<br><br>将矩阵分解<br><br>其实就是谱分解：<br><br>]]></description><link>代数\高等线性代数2\la-lecture-20.html</link><guid isPermaLink="false">代数/高等线性代数2/LA Lecture 20.md</guid><pubDate>Sun, 12 May 2024 00:51:43 GMT</pubDate></item><item><title><![CDATA[酉空间]]></title><description><![CDATA[ 
- <br><br><br><br>
+<br>推论：正定阵限制下矩阵的开方。<br><br><br>矩阵下有直观的视角：<br><br>将矩阵分解<br><br>其实就是谱分解：<br><br> <a data-href="LA Lecture 21" href="代数\高等线性代数2\la-lecture-21.html" class="internal-link" target="_self" rel="noopener">LA Lecture 21</a><br>]]></description><link>代数\高等线性代数2\la-lecture-20.html</link><guid isPermaLink="false">代数/高等线性代数2/LA Lecture 20.md</guid><pubDate>Sun, 15 Sep 2024 15:38:32 GMT</pubDate></item><item><title><![CDATA[酉空间]]></title><description><![CDATA[ 
+ <br> <a data-href="LA Lecture 20" href="代数\高等线性代数2\la-lecture-20.html" class="internal-link" target="_self" rel="noopener">LA Lecture 20</a><br><br><br><br>
 <br>回顾定义
 <br>
 <br>
@@ -162,8 +105,8 @@ abscissa::横坐标<br>Arnold 你英语真好 :P]]></description><link>常微分
 若复方阵  有 
 
 则称其酉相似。酉相似于对角阵的矩阵可正交对角化。
-<br>]]></description><link>代数\高等线性代数2\la-lecture-21.html</link><guid isPermaLink="false">代数/高等线性代数2/LA Lecture 21.md</guid><pubDate>Mon, 13 May 2024 00:04:07 GMT</pubDate></item><item><title><![CDATA[复正规变换]]></title><description><![CDATA[ 
- <br><br><br>本节讨论可正交对角化在  上的推广：可酉对角化的充分必要条件。<br><br><br>  阶酉矩阵全体：,  阶正交矩阵全体  。<br>
+<br> <a data-href="LA Lecture 22" href="代数\高等线性代数2\la-lecture-22.html" class="internal-link" target="_self" rel="noopener">LA Lecture 22</a><br>]]></description><link>代数\高等线性代数2\la-lecture-21.html</link><guid isPermaLink="false">代数/高等线性代数2/LA Lecture 21.md</guid><pubDate>Sun, 15 Sep 2024 15:38:49 GMT</pubDate></item><item><title><![CDATA[复正规变换]]></title><description><![CDATA[ 
+ <br><a data-href="LA Lecture 21" href="代数\高等线性代数2\la-lecture-21.html" class="internal-link" target="_self" rel="noopener">LA Lecture 21</a><br><br><br>本节讨论可正交对角化在  上的推广：可酉对角化的充分必要条件。<br><br><br>  阶酉矩阵全体：,  阶正交矩阵全体  。<br>
  长什么样？四元数，欧拉角<br><br><br>定义伴随变换。和  上没有多少区别，注意 <br>定义 Hermite 变换。<br>定义
 若  ，则  是复正规变换。
 <br>（与自己的伴随<a data-href="可交换" href="想法\可交换.html" class="internal-link" target="_self" rel="noopener">可交换</a>？怎么直观理解？）<br>Example
@@ -184,8 +127,8 @@ abscissa::横坐标<br>Arnold 你英语真好 :P]]></description><link>常微分
 <br>此时对应的谱分解（和 Hermite 谱分解对比）的  为复数。<br>定理的充分性显然。<br>
 必要性：数学归纳法。核心在引理对复正规变换的刻画。<br>
 <br>酉矩阵和 Hermite 矩阵的关系
-<br><br>任何  阶复矩阵  酉相似与上三角阵 <br><br><br>从而证明复正规矩阵可酉对角化时只需证上三角复正规矩阵一定是对角阵（可酉对角化）。用归纳法然后做乘法比一比即可。<br>]]></description><link>代数\高等线性代数2\la-lecture-22.html</link><guid isPermaLink="false">代数/高等线性代数2/LA Lecture 22.md</guid><pubDate>Wed, 22 May 2024 12:41:58 GMT</pubDate></item><item><title><![CDATA[实正规矩阵]]></title><description><![CDATA[ 
- <br><br><br><br>实正规变换
+<br><br>任何  阶复矩阵  酉相似与上三角阵 <br><br><br>从而证明复正规矩阵可酉对角化时只需证上三角复正规矩阵一定是对角阵（可酉对角化）。用归纳法然后做乘法比一比即可。<br> <a data-href="LA Lecture 23" href="代数\高等线性代数2\la-lecture-23.html" class="internal-link" target="_self" rel="noopener">LA Lecture 23</a><br>]]></description><link>代数\高等线性代数2\la-lecture-22.html</link><guid isPermaLink="false">代数/高等线性代数2/LA Lecture 22.md</guid><pubDate>Sun, 15 Sep 2024 15:39:03 GMT</pubDate></item><item><title><![CDATA[实正规矩阵]]></title><description><![CDATA[ 
+ <br><a data-href="LA Lecture 22" href="代数\高等线性代数2\la-lecture-22.html" class="internal-link" target="_self" rel="noopener">LA Lecture 22</a><br><br><br><br>实正规变换
  是欧氏空间，线性变换  满足<br>
 
 <br>实的情况下，不同于复，不能随时拿出一个特征向量。如果已经存在一个特征向量，特征值为 ，则可以写成<br><br>
@@ -208,8 +151,8 @@ abscissa::横坐标<br>Arnold 你英语真好 :P]]></description><link>常微分
  的本质有不同，自己去了解
 <br>我们知道 ，事实上 。（实心球模掉对镜点）代数拓扑..<br> 怎么刻画？除了实心球以外？<br> 自然的群同态（四元数，spin 结构）<br>
 <br>反对称矩阵的标准型： 。
-<br><br> 实反对称，则  偶。且 ，称  为  的 pfaffian。（归纳）]]></description><link>代数\高等线性代数2\la-lecture-23.html</link><guid isPermaLink="false">代数/高等线性代数2/LA Lecture 23.md</guid><pubDate>Mon, 20 May 2024 00:22:04 GMT</pubDate></item><item><title><![CDATA[奇异值分解]]></title><description><![CDATA[ 
- <br><br><br><br>方程组（其中  非负）<br><br>称  为  的奇异值， 是右奇异向量。<br>定义
+<br><br> 实反对称，则  偶。且 ，称  为  的 pfaffian。（归纳）<br> <a data-href="LA Lecture 24" href="代数\高等线性代数2\la-lecture-24.html" class="internal-link" target="_self" rel="noopener">LA Lecture 24</a>]]></description><link>代数\高等线性代数2\la-lecture-23.html</link><guid isPermaLink="false">代数/高等线性代数2/LA Lecture 23.md</guid><pubDate>Sun, 15 Sep 2024 15:39:17 GMT</pubDate></item><item><title><![CDATA[奇异值分解]]></title><description><![CDATA[ 
+ <br><a data-href="LA Lecture 23" href="代数\高等线性代数2\la-lecture-23.html" class="internal-link" target="_self" rel="noopener">LA Lecture 23</a><br><br><br><br>方程组（其中  非负）<br><br>称  为  的奇异值， 是右奇异向量。<br>定义
  是欧氏空间，  是线性映射，若存在线性映射   使得任意的  成立<br>
 则称  为  的伴随映射。
 <br>
@@ -229,8 +172,8 @@ abscissa::横坐标<br>Arnold 你英语真好 :P]]></description><link>常微分
 
 
 <br>简化<br>
-将  写成列、行正交矩阵，<br>]]></description><link>代数\高等线性代数2\la-lecture-24.html</link><guid isPermaLink="false">代数/高等线性代数2/LA Lecture 24.md</guid><pubDate>Mon, 20 May 2024 01:36:16 GMT</pubDate></item><item><title><![CDATA[奇异值分解]]></title><description><![CDATA[ 
- <br><br><br><br>回忆简化的 SVD:<br>
+将  写成列、行正交矩阵，<br><br> <a data-href="LA Lecture 25" href="代数\高等线性代数2\la-lecture-25.html" class="internal-link" target="_self" rel="noopener">LA Lecture 25</a>]]></description><link>代数\高等线性代数2\la-lecture-24.html</link><guid isPermaLink="false">代数/高等线性代数2/LA Lecture 24.md</guid><pubDate>Sun, 15 Sep 2024 15:39:27 GMT</pubDate></item><item><title><![CDATA[奇异值分解]]></title><description><![CDATA[ 
+ <br><a data-href="LA Lecture 24" href="代数\高等线性代数2\la-lecture-24.html" class="internal-link" target="_self" rel="noopener">LA Lecture 24</a><br><br><br><br>回忆简化的 SVD:<br>
 定义<br>
 <br>
 <br>
@@ -249,8 +192,8 @@ abscissa::横坐标<br>Arnold 你英语真好 :P]]></description><link>常微分
 则称  是  的最小二乘解。
 <br>存在吗？<br>定理
  的最小二乘解和方程组  的非空解集一致。
-<br>拟合的直线不一定唯一。<br>最佳秩一逼近。]]></description><link>代数\高等线性代数2\la-lecture-25.html</link><guid isPermaLink="false">代数/高等线性代数2/LA Lecture 25.md</guid><pubDate>Thu, 23 May 2024 03:20:22 GMT</pubDate></item><item><title><![CDATA[对偶空间]]></title><description><![CDATA[ 
- <br><br><br><br>定义
+<br>拟合的直线不一定唯一。<br>最佳秩一逼近。<br> <a data-href="LA Lecture 26" href="代数\高等线性代数2\la-lecture-26.html" class="internal-link" target="_self" rel="noopener">LA Lecture 26</a>]]></description><link>代数\高等线性代数2\la-lecture-25.html</link><guid isPermaLink="false">代数/高等线性代数2/LA Lecture 25.md</guid><pubDate>Sun, 15 Sep 2024 15:39:42 GMT</pubDate></item><item><title><![CDATA[对偶空间]]></title><description><![CDATA[ 
+ <br> <a data-href="LA Lecture 25" href="代数\高等线性代数2\la-lecture-25.html" class="internal-link" target="_self" rel="noopener">LA Lecture 25</a><br><br><br><br>定义
  是数域  上的线性空间，定义<br>
 为  的对偶空间
 <br>如此定义的对偶在无穷维空间中性质不太好。<br>定义
@@ -271,8 +214,8 @@ transition<br>
 则对偶基的表示矩阵<br>
 其中 
 
-]]></description><link>代数\高等线性代数2\la-lecture-26.html</link><guid isPermaLink="false">代数/高等线性代数2/LA Lecture 26.md</guid><pubDate>Wed, 10 Jul 2024 09:23:08 GMT</pubDate></item><item><title><![CDATA[张量]]></title><description><![CDATA[ 
- <br><br><br><br><br>
+<br> <a data-href="LA Lecture 27" href="LA Lecture 27" class="internal-link" target="_self" rel="noopener">LA Lecture 27</a>]]></description><link>代数\高等线性代数2\la-lecture-26.html</link><guid isPermaLink="false">代数/高等线性代数2/LA Lecture 26.md</guid><pubDate>Sun, 15 Sep 2024 15:40:00 GMT</pubDate></item><item><title><![CDATA[张量]]></title><description><![CDATA[ 
+ <br><a data-href="LA Lecture 27" href="LA Lecture 27" class="internal-link" target="_self" rel="noopener">LA Lecture 27</a><br><br><br><br><br>
 <br>我们知道  诱导同构 ，同样的，  诱导 ，这样的映射全体维数是三个空间维数相乘。
 <br> 是集合，考虑 ，显然这是一个线性空间，对于其中的元素 ，考虑其支集<br>（考虑没有结构的集合，怎么用代数来研究？考虑这个集合上的函数，点和函数的某种对应）<br>令  是支集有限集的函数的集合，这也是线性空间，<br>定义  <br><br>由此，从所有这样的  函数得到  上的一组基，并且将  中的点和映射对应<br>得到  的表示<br>
 <br><br>设  与  是数域  上的线性空间，定义<br>
@@ -282,13 +225,13 @@ transition<br>
 类似于  这种东西张成的空间。<br>令 ，得到<br> <br>²²<br>以后来搞图片<br>记 , 记为 <br>
 显然  是双线性的，称  是  的张量积。<br><br>universal property<br>对任意  上线性空间 ，以及双线性映射 ，存在唯一的线性映射 <br>
 <br>即<br>
-若 $\psi $<br>]]></description><link>代数\高等线性代数2\la-lecture-28.html</link><guid isPermaLink="false">代数/高等线性代数2/LA Lecture 28.md</guid><pubDate>Thu, 06 Jun 2024 14:21:19 GMT</pubDate></item><item><title><![CDATA[张量积]]></title><description><![CDATA[ 
- <br><br><br><br>设  维线性空间 ， 数域 , 做张量积 得到  上的  维线性空间。有时记 ，<br>你把实矩阵看作复矩阵时，对应原来小域上的线性映射对应的是做基域扩张。<br>
+若 $\psi $<br><br> <a data-href="LA Lecture 29" href="代数\高等线性代数2\la-lecture-29.html" class="internal-link" target="_self" rel="noopener">LA Lecture 29</a>]]></description><link>代数\高等线性代数2\la-lecture-28.html</link><guid isPermaLink="false">代数/高等线性代数2/LA Lecture 28.md</guid><pubDate>Sun, 15 Sep 2024 15:40:16 GMT</pubDate></item><item><title><![CDATA[张量积]]></title><description><![CDATA[ 
+ <br><a data-href="LA Lecture 28" href="代数\高等线性代数2\la-lecture-28.html" class="internal-link" target="_self" rel="noopener">LA Lecture 28</a><br><br><br><br>设  维线性空间 ， 数域 , 做张量积 得到  上的  维线性空间。有时记 ，<br>你把实矩阵看作复矩阵时，对应原来小域上的线性映射对应的是做基域扩张。<br>
 <br>对于两个线性映射，它们定义了一个双线性映射<br>
 由泛性质，存在唯一的线性映射<br>
 上述基域扩张实际上是做大域上的恒等映射做张量积<br>
 <br>线性映射的张量积诱导一个  ，  的双线性映射，由泛性质，从而诱导唯一线性映射<br>
-是同构。<br>比如  的典范同构，,... 还有一堆<br>]]></description><link>代数\高等线性代数2\la-lecture-29.html</link><guid isPermaLink="false">代数/高等线性代数2/LA Lecture 29.md</guid><pubDate>Thu, 06 Jun 2024 03:07:45 GMT</pubDate></item><item><title><![CDATA[Singular Lecture 1]]></title><description><![CDATA[ 
+是同构。<br>比如  的典范同构，,... 还有一堆<br>]]></description><link>代数\高等线性代数2\la-lecture-29.html</link><guid isPermaLink="false">代数/高等线性代数2/LA Lecture 29.md</guid><pubDate>Sun, 15 Sep 2024 15:40:19 GMT</pubDate></item><item><title><![CDATA[Singular Lecture 1]]></title><description><![CDATA[ 
  <br><br>LIB"matrix. lib";<br>LIB"matrix.lib";
 	intmat A[3][3]= 1,2,3,1,12,3,1,2,3;
 	A;
@@ -359,8 +302,8 @@ Local
 <br>p (polynomial) 换成 s (seris), 次数高的后置即可.
 
 
-]]></description><link>代数\singular\singular-lecture-1.html</link><guid isPermaLink="false">代数/Singular/Singular Lecture 1.md</guid><pubDate>Mon, 01 Jul 2024 14:42:31 GMT</pubDate></item><item><title><![CDATA[Grobner bases]]></title><description><![CDATA[ 
- <br><br><br>定义
+<br><a data-href="Singular Lecture 2" href="代数\singular\singular-lecture-2.html" class="internal-link" target="_self" rel="noopener">Singular Lecture 2</a>]]></description><link>代数\singular\singular-lecture-1.html</link><guid isPermaLink="false">代数/Singular/Singular Lecture 1.md</guid><pubDate>Sun, 15 Sep 2024 15:40:34 GMT</pubDate></item><item><title><![CDATA[Grobner bases]]></title><description><![CDATA[ 
+ <br><a data-href="Singular Lecture 1" href="代数\singular\singular-lecture-1.html" class="internal-link" target="_self" rel="noopener">Singular Lecture 1</a><br><br><br>定义
 For polynomial with the order lp, we write<br>
 给定多项式集合 , 对于 , 子集  成为  的 Grobner bases, 若  其中  为  模掉 .
 <br>对于  的 Leading monomial 生成的理想, 和  的 Leading monomial 生成的一致.<br>等价地,   是 Grobner bases 当且仅当任意 ,  for some .<br>reduced Grobner basis, 若 ,  不可被  的首项整除.<br>定义
@@ -425,9 +368,9 @@ J[4]=x+y2+z-1
 ring localization
 <br><br>定义
  为理想，称  为  若 。
-]]></description><link>代数\singular\singular-lecture-2.html</link><guid isPermaLink="false">代数/Singular/Singular Lecture 2.md</guid><pubDate>Tue, 02 Jul 2024 02:34:32 GMT</pubDate></item><item><title><![CDATA[Singular Lecture 3]]></title><description><![CDATA[ 
- ]]></description><link>代数\singular\singular-lecture-3.html</link><guid isPermaLink="false">代数/Singular/Singular Lecture 3.md</guid><pubDate>Tue, 02 Jul 2024 23:58:48 GMT</pubDate></item><item><title><![CDATA[Singular Lecture 4]]></title><description><![CDATA[ 
- <br><br><br>zariski topology<br>prime avoidanve 的几何意义<br>&gt; ring R = 32003,(x,y,z),dp;
+<br><a data-href="Singular Lecture 3" href="代数\singular\singular-lecture-3.html" class="internal-link" target="_self" rel="noopener">Singular Lecture 3</a>]]></description><link>代数\singular\singular-lecture-2.html</link><guid isPermaLink="false">代数/Singular/Singular Lecture 2.md</guid><pubDate>Sun, 15 Sep 2024 15:40:46 GMT</pubDate></item><item><title><![CDATA[Singular Lecture 3]]></title><description><![CDATA[ 
+ <br><a data-href="Singular Lecture 2" href="代数\singular\singular-lecture-2.html" class="internal-link" target="_self" rel="noopener">Singular Lecture 2</a><br><a data-href="Singular Lecture 4" href="代数\singular\singular-lecture-4.html" class="internal-link" target="_self" rel="noopener">Singular Lecture 4</a>]]></description><link>代数\singular\singular-lecture-3.html</link><guid isPermaLink="false">代数/Singular/Singular Lecture 3.md</guid><pubDate>Sun, 15 Sep 2024 15:40:56 GMT</pubDate></item><item><title><![CDATA[Singular Lecture 4]]></title><description><![CDATA[ 
+ <br><a data-href="Singular Lecture 3" href="代数\singular\singular-lecture-3.html" class="internal-link" target="_self" rel="noopener">Singular Lecture 3</a><br><br><br>zariski topology<br>prime avoidanve 的几何意义<br>&gt; ring R = 32003,(x,y,z),dp;
 &gt; ideal I = x2+y2-z5,z-x-y2;
 &gt; qring Q = groebner(I);
 &gt; Q;
@@ -465,8 +408,8 @@ _[2]=x5
 ideal I1 = x,y;
 ideal I2 = y2,z;
 intersect(I1,I2);
-复制<br>求理想的交。]]></description><link>代数\singular\singular-lecture-4.html</link><guid isPermaLink="false">代数/Singular/Singular Lecture 4.md</guid><pubDate>Fri, 05 Jul 2024 00:10:59 GMT</pubDate></item><item><title><![CDATA[Singular Lecture 5]]></title><description><![CDATA[ 
- <br><br><br>定义
+复制<br>求理想的交。<br><a data-href="Singular Lecture 5" href="代数\singular\singular-lecture-5.html" class="internal-link" target="_self" rel="noopener">Singular Lecture 5</a>]]></description><link>代数\singular\singular-lecture-4.html</link><guid isPermaLink="false">代数/Singular/Singular Lecture 4.md</guid><pubDate>Sun, 15 Sep 2024 15:41:07 GMT</pubDate></item><item><title><![CDATA[Singular Lecture 5]]></title><description><![CDATA[ 
+ <br><a data-href="Singular Lecture 4" href="代数\singular\singular-lecture-4.html" class="internal-link" target="_self" rel="noopener">Singular Lecture 4</a><br><br><br>定义
 Krull dimension: 素理想链最大长度 (严格不包含号的个数) 的上确界
 <br>计算: 使用 dp<br>&gt; ring S = 0, (x,y,z),dp;
 &gt; ideal I = y*(x-1), z*(x-1);
@@ -611,7 +554,63 @@ if (k != int(k)) {print("_____________________TIME_" + string(t) + "____________
 }
 }
 
-复制<br>x 5 y 2+y 7+y 8+x 11+x 12,  -128/7,  mu - tau = 4<br> x 3 y 5+x 9+y 11+x 13,  -480/11,  mu - tau = 8 ]]></description><link>代数\singular\singular-lecture-5.html</link><guid isPermaLink="false">代数/Singular/Singular Lecture 5.md</guid><pubDate>Sat, 06 Jul 2024 07:05:08 GMT</pubDate></item><item><title><![CDATA[复分析做题日记]]></title><description><![CDATA[ 
+复制<br>x 5 y 2+y 7+y 8+x 11+x 12,  -128/7,  mu - tau = 4<br> x 3 y 5+x 9+y 11+x 13,  -480/11,  mu - tau = 8 ]]></description><link>代数\singular\singular-lecture-5.html</link><guid isPermaLink="false">代数/Singular/Singular Lecture 5.md</guid><pubDate>Sun, 15 Sep 2024 15:41:11 GMT</pubDate></item><item><title><![CDATA[Intro]]></title><description><![CDATA[<a class="tag" href="?query=tag:单词" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#单词</a> 
+ <br><a href=".?query=tag:单词" class="tag" target="_blank" rel="noopener">#单词</a><br><br><br>出生率 ，在满足  的情况下讨论  的连续可微解。称之为  （IVP）。<br>
+<br>
+对于 ，<br>
+我们有   显然 不会换号，所以得到
+
+<br>
+Logistic Equation<br>
+我们假设   那么当  较大时，出生率为负，更符合实际情况。<br>
+我们有其满足 ,其中 。令 从而得到   从此式中我们看出，非零，分母分子同时不为零。讨论然后去绝对值。  
+
+<br>
+Predator-Prey Model<br>
+ 吃  ，懒得写了
+
+<br><br>第一节课用一个词形容，就是幽默。<br>课堂上就证明了两个定理，板书也是令人难绷，哎。<br>这节课讨论的方程为<br>
+证明了此解的存在性于唯一性，以及最大延申解。<br>解的存在性与唯一性<br><br>定理 1
+对于 对任意的初值 ，此方程存在解且唯一。
+<br>习题里面证明此处  不一定要  。但是至少可微。考虑反例<br>
+则 都是解。<br>证明
+首先是平衡点的情况。 。则对任意的 , 为开区间，则其上存在解 , 使得  。
+我们来证明这一事实，如果存在 , 由于  的连续性，可以看出<br>
+ （不妨就令 <br>
+存在且 ，（为什么存在？RHS的集合是闭集的原像）
+所以  在  上内闭可积。通过积分得到一个时间差 ，这是一个实数，记为 ，但是由于  是 Lipschitz 连续（)，可以将积分放缩<br>
+从而  时黄色部分爆掉，矛盾。
+然后我们来看非平衡点的情况，
+<br>定理 2 最大延伸解
+对于  ，若 ，则存在最大延伸解<br>
+，其中  是开区间，且
+
+<br>
+<br>局部的唯一性，即子区间上的任意解都等于最大延伸解在其上的限制。
+
+<br>证明
+找到保持  的上下界，记为 ，记 
+在  上放心大胆的积分。我们记 ，这是一个严格单调递增函数(对  )。来找  空间对应的 
+ 即为所求。解为 。
+下面我们证第二点。由 以及定理一得到 ，其中 
+从而可以积分，从而证明了其唯一性
+
+<br>最后我们证明它是最大延伸的。
+
+<br>你会翻译证明中  的定义吗？<br>
+<br><br>
+<br>第二点证明中，为什么需要用到定理一？  的定义不是已经有其上  了吗？
+<br>这里对唯一的证明是否有不严谨之处？
+<br><a data-href="ODE Notes 2" href="ODE Notes 2" class="internal-link" target="_self" rel="noopener">ODE Notes 2</a><br><br>propagation::传播<br><br>optics::光学<br>
+impact theory::影响理论<br>
+elasticity theory::弹性理论<br>
+acoustics::声学<br>
+substance::物质<br>
+cord::绳索<br>
+wagons::马车<br>
+depicted::描绘<br>
+trajectories of the motion of the phase point::相点运动轨迹<br>
+abscissa::横坐标<br>Arnold 你英语真好 :P]]></description><link>分析\常微分方程\ode-notes-1.html</link><guid isPermaLink="false">分析/常微分方程/ODE Notes 1.md</guid><pubDate>Sun, 15 Sep 2024 15:41:34 GMT</pubDate></item><item><title><![CDATA[复分析做题日记]]></title><description><![CDATA[ 
  <br><br>7.11。一个简洁的写法： 复数  共线的充要条件：<br><br>题目数量统计
 
 <br>
@@ -643,8 +642,8 @@ BarrySimon 的题目，显然数量很多，所以平时挑着看看，等到正
 <br>定理 {Abel Cauchy-Hadamard}
 定义收敛半径<br>
 
-<br>对  的求导就是逐项求导然后加起来. 这里实际上就是在说极限号和求和号可以换序。<br>然后写了一些以后证的定理，举了些例子。hhh<br>指数函数和多值函数，还是去复习 Amann！]]></description><link>分析\复分析\ca-lecture-4.html</link><guid isPermaLink="false">分析/复分析/CA Lecture 4.md</guid><pubDate>Wed, 10 Jul 2024 02:53:13 GMT</pubDate></item><item><title><![CDATA[CA Lecture 5]]></title><description><![CDATA[ 
- <br><br><br>Taylor 展开: 和  无异.<br>
+<br>对  的求导就是逐项求导然后加起来. 这里实际上就是在说极限号和求和号可以换序。<br>然后写了一些以后证的定理，举了些例子。hhh<br>指数函数和多值函数，还是去复习 Amann！<br><a data-href="CA Lecture 5" href="分析\复分析\ca-lecture-5.html" class="internal-link" target="_self" rel="noopener">CA Lecture 5</a>]]></description><link>分析\复分析\ca-lecture-4.html</link><guid isPermaLink="false">分析/复分析/CA Lecture 4.md</guid><pubDate>Sun, 15 Sep 2024 15:30:37 GMT</pubDate></item><item><title><![CDATA[CA Lecture 5]]></title><description><![CDATA[ 
+ <br><br><a data-href="CA Lecture 4" href="分析\复分析\ca-lecture-4.html" class="internal-link" target="_self" rel="noopener">CA Lecture 4</a><br><br>Taylor 展开: 和  无异.<br>
 记住一些常见的, 以及回顾伯努利数<br><br><br>, 在  附近的逆为 <br>
 <br>
 <br>
@@ -671,8 +670,9 @@ BarrySimon 的题目，显然数量很多，所以平时挑着看看，等到正
 又  与上述 LHS 相等（）从而得证。<br>定理
 设 ，定义<br>
 则  且 
-<br>这里  是紧支的。]]></description><link>分析\复分析\ca-lecture-5.html</link><guid isPermaLink="false">分析/复分析/CA Lecture 5.md</guid><pubDate>Sat, 24 Aug 2024 00:50:07 GMT</pubDate></item><item><title><![CDATA[CA Lecture 6]]></title><description><![CDATA[<a class="tag" href="?query=tag:flashcards" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#flashcards</a> 
- <br>7.3<br><a href=".?query=tag:flashcards" class="tag" target="_blank" rel="noopener">#flashcards</a> <br><br>证明上节课最后的定理。<br>推论
+<br>这里  是紧支的。<br><a data-href="CA Lecture 6" href="分析\复分析\ca-lecture-6.html" class="internal-link" target="_self" rel="noopener">CA Lecture 6</a>]]></description><link>分析\复分析\ca-lecture-5.html</link><guid isPermaLink="false">分析/复分析/CA Lecture 5.md</guid><pubDate>Sun, 15 Sep 2024 15:31:14 GMT</pubDate></item><item><title><![CDATA[CA Lecture 6]]></title><description><![CDATA[<a class="tag" href="?query=tag:flashcards" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#flashcards</a> 
+ <br>7.3<br><a href=".?query=tag:flashcards" class="tag" target="_blank" rel="noopener">#flashcards</a><br>
+<a data-href="CA Lecture 5" href="分析\复分析\ca-lecture-5.html" class="internal-link" target="_self" rel="noopener">CA Lecture 5</a><br><br>证明上节课最后的定理。<br>推论
  不要求紧支, 要求不发散: 即  上  存在 (绝对可积), 则也有之前的结论成立
 <br>证明: 可以用<a data-href="单位分解" href="分析\单位分解.html" class="internal-link" target="_self" rel="noopener">单位分解</a>的操作.<br>首先, 为什么这个积分是收敛的?<br>
 取一个圆盘, 外面的由  的绝对可积性可以控制, 圆盘里面的, 分母那个"奇点"不影响, 分子放成上界就行.<br>我们局部的证明所求结论. 任取 , 取半径为  的圆盘 ,   上有一  实函数 , 在  上取 1,  取 0,<br>由  分成了两项. 前一项的支集是  的子集, 可用之前版本的定理, 后一项是  上的积分. 由此我们记为<br>
@@ -696,8 +696,8 @@ BarrySimon 的题目，显然数量很多，所以平时挑着看看，等到正
 就可以得到不自交的曲线. 这样的曲线一定围出一个多边形, 然后就好了. 草草证过<br>定理 5
 单连通区域的曲线版<br>
  单连通,   可求长闭曲线,  holo, 则积分等于零.
-<br>证明: 通过定理 4 来逼近. 但是有一个问题就是定理 4 证得很模糊, 所以有机会去看看 Alfors 或者 Rudin 的证明.<br>怎么逼近呢? 下次课再说罢.<br>我建议你把今天几个依赖几何直观的定理揣兜里, 以后有机会严格掉.0},z]} f(\zeta),d\zetaF(z)-F(z{0}) = \int{[z{{[a,z]} f(\zeta),d\zeta$，对于 ，有<br>]]></description><link>分析\复分析\ca-lecture-6.html</link><guid isPermaLink="false">分析/复分析/CA Lecture 6.md</guid><pubDate>Fri, 13 Sep 2024 12:38:19 GMT</pubDate><enclosure url="lib\media\pasted-image-20240710114634.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\pasted-image-20240710114634.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[CA Lecture 7]]></title><description><![CDATA[<a class="tag" href="?query=tag:flashcards" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#flashcards</a> 
- <br><a href=".?query=tag:flashcards" class="tag" target="_blank" rel="noopener">#flashcards</a>  7 .4<br><br>回顾上节课留下来的尾巴. 怎么证明那个引理?<br><a data-tooltip-position="top" aria-label="https://www.bilibili.com/video/BV16S4y137Ap/?p=13&amp;spm_id_from=pageDriver" rel="noopener" class="external-link" href="https://www.bilibili.com/video/BV16S4y137Ap/?p=13&amp;spm_id_from=pageDriver" target="_blank">647复分析的课</a><br>
+<br>证明: 通过定理 4 来逼近. 但是有一个问题就是定理 4 证得很模糊, 所以有机会去看看 Alfors 或者 Rudin 的证明.<br>怎么逼近呢? 下次课再说罢.<br>我建议你把今天几个依赖几何直观的定理揣兜里, 以后有机会严格掉.<br><a data-href="CA Lecture 7" href="分析\复分析\ca-lecture-7.html" class="internal-link" target="_self" rel="noopener">CA Lecture 7</a><br>]]></description><link>分析\复分析\ca-lecture-6.html</link><guid isPermaLink="false">分析/复分析/CA Lecture 6.md</guid><pubDate>Sun, 15 Sep 2024 15:33:41 GMT</pubDate><enclosure url="lib\media\pasted-image-20240710114634.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240710114634.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[CA Lecture 7]]></title><description><![CDATA[<a class="tag" href="?query=tag:flashcards" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#flashcards</a> 
+ <br><a href=".?query=tag:flashcards" class="tag" target="_blank" rel="noopener">#flashcards</a>  7 .4<br><a data-href="CA Lecture 6" href="分析\复分析\ca-lecture-6.html" class="internal-link" target="_self" rel="noopener">CA Lecture 6</a><br><br>回顾上节课留下来的尾巴. 怎么证明那个引理?<br><a data-tooltip-position="top" aria-label="https://www.bilibili.com/video/BV16S4y137Ap/?p=13&amp;spm_id_from=pageDriver" rel="noopener" class="external-link" href="https://www.bilibili.com/video/BV16S4y137Ap/?p=13&amp;spm_id_from=pageDriver" target="_blank">647复分析的课</a><br>
 4-1-1, 开头证明<br>回到我们的中心<br>定理 5
  单连通,  可求长闭曲线, 对于 holo 的  有<br>
 
@@ -711,8 +711,9 @@ BarrySimon 的题目，显然数量很多，所以平时挑着看看，等到正
 其中  就是 
 <br>引理 9
  是可求长的简单闭曲线, 记内部区域 , 对任意的 , 可将  分成有限多个子区域, 使得每个子区域的边界或者是  的一部分, 或者是  (或 ) ,  上的线段, 并且每个子区域的宽和高都小于 .
-]]></description><link>分析\复分析\ca-lecture-7.html</link><guid isPermaLink="false">分析/复分析/CA Lecture 7.md</guid><pubDate>Sun, 08 Sep 2024 13:50:42 GMT</pubDate></item><item><title><![CDATA[CA Lecture 8]]></title><description><![CDATA[<a class="tag" href="?query=tag:flashcards" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#flashcards</a> 
- <br>7.5<br><a href=".?query=tag:flashcards" class="tag" target="_blank" rel="noopener">#flashcards</a> <br><br>我们上次是要证明(某种意义)最强 Cauchy 积分定理, 回顾:<br>定理 8
+<br><a data-href="CA Lecture 8" href="分析\复分析\ca-lecture-8.html" class="internal-link" target="_self" rel="noopener">CA Lecture 8</a>]]></description><link>分析\复分析\ca-lecture-7.html</link><guid isPermaLink="false">分析/复分析/CA Lecture 7.md</guid><pubDate>Sun, 15 Sep 2024 15:34:17 GMT</pubDate></item><item><title><![CDATA[CA Lecture 8]]></title><description><![CDATA[<a class="tag" href="?query=tag:flashcards" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#flashcards</a> 
+ <br>7.5<br><a href=".?query=tag:flashcards" class="tag" target="_blank" rel="noopener">#flashcards</a><br>
+<a data-href="CA Lecture 7" href="分析\复分析\ca-lecture-7.html" class="internal-link" target="_self" rel="noopener">CA Lecture 7</a><br><br>我们上次是要证明(某种意义)最强 Cauchy 积分定理, 回顾:<br>定理 8
 有界区域 , 其边界  由有限多条简单闭曲线组成,   是  上的函数, 满足 , 则有<br>
 其中  就是 
 <br>证明需要引理<br>引理 9
@@ -745,8 +746,9 @@ BarrySimon 的题目，显然数量很多，所以平时挑着看看，等到正
 
 <br>推论 4 (Liouville)
 整个  上解析的有界函数是常值函数。
-]]></description><link>分析\复分析\ca-lecture-8.html</link><guid isPermaLink="false">分析/复分析/CA Lecture 8.md</guid><pubDate>Mon, 02 Sep 2024 07:17:14 GMT</pubDate><enclosure url="lib\media\pasted-image-20240710191835.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\pasted-image-20240710191835.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[CA Lecture 9]]></title><description><![CDATA[ 
- <br> 7.6 （其实是 7.11 补的）<br><br>回顾上节课的最后, 我们得到了Cauchy 逼近和Liouville 定理, 我们直接推出<br>定理 1 (代数基本定理)
+<br><a data-href="CA Lecture 9" href="分析\复分析\ca-lecture-9.html" class="internal-link" target="_self" rel="noopener">CA Lecture 9</a>]]></description><link>分析\复分析\ca-lecture-8.html</link><guid isPermaLink="false">分析/复分析/CA Lecture 8.md</guid><pubDate>Sun, 15 Sep 2024 15:34:36 GMT</pubDate><enclosure url="lib\media\pasted-image-20240710191835.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240710191835.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[CA Lecture 9]]></title><description><![CDATA[ 
+ <br> 7.6 （其实是 7.11 补的）<br>
+<a data-href="CA Lecture 8" href="分析\复分析\ca-lecture-8.html" class="internal-link" target="_self" rel="noopener">CA Lecture 8</a><br><br>回顾上节课的最后, 我们得到了Cauchy 逼近和Liouville 定理, 我们直接推出<br>定理 1 (代数基本定理)
 次数大于一的多项式 , 那么存在零点.
 <br>反证:  是  上的全纯函数, 由于  进而  有界, 进而 .<br>647: 找来高斯证明此定理的第二种证明, 看看<br>定理 6 (Morera)
  是  中的区域,   , 若  在  的内部任意可求长闭曲线的积分为零, 则 
@@ -772,8 +774,9 @@ holo 的函数列一致收敛到的函数也 holo
 的反函数， 。设 <br>过程就是练习，这里给出结果<br>
 <br>Language 反演，以后专门研究一下<br><br>给出了定义<br>定理 1
  则  的零点是孤立的。
-]]></description><link>分析\复分析\ca-lecture-9.html</link><guid isPermaLink="false">分析/复分析/CA Lecture 9.md</guid><pubDate>Thu, 11 Jul 2024 13:05:08 GMT</pubDate><enclosure url="lib\media\pasted-image-20240711191943.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\pasted-image-20240711191943.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[CA Lecture 10]]></title><description><![CDATA[ 
- <br>7.7 (实际上是 7.12 补的)<br><br>, <br>
+<br><a data-href="CA Lecture 10" href="分析\复分析\ca-lecture-10.html" class="internal-link" target="_self" rel="noopener">CA Lecture 10</a>]]></description><link>分析\复分析\ca-lecture-9.html</link><guid isPermaLink="false">分析/复分析/CA Lecture 9.md</guid><pubDate>Sun, 15 Sep 2024 15:34:52 GMT</pubDate><enclosure url="lib\media\pasted-image-20240711191943.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240711191943.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[CA Lecture 10]]></title><description><![CDATA[ 
+ <br>7.7 (实际上是 7.12 补的)<br>
+<a data-href="CA Lecture 9" href="分析\复分析\ca-lecture-9.html" class="internal-link" target="_self" rel="noopener">CA Lecture 9</a><br><br>, <br>
 <br>
 <br> 在  附近的 Taylor 级数全为 0<br>
 给出定理:  不恒等于 0, 则零点孤立.
@@ -814,8 +817,9 @@ holo 的  不是常数, 那么  是开映射.
 , 其模的最大值只能在边界上取 (如果有的话), 这里  有界.
 <br>给出无界的反例: <br>定理 2 (Schwarz)
  holo, , 则 , , 再某一点取等, 那么  是一个旋转映射复合 
-]]></description><link>分析\复分析\ca-lecture-10.html</link><guid isPermaLink="false">分析/复分析/CA Lecture 10.md</guid><pubDate>Fri, 12 Jul 2024 15:30:11 GMT</pubDate></item><item><title><![CDATA[CA Lecture 11]]></title><description><![CDATA[ 
- <br>7.8 (实际上是 7.13 补的)<br><br>回顾上次的 Schwarz 引理. 单位圆盘的自同构如果满足 , 那么我们有  且如果两个不等号有一个取等, 那么这样的自同构只有一种, 就是旋转变换复合上  <br>推论 (Schwarz-Pick)
+<br><a data-href="CA Lecture 11" href="分析\复分析\ca-lecture-11.html" class="internal-link" target="_self" rel="noopener">CA Lecture 11</a>]]></description><link>分析\复分析\ca-lecture-10.html</link><guid isPermaLink="false">分析/复分析/CA Lecture 10.md</guid><pubDate>Sun, 15 Sep 2024 15:35:06 GMT</pubDate></item><item><title><![CDATA[CA Lecture 11]]></title><description><![CDATA[ 
+ <br>7.8 (实际上是 7.13 补的)<br>
+<a data-href="CA Lecture 10" href="分析\复分析\ca-lecture-10.html" class="internal-link" target="_self" rel="noopener">CA Lecture 10</a><br><br>回顾上次的 Schwarz 引理. 单位圆盘的自同构如果满足 , 那么我们有  且如果两个不等号有一个取等, 那么这样的自同构只有一种, 就是旋转变换复合上  <br>推论 (Schwarz-Pick)
 不要求 , 那么结论改为<br>
 
 <br>双曲度量: <br>黄色括号需要你证<br>则全纯函数下有对应几何意义, 即<br>
@@ -853,9 +857,10 @@ holo 的  不是常数, 那么  是开映射.
 我们由 holo 的函数的实部的积分得到某点的取值.<br>
 <img alt="Pasted image 20240713105403.png" src="lib\media\pasted-image-20240713105403.png"><br>
 这样积出来的虚部会稍微差一点.<br>
-<img alt="Pasted image 20240713105546.png" src="lib\media\pasted-image-20240713105546.png"><br>由于没有学过 Fourier 分析, 这节课后半截你上得云里雾里<br>f
-复制<br>]]></description><link>分析\复分析\ca-lecture-11.html</link><guid isPermaLink="false">分析/复分析/CA Lecture 11.md</guid><pubDate>Thu, 29 Aug 2024 12:38:29 GMT</pubDate><enclosure url="lib\media\pasted-image-20240713103310.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\pasted-image-20240713103310.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Laurent 级数]]></title><description><![CDATA[ 
- <br>7.9<br>接下来我们学习 Weierstrass 的理论 <br><br><br>
+<img alt="Pasted image 20240713105546.png" src="lib\media\pasted-image-20240713105546.png"><br>由于没有学过 Fourier 分析, 这节课后半截你上得云里雾里<br><a data-href="CA Lecture 12" href="分析\复分析\ca-lecture-12.html" class="internal-link" target="_self" rel="noopener">CA Lecture 12</a><br>f
+复制<br>]]></description><link>分析\复分析\ca-lecture-11.html</link><guid isPermaLink="false">分析/复分析/CA Lecture 11.md</guid><pubDate>Sun, 15 Sep 2024 15:35:33 GMT</pubDate><enclosure url="lib\media\pasted-image-20240713103310.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240713103310.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Laurent 级数]]></title><description><![CDATA[ 
+ <br>7.9<br>
+<a data-href="CA Lecture 11" href="分析\复分析\ca-lecture-11.html" class="internal-link" target="_self" rel="noopener">CA Lecture 11</a><br>接下来我们学习 Weierstrass 的理论 <br><br><br>
 <br>之前讲的紧一致收敛对导数也是成立的.<br>
 证明还好, 就是分析基本功处理.
 <br>接下来讲正题<br>我们先看看这种东西的收敛性. 是不是良好定义的?<br>分为  全纯部分,  主部.<br>定理 2
@@ -879,8 +884,9 @@ holo 的  不是常数, 那么  是开映射.
  ,  是一个整环.
 <br>证明
 显然交换含幺, 为什么没有零因子?
-<br>留到下一课了捏.]]></description><link>分析\复分析\ca-lecture-12.html</link><guid isPermaLink="false">分析/复分析/CA Lecture 12.md</guid><pubDate>Mon, 15 Jul 2024 01:02:31 GMT</pubDate><enclosure url="lib\media\pasted-image-20240714083729.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\pasted-image-20240714083729.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[整函数与亚纯函数]]></title><description><![CDATA[ 
- <br>7.10 (实际上是 7.15 补的, 今天我要发力了! 冲!)<br><br><br>引理 1
+<br>留到下一课了捏.<br><a data-href="CA Lecture 13" href="分析\复分析\ca-lecture-13.html" class="internal-link" target="_self" rel="noopener">CA Lecture 13</a>]]></description><link>分析\复分析\ca-lecture-12.html</link><guid isPermaLink="false">分析/复分析/CA Lecture 12.md</guid><pubDate>Sun, 15 Sep 2024 15:36:08 GMT</pubDate><enclosure url="lib\media\pasted-image-20240714083729.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240714083729.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[整函数与亚纯函数]]></title><description><![CDATA[ 
+ <br><a data-href="CA Lecture 12" href="分析\复分析\ca-lecture-12.html" class="internal-link" target="_self" rel="noopener">CA Lecture 12</a><br>
+7.10 (实际上是 7.15 补的, 今天我要发力了! 冲!)<br><br><br>引理 1
  ,  是一个整环.
 <br>证明
 显然交换含幺, 为什么没有零因子<br>
@@ -906,8 +912,9 @@ holo 的  不是常数, 那么  是开映射.
 若 , 则  从而 .<br>
 若不等于 , 那么<br>
  满足之前条件, 从而可推.
-<br><br><br>一些关于级数的东西. 还好你 Amann 学过, 下学期考虑再复习一番.]]></description><link>分析\复分析\ca-lecture-13.html</link><guid isPermaLink="false">分析/复分析/CA Lecture 13.md</guid><pubDate>Mon, 15 Jul 2024 23:52:33 GMT</pubDate><enclosure url="lib\media\pasted-image-20240715091839.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\pasted-image-20240715091839.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[CA Lecture 14]]></title><description><![CDATA[ 
- <br>7.11 (7.16)<br><br>引理 5
+<br><br><br>一些关于级数的东西. 还好你 Amann 学过, 下学期考虑再复习一番.<br><a data-href="CA Lecture 14" href="分析\复分析\ca-lecture-14.html" class="internal-link" target="_self" rel="noopener">CA Lecture 14</a>]]></description><link>分析\复分析\ca-lecture-13.html</link><guid isPermaLink="false">分析/复分析/CA Lecture 13.md</guid><pubDate>Sun, 15 Sep 2024 15:36:28 GMT</pubDate><enclosure url="lib\media\pasted-image-20240715091839.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240715091839.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[CA Lecture 14]]></title><description><![CDATA[ 
+ <br>7.11 (7.16)<br>
+<a data-href="CA Lecture 13" href="分析\复分析\ca-lecture-13.html" class="internal-link" target="_self" rel="noopener">CA Lecture 13</a><br><br>引理 5
 若 , 无零点, 则存在  使得 
 <br>Simon 书 <br>引理 6
  只有有限多零点, 记为  和对应的重数 , 则有因式分解<br>
@@ -921,8 +928,9 @@ holo 的  不是常数, 那么  是开映射.
  是  重零点 ( 可以为零), 其他零点为 , 且满足 , 则 
 <br>推论 
 则 
-<br><br><img alt="Pasted image 20240716101616.png" src="lib\media\pasted-image-20240716101616.png"><br>证明你没看<br>一些例子<br><img alt="Pasted image 20240716102726.png" src="lib\media\pasted-image-20240716102726.png">]]></description><link>分析\复分析\ca-lecture-14.html</link><guid isPermaLink="false">分析/复分析/CA Lecture 14.md</guid><pubDate>Tue, 16 Jul 2024 02:27:42 GMT</pubDate><enclosure url="lib\media\pasted-image-20240716082932.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\pasted-image-20240716082932.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[CA Lecture 15]]></title><description><![CDATA[ 
- <br>7.12<br><br>对上次例子的第一个的证明<br>这一部分需要很多练习<br><br><br>
+<br><br><img alt="Pasted image 20240716101616.png" src="lib\media\pasted-image-20240716101616.png"><br>证明你没看<br>一些例子<br><img alt="Pasted image 20240716102726.png" src="lib\media\pasted-image-20240716102726.png"><br><a data-href="CA Lecture 15" href="分析\复分析\ca-lecture-15.html" class="internal-link" target="_self" rel="noopener">CA Lecture 15</a>]]></description><link>分析\复分析\ca-lecture-14.html</link><guid isPermaLink="false">分析/复分析/CA Lecture 14.md</guid><pubDate>Sun, 15 Sep 2024 15:36:50 GMT</pubDate><enclosure url="lib\media\pasted-image-20240716082932.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240716082932.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[CA Lecture 15]]></title><description><![CDATA[ 
+ <br>7.12<br>
+<a data-href="CA Lecture 14" href="分析\复分析\ca-lecture-14.html" class="internal-link" target="_self" rel="noopener">CA Lecture 14</a><br><br>对上次例子的第一个的证明<br>这一部分需要很多练习<br><br><br>
 <br>
  在  处是孤立奇点, 留数  是充分小的圆盘边界.
 
@@ -1022,8 +1030,9 @@ k
 
 g
 
-]]></description><link>分析\复分析\ca-lecture-15.html</link><guid isPermaLink="false">分析/复分析/CA Lecture 15.md</guid><pubDate>Thu, 29 Aug 2024 17:45:21 GMT</pubDate></item><item><title><![CDATA[CA Lecture 16]]></title><description><![CDATA[ 
- <br>7.13<br><br>
+<br><a data-href="CA Lecture 16" href="分析\复分析\ca-lecture-16.html" class="internal-link" target="_self" rel="noopener">CA Lecture 16</a>]]></description><link>分析\复分析\ca-lecture-15.html</link><guid isPermaLink="false">分析/复分析/CA Lecture 15.md</guid><pubDate>Sun, 15 Sep 2024 15:37:13 GMT</pubDate></item><item><title><![CDATA[CA Lecture 16]]></title><description><![CDATA[ 
+ <br>7.13<br>
+<a data-href="CA Lecture 15" href="分析\复分析\ca-lecture-15.html" class="internal-link" target="_self" rel="noopener">CA Lecture 15</a><br><br>
 
 
 
@@ -1116,28 +1125,7 @@ k
 
 g
 
-<br>latex -interaction=nonstopmode -halt-on-error -shell-escape "{file-path}" &amp;&amp; dvisvgm --scale=2 --font-format=woff "{file-path}"<br><br><br><br><br>]]></description><link>分析\复分析\ca-lecture-16.html</link><guid isPermaLink="false">分析/复分析/CA Lecture 16.md</guid><pubDate>Sat, 07 Sep 2024 09:29:49 GMT</pubDate></item><item><title><![CDATA[单位分解]]></title><description><![CDATA[ 
- <br><br>对于某个紧集 ，其上的开覆盖  存在有限子覆盖，在每个子覆盖的开集上通过<br>]]></description><link>分析\单位分解.html</link><guid isPermaLink="false">分析/单位分解.md</guid><pubDate>Wed, 11 Sep 2024 23:39:15 GMT</pubDate></item><item><title><![CDATA[度量空间的完备化]]></title><description><![CDATA[ 
- ]]></description><link>分析\度量空间的完备化.html</link><guid isPermaLink="false">分析/度量空间的完备化.md</guid><pubDate>Tue, 10 Sep 2024 15:37:39 GMT</pubDate></item><item><title><![CDATA[<span class="math math-block is-loaded"><mjx-container class="MathJax" jax="CHTML" display="true"><mjx-math display="true" class="MJX-TEX" style="margin-left: 0px; margin-right: 0px;"><mjx-mo class="mjx-lop"><mjx-c class="mjx-c222B TEX-S2"></mjx-c></mjx-mo><mjx-mfrac space="2"><mjx-frac type="d"><mjx-num><mjx-nstrut type="d"></mjx-nstrut><mjx-mrow><mjx-texatom texclass="ORD"><mjx-mi class="mjx-n"><mjx-c class="mjx-c64"></mjx-c></mjx-mi></mjx-texatom><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D465 TEX-I"></mjx-c></mjx-mi></mjx-mrow></mjx-num><mjx-dbox><mjx-dtable><mjx-line type="d"></mjx-line><mjx-row><mjx-den><mjx-dstrut type="d"></mjx-dstrut><mjx-mrow><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D465 TEX-I"></mjx-c></mjx-mi><mjx-msqrt><mjx-sqrt><mjx-surd><mjx-mo class="mjx-n"><mjx-c class="mjx-c221A"></mjx-c></mjx-mo></mjx-surd><mjx-box style="padding-top: 0.087em;"><mjx-msup><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D465 TEX-I"></mjx-c></mjx-mi><mjx-script style="vertical-align: 0.289em;"><mjx-texatom size="s" texclass="ORD"><mjx-mn class="mjx-n"><mjx-c class="mjx-c32"></mjx-c></mjx-mn></mjx-texatom></mjx-script></mjx-msup><mjx-mo class="mjx-n" space="3"><mjx-c class="mjx-c2212"></mjx-c></mjx-mo><mjx-mn class="mjx-n" space="3"><mjx-c class="mjx-c31"></mjx-c></mjx-mn></mjx-box></mjx-sqrt></mjx-msqrt></mjx-mrow></mjx-den></mjx-row></mjx-dtable></mjx-dbox></mjx-frac></mjx-mfrac></mjx-math></mjx-container></span>积！]]></title><description><![CDATA[<a class="tag" href="?query=tag:如何成为积佬" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#如何成为积佬</a> 
- <br><a href=".?query=tag:如何成为积佬" class="tag" target="_blank" rel="noopener">#如何成为积佬</a><br>好的，我会将这些问题和答案格式化为“问题\n=\n答案”的形式。下面是转换后的结果：<br><br><br><br><br>对这种形式的积分最好熟悉<br><br><br><br><br><br><br><br><br><br>首先要熟悉<br><br>然后导一下进而你也知道了这种东西的不定积分，hh<br><br><br>此卡来源于ai<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>你当然可以直接把结果背会。或者记 之类。<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>你要知道前一部分对应着 ，后一部分对应着 ，这个积分是三角积分，其对偶积分<br> 得到的结果是前一项加负号<br><br><br><br>对偶地，<br><br><br>"&lt;img src=""IMG_20240602_085410.jpg""&gt;"<br><br><br><br><br><br>希望你能背会，其中比较重要的量是<br>
-<br>从项开始推
-<br>
-<br>分子加起来可以“消掉”
-
-
-<br><br>&nbsp;<br><br><br><br><br><br><br>事实上 完全一致。<br><br><br><br><br><br><br><br>第一种做法，这个对  是“单”的，所以提一个进去<br><br>这里就显然是<br><br>了，另一种做法，搞成 ，<br><br>这里就能看出结果<br><br>hhhh<br><br><br>
-<br>对于 ，一般取曲线上的点 ，用  即可
-<br>特殊一点的，，则可以设
-<br>若 ，则 
-
-
-<br><br>在  的时候收敛， 发散，你需要想清楚的是在 1 到  里， 越大值越小。这样  的敛散性就是刚好相反的，注意时永远时发散的。<br><br><br>首先你肯定会分段处理，问题在于怎么理解<br><br>然后把  放缩成  ：<br><br>后面那一坨  的积分是收敛的，从而分段的每一项量级在  ，这样就收敛啦！<br><br><br>利用不等式<br>
-在  上积分得到<br>
-来都来了，为什么不动手试试呢？<br><br><br><br><br><br>记其为 ，则<br><br>得到结果是 ，为什么化成多元积分会变简单呢？不知道呀<br><br><br>记忆技巧在于分母偶数则有 <br>
-<br><br><br>没关系，我背会了，以后再推。答案是 <br><br><br>用双曲换元积分，前一项 ，后一项 ，得到结果<br>
-注意到  取正号（加了绝对值），中间项由于双曲三角而存在正负问题。最后，其对应的积分<br>
-则中间的  变成 <br><br><br>分子头上顶一个 ，那么后一项相应变负号，原理就是积下面这个<br>
-这也就是系数里 的来源。<br>]]></description><link>卡组\如何成为积佬\如何成为积分大佬-1.html</link><guid isPermaLink="false">卡组/如何成为积佬/如何成为积分大佬 1.md</guid><pubDate>Sun, 08 Sep 2024 13:54:08 GMT</pubDate></item><item><title><![CDATA[这一节我们预热]]></title><description><![CDATA[ 
+<br>latex -interaction=nonstopmode -halt-on-error -shell-escape "{file-path}" &amp;&amp; dvisvgm --scale=2 --font-format=woff "{file-path}"<br><br><br><br><br>]]></description><link>分析\复分析\ca-lecture-16.html</link><guid isPermaLink="false">分析/复分析/CA Lecture 16.md</guid><pubDate>Sun, 15 Sep 2024 15:37:17 GMT</pubDate></item><item><title><![CDATA[这一节我们预热]]></title><description><![CDATA[ 
  <br>9.2<br><br><br><img alt="Pasted image 20240902161818.png" src="lib\media\pasted-image-20240902161818.png"><br>看不懂，以后来看<br><br>
 <br>Weak zero property<br>
 
@@ -1146,8 +1134,8 @@ g
 <br>回顾一遍线性代数 
 <br><br> <a data-href="Taylor 定理" href="Taylor 定理" class="internal-link" target="_self" rel="noopener">Taylor 定理</a>，主要讨论了积分余项，练习题中给了另一种证法，请收录进去<br>"二项式定理" 未创建，点击以创建。<br>
 <br>给了一些part2a的定理
-<br><a data-href="单位分解" href="分析\单位分解.html" class="internal-link" target="_self" rel="noopener">单位分解</a><br><br>总的来说第一章就是简单回顾一下各种技术。今天碰到了学长，交流下来发现拓扑、抽代、微分几何的老师上来都要回顾一下之前的东西。记得647的复分析也是，但是今天 xgy 的 ODE 实在太难评，上来二话不说直接开讲，甚至没有自我介绍和课程介绍，动机也没有，直接就是两坨定理的证明，听不懂一点。<br><a data-href="Real Analysis Notes 2" href="实分析\real-analysis-notes-2.html" class="internal-link" target="_self" rel="noopener">Real Analysis Notes 2</a>]]></description><link>实分析\real-analysis-notes-1.html</link><guid isPermaLink="false">实分析/Real Analysis Notes 1.md</guid><pubDate>Fri, 13 Sep 2024 05:17:30 GMT</pubDate><enclosure url="lib\media\pasted-image-20240902161818.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\pasted-image-20240902161818.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[拓扑]]></title><description><![CDATA[ 
- <br><a data-href="Real Analysis Notes 1" href="实分析\real-analysis-notes-1.html" class="internal-link" target="_self" rel="noopener">Real Analysis Notes 1</a><br>
+<br><a data-href="单位分解" href="分析\单位分解.html" class="internal-link" target="_self" rel="noopener">单位分解</a><br><br>总的来说第一章就是简单回顾一下各种技术。今天碰到了学长，交流下来发现拓扑、抽代、微分几何的老师上来都要回顾一下之前的东西。记得647的复分析也是，但是今天 xgy 的 ODE 实在太难评，上来二话不说直接开讲，甚至没有自我介绍和课程介绍，动机也没有，直接就是两坨定理的证明，听不懂一点。<br><a data-href="Real Analysis Notes 2" href="分析\实分析\real-analysis-notes-2.html" class="internal-link" target="_self" rel="noopener">Real Analysis Notes 2</a>]]></description><link>分析\实分析\real-analysis-notes-1.html</link><guid isPermaLink="false">分析/实分析/Real Analysis Notes 1.md</guid><pubDate>Fri, 13 Sep 2024 05:17:30 GMT</pubDate><enclosure url="lib\media\pasted-image-20240902161818.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240902161818.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[拓扑]]></title><description><![CDATA[ 
+ <br><a data-href="Real Analysis Notes 1" href="分析\实分析\real-analysis-notes-1.html" class="internal-link" target="_self" rel="noopener">Real Analysis Notes 1</a><br>
 9.13，中秋节，吃到了学校送的月饼，香！<br><br><br>
 <br>
 拓扑空间的定义<br>
@@ -1174,8 +1162,28 @@ g
 <br>
 <a data-href="连续映射" href="连续映射" class="internal-link" target="_self" rel="noopener">连续映射</a>和开映射
 
+<br><a data-href="Real Analysis Notes 3" href="Real Analysis Notes 3" class="internal-link" target="_self" rel="noopener">Real Analysis Notes 3</a>]]></description><link>分析\实分析\real-analysis-notes-2.html</link><guid isPermaLink="false">分析/实分析/Real Analysis Notes 2.md</guid><pubDate>Sun, 15 Sep 2024 15:42:05 GMT</pubDate></item><item><title><![CDATA[单位分解]]></title><description><![CDATA[ 
+ <br><br>对于某个紧集 ，其上的开覆盖  存在有限子覆盖，在每个子覆盖的开集上通过<br>]]></description><link>分析\单位分解.html</link><guid isPermaLink="false">分析/单位分解.md</guid><pubDate>Wed, 11 Sep 2024 23:39:15 GMT</pubDate></item><item><title><![CDATA[度量空间的完备化]]></title><description><![CDATA[ 
+ ]]></description><link>分析\度量空间的完备化.html</link><guid isPermaLink="false">分析/度量空间的完备化.md</guid><pubDate>Tue, 10 Sep 2024 15:37:39 GMT</pubDate></item><item><title><![CDATA[<span class="math math-block is-loaded"><mjx-container class="MathJax" jax="CHTML" display="true"><mjx-math display="true" class="MJX-TEX" style="margin-left: 0px; margin-right: 0px;"><mjx-mo class="mjx-lop"><mjx-c class="mjx-c222B TEX-S2"></mjx-c></mjx-mo><mjx-mfrac space="2"><mjx-frac type="d"><mjx-num><mjx-nstrut type="d"></mjx-nstrut><mjx-mrow><mjx-texatom texclass="ORD"><mjx-mi class="mjx-n"><mjx-c class="mjx-c64"></mjx-c></mjx-mi></mjx-texatom><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D465 TEX-I"></mjx-c></mjx-mi></mjx-mrow></mjx-num><mjx-dbox><mjx-dtable><mjx-line type="d"></mjx-line><mjx-row><mjx-den><mjx-dstrut type="d"></mjx-dstrut><mjx-mrow><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D465 TEX-I"></mjx-c></mjx-mi><mjx-msqrt><mjx-sqrt><mjx-surd><mjx-mo class="mjx-n"><mjx-c class="mjx-c221A"></mjx-c></mjx-mo></mjx-surd><mjx-box style="padding-top: 0.087em;"><mjx-msup><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D465 TEX-I"></mjx-c></mjx-mi><mjx-script style="vertical-align: 0.289em;"><mjx-texatom size="s" texclass="ORD"><mjx-mn class="mjx-n"><mjx-c class="mjx-c32"></mjx-c></mjx-mn></mjx-texatom></mjx-script></mjx-msup><mjx-mo class="mjx-n" space="3"><mjx-c class="mjx-c2212"></mjx-c></mjx-mo><mjx-mn class="mjx-n" space="3"><mjx-c class="mjx-c31"></mjx-c></mjx-mn></mjx-box></mjx-sqrt></mjx-msqrt></mjx-mrow></mjx-den></mjx-row></mjx-dtable></mjx-dbox></mjx-frac></mjx-mfrac></mjx-math></mjx-container></span>积！]]></title><description><![CDATA[<a class="tag" href="?query=tag:如何成为积佬" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#如何成为积佬</a> 
+ <br><a href=".?query=tag:如何成为积佬" class="tag" target="_blank" rel="noopener">#如何成为积佬</a><br>好的，我会将这些问题和答案格式化为“问题\n=\n答案”的形式。下面是转换后的结果：<br><br><br><br><br>对这种形式的积分最好熟悉<br><br><br><br><br><br><br><br><br><br>首先要熟悉<br><br>然后导一下进而你也知道了这种东西的不定积分，hh<br><br><br>此卡来源于ai<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>你当然可以直接把结果背会。或者记 之类。<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>你要知道前一部分对应着 ，后一部分对应着 ，这个积分是三角积分，其对偶积分<br> 得到的结果是前一项加负号<br><br><br><br>对偶地，<br><br><br>"&lt;img src=""IMG_20240602_085410.jpg""&gt;"<br><br><br><br><br><br>希望你能背会，其中比较重要的量是<br>
+<br>从项开始推
 <br>
-]]></description><link>实分析\real-analysis-notes-2.html</link><guid isPermaLink="false">实分析/Real Analysis Notes 2.md</guid><pubDate>Fri, 13 Sep 2024 06:47:35 GMT</pubDate></item><item><title><![CDATA[简谐波]]></title><description><![CDATA[ 
+<br>分子加起来可以“消掉”
+
+
+<br><br>&nbsp;<br><br><br><br><br><br><br>事实上 完全一致。<br><br><br><br><br><br><br><br>第一种做法，这个对  是“单”的，所以提一个进去<br><br>这里就显然是<br><br>了，另一种做法，搞成 ，<br><br>这里就能看出结果<br><br>hhhh<br><br><br>
+<br>对于 ，一般取曲线上的点 ，用  即可
+<br>特殊一点的，，则可以设
+<br>若 ，则 
+
+
+<br><br>在  的时候收敛， 发散，你需要想清楚的是在 1 到  里， 越大值越小。这样  的敛散性就是刚好相反的，注意时永远时发散的。<br><br><br>首先你肯定会分段处理，问题在于怎么理解<br><br>然后把  放缩成  ：<br><br>后面那一坨  的积分是收敛的，从而分段的每一项量级在  ，这样就收敛啦！<br><br><br>利用不等式<br>
+在  上积分得到<br>
+来都来了，为什么不动手试试呢？<br><br><br><br><br><br>记其为 ，则<br><br>得到结果是 ，为什么化成多元积分会变简单呢？不知道呀<br><br><br>记忆技巧在于分母偶数则有 <br>
+<br><br><br>没关系，我背会了，以后再推。答案是 <br><br><br>用双曲换元积分，前一项 ，后一项 ，得到结果<br>
+注意到  取正号（加了绝对值），中间项由于双曲三角而存在正负问题。最后，其对应的积分<br>
+则中间的  变成 <br><br><br>分子头上顶一个 ，那么后一项相应变负号，原理就是积下面这个<br>
+这也就是系数里 的来源。<br>]]></description><link>卡组\如何成为积佬\如何成为积分大佬-1.html</link><guid isPermaLink="false">卡组/如何成为积佬/如何成为积分大佬 1.md</guid><pubDate>Sun, 08 Sep 2024 13:54:08 GMT</pubDate></item><item><title><![CDATA[简谐波]]></title><description><![CDATA[ 
  <br>简谐波方程<br><br>行波:  形式的函数：右行波。<br>注意关系：<br><br>从而令  ，则<br><br><br><br>
 <br>能量密度  , 波强  
 <br><br>
@@ -1274,7 +1282,7 @@ g
 
 <br><br><img alt="Pasted image 20240915092331.png" src="lib\media\pasted-image-20240915092331.png"><br>
 <img alt="Pasted image 20240915092339.png" src="lib\media\pasted-image-20240915092339.png"><br>
-<img alt="Pasted image 20240915092346.png" src="lib\media\pasted-image-20240915092346.png">]]></description><link>作业\ode-第一次作业.html</link><guid isPermaLink="false">作业/ODE 第一次作业.md</guid><pubDate>Sun, 15 Sep 2024 04:25:23 GMT</pubDate><enclosure url="lib\media\pasted-image-20240915092018.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\pasted-image-20240915092018.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[解的存在性与唯一性]]></title><description><![CDATA[ 
+<img alt="Pasted image 20240915092346.png" src="lib\media\pasted-image-20240915092346.png">]]></description><link>作业\ode-第一次作业.html</link><guid isPermaLink="false">作业/ODE 第一次作业.md</guid><pubDate>Sun, 15 Sep 2024 04:25:23 GMT</pubDate><enclosure url="lib\media\pasted-image-20240915092018.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240915092018.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[解的存在性与唯一性]]></title><description><![CDATA[ 
  <br>定理 1
 对于 对任意的初值 ，此方程存在解且唯一。
 <br>习题里面证明此处  不一定要  。但是至少可微。考虑反例<br>
@@ -1306,7 +1314,7 @@ g
 <br><br>
 <br>第二点证明中，为什么需要用到定理一？  的定义不是已经有其上  了吗？
 <br>这里对唯一的证明是否有不严谨之处？
-]]></description><link>mathstuff\解的存在性与唯一性.html</link><guid isPermaLink="false">MathStuff/解的存在性与唯一性.md</guid><pubDate>Fri, 13 Sep 2024 16:16:07 GMT</pubDate></item><item><title><![CDATA[曲面的定义]]></title><description><![CDATA[ 
+]]></description><link>mathstuff\解的存在性与唯一性.html</link><guid isPermaLink="false">MathStuff/解的存在性与唯一性.md</guid><pubDate>Sun, 15 Sep 2024 15:34:04 GMT</pubDate></item><item><title><![CDATA[曲面的定义]]></title><description><![CDATA[ 
  <br><br>定义的方式有很多。<br>
 <br>流形在大空间里任意一点的邻域和对应维数的   同胚，  是  中的开集。
 <br>或者先将邻域  和流形做交 ，这个集合与  中的开集  同胚。
@@ -1345,7 +1353,7 @@ g
 
 
 <br>
-<br>例子：对  中的单位球赋予自然定向，则  的诱导定向是逆时针。]]></description><link>mathstuff\曲面.html</link><guid isPermaLink="false">MathStuff/曲面.md</guid><pubDate>Fri, 13 Sep 2024 06:02:45 GMT</pubDate><enclosure url="lib\media\pasted-image-20240517103127.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;lib\media\pasted-image-20240517103127.png&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[one-point compactification]]></title><description><![CDATA[ 
+<br>例子：对  中的单位球赋予自然定向，则  的诱导定向是逆时针。]]></description><link>mathstuff\曲面.html</link><guid isPermaLink="false">MathStuff/曲面.md</guid><pubDate>Fri, 13 Sep 2024 06:02:45 GMT</pubDate><enclosure url="lib\media\pasted-image-20240517103127.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240517103127.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[one-point compactification]]></title><description><![CDATA[ 
  <br>one-point compactification(单点紧化) 是一种将非紧致的局部紧致空间转化为紧致空间的技术。具体来说，给定一个局部紧致空间 ，其单点紧化是通过添加一个点（通常称为“无穷远点”或“附加点”）到  中，并将  的拓扑扩展到这个新点，使得整个空间成为紧致的。<br>形式化地，设  是一个局部紧致 Hausdorff 空间。 的单点紧化记作  或 ，其中  是新添加的点。 的拓扑定义如下：<br>
 <br>对于  中的任何开集 ， 也是  中的开集。
 <br>一个包含  的开集是  中的一个紧致闭集的补集。
