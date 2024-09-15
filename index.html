@@ -37,6 +37,7 @@
 }
             /* 背景图片全屏显示 */
             .masthead {
+                background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(240,240,240,1) 100%);
                 background-image: url('assets/img/111.jpg'); /* 确保路径正确 */
                 background-size: cover;
                 background-position: center;
@@ -46,6 +47,7 @@
                 align-items: center;
                 justify-content: center;
                 position: relative;
+                
             }
             .site-heading h1 {
                 text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* 添加文字阴影 */
@@ -91,40 +93,10 @@
     <body>
 
         <script>
-            function showPage() {
+            document.addEventListener("DOMContentLoaded", function() {
+                // 页面加载完毕后显示页面
                 document.body.style.visibility = "visible";
                 document.body.style.opacity = 1;
-            }
-        
-            function waitForImages() {
-                const images = document.querySelectorAll('img');
-                let loadedCount = 0;
-        
-                function imageLoaded() {
-                    loadedCount++;
-                    if (loadedCount === images.length) {
-                        showPage();
-                    }
-                }
-        
-                images.forEach(img => {
-                    if (img.complete) {
-                        imageLoaded();
-                    } else {
-                        img.addEventListener('load', imageLoaded);
-                    }
-                });
-        
-                // 如果图片加载时间过长，设置一个超时时间
-                setTimeout(() => {
-                    if (loadedCount < images.length) {
-                        showPage();
-                    }
-                }, 5000); // 5秒超时时间
-            }
-        
-            document.addEventListener("DOMContentLoaded", function() {
-                waitForImages();
             });
         </script>
         <!-- Navigation-->
