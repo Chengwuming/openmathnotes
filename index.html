@@ -21,17 +21,27 @@
                 padding: 0;
             }
 
-            /* 设置背景全屏图片 */
+            /* 顶部导航栏固定 */
+            nav {
+                position: fixed;
+                top: 0;
+                width: 100%;
+                z-index: 1000;
+                background-color: rgba(255, 255, 255, 0.9); /* 半透明背景 */
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            }
+
+            /* 确保背景从导航栏下方开始全屏 */
             .full-screen-bg {
-                background-image: url('assets/img/111.jpg');
-                height: 100%;
+                background-image: url('assets/img/111.jfjf');
+                height: 100vh; /* 使背景图片占满全屏 */
                 background-position: center;
                 background-size: cover;
                 background-repeat: no-repeat;
-                position: relative;
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                padding-top: 60px; /* 确保导航栏不遮挡背景内容 */
             }
 
             /* 按钮样式 */
@@ -60,7 +70,25 @@
         </style>
     </head>
     <body>
-        <!-- 全屏背景部分 -->
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="index.html">Ciallo～(∠・ω< )⌒☆</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="Notes/常微分方程/ode-notes-1.html">Notes</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="edited-latex.html">Posts</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- 全屏背景部分，背景从导航栏下方开始 -->
         <div class="full-screen-bg">
             <button class="btn-custom">Button 1</button>
             <button class="btn-custom">Button 2</button>
