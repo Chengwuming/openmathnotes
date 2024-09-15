@@ -16,6 +16,25 @@
         <link href="css/styles.css" rel="stylesheet" />
 
         <style>
+            @keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes slideUp {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
             /* 背景图片全屏显示 */
             .masthead {
                 background-image: url('assets/img/111.jpg'); /* 确保路径正确 */
@@ -28,9 +47,56 @@
                 justify-content: center;
                 position: relative;
             }
+            .site-heading h1 {
+                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* 添加文字阴影 */
+                animation: fadeIn 0.3s ease-in-out; /* 渐入和抬高动画 */
+            }
+            .site-heading {
+                margin-top: -50px; /* 调整Aloha的位置 */
+            }
+            .cta-buttons {
+                margin-top: 50px; /* 调整按钮的位置 */
+                display: flex;
+                justify-content: center;
+                gap: 40px; /* 按钮之间的间距 */
+            }
+            .cta-button {
+                background-color: rgba(255, 255, 255, 0.3);
+                color: #333;
+                padding: 15px 50px;
+                border-radius: 30px;
+                border: none;
+                font-size: 1.2em;
+                margin: 10px;
+                cursor: pointer;
+                box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+                transition: all 0.3s ease-in-out;
+                animation: fadeIn 0.4s ease-in-out; /* 添加渐入动画 */
+            }
+            .cta-button:hover {
+                background-color: rgba(255, 255, 255, 0.6);
+                transform: translateY(-2px); /* 鼠标悬停时微微浮起 */
+                box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3);
+            }
         </style>
+
+<style>
+    body {
+        visibility: hidden; /* 初始状态为不可见 */
+        opacity: 0; /* 初始状态为透明 */
+        transition: visibility 0s, opacity 0.1s linear; /* 添加过渡效果 */
+    }
+</style>
     </head>
     <body>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                // 页面加载完毕后显示页面
+                document.body.style.visibility = "visible";
+                document.body.style.opacity = 1;
+            });
+        </script>
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
             <div class="container px-4 px-lg-5">
@@ -50,13 +116,17 @@
             </div>
         </nav>
         <!-- Page Header-->
-        <header class="masthead" style="background-image: url('assets/img/111.jpg')">
+        <header class="masthead" style="background-image: url('assets/img/112.jpg')">
             <div class="container position-relative px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-md-10 col-lg-8 col-xl-7">
                         <div class="site-heading">
                             <h1>Aloha :)</h1>
-                            <span class="subheading">Review my personal notes online</span>
+                            <span class="subheading">View my personal notes everywhere</span>
+                        </div>
+                        <div class="cta-buttons">
+                            <a href="Notes/常微分方程/ode-notes-1.html" class="cta-button">Notes</a>
+                            <a href="edited-latex.html" class="cta-button">Posts</a>
                         </div>
                     </div>
                 </div>
