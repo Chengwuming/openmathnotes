@@ -10676,6 +10676,11 @@ header.masthead {
   background-color: #6c757d;
   background-size: cover;
   background-attachment: scroll;
+  
+  height: 100vh; /* 确保背景图片全屏显示 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 header.masthead:before {
   content: "";
