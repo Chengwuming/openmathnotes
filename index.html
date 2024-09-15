@@ -37,7 +37,7 @@
 }
             /* 背景图片全屏显示 */
             .masthead {
-                background-image: url('assets/img/111low.jpg'); /* 确保路径正确 */
+                background-image: url('assets/img/111.jpg'); /* 确保路径正确 */
                 background-size: cover;
                 background-position: center;
                 background-repeat: no-repeat;
@@ -53,7 +53,7 @@
                 animation: fadeIn 0.3s ease-in-out; /* 渐入和抬高动画 */
             }
             .site-heading {
-                margin-top: -50px; /* 调整Aloha的位置 */
+                margin-top: -80px; /* 调整Aloha的位置 */
             }
             .cta-buttons {
                 margin-top: 50px; /* 调整按钮的位置 */
@@ -98,17 +98,6 @@
                 document.body.style.opacity = 1;
             });
         </script>
-
-<script>
-    window.onload = function() {
-        var bgDiv = document.querySelector('.masthead');
-        var img = new Image();
-        img.src = 'assets/img/111.jpg'; // 高分辨率图片
-        img.onload = function() {
-            bgDiv.style.backgroundImage = "url('assets/img/111.jpg')";
-        };
-    };
-</script>
 
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
