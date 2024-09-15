@@ -38,7 +38,7 @@
 <!-- lib/html/custom-head-content.html -->
 
 <!-- 自定义 JavaScript -->
-<script>
+<!--script>
   document.addEventListener('DOMContentLoaded', function() {
       var homeButton = document.createElement('a');
       homeButton.href = 'https://yourwebsite.com'; // 替换为你的主页链接
@@ -62,6 +62,29 @@
           }
       });
   });
-</script>
+</script-->
+<!-- HTML 部分 -->
+<a href="你的主页链接" class="back-to-home">
+  返回主页
+</a>
+
+<!-- CSS 部分 -->
+<style>
+  .back-to-home {
+      position: fixed;
+      top: 10px;  /* 离页面顶端10像素 */
+      right: 10px;  /* 离页面右边10像素 */
+      padding: 10px 20px;  /* 按钮的内边距 */
+      background-color: #4CAF50;  /* 按钮背景颜色，可以修改 */
+      color: white;  /* 按钮文字颜色 */
+      text-decoration: none;  /* 移除下划线 */
+      border-radius: 5px;  /* 按钮圆角 */
+      font-size: 16px;  /* 按钮文字大小 */
+  }
+
+  .back-to-home:hover {
+      background-color: #45a049;  /* 鼠标悬停时的颜色 */
+  }
+</style>
 
 </head>
