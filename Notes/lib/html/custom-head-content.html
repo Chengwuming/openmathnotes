@@ -12,25 +12,55 @@
 <!-- lib/html/custom-head-content.html -->
 
 <!-- 自定义 CSS -->
+<!-- HTML 部分 -->
+
+<a href="https://chengwuming.github.io/openmathnotes" class="back-to-home"></a>
+  返回主页
+</a>
+<!-- CSS 部分 -->
 <style>
   .back-to-home {
       position: fixed;
-      top: 10px;
-      right: 10px;
-      padding: 10px 20px;
-      background-color: #007bff; /* 主色调 */
+      top: 20px;
+      right: -100px; /* 初始状态：按钮隐藏在右边 */
+      padding: 12px 24px;
+      background: linear-gradient(45deg, #4CAF50, #66BB6A);  /* 渐变色背景 */
       color: white;
-      border: none;
-      border-radius: 5px;
-      text-align: center;
-      cursor: pointer;
+      text-decoration: none;
+      border-radius: 25px;  /* 圆角按钮 */
       font-size: 16px;
-      z-index: 1000; /* 确保按钮在最上层 */
-      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-      text-decoration: none; /* 去除下划线 */
+      font-weight: bold;
+      font-family: 'Arial', sans-serif;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);  /* 阴影效果，增加质感 */
+      opacity: 0.7;  /* 半透明，带来现代感 */
+      z-index: 1000;
+      transition: all 0.5s ease;  /* 平滑的动画过渡效果 */
   }
+
+  /* 鼠标悬停时按钮出现的效果 */
   .back-to-home:hover {
-      background-color: #0056b3; /* 悬停时颜色 */
+      right: 20px;  /* 按钮完全显示 */
+      opacity: 1;  /* 全透明 */
+      transform: scale(1.05);  /* 微小的放大效果，提升交互感 */
+      background: linear-gradient(45deg, #66BB6A, #81C784);  /* 悬停时的渐变色变化 */
+      box-shadow: 0 6px 14px rgba(0, 0, 0, 0.4);  /* 增加悬停时的阴影效果 */
+  }
+
+  /* 动画效果：按钮从隐藏状态到显示状态 */
+  .back-to-home {
+      animation: slideIn 0.6s forwards ease-in-out;
+  }
+
+  /* 定义从隐藏到显示的动画 */
+  @keyframes slideIn {
+      from {
+          right: -100px;  /* 初始状态：按钮隐藏 */
+          opacity: 0;  /* 完全透明 */
+      }
+      to {
+          right: 20px;  /* 最终状态：按钮显示 */
+          opacity: 0.7;  /* 半透明 */
+      }
   }
 </style>
 
@@ -64,31 +94,8 @@
   });
 </script-->
 <!-- HTML 部分 -->
-<a href="https://chengwuming.github.io/openmathnotes" class="back-to-home">
-  返回主页
-</a>
 
-<!-- CSS 部分 -->
-<style>
-.back-to-home {
-    position: fixed;
-    top: 10px;
-    right: -100px; /* 按钮初始状态时隐藏一部分（根据按钮宽度调整） */
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 16px;
-    z-index: 1000;
-    transition: right 0.3s ease;  /* 添加过渡效果 */
-}
 
-/* 当用户将鼠标移到按钮上时，将按钮移回可视区域 */
-.back-to-home:hover {
-    right: 10px;  /* 按钮完全显示 */
-    background-color: #0056b3;
-}
 </style>
 
 </head>
