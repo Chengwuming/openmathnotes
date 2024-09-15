@@ -91,10 +91,40 @@
     <body>
 
         <script>
-            document.addEventListener("DOMContentLoaded", function() {
-                // 页面加载完毕后显示页面
+            function showPage() {
                 document.body.style.visibility = "visible";
                 document.body.style.opacity = 1;
+            }
+        
+            function waitForImages() {
+                const images = document.querySelectorAll('img');
+                let loadedCount = 0;
+        
+                function imageLoaded() {
+                    loadedCount++;
+                    if (loadedCount === images.length) {
+                        showPage();
+                    }
+                }
+        
+                images.forEach(img => {
+                    if (img.complete) {
+                        imageLoaded();
+                    } else {
+                        img.addEventListener('load', imageLoaded);
+                    }
+                });
+        
+                // 如果图片加载时间过长，设置一个超时时间
+                setTimeout(() => {
+                    if (loadedCount < images.length) {
+                        showPage();
+                    }
+                }, 5000); // 5秒超时时间
+            }
+        
+            document.addEventListener("DOMContentLoaded", function() {
+                waitForImages();
             });
         </script>
         <!-- Navigation-->
