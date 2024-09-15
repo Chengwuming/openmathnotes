@@ -1,1 +1,66 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[LogseqVault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.jpg</url><title>LogseqVault</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sun, 15 Sep 2024 12:53:39 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sun, 15 Sep 2024 12:53:38 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator></channel></rss>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[LogseqVault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.jpg</url><title>LogseqVault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sun, 15 Sep 2024 12:58:45 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sun, 15 Sep 2024 12:58:44 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Intro]]></title><description><![CDATA[<a class="tag" href="?query=tag:单词" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#单词</a> 
+ <br><a href=".?query=tag:单词" class="tag" target="_blank" rel="noopener">#单词</a><br><br><br>出生率 ，在满足  的情况下讨论  的连续可微解。称之为  （IVP）。<br>
+<br>
+对于 ，<br>
+我们有   显然 不会换号，所以得到
+
+<br>
+Logistic Equation<br>
+我们假设   那么当  较大时，出生率为负，更符合实际情况。<br>
+我们有其满足 ,其中 。令 从而得到   从此式中我们看出，非零，分母分子同时不为零。讨论然后去绝对值。  
+
+<br>
+Predator-Prey Model<br>
+ 吃  ，懒得写了
+
+<br><br>第一节课用一个词形容，就是幽默。<br>课堂上就证明了两个定理，板书也是令人难绷，哎。<br>这节课讨论的方程为<br>
+证明了此解的存在性于唯一性，以及最大延申解。<br>解的存在性与唯一性<br><br>定理 1
+对于 对任意的初值 ，此方程存在解且唯一。
+<br>习题里面证明此处  不一定要  。但是至少可微。考虑反例<br>
+则 都是解。<br>证明
+首先是平衡点的情况。 。则对任意的 , 为开区间，则其上存在解 , 使得  。
+我们来证明这一事实，如果存在 , 由于  的连续性，可以看出<br>
+ （不妨就令 <br>
+存在且 ，（为什么存在？RHS的集合是闭集的原像）
+所以  在  上内闭可积。通过积分得到一个时间差 ，这是一个实数，记为 ，但是由于  是 Lipschitz 连续（)，可以将积分放缩<br>
+从而  时黄色部分爆掉，矛盾。
+然后我们来看非平衡点的情况，
+<br>定理 2 最大延伸解
+对于  ，若 ，则存在最大延伸解<br>
+，其中  是开区间，且
+
+<br>
+<br>局部的唯一性，即子区间上的任意解都等于最大延伸解在其上的限制。
+
+<br>证明
+找到保持  的上下界，记为 ，记 
+在  上放心大胆的积分。我们记 ，这是一个严格单调递增函数(对  )。来找  空间对应的 
+ 即为所求。解为 。
+下面我们证第二点。由 以及定理一得到 ，其中 
+从而可以积分，从而证明了其唯一性
+
+<br>最后我们证明它是最大延伸的。
+
+<br>你会翻译证明中  的定义吗？<br>
+<br><br>
+<br>第二点证明中，为什么需要用到定理一？  的定义不是已经有其上  了吗？
+<br>这里对唯一的证明是否有不严谨之处？
+<br><br>propagation::传播<br><br>optics::光学<br>
+impact theory::影响理论<br>
+elasticity theory::弹性理论<br>
+acoustics::声学<br>
+substance::物质<br>
+cord::绳索<br>
+wagons::马车<br>
+depicted::描绘<br>
+trajectories of the motion of the phase point::相点运动轨迹<br>
+abscissa::横坐标<br>Arnold 你英语真好 :P]]></description><link>常微分方程\ode-notes-1.html</link><guid isPermaLink="false">常微分方程/ODE Notes 1.md</guid><pubDate>Fri, 13 Sep 2024 05:17:09 GMT</pubDate></item><item><title><![CDATA[这一节我们预热]]></title><description><![CDATA[ 
+ <br>9.2<br><br><br><img alt="Pasted image 20240902161818.png" src="lib\media\pasted-image-20240902161818.png"><br>看不懂，以后来看<br><br>
+<br>Weak zero property<br>
+
+<br>Strong zero property 分别对应 semimetric 和 metric space 的条件。
+<br>semimetric 自然诱导 metric 空间。<br>有了距离的概念，就可以定义度量空间中的收敛，以及 Cauchy 列。 Cauchy 列收敛的度量空间是完备的。考虑所有 Cauchy 列的集合，其上可以定义度量，并且和原来的度量相容，模掉距离相等的等价关系得到度量空间的完备化。详见<a data-href="度量空间的完备化" href="分析\度量空间的完备化.html" class="internal-link" target="_self" rel="noopener">度量空间的完备化</a>。<br><br>里面有一些定义不太常用，回顾了一下。比如 chain，良序，回顾了 <a data-href="Zorn's Lemma" href="Zorn's Lemma" class="internal-link" target="_self" rel="noopener">Zorn's Lemma</a>。<br><br>你需要知道一些基本结论，比如  有双射（可数个可数集合的并集可数）<br><a data-href="选择公理" href="选择公理" class="internal-link" target="_self" rel="noopener">选择公理</a><br><br>回顾了一些基本内容，比如 Jordan normal form, 内积之类。注意到你已经忘得差不多了，所以你需要找机会重新<br>
+<br>回顾一遍线性代数 
+<br><br> <a data-href="Taylor 定理" href="Taylor 定理" class="internal-link" target="_self" rel="noopener">Taylor 定理</a>，主要讨论了积分余项，练习题中给了另一种证法，请收录进去<br>"二项式定理" 未创建，点击以创建。<br>
+<br>给了一些part2a的定理
+<br><a data-href="单位分解" href="分析\单位分解.html" class="internal-link" target="_self" rel="noopener">单位分解</a><br><br>总的来说第一章就是简单回顾一下各种技术。今天碰到了学长，交流下来发现拓扑、抽代、微分几何的老师上来都要回顾一下之前的东西。记得647的复分析也是，但是今天 xgy 的 ODE 实在太难评，上来二话不说直接开讲，甚至没有自我介绍和课程介绍，动机也没有，直接就是两坨定理的证明，听不懂一点。<br><a data-href="Real Analysis Notes 2" href="实分析\real-analysis-notes-2.html" class="internal-link" target="_self" rel="noopener">Real Analysis Notes 2</a>]]></description><link>实分析\real-analysis-notes-1.html</link><guid isPermaLink="false">实分析/Real Analysis Notes 1.md</guid><pubDate>Fri, 13 Sep 2024 05:17:30 GMT</pubDate><enclosure url="lib\media\pasted-image-20240902161818.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240902161818.png"&gt;&lt;/figure&gt;</content:encoded></item></channel></rss>
