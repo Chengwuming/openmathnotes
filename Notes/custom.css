@@ -12,3 +12,7 @@
 .tree-header {
     display: none !important;
 }
+
+.document-container {
+    letter-spacing: 5px;
+}
