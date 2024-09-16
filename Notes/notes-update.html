@@ -46,11 +46,19 @@
             padding: 15px;
             border-radius: 5px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            border-radius: 10px; /* 增加圆角 */
+    /*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);  增加阴影 */
+    background-color: #e77575; /* 增加背景颜色 */
+
         }
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500&display=swap');
+
         .timeline-content h2 {
             margin: 0;
             font-size: 1.5em;
             font-weight: 500;
+            font-family: 'Noto Serif SC', serif; /* 使用更高级的中文字体 */
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* 添加标题阴影 */
         }
         .timeline-content p {
             margin: 5px 0;
@@ -75,7 +83,7 @@
         }
                     /* 背景图片全屏显示 */
             .masthead {
-                background-image: url('assets/img/111.jpg'); /* 确保路径正确 */
+                background-image: url('../assets/img/111.jpg'); /* 确保路径正确 */
                 background-size: cover;
                 background-position: center;
                 background-repeat: no-repeat;
@@ -96,17 +104,17 @@
          <!-- Navigation-->
          <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
             <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="index.html">Ciallo～(∠・ω< )⌒☆</a>
+                <a class="navbar-brand" href="../index.html">Ciallo～(∠・ω< )⌒☆</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto py-4 py-lg-0">
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="Notes/分析/常微分方程/ode-notes-1.html">Notes</a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="edited-latex.html">Posts</a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="Notes/notes-update.html">Logs</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="../index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="../Notes/分析/常微分方程/ode-notes-1.html">Notes</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="../edited-latex.html">Posts</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="../Notes/notes-update.html">Logs</a></li>
                         <!--li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="contact.html">Contact</a></li-->
                     </ul>
                 </div>  
@@ -114,20 +122,6 @@
         </nav>
         <!-- Page Header-->
         <header class="masthead" style="background-image: url('assets/img/112.jpg')">
-            <div class="container position-relative px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-md-10 col-lg-8 col-xl-7">
-                        <div class="site-heading">
-                            <h1>Aloha :)</h1>
-                            <span class="subheading">View my personal notes everywhere</span>
-                        </div>
-                        <div class="cta-buttons">
-                            <a href="Notes/分析/常微分方程/ode-notes-1.html" class="cta-button">Notes</a>
-                            <a href="edited-latex.html" class="cta-button">Posts</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </header>
 
 
