@@ -38,7 +38,7 @@ opacity: 1;
     /* 背景图片全屏显示 */
     .masthead {
         background-image: url('../assets/img/111.jpg'); /* 确保路径正确 */
-        background-size: cover;
+        background-size: 100% auto;
         background-position: center;
         background-repeat: no-repeat;
         height: 100vh;
@@ -181,71 +181,13 @@ transition: visibility 0s, opacity 0.1s linear; /* 添加过渡效果 */
 <header class="masthead" style="background-image: url('../assets/img/112.jpg')">
     <div class="container position-relative px-4 px-lg-5">
         <div class="row gx-4 gx-lg-5 justify-content-center">
+            <h1 style="text-align: center; font-weight: 500; margin-top: 80px;">笔记更新记录</h1>
+<div class="timeline" id="notes-container"></div>
         </div>
     </div>
 </header>
 <!-- Main Content-->
-<div class="container px-4 px-lg-5">
-    <div class="row gx-4 gx-lg-5 justify-content-center">
-        <div class="col-md-10 col-lg-8 col-xl-7">
-            <!-- Post preview-->
-            <div class="post-preview">
-                <a href="Notes/分析/常微分方程/ode-notes-1.html">
-                    <h2 class="post-title">Obsidian's Vault</h2>
-                    <h3 class="post-subtitle"></h3>
-                </a>
-                <p class="post-meta">
-                    Updated on September 15, 2024
-                </p>
-            </div>
-            <!-- Divider-->
-            <hr class="my-4" />
-            <!-- Post preview-->
-            <div class="post-preview">
-                <a href="edited-latex.html"><h2 class="post-title">Edited LaTeX</h2></a>
-                <p class="post-meta">
-                    Updated on September 11, 2024
-                </p>
-            </div>
-            <!-- Divider-->
-            <hr class="my-4" />
-            <!-- Post preview-->
-            <div class="post-preview">
-                <a href="Snake/snake.html">
-                    <h2 class="post-title">Try Snake</h2>
-                    <h3 class="post-subtitle">Use arrows to control the snake. This is the first version, I'll add more features as practice maybe two months later.</h3>
-                </a>
-                <p class="post-meta">
-                    Updated on September 1, 2024
-                </p>
-            </div>
-            <!-- Divider-->
-            <hr class="my-4" />
-            <!-- Post preview-->
-            <div class="post-preview">
-                <a href="GoBack.html">
-                    <h2 class="post-title">Under construction...</h2>
-                    <!--h3 class="post-subtitle">We predict too much for the next year and yet far too little for the next ten.</h3>
-                </a>
-                <p class="post-meta">
-                    Posted by
-                    <a href="#!">Start Bootstrap</a>
-                    on August 24, 2023
-                </p-->
-            </div>  
-            <!-- Divider-->
-            <hr class="my-4" />
-            <!-- Pager-->
-            <div class="d-flex justify-content-end mb-4"><a class="btn btn-primary text-uppercase" href="#!">More →</a></div>
-        </div>
-    </div>
-</div>
 
-
-
-
-<h1 style="text-align: center; font-weight: 500; margin-top: 80px;">笔记更新记录</h1>
-<div class="timeline" id="notes-container"></div>
 
 <script>
     async function fetchRSS() {
