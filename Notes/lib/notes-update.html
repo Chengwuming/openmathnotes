@@ -25,7 +25,7 @@
 
     <script>
         async function fetchRSS() {
-            const response = await fetch('rss.xml'); // 修改这里
+            const response = await fetch('lib/rss.xml'); // 修改这里
             const text = await response.text();
             const parser = new DOMParser();
             const xmlDoc = parser.parseFromString(text, 'text/xml');
@@ -47,8 +47,9 @@
                 const description = item.querySelector('description').textContent;
                 const pubDate = item.querySelector('pubDate').textContent;
 
-                // 截取前 100 个字符
-                const truncatedDescription = description.length > 100 ? description.substring(0, 100) + '...' : description;
+                // 提取预览内容
+                const previewMatch = description.match(/^\s*>\s*\[!CITE\]\s*([^\s\n]+)/m);
+                const previewContent = previewMatch ? previewMatch[1].trim() : '无预览内容';
 
                 const postPreview = document.createElement('div');
                 postPreview.className = 'post-preview';
@@ -65,7 +66,7 @@
                 postMeta.textContent = `Updated on ${new Date(pubDate).toLocaleString()}`;
 
                 const postDescription = document.createElement('p');
-                postDescription.textContent = truncatedDescription;
+                postDescription.textContent = previewContent;
 
                 postTitleLink.appendChild(postTitle);
                 postPreview.appendChild(postTitleLink);
