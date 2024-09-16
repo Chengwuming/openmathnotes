@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <title>笔记更新记录</title>
     <style>
-        .note-item {
+        .post-preview {
             margin-bottom: 20px;
             padding: 10px;
             border: 1px solid #ccc;
             border-radius: 5px;
         }
-        .note-item h2 {
+        .post-preview h2 {
             margin: 0;
             font-size: 1.5em;
         }
-        .note-item p {
+        .post-preview p {
             margin: 5px 0;
         }
     </style>
@@ -25,7 +25,7 @@
 
     <script>
         async function fetchRSS() {
-            const response = await fetch('rss.xml'); // 修改这里
+            const response = await fetch('lib/rss.xml'); // 修改这里
             const text = await response.text();
             const parser = new DOMParser();
             const xmlDoc = parser.parseFromString(text, 'text/xml');
@@ -50,28 +50,29 @@
                 // 截取前 100 个字符
                 const truncatedDescription = description.length > 100 ? description.substring(0, 100) + '...' : description;
 
-                const noteItem = document.createElement('div');
-                noteItem.className = 'note-item';
+                const postPreview = document.createElement('div');
+                postPreview.className = 'post-preview';
 
-                const noteTitle = document.createElement('h2');
-                noteTitle.textContent = title;
+                const postTitleLink = document.createElement('a');
+                postTitleLink.href = link;
 
-                const noteLink = document.createElement('a');
-                noteLink.href = link;
-                noteLink.textContent = '查看详情';
+                const postTitle = document.createElement('h2');
+                postTitle.className = 'post-title';
+                postTitle.textContent = title;
 
-                const noteDescription = document.createElement('p');
-                noteDescription.textContent = truncatedDescription;
+                const postMeta = document.createElement('p');
+                postMeta.className = 'post-meta';
+                postMeta.textContent = `Updated on ${new Date(pubDate).toLocaleString()}`;
 
-                const noteDate = document.createElement('p');
-                noteDate.textContent = `发布日期: ${new Date(pubDate).toLocaleString()}`;
+                const postDescription = document.createElement('p');
+                postDescription.textContent = truncatedDescription;
 
-                noteItem.appendChild(noteTitle);
-                noteItem.appendChild(noteLink);
-                noteItem.appendChild(noteDescription);
-                noteItem.appendChild(noteDate);
+                postTitleLink.appendChild(postTitle);
+                postPreview.appendChild(postTitleLink);
+                postPreview.appendChild(postMeta);
+                postPreview.appendChild(postDescription);
 
-                notesContainer.appendChild(noteItem);
+                notesContainer.appendChild(postPreview);
             });
         }
 
