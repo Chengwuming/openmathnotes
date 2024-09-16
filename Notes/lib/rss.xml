@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[LogseqVault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>LogseqVault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 16 Sep 2024 12:48:48 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 16 Sep 2024 12:48:11 GMT</pubDate><copyright><![CDATA[Chengwuming]]></copyright><ttl>60</ttl><dc:creator>Chengwuming</dc:creator><item><title><![CDATA[作业9]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[LogseqVault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>LogseqVault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 16 Sep 2024 13:00:41 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 16 Sep 2024 13:00:20 GMT</pubDate><copyright><![CDATA[Chengwuming]]></copyright><ttl>60</ttl><dc:creator>Chengwuming</dc:creator><item><title><![CDATA[作业9]]></title><description><![CDATA[ 
  <br>
 <br>
 <img alt="Pasted image 20240513205638.png" src="lib\media\pasted-image-20240513205638.png">
@@ -570,7 +570,7 @@ Predator-Prey Model<br>
  吃  ，懒得写了
 
 <br><br>第一节课用一个词形容，就是幽默。<br>课堂上就证明了两个定理，板书也是令人难绷，哎。<br>这节课讨论的方程为<br>
-证明了此解的存在性于唯一性，以及最大延申解。<br>解的存在性与唯一性<br><br>&lt;--这里是内容--&gt;<br>定理 1
+证明了此解的存在性于唯一性，以及最大延申解。<br>解的存在性与唯一性<br><br>'这里是内容'<br>定理 1
 对于 对任意的初值 ，此方程存在解且唯一。
 <br>习题里面证明此处  不一定要  。但是至少可微。考虑反例<br>
 则 都是解。<br>证明
@@ -1225,7 +1225,7 @@ g
 <br>说得详细, 有为了美观的排版 (如加粗, 思路点拨)
 <br>计算过程最好不要省, 而是写出来并思考能否优化
 <br>老师布置了作业题, 意味着你要达到认为这些题目显然, 涉及到的运算熟稔, 最好制成卡片. <br>作业是需要交流的, 并且要把交流得到的东西记录下来. 这点你一向做得很不好. <br>自己给自己布置的题目就在纸上写写, 总结一下即可, 老师布置的作业一定要特殊对待. 除了一种作业题: 刚刚学习概念, 为了接触一下便于理解的题目. 这些如果显然就可以不总结.<br>典型的计算方式 (算法) 需要总结.<br>不要低估自己当前的水平, 不要高估自己未来的水平, 假定未来的你就是菜鸡, 什么都忘了, 你要短时间教会他东西, 作业就是极好的载体. <br>把那些自己永远也不要忘掉的东西制卡.]]></description><link>想法\作业感悟.html</link><guid isPermaLink="false">想法/作业感悟.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Mon, 01 Jul 2024 14:48:06 GMT</pubDate></item><item><title><![CDATA[ODE 第一次作业]]></title><description><![CDATA[ 
- <br>解的存在性与唯一性<br><br>&lt;--这里是内容--&gt;<br>定理 1
+ <br>解的存在性与唯一性<br><br>'这里是内容'<br>定理 1
 对于 对任意的初值 ，此方程存在解且唯一。
 <br>习题里面证明此处  不一定要  。但是至少可微。考虑反例<br>
 则 都是解。<br>证明
@@ -1283,7 +1283,7 @@ g
 <br><br><img alt="Pasted image 20240915092331.png" src="lib\media\pasted-image-20240915092331.png"><br>
 <img alt="Pasted image 20240915092339.png" src="lib\media\pasted-image-20240915092339.png"><br>
 <img alt="Pasted image 20240915092346.png" src="lib\media\pasted-image-20240915092346.png">]]></description><link>作业\ode-第一次作业.html</link><guid isPermaLink="false">作业/ODE 第一次作业.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sun, 15 Sep 2024 04:25:23 GMT</pubDate><enclosure url="lib\media\pasted-image-20240915092018.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240915092018.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[解的存在性与唯一性]]></title><description><![CDATA[ 
- <br>&lt;--这里是内容--&gt;<br>定理 1
+ <br>'这里是内容'<br>定理 1
 对于 对任意的初值 ，此方程存在解且唯一。
 <br>习题里面证明此处  不一定要  。但是至少可微。考虑反例<br>
 则 都是解。<br>证明
@@ -1314,7 +1314,7 @@ g
 <br><br>
 <br>第二点证明中，为什么需要用到定理一？  的定义不是已经有其上  了吗？
 <br>这里对唯一的证明是否有不严谨之处？
-]]></description><link>mathstuff\解的存在性与唯一性.html</link><guid isPermaLink="false">MathStuff/解的存在性与唯一性.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Mon, 16 Sep 2024 12:46:20 GMT</pubDate></item><item><title><![CDATA[曲面的定义]]></title><description><![CDATA[ 
+]]></description><link>mathstuff\解的存在性与唯一性.html</link><guid isPermaLink="false">MathStuff/解的存在性与唯一性.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Mon, 16 Sep 2024 12:57:09 GMT</pubDate></item><item><title><![CDATA[曲面的定义]]></title><description><![CDATA[ 
  <br><br>定义的方式有很多。<br>
 <br>流形在大空间里任意一点的邻域和对应维数的   同胚，  是  中的开集。
 <br>或者先将邻域  和流形做交 ，这个集合与  中的开集  同胚。
