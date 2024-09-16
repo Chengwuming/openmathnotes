@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>笔记更新记录</title>
+    <style>
+        .note-item {
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .note-item h2 {
+            margin: 0;
+            font-size: 1.5em;
+        }
+        .note-item p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>笔记更新记录</h1>
+    <div id="notes-container"></div>
+
+    <script>
+        async function fetchRSS() {
+            const response = await fetch('/Notes/lib/rss.xml');
+            const text = await response.text();
+            const parser = new DOMParser();
+            const xmlDoc = parser.parseFromString(text, 'text/xml');
+
+            const items = xmlDoc.querySelectorAll('item');
+            const notesContainer = document.getElementById('notes-container');
+
+            items.forEach(item => {
+                const title = item.querySelector('title').textContent;
+                const link = item.querySelector('link').textContent;
+                const description = item.querySelector('description').textContent;
+                const pubDate = item.querySelector('pubDate').textContent;
+
+                const noteItem = document.createElement('div');
+                noteItem.className = 'note-item';
+
+                const noteTitle = document.createElement('h2');
+                noteTitle.textContent = title;
+
+                const noteLink = document.createElement('a');
+                noteLink.href = link;
+                noteLink.textContent = '查看详情';
+
+                const noteDescription = document.createElement('p');
+                noteDescription.textContent = description;
+
+                const noteDate = document.createElement('p');
+                noteDate.textContent = `发布日期: ${new Date(pubDate).toLocaleString()}`;
+
+                noteItem.appendChild(noteTitle);
+                noteItem.appendChild(noteLink);
+                noteItem.appendChild(noteDescription);
+                noteItem.appendChild(noteDate);
+
+                notesContainer.appendChild(noteItem);
+            });
+        }
+
+        fetchRSS();
+    </script>
+</body>
+</html>
