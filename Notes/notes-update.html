@@ -11,7 +11,10 @@
             padding: 0;
         }
         .timeline {
-            position: relative;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-auto-rows: minmax(100px, auto);
+            gap: 20px;
             max-width: 800px;
             margin: 0 auto;
             padding: 20px 0;
@@ -28,26 +31,17 @@
         }
         .timeline-item {
             position: relative;
-            width: 50%;
             padding: 10px 20px;
             box-sizing: border-box;
-            clear: both;
-        }
-        .timeline-item:nth-child(odd) {
-            float: left;
-            text-align: right;
-            margin-right: 20px;
-        }
-        .timeline-item:nth-child(even) {
-            float: right;
-            text-align: left;
-            margin-left: 20px;
-        }
-        .timeline-content {
             background-color: #fff;
-            padding: 15px;
             border-radius: 5px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .timeline-item:nth-child(odd) {
+            grid-column: 1;
+        }
+        .timeline-item:nth-child(even) {
+            grid-column: 2;
         }
         .timeline-content h2 {
             margin: 0;
