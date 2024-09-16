@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[LogseqVault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>LogseqVault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sun, 15 Sep 2024 15:43:39 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sun, 15 Sep 2024 15:43:17 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[作业9]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[LogseqVault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>LogseqVault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 16 Sep 2024 11:33:49 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 16 Sep 2024 11:33:26 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[作业9]]></title><description><![CDATA[ 
  <br>
 <br>
 <img alt="Pasted image 20240513205638.png" src="lib\media\pasted-image-20240513205638.png">
@@ -1353,7 +1353,139 @@ g
 
 
 <br>
-<br>例子：对  中的单位球赋予自然定向，则  的诱导定向是逆时针。]]></description><link>mathstuff\曲面.html</link><guid isPermaLink="false">MathStuff/曲面.md</guid><pubDate>Fri, 13 Sep 2024 06:02:45 GMT</pubDate><enclosure url="lib\media\pasted-image-20240517103127.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240517103127.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[one-point compactification]]></title><description><![CDATA[ 
+<br>例子：对  中的单位球赋予自然定向，则  的诱导定向是逆时针。]]></description><link>mathstuff\曲面.html</link><guid isPermaLink="false">MathStuff/曲面.md</guid><pubDate>Fri, 13 Sep 2024 06:02:45 GMT</pubDate><enclosure url="lib\media\pasted-image-20240517103127.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240517103127.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[正项级数收敛判别法]]></title><description><![CDATA[<a class="tag" href="?query=tag:级数" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#级数</a> <a class="tag" href="?query=tag:收敛" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#收敛</a> 
+ <br><a href=".?query=tag:级数" class="tag" target="_blank" rel="noopener">#级数</a> <a href=".?query=tag:收敛" class="tag" target="_blank" rel="noopener">#收敛</a> <br><br>
+<br>
+设正项级数 , , 当  充分大时有 .
+
+<br>若  收敛, 则  也收敛.
+<br>若  发散, 则  也发散.
+
+
+<br>
+（极限形式）设正项级数 , , 若<br>
+则<br>
+(1) 当  时，级数 ,  同敛散。<br>
+(2) 当  时，若级数  收敛时，则  也收敛。<br>
+(3) 当  时，若级数  次数时，则  也发散。
+
+<br>这个本身比较平凡，没什么好说的。你需要对各种级数的快慢建立一个感觉，实际中采用不同的比较级数。<br>操作上，把比较级数写在分子上，期待比值被控制吧。这是你的个人习惯。<br>想一想为什么这里局限在正项级数？<br><br>比值判别法
+设正项级数  和 <br>
+当  充分大后, 若
+
+则 (1) 当  收敛时,   也收敛.
+(2) 当  发散时,  也发散.
+<br>大项在上<br>注意到比值判别法的通项要求单调。<br><br>积分的几个估计 <a data-tooltip-position="top" aria-label="https://www.bilibili.com/video/BV1GW4y1B7A6/?p=70&amp;spm_id_from=pageDriver" rel="noopener" class="external-link" href="https://www.bilibili.com/video/BV1GW4y1B7A6/?p=70&amp;spm_id_from=pageDriver" target="_blank">有时间搞搞</a><br><br>Cauchy 积分判别法
+设函数  在  上非负且单调递减，则以下无穷级数与无穷积分同级数:<br>
+
+<br>通过这个技术，我们可以做出来一些收敛的非常慢的级数，方便比较。<br><br>通常到这一水平就够了，诸如 在不考虑。<br><br><br>Cauchy 根值判别法
+对于正项级数 , ，<br>
+充分大时，存在  使得 ，则收敛。<br>
+若存在无穷多的  满足 ，则发散
+<br>显然是在和几何级数比较。<br>比较有趣的是发散的判别条件。想想为什么不是<br>Cauchy 根值判别法（极限形式）
+
+(1) 当  时，级数收敛。<br>
+(2) 当  时，级数发散。
+<br><br>对数判别法
+设正项级数 。令<br>
+当  充分大时，<br>
+若存在  使得 ，则级数  收敛。<br>
+若 ，则级数  发散
+核心
+
+
+<br>Proof
+
+<br><br><br>去比值判别法的  为几何级数。<br>对应的极限形式，考虑上下极限，取得的值都小于一即可<br><br>则收敛，均大于一趋于 ，其余无法判断<br>和 Cauchy 根值判别法基本没有区别<br><br>Cauchy 更强一点。<br><br>Raabe 判别法
+正项级数 
+
+当  充分大时，
+(1) 若存在  满足 ，则级数收敛<br>
+(2) 若 ，则级数发散。
+核心
+
+
+<br>证明
+
+简单改写一下
+
+<img alt="Pasted image 20240916174049.png" src="lib\media\pasted-image-20240916174049.png" style="width: 1076px; max-width: 100%;">
+<br>Raabe 判别法（极限形式）
+
+即 则
+(1) 当  时级数收敛。
+(2) 当  时级数发散。
+(3) 当  时无法判断级数的敛散性。
+<br><br>Bertrand 判别法
+
+<br>我懒得说了，懂得都懂。<br>总的来说，这一堆比较判别法比较方便那些比一下可以消掉很多项的级数。<br>练练手看一看<br><img alt="Pasted image 20240916175002.png" src="lib\media\pasted-image-20240916175002.png"><br><br>Guass 判别法
+设正顶级数  若
+
+其中  都是常数， 是一个有界量。则级数的敛散性为
+
+<br><br>Done
+Cauchy 根值判别法 的发散形式要求无穷多项大于 0
+Raabe 判别法的一般形式 和对数判别法是唯二两个在 1 处 级数能够判断且是发散的。（对应的比较判别法应该基本一致）
+对数判别法没有极限形式
+Cauchy 根式判别法应该是最先用的
+<br><br>
+<br>
+
+设正项级数  和 ，当  充分大时有 。若  收敛，则  也收敛；若  发散，则  也发散。
+
+<br>
+
+设正项级数  和 ，若 ，则：<br>
+(1) 当  时，级数  和  同敛散。<br>
+(2) 当  时，若级数  收敛，则  也收敛。<br>
+(3) 当  时，若级数  发散，则  也发散。
+
+<br>
+
+设正项级数  和 ，当  充分大后，若 ，则：<br>
+(1) 当  收敛时， 也收敛。<br>
+(2) 当  发散时， 也发散。
+
+<br>
+
+设函数  在  上非负且单调递减，则以下无穷级数与无穷积分同敛散：<br>
+
+
+<br>
+
+对于正项级数 ，设 ，若  充分大时，存在  使得 ，则级数收敛；<br>
+若存在无穷多的  满足 ，则级数发散。
+
+<br>
+
+(1) 当  时，级数收敛。<br>
+(2) 当  时，级数发散。
+
+<br>
+
+设正项级数 。令<br>
+当  充分大时，<br>
+若存在  使得 ，则级数  收敛。<br>
+若 ，则级数  发散。
+
+<br>
+
+正项级数  的 Raabe 判别法定义为：<br>
+当  充分大时，<br>
+(1) 若存在  满足 ，则级数收敛。<br>
+(2) 若 ，则级数发散。
+
+<br>
+
+简单改写一下<br>
+因此，级数  收敛。
+
+<br>
+
+设正项级数  若<br>
+其中  都是常数， 是一个有界量。则级数的敛散性为：
+
+<br>]]></description><link>mathstuff\正项级数收敛判别法.html</link><guid isPermaLink="false">MathStuff/正项级数收敛判别法.md</guid><pubDate>Mon, 16 Sep 2024 11:32:23 GMT</pubDate><enclosure url="lib\media\pasted-image-20240916174049.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240916174049.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[one-point compactification]]></title><description><![CDATA[ 
  <br>one-point compactification(单点紧化) 是一种将非紧致的局部紧致空间转化为紧致空间的技术。具体来说，给定一个局部紧致空间 ，其单点紧化是通过添加一个点（通常称为“无穷远点”或“附加点”）到  中，并将  的拓扑扩展到这个新点，使得整个空间成为紧致的。<br>形式化地，设  是一个局部紧致 Hausdorff 空间。 的单点紧化记作  或 ，其中  是新添加的点。 的拓扑定义如下：<br>
 <br>对于  中的任何开集 ， 也是  中的开集。
 <br>一个包含  的开集是  中的一个紧致闭集的补集。
