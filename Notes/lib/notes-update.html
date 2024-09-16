@@ -18,7 +18,6 @@
             margin: 5px 0;
         }
     </style>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/findAndReplaceDOMText/0.4.6/findAndReplaceDOMText.min.js"></script>
 </head>
 <body>
     <h1>笔记更新记录</h1>
@@ -26,12 +25,20 @@
 
     <script>
         async function fetchRSS() {
-            const response = await fetch('rss.xml');
+            const response = await fetch('rss.xml'); // 修改这里
             const text = await response.text();
             const parser = new DOMParser();
             const xmlDoc = parser.parseFromString(text, 'text/xml');
 
-            const items = xmlDoc.querySelectorAll('item');
+            const items = Array.from(xmlDoc.querySelectorAll('item'));
+
+            // 按发布日期排序
+            items.sort((a, b) => {
+                const dateA = new Date(a.querySelector('pubDate').textContent);
+                const dateB = new Date(b.querySelector('pubDate').textContent);
+                return dateB - dateA; // 降序排序
+            });
+
             const notesContainer = document.getElementById('notes-container');
 
             items.forEach(item => {
@@ -50,8 +57,8 @@
                 noteLink.href = link;
                 noteLink.textContent = '查看详情';
 
-                const noteDescription = document.createElement('p');
-                noteDescription.textContent = description;
+                const noteDescription = document.createElement('div');
+                noteDescription.innerHTML = description; // 使用 innerHTML 解析 HTML 内容
 
                 const noteDate = document.createElement('p');
                 noteDate.textContent = `发布日期: ${new Date(pubDate).toLocaleString()}`;
