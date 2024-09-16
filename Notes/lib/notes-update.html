@@ -47,6 +47,9 @@
                 const description = item.querySelector('description').textContent;
                 const pubDate = item.querySelector('pubDate').textContent;
 
+                // 截取前 100 个字符
+                const truncatedDescription = description.length > 100 ? description.substring(0, 100) + '...' : description;
+
                 const noteItem = document.createElement('div');
                 noteItem.className = 'note-item';
 
@@ -57,8 +60,8 @@
                 noteLink.href = link;
                 noteLink.textContent = '查看详情';
 
-                const noteDescription = document.createElement('div');
-                noteDescription.innerHTML = description; // 使用 innerHTML 解析 HTML 内容
+                const noteDescription = document.createElement('p');
+                noteDescription.textContent = truncatedDescription;
 
                 const noteDate = document.createElement('p');
                 noteDate.textContent = `发布日期: ${new Date(pubDate).toLocaleString()}`;
