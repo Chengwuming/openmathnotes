@@ -48,7 +48,7 @@
                 const pubDate = item.querySelector('pubDate').textContent;
 
                 // 提取预览内容
-                const previewMatch = description.match(/^'([^']+)'/);
+                const previewMatch = description.match(/"(.*?)"/);
                 const previewContent = previewMatch ? previewMatch[1].trim() : '无预览内容';
 
                 const postPreview = document.createElement('div');
