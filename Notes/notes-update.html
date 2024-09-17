@@ -4,24 +4,94 @@
     <meta charset="UTF-8">
     <title>笔记更新记录</title>
     <style>
-        .post-preview {
-            margin-bottom: 20px;
-            padding: 10px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
+        body {
+            font-family: Arial, sans-serif;
         }
-        .post-preview h2 {
+        .timeline {
+            position: relative;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .timeline::after {
+            content: '';
+            position: absolute;
+            width: 6px;
+            background-color: #ccc;
+            top: 0;
+            bottom: 0;
+            left: 50%;
+            margin-left: -3px;
+        }
+        .container {
+            padding: 10px 40px;
+            position: relative;
+            background-color: inherit;
+            width: 50%;
+        }
+        .container::after {
+            content: '';
+            position: absolute;
+            width: 25px;
+            height: 25px;
+            right: -17px;
+            background-color: white;
+            border: 4px solid #FF9F55;
+            top: 15px;
+            border-radius: 50%;
+            z-index: 1;
+        }
+        .left {
+            left: 0;
+        }
+        .right {
+            left: 50%;
+        }
+        .left::before {
+            content: " ";
+            height: 0;
+            position: absolute;
+            top: 22px;
+            width: 0;
+            z-index: 1;
+            right: 30px;
+            border: medium solid white;
+            border-width: 10px 0 10px 10px;
+            border-color: transparent transparent transparent white;
+        }
+        .right::before {
+            content: " ";
+            height: 0;
+            position: absolute;
+            top: 22px;
+            width: 0;
+            z-index: 1;
+            left: 30px;
+            border: medium solid white;
+            border-width: 10px 10px 10px 0;
+            border-color: transparent white transparent transparent;
+        }
+        .right::after {
+            left: -16px;
+        }
+        .content {
+            padding: 20px 30px;
+            background-color: white;
+            position: relative;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+        }
+        .content h2 {
             margin: 0;
             font-size: 1.5em;
         }
-        .post-preview p {
+        .content p {
             margin: 5px 0;
         }
     </style>
 </head>
 <body>
     <h1>笔记更新记录</h1>
-    <div id="notes-container"></div>
+    <div class="timeline" id="notes-container"></div>
 
     <script>
         async function fetchRSS() {
@@ -40,8 +110,9 @@
             });
 
             const notesContainer = document.getElementById('notes-container');
+            let currentDate = null;
 
-            items.forEach(item => {
+            items.forEach((item, index) => {
                 const title = item.querySelector('title').textContent;
                 const link = item.querySelector('link').textContent;
                 const description = item.querySelector('description').textContent;
@@ -51,8 +122,22 @@
                 const previewMatch = description.match(/"(.*?)"/);
                 const previewContent = previewMatch ? previewMatch[1].trim() : '无预览内容';
 
-                const postPreview = document.createElement('div');
-                postPreview.className = 'post-preview';
+                // 获取发布日期
+                const date = new Date(pubDate).toLocaleDateString();
+
+                // 如果日期变化，创建新的日期标题
+                if (date !== currentDate) {
+                    currentDate = date;
+                    const dateHeader = document.createElement('h2');
+                    dateHeader.textContent = date;
+                    notesContainer.appendChild(dateHeader);
+                }
+
+                const container = document.createElement('div');
+                container.className = index % 2 === 0 ? 'container left' : 'container right';
+
+                const content = document.createElement('div');
+                content.className = 'content';
 
                 const postTitleLink = document.createElement('a');
                 postTitleLink.href = link;
@@ -69,11 +154,12 @@
                 postDescription.textContent = previewContent;
 
                 postTitleLink.appendChild(postTitle);
-                postPreview.appendChild(postTitleLink);
-                postPreview.appendChild(postMeta);
-                postPreview.appendChild(postDescription);
+                content.appendChild(postTitleLink);
+                content.appendChild(postMeta);
+                content.appendChild(postDescription);
 
-                notesContainer.appendChild(postPreview);
+                container.appendChild(content);
+                notesContainer.appendChild(container);
             });
         }
 
