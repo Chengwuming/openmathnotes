@@ -7,11 +7,8 @@
         body {
             font-family: Arial, sans-serif;
             padding: 20px;
-            background: url('../assets/img/111.jfif') no-repeat center center fixed;
-            background-size: cover;
-            background-attachment: fixed;
-            background-position: center top;
-            transition: background-position 0.3s ease-out;
+            margin: 0;
+            overflow-x: hidden; /* 防止水平滚动 */
         }
         h1 {
             text-align: center;
@@ -92,9 +89,23 @@
                 padding: 10px 15px;
             }
         }
+
+        /* 背景图片 */
+        .background-image {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('path/to/your/background-image.jpg') no-repeat center center;
+            background-size: cover;
+            z-index: -1;
+            transition: transform 0.5s ease-out;
+        }
     </style>
 </head>
 <body>
+    <div class="background-image" id="background-image"></div>
     <h1>笔记更新记录</h1>
     <div class="timeline" id="timeline-container"></div>
 
@@ -184,16 +195,12 @@
         // 在页面加载完成后调用fetchRSS
         window.addEventListener('DOMContentLoaded', fetchRSS);
 
-        // 控制背景图片的滚动行为
-        window.addEventListener('scroll', function() {
+        // 监听滚动事件，调整背景图片的滚动速度
+        window.addEventListener('scroll', () => {
+            const backgroundImage = document.getElementById('background-image');
             const scrollTop = window.scrollY;
-            const backgroundHeight = - (document.body.scrollHeight - window.innerHeight);
-
-            if (scrollTop < backgroundHeight) {
-                document.body.style.backgroundPosition = `center ${scrollTop}px`;
-            } else {
-                document.body.style.backgroundPosition = `center ${backgroundHeight}px`;
-            }
+            const scrollSpeed = 0.5; // 调整背景图片的滚动速度
+            backgroundImage.style.transform = `translateY(${scrollTop * scrollSpeed}px)`;
         });
     </script>
 </body>
