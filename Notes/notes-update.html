@@ -2,221 +2,159 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>笔记更新记录</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>带背景图片的笔记更新记录</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
+        body, html {
             margin: 0;
-            background-color: #f4f4f4;
-        }
-        .timeline-container {
-            width: 80%;
-            max-width: 800px;
-            overflow: hidden;
-            position: relative;
-            height: 600px;
-            border: 1px solid #ccc;
-            padding: 20px;
-            box-sizing: border-box;
-            background-color: white;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-        .timeline {
-            position: relative;
             padding: 0;
-            margin: 0;
             height: 100%;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
+            overflow-x: hidden;
+            font-family: Arial, sans-serif;
         }
-        .timeline::after {
+
+        /* 背景图片容器 */
+        .background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('your-image-path.jpg'); /* 替换为您的美术作品路径 */
+            background-size: cover;
+            background-position: top;
+            z-index: -1; /* 背景放在最底层 */
+            transition: background-position 0.3s ease;
+        }
+
+        /* 内容容器 */
+        .content {
+            position: relative;
+            z-index: 1; /* 确保内容在背景之上 */
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: white;
+            text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+        }
+
+        /* 时间轴容器 */
+        .timeline {
+            margin: 0 auto;
+            padding-left: 40px;
+            max-width: 800px;
+        }
+
+        /* 时间轴的主线和条目（同之前的实现） */
+        .timeline::before {
             content: '';
             position: absolute;
-            width: 6px;
-            background-color: #ccc;
+            left: 20px;
             top: 0;
             bottom: 0;
-            left: 50%;
-            margin-left: -3px;
+            width: 4px;
+            background: #ccc;
         }
-        .container {
-            padding: 10px 40px;
+
+        .timeline-entry {
             position: relative;
-            background-color: inherit;
-            width: 50%;
-            opacity: 0.7;
-            transform: scale(0.8);
-            transition: all 0.5s ease;
+            margin-bottom: 40px;
         }
-        .container::after {
+
+        .timeline-entry::before {
             content: '';
             position: absolute;
-            width: 25px;
-            height: 25px;
-            right: -17px;
-            background-color: white;
-            border: 4px solid #FF9F55;
-            top: 15px;
+            left: -4px;
+            background: #fff;
+            border: 4px solid #007BFF;
+            top: 0;
             border-radius: 50%;
-            z-index: 1;
+            width: 16px;
+            height: 16px;
         }
-        .left {
-            left: 0;
-        }
-        .right {
-            left: 50%;
-        }
-        .left::before {
-            content: " ";
-            height: 0;
-            position: absolute;
-            top: 22px;
-            width: 0;
-            z-index: 1;
-            right: 30px;
-            border: medium solid white;
-            border-width: 10px 0 10px 10px;
-            border-color: transparent transparent transparent white;
-        }
-        .right::before {
-            content: " ";
-            height: 0;
-            position: absolute;
-            top: 22px;
-            width: 0;
-            z-index: 1;
-            left: 30px;
-            border: medium solid white;
-            border-width: 10px 10px 10px 0;
-            border-color: transparent white transparent transparent;
-        }
-        .right::after {
-            left: -16px;
-        }
-        .content {
-            padding: 20px 30px;
-            background-color: white;
-            position: relative;
+
+        .timeline-content {
+            padding: 10px 20px;
+            background: rgba(255, 255, 255, 0.8); /* 半透明背景 */
             border-radius: 6px;
-            border: 1px solid #ccc;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border: 1px solid #ddd;
         }
-        .content h2 {
-            margin: 0;
-            font-size: 1.5em;
+
+        .timeline-date {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+            color: #007BFF;
         }
-        .content p {
-            margin: 5px 0;
-        }
-        .container.active {
-            opacity: 1;
-            transform: scale(1);
+
+        /* 响应式设计 */
+        @media screen and (max-width: 600px) {
+            .timeline::before {
+                left: 10px;
+            }
+            .timeline-entry::before {
+                left: -6px;
+            }
+            .timeline-content {
+                padding: 10px 15px;
+            }
         }
     </style>
 </head>
 <body>
-    <h1>笔记更新记录</h1>
-    <div class="timeline-container" id="notes-container"></div>
+    <div class="background"></div>
+    <div class="content">
+        <h1>笔记更新记录</h1>
+        <div class="timeline" id="timeline-container"></div>
+    </div>
 
     <script>
-        async function fetchRSS() {
-            const response = await fetch('lib/rss.xml'); // 修改这里
-            const text = await response.text();
-            const parser = new DOMParser();
-            const xmlDoc = parser.parseFromString(text, 'text/xml');
+        // 动态背景图片滚动逻辑
+        window.addEventListener('scroll', function() {
+            const scrollPosition = window.scrollY;
+            const windowHeight = window.innerHeight;
+            const docHeight = document.body.scrollHeight;
+            const background = document.querySelector('.background');
 
-            const items = Array.from(xmlDoc.querySelectorAll('item'));
+            // 计算背景图片的滚动比例
+            const maxScroll = docHeight - windowHeight;
+            const scrollRatio = Math.min(scrollPosition / maxScroll, 1);
 
-            // 按发布日期排序
-            items.sort((a, b) => {
-                const dateA = new Date(a.querySelector('pubDate').textContent);
-                const dateB = new Date(b.querySelector('pubDate').textContent);
-                return dateB - dateA; // 降序排序
-            });
+            // 背景滚动逻辑：图片跟随页面滚动，直到到达背景底部
+            if (scrollPosition <= windowHeight) {
+                background.style.backgroundPosition = `center ${scrollRatio * 100}%`;
+            } else {
+                background.style.backgroundPosition = 'center 100%'; // 背景固定在底部
+            }
+        });
 
-            const notesContainer = document.getElementById('notes-container');
-            let currentDate = null;
+        // 模拟笔记内容的加载（根据实际情况替换为RSS内容加载）
+        function loadTimeline() {
+            const timelineContainer = document.getElementById('timeline-container');
 
-            const timeline = document.createElement('div');
-            timeline.className = 'timeline';
+            for (let i = 1; i <= 10; i++) {
+                const timelineEntry = document.createElement('div');
+                timelineEntry.className = 'timeline-entry';
 
-            items.forEach((item, index) => {
-                const title = item.querySelector('title').textContent;
-                const link = item.querySelector('link').textContent;
-                const description = item.querySelector('description').textContent;
-                const pubDate = item.querySelector('pubDate').textContent;
+                const timelineContent = document.createElement('div');
+                timelineContent.className = 'timeline-content';
 
-                // 提取预览内容
-                const previewMatch = description.match(/"(.*?)"/);
-                const previewContent = previewMatch ? previewMatch[1].trim() : '无预览内容';
+                const timelineDate = document.createElement('div');
+                timelineDate.className = 'timeline-date';
+                timelineDate.textContent = `2024-09-${i}`;
 
-                // 获取发布日期
-                const date = new Date(pubDate).toLocaleDateString();
+                const record = document.createElement('p');
+                record.textContent = `这是第 ${i} 条更新记录的内容。`;
 
-                // 如果日期变化，创建新的日期标题
-                if (date !== currentDate) {
-                    currentDate = date;
-                    const dateHeader = document.createElement('h2');
-                    dateHeader.textContent = date;
-                    timeline.appendChild(dateHeader);
-                }
-
-                const container = document.createElement('div');
-                container.className = index % 2 === 0 ? 'container left' : 'container right';
-
-                const content = document.createElement('div');
-                content.className = 'content';
-
-                const postTitleLink = document.createElement('a');
-                postTitleLink.href = link;
-
-                const postTitle = document.createElement('h2');
-                postTitle.className = 'post-title';
-                postTitle.textContent = title;
-
-                const postMeta = document.createElement('p');
-                postMeta.className = 'post-meta';
-                postMeta.textContent = `Updated on ${new Date(pubDate).toLocaleString()}`;
-
-                const postDescription = document.createElement('p');
-                postDescription.textContent = previewContent;
-
-                postTitleLink.appendChild(postTitle);
-                content.appendChild(postTitleLink);
-                content.appendChild(postMeta);
-                content.appendChild(postDescription);
-
-                container.appendChild(content);
-                timeline.appendChild(container);
-            });
-
-            notesContainer.appendChild(timeline);
-
-            // 添加滚动事件监听器
-            notesContainer.addEventListener('scroll', () => {
-                const containers = document.querySelectorAll('.container');
-                containers.forEach(container => {
-                    const rect = container.getBoundingClientRect();
-                    const containerCenter = rect.top + rect.height / 2;
-                    const containerActive = containerCenter >= 0 && containerCenter <= notesContainer.clientHeight;
-                    if (containerActive) {
-                        container.classList.add('active');
-                    } else {
-                        container.classList.remove('active');
-                    }
-                });
-            });
-
-            // 初始化时触发一次滚动事件
-            notesContainer.dispatchEvent(new Event('scroll'));
+                timelineContent.appendChild(timelineDate);
+                timelineContent.appendChild(record);
+                timelineEntry.appendChild(timelineContent);
+                timelineContainer.appendChild(timelineEntry);
+            }
         }
 
-        fetchRSS();
+        loadTimeline();
     </script>
 </body>
 </html>
