@@ -187,7 +187,7 @@
         // 控制背景图片的滚动行为
         window.addEventListener('scroll', function() {
             const scrollTop = window.scrollY;
-            const backgroundHeight = document.body.scrollHeight - window.innerHeight;
+            const backgroundHeight = - (document.body.scrollHeight - window.innerHeight);
 
             if (scrollTop < backgroundHeight) {
                 document.body.style.backgroundPosition = `center ${scrollTop}px`;
