@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <meta name ="viewport" content="width=device-width, initial-scale=1"/>    
+    <meta name ="viewport" content="width=device-width, initial-scale=1"/> 
     <title>笔记更新记录</title>
     <style>
         body {
@@ -96,102 +96,143 @@
             position: fixed;
             top: 0;
             left: 0;
-            width: auto;
-            height: auto;
+            width: 100%;
+            height: 100%;
             background: url('../assets/img/111.jfif') no-repeat center center;
             background-size: cover;
             z-index: -1;
             transition: transform 0.5s ease-out;
         }
+        #toggle-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+#toggle-button:hover {
+    background-color: #0056b3;
+}
     </style>
 </head>
 <body>
     <div class="background-image" id="background-image"></div>
     <h1>笔记更新记录</h1>
     <div class="timeline" id="timeline-container"></div>
+    <button id="toggle-button" style="display: none;">展开更多</button>
 
     <script>
-        async function fetchRSS() {
-            try {
-                const response = await fetch('lib/rss.xml'); // 修改这里为您的RSS文件路径
-                const text = await response.text();
-                const parser = new DOMParser();
-                const xmlDoc = parser.parseFromString(text, 'text/xml');
+       async function fetchRSS() {
+    try {
+        const response = await fetch('lib/rss.xml'); // 修改这里为您的RSS文件路径
+        const text = await response.text();
+        const parser = new DOMParser();
+        const xmlDoc = parser.parseFromString(text, 'text/xml');
 
-                const items = Array.from(xmlDoc.querySelectorAll('item'));
+        const items = Array.from(xmlDoc.querySelectorAll('item'));
 
-                // 按发布日期排序（降序）
-                items.sort((a, b) => {
-                    const dateA = new Date(a.querySelector('pubDate').textContent);
-                    const dateB = new Date(b.querySelector('pubDate').textContent);
-                    return dateB - dateA;
-                });
+        // 按发布日期排序（降序）
+        items.sort((a, b) => {
+            const dateA = new Date(a.querySelector('pubDate').textContent);
+            const dateB = new Date(b.querySelector('pubDate').textContent);
+            return dateB - dateA;
+        });
 
-                // 按日期分组
-                const groupedItems = items.reduce((groups, item) => {
-                    const pubDate = new Date(item.querySelector('pubDate').textContent);
-                    const dateKey = pubDate.toLocaleDateString('zh-CN', { year: 'numeric', month: '2-digit', day: '2-digit' });
-                    if (!groups[dateKey]) {
-                        groups[dateKey] = [];
-                    }
-                    groups[dateKey].push(item);
-                    return groups;
-                }, {});
-
-                const timelineContainer = document.getElementById('timeline-container');
-
-                for (const [date, items] of Object.entries(groupedItems)) {
-                    const timelineEntry = document.createElement('div');
-                    timelineEntry.className = 'timeline-entry';
-
-                    const timelineContent = document.createElement('div');
-                    timelineContent.className = 'timeline-content';
-
-                    const timelineDate = document.createElement('div');
-                    timelineDate.className = 'timeline-date';
-                    timelineDate.textContent = date;
-
-                    timelineContent.appendChild(timelineDate);
-
-                    items.forEach(item => {
-                        const title = item.querySelector('title').textContent;
-                        const link = item.querySelector('link').textContent;
-                        const description = item.querySelector('description').textContent;
-
-                        // 提取预览内容
-                        const previewMatch = description.match(/"(.*?)"/);
-                        const previewContent = previewMatch ? previewMatch[1].trim() : '无预览内容';
-
-                        const record = document.createElement('div');
-                        record.className = 'record';
-
-                        const recordTitle = document.createElement('p');
-                        recordTitle.className = 'record-title';
-                        const recordLink = document.createElement('a');
-                        recordLink.href = link;
-                        recordLink.textContent = title;
-                        recordLink.target = '_blank'; // 新标签打开
-                        recordTitle.appendChild(recordLink);
-
-                        const recordDescription = document.createElement('p');
-                        recordDescription.className = 'record-description';
-                        recordDescription.textContent = previewContent;
-
-                        record.appendChild(recordTitle);
-                        record.appendChild(recordDescription);
-
-                        timelineContent.appendChild(record);
-                    });
-
-                    timelineEntry.appendChild(timelineContent);
-                    timelineContainer.appendChild(timelineEntry);
-                }
-            } catch (error) {
-                console.error('Error fetching or parsing RSS:', error);
-                const timelineContainer = document.getElementById('timeline-container');
-                timelineContainer.textContent = '无法加载更新记录。';
+        // 按日期分组
+        const groupedItems = items.reduce((groups, item) => {
+            const pubDate = new Date(item.querySelector('pubDate').textContent);
+            const dateKey = pubDate.toLocaleDateString('zh-CN', { year: 'numeric', month: '2-digit', day: '2-digit' });
+            if (!groups[dateKey]) {
+                groups[dateKey] = [];
             }
+            groups[dateKey].push(item);
+            return groups;
+        }, {});
+
+        const timelineContainer = document.getElementById('timeline-container');
+        const toggleButton = document.getElementById('toggle-button');
+        let visibleCount = 20; // 初始显示的条目数量
+
+        for (const [date, items] of Object.entries(groupedItems)) {
+            const timelineEntry = document.createElement('div');
+            timelineEntry.className = 'timeline-entry';
+
+            const timelineContent = document.createElement('div');
+            timelineContent.className = 'timeline-content';
+
+            const timelineDate = document.createElement('div');
+            timelineDate.className = 'timeline-date';
+            timelineDate.textContent = date;
+
+            timelineContent.appendChild(timelineDate);
+
+            items.forEach(item => {
+                const title = item.querySelector('title').textContent;
+                const link = item.querySelector('link').textContent;
+                const description = item.querySelector('description').textContent;
+
+                // 提取预览内容
+                const previewMatch = description.match(/"(.*?)"/);
+                const previewContent = previewMatch ? previewMatch[1].trim() : '无预览内容';
+
+                const record = document.createElement('div');
+                record.className = 'record';
+
+                const recordTitle = document.createElement('p');
+                recordTitle.className = 'record-title';
+                const recordLink = document.createElement('a');
+                recordLink.href = link;
+                recordLink.textContent = title;
+                recordLink.target = '_blank'; // 新标签打开
+                recordTitle.appendChild(recordLink);
+
+                const recordDescription = document.createElement('p');
+                recordDescription.className = 'record-description';
+                recordDescription.textContent = previewContent;
+
+                record.appendChild(recordTitle);
+                record.appendChild(recordDescription);
+
+                timelineContent.appendChild(record);
+            });
+
+            timelineEntry.appendChild(timelineContent);
+            timelineContainer.appendChild(timelineEntry);
         }
+
+        // 折迭多余的条目
+        const timelineEntries = timelineContainer.querySelectorAll('.timeline-entry');
+        timelineEntries.forEach((entry, index) => {
+            if (index >= visibleCount) {
+                entry.style.display = 'none';
+            }
+        });
+
+        // 如果条目数量超过 visibleCount，显示按钮
+        if (timelineEntries.length > visibleCount) {
+            toggleButton.style.display = 'block';
+        }
+
+        // 按钮点击事件处理函数
+        toggleButton.addEventListener('click', () => {
+            timelineEntries.forEach((entry, index) => {
+                if (index >= visibleCount) {
+                    entry.style.display = entry.style.display === 'none' ? 'block' : 'none';
+                }
+            });
+            toggleButton.textContent = toggleButton.textContent === '展开更多' ? '收起' : '展开更多';
+        });
+    } catch (error) {
+        console.error('Error fetching or parsing RSS:', error);
+        const timelineContainer = document.getElementById('timeline-container');
+        timelineContainer.textContent = '无法加载更新记录。';
+    }
+}
 
         // 在页面加载完成后调用fetchRSS
         window.addEventListener('DOMContentLoaded', fetchRSS);
@@ -200,16 +241,8 @@
         window.addEventListener('scroll', () => {
             const backgroundImage = document.getElementById('background-image');
             const scrollTop = window.scrollY;
-            const documentHeight = document.documentElement.scrollHeight;
-            const windowHeight = window.innerHeight;
-
-            // 根据滚动位置调整背景移动速度
-            const backgroundScrollSpeed = -0.5; // 背景滚动速度，0.5 表示背景滚动速度是页面内容的一半
-            const maxBackgroundTranslateY = documentHeight - windowHeight;
-
-            // 计算背景图片的垂直位移
-            const backgroundTranslateY = Math.min(scrollTop * backgroundScrollSpeed, maxBackgroundTranslateY);
-            backgroundImage.style.transform = `translateY(${backgroundTranslateY}px)`;
+            const scrollSpeed = -0.5; // 调整背景图片的滚动速度为负数
+            backgroundImage.style.transform = `translateY(${scrollTop * scrollSpeed}px)`;
         });
     </script>
 </body>
