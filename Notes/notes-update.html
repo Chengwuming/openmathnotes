@@ -96,7 +96,7 @@
             top: 0;
             left: 0;
             width: 100%;
-            height: 200vh;
+            height: 100%;
             background: url('../assets/img/111.jfif') no-repeat center center;
             background-size: cover;
             z-index: -1;
@@ -199,8 +199,16 @@
         window.addEventListener('scroll', () => {
             const backgroundImage = document.getElementById('background-image');
             const scrollTop = window.scrollY;
-            const scrollSpeed = -0.5; // 调整背景图片的滚动速度
-            backgroundImage.style.transform = `translateY(${scrollTop * scrollSpeed}px)`;
+            const documentHeight = document.documentElement.scrollHeight;
+            const windowHeight = window.innerHeight;
+
+            // 根据滚动位置调整背景移动速度
+            const backgroundScrollSpeed = 0.5; // 背景滚动速度，0.5 表示背景滚动速度是页面内容的一半
+            const maxBackgroundTranslateY = documentHeight - windowHeight;
+
+            // 计算背景图片的垂直位移
+            const backgroundTranslateY = Math.min(scrollTop * backgroundScrollSpeed, maxBackgroundTranslateY);
+            backgroundImage.style.transform = `translateY(${backgroundTranslateY}px)`;
         });
     </script>
 </body>
