@@ -199,7 +199,7 @@
         window.addEventListener('scroll', () => {
             const backgroundImage = document.getElementById('background-image');
             const scrollTop = window.scrollY;
-            const scrollSpeed = 0.5; // 调整背景图片的滚动速度
+            const scrollSpeed = -0.5; // 调整背景图片的滚动速度
             backgroundImage.style.transform = `translateY(${scrollTop * scrollSpeed}px)`;
         });
     </script>
