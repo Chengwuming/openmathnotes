@@ -6,117 +6,137 @@
     <title>笔记更新记录</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            padding: 20px;
-            margin: 0;
-            overflow-x: hidden; /* 防止水平滚动 */
-        }
-        h1 {
-            text-align: center;
-        }
-        /* 时间轴容器 */
-        .timeline {
-            position: relative;
-            max-width: 800px;
-            margin: 0 auto;
-            padding-left: 40px; /* 为主线留出空间 */
-        }
-        /* 主线 */
-        .timeline::before {
-            content: '';
-            position: absolute;
-            left: 20px;
-            top: 0;
-            bottom: 0;
-            width: 4px;
-            background: #ccc;
-        }
-        /* 每个条目 */
-        .timeline-entry {
-            position: relative;
-            margin-bottom: 40px;
-        }
-        /* 圆点 */
-        .timeline-entry::before {
-            content: '';
-            position: absolute;
-            left: -4px;
-            background: #fff;
-            border: 4px solid #007BFF;
-            top: 0;
-            border-radius: 50%;
-            width: 16px;
-            height: 16px;
-        }
-        /* 条目内容 */
-        .timeline-content {
-            padding: 10px 20px;
-            background: #f9f9f9;
-            border-radius: 6px;
-            border: 1px solid #ddd;
-            position: relative;
-            /* 添加阴影效果 */
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-        /* 日期标签 */
-        .timeline-date {
-            font-size: 1.2em;
-            margin-bottom: 10px;
-            color: #007BFF;
-        }
-        /* 每条记录 */
-        .record {
-            margin-bottom: 10px;
-        }
-        .record:last-child {
-            margin-bottom: 0;
-        }
-        .record-title {
-            font-weight: bold;
-            margin: 0;
-        }
-        .record-description {
-            margin: 5px 0 0 0;
-        }
-        /* 响应式调整 */
-        @media screen and (max-width: 600px) {
-            .timeline::before {
-                left: 10px;
-            }
-            .timeline-entry::before {
-                left: -6px;
-            }
-            .timeline-content {
-                padding: 10px 15px;
-            }
-        }
+    font-family: Georgia, serif; /* 更换为高级字体 */
+    padding: 20px;
+    margin: 0;
+    overflow-x: hidden; /* 防止水平滚动 */
+}
 
-        /* 背景图片 */
-        .background-image {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 300vh;
-            background: url('../assets/img/111.jfif') no-repeat center center;
-            background-size: cover;
-            z-index: -1;
-            transition: transform 0.5s ease-out;
-        }
-        #toggle-button {
-    display: block;
-    margin: 20px auto;
+h1 {
+    text-align: center;
+}
+
+/* 时间轴容器 */
+.timeline {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-left: 40px; /* 为主线留出空间 */
+}
+
+/* 主线 */
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 20px;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    background: #ccc;
+}
+
+/* 每个条目 */
+.timeline-entry {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+/* 圆点 */
+.timeline-entry::before {
+    content: '';
+    position: absolute;
+    left: -4px;
+    background: #fff;
+    border: 4px solid #007BFF;
+    top: 0;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    z-index: 2; /* 使圆点位于卡片之上 */
+}
+
+/* 条目内容 */
+.timeline-content {
     padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    background-color: #007BFF;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.4); /* 背景透明 */
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    position: relative;
+    /* 添加阴影效果 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1; /* 确保卡片在圆点之下 */
+}
+
+/* 日期标签 */
+.timeline-date {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #007BFF;
+}
+
+/* 每条记录 */
+.record {
+    margin-bottom: 10px;
+}
+
+.record:last-child {
+    margin-bottom: 0;
+}
+
+.record-title {
+    font-weight: bold;
+    margin: 0;
+}
+
+.record-description {
+    margin: 5px 0 0 0;
+}
+
+/* 响应式调整 */
+@media screen and (max-width: 600px) {
+    .timeline::before {
+        left: 10px;
+    }
+    .timeline-entry::before {
+        left: -6px;
+    }
+    .timeline-content {
+        padding: 10px 15px;
+    }
+}
+
+/* 背景图片 */
+.background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../assets/img/111.jfif') no-repeat center center;
+    background-size: cover;
+    z-index: -1;
+    transition: transform 0.5s ease-out;
+}
+
+/* 按钮样式 */
+#toggle-button {
+    background-color: rgba(255, 255, 255, 0.3);
+                color: #333;
+                padding: 15px 50px;
+                border-radius: 30px;
+                border: none;
+                font-size: 1.2em;
+                margin: 10px;
+                cursor: pointer;
+                box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+                transition: all 0.3s ease-in-out;
+                animation: fadeIn 0.4s ease-in-out; /* 添加渐入动画 */
 }
 
 #toggle-button:hover {
-    background-color: #0056b3;
+    background-color: rgba(255, 255, 255, 0.6);
+    transform: translateY(-2px); /* 鼠标悬停时微微浮起 */
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.3);
 }
     </style>
 </head>
