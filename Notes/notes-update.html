@@ -6,179 +6,178 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-        }
-        .timeline-container {
-            width: 80%;
-            max-width: 800px;
-            margin: 0 auto;
-            overflow-y: auto;
-            max-height: 600px;
-            border: 1px solid #ccc;
             padding: 20px;
-            box-sizing: border-box;
         }
+        h1 {
+            text-align: center;
+        }
+        /* 时间轴容器 */
         .timeline {
             position: relative;
-            padding: 0;
-            margin: 0;
+            max-width: 800px;
+            margin: 0 auto;
+            padding-left: 40px; /* 为主线留出空间 */
         }
-        .timeline::after {
+        /* 主线 */
+        .timeline::before {
             content: '';
             position: absolute;
-            width: 6px;
-            background-color: #ccc;
+            left: 20px;
             top: 0;
             bottom: 0;
-            left: 50%;
-            margin-left: -3px;
+            width: 4px;
+            background: #ccc;
         }
-        .container {
-            padding: 10px 40px;
+        /* 每个条目 */
+        .timeline-entry {
             position: relative;
-            background-color: inherit;
-            width: 50%;
+            margin-bottom: 40px;
         }
-        .container::after {
+        /* 圆点 */
+        .timeline-entry::before {
             content: '';
             position: absolute;
-            width: 25px;
-            height: 25px;
-            right: -17px;
-            background-color: white;
-            border: 4px solid #FF9F55;
-            top: 15px;
+            left: -4px;
+            background: #fff;
+            border: 4px solid #007BFF;
+            top: 0;
             border-radius: 50%;
-            z-index: 1;
+            width: 16px;
+            height: 16px;
         }
-        .left {
-            left: 0;
-        }
-        .right {
-            left: 50%;
-        }
-        .left::before {
-            content: " ";
-            height: 0;
-            position: absolute;
-            top: 22px;
-            width: 0;
-            z-index: 1;
-            right: 30px;
-            border: medium solid white;
-            border-width: 10px 0 10px 10px;
-            border-color: transparent transparent transparent white;
-        }
-        .right::before {
-            content: " ";
-            height: 0;
-            position: absolute;
-            top: 22px;
-            width: 0;
-            z-index: 1;
-            left: 30px;
-            border: medium solid white;
-            border-width: 10px 10px 10px 0;
-            border-color: transparent white transparent transparent;
-        }
-        .right::after {
-            left: -16px;
-        }
-        .content {
-            padding: 20px 30px;
-            background-color: white;
-            position: relative;
+        /* 条目内容 */
+        .timeline-content {
+            padding: 10px 20px;
+            background: #f9f9f9;
             border-radius: 6px;
-            border: 1px solid #ccc;
+            border: 1px solid #ddd;
+            position: relative;
+            /* 添加阴影效果 */
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
-        .content h2 {
+        /* 日期标签 */
+        .timeline-date {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+            color: #007BFF;
+        }
+        /* 每条记录 */
+        .record {
+            margin-bottom: 10px;
+        }
+        .record:last-child {
+            margin-bottom: 0;
+        }
+        .record-title {
+            font-weight: bold;
             margin: 0;
-            font-size: 1.5em;
         }
-        .content p {
-            margin: 5px 0;
+        .record-description {
+            margin: 5px 0 0 0;
+        }
+        /* 响应式调整 */
+        @media screen and (max-width: 600px) {
+            .timeline::before {
+                left: 10px;
+            }
+            .timeline-entry::before {
+                left: -6px;
+            }
+            .timeline-content {
+                padding: 10px 15px;
+            }
         }
     </style>
 </head>
 <body>
     <h1>笔记更新记录</h1>
-    <div class="timeline-container" id="notes-container"></div>
+    <div class="timeline" id="timeline-container"></div>
 
     <script>
         async function fetchRSS() {
-            const response = await fetch('lib/rss.xml'); // 修改这里
-            const text = await response.text();
-            const parser = new DOMParser();
-            const xmlDoc = parser.parseFromString(text, 'text/xml');
+            try {
+                const response = await fetch('lib/rss.xml'); // 修改这里为您的RSS文件路径
+                const text = await response.text();
+                const parser = new DOMParser();
+                const xmlDoc = parser.parseFromString(text, 'text/xml');
 
-            const items = Array.from(xmlDoc.querySelectorAll('item'));
+                const items = Array.from(xmlDoc.querySelectorAll('item'));
 
-            // 按发布日期排序
-            items.sort((a, b) => {
-                const dateA = new Date(a.querySelector('pubDate').textContent);
-                const dateB = new Date(b.querySelector('pubDate').textContent);
-                return dateB - dateA; // 降序排序
-            });
+                // 按发布日期排序（降序）
+                items.sort((a, b) => {
+                    const dateA = new Date(a.querySelector('pubDate').textContent);
+                    const dateB = new Date(b.querySelector('pubDate').textContent);
+                    return dateB - dateA;
+                });
 
-            const notesContainer = document.getElementById('notes-container');
-            let currentDate = null;
+                // 按日期分组
+                const groupedItems = items.reduce((groups, item) => {
+                    const pubDate = new Date(item.querySelector('pubDate').textContent);
+                    const dateKey = pubDate.toLocaleDateString('zh-CN', { year: 'numeric', month: '2-digit', day: '2-digit' });
+                    if (!groups[dateKey]) {
+                        groups[dateKey] = [];
+                    }
+                    groups[dateKey].push(item);
+                    return groups;
+                }, {});
 
-            const timeline = document.createElement('div');
-            timeline.className = 'timeline';
+                const timelineContainer = document.getElementById('timeline-container');
 
-            items.forEach((item, index) => {
-                const title = item.querySelector('title').textContent;
-                const link = item.querySelector('link').textContent;
-                const description = item.querySelector('description').textContent;
-                const pubDate = item.querySelector('pubDate').textContent;
+                for (const [date, items] of Object.entries(groupedItems)) {
+                    const timelineEntry = document.createElement('div');
+                    timelineEntry.className = 'timeline-entry';
 
-                // 提取预览内容
-                const previewMatch = description.match(/"(.*?)"/);
-                const previewContent = previewMatch ? previewMatch[1].trim() : '无预览内容';
+                    const timelineContent = document.createElement('div');
+                    timelineContent.className = 'timeline-content';
 
-                // 获取发布日期
-                const date = new Date(pubDate).toLocaleDateString();
+                    const timelineDate = document.createElement('div');
+                    timelineDate.className = 'timeline-date';
+                    timelineDate.textContent = date;
 
-                // 如果日期变化，创建新的日期标题
-                if (date !== currentDate) {
-                    currentDate = date;
-                    const dateHeader = document.createElement('h2');
-                    dateHeader.textContent = date;
-                    timeline.appendChild(dateHeader);
+                    timelineContent.appendChild(timelineDate);
+
+                    items.forEach(item => {
+                        const title = item.querySelector('title').textContent;
+                        const link = item.querySelector('link').textContent;
+                        const description = item.querySelector('description').textContent;
+
+                        // 提取预览内容
+                        const previewMatch = description.match(/"(.*?)"/);
+                        const previewContent = previewMatch ? previewMatch[1].trim() : '无预览内容';
+
+                        const record = document.createElement('div');
+                        record.className = 'record';
+
+                        const recordTitle = document.createElement('p');
+                        recordTitle.className = 'record-title';
+                        const recordLink = document.createElement('a');
+                        recordLink.href = link;
+                        recordLink.textContent = title;
+                        recordLink.target = '_blank'; // 新标签打开
+                        recordTitle.appendChild(recordLink);
+
+                        const recordDescription = document.createElement('p');
+                        recordDescription.className = 'record-description';
+                        recordDescription.textContent = previewContent;
+
+                        record.appendChild(recordTitle);
+                        record.appendChild(recordDescription);
+
+                        timelineContent.appendChild(record);
+                    });
+
+                    timelineEntry.appendChild(timelineContent);
+                    timelineContainer.appendChild(timelineEntry);
                 }
-
-                const container = document.createElement('div');
-                container.className = index % 2 === 0 ? 'container left' : 'container right';
-
-                const content = document.createElement('div');
-                content.className = 'content';
-
-                const postTitleLink = document.createElement('a');
-                postTitleLink.href = link;
-
-                const postTitle = document.createElement('h2');
-                postTitle.className = 'post-title';
-                postTitle.textContent = title;
-
-                const postMeta = document.createElement('p');
-                postMeta.className = 'post-meta';
-                postMeta.textContent = `Updated on ${new Date(pubDate).toLocaleString()}`;
-
-                const postDescription = document.createElement('p');
-                postDescription.textContent = previewContent;
-
-                postTitleLink.appendChild(postTitle);
-                content.appendChild(postTitleLink);
-                content.appendChild(postMeta);
-                content.appendChild(postDescription);
-
-                container.appendChild(content);
-                timeline.appendChild(container);
-            });
-
-            notesContainer.appendChild(timeline);
+            } catch (error) {
+                console.error('Error fetching or parsing RSS:', error);
+                const timelineContainer = document.getElementById('timeline-container');
+                timelineContainer.textContent = '无法加载更新记录。';
+            }
         }
 
-        fetchRSS();
+        // 在页面加载完成后调用fetchRSS
+        window.addEventListener('DOMContentLoaded', fetchRSS);
     </script>
 </body>
 </html>
