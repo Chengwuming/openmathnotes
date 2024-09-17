@@ -2,284 +2,82 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <link rel="icon" type="image/x-icon" href="../assets/favicon.ico" />
-    <!-- Font Awesome icons (free version)-->
-    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-    <!-- Google fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="../css/styles.css" rel="stylesheet" />
     <title>笔记更新记录</title>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;500&display=swap" rel="stylesheet">
-<style>
-    @keyframes fadeIn {
-0% {
-opacity: 0;
-}
-100% {
-opacity: 1;
-}
-}
-
-@keyframes slideUp {
-0% {
-transform: translateY(50px);
-opacity: 0;
-}
-100% {
-transform: translateY(0);
-opacity: 1;
-}
-}
-    /* 背景图片全屏显示 */
-    .masthead {
-        background-image: url('../assets/img/111.jpg'); /* 确保路径正确 */
-        background-size: 100% auto;
-        background-position: center;
-        background-repeat: no-repeat;
-        height: 100vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-        
-    }
-    .site-heading h1 {
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* 添加文字阴影 */
-        animation: fadeIn 0.3s ease-in-out; /* 渐入和抬高动画 */
-    }
-    .site-heading {
-        margin-top: -80px; /* 调整Aloha的位置 */
-    }
-    body {
-            font-family: 'Roboto', sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
+    <style>
+        .post-preview {
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
         }
-        .timeline {
-            position: relative;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px 0;
-        }
-        .timeline::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            width: 4px;
-            background-color: #ccc;
-            left: 50%;
-            margin-left: -2px;
-        }
-        .timeline-item {
-            position: relative;
-            width: 50%;
-            padding: 10px 20px;
-            box-sizing: border-box;
-        }
-        .timeline-item:nth-child(odd) {
-            left: 0;
-            text-align: right;
-        }
-        .timeline-item:nth-child(even) {
-            left: 50%;
-            text-align: left;
-        }
-        .timeline-content {
-            background-color: #fff;
-            padding: 15px;
-            border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-            background-color: #f9f9f9;
-        }
-        .timeline-content h2 {
+        .post-preview h2 {
             margin: 0;
             font-size: 1.5em;
-            font-weight: 500;
-            font-family: 'Noto Serif SC', serif;
-            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
         }
-        .timeline-content p {
+        .post-preview p {
             margin: 5px 0;
         }
-        .timeline-content {
-            background-color: rgba(255, 255, 255, 0.4); /* 设置为半透明白色 */
-            padding: 15px;
-            border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-        }
-        .timeline-date {
-            font-size: 0.9em;
-            color: #777;
-        }
-        .timeline-item::before {
-            content: '';
-            position: absolute;
-            width: 12px;
-            height: 12px;
-            background-color: #ccc;
-            border-radius: 50%;
-            top: 20px;
-            left: -6px;
-        }
-        .timeline-item:nth-child(even)::before {
-            left: auto;
-            right: -6px;
-        }
-        a {
-            text-decoration: none;
-            color: inherit;
-        }
-</style>
-
-<style>
-body {
-visibility: hidden; /* 初始状态为不可见 */
-opacity: 0; /* 初始状态为透明 */
-transition: visibility 0s, opacity 0.1s linear; /* 添加过渡效果 */
-}
-</style>
-
-
+    </style>
 </head>
 <body>
+    <h1>笔记更新记录</h1>
+    <div id="notes-container"></div>
 
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-        // 页面加载完毕后显示页面
-        document.body.style.visibility = "visible";
-        document.body.style.opacity = 1;
-    });
-</script>
+    <script>
+        async function fetchRSS() {
+            const response = await fetch('lib/rss.xml'); // 修改这里
+            const text = await response.text();
+            const parser = new DOMParser();
+            const xmlDoc = parser.parseFromString(text, 'text/xml');
 
-<!-- Navigation-->
-<nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
-    <div class="container px-4 px-lg-5">
-        <a class="navbar-brand" href="index.html">Ciallo～(∠・ω< )⌒☆</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            Menu
-            <i class="fas fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ms-auto py-4 py-lg-0">
-                <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="../index.html">Home</a></li>
-                <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="../Notes/分析/常微分方程/ode-notes-1.html">Notes</a></li>
-                <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="../edited-latex.html">Posts</a></li>
-                <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="../Notes/notes-update.html">Logs</a></li>
-                <!--li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="contact.html">Contact</a></li-->
-            </ul>
-        </div>  
-    </div>
-</nav>
-<!-- Page Header-->
-<header class="masthead" style="background-image: url('../assets/img/112.jpg')">
-    <div class="container position-relative px-4 px-lg-5">
-        <div class="row gx-4 gx-lg-5 justify-content-center">
-            <h1 style="text-align: center; font-weight: 500; margin-top: 80px;">笔记更新记录</h1>
-<div class="timeline" id="notes-container"></div>
-        </div>
-    </div>
-</header>
-<!-- Main Content-->
+            const items = Array.from(xmlDoc.querySelectorAll('item'));
 
+            // 按发布日期排序
+            items.sort((a, b) => {
+                const dateA = new Date(a.querySelector('pubDate').textContent);
+                const dateB = new Date(b.querySelector('pubDate').textContent);
+                return dateB - dateA; // 降序排序
+            });
 
-<script>
-    async function fetchRSS() {
-        const response = await fetch('lib/rss.xml'); // 修改这里
-        const text = await response.text();
-        const parser = new DOMParser();
-        const xmlDoc = parser.parseFromString(text, 'text/xml');
+            const notesContainer = document.getElementById('notes-container');
 
-        const items = Array.from(xmlDoc.querySelectorAll('item'));
+            items.forEach(item => {
+                const title = item.querySelector('title').textContent;
+                const link = item.querySelector('link').textContent;
+                const description = item.querySelector('description').textContent;
+                const pubDate = item.querySelector('pubDate').textContent;
 
-        // 按发布日期排序
-        items.sort((a, b) => {
-            const dateA = new Date(a.querySelector('pubDate').textContent);
-            const dateB = new Date(b.querySelector('pubDate').textContent);
-            return dateB - dateA; // 降序排序
-        });
+                // 提取预览内容
+                const previewMatch = description.match(/"(.*?)"/);
+                const previewContent = previewMatch ? previewMatch[1].trim() : '无预览内容';
 
-        const notesContainer = document.getElementById('notes-container');
+                const postPreview = document.createElement('div');
+                postPreview.className = 'post-preview';
 
-        items.forEach(item => {
-            const title = item.querySelector('title').textContent;
-            const link = item.querySelector('link').textContent;
-            const description = item.querySelector('description').textContent;
-            const pubDate = item.querySelector('pubDate').textContent;
+                const postTitleLink = document.createElement('a');
+                postTitleLink.href = link;
 
-            // 提取预览内容
-            const previewMatch = description.match(/"(.*?)"/);
-            const previewContent = previewMatch ? previewMatch[1].trim() : '无预览内容';
+                const postTitle = document.createElement('h2');
+                postTitle.className = 'post-title';
+                postTitle.textContent = title;
 
-            const timelineItem = document.createElement('div');
-            timelineItem.className = 'timeline-item';
+                const postMeta = document.createElement('p');
+                postMeta.className = 'post-meta';
+                postMeta.textContent = `Updated on ${new Date(pubDate).toLocaleString()}`;
 
-            const timelineContent = document.createElement('div');
-            timelineContent.className = 'timeline-content';
+                const postDescription = document.createElement('p');
+                postDescription.textContent = previewContent;
 
-            const postTitleLink = document.createElement('a');
-            postTitleLink.href = link;
+                postTitleLink.appendChild(postTitle);
+                postPreview.appendChild(postTitleLink);
+                postPreview.appendChild(postMeta);
+                postPreview.appendChild(postDescription);
 
-            const postTitle = document.createElement('h2');
-            postTitle.className = 'post-title';
-            postTitle.textContent = title;
+                notesContainer.appendChild(postPreview);
+            });
+        }
 
-            const postMeta = document.createElement('p');
-            postMeta.className = 'timeline-date';
-            postMeta.textContent = `Updated on ${new Date(pubDate).toLocaleString()}`;
-
-            const postDescription = document.createElement('p');
-            postDescription.textContent = previewContent;
-
-            postTitleLink.appendChild(postTitle);
-            timelineContent.appendChild(postTitleLink);
-            timelineContent.appendChild(postMeta);
-            timelineContent.appendChild(postDescription);
-
-            timelineItem.appendChild(timelineContent);
-            notesContainer.appendChild(timelineItem);
-        });
-    }
-
-    fetchRSS();
-</script>
-<!-- Footer-->
-<footer class="border-top">
-    <div class="container px-4 px-lg-5">
-        <div class="row gx-4 gx-lg-5 justify-content-center">
-            <div class="col-md-10 col-lg-8 col-xl-7">
-                <ul class="list-inline text-center">
-                    <li class="list-inline-item">
-                        <a href="https://space.bilibili.com/279367359?spm_id_from=333.937.0.0">
-                            <span class="fa-stack fa-lg">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-bilibili fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a href="#!">
-                            <span class="fa-stack fa-lg">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </a>
-                    </li>
-                </ul>
-                <div class="small text-center text-muted fst-italic">Copyright &copy; ChengwumingSAMA 2024</div>
-            </div>
-        </div>
-    </div>
-</footer>
-<!-- Bootstrap core JS-->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-<!-- Core theme JS-->
-<script src="js/scripts.js"></script>
+        fetchRSS();
+    </script>
 </body>
 </html>
