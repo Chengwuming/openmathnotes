@@ -97,7 +97,7 @@
             top: 0;
             left: 0;
             width: 100%;
-            height: 100%;
+            height: 300vh;
             background: url('../assets/img/111.jfif') no-repeat center center;
             background-size: cover;
             z-index: -1;
@@ -156,7 +156,7 @@
 
         const timelineContainer = document.getElementById('timeline-container');
         const toggleButton = document.getElementById('toggle-button');
-        let visibleCount = 20; // 初始显示的条目数量
+        let visibleCount = 5; // 初始显示的条目数量
 
         for (const [date, items] of Object.entries(groupedItems)) {
             const timelineEntry = document.createElement('div');
