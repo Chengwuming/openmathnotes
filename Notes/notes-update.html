@@ -7,10 +7,20 @@
         body {
             font-family: Arial, sans-serif;
         }
+        .timeline-container {
+            width: 80%;
+            max-width: 800px;
+            margin: 0 auto;
+            overflow-y: auto;
+            max-height: 600px;
+            border: 1px solid #ccc;
+            padding: 20px;
+            box-sizing: border-box;
+        }
         .timeline {
             position: relative;
-            max-width: 1200px;
-            margin: 0 auto;
+            padding: 0;
+            margin: 0;
         }
         .timeline::after {
             content: '';
@@ -91,7 +101,7 @@
 </head>
 <body>
     <h1>笔记更新记录</h1>
-    <div class="timeline" id="notes-container"></div>
+    <div class="timeline-container" id="notes-container"></div>
 
     <script>
         async function fetchRSS() {
@@ -112,6 +122,9 @@
             const notesContainer = document.getElementById('notes-container');
             let currentDate = null;
 
+            const timeline = document.createElement('div');
+            timeline.className = 'timeline';
+
             items.forEach((item, index) => {
                 const title = item.querySelector('title').textContent;
                 const link = item.querySelector('link').textContent;
@@ -130,7 +143,7 @@
                     currentDate = date;
                     const dateHeader = document.createElement('h2');
                     dateHeader.textContent = date;
-                    notesContainer.appendChild(dateHeader);
+                    timeline.appendChild(dateHeader);
                 }
 
                 const container = document.createElement('div');
@@ -159,8 +172,10 @@
                 content.appendChild(postDescription);
 
                 container.appendChild(content);
-                notesContainer.appendChild(container);
+                timeline.appendChild(container);
             });
+
+            notesContainer.appendChild(timeline);
         }
 
         fetchRSS();
