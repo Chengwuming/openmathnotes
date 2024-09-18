@@ -331,7 +331,7 @@ h1 {
             // 计算滚动速度，距离底部越近，速度越快
             const maxScrollSpeed = -2; // 最大滚动速度
             const minScrollSpeed = -0; // 最小滚动速度
-            const scrollSpeed = minScrollSpeed + (maxScrollSpeed - minScrollSpeed) * (1 - distanceToBottom / windowHeight);
+            const scrollSpeed = minScrollSpeed + (maxScrollSpeed) * (distanceToBottom / windowHeight);
 
             backgroundImage.style.transform = `translateY(${scrollTop * scrollSpeed}px)`;
         });
