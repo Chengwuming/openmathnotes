@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[LogseqVault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>LogseqVault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 16 Sep 2024 13:07:53 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 16 Sep 2024 13:07:10 GMT</pubDate><copyright><![CDATA[Chengwuming]]></copyright><ttl>60</ttl><dc:creator>Chengwuming</dc:creator><item><title><![CDATA[作业9]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[LogseqVault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>LogseqVault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 18 Sep 2024 10:18:46 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 18 Sep 2024 10:18:12 GMT</pubDate><copyright><![CDATA[Chengwuming]]></copyright><ttl>60</ttl><dc:creator>Chengwuming</dc:creator><item><title><![CDATA[作业9]]></title><description><![CDATA[ 
  <br>
 <br>
 <img alt="Pasted image 20240513205638.png" src="lib\media\pasted-image-20240513205638.png">
@@ -570,7 +570,7 @@ Predator-Prey Model<br>
  吃  ，懒得写了
 
 <br><br>第一节课用一个词形容，就是幽默。<br>课堂上就证明了两个定理，板书也是令人难绷，哎。<br>这节课讨论的方程为<br>
-证明了此解的存在性于唯一性，以及最大延申解。<br>解的存在性与唯一性<br><br>"这里是内容"<br>定理 1
+证明了此解的存在性于唯一性，以及最大延申解。<br>解的存在性与唯一性 1<br><br>"反正是云里雾里"<br>定理 1
 对于 对任意的初值 ，此方程存在解且唯一。
 <br>习题里面证明此处  不一定要  。但是至少可微。考虑反例<br>
 则 都是解。<br>证明
@@ -610,7 +610,7 @@ cord::绳索<br>
 wagons::马车<br>
 depicted::描绘<br>
 trajectories of the motion of the phase point::相点运动轨迹<br>
-abscissa::横坐标<br>Arnold 你英语真好 :P]]></description><link>分析\常微分方程\ode-notes-1.html</link><guid isPermaLink="false">分析/常微分方程/ODE Notes 1.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sun, 15 Sep 2024 15:41:34 GMT</pubDate></item><item><title><![CDATA[复分析做题日记]]></title><description><![CDATA[ 
+abscissa::横坐标<br>Arnold 你英语真好 :P]]></description><link>分析\常微分方程\ode-notes-1.html</link><guid isPermaLink="false">分析/常微分方程/ODE Notes 1.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 18 Sep 2024 10:10:09 GMT</pubDate></item><item><title><![CDATA[复分析做题日记]]></title><description><![CDATA[ 
  <br><br>7.11。一个简洁的写法： 复数  共线的充要条件：<br><br>题目数量统计
 
 <br>
@@ -1162,7 +1162,75 @@ g
 <br>
 <a data-href="连续映射" href="连续映射" class="internal-link" target="_self" rel="noopener">连续映射</a>和开映射
 
-<br><a data-href="Real Analysis Notes 3" href="Real Analysis Notes 3" class="internal-link" target="_self" rel="noopener">Real Analysis Notes 3</a>]]></description><link>分析\实分析\real-analysis-notes-2.html</link><guid isPermaLink="false">分析/实分析/Real Analysis Notes 2.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sun, 15 Sep 2024 15:42:05 GMT</pubDate></item><item><title><![CDATA[单位分解]]></title><description><![CDATA[ 
+<br><a data-href="Real Analysis Notes 3" href="Real Analysis Notes 3" class="internal-link" target="_self" rel="noopener">Real Analysis Notes 3</a>]]></description><link>分析\实分析\real-analysis-notes-2.html</link><guid isPermaLink="false">分析/实分析/Real Analysis Notes 2.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sun, 15 Sep 2024 15:42:05 GMT</pubDate></item><item><title><![CDATA[Foobar]]></title><description><![CDATA[ 
+ <br>“从今天起课程的教室就换到了经管楼，真是极致的奢华”<br>这里是图片<br><br><br><a data-tooltip-position="top" aria-label="正项级数收敛判别法" data-href="正项级数收敛判别法" href="mathstuff\正项级数收敛判别法.html" class="internal-link" target="_self" rel="noopener">一键回顾</a><br>正项级数 ，：<br>
+<br>
+比较判别法 
+
+<br>
+Cauchy 根式判别法 
+
+<br>
+D'Alembert 判别法 
+两者的强弱
+
+<br>
+Raabe 判别法 我们希望 ，则  收敛。
+
+<br>Ratio test 的局限性导致只能适用于单调数列，这里给出一个例子说明 Cauchy 判别法的重要性<br>
+可以看到 Cauchy 根式判别法中的  为 ，从而收敛，但是由于不单调导致<br>
+<br>引理
+
+<br>这是因为 <br>Example
+判断  的收敛性
+<br>Example
+Guess 超几何级数
+使用 Raabe 从而我们可以判断：
+
+<br>当  时，收敛，  时，发散，相等时无法判断。
+
+<br><a data-href="Guess 超几何级数" href="mathstuff\guess-超几何级数.html" class="internal-link" target="_self" rel="noopener">Guess 超几何级数</a><br>
+<br>
+<br><br>Gauss 判别法
+设正顶级数  若
+
+其中  都是常数， 是一个有界量。则级数的敛散性为
+
+ (为什么黑板上写出来的是 Bertrand 判别法) 
+
+<br>
+<br><br>Kummer 判别法
+正项级数  收敛的充分必要条件是，存在正数数列  和 ，使得当  充分大时<br>
+发散的充分必要条件是存在发散的正项级数  使得  充分大时有<br>
+
+ 
+
+<br><br>
+<br><a data-tooltip-position="top" aria-label="级数收敛性的判别 2 > ^3a9a53" data-href="级数收敛性的判别 2#^3a9a53" href="mathstuff\级数收敛性的判别-2.html#^3a9a53" class="internal-link" target="_self" rel="noopener">Cauchy 凝聚判别法</a>
+<br><br>级数收敛的 Cauchy 判据：<br>判据
+级数  收敛  
+<br>Dirichlet Abel 判别法
+单调  的部分和有界，若想  收敛，则需要加强条件：
+
+<br>要么加强  到趋于零
+<br>要么加强  收敛
+
+<br>其实就是离散形式的换元积分。<br>证明
+关键是Abel 变换
+   设 ，则  单调。利用 Abel 变换，我们有：
+
+   由于  有界且  单调，可以使用 Scooooooop （这里就是单调的用处）。
+过程
+ 
+
+<br>Leibnitz
+这是之前的直接推论：<br>
+如果 单调趋于零，那么  收敛。
+<br><br>定义 条件收敛 绝对收敛
+如果  收敛，那么 成  绝对收敛<br>
+若  收敛，但是  发散，则称其条件收敛
+<br>然后就结束了，合着一节课就回顾了一下，然后只讲了一个Abel变换、<br><a data-href="Analysis III Note 2" href="分析\数学分析\analysis-iii-note-2.html" class="internal-link" target="_self" rel="noopener">Analysis III Note 2</a>]]></description><link>分析\数学分析\analysis-iii-note-1.html</link><guid isPermaLink="false">分析/数学分析/Analysis III Note 1.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 18 Sep 2024 10:08:38 GMT</pubDate></item><item><title><![CDATA[Analysis III Note 2]]></title><description><![CDATA[ 
+ <br>""<br><a data-href="Analysis III Note 1" href="分析\数学分析\analysis-iii-note-1.html" class="internal-link" target="_self" rel="noopener">Analysis III Note 1</a>]]></description><link>分析\数学分析\analysis-iii-note-2.html</link><guid isPermaLink="false">分析/数学分析/Analysis III Note 2.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 18 Sep 2024 10:09:01 GMT</pubDate></item><item><title><![CDATA[单位分解]]></title><description><![CDATA[ 
  <br><br>对于某个紧集 ，其上的开覆盖  存在有限子覆盖，在每个子覆盖的开集上通过<br>]]></description><link>分析\单位分解.html</link><guid isPermaLink="false">分析/单位分解.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 11 Sep 2024 23:39:15 GMT</pubDate></item><item><title><![CDATA[度量空间的完备化]]></title><description><![CDATA[ 
  ]]></description><link>分析\度量空间的完备化.html</link><guid isPermaLink="false">分析/度量空间的完备化.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 10 Sep 2024 15:37:39 GMT</pubDate></item><item><title><![CDATA[<span class="math math-block is-loaded"><mjx-container class="MathJax" jax="CHTML" display="true"><mjx-math display="true" class="MJX-TEX" style="margin-left: 0px; margin-right: 0px;"><mjx-mo class="mjx-lop"><mjx-c class="mjx-c222B TEX-S2"></mjx-c></mjx-mo><mjx-mfrac space="2"><mjx-frac type="d"><mjx-num><mjx-nstrut type="d"></mjx-nstrut><mjx-mrow><mjx-texatom texclass="ORD"><mjx-mi class="mjx-n"><mjx-c class="mjx-c64"></mjx-c></mjx-mi></mjx-texatom><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D465 TEX-I"></mjx-c></mjx-mi></mjx-mrow></mjx-num><mjx-dbox><mjx-dtable><mjx-line type="d"></mjx-line><mjx-row><mjx-den><mjx-dstrut type="d"></mjx-dstrut><mjx-mrow><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D465 TEX-I"></mjx-c></mjx-mi><mjx-msqrt><mjx-sqrt><mjx-surd><mjx-mo class="mjx-n"><mjx-c class="mjx-c221A"></mjx-c></mjx-mo></mjx-surd><mjx-box style="padding-top: 0.087em;"><mjx-msup><mjx-mi class="mjx-i"><mjx-c class="mjx-c1D465 TEX-I"></mjx-c></mjx-mi><mjx-script style="vertical-align: 0.289em;"><mjx-texatom size="s" texclass="ORD"><mjx-mn class="mjx-n"><mjx-c class="mjx-c32"></mjx-c></mjx-mn></mjx-texatom></mjx-script></mjx-msup><mjx-mo class="mjx-n" space="3"><mjx-c class="mjx-c2212"></mjx-c></mjx-mo><mjx-mn class="mjx-n" space="3"><mjx-c class="mjx-c31"></mjx-c></mjx-mn></mjx-box></mjx-sqrt></mjx-msqrt></mjx-mrow></mjx-den></mjx-row></mjx-dtable></mjx-dbox></mjx-frac></mjx-mfrac></mjx-math></mjx-container></span>积！]]></title><description><![CDATA[<a class="tag" href="?query=tag:如何成为积佬" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#如何成为积佬</a> 
  <br><a href=".?query=tag:如何成为积佬" class="tag" target="_blank" rel="noopener">#如何成为积佬</a><br>好的，我会将这些问题和答案格式化为“问题\n=\n答案”的形式。下面是转换后的结果：<br><br><br><br><br>对这种形式的积分最好熟悉<br><br><br><br><br><br><br><br><br><br>首先要熟悉<br><br>然后导一下进而你也知道了这种东西的不定积分，hh<br><br><br>此卡来源于ai<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>你当然可以直接把结果背会。或者记 之类。<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>你要知道前一部分对应着 ，后一部分对应着 ，这个积分是三角积分，其对偶积分<br> 得到的结果是前一项加负号<br><br><br><br>对偶地，<br><br><br>"&lt;img src=""IMG_20240602_085410.jpg""&gt;"<br><br><br><br><br><br>希望你能背会，其中比较重要的量是<br>
@@ -1209,7 +1277,64 @@ g
 <br>
 间正模式
 
-]]></description><link>物理\大雾\简谐波.html</link><guid isPermaLink="false">物理/大雾/简谐波.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Fri, 17 May 2024 04:44:59 GMT</pubDate></item><item><title><![CDATA[可交换]]></title><description><![CDATA[ 
+]]></description><link>物理\大雾\简谐波.html</link><guid isPermaLink="false">物理/大雾/简谐波.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Fri, 17 May 2024 04:44:59 GMT</pubDate></item><item><title><![CDATA[大学物理（2） 笔记 1]]></title><description><![CDATA[ 
+ <br><br><br>本节课的记号中第一个角标是受力的物体，第二个角标是施力的物体<br><br><br><br><br><br>设电偶极子由两个等量异号电荷和组成，距离为，则电偶极矩。<br>在远场条件下（），电偶极子在点处的电场强度为：<br><br>AI 做出的推导，还挺有意思
+电偶极子由两点电荷组成，分别为+q和-q，距离为，其电偶极矩为：
+
+其中，是从负电荷指向正电荷的位移矢量。
+
+在离电偶极子较远的地方（即距离远大于电偶极子尺度），可以近似认为：
+
+<br>电偶极子在原点处，负电荷位于位置，正电荷位于位置。
+<br>考虑在距离处某一点的电场。
+
+在远处，电场的近似解可以通过多极展开来获得。对于偶极子来说，其主导项是偶极矩贡献的电场。电场可在球坐标系中描述，定义观察点相对偶极子的单位矢量为，电场的近似表达式为：
+
+其中：
+-是电偶极矩。<br>
+-是指向观察点的单位矢量。<br>
+-是观察点到电偶极子的距离。<br>
+-是真空介电常数。
+
+
+<br>电势：对于任意电荷分布，电势在远处的多极展开是常见的分析方法。对于电偶极子，电势的主导项是偶极矩贡献的部分，其电势表达式为：
+
+
+
+<br>电场：电场是电势的梯度，。我们对电势取梯度，得到电场的近似表达式：
+
+
+   利用球坐标中的梯度运算并考虑到远处的近似，我们得到电场的最终表达式：
+
+
+该表达式显示了电偶极子在远场产生的电场强度，它与距离的立方成反比。电场方向和偶极矩方向之间的关系通过内积来体现，显示了偶极子的非对称性。<br>
+电偶极子的电势推导基于静电学中的标量电势叠加原理。对于一个点电荷来说，在空间中任意点产生的电势为：
+
+其中是从点电荷到场点的距离。
+
+电偶极子由两个点电荷组成，一个是的正电荷，另一个是的负电荷，两个电荷的距离是。
+我们设观察点的坐标为，正电荷的位置是，负电荷的位置是。电偶极子的电势是这两点电荷电势的叠加：
+
+在远处（，即），我们可以对这两个距离进行近似：
+1.<br>
+2.
+其中，是观察点方向的单位矢量。
+
+根据泰勒展开，对于的情形，可以对两个电势项作一阶近似：
+
+
+将这两项代入电势表达式中，可以看到：
+
+第一项抵消掉，剩下的是：
+
+
+我们定义电偶极矩为，因此上式可以写为：
+
+这就是电偶极子在远处产生的电势。
+<br>给出了在匀外场中所受力矩<br>
+<br>然后算了两个例子，你自己看吧，第一节课就这样结束了，毕竟花很多时间将来很多事情。<br><br><a data-href="大学物理（2） 笔记 2" href="物理\大学物理（2）-笔记-2.html" class="internal-link" target="_self" rel="noopener">大学物理（2） 笔记 2</a>]]></description><link>物理\大学物理（2）-笔记-1.html</link><guid isPermaLink="false">物理/大学物理（2） 笔记 1.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 18 Sep 2024 10:08:24 GMT</pubDate></item><item><title><![CDATA[大学物理（2） 笔记 2]]></title><description><![CDATA[ 
+ <br>"笔记这种东西，没有最水，只有更水"<br><a data-href="大学物理（2） 笔记 1" href="物理\大学物理（2）-笔记-1.html" class="internal-link" target="_self" rel="noopener">大学物理（2） 笔记 1</a><br>我也懒得记了，就是给了电通量的定义（对电场的通量，我不解释），然后口述高斯定理，然后包了一堆乱七八糟的超级对称带电体算了算电场。嗯。<br>放一个链接，考试前后续如果你需要补充就往里面补充，预计会把这一节一部分需要熟练的结论放进去。（到时候你就 对着序号疯狂写草稿推算，然后订一下答案，然后对结论有个大致的印象就行。<br><a data-href="高斯定理速算" href="高斯定理速算" class="internal-link" target="_self" rel="noopener">高斯定理速算</a><br><br><a data-href="大学物理（2） 笔记 3" href="物理\大学物理（2）-笔记-3.html" class="internal-link" target="_self" rel="noopener">大学物理（2） 笔记 3</a>]]></description><link>物理\大学物理（2）-笔记-2.html</link><guid isPermaLink="false">物理/大学物理（2） 笔记 2.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 18 Sep 2024 10:16:37 GMT</pubDate></item><item><title><![CDATA[大学物理（2） 笔记 3]]></title><description><![CDATA[ 
+ <br>""<br><a data-href="大学物理（2） 笔记 2" href="物理\大学物理（2）-笔记-2.html" class="internal-link" target="_self" rel="noopener">大学物理（2） 笔记 2</a>]]></description><link>物理\大学物理（2）-笔记-3.html</link><guid isPermaLink="false">物理/大学物理（2） 笔记 3.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 18 Sep 2024 10:17:15 GMT</pubDate></item><item><title><![CDATA[可交换]]></title><description><![CDATA[ 
  <br><br><br><br>
 <br>同时正交对角化
 
@@ -1225,7 +1350,7 @@ g
 <br>说得详细, 有为了美观的排版 (如加粗, 思路点拨)
 <br>计算过程最好不要省, 而是写出来并思考能否优化
 <br>老师布置了作业题, 意味着你要达到认为这些题目显然, 涉及到的运算熟稔, 最好制成卡片. <br>作业是需要交流的, 并且要把交流得到的东西记录下来. 这点你一向做得很不好. <br>自己给自己布置的题目就在纸上写写, 总结一下即可, 老师布置的作业一定要特殊对待. 除了一种作业题: 刚刚学习概念, 为了接触一下便于理解的题目. 这些如果显然就可以不总结.<br>典型的计算方式 (算法) 需要总结.<br>不要低估自己当前的水平, 不要高估自己未来的水平, 假定未来的你就是菜鸡, 什么都忘了, 你要短时间教会他东西, 作业就是极好的载体. <br>把那些自己永远也不要忘掉的东西制卡.]]></description><link>想法\作业感悟.html</link><guid isPermaLink="false">想法/作业感悟.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Mon, 01 Jul 2024 14:48:06 GMT</pubDate></item><item><title><![CDATA[ODE 第一次作业]]></title><description><![CDATA[ 
- <br>解的存在性与唯一性<br><br>"这里是内容"<br>定理 1
+ <br>解的存在性与唯一性 1<br><br>"反正是云里雾里"<br>定理 1
 对于 对任意的初值 ，此方程存在解且唯一。
 <br>习题里面证明此处  不一定要  。但是至少可微。考虑反例<br>
 则 都是解。<br>证明
@@ -1258,7 +1383,7 @@ g
 <br>这里对唯一的证明是否有不严谨之处？
 <br><br>此时 ，否则在原点处  无界，（为奇点？）<br>扩展到 Projective line, 在无穷远点处做变换  ，得到<br>
 同理，需要 ，综上 <br><br>解 logistic curve<br>
-对于初值 ，有 ，从而根据<a data-tooltip-position="top" aria-label="解的存在性与唯一性 > ^6c3c06" data-href="解的存在性与唯一性#^6c3c06" href="mathstuff\解的存在性与唯一性.html#^6c3c06" class="internal-link" target="_self" rel="noopener">唯一性定理</a>得到所求曲线为 。<br>对于其他的初值，根据其上所在的位置，我们去到对应的区间做积分：<br>
+对于初值 ，有 ，从而根据<a data-tooltip-position="top" aria-label="解的存在性与唯一性 1 > ^6c3c06" data-href="解的存在性与唯一性 1#^6c3c06" href="mathstuff\解的存在性与唯一性-1.html#^6c3c06" class="internal-link" target="_self" rel="noopener">唯一性定理</a>得到所求曲线为 。<br>对于其他的初值，根据其上所在的位置，我们去到对应的区间做积分：<br>
 <br>，则最大延伸区间不能超过 ，有<br>
 可以去掉绝对值，解得 对于 ，一切同上，对于去绝对值的步骤有<br>
 从而结果一致。
@@ -1282,8 +1407,20 @@ g
 
 <br><br><img alt="Pasted image 20240915092331.png" src="lib\media\pasted-image-20240915092331.png"><br>
 <img alt="Pasted image 20240915092339.png" src="lib\media\pasted-image-20240915092339.png"><br>
-<img alt="Pasted image 20240915092346.png" src="lib\media\pasted-image-20240915092346.png">]]></description><link>作业\ode-第一次作业.html</link><guid isPermaLink="false">作业/ODE 第一次作业.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sun, 15 Sep 2024 04:25:23 GMT</pubDate><enclosure url="lib\media\pasted-image-20240915092018.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240915092018.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[解的存在性与唯一性]]></title><description><![CDATA[ 
- <br>"这里是内容"<br>定理 1
+<img alt="Pasted image 20240915092346.png" src="lib\media\pasted-image-20240915092346.png">]]></description><link>作业\ode-第一次作业.html</link><guid isPermaLink="false">作业/ODE 第一次作业.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 18 Sep 2024 10:10:09 GMT</pubDate><enclosure url="lib\media\pasted-image-20240915092018.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240915092018.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[级数收敛性的判别 2]]></title><description><![CDATA[ 
+ <br>"作为上一次的补充和心得"<br><a data-href="正项级数收敛判别法" href="mathstuff\正项级数收敛判别法.html" class="internal-link" target="_self" rel="noopener">正项级数收敛判别法</a><br><br>首先增加几种判别法<br><br>Cauchy 凝聚判别法
+正项级数 单调递减。则  和  同敛散。
+<br>马上想到的一件事就是可以对一个数列反复应用这个定理，从而由一个抽象级数得到一系列收敛越来越快的新级数<br>对于那些收敛得比较慢的级数，可以这么操作一下，然后就比较好看出来。<br>
+<br><a data-href="越来越慢的级数" href="越来越慢的级数" class="internal-link" target="_self" rel="noopener">越来越慢的级数</a><br><br>Kummer 判别法
+正项级数  收敛的充分必要条件是，存在正数数列  和 ，使得当  充分大时<br>
+发散的充分必要条件是存在发散的正项级数  使得  充分大时有<br>
+
+<br>证明
+只证收敛的情形，可以去谢惠民的习题集找其余的证明。
+充分性：如果已经成立，那么就会有 注意到  单调递减，从而可以对  的每一项放缩之后 scooop
+必要性：记余项 ，令 然后自己写开算一下就可。 
+<br>我不觉得这个东西是一个好用的工具，至少目前没有遇到过好用的使用场景，再说这东西其实就是一个比较判别法，如果你这个方法能做（找到一个对应的级数），那么你其他方法应该也能做。]]></description><link>mathstuff\级数收敛性的判别-2.html</link><guid isPermaLink="false">MathStuff/级数收敛性的判别 2.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 18 Sep 2024 10:09:46 GMT</pubDate></item><item><title><![CDATA[解的存在性与唯一性 1]]></title><description><![CDATA[ 
+ <br>"反正是云里雾里"<br>定理 1
 对于 对任意的初值 ，此方程存在解且唯一。
 <br>习题里面证明此处  不一定要  。但是至少可微。考虑反例<br>
 则 都是解。<br>证明
@@ -1314,7 +1451,7 @@ g
 <br><br>
 <br>第二点证明中，为什么需要用到定理一？  的定义不是已经有其上  了吗？
 <br>这里对唯一的证明是否有不严谨之处？
-]]></description><link>mathstuff\解的存在性与唯一性.html</link><guid isPermaLink="false">MathStuff/解的存在性与唯一性.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Mon, 16 Sep 2024 13:07:02 GMT</pubDate></item><item><title><![CDATA[曲面的定义]]></title><description><![CDATA[ 
+]]></description><link>mathstuff\解的存在性与唯一性-1.html</link><guid isPermaLink="false">MathStuff/解的存在性与唯一性 1.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 18 Sep 2024 10:10:20 GMT</pubDate></item><item><title><![CDATA[曲面的定义]]></title><description><![CDATA[ 
  <br><br>定义的方式有很多。<br>
 <br>流形在大空间里任意一点的邻域和对应维数的   同胚，  是  中的开集。
 <br>或者先将邻域  和流形做交 ，这个集合与  中的开集  同胚。
@@ -1418,7 +1555,7 @@ g
 (3) 当  时无法判断级数的敛散性。
 <br><br>Bertrand 判别法
 
-<br>我懒得说了，懂得都懂。<br>总的来说，这一堆比较判别法比较方便那些比一下可以消掉很多项的级数。<br>练练手看一看<br><img alt="Pasted image 20240916175002.png" src="lib\media\pasted-image-20240916175002.png"><br><br>Guass 判别法
+<br>我懒得说了，懂得都懂。<br>总的来说，这一堆比较判别法比较方便那些比一下可以消掉很多项的级数。<br>练练手看一看<br><img alt="Pasted image 20240916175002.png" src="lib\media\pasted-image-20240916175002.png"><br><br>Gauss 判别法
 设正顶级数  若
 
 其中  都是常数， 是一个有界量。则级数的敛散性为
@@ -1485,7 +1622,9 @@ Cauchy 根式判别法应该是最先用的
 设正项级数  若<br>
 其中  都是常数， 是一个有界量。则级数的敛散性为：
 
-<br>]]></description><link>mathstuff\正项级数收敛判别法.html</link><guid isPermaLink="false">MathStuff/正项级数收敛判别法.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Mon, 16 Sep 2024 11:32:23 GMT</pubDate><enclosure url="lib\media\pasted-image-20240916174049.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240916174049.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[one-point compactification]]></title><description><![CDATA[ 
+<br>]]></description><link>mathstuff\正项级数收敛判别法.html</link><guid isPermaLink="false">MathStuff/正项级数收敛判别法.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 18 Sep 2024 06:26:17 GMT</pubDate><enclosure url="lib\media\pasted-image-20240916174049.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240916174049.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Gauss 判别法]]></title><description><![CDATA[ 
+ ]]></description><link>mathstuff\gauss-判别法.html</link><guid isPermaLink="false">MathStuff/Gauss 判别法.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 18 Sep 2024 06:22:41 GMT</pubDate></item><item><title><![CDATA[Guess 超几何级数]]></title><description><![CDATA[ 
+ <br><br> 是 Pochhammer 符号，定义为：<br>]]></description><link>mathstuff\guess-超几何级数.html</link><guid isPermaLink="false">MathStuff/Guess 超几何级数.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 18 Sep 2024 06:12:03 GMT</pubDate></item><item><title><![CDATA[one-point compactification]]></title><description><![CDATA[ 
  <br>one-point compactification(单点紧化) 是一种将非紧致的局部紧致空间转化为紧致空间的技术。具体来说，给定一个局部紧致空间 ，其单点紧化是通过添加一个点（通常称为“无穷远点”或“附加点”）到  中，并将  的拓扑扩展到这个新点，使得整个空间成为紧致的。<br>形式化地，设  是一个局部紧致 Hausdorff 空间。 的单点紧化记作  或 ，其中  是新添加的点。 的拓扑定义如下：<br>
 <br>对于  中的任何开集 ， 也是  中的开集。
 <br>一个包含  的开集是  中的一个紧致闭集的补集。
