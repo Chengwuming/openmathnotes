@@ -206,13 +206,7 @@ h1 {
 
 
     <div class="background-image" id="background-image"></div>
-    <div class="row gx-4 gx-lg-5 justify-content-center">
-        <div class="col-md-10 col-lg-8 col-xl-7">
-            <div class="site-heading">
-                <h1>Logs</h1>
-            </div>
-        </div>
-    </div>
+
     <div class="timeline" id="timeline-container"></div>
     <button id="toggle-button" style="display: none;">展开更多</button>
 
@@ -327,11 +321,18 @@ h1 {
         // 在页面加载完成后调用fetchRSS
         window.addEventListener('DOMContentLoaded', fetchRSS);
 
-        // 监听滚动事件，调整背景图片的滚动速度
         window.addEventListener('scroll', () => {
             const backgroundImage = document.getElementById('background-image');
             const scrollTop = window.scrollY;
-            const scrollSpeed = -0.5; // 调整背景图片的滚动速度为负数
+            const windowHeight = window.innerHeight;
+            const documentHeight = document.documentElement.scrollHeight;
+            const distanceToBottom = documentHeight - (scrollTop + windowHeight);
+
+            // 计算滚动速度，距离底部越近，速度越快
+            const maxScrollSpeed = -2; // 最大滚动速度
+            const minScrollSpeed = -0; // 最小滚动速度
+            const scrollSpeed = minScrollSpeed + (maxScrollSpeed - minScrollSpeed) * (1 - distanceToBottom / windowHeight);
+
             backgroundImage.style.transform = `translateY(${scrollTop * scrollSpeed}px)`;
         });
     </script>
