@@ -51,6 +51,7 @@ h1 {
     position: relative;
     max-width: 800px;
     margin: 0 auto;
+    margin: 50px auto 0 auto; /* 修改这里，添加 margin-top */
     padding-left: 40px; /* 为主线留出空间 */
 }
 
@@ -101,7 +102,7 @@ h1 {
 /* 条目内容 */
 .timeline-content {
     padding: 10px 20px;
-    background: rgba(255, 255, 255, 0.3); /* 背景透明 */
+    background: rgba(255, 255, 255, 0.1); /* 背景透明 */
     border-radius: 6px;
     border: 1px solid #ddd;
     position: relative;
@@ -132,7 +133,14 @@ h1 {
 }
 
 .record-description {
+    color: #ffffff; /* 亮白色 */
     margin: 5px 0 0 0;
+}
+
+/* 取消超链接的下划线 */
+.record-title a {
+    text-decoration: none; /* 取消下划线 */
+    color: #ffffff; /* 亮白色 */
 }
 
 /* 响应式调整 */
