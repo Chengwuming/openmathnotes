@@ -9,21 +9,35 @@
   <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
 
-  <div style="position: fixed; bottom: 20px; right: 20px;">
+  <div id="floating-button" style="position: fixed; bottom: 20px; right: 20px; z-index: 9999; display: none;">
     <a href="index.html" style="padding: 10px 20px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px;">
         Back to Home
     </a>
   </div>
   <script>
-      setTimeout(function() {
+      document.addEventListener("DOMContentLoaded", function() {
           var sidebar = document.querySelector("#right-sidebar-content");
           if (sidebar) {
               var button = document.createElement("a");
               button.href = "index.html";  // 替换为主页链接
               button.innerText = "返回主页";
-              button.style.cssText = "display: block; padding: 10px; background-color: #007bff; color: white; text-decoration: none; text-align: center; margin-top: 20px; border-radius: 5px;";
+              button.style.cssText = "display: block; padding: 10px; background-color: #007bff; color: white; text-decoration: none; text-align: center; margin-top: 20px; border-radius: 5px; z-index: 9999;";
               sidebar.appendChild(button);
           }
-      }, 10000); // 延迟 10 秒
+
+          // 使用 MutationObserver 监听 DOM 变化
+          var observer = new MutationObserver(function(mutations) {
+              mutations.forEach(function(mutation) {
+                  // 重新显示按钮
+                  document.getElementById('floating-button').style.display = 'block';
+              });
+          });
+
+          // 配置观察选项
+          var config = { childList: true, subtree: true };
+
+          // 开始观察目标节点
+          observer.observe(document.body, config);
+      });
   </script>
 </head>
