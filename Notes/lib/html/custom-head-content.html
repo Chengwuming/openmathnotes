@@ -1,4 +1,4 @@
-
+<head>
   <link rel="stylesheet" href="custom.css">
 
   <script type="text/javascript" async
@@ -25,18 +25,10 @@
               sidebar.appendChild(button);
           }
 
-          // 使用 MutationObserver 监听 DOM 变化
-          var observer = new MutationObserver(function(mutations) {
-              mutations.forEach(function(mutation) {
-                  // 重新显示按钮
-                  document.getElementById('floating-button').style.display = 'block';
-              });
-          });
-
-          // 配置观察选项
-          var config = { childList: true, subtree: true };
-
-          // 开始观察目标节点
-          observer.observe(document.body, config);
+          // 使用 setTimeout 延迟 10 秒显示按钮
+          setTimeout(function() {
+              document.getElementById('floating-button').style.display = 'block';
+          }, 10000); // 10 秒
       });
   </script>
+</head>
