@@ -15,6 +15,34 @@
     <link href="../css/styles.css" rel="stylesheet" />
     <title>笔记更新记录</title>
     <style>
+        :root {
+    --color-1: #ffcccb; /* 示例颜色 */
+    --color-2: #add8e6; /* 示例颜色 */
+    --color-3: #90ee90; /* 示例颜色 */
+    --color-4: #ffb6c1; /* 示例颜色 */
+    --color-5: #87ceeb; /* 示例颜色 */
+}
+
+.record {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 6px;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.record::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--record-color);
+    opacity: 0.3;
+    border-radius: 6px;
+    z-index: -1;
+}
 
 @keyframes fadeIn {
     0% {
@@ -37,20 +65,21 @@
 }
 
 body {
-    font-family: 'Open Sans', sans-serif; /* 更换为高级字体 */
+    font-family: Georgia, serif; /* 更换为高级字体 */
     padding: 20px;
     margin: 0;
     overflow-x: hidden; /* 防止水平滚动 */
 }
 
 .latest-update {
-    font-size: 24px;
+    font-size: 60px;
     color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     margin-bottom: 10px;
     text-align: center; /* 居中对齐 */
-    margin-top: 50px; /* 调整位置 */
+    margin-top: 250px; /* 调整位置 */
 }
+
 
 h1 {
     text-align: center;
@@ -220,7 +249,7 @@ h1 {
     <button id="toggle-button" style="display: none;">展开更多</button>
 
     <script>
-       async function fetchRSS() {
+ async function fetchRSS() {
     try {
         const response = await fetch('lib/rss.xml'); // 修改这里为您的RSS文件路径
         const text = await response.text();
@@ -251,6 +280,8 @@ h1 {
         const toggleButton = document.getElementById('toggle-button');
         let visibleCount = 5; // 初始显示的条目数量
 
+        const colors = ['var(--color-1)', 'var(--color-2)', 'var(--color-3)', 'var(--color-4)', 'var(--color-5)'];
+
         for (const [date, items] of Object.entries(groupedItems)) {
             const timelineEntry = document.createElement('div');
             timelineEntry.className = 'timeline-entry';
@@ -264,7 +295,7 @@ h1 {
 
             timelineContent.appendChild(timelineDate);
 
-            items.forEach(item => {
+            items.forEach((item, index) => {
                 const title = item.querySelector('title').textContent;
                 const link = item.querySelector('link').textContent;
                 const description = item.querySelector('description').textContent;
@@ -275,6 +306,7 @@ h1 {
 
                 const record = document.createElement('div');
                 record.className = 'record';
+                record.style.setProperty('--record-color', colors[index % colors.length]);
 
                 const recordTitle = document.createElement('p');
                 recordTitle.className = 'record-title';
@@ -327,22 +359,9 @@ h1 {
     }
 }
 
-        // 在页面加载完成后调用fetchRSS
-        window.addEventListener('DOMContentLoaded', fetchRSS);
-
-        // 监听滚动事件，调整背景图片的滚动速度
-        window.addEventListener('scroll', () => {
-            const backgroundImage = document.getElementById('background-image');
-            const scrollTop = window.scrollY;
-            const scrollSpeed = -0.5; // 调整背景图片的滚动速度为负数
-            const maxScroll = backgroundImage.clientHeight - window.innerHeight;
-
-            if (scrollTop <= maxScroll) {
-                backgroundImage.style.transform = `translateY(${scrollTop * scrollSpeed}px)`;
-            } else {
-                backgroundImage.style.transform = `translateY(${maxScroll * scrollSpeed}px)`;
-            }
-        });
+// 在页面加载完成后调用fetchRSS
+window.addEventListener('DOMContentLoaded', fetchRSS);
     </script>
+
 </body>
 </html>
