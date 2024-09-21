@@ -35,18 +35,21 @@
         opacity: 1;
     }
 }
+
+body {
+    font-family: 'Open Sans', sans-serif; /* 更换为高级字体 */
+    padding: 20px;
+    margin: 0;
+    overflow-x: hidden; /* 防止水平滚动 */
+}
+
 .latest-update {
     font-size: 24px;
     color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     margin-bottom: 10px;
-}
-
-        body {
-    font-family: Georgia, serif; /* 更换为高级字体 */
-    padding: 20px;
-    margin: 0;
-    overflow-x: hidden; /* 防止水平滚动 */
+    text-align: center; /* 居中对齐 */
+    margin-top: 50px; /* 调整位置 */
 }
 
 h1 {
@@ -62,16 +65,7 @@ h1 {
     padding-left: 40px; /* 为主线留出空间 */
 }
 
-/* 主线 */
-.timeline::before {
-    content: '';
-    position: absolute;
-    left: 20px;
-    top: 0;
-    bottom: 0;
-    width: 4px;
-    background: #ccc;
-}
+
 /* 添加半透明滤镜效果 */
 .background-image::before {
     content: '';
@@ -221,7 +215,7 @@ h1 {
 
 
     <div class="background-image" id="background-image"></div>
-    <div class="latest-update">最新更新</div>
+    <div class="latest-update" style="text-align: center; margin-top: 50px;">最新更新</div>
     <div class="timeline" id="timeline-container"></div>
     <button id="toggle-button" style="display: none;">展开更多</button>
 
