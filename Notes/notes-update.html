@@ -71,16 +71,6 @@ body {
     overflow-x: hidden; /* 防止水平滚动 */
 }
 
-.latest-update {
-    font-size: 60px;
-    color: white;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    margin-bottom: 10px;
-    text-align: center; /* 居中对齐 */
-    margin-top: 250px; /* 调整位置 */
-}
-
-
 h1 {
     text-align: center;
 }
@@ -90,7 +80,7 @@ h1 {
     position: relative;
     max-width: 800px;
     margin: 0 auto;
-    margin: 200px auto 0 auto; /* 修改这里，添加 margin-top */
+    margin: 20px auto 0 auto; /* 修改这里，添加 margin-top */
     padding-left: 40px; /* 为主线留出空间 */
 }
 
@@ -244,7 +234,16 @@ h1 {
 
 
     <div class="background-image" id="background-image"></div>
-    <div class="latest-update" style="text-align: center; margin-top: 50px;">最新更新</div>
+    <div class="container position-relative px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-md-10 col-lg-8 col-xl-7">
+                <div class="site-heading">
+                    <h1>Recent Updates</h1>
+                    <span class="subheading">Display the timestamp as the latest modification</span>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="timeline" id="timeline-container"></div>
     <button id="toggle-button" style="display: none;">展开更多</button>
 
