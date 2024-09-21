@@ -9,68 +9,22 @@
         <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
 
-<!-- lib/html/custom-head-content.html -->
-
-<!-- 自定义 CSS -->
-<!-- HTML 部分 -->
-<style>
-  .back-to-home {
-      position: fixed;
-      top: 20px;
-      right: -100px; /* 初始状态：按钮隐藏在右边 */
-      padding: 15px 30px; /* 稍微大一点 */
-      background: rgba(255, 255, 255, 0.2); /* 相对透明无色背景 */
-      color: #333; /* 文字颜色 */
-      text-decoration: none;
-      border-radius: 10px; /* 圆角按钮，稍微方一点 */
-      font-size: 18px; /* 稍微大一点 */
-      font-weight: bold;
-      font-family: 'Arial', sans-serif;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* 阴影效果，增加质感 */
-      opacity: 0.7; /* 半透明，带来现代感 */
-      z-index: 1000;
-      transition: all 0.5s ease; /* 平滑的动画过渡效果 */
-  }
-
-  /* 鼠标悬停时按钮出现的效果 */
-  .back-to-home:hover {
-      right: 20px; /* 按钮完全显示 */
-      opacity: 1; /* 全透明 */
-      transform: scale(1.05); /* 微小的放大效果，提升交互感 */
-      background: rgba(255, 255, 255, 0.3); /* 悬停时的背景变化 */
-      box-shadow: 0 6px 14px rgba(0, 0, 0, 0.4); /* 增加悬停时的阴影效果 */
-  }
-</style>
-<!-- lib/html/custom-head-content.html -->
-
-<!-- 自定义 JavaScript -->
-<!--script>
-  document.addEventListener('DOMContentLoaded', function() {
-      var homeButton = document.createElement('a');
-      homeButton.href = 'https://yourwebsite.com'; // 替换为你的主页链接
-      homeButton.className = 'back-to-home';
-      homeButton.textContent = 'Home';
-      
-      document.body.appendChild(homeButton);
-  });
-</script>
-
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-      // 监听键盘按下事件
-      document.addEventListener('keydown', function(event) {
-          // 检查按下的键是否是 'H'（可以使用其他键码或字符）
-          if (event.key === 'H' || event.key === 'h') {
-              // 阻止默认行为（如果有必要）
-              event.preventDefault();
-              // 跳转到主页
-              window.location.href = 'https://chengwuming.github.io/openmathnotes/index.html'; // 替换为你的主页链接
-          }
-      });
-  });
-</script-->
-<!-- HTML 部分 -->
-
-
-
+        
+        <div style="position: fixed; bottom: 20px; right: 20px;">
+          <a href="index.html" style="padding: 10px 20px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px;">
+              Back to Home
+          </a>
+      </div>
+      <script>
+          document.addEventListener("DOMContentLoaded", function() {
+              var sidebar = document.querySelector("#right-sidebar-content");
+              if (sidebar) {
+                  var button = document.createElement("a");
+                  button.href = "index.html";  // 替换为主页链接
+                  button.innerText = "返回主页";
+                  button.style.cssText = "display: block; padding: 10px; background-color: #007bff; color: white; text-decoration: none; text-align: center; margin-top: 20px; border-radius: 5px;";
+                  sidebar.appendChild(button);
+              }
+          });
+      </script>
 </head>

@@ -269,7 +269,7 @@ h1 {
                 const description = item.querySelector('description').textContent;
 
                 // 提取预览内容
-                const previewMatch = description.match(/"(.*?)"/);
+                const previewMatch = description.match(/@(.*?)@/);
                 const previewContent = previewMatch ? previewMatch[1].trim() : '无预览内容';
 
                 const record = document.createElement('div');
