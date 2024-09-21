@@ -23,6 +23,32 @@
     --color-5: #87ceeb; /* 示例颜色 */
 }
 
+.latest-update {
+  position: relative;
+  margin-bottom: 3rem;
+  padding-top: calc(8rem + 57px);
+  padding-bottom: 8rem;
+  height: 40vh; /* 确保背景图片全屏显示 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff; /* 字体颜色 */
+  text-align: center; /* 文本居中 */
+}
+
+.latest-update h1 {
+  font-size: 4.5rem; /* 字体大小 */
+  display: block;
+}
+
+.latest-update .subheading {
+  font-size: 1.5rem; /* 副标题字体大小 */
+  font-weight: 300;
+  line-height: 1.1;
+  display: block;
+  margin-top: 0.625rem;
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* 字体 */
+}
 
 .record {
     margin-bottom: 10px;
@@ -354,6 +380,21 @@ h1 {
 
 // 在页面加载完成后调用fetchRSS
 window.addEventListener('DOMContentLoaded', fetchRSS);
+
+
+        // 监听滚动事件，调整背景图片的滚动速度
+        window.addEventListener('scroll', () => {
+            const backgroundImage = document.getElementById('background-image');
+            const scrollTop = window.scrollY;
+            const scrollSpeed = -0.5; // 调整背景图片的滚动速度为负数
+            const maxScroll = backgroundImage.clientHeight - window.innerHeight;
+
+            if (scrollTop <= maxScroll) {
+                backgroundImage.style.transform = `translateY(${scrollTop * scrollSpeed}px)`;
+            } else {
+                backgroundImage.style.transform = `translateY(${maxScroll * scrollSpeed}px)`;
+            }
+        });
     </script>
 
 </body>
