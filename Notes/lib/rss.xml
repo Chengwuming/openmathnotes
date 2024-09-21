@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[LogseqVault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>LogseqVault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sat, 21 Sep 2024 04:21:40 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sat, 21 Sep 2024 04:21:15 GMT</pubDate><copyright><![CDATA[Chengwuming]]></copyright><ttl>60</ttl><dc:creator>Chengwuming</dc:creator><item><title><![CDATA[作业9]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[LogseqVault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>LogseqVault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sat, 21 Sep 2024 04:35:19 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sat, 21 Sep 2024 04:34:54 GMT</pubDate><copyright><![CDATA[Chengwuming]]></copyright><ttl>60</ttl><dc:creator>Chengwuming</dc:creator><item><title><![CDATA[作业9]]></title><description><![CDATA[ 
  <br>
 <br>
 <img alt="Pasted image 20240513205638.png" src="lib\media\pasted-image-20240513205638.png">
@@ -570,7 +570,7 @@ Predator-Prey Model<br>
  吃  ，懒得写了
 
 <br><br>第一节课用一个词形容，就是幽默。<br>课堂上就证明了两个定理，板书也是令人难绷，哎。<br>这节课讨论的方程为<br>
-证明了此解的存在性于唯一性，以及最大延申解。<br>解的存在性与唯一性 1<br><br>@反正是云里雾里@<br>定理 1
+证明了此解的存在性于唯一性，以及最大延申解。<br>解的存在性与唯一性 1<br><br>@2024-09-13，反正是云里雾里@<br>定理 1
 对于 对任意的初值 ，此方程存在解且唯一。
 <br>习题里面证明此处  不一定要  。但是至少可微。考虑反例<br>
 则 都是解。<br>证明
@@ -1261,7 +1261,7 @@ Guess 超几何级数
  绝对收敛，  收敛，那么  收敛。
 <br>证明
 下课了，下节课再证明
-<br>我觉得数分的轻松日子不出三周就要结束了，速速复习 Amann 预习 Fourier<br><a data-href="Analysis III Note 3" href="分析\数学分析\analysis-iii-note-3.html" class="internal-link" target="_self" rel="noopener">Analysis III Note 3</a>]]></description><link>分析\数学分析\analysis-iii-note-2.html</link><guid isPermaLink="false">分析/数学分析/Analysis III Note 2.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 21 Sep 2024 02:36:58 GMT</pubDate></item><item><title><![CDATA[Analysis III Note 3]]></title><description><![CDATA[ 
+<br>我觉得数分的轻松日子不出三周就要结束了，速速复习 Amann 预习 Fourier<br><a data-href="Analysis III Note 3" href="分析\数学分析\analysis-iii-note-3.html" class="internal-link" target="_self" rel="noopener">Analysis III Note 3</a>]]></description><link>分析\数学分析\analysis-iii-note-2.html</link><guid isPermaLink="false">分析/数学分析/Analysis III Note 2.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 21 Sep 2024 04:30:43 GMT</pubDate></item><item><title><![CDATA[Analysis III Note 3]]></title><description><![CDATA[ 
  ]]></description><link>分析\数学分析\analysis-iii-note-3.html</link><guid isPermaLink="false">分析/数学分析/Analysis III Note 3.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 21 Sep 2024 01:04:39 GMT</pubDate></item><item><title><![CDATA[单位分解]]></title><description><![CDATA[ 
  <br><br>对于某个紧集 ，其上的开覆盖  存在有限子覆盖，在每个子覆盖的开集上通过<br>]]></description><link>分析\单位分解.html</link><guid isPermaLink="false">分析/单位分解.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 11 Sep 2024 23:39:15 GMT</pubDate></item><item><title><![CDATA[度量空间的完备化]]></title><description><![CDATA[ 
  ]]></description><link>分析\度量空间的完备化.html</link><guid isPermaLink="false">分析/度量空间的完备化.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 10 Sep 2024 15:37:39 GMT</pubDate></item><item><title><![CDATA[简谐波]]></title><description><![CDATA[ 
@@ -1291,7 +1291,7 @@ Guess 超几何级数
 间正模式
 
 ]]></description><link>物理\大雾\简谐波.html</link><guid isPermaLink="false">物理/大雾/简谐波.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Fri, 17 May 2024 04:44:59 GMT</pubDate></item><item><title><![CDATA[大学物理（2） 笔记 1]]></title><description><![CDATA[ 
- <br><br><br>本节课的记号中第一个角标是受力的物体，第二个角标是施力的物体<br><br><br><br><br><br>设电偶极子由两个等量异号电荷和组成，距离为，则电偶极矩。<br>在远场条件下（），电偶极子在点处的电场强度为：<br><br>AI 做出的推导，还挺有意思
+ <br>@2024-09-18，今天开始学物理啊@<br><br><br>本节课的记号中第一个角标是受力的物体，第二个角标是施力的物体<br><br><br><br><br><br>设电偶极子由两个等量异号电荷和组成，距离为，则电偶极矩。<br>在远场条件下（），电偶极子在点处的电场强度为：<br><br>AI 做出的推导，还挺有意思
 电偶极子由两点电荷组成，分别为+q和-q，距离为，其电偶极矩为：
 
 其中，是从负电荷指向正电荷的位移矢量。
@@ -1345,9 +1345,9 @@ Guess 超几何级数
 
 这就是电偶极子在远处产生的电势。
 <br>给出了在匀外场中所受力矩<br>
-<br>然后算了两个例子，你自己看吧，第一节课就这样结束了，毕竟花很多时间将来很多事情。<br><br><a data-href="大学物理（2） 笔记 2" href="物理\大学物理（2）-笔记-2.html" class="internal-link" target="_self" rel="noopener">大学物理（2） 笔记 2</a>]]></description><link>物理\大学物理（2）-笔记-1.html</link><guid isPermaLink="false">物理/大学物理（2） 笔记 1.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 18 Sep 2024 10:08:24 GMT</pubDate></item><item><title><![CDATA[大学物理（2） 笔记 2]]></title><description><![CDATA[ 
- <br>@笔记这种东西，没有最水，只有更水@<br><a data-href="大学物理（2） 笔记 1" href="物理\大学物理（2）-笔记-1.html" class="internal-link" target="_self" rel="noopener">大学物理（2） 笔记 1</a><br>我也懒得记了，就是给了电通量的定义（对电场的通量，我不解释），然后口述高斯定理，然后包了一堆乱七八糟的超级对称带电体算了算电场。嗯。<br>放一个链接，考试前后续如果你需要补充就往里面补充，预计会把这一节一部分需要熟练的结论放进去。（到时候你就 对着序号疯狂写草稿推算，然后订一下答案，然后对结论有个大致的印象就行。<br><a data-href="高斯定理速算" href="高斯定理速算" class="internal-link" target="_self" rel="noopener">高斯定理速算</a><br><br><a data-href="大学物理（2） 笔记 3" href="物理\大学物理（2）-笔记-3.html" class="internal-link" target="_self" rel="noopener">大学物理（2） 笔记 3</a>]]></description><link>物理\大学物理（2）-笔记-2.html</link><guid isPermaLink="false">物理/大学物理（2） 笔记 2.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 21 Sep 2024 02:34:37 GMT</pubDate></item><item><title><![CDATA[大学物理（2） 笔记 3]]></title><description><![CDATA[ 
- <br>""<br><a data-href="大学物理（2） 笔记 2" href="物理\大学物理（2）-笔记-2.html" class="internal-link" target="_self" rel="noopener">大学物理（2） 笔记 2</a>]]></description><link>物理\大学物理（2）-笔记-3.html</link><guid isPermaLink="false">物理/大学物理（2） 笔记 3.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 18 Sep 2024 10:17:15 GMT</pubDate></item><item><title><![CDATA[可交换]]></title><description><![CDATA[ 
+<br>然后算了两个例子，你自己看吧，第一节课就这样结束了，毕竟花很多时间将来很多事情。<br><br><a data-href="大学物理（2） 笔记 2" href="物理\大学物理（2）-笔记-2.html" class="internal-link" target="_self" rel="noopener">大学物理（2） 笔记 2</a>]]></description><link>物理\大学物理（2）-笔记-1.html</link><guid isPermaLink="false">物理/大学物理（2） 笔记 1.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 21 Sep 2024 04:32:19 GMT</pubDate></item><item><title><![CDATA[大学物理（2） 笔记 2]]></title><description><![CDATA[ 
+ <br>@2024-09-18，笔记这种东西，没有最水，只有更水@<br><a data-href="大学物理（2） 笔记 1" href="物理\大学物理（2）-笔记-1.html" class="internal-link" target="_self" rel="noopener">大学物理（2） 笔记 1</a><br>我也懒得记了，就是给了电通量的定义（对电场的通量，我不解释），然后口述高斯定理，然后包了一堆乱七八糟的超级对称带电体算了算电场。嗯。<br>放一个链接，考试前后续如果你需要补充就往里面补充，预计会把这一节一部分需要熟练的结论放进去。（到时候你就 对着序号疯狂写草稿推算，然后订一下答案，然后对结论有个大致的印象就行。<br><a data-href="高斯定理速算" href="高斯定理速算" class="internal-link" target="_self" rel="noopener">高斯定理速算</a><br><br><a data-href="大学物理（2） 笔记 3" href="物理\大学物理（2）-笔记-3.html" class="internal-link" target="_self" rel="noopener">大学物理（2） 笔记 3</a>]]></description><link>物理\大学物理（2）-笔记-2.html</link><guid isPermaLink="false">物理/大学物理（2） 笔记 2.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 21 Sep 2024 04:32:46 GMT</pubDate></item><item><title><![CDATA[大学物理（2） 笔记 3]]></title><description><![CDATA[ 
+ <br><a data-href="大学物理（2） 笔记 2" href="物理\大学物理（2）-笔记-2.html" class="internal-link" target="_self" rel="noopener">大学物理（2） 笔记 2</a>]]></description><link>物理\大学物理（2）-笔记-3.html</link><guid isPermaLink="false">物理/大学物理（2） 笔记 3.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 21 Sep 2024 04:32:53 GMT</pubDate></item><item><title><![CDATA[可交换]]></title><description><![CDATA[ 
  <br><br><br><br>
 <br>同时正交对角化
 
@@ -1370,7 +1370,7 @@ Guess 超几何级数
 
 <br>
 ]]></description><link>作业\analysis-iii-第一次作业.html</link><guid isPermaLink="false">作业/Analysis III 第一次作业.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Mon, 16 Sep 2024 11:18:03 GMT</pubDate></item><item><title><![CDATA[ODE 第一次作业]]></title><description><![CDATA[ 
- <br>后续记得补齐<br>解的存在性与唯一性 1<br><br>@反正是云里雾里@<br>定理 1
+ <br>@2024-09-13，后续记得补齐@<br>解的存在性与唯一性 1<br><br>@2024-09-13，反正是云里雾里@<br>定理 1
 对于 对任意的初值 ，此方程存在解且唯一。
 <br>习题里面证明此处  不一定要  。但是至少可微。考虑反例<br>
 则 都是解。<br>证明
@@ -1427,7 +1427,7 @@ Guess 超几何级数
 
 <br><br><img alt="Pasted image 20240915092331.png" src="lib\media\pasted-image-20240915092331.png"><br>
 <img alt="Pasted image 20240915092339.png" src="lib\media\pasted-image-20240915092339.png"><br>
-<img alt="Pasted image 20240915092346.png" src="lib\media\pasted-image-20240915092346.png">]]></description><link>作业\ode-第一次作业.html</link><guid isPermaLink="false">作业/ODE 第一次作业.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 21 Sep 2024 02:35:17 GMT</pubDate><enclosure url="lib\media\pasted-image-20240915092018.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240915092018.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[级数收敛性的判别 2]]></title><description><![CDATA[ 
+<img alt="Pasted image 20240915092346.png" src="lib\media\pasted-image-20240915092346.png">]]></description><link>作业\ode-第一次作业.html</link><guid isPermaLink="false">作业/ODE 第一次作业.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 21 Sep 2024 04:34:14 GMT</pubDate><enclosure url="lib\media\pasted-image-20240915092018.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240915092018.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[级数收敛性的判别 2]]></title><description><![CDATA[ 
  <br>"作为上一次的补充和心得"<br><a data-href="正项级数收敛判别法" href="mathstuff\正项级数收敛判别法.html" class="internal-link" target="_self" rel="noopener">正项级数收敛判别法</a><br><br>首先增加几种判别法<br><br>Cauchy 凝聚判别法
 正项级数 单调递减。则  和  同敛散。
 <br>马上想到的一件事就是可以对一个数列反复应用这个定理，从而由一个抽象级数得到一系列收敛越来越快的新级数<br>对于那些收敛得比较慢的级数，可以这么操作一下，然后就比较好看出来。<br>
@@ -1440,7 +1440,7 @@ Guess 超几何级数
 充分性：如果已经成立，那么就会有 注意到  单调递减，从而可以对  的每一项放缩之后 scooop
 必要性：记余项 ，令 然后自己写开算一下就可。 
 <br>我不觉得这个东西是一个好用的工具，至少目前没有遇到过好用的使用场景，再说这东西其实就是一个比较判别法，如果你这个方法能做（找到一个对应的级数），那么你其他方法应该也能做。]]></description><link>mathstuff\级数收敛性的判别-2.html</link><guid isPermaLink="false">MathStuff/级数收敛性的判别 2.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 18 Sep 2024 10:09:46 GMT</pubDate></item><item><title><![CDATA[解的存在性与唯一性 1]]></title><description><![CDATA[ 
- <br>@反正是云里雾里@<br>定理 1
+ <br>@2024-09-13，反正是云里雾里@<br>定理 1
 对于 对任意的初值 ，此方程存在解且唯一。
 <br>习题里面证明此处  不一定要  。但是至少可微。考虑反例<br>
 则 都是解。<br>证明
@@ -1471,7 +1471,7 @@ Guess 超几何级数
 <br><br>
 <br>第二点证明中，为什么需要用到定理一？  的定义不是已经有其上  了吗？
 <br>这里对唯一的证明是否有不严谨之处？
-]]></description><link>mathstuff\解的存在性与唯一性-1.html</link><guid isPermaLink="false">MathStuff/解的存在性与唯一性 1.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 21 Sep 2024 02:35:54 GMT</pubDate></item><item><title><![CDATA[曲面的定义]]></title><description><![CDATA[ 
+]]></description><link>mathstuff\解的存在性与唯一性-1.html</link><guid isPermaLink="false">MathStuff/解的存在性与唯一性 1.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 21 Sep 2024 04:33:31 GMT</pubDate></item><item><title><![CDATA[曲面的定义]]></title><description><![CDATA[ 
  <br><br>定义的方式有很多。<br>
 <br>流形在大空间里任意一点的邻域和对应维数的   同胚，  是  中的开集。
 <br>或者先将邻域  和流形做交 ，这个集合与  中的开集  同胚。
