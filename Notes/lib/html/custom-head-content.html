@@ -15,7 +15,7 @@
     </a>
   </div>
   <script>
-      window.onload = function() {
+      setTimeout(function() {
           var sidebar = document.querySelector("#right-sidebar-content");
           if (sidebar) {
               var button = document.createElement("a");
@@ -24,6 +24,6 @@
               button.style.cssText = "display: block; padding: 10px; background-color: #007bff; color: white; text-decoration: none; text-align: center; margin-top: 20px; border-radius: 5px;";
               sidebar.appendChild(button);
           }
-      };
+      }, 10000); // 延迟 10 秒
   </script>
 </head>
