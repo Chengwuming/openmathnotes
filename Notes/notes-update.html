@@ -35,6 +35,14 @@
         opacity: 1;
     }
 }
+.latest-update {
+    font-size: 24px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: left;
+    margin-bottom: 10px;
+}
+
         body {
     font-family: Georgia, serif; /* 更换为高级字体 */
     padding: 20px;
@@ -133,7 +141,7 @@ h1 {
 }
 
 .record-description {
-    color: #ffffff; /* 亮白色 */
+    color: var(--high-contrast-color); /* 亮白色 */
     margin: 5px 0 0 0;
 }
 
@@ -214,7 +222,7 @@ h1 {
 
 
     <div class="background-image" id="background-image"></div>
-
+    <div class="latest-update">最新更新</div>
     <div class="timeline" id="timeline-container"></div>
     <button id="toggle-button" style="display: none;">展开更多</button>
 
