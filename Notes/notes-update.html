@@ -23,6 +23,32 @@
     --color-5: #87ceeb; /* 示例颜色 */
 }
 
+.latest-update {
+  position: relative;
+  margin-bottom: 3rem;
+  padding-top: calc(8rem + 57px);
+  padding-bottom: 8rem;
+  height: 40vh; /* 确保背景图片全屏显示 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff; /* 字体颜色 */
+  text-align: center; /* 文本居中 */
+}
+
+.latest-update h1 {
+  font-size: 3rem; /* 字体大小 */
+}
+
+.latest-update .subheading {
+  font-size: 1.5rem; /* 副标题字体大小 */
+  font-weight: 300;
+  line-height: 1.1;
+  display: block;
+  margin-top: 0.625rem;
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* 字体 */
+}
+
 .record {
     margin-bottom: 10px;
     padding: 10px;
@@ -65,7 +91,7 @@
 }
 
 body {
-    font-family: Georgia, serif; /* 更换为高级字体 */
+    font-family: Georgia, 'SimSun',serif; /* 更换为高级字体 */
     padding: 20px;
     margin: 0;
     overflow-x: hidden; /* 防止水平滚动 */
@@ -234,15 +260,9 @@ h1 {
 
 
     <div class="background-image" id="background-image"></div>
-    <div class="container position-relative px-4 px-lg-5">
-        <div class="row gx-4 gx-lg-5 justify-content-center">
-            <div class="col-md-10 col-lg-8 col-xl-7">
-                <div class="site-heading">
-                    <h1>Recent Updates</h1>
-                    <span class="subheading">Display the timestamp as the latest modification</span>
-                </div>
-            </div>
-        </div>
+    <div class="latest-update">
+        <h1>Recent Updates</h1>
+        <span class="subheading">Display the timestamp as the latest modification</span>
     </div>
     <div class="timeline" id="timeline-container"></div>
     <button id="toggle-button" style="display: none;">展开更多</button>
