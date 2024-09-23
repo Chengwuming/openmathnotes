@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[LogseqVault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>LogseqVault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sat, 21 Sep 2024 05:42:44 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sat, 21 Sep 2024 05:42:04 GMT</pubDate><copyright><![CDATA[Chengwuming]]></copyright><ttl>60</ttl><dc:creator>Chengwuming</dc:creator><item><title><![CDATA[作业9]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[LogseqVault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>LogseqVault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 23 Sep 2024 01:56:53 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 23 Sep 2024 01:56:27 GMT</pubDate><copyright><![CDATA[Chengwuming]]></copyright><ttl>60</ttl><dc:creator>Chengwuming</dc:creator><item><title><![CDATA[作业9]]></title><description><![CDATA[ 
  <br>
 <br>
 <img alt="Pasted image 20240513205638.png" src="lib\media\pasted-image-20240513205638.png">
@@ -1243,7 +1243,7 @@ Guess 超几何级数
 条件收敛的级数经过重排之后可以收敛到任意数。
 <br>不知道导出谁把这种东西留成作业了，hh<br>想一想，其实关键在于条件收敛就是用一堆正的东西和负的东西相互抵抗，而且  充分大时两者都非常小。<br>证明
 设 ，这里  是任给的，记重排后的级数 ，记部分和为 ，我们希望  的上下极限分别为 。
-记  为  的非负部分，  则为负的部分。  的敛散性与  一致。显然这两坨都是发散的。
+记  为  的非负部分的绝对值，  则为负的部分。  的敛散性与  一致。显然这两坨都是发散的。
 我们开始证明。不妨设 
 存在最小的  使得 存在最小的 ...<br>
 总之就是存在最小的  使得 ，且满足
@@ -1261,8 +1261,75 @@ Guess 超几何级数
  绝对收敛，  收敛，那么  收敛。
 <br>证明
 下课了，下节课再证明
-<br>我觉得数分的轻松日子不出三周就要结束了，速速复习 Amann 预习 Fourier<br><a data-href="Analysis III Note 3" href="分析\数学分析\analysis-iii-note-3.html" class="internal-link" target="_self" rel="noopener">Analysis III Note 3</a>]]></description><link>分析\数学分析\analysis-iii-note-2.html</link><guid isPermaLink="false">分析/数学分析/Analysis III Note 2.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 21 Sep 2024 04:30:43 GMT</pubDate></item><item><title><![CDATA[Analysis III Note 3]]></title><description><![CDATA[ 
- ]]></description><link>分析\数学分析\analysis-iii-note-3.html</link><guid isPermaLink="false">分析/数学分析/Analysis III Note 3.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 21 Sep 2024 01:04:39 GMT</pubDate></item><item><title><![CDATA[单位分解]]></title><description><![CDATA[ 
+<br>我觉得数分的轻松日子不出三周就要结束了，速速复习 Amann 预习 Fourier<br><a data-href="Analysis III Note 3" href="分析\数学分析\analysis-iii-note-3.html" class="internal-link" target="_self" rel="noopener">Analysis III Note 3</a>]]></description><link>分析\数学分析\analysis-iii-note-2.html</link><guid isPermaLink="false">分析/数学分析/Analysis III Note 2.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Mon, 23 Sep 2024 00:03:42 GMT</pubDate></item><item><title><![CDATA[Analysis III Note 3]]></title><description><![CDATA[ 
+ <br>@2024-09-23，无缝衔接到新的一周@<br><a data-href="Analysis III Note 2" href="分析\数学分析\analysis-iii-note-2.html" class="internal-link" target="_self" rel="noopener">Analysis III Note 2</a><br><br><br>定义 <br><br>定义 级数的乘法（Cauchy 乘积）
+
+<br>如果两个级数绝对收敛，那么乘积级数收敛。<br><br><br>定理 (Mortens)
+ 绝对收敛，  收敛，那么  收敛。
+<br>我们来证明<br>证明
+假设 ， ， <br>
+
+  当  充分大时， ，而对于前面的()有限项，注意到 ，从而<br>
+ 
+<br>第一行应该写有限项和，懒得敲了。总之就是分别放缩一下，非常好懂。<br>Example
+ 和自己的 Cauchy 乘积。<br>
+发散
+<br>Example
+算了一个显然收敛的例子
+<br>定理 (Abel)
+,  收敛，其乘积也收敛，那么 
+<br>看到这些  就想起来了奇奇怪怪的技巧。想起来就感到奇怪。<br>用到两个结论，即<br>
+<br>若 收敛，那么  收敛。
+<br>若  收敛，那么 
+<br>证明
+ 应用之上的结论二
+<br><br>无穷乘积
+设  为数列，称 为无穷乘积<br>
+其中
+
+<br> 为通项
+<br> 为第  个乘积
+<br>若 ，则称  为  的值，若 ，称  收敛，否则称其发散
+
+<br>Wallis
+即 
+<br>Example
+取  得到 
+<br>意义不明的展开（图）<br><img alt="38bb7cbe7ec7eb7bf42450048d1b473b_720.jpg" src="lib\media\38bb7cbe7ec7eb7bf42450048d1b473b_720.jpg"><br>开始找等价的刻画。<br>定理 
+ 收敛，那么  收敛。
+<br>“小结论”： 充分大的时候如果  不变号，那么  和  同敛散。这是因为<br>
+可以使用正项级数的比较判别法。<br>定理 
+若  收敛，那么  和  同敛散
+<br>证明
+可知 ，由 可得
+<br><br>利用无穷乘积，构造具有给定零点的函数<br> 的无穷乘积展开
+
+<br>Euler-Gauss 公式
+
+<br>证明
+Step 1
+
+Step 2<br>
+根据 ，有<br>
+，我们可以放缩前一个式子了
+Step 3<br>
+我们成功地把第一个极限放成了
+Step 4 
+
+这样我们就证明了第一个等号，接下来对这个式子变形<br>
+现在 ，所以进一步<br>
+
+<br> 函数相关性质
+
+<br>
+<br>，对 （余元公式）
+
+<br>证明
+第一点
+第二点
+
+ 使用  的乘积展开，得到结果
+<br>今天的课敲字敲到手软<br><a data-href="Analysis III Note 4" href="mathstuff\analysis-iii-note-4.html" class="internal-link" target="_self" rel="noopener">Analysis III Note 4</a>]]></description><link>分析\数学分析\analysis-iii-note-3.html</link><guid isPermaLink="false">分析/数学分析/Analysis III Note 3.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Mon, 23 Sep 2024 01:56:01 GMT</pubDate><enclosure url="lib\media\38bb7cbe7ec7eb7bf42450048d1b473b_720.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\38bb7cbe7ec7eb7bf42450048d1b473b_720.jpg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[单位分解]]></title><description><![CDATA[ 
  <br><br>对于某个紧集 ，其上的开覆盖  存在有限子覆盖，在每个子覆盖的开集上通过<br>]]></description><link>分析\单位分解.html</link><guid isPermaLink="false">分析/单位分解.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 11 Sep 2024 23:39:15 GMT</pubDate></item><item><title><![CDATA[度量空间的完备化]]></title><description><![CDATA[ 
  ]]></description><link>分析\度量空间的完备化.html</link><guid isPermaLink="false">分析/度量空间的完备化.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 10 Sep 2024 15:37:39 GMT</pubDate></item><item><title><![CDATA[简谐波]]></title><description><![CDATA[ 
  <br>简谐波方程<br><br>行波:  形式的函数：右行波。<br>注意关系：<br><br>从而令  ，则<br><br><br><br>
@@ -1643,7 +1710,8 @@ Cauchy 根式判别法应该是最先用的
 设正项级数  若<br>
 其中  都是常数， 是一个有界量。则级数的敛散性为：
 
-<br>]]></description><link>mathstuff\正项级数收敛判别法.html</link><guid isPermaLink="false">MathStuff/正项级数收敛判别法.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 18 Sep 2024 06:26:17 GMT</pubDate><enclosure url="lib\media\pasted-image-20240916174049.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240916174049.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Gauss 判别法]]></title><description><![CDATA[ 
+<br>]]></description><link>mathstuff\正项级数收敛判别法.html</link><guid isPermaLink="false">MathStuff/正项级数收敛判别法.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 18 Sep 2024 06:26:17 GMT</pubDate><enclosure url="lib\media\pasted-image-20240916174049.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240916174049.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Analysis III Note 4]]></title><description><![CDATA[ 
+ ]]></description><link>mathstuff\analysis-iii-note-4.html</link><guid isPermaLink="false">MathStuff/Analysis III Note 4.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Mon, 23 Sep 2024 01:56:03 GMT</pubDate></item><item><title><![CDATA[Gauss 判别法]]></title><description><![CDATA[ 
  ]]></description><link>mathstuff\gauss-判别法.html</link><guid isPermaLink="false">MathStuff/Gauss 判别法.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 18 Sep 2024 06:22:41 GMT</pubDate></item><item><title><![CDATA[Guess 超几何级数]]></title><description><![CDATA[ 
  <br><br> 是 Pochhammer 符号，定义为：<br>]]></description><link>mathstuff\guess-超几何级数.html</link><guid isPermaLink="false">MathStuff/Guess 超几何级数.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 18 Sep 2024 06:12:03 GMT</pubDate></item><item><title><![CDATA[one-point compactification]]></title><description><![CDATA[ 
  <br>one-point compactification(单点紧化) 是一种将非紧致的局部紧致空间转化为紧致空间的技术。具体来说，给定一个局部紧致空间 ，其单点紧化是通过添加一个点（通常称为“无穷远点”或“附加点”）到  中，并将  的拓扑扩展到这个新点，使得整个空间成为紧致的。<br>形式化地，设  是一个局部紧致 Hausdorff 空间。 的单点紧化记作  或 ，其中  是新添加的点。 的拓扑定义如下：<br>

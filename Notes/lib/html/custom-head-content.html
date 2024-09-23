@@ -9,7 +9,7 @@
   <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
 
-  <div id="floating-button" style="position: fixed; bottom: 20px; right: 20px; z-index: 9999; display: none;">
+  <div style="position: fixed; bottom: 20px; right: 20px; z-index: 9999;">
     <a href="index.html" style="padding: 10px 20px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px;">
         Back to Home
     </a>
@@ -24,11 +24,6 @@
               button.style.cssText = "display: block; padding: 10px; background-color: #007bff; color: white; text-decoration: none; text-align: center; margin-top: 20px; border-radius: 5px; z-index: 9999;";
               sidebar.appendChild(button);
           }
-
-          // 使用 setTimeout 延迟 10 秒显示按钮
-          setTimeout(function() {
-              document.getElementById('floating-button').style.display = 'block';
-          }, 10000); // 10 秒
       });
   </script>
 </head>
