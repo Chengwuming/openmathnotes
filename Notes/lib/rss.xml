@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[LogseqVault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>LogseqVault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 24 Sep 2024 04:23:48 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 24 Sep 2024 04:23:09 GMT</pubDate><copyright><![CDATA[Chengwuming]]></copyright><ttl>60</ttl><dc:creator>Chengwuming</dc:creator><item><title><![CDATA[作业9]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[LogseqVault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>LogseqVault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 24 Sep 2024 05:05:05 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 24 Sep 2024 05:03:28 GMT</pubDate><copyright><![CDATA[Chengwuming]]></copyright><ttl>60</ttl><dc:creator>Chengwuming</dc:creator><item><title><![CDATA[作业9]]></title><description><![CDATA[ 
  <br>
 <br>
 <img alt="Pasted image 20240513205638.png" src="lib\media\pasted-image-20240513205638.png">
@@ -1449,52 +1449,7 @@ Step 4
 <br>用 latex 打出来
 <br>说得详细, 有为了美观的排版 (如加粗, 思路点拨)
 <br>计算过程最好不要省, 而是写出来并思考能否优化
-<br>老师布置了作业题, 意味着你要达到认为这些题目显然, 涉及到的运算熟稔, 最好制成卡片. <br>作业是需要交流的, 并且要把交流得到的东西记录下来. 这点你一向做得很不好. <br>自己给自己布置的题目就在纸上写写, 总结一下即可, 老师布置的作业一定要特殊对待. 除了一种作业题: 刚刚学习概念, 为了接触一下便于理解的题目. 这些如果显然就可以不总结.<br>典型的计算方式 (算法) 需要总结.<br>不要低估自己当前的水平, 不要高估自己未来的水平, 假定未来的你就是菜鸡, 什么都忘了, 你要短时间教会他东西, 作业就是极好的载体. <br>把那些自己永远也不要忘掉的东西制卡.]]></description><link>想法\作业感悟.html</link><guid isPermaLink="false">想法/作业感悟.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Mon, 01 Jul 2024 14:48:06 GMT</pubDate></item><item><title><![CDATA[数学分析作业2]]></title><description><![CDATA[ 
- <br><br><br>我们简记 <br>Box
-1.利用Cauchy收敛原理判断级数
-
-的敛散性。
-<br><br>记通项 ，有<br><br>对于任意 ，存在 ，使得对于所有 ，有<br><br>从而原级数收敛。<br>Box
-2.试利用Cauchy收敛原理，证明交错级数的Leibniz判别法.
-<br><br>对于交错级数 ，其中  单调递减趋于零。对于任意 ，存在充分大的 ，使得 ，，此时对任意的 ，若  为奇数，有 ，第一个不等号是因为 。若  为偶数，那么<br>
-从而由 Cauchy 收敛原理，级数  收敛。<br>Box
-3.设 如果 都是收敛级数，证明：  也收敛.如果 都发散，结论如何？
-<br><br>设  对应的部分和为 ，则由  得 ，从而由  收敛得对任意的 ，存在  使得  时，，从而由  的任意性得 ，从而由 Cauchy 收敛原理知  收敛。<br>如果  发散，不妨 ，，令 ，可知对应级数发散，令  ，则对应级数发散。从而此时  可能收敛可能发散。<br><br>Box
-6.设 是一个收敛级数。如果 能否断言 也是收敛级数？请研究级数
-
-<br><br>显然不行，比如对于第一个收敛级数，记其为 ，第二个级数为 ，则对应的 然而后一项级数不收敛（一个收敛级数加一个发散级数）。<br>Box
-7.设 收敛：证明：
-
-（提示：用Abel分部求和公式.）
-<br><br>使用 Abel 变换，得<br>由 Stolz 定理，可知 故 ，证毕。<br>Box
-8.证明：如果级数 收敛，那么对任意的 级数 也收敛
-<br><br>注意到 根据 题3 的结论，可知  收敛。<br>Box
-9.设级数 的通项递减趋于 是任意固定的正整数.证明：级数
-
-是收敛的.（提示：用Leibniz判别法.）
-<br><br>记  可知  递减且趋于零，由 leibniz 判别法知  收敛，从而所求级数（记为 ）对 ，存在 。有<br>
-<br>从而由 题3 知所求级数收敛。<br>Box
-10.讨论下列级数的敛散性：<br>
-
-<br>1）  充分大时  单调递减，从而由 Leibniz 判别法指级数收敛。<br>2） 我们希望在  充分大时单调递减，这样由 题5 得该级数收敛。<br>事实上有 所以所求级数收敛。<br>Box
-11.设 证明：如果
-
-那么交错级数 收敛
-<br><br>由题意，存在 ，使得 ，有<br>
-故 单调递减，假设 ，则对于充分大的 ，有<br>
-注意到<br>
-又  收敛(因为收敛)，从而  收敛。但是  充分大时 ，且后者对应级数为调和级数发散，从而矛盾。故 ，即 。从而使用 Leibniz 判别法知交错级数  收敛。<br>Box
-12.在下列级数中，哪些是绝对收敛的？哪些是条件收敛的？
-
-<br>第一个级数，  有界， 收敛，从而绝对收敛。<br>第二个级数 令 ，有  发散， 收敛，从而  条件收敛。<br>Box
-14证明：  绝对收致的充分条件是。 和 都收敛
-<br>这是显然的，因为 ，而收敛级数的线性组合收敛。<br>Box
-15.设 条件收敛
-(1）.证明：  其逆命题是否成立
-(2)证明：记, 那么
-
-<br><br>首先，  都为正项级数。从而如果  则一定收敛。由条件收敛知不可两个级数都收敛。不妨设  收敛， 发散，则  得  发散，矛盾。<br>对于逆命题，即若 ，是否有  条件收敛。不成立，比如对 ，有 而由调和级数发散知 发散。<br>(2)， 首先 ，从而 <br>
-故对任意的 ，存在  有<br>从而有 故 ]]></description><link>作业\数学分析作业2.html</link><guid isPermaLink="false">作业/数学分析作业2.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 24 Sep 2024 03:56:46 GMT</pubDate></item><item><title><![CDATA[Analysis III 第一次作业]]></title><description><![CDATA[ 
+<br>老师布置了作业题, 意味着你要达到认为这些题目显然, 涉及到的运算熟稔, 最好制成卡片. <br>作业是需要交流的, 并且要把交流得到的东西记录下来. 这点你一向做得很不好. <br>自己给自己布置的题目就在纸上写写, 总结一下即可, 老师布置的作业一定要特殊对待. 除了一种作业题: 刚刚学习概念, 为了接触一下便于理解的题目. 这些如果显然就可以不总结.<br>典型的计算方式 (算法) 需要总结.<br>不要低估自己当前的水平, 不要高估自己未来的水平, 假定未来的你就是菜鸡, 什么都忘了, 你要短时间教会他东西, 作业就是极好的载体. <br>把那些自己永远也不要忘掉的东西制卡.]]></description><link>想法\作业感悟.html</link><guid isPermaLink="false">想法/作业感悟.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Mon, 01 Jul 2024 14:48:06 GMT</pubDate></item><item><title><![CDATA[Analysis III 第一次作业]]></title><description><![CDATA[ 
  <br><br>
 <br>
 由于 ，故 。于是当  充分大时<br>
