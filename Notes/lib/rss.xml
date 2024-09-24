@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[LogseqVault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>LogseqVault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 24 Sep 2024 05:05:05 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 24 Sep 2024 05:03:28 GMT</pubDate><copyright><![CDATA[Chengwuming]]></copyright><ttl>60</ttl><dc:creator>Chengwuming</dc:creator><item><title><![CDATA[作业9]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[LogseqVault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>LogseqVault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 24 Sep 2024 05:57:21 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 24 Sep 2024 05:56:46 GMT</pubDate><copyright><![CDATA[Chengwuming]]></copyright><ttl>60</ttl><dc:creator>Chengwuming</dc:creator><item><title><![CDATA[作业9]]></title><description><![CDATA[ 
  <br>
 <br>
 <img alt="Pasted image 20240513205638.png" src="lib\media\pasted-image-20240513205638.png">
@@ -1428,13 +1428,16 @@ Step 4
 导体内部 ，垂直于表面
 <br><br>跨导体表面的小柱体做 Gauss 面 ，<br>
 <br><br>结论是定性的，曲率越大，面电荷密度越大。不存在单一函数关系。<br>现象：尖端放电。<br>开始演示实验。这次拍他几张照片<br>
-<br>空气太潮湿了，导致第一个实验拉了
+<br>空气太潮湿了，导致第一个实验拉了<br>
+<img alt="74b18f6899164d066356e44c9543f9cb_720.jpg" src="lib\media\74b18f6899164d066356e44c9543f9cb_720.jpg" style="width: 453px; max-width: 100%;">
 <br>“电风吹蜡烛”，确实吹灭了
-<br>除尘
-<br>尖端电场
+<br>除尘<br>
+<img alt="1c8d5e26f2062efdc1e2d979a87404d8_720.jpg" src="lib\media\1c8d5e26f2062efdc1e2d979a87404d8_720.jpg" style="width: 348px; max-width: 100%;"><img alt="cb623484499bba0df556e6916317f453_720.jpg" src="lib\media\cb623484499bba0df556e6916317f453_720.jpg" style="width: 349px; max-width: 100%;">
+<br>尖端电场<br>
+<img alt="ae28644cf40ff45c16672900b0a736f8_720 1.jpg" src="lib\media\ae28644cf40ff45c16672900b0a736f8_720-1.jpg" style="width: 349px; max-width: 100%;"><img alt="361378aba1a300167a6b2d487eb1fbf6_720.jpg" src="lib\media\361378aba1a300167a6b2d487eb1fbf6_720.jpg" style="width: 349px; max-width: 100%;">
 <br><br>满足导体内电场为零，列方程算吧。<br><a data-href="导体静电场求解" href="导体静电场求解" class="internal-link" target="_self" rel="noopener">导体静电场求解</a><br>放一个链接在这，到时候整理一下典型例题。<br><br><br>
 <br>腔内没有电荷，则腔内电场为零，且内表面电荷密度为零。通过选取包含内表面的 Gauss 面，电通量为零，又  若有正负，则腔内存在负电到正电的电场线，与导体等势矛盾，从而 且腔内无电场线，即 
-<br><a data-href="大学物理（2） 笔记 4" href="大学物理（2） 笔记 4" class="internal-link" target="_self" rel="noopener">大学物理（2） 笔记 4</a>]]></description><link>物理\大学物理（2）-笔记-3.html</link><guid isPermaLink="false">物理/大学物理（2） 笔记 3.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 24 Sep 2024 03:27:23 GMT</pubDate></item><item><title><![CDATA[可交换]]></title><description><![CDATA[ 
+<br><a data-href="大学物理（2） 笔记 4" href="大学物理（2） 笔记 4" class="internal-link" target="_self" rel="noopener">大学物理（2） 笔记 4</a>]]></description><link>物理\大学物理（2）-笔记-3.html</link><guid isPermaLink="false">物理/大学物理（2） 笔记 3.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 24 Sep 2024 05:56:32 GMT</pubDate><enclosure url="lib\media\74b18f6899164d066356e44c9543f9cb_720.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\74b18f6899164d066356e44c9543f9cb_720.jpg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[可交换]]></title><description><![CDATA[ 
  <br><br><br><br>
 <br>同时正交对角化
 
@@ -1574,7 +1577,30 @@ Step 4
 抽象代数
 暂时还没有整理上笔记
 
-]]></description><link>mathstuff\你好哇，你这会想看什么？.html</link><guid isPermaLink="false">MathStuff/你好哇，你这会想看什么？.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 24 Sep 2024 04:22:33 GMT</pubDate></item><item><title><![CDATA[曲面的定义]]></title><description><![CDATA[ 
+<br>Multi column
+常微分方程
+是读书笔记和课堂笔记的结合体。后续会整理入分析类的大笔记。<br>
+<a data-href="ODE Notes 1" href="分析\常微分方程\ode-notes-1.html" class="internal-link" target="_self" rel="noopener">ODE Notes 1</a>
+
+Singular
+小学期课的笔记，其实没多少东西。<br>
+<a data-href="Singular Lecture 1" href="代数\singular\singular-lecture-1.html" class="internal-link" target="_self" rel="noopener">Singular Lecture 1</a>
+
+大学物理
+大物2笔记 <a data-href="大学物理（2） 笔记 1" href="物理\大学物理（2）-笔记-1.html" class="internal-link" target="_self" rel="noopener">大学物理（2） 笔记 1</a>
+
+<br>Multi column
+作业
+<a data-href="数学分析作业2" href="作业\数学分析作业2.html" class="internal-link" target="_self" rel="noopener">数学分析作业2</a><br>
+<a data-href="ODE 第一次作业" href="作业\ode-第一次作业.html" class="internal-link" target="_self" rel="noopener">ODE 第一次作业</a>
+
+历史笔记
+<a data-href="lecture-19-正交相似-i.pdf" href="代数\高等线性代数2\高代ppt\lecture-19-正交相似-i.pdf" class="internal-link" target="_self" rel="noopener">lecture-19-正交相似-i.pdf</a> 这些是2024春季学期的高等代数笔记，不全。
+
+其他
+后续会上传...
+
+<br><br>]]></description><link>mathstuff\你好哇，你这会想看什么？.html</link><guid isPermaLink="false">MathStuff/你好哇，你这会想看什么？.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 24 Sep 2024 05:51:35 GMT</pubDate></item><item><title><![CDATA[曲面的定义]]></title><description><![CDATA[ 
  <br><br>定义的方式有很多。<br>
 <br>流形在大空间里任意一点的邻域和对应维数的   同胚，  是  中的开集。
 <br>或者先将邻域  和流形做交 ，这个集合与  中的开集  同胚。
