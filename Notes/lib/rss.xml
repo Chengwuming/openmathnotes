@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[LogseqVault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>LogseqVault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 24 Sep 2024 06:03:23 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 24 Sep 2024 06:02:43 GMT</pubDate><copyright><![CDATA[Chengwuming]]></copyright><ttl>60</ttl><dc:creator>Chengwuming</dc:creator><item><title><![CDATA[作业9]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[LogseqVault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>LogseqVault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 25 Sep 2024 02:17:51 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 25 Sep 2024 02:16:03 GMT</pubDate><copyright><![CDATA[Chengwuming]]></copyright><ttl>60</ttl><dc:creator>Chengwuming</dc:creator><item><title><![CDATA[作业9]]></title><description><![CDATA[ 
  <br>
 <br>
 <img alt="Pasted image 20240513205638.png" src="lib\media\pasted-image-20240513205638.png">
@@ -222,7 +222,7 @@ transition<br>
 得到  是  上的线性空间，对任意 ，有映射<br>
 这些  构成  的基，从而<br>
 希望  具有多线性性质，操作：模掉应该为零的运算项<br>
-类似于  这种东西张成的空间。<br>令 ，得到<br> <br><br>以后来搞图片<br>记 , 记为 <br>
+类似于  这种东西张成的空间。<br>令 ，得到<br> <br>²²<br>以后来搞图片<br>记 , 记为 <br>
 显然  是双线性的，称  是  的张量积。<br><br>universal property<br>对任意  上线性空间 ，以及双线性映射 ，存在唯一的线性映射 <br>
 <br>即<br>
 若 $\psi $<br><br> <a data-href="LA Lecture 29" href="代数\高等线性代数2\la-lecture-29.html" class="internal-link" target="_self" rel="noopener">LA Lecture 29</a>]]></description><link>代数\高等线性代数2\la-lecture-28.html</link><guid isPermaLink="false">代数/高等线性代数2/LA Lecture 28.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sun, 15 Sep 2024 15:40:16 GMT</pubDate></item><item><title><![CDATA[张量积]]></title><description><![CDATA[ 
@@ -601,7 +601,7 @@ Predator-Prey Model<br>
 <br><br>
 <br>第二点证明中，为什么需要用到定理一？  的定义不是已经有其上  了吗？
 <br>这里对唯一的证明是否有不严谨之处？
-<br><a data-href="ODE Notes 2" href="ODE Notes 2" class="internal-link" target="_self" rel="noopener">ODE Notes 2</a><br><br>propagation::传播<br><br>optics::光学<br>
+<br><a data-href="ODE Notes 2" href="mathstuff\ode-notes-2.html" class="internal-link" target="_self" rel="noopener">ODE Notes 2</a><br><br>propagation::传播<br><br>optics::光学<br>
 impact theory::影响理论<br>
 elasticity theory::弹性理论<br>
 acoustics::声学<br>
@@ -1452,7 +1452,75 @@ Step 4
 <br>用 latex 打出来
 <br>说得详细, 有为了美观的排版 (如加粗, 思路点拨)
 <br>计算过程最好不要省, 而是写出来并思考能否优化
-<br>老师布置了作业题, 意味着你要达到认为这些题目显然, 涉及到的运算熟稔, 最好制成卡片. <br>作业是需要交流的, 并且要把交流得到的东西记录下来. 这点你一向做得很不好. <br>自己给自己布置的题目就在纸上写写, 总结一下即可, 老师布置的作业一定要特殊对待. 除了一种作业题: 刚刚学习概念, 为了接触一下便于理解的题目. 这些如果显然就可以不总结.<br>典型的计算方式 (算法) 需要总结.<br>不要低估自己当前的水平, 不要高估自己未来的水平, 假定未来的你就是菜鸡, 什么都忘了, 你要短时间教会他东西, 作业就是极好的载体. <br>把那些自己永远也不要忘掉的东西制卡.]]></description><link>想法\作业感悟.html</link><guid isPermaLink="false">想法/作业感悟.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Mon, 01 Jul 2024 14:48:06 GMT</pubDate></item><item><title><![CDATA[Analysis III 第一次作业]]></title><description><![CDATA[ 
+<br>老师布置了作业题, 意味着你要达到认为这些题目显然, 涉及到的运算熟稔, 最好制成卡片. <br>作业是需要交流的, 并且要把交流得到的东西记录下来. 这点你一向做得很不好. <br>自己给自己布置的题目就在纸上写写, 总结一下即可, 老师布置的作业一定要特殊对待. 除了一种作业题: 刚刚学习概念, 为了接触一下便于理解的题目. 这些如果显然就可以不总结.<br>典型的计算方式 (算法) 需要总结.<br>不要低估自己当前的水平, 不要高估自己未来的水平, 假定未来的你就是菜鸡, 什么都忘了, 你要短时间教会他东西, 作业就是极好的载体. <br>把那些自己永远也不要忘掉的东西制卡.]]></description><link>想法\作业感悟.html</link><guid isPermaLink="false">想法/作业感悟.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Mon, 01 Jul 2024 14:48:06 GMT</pubDate></item><item><title><![CDATA[数学分析作业2]]></title><description><![CDATA[ 
+ <br><br><br>我们简记 <br>Box
+1.利用Cauchy收敛原理判断级数
+
+的敛散性。
+<br><br>记通项 ，有<br><br>对于任意 ，存在 ，使得对于所有 ，有<br><br>从而原级数收敛。<br>Box
+2.试利用Cauchy收敛原理，证明交错级数的Leibniz判别法.
+<br><br>对于交错级数 ，其中  单调递减趋于零。对于任意 ，存在充分大的 ，使得 ，，此时对任意的 ，若  为奇数，有 ，第一个不等号是因为 。若  为偶数，那么<br>
+从而由 Cauchy 收敛原理，级数  收敛。<br>Box
+3.设 如果 都是收敛级数，证明：  也收敛.如果 都发散，结论如何？
+<br><br>设  对应的部分和为 ，则由  得 ，从而由  收敛得对任意的 ，存在  使得  时，，从而由  的任意性得 ，从而由 Cauchy 收敛原理知  收敛。<br>如果  发散，不妨 ，，令 ，可知对应级数发散，令  ，则对应级数发散。从而此时  可能收敛可能发散。<br>Box
+4.讨论下列级数的敛散性：<br>
+
+<br>根据 Leibniz 判别法，对于前三项级数， 在  充分大时单调递减趋于零，从而(1),(3) 收敛。<br>对于（2），它的通项不趋于零，从而发散。<br>对于 (4)，使用题5结论知，单调递减趋于零，从而级数收敛。<br>Box
+
+<br>设 递减趋于0 ，讨论级数
+
+
+的敛散性。
+<br>从而   ，注意到分母与 无关，分子的上界为 ，故  时，级数<br>
+有界，由 DIrichlet 判别法知第二个级数收敛。当  时第二个级数显然收敛。<br>对于第一个级数，当  时有<br>
+从而由 Leibniz 判别法知级数收敛。当  时，有<br>
+从而收敛性与  一致。当  时，同上有<br>
+<br>从而 ，有界，从而  , 时级数收敛。<br>Box
+6.设 是一个收敛级数。如果 能否断言 也是收敛级数？请研究级数
+
+<br><br>显然不行，比如对于第一个收敛级数，记其为 ，第二个级数为 ，则对应的 然而后一项级数不收敛（一个收敛级数加一个发散级数）。<br>Box
+7.设 收敛：证明：
+
+（提示：用Abel分部求和公式.）
+<br><br>使用 Abel 变换，得<br>由 Stolz 定理，可知 故 ，证毕。<br>Box
+8.证明：如果级数 收敛，那么对任意的 级数 也收敛
+<br><br>注意到 根据 题3 的结论，可知  收敛。<br>Box
+9.设级数 的通项递减趋于 是任意固定的正整数.证明：级数
+
+是收敛的.（提示：用Leibniz判别法.）
+<br><br>记  可知  递减且趋于零，由 leibniz 判别法知  收敛，从而所求级数（记为 ）对 ，存在 。有<br>
+<br>从而由 题3 知所求级数收敛。<br>Box
+10.讨论下列级数的敛散性：<br>
+
+<br>1）  充分大时  单调递减，从而由 Leibniz 判别法指级数收敛。<br>2） 我们希望在  充分大时单调递减，这样由 题5 得该级数收敛。<br>事实上有 所以所求级数收敛。<br>Box
+11.设 证明：如果
+
+那么交错级数 收敛
+<br><br>由题意，存在 ，使得 ，有<br>
+故 单调递减，假设 ，则对于充分大的 ，有<br>
+注意到<br>
+又  收敛(因为收敛)，从而  收敛。但是  充分大时 ，且后者对应级数为调和级数发散，从而矛盾。故 ，即 。从而使用 Leibniz 判别法知交错级数  收敛。<br>Box
+12.在下列级数中，哪些是绝对收敛的？哪些是条件收敛的？
+
+<br>第一个级数，  有界， 收敛，从而绝对收敛。<br>第二个级数 令 ，有  发散， 收敛，从而  条件收敛。<br>Box
+13.讨论下列级数的绝对收敛性和条件收敛性：
+
+<br>(1)， 从而由 题5 知，  时级数收敛。对于 ，级数通项不趋于零，从而发散。<br>
+(2)， 整理得到 	从而  充分大时  单调递减，趋于零，从而 (2) 由 Leibniz 判别法知收敛。<br>(3)，<br>对 做展开:<br>
+<br>故  时级数收敛，其他情况下级数发散。<br>Box
+14证明：  绝对收致的充分条件是。 和 都收敛
+<br>这是显然的，因为 ，而收敛级数的线性组合收敛。<br>Box
+15.设 条件收敛
+(1）.证明：  其逆命题是否成立
+(2)证明：记, 那么
+
+<br><br>首先，  都为正项级数。从而如果  则一定收敛。由条件收敛知不可两个级数都收敛。不妨设  收敛， 发散，则  得  发散，矛盾。<br>对于逆命题，即若 ，是否有  条件收敛。不成立，比如对 ，有 而由调和级数发散知 发散。<br>(2)， 首先 ，从而 <br>
+故对任意的 ，存在  有<br>从而有 故 <br>Box
+16.把级数
+
+的项重新安排如下：先依次取 个正项，接着依次取 个负项，再接着依次取 个正项，如此继续下去.证明：所得的新级数收敛的充分必要条件为 当 时，新级数发散到 ，当 时，新级数发散到
+<br>记第  个  个正项之和为 ，第  个  个负项的绝对值之和为 ，从而重排后级数为 <br>
+当  时， 有，从而  ，故重排后级数发散到<br> 的情况同理可得发散到 <br>当  时，记重排后的级数为 ，原级数为 ，则 , ,从而此时 收敛.]]></description><link>作业\数学分析作业2.html</link><guid isPermaLink="false">作业/数学分析作业2.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 25 Sep 2024 02:15:46 GMT</pubDate></item><item><title><![CDATA[Analysis III 第一次作业]]></title><description><![CDATA[ 
  <br><br>
 <br>
 由于 ，故 。于是当  充分大时<br>
@@ -1563,8 +1631,8 @@ Step 4
 <br>这里对唯一的证明是否有不严谨之处？
 ]]></description><link>mathstuff\解的存在性与唯一性-1.html</link><guid isPermaLink="false">MathStuff/解的存在性与唯一性 1.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 21 Sep 2024 04:33:31 GMT</pubDate></item><item><title><![CDATA[你好哇，你这会想看什么？]]></title><description><![CDATA[ 
  <br>二四六11月12月1月2月3月4月5月6月7月8月9月lessmore<br>
-<br>今天是2024年9月24日，2024 年已经过去了 263 天
-<br>今年你总共在 65 天中留下了你的足迹，继续加油！
+<br>今天是2024年9月25日，2024 年已经过去了 264 天
+<br>今年你总共在 67 天中留下了你的足迹，继续加油！
 <br><br>Multi column
 复分析
 暑假期间听刘老师课程的笔记。之后会重置。<br>
@@ -1595,12 +1663,12 @@ Singular
 <a data-href="ODE 第一次作业" href="作业\ode-第一次作业.html" class="internal-link" target="_self" rel="noopener">ODE 第一次作业</a>
 
 历史笔记
-<a data-href="lecture-19-正交相似-i.pdf" href="代数\高等线性代数2\高代ppt\lecture-19-正交相似-i.pdf" class="internal-link" target="_self" rel="noopener">lecture-19-正交相似-i.pdf</a> 这些是2024春季学期的高等代数笔记，不全。
+<a data-href="LA Lecture 19" href="代数\高等线性代数2\la-lecture-19.html" class="internal-link" target="_self" rel="noopener">LA Lecture 19</a> 这些是2024春季学期的高等代数笔记，不全。
 
 其他
 后续会上传...
 
-]]></description><link>mathstuff\你好哇，你这会想看什么？.html</link><guid isPermaLink="false">MathStuff/你好哇，你这会想看什么？.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 24 Sep 2024 06:01:39 GMT</pubDate></item><item><title><![CDATA[曲面的定义]]></title><description><![CDATA[ 
+]]></description><link>mathstuff\你好哇，你这会想看什么？.html</link><guid isPermaLink="false">MathStuff/你好哇，你这会想看什么？.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 25 Sep 2024 01:37:22 GMT</pubDate></item><item><title><![CDATA[曲面的定义]]></title><description><![CDATA[ 
  <br><br>定义的方式有很多。<br>
 <br>流形在大空间里任意一点的邻域和对应维数的   同胚，  是  中的开集。
 <br>或者先将邻域  和流形做交 ，这个集合与  中的开集  同胚。
@@ -1640,7 +1708,8 @@ Singular
 
 <br>
 <br>例子：对  中的单位球赋予自然定向，则  的诱导定向是逆时针。]]></description><link>mathstuff\曲面.html</link><guid isPermaLink="false">MathStuff/曲面.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Fri, 13 Sep 2024 06:02:45 GMT</pubDate><enclosure url="lib\media\pasted-image-20240517103127.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240517103127.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[三角级数]]></title><description><![CDATA[ 
- <br>收敛还是发散？]]></description><link>mathstuff\三角级数.html</link><guid isPermaLink="false">MathStuff/三角级数.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 21 Sep 2024 00:03:29 GMT</pubDate></item><item><title><![CDATA[正项级数收敛判别法]]></title><description><![CDATA[<a class="tag" href="?query=tag:级数" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#级数</a> <a class="tag" href="?query=tag:收敛" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#收敛</a> 
+ <br>收敛还是发散？]]></description><link>mathstuff\三角级数.html</link><guid isPermaLink="false">MathStuff/三角级数.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 21 Sep 2024 00:03:29 GMT</pubDate></item><item><title><![CDATA[未命名 1]]></title><description><![CDATA[ 
+ ]]></description><link>mathstuff\未命名-1.html</link><guid isPermaLink="false">MathStuff/未命名 1.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 24 Sep 2024 16:12:53 GMT</pubDate></item><item><title><![CDATA[正项级数收敛判别法]]></title><description><![CDATA[<a class="tag" href="?query=tag:级数" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#级数</a> <a class="tag" href="?query=tag:收敛" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#收敛</a> 
  <br><a href=".?query=tag:级数" class="tag" target="_blank" rel="noopener">#级数</a> <a href=".?query=tag:收敛" class="tag" target="_blank" rel="noopener">#收敛</a> <br><br>
 <br>
 设正项级数 , , 当  充分大时有 .
@@ -1774,7 +1843,61 @@ Cauchy 根式判别法应该是最先用的
 
 <br>]]></description><link>mathstuff\正项级数收敛判别法.html</link><guid isPermaLink="false">MathStuff/正项级数收敛判别法.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 18 Sep 2024 06:26:17 GMT</pubDate><enclosure url="lib\media\pasted-image-20240916174049.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240916174049.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Gauss 判别法]]></title><description><![CDATA[ 
  ]]></description><link>mathstuff\gauss-判别法.html</link><guid isPermaLink="false">MathStuff/Gauss 判别法.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 18 Sep 2024 06:22:41 GMT</pubDate></item><item><title><![CDATA[Guess 超几何级数]]></title><description><![CDATA[ 
- <br><br> 是 Pochhammer 符号，定义为：<br>]]></description><link>mathstuff\guess-超几何级数.html</link><guid isPermaLink="false">MathStuff/Guess 超几何级数.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 18 Sep 2024 06:12:03 GMT</pubDate></item><item><title><![CDATA[one-point compactification]]></title><description><![CDATA[ 
+ <br><br> 是 Pochhammer 符号，定义为：<br>]]></description><link>mathstuff\guess-超几何级数.html</link><guid isPermaLink="false">MathStuff/Guess 超几何级数.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 18 Sep 2024 06:12:03 GMT</pubDate></item><item><title><![CDATA[ODE Notes 2]]></title><description><![CDATA[<a class="tag" href="?query=tag:ODE" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#ODE</a> <a class="tag" href="?query=tag:常微分方程" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#常微分方程</a> <a class="tag" href="?query=tag:周二" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#周二</a> 
+ <br>@2024-09-24，第一次在课堂上记，感觉应该是跟不上，下来慢慢补好了@
+<a href=".?query=tag:ODE" class="tag" target="_blank" rel="noopener">#ODE</a> <a href=".?query=tag:常微分方程" class="tag" target="_blank" rel="noopener">#常微分方程</a> <a href=".?query=tag:周二" class="tag" target="_blank" rel="noopener">#周二</a><br>
+<a data-href="ODE Notes 1" href="分析\常微分方程\ode-notes-1.html" class="internal-link" target="_self" rel="noopener">ODE Notes 1</a>
+<br><br><br>有解<br>
+<br>我们这次来搞他<br>Mollifier 磨光
+
+取 
+这里 ，且 
+这里放一个链接 <a data-href="delta 函数" href="delta 函数" class="internal-link" target="_self" rel="noopener">delta 函数</a>
+<br>现在有 ，我们有<br>
+<br>我们来证明它。<br><br>然后取 ，得到上述式子<br>
+<br><br>假设初值 <br>
+当  足够小时，将上述积分可以换成 <br><br> <br>Lemma
+For , the most extended solution to  to<br>
+satisfies Andd for any , we have<br>
+
+<br>证明<br>Step 1<br>注意到 （三段分段）<br>
+我们不需要知道中间这段（？）<br>Step 2 <br>Step 3<br><br>我们希望求出下面这个极限。<br>证明是0： 令  分别是 , 在   上的界。问题就在 ，这里  和  有关，希望找到一个一致的界。 存在  使得  （由  连续）<br>循环一次：<br><br>从而 选 ，得到 <br>回顾：  的情形<br>令 ，有  分三种情况，讨论是否stable<br>Remark: <br>已知  为初值的 有解<br>
+<br>现在对于初值 ，有解 ，那么 ，也是初值  的微分方程为 解，那么<br><br><br>对于 ODE<br>
+称其为可分离变量的...<br>拆开积分。<br><br>定义 
+If  satisfies  for any  where  then we say  is homogeneous with deg 
+<br>Example
+For , where  is homogeneous with deg 0,<br>
+Define , consider  instead of , so , plug it into ?<br>
+, which is<br>
+than use the methods of integrate to solve it.
+Ques: How to find such change of variables generally 
+<br>定义 
+If  satisfies  for any , where , then we say  is quasi=homogenous with deg  and weights .
+<br>Example
+For , where  is quasi=homogeneous with deg  and weights , and ,<br>
+Let , 
+
+<br>If , we have <br>
+
+
+
+
+<br>otherwise, <br>
+Calculate it...<br>
+
+
+<br>定义 Diffeomorphism
+For a smooth map , where  are smooth monifolds. If  is bijective, and  is also smooth, we say f is a diffeomorphism
+<br>定义 
+For a map , we say  is a vector field on 
+<br>定义 
+Assume  is a diffeomorphism, we define as follow:<br>
+Assume , where 
+<br><br>Example
+ is a diffeomorphism, for all , how to compute  ?<br>
+Assume , we have 
+
+]]></description><link>mathstuff\ode-notes-2.html</link><guid isPermaLink="false">MathStuff/ODE Notes 2.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 24 Sep 2024 08:59:49 GMT</pubDate></item><item><title><![CDATA[one-point compactification]]></title><description><![CDATA[ 
  <br>one-point compactification(单点紧化) 是一种将非紧致的局部紧致空间转化为紧致空间的技术。具体来说，给定一个局部紧致空间 ，其单点紧化是通过添加一个点（通常称为“无穷远点”或“附加点”）到  中，并将  的拓扑扩展到这个新点，使得整个空间成为紧致的。<br>形式化地，设  是一个局部紧致 Hausdorff 空间。 的单点紧化记作  或 ，其中  是新添加的点。 的拓扑定义如下：<br>
 <br>对于  中的任何开集 ， 也是  中的开集。
 <br>一个包含  的开集是  中的一个紧致闭集的补集。
