@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[LogseqVault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>LogseqVault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 25 Sep 2024 02:17:51 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 25 Sep 2024 02:16:03 GMT</pubDate><copyright><![CDATA[Chengwuming]]></copyright><ttl>60</ttl><dc:creator>Chengwuming</dc:creator><item><title><![CDATA[作业9]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[LogseqVault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>LogseqVault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Fri, 27 Sep 2024 03:53:59 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Fri, 27 Sep 2024 03:53:18 GMT</pubDate><copyright><![CDATA[Chengwuming]]></copyright><ttl>60</ttl><dc:creator>Chengwuming</dc:creator><item><title><![CDATA[作业9]]></title><description><![CDATA[ 
  <br>
 <br>
 <img alt="Pasted image 20240513205638.png" src="lib\media\pasted-image-20240513205638.png">
@@ -601,7 +601,7 @@ Predator-Prey Model<br>
 <br><br>
 <br>第二点证明中，为什么需要用到定理一？  的定义不是已经有其上  了吗？
 <br>这里对唯一的证明是否有不严谨之处？
-<br><a data-href="ODE Notes 2" href="mathstuff\ode-notes-2.html" class="internal-link" target="_self" rel="noopener">ODE Notes 2</a><br><br>propagation::传播<br><br>optics::光学<br>
+<br><a data-href="ODE Notes 2" href="分析\常微分方程\ode-notes-2.html" class="internal-link" target="_self" rel="noopener">ODE Notes 2</a><br><br>propagation::传播<br><br>optics::光学<br>
 impact theory::影响理论<br>
 elasticity theory::弹性理论<br>
 acoustics::声学<br>
@@ -610,7 +610,70 @@ cord::绳索<br>
 wagons::马车<br>
 depicted::描绘<br>
 trajectories of the motion of the phase point::相点运动轨迹<br>
-abscissa::横坐标<br>Arnold 你英语真好 :P]]></description><link>分析\常微分方程\ode-notes-1.html</link><guid isPermaLink="false">分析/常微分方程/ODE Notes 1.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 18 Sep 2024 10:10:09 GMT</pubDate></item><item><title><![CDATA[复分析做题日记]]></title><description><![CDATA[ 
+abscissa::横坐标<br>Arnold 你英语真好 :P]]></description><link>分析\常微分方程\ode-notes-1.html</link><guid isPermaLink="false">分析/常微分方程/ODE Notes 1.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 18 Sep 2024 10:10:09 GMT</pubDate></item><item><title><![CDATA[ODE Notes 2]]></title><description><![CDATA[<a class="tag" href="?query=tag:ODE" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#ODE</a> <a class="tag" href="?query=tag:常微分方程" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#常微分方程</a> <a class="tag" href="?query=tag:周二" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#周二</a> 
+ <br>@2024-09-24，第一次在课堂上记，感觉应该是跟不上，下来慢慢补好了@
+<a href=".?query=tag:ODE" class="tag" target="_blank" rel="noopener">#ODE</a> <a href=".?query=tag:常微分方程" class="tag" target="_blank" rel="noopener">#常微分方程</a> <a href=".?query=tag:周二" class="tag" target="_blank" rel="noopener">#周二</a><br>
+<a data-href="ODE Notes 1" href="分析\常微分方程\ode-notes-1.html" class="internal-link" target="_self" rel="noopener">ODE Notes 1</a>
+<br><br><br>有解<br>
+<br>我们这次来搞他<br>Mollifier 磨光
+
+取 
+这里 ，且 
+这里放一个链接 <a data-href="delta 函数" href="delta 函数" class="internal-link" target="_self" rel="noopener">delta 函数</a>
+<br>首先通过 Mollfier，我们可以把连续函数某点处的取值写成积分的形式，据说十分甚至九分的有好处，虽然现在我一定感觉都没有。总之现在有 ，我们有<br>
+<br>Proof
+
+然后取 ，得到上述式子<br>
+这里用到  在  上的连续性。
+<br>现在回到我们的微分方程，<br>
+<br>假设初值 <br>
+当  足够小时，将上述积分可以换成 <br>如果我们能够解方程<br>
+那么由于线性，我们就得到了这个方程的解 那么去区间分割  得到初始的解。<br>
+下面是具体的操作：<br>Lemma
+For , the most extended solution to  to<br>
+satisfies Andd for any , we have<br>
+
+<br>我们来证明，比较长，方便后续修改就不放到 Callout 里了。<br>
+Step 1 &amp; Step 2<br>注意到 （三段分段）<br>
+我们不需要知道中间这段，或者说我们不关心解在  这一点处的取值。我们最后的解是要把这些小解加起来（积分起来），在这一点处的贡献是 0。<br>Step 3<br><br>我们希望求出下面这个极限。即考虑  时下面这一坨：<br>现在我们证明黄色部分是 0： 令  分别是 , 在   上的界。问题就在 ，这里  和  有关，希望找到一个一致的界。 存在  使得  （由  连续）<br>循环一次：<br><br>从而 选 ，得到 ，我觉得我目前理解不了这种莫名其妙出来的界，自己再悟一段时间吧。<br>最后是这个积分式子，<br>
+老师说这个是自然就有的，目前我没有理解。<br><br><br>回顾：  的情形<br>令 ，有  分三种情况，讨论是否stable<br>Remark: <br>已知  为初值的 有解<br>
+<br>现在对于初值 ，有解 ，那么 ，也是初值  的微分方程为 解，那么<br><br><br>对于 ODE<br>
+称其为可分离变量的...<br>拆开积分。<br><br>定义 
+If  satisfies  for any  where  then we say  is homogeneous with deg 
+<br>Example
+For , where  is homogeneous with deg 0,<br>
+Define , consider  instead of , so , plug it into ?<br>
+, which is<br>
+than use the methods of integrate to solve it.
+Ques: How to find such change of variables generally 
+<br>定义 
+If  satisfies  for any , where , then we say  is quasi-homogenous with deg  and weights .
+<br>Example
+For , where  is quasi-homogeneous with deg  and weights , and ,<br>
+Let , 
+
+<br>If , we have <br>
+
+
+
+
+<br>otherwise, <br>
+Calculate it...<br>
+
+
+<br>定义 Diffeomorphism
+For a smooth map , where  are smooth monifolds. If  is bijective, and  is also smooth, we say f is a diffeomorphism
+<br>定义 
+For a map , we say  is a vector field on 
+<br>定义 
+Assume  is a diffeomorphism, we define as follow:<br>
+Assume , where  
+
+<br>Example
+ is a diffeomorphism, for all , how to compute  ?<br>
+Assume , we have 
+
+<br><a data-href="ODE Notes 3" href="ODE Notes 3" class="internal-link" target="_self" rel="noopener">ODE Notes 3</a>]]></description><link>分析\常微分方程\ode-notes-2.html</link><guid isPermaLink="false">分析/常微分方程/ODE Notes 2.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 26 Sep 2024 03:19:11 GMT</pubDate></item><item><title><![CDATA[复分析做题日记]]></title><description><![CDATA[ 
  <br><br>7.11。一个简洁的写法： 复数  共线的充要条件：<br><br>题目数量统计
 
 <br>
@@ -1329,8 +1392,37 @@ Step 4
 第二点
 
  使用  的乘积展开，得到结果
-<br>今天的课敲字敲到手软<br><a data-href="Analysis III Note 4" href="分析\数学分析\analysis-iii-note-4.html" class="internal-link" target="_self" rel="noopener">Analysis III Note 4</a>]]></description><link>分析\数学分析\analysis-iii-note-3.html</link><guid isPermaLink="false">分析/数学分析/Analysis III Note 3.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Mon, 23 Sep 2024 01:56:01 GMT</pubDate><enclosure url="lib\media\38bb7cbe7ec7eb7bf42450048d1b473b_720.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\38bb7cbe7ec7eb7bf42450048d1b473b_720.jpg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Analysis III Note 4]]></title><description><![CDATA[ 
- ]]></description><link>分析\数学分析\analysis-iii-note-4.html</link><guid isPermaLink="false">分析/数学分析/Analysis III Note 4.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Mon, 23 Sep 2024 01:56:03 GMT</pubDate></item><item><title><![CDATA[单位分解]]></title><description><![CDATA[ 
+<br>今天的课敲字敲到手软<br><a data-href="Analysis III Note 4" href="分析\数学分析\analysis-iii-note-4.html" class="internal-link" target="_self" rel="noopener">Analysis III Note 4</a>]]></description><link>分析\数学分析\analysis-iii-note-3.html</link><guid isPermaLink="false">分析/数学分析/Analysis III Note 3.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 25 Sep 2024 06:06:32 GMT</pubDate><enclosure url="lib\media\38bb7cbe7ec7eb7bf42450048d1b473b_720.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\38bb7cbe7ec7eb7bf42450048d1b473b_720.jpg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Analysis III Note 4]]></title><description><![CDATA[<a class="tag" href="?query=tag:数学分析" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#数学分析</a> <a class="tag" href="?query=tag:分析" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#分析</a> <a class="tag" href="?query=tag:Analysis" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#Analysis</a> <a class="tag" href="?query=tag:周三" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#周三</a> 
+ <br>@2024-09-25，今天又是忙乱的一天，不知道能做完多少计划内的东西@
+<a href=".?query=tag:数学分析" class="tag" target="_blank" rel="noopener">#数学分析</a> <a href=".?query=tag:分析" class="tag" target="_blank" rel="noopener">#分析</a> <a href=".?query=tag:Analysis" class="tag" target="_blank" rel="noopener">#Analysis</a> <a href=".?query=tag:周三" class="tag" target="_blank" rel="noopener">#周三</a><br>
+<a data-href="Analysis III Note 3" href="分析\数学分析\analysis-iii-note-3.html" class="internal-link" target="_self" rel="noopener">Analysis III Note 3</a>
+<br><br>习题课安排到了周五，感觉要似了。没一天晚上能空出来。<br>
+难绷，今天签到了，还好来了没翘。<br>回顾：无穷乘积  的敛散性，Gamma 函数 <br><br>定义 (Riemann  函数) 
+
+<br>算术基本定理：，存在唯一的  使得  为素数，  为正整数，使得 。<br>定理 Euler 乘积公式
+素数 <br>
+
+<br>Box
+我们先展开<br>
+令 ，我们考察 eee，搞得一头雾水。下来看一看yp的讲义好了
+<br>令上述 ，我们有<br>从而从而素数有无穷多个。<br><br>，则<br>
+<br>定理 
+1). ，若  发散，则无穷乘积 <br>
+2). 若  收敛，  发散，则  发散到 ，从而  发散到 0
+<br>使用<a data-tooltip-position="top" aria-label="Analysis III Note 3 > ^9a7d38" data-href="Analysis III Note 3#^9a7d38" href="分析\数学分析\analysis-iii-note-3.html#^9a7d38" class="internal-link" target="_self" rel="noopener">上节课的结论</a>，平凡的<br>一个例子：<br>
+可以讨论出这个级数发散到零，我们得到<br>
+<br>这里放一个<a data-tooltip-position="top" aria-label="e 的逼近" data-href="e 的逼近" href="e 的逼近" class="internal-link" target="_self" rel="noopener">链接</a>供你复习<br><br>定义 绝对收敛
+收敛，则称  绝对收敛。条件收敛...
+<br><br>我们进入下一章。<br><br>
+<br>固定一个 ，就给出了一个数列的级数，从而谈论其收敛性。
+<br>或者，函数空间本身就是一个度量空间，在其上谈论收敛以及序列是自然的。
+<br>定义 
+ 是定义在  上的函数列，若  ，有  收敛，记收敛到 ，从而这一列函数给出了一个函数 ，我们称   逐点收敛于 。
+<br>我们希望加强条件使得收敛得到的函数继承原来函数的性质。这个条件就是 一致 收敛。<br>显然要给一些逐点收敛的函数不继承性质的例子：<br>是可微的， 得到的函数在 0 处 的微分不等于 原来函数在 0 处微分的值取极限。<br>看看另一个例子，<br><br>这都是什么逆天函数。反正 从  里面跑出来了。<br>再看另一个例子：<br>
+定义在  上。那么<br>
+从而 。<br>定义 一致收敛
+定义  是  上的函数列，称其一致收敛于 ，若存在 ，存在 ，使得  时有 
+<br>记号： ]]></description><link>分析\数学分析\analysis-iii-note-4.html</link><guid isPermaLink="false">分析/数学分析/Analysis III Note 4.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 25 Sep 2024 08:48:08 GMT</pubDate></item><item><title><![CDATA[单位分解]]></title><description><![CDATA[ 
  <br><br>对于某个紧集 ，其上的开覆盖  存在有限子覆盖，在每个子覆盖的开集上通过<br>]]></description><link>分析\单位分解.html</link><guid isPermaLink="false">分析/单位分解.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 11 Sep 2024 23:39:15 GMT</pubDate></item><item><title><![CDATA[度量空间的完备化]]></title><description><![CDATA[ 
  ]]></description><link>分析\度量空间的完备化.html</link><guid isPermaLink="false">分析/度量空间的完备化.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 10 Sep 2024 15:37:39 GMT</pubDate></item><item><title><![CDATA[简谐波]]></title><description><![CDATA[ 
  <br>简谐波方程<br><br>行波:  形式的函数：右行波。<br>注意关系：<br><br>从而令  ，则<br><br><br><br>
@@ -1437,7 +1529,7 @@ Step 4
 <img alt="ae28644cf40ff45c16672900b0a736f8_720 1.jpg" src="lib\media\ae28644cf40ff45c16672900b0a736f8_720-1.jpg" style="width: 349px; max-width: 100%;"><img alt="361378aba1a300167a6b2d487eb1fbf6_720.jpg" src="lib\media\361378aba1a300167a6b2d487eb1fbf6_720.jpg" style="width: 349px; max-width: 100%;">
 <br><br>满足导体内电场为零，列方程算吧。<br><a data-href="导体静电场求解" href="导体静电场求解" class="internal-link" target="_self" rel="noopener">导体静电场求解</a><br>放一个链接在这，到时候整理一下典型例题。<br><br><br>
 <br>腔内没有电荷，则腔内电场为零，且内表面电荷密度为零。通过选取包含内表面的 Gauss 面，电通量为零，又  若有正负，则腔内存在负电到正电的电场线，与导体等势矛盾，从而 且腔内无电场线，即 
-<br><a data-href="大学物理（2） 笔记 4" href="大学物理（2） 笔记 4" class="internal-link" target="_self" rel="noopener">大学物理（2） 笔记 4</a>]]></description><link>物理\大学物理（2）-笔记-3.html</link><guid isPermaLink="false">物理/大学物理（2） 笔记 3.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 24 Sep 2024 05:56:32 GMT</pubDate><enclosure url="lib\media\74b18f6899164d066356e44c9543f9cb_720.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\74b18f6899164d066356e44c9543f9cb_720.jpg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[可交换]]></title><description><![CDATA[ 
+<br><a data-href="大学物理（2） 笔记 4" href="mathstuff\大学物理（2）-笔记-4.html" class="internal-link" target="_self" rel="noopener">大学物理（2） 笔记 4</a>]]></description><link>物理\大学物理（2）-笔记-3.html</link><guid isPermaLink="false">物理/大学物理（2） 笔记 3.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 24 Sep 2024 05:56:32 GMT</pubDate><enclosure url="lib\media\74b18f6899164d066356e44c9543f9cb_720.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\74b18f6899164d066356e44c9543f9cb_720.jpg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[可交换]]></title><description><![CDATA[ 
  <br><br><br><br>
 <br>同时正交对角化
 
@@ -1585,7 +1677,14 @@ Step 4
 
 <br><br><img alt="Pasted image 20240915092331.png" src="lib\media\pasted-image-20240915092331.png"><br>
 <img alt="Pasted image 20240915092339.png" src="lib\media\pasted-image-20240915092339.png"><br>
-<img alt="Pasted image 20240915092346.png" src="lib\media\pasted-image-20240915092346.png">]]></description><link>作业\ode-第一次作业.html</link><guid isPermaLink="false">作业/ODE 第一次作业.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 21 Sep 2024 04:34:14 GMT</pubDate><enclosure url="lib\media\pasted-image-20240915092018.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240915092018.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[级数收敛性的判别 2]]></title><description><![CDATA[ 
+<img alt="Pasted image 20240915092346.png" src="lib\media\pasted-image-20240915092346.png">]]></description><link>作业\ode-第一次作业.html</link><guid isPermaLink="false">作业/ODE 第一次作业.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 21 Sep 2024 04:34:14 GMT</pubDate><enclosure url="lib\media\pasted-image-20240915092018.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240915092018.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[大学物理（2） 笔记 4]]></title><description><![CDATA[<a class="tag" href="?query=tag:大学物理" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#大学物理</a> <a class="tag" href="?query=tag:周四" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#周四</a> 
+ <br>@2024-09-26，yp上课语速飞快，跟不上了哎@
+<a href=".?query=tag:大学物理" class="tag" target="_blank" rel="noopener">#大学物理</a> <a href=".?query=tag:周四" class="tag" target="_blank" rel="noopener">#周四</a><br>
+<a data-href="大学物理（2） 笔记 3" href="物理\大学物理（2）-笔记-3.html" class="internal-link" target="_self" rel="noopener">大学物理（2） 笔记 3</a>
+<br><br><br>回顾了静电屏蔽。核心是在导体内部的空腔不包含电荷，又导体是一个等势体。<br>接地之后导体壳完全屏蔽内外影响。<br>
+<br> 的大小，位置都是给定的，然后给出了边界条件的电势，根据唯一性定理，
+<br>看了一个法拉第笼的实验<br><br>就是猜长得一样的电场分布的来源。用了一堆什么阿波罗尼斯圆之类的东西，想起来高中物竞的岁月。<br><br>讲了一些概念，参考ppt。<br><img alt="Pasted image 20240926110200.png" src="lib\media\pasted-image-20240926110200.png"><br><img alt="Pasted image 20240926110215.png" src="lib\media\pasted-image-20240926110215.png"><br><img alt="Pasted image 20240926110742.png" src="lib\media\pasted-image-20240926110742.png"><br><img alt="Pasted image 20240926110750.png" src="lib\media\pasted-image-20240926110750.png"><br><img alt="Pasted image 20240926110846.png" src="lib\media\pasted-image-20240926110846.png"><br><a data-href="大学物理（2） 笔记 5" href="大学物理（2） 笔记 5" class="internal-link" target="_self" rel="noopener">大学物理（2） 笔记 5</a>]]></description><link>mathstuff\大学物理（2）-笔记-4.html</link><guid isPermaLink="false">MathStuff/大学物理（2） 笔记 4.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 26 Sep 2024 03:08:48 GMT</pubDate><enclosure url="lib\media\pasted-image-20240926110200.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240926110200.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[分析-收敛]]></title><description><![CDATA[ 
+ ]]></description><link>mathstuff\分析-收敛.html</link><guid isPermaLink="false">MathStuff/分析-收敛.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 25 Sep 2024 05:37:32 GMT</pubDate></item><item><title><![CDATA[级数收敛性的判别 2]]></title><description><![CDATA[ 
  <br>"作为上一次的补充和心得"<br><a data-href="正项级数收敛判别法" href="mathstuff\正项级数收敛判别法.html" class="internal-link" target="_self" rel="noopener">正项级数收敛判别法</a><br><br>首先增加几种判别法<br><br>Cauchy 凝聚判别法
 正项级数 单调递减。则  和  同敛散。
 <br>马上想到的一件事就是可以对一个数列反复应用这个定理，从而由一个抽象级数得到一系列收敛越来越快的新级数<br>对于那些收敛得比较慢的级数，可以这么操作一下，然后就比较好看出来。<br>
@@ -1631,7 +1730,7 @@ Step 4
 <br>这里对唯一的证明是否有不严谨之处？
 ]]></description><link>mathstuff\解的存在性与唯一性-1.html</link><guid isPermaLink="false">MathStuff/解的存在性与唯一性 1.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 21 Sep 2024 04:33:31 GMT</pubDate></item><item><title><![CDATA[你好哇，你这会想看什么？]]></title><description><![CDATA[ 
  <br>二四六11月12月1月2月3月4月5月6月7月8月9月lessmore<br>
-<br>今天是2024年9月25日，2024 年已经过去了 264 天
+<br>今天是2024年9月27日，2024 年已经过去了 266 天
 <br>今年你总共在 67 天中留下了你的足迹，继续加油！
 <br><br>Multi column
 复分析
@@ -1843,61 +1942,7 @@ Cauchy 根式判别法应该是最先用的
 
 <br>]]></description><link>mathstuff\正项级数收敛判别法.html</link><guid isPermaLink="false">MathStuff/正项级数收敛判别法.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 18 Sep 2024 06:26:17 GMT</pubDate><enclosure url="lib\media\pasted-image-20240916174049.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240916174049.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Gauss 判别法]]></title><description><![CDATA[ 
  ]]></description><link>mathstuff\gauss-判别法.html</link><guid isPermaLink="false">MathStuff/Gauss 判别法.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 18 Sep 2024 06:22:41 GMT</pubDate></item><item><title><![CDATA[Guess 超几何级数]]></title><description><![CDATA[ 
- <br><br> 是 Pochhammer 符号，定义为：<br>]]></description><link>mathstuff\guess-超几何级数.html</link><guid isPermaLink="false">MathStuff/Guess 超几何级数.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 18 Sep 2024 06:12:03 GMT</pubDate></item><item><title><![CDATA[ODE Notes 2]]></title><description><![CDATA[<a class="tag" href="?query=tag:ODE" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#ODE</a> <a class="tag" href="?query=tag:常微分方程" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#常微分方程</a> <a class="tag" href="?query=tag:周二" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#周二</a> 
- <br>@2024-09-24，第一次在课堂上记，感觉应该是跟不上，下来慢慢补好了@
-<a href=".?query=tag:ODE" class="tag" target="_blank" rel="noopener">#ODE</a> <a href=".?query=tag:常微分方程" class="tag" target="_blank" rel="noopener">#常微分方程</a> <a href=".?query=tag:周二" class="tag" target="_blank" rel="noopener">#周二</a><br>
-<a data-href="ODE Notes 1" href="分析\常微分方程\ode-notes-1.html" class="internal-link" target="_self" rel="noopener">ODE Notes 1</a>
-<br><br><br>有解<br>
-<br>我们这次来搞他<br>Mollifier 磨光
-
-取 
-这里 ，且 
-这里放一个链接 <a data-href="delta 函数" href="delta 函数" class="internal-link" target="_self" rel="noopener">delta 函数</a>
-<br>现在有 ，我们有<br>
-<br>我们来证明它。<br><br>然后取 ，得到上述式子<br>
-<br><br>假设初值 <br>
-当  足够小时，将上述积分可以换成 <br><br> <br>Lemma
-For , the most extended solution to  to<br>
-satisfies Andd for any , we have<br>
-
-<br>证明<br>Step 1<br>注意到 （三段分段）<br>
-我们不需要知道中间这段（？）<br>Step 2 <br>Step 3<br><br>我们希望求出下面这个极限。<br>证明是0： 令  分别是 , 在   上的界。问题就在 ，这里  和  有关，希望找到一个一致的界。 存在  使得  （由  连续）<br>循环一次：<br><br>从而 选 ，得到 <br>回顾：  的情形<br>令 ，有  分三种情况，讨论是否stable<br>Remark: <br>已知  为初值的 有解<br>
-<br>现在对于初值 ，有解 ，那么 ，也是初值  的微分方程为 解，那么<br><br><br>对于 ODE<br>
-称其为可分离变量的...<br>拆开积分。<br><br>定义 
-If  satisfies  for any  where  then we say  is homogeneous with deg 
-<br>Example
-For , where  is homogeneous with deg 0,<br>
-Define , consider  instead of , so , plug it into ?<br>
-, which is<br>
-than use the methods of integrate to solve it.
-Ques: How to find such change of variables generally 
-<br>定义 
-If  satisfies  for any , where , then we say  is quasi=homogenous with deg  and weights .
-<br>Example
-For , where  is quasi=homogeneous with deg  and weights , and ,<br>
-Let , 
-
-<br>If , we have <br>
-
-
-
-
-<br>otherwise, <br>
-Calculate it...<br>
-
-
-<br>定义 Diffeomorphism
-For a smooth map , where  are smooth monifolds. If  is bijective, and  is also smooth, we say f is a diffeomorphism
-<br>定义 
-For a map , we say  is a vector field on 
-<br>定义 
-Assume  is a diffeomorphism, we define as follow:<br>
-Assume , where 
-<br><br>Example
- is a diffeomorphism, for all , how to compute  ?<br>
-Assume , we have 
-
-]]></description><link>mathstuff\ode-notes-2.html</link><guid isPermaLink="false">MathStuff/ODE Notes 2.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 24 Sep 2024 08:59:49 GMT</pubDate></item><item><title><![CDATA[one-point compactification]]></title><description><![CDATA[ 
+ <br><br> 是 Pochhammer 符号，定义为：<br>]]></description><link>mathstuff\guess-超几何级数.html</link><guid isPermaLink="false">MathStuff/Guess 超几何级数.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 18 Sep 2024 06:12:03 GMT</pubDate></item><item><title><![CDATA[one-point compactification]]></title><description><![CDATA[ 
  <br>one-point compactification(单点紧化) 是一种将非紧致的局部紧致空间转化为紧致空间的技术。具体来说，给定一个局部紧致空间 ，其单点紧化是通过添加一个点（通常称为“无穷远点”或“附加点”）到  中，并将  的拓扑扩展到这个新点，使得整个空间成为紧致的。<br>形式化地，设  是一个局部紧致 Hausdorff 空间。 的单点紧化记作  或 ，其中  是新添加的点。 的拓扑定义如下：<br>
 <br>对于  中的任何开集 ， 也是  中的开集。
 <br>一个包含  的开集是  中的一个紧致闭集的补集。
