@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[LogseqVault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>LogseqVault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Fri, 27 Sep 2024 03:53:59 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Fri, 27 Sep 2024 03:53:18 GMT</pubDate><copyright><![CDATA[Chengwuming]]></copyright><ttl>60</ttl><dc:creator>Chengwuming</dc:creator><item><title><![CDATA[作业9]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[LogseqVault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>LogseqVault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Fri, 27 Sep 2024 09:06:53 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Fri, 27 Sep 2024 09:06:05 GMT</pubDate><copyright><![CDATA[Chengwuming]]></copyright><ttl>60</ttl><dc:creator>Chengwuming</dc:creator><item><title><![CDATA[作业9]]></title><description><![CDATA[ 
  <br>
 <br>
 <img alt="Pasted image 20240513205638.png" src="lib\media\pasted-image-20240513205638.png">
@@ -673,7 +673,7 @@ Assume , where
  is a diffeomorphism, for all , how to compute  ?<br>
 Assume , we have 
 
-<br><a data-href="ODE Notes 3" href="ODE Notes 3" class="internal-link" target="_self" rel="noopener">ODE Notes 3</a>]]></description><link>分析\常微分方程\ode-notes-2.html</link><guid isPermaLink="false">分析/常微分方程/ODE Notes 2.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 26 Sep 2024 03:19:11 GMT</pubDate></item><item><title><![CDATA[复分析做题日记]]></title><description><![CDATA[ 
+<br><a data-href="ODE Notes 3" href="mathstuff\ode-notes-3.html" class="internal-link" target="_self" rel="noopener">ODE Notes 3</a>]]></description><link>分析\常微分方程\ode-notes-2.html</link><guid isPermaLink="false">分析/常微分方程/ODE Notes 2.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 26 Sep 2024 03:19:11 GMT</pubDate></item><item><title><![CDATA[复分析做题日记]]></title><description><![CDATA[ 
  <br><br>7.11。一个简洁的写法： 复数  共线的充要条件：<br><br>题目数量统计
 
 <br>
@@ -1529,7 +1529,13 @@ Step 4
 <img alt="ae28644cf40ff45c16672900b0a736f8_720 1.jpg" src="lib\media\ae28644cf40ff45c16672900b0a736f8_720-1.jpg" style="width: 349px; max-width: 100%;"><img alt="361378aba1a300167a6b2d487eb1fbf6_720.jpg" src="lib\media\361378aba1a300167a6b2d487eb1fbf6_720.jpg" style="width: 349px; max-width: 100%;">
 <br><br>满足导体内电场为零，列方程算吧。<br><a data-href="导体静电场求解" href="导体静电场求解" class="internal-link" target="_self" rel="noopener">导体静电场求解</a><br>放一个链接在这，到时候整理一下典型例题。<br><br><br>
 <br>腔内没有电荷，则腔内电场为零，且内表面电荷密度为零。通过选取包含内表面的 Gauss 面，电通量为零，又  若有正负，则腔内存在负电到正电的电场线，与导体等势矛盾，从而 且腔内无电场线，即 
-<br><a data-href="大学物理（2） 笔记 4" href="mathstuff\大学物理（2）-笔记-4.html" class="internal-link" target="_self" rel="noopener">大学物理（2） 笔记 4</a>]]></description><link>物理\大学物理（2）-笔记-3.html</link><guid isPermaLink="false">物理/大学物理（2） 笔记 3.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 24 Sep 2024 05:56:32 GMT</pubDate><enclosure url="lib\media\74b18f6899164d066356e44c9543f9cb_720.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\74b18f6899164d066356e44c9543f9cb_720.jpg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[可交换]]></title><description><![CDATA[ 
+<br><a data-href="大学物理（2） 笔记 4" href="物理\大学物理（2）-笔记-4.html" class="internal-link" target="_self" rel="noopener">大学物理（2） 笔记 4</a>]]></description><link>物理\大学物理（2）-笔记-3.html</link><guid isPermaLink="false">物理/大学物理（2） 笔记 3.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 24 Sep 2024 05:56:32 GMT</pubDate><enclosure url="lib\media\74b18f6899164d066356e44c9543f9cb_720.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\74b18f6899164d066356e44c9543f9cb_720.jpg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[大学物理（2） 笔记 4]]></title><description><![CDATA[<a class="tag" href="?query=tag:大学物理" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#大学物理</a> <a class="tag" href="?query=tag:周四" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#周四</a> 
+ <br>@2024-09-26，yp上课语速飞快，跟不上了哎@
+<a href=".?query=tag:大学物理" class="tag" target="_blank" rel="noopener">#大学物理</a> <a href=".?query=tag:周四" class="tag" target="_blank" rel="noopener">#周四</a><br>
+<a data-href="大学物理（2） 笔记 3" href="物理\大学物理（2）-笔记-3.html" class="internal-link" target="_self" rel="noopener">大学物理（2） 笔记 3</a>
+<br><br><br>回顾了静电屏蔽。核心是在导体内部的空腔不包含电荷，又导体是一个等势体。<br>接地之后导体壳完全屏蔽内外影响。<br>
+<br> 的大小，位置都是给定的，然后给出了边界条件的电势，根据唯一性定理，
+<br>看了一个法拉第笼的实验<br><br>就是猜长得一样的电场分布的来源。用了一堆什么阿波罗尼斯圆之类的东西，想起来高中物竞的岁月。<br><br>讲了一些概念，参考ppt。<br><img alt="Pasted image 20240926110200.png" src="lib\media\pasted-image-20240926110200.png"><br><img alt="Pasted image 20240926110215.png" src="lib\media\pasted-image-20240926110215.png"><br><img alt="Pasted image 20240926110742.png" src="lib\media\pasted-image-20240926110742.png"><br><img alt="Pasted image 20240926110750.png" src="lib\media\pasted-image-20240926110750.png"><br><img alt="Pasted image 20240926110846.png" src="lib\media\pasted-image-20240926110846.png"><br><a data-href="大学物理（2） 笔记 5" href="大学物理（2） 笔记 5" class="internal-link" target="_self" rel="noopener">大学物理（2） 笔记 5</a>]]></description><link>物理\大学物理（2）-笔记-4.html</link><guid isPermaLink="false">物理/大学物理（2） 笔记 4.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 26 Sep 2024 03:08:48 GMT</pubDate><enclosure url="lib\media\pasted-image-20240926110200.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240926110200.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[可交换]]></title><description><![CDATA[ 
  <br><br><br><br>
 <br>同时正交对角化
 
@@ -1677,13 +1683,21 @@ Step 4
 
 <br><br><img alt="Pasted image 20240915092331.png" src="lib\media\pasted-image-20240915092331.png"><br>
 <img alt="Pasted image 20240915092339.png" src="lib\media\pasted-image-20240915092339.png"><br>
-<img alt="Pasted image 20240915092346.png" src="lib\media\pasted-image-20240915092346.png">]]></description><link>作业\ode-第一次作业.html</link><guid isPermaLink="false">作业/ODE 第一次作业.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 21 Sep 2024 04:34:14 GMT</pubDate><enclosure url="lib\media\pasted-image-20240915092018.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240915092018.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[大学物理（2） 笔记 4]]></title><description><![CDATA[<a class="tag" href="?query=tag:大学物理" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#大学物理</a> <a class="tag" href="?query=tag:周四" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#周四</a> 
- <br>@2024-09-26，yp上课语速飞快，跟不上了哎@
-<a href=".?query=tag:大学物理" class="tag" target="_blank" rel="noopener">#大学物理</a> <a href=".?query=tag:周四" class="tag" target="_blank" rel="noopener">#周四</a><br>
-<a data-href="大学物理（2） 笔记 3" href="物理\大学物理（2）-笔记-3.html" class="internal-link" target="_self" rel="noopener">大学物理（2） 笔记 3</a>
-<br><br><br>回顾了静电屏蔽。核心是在导体内部的空腔不包含电荷，又导体是一个等势体。<br>接地之后导体壳完全屏蔽内外影响。<br>
-<br> 的大小，位置都是给定的，然后给出了边界条件的电势，根据唯一性定理，
-<br>看了一个法拉第笼的实验<br><br>就是猜长得一样的电场分布的来源。用了一堆什么阿波罗尼斯圆之类的东西，想起来高中物竞的岁月。<br><br>讲了一些概念，参考ppt。<br><img alt="Pasted image 20240926110200.png" src="lib\media\pasted-image-20240926110200.png"><br><img alt="Pasted image 20240926110215.png" src="lib\media\pasted-image-20240926110215.png"><br><img alt="Pasted image 20240926110742.png" src="lib\media\pasted-image-20240926110742.png"><br><img alt="Pasted image 20240926110750.png" src="lib\media\pasted-image-20240926110750.png"><br><img alt="Pasted image 20240926110846.png" src="lib\media\pasted-image-20240926110846.png"><br><a data-href="大学物理（2） 笔记 5" href="大学物理（2） 笔记 5" class="internal-link" target="_self" rel="noopener">大学物理（2） 笔记 5</a>]]></description><link>mathstuff\大学物理（2）-笔记-4.html</link><guid isPermaLink="false">MathStuff/大学物理（2） 笔记 4.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 26 Sep 2024 03:08:48 GMT</pubDate><enclosure url="lib\media\pasted-image-20240926110200.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240926110200.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[分析-收敛]]></title><description><![CDATA[ 
+<img alt="Pasted image 20240915092346.png" src="lib\media\pasted-image-20240915092346.png">]]></description><link>作业\ode-第一次作业.html</link><guid isPermaLink="false">作业/ODE 第一次作业.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 21 Sep 2024 04:34:14 GMT</pubDate><enclosure url="lib\media\pasted-image-20240915092018.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240915092018.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[抽象代数课程定义及记号表]]></title><description><![CDATA[ 
+ <br>
+<br>射影空间 ，其中  是一个 -线性空间，定义为其上一维线性子空间的集合。
+<br>域扩张：  是  的子域，称  是  的扩张，记作ee mathjax 不太支持。
+<br>群  的阶： 
+<br>一般线性群：  上  可逆矩阵的集合，
+<br>集合的对称群 ，即到自身的双射的集合。
+<br>二面体群 ，对正  边形旋转和反射生成的群。元素有  个。
+<br> 是  的子群，记 
+<br>集合  生成的子群 
+<br>中心化子 
+<br>同态，同构 
+<br>同态  的像与核： 
+<br>
+]]></description><link>mathstuff\抽象代数课程定义及记号表.html</link><guid isPermaLink="false">MathStuff/抽象代数课程定义及记号表.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Fri, 27 Sep 2024 06:20:08 GMT</pubDate></item><item><title><![CDATA[分析-收敛]]></title><description><![CDATA[ 
  ]]></description><link>mathstuff\分析-收敛.html</link><guid isPermaLink="false">MathStuff/分析-收敛.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 25 Sep 2024 05:37:32 GMT</pubDate></item><item><title><![CDATA[级数收敛性的判别 2]]></title><description><![CDATA[ 
  <br>"作为上一次的补充和心得"<br><a data-href="正项级数收敛判别法" href="mathstuff\正项级数收敛判别法.html" class="internal-link" target="_self" rel="noopener">正项级数收敛判别法</a><br><br>首先增加几种判别法<br><br>Cauchy 凝聚判别法
 正项级数 单调递减。则  和  同敛散。
@@ -1808,7 +1822,10 @@ Singular
 <br>
 <br>例子：对  中的单位球赋予自然定向，则  的诱导定向是逆时针。]]></description><link>mathstuff\曲面.html</link><guid isPermaLink="false">MathStuff/曲面.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Fri, 13 Sep 2024 06:02:45 GMT</pubDate><enclosure url="lib\media\pasted-image-20240517103127.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240517103127.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[三角级数]]></title><description><![CDATA[ 
  <br>收敛还是发散？]]></description><link>mathstuff\三角级数.html</link><guid isPermaLink="false">MathStuff/三角级数.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 21 Sep 2024 00:03:29 GMT</pubDate></item><item><title><![CDATA[未命名 1]]></title><description><![CDATA[ 
- ]]></description><link>mathstuff\未命名-1.html</link><guid isPermaLink="false">MathStuff/未命名 1.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 24 Sep 2024 16:12:53 GMT</pubDate></item><item><title><![CDATA[正项级数收敛判别法]]></title><description><![CDATA[<a class="tag" href="?query=tag:级数" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#级数</a> <a class="tag" href="?query=tag:收敛" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#收敛</a> 
+ ]]></description><link>mathstuff\未命名-1.html</link><guid isPermaLink="false">MathStuff/未命名 1.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 24 Sep 2024 16:12:53 GMT</pubDate></item><item><title><![CDATA[正规子群和商群]]></title><description><![CDATA[<a class="tag" href="?query=tag:抽象代数" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#抽象代数</a> <a class="tag" href="?query=tag:群论" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#群论</a> 
+ <br>@这是抽象代数课程中的第一个非平凡的概念@
+<a href=".?query=tag:抽象代数" class="tag" target="_blank" rel="noopener">#抽象代数</a> <a href=".?query=tag:群论" class="tag" target="_blank" rel="noopener">#群论</a> 
+<br>我们首先回忆群的定义，<br>定义 正规子群]]></description><link>mathstuff\正规子群和商群.html</link><guid isPermaLink="false">MathStuff/正规子群和商群.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Fri, 27 Sep 2024 07:15:50 GMT</pubDate></item><item><title><![CDATA[正项级数收敛判别法]]></title><description><![CDATA[<a class="tag" href="?query=tag:级数" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#级数</a> <a class="tag" href="?query=tag:收敛" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#收敛</a> 
  <br><a href=".?query=tag:级数" class="tag" target="_blank" rel="noopener">#级数</a> <a href=".?query=tag:收敛" class="tag" target="_blank" rel="noopener">#收敛</a> <br><br>
 <br>
 设正项级数 , , 当  充分大时有 .
@@ -1942,7 +1959,88 @@ Cauchy 根式判别法应该是最先用的
 
 <br>]]></description><link>mathstuff\正项级数收敛判别法.html</link><guid isPermaLink="false">MathStuff/正项级数收敛判别法.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 18 Sep 2024 06:26:17 GMT</pubDate><enclosure url="lib\media\pasted-image-20240916174049.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240916174049.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Gauss 判别法]]></title><description><![CDATA[ 
  ]]></description><link>mathstuff\gauss-判别法.html</link><guid isPermaLink="false">MathStuff/Gauss 判别法.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 18 Sep 2024 06:22:41 GMT</pubDate></item><item><title><![CDATA[Guess 超几何级数]]></title><description><![CDATA[ 
- <br><br> 是 Pochhammer 符号，定义为：<br>]]></description><link>mathstuff\guess-超几何级数.html</link><guid isPermaLink="false">MathStuff/Guess 超几何级数.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 18 Sep 2024 06:12:03 GMT</pubDate></item><item><title><![CDATA[one-point compactification]]></title><description><![CDATA[ 
+ <br><br> 是 Pochhammer 符号，定义为：<br>]]></description><link>mathstuff\guess-超几何级数.html</link><guid isPermaLink="false">MathStuff/Guess 超几何级数.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 18 Sep 2024 06:12:03 GMT</pubDate></item><item><title><![CDATA[ODE Notes 3]]></title><description><![CDATA[<a class="tag" href="?query=tag:周五" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#周五</a> <a class="tag" href="?query=tag:常微分方程" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#常微分方程</a> <a class="tag" href="?query=tag:ODE" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#ODE</a> 
+ <br>@2024-09-27，拼一拼手速,大不了先用英语记@
+<a href=".?query=tag:周五" class="tag" target="_blank" rel="noopener">#周五</a> <a href=".?query=tag:常微分方程" class="tag" target="_blank" rel="noopener">#常微分方程</a> <a href=".?query=tag:ODE" class="tag" target="_blank" rel="noopener">#ODE</a><br>
+<a data-href="ODE Notes 2" href="分析\常微分方程\ode-notes-2.html" class="internal-link" target="_self" rel="noopener">ODE Notes 2</a>
+<br><br>Recall: For a map , we say  is a vector field on .<br>If  is an open domain, for a map , we say  si a vector field on .<br>For ODE ,  is a vector field on <br> is a diffeomorphism, , , we define , where , and <br>来做具体的计算：<br><br>where , .<br><br>我们先看更一般的 更简单的？？<br>. Assume  is a vector field, where <br>
+Define , we set a vector field .<br>The natural vector field generated by  and  is<br>
+ is a vector field on .(It is a diffeomorphism)<br>Remark: Action on vector fields by diffeomorphism in ODEs,<br>
+Asuume  is a vector field , <br>example: <br>Define , Assume  is a solution to (1), on , then<br>we have<br>
+ is a solution to .<br>Example<br>Consider Consider , defined by ???<br><br>定义 
+We say  is a one-parameter diffeomorphism group of , if  is a diffeomorphism of  for any , and<br>
+(1)  is smooth in .<br>
+(2) <br>
+(3) 
+<br>Examples: <br>
+<br>Define  by , the  is an one-parameter diffeomorphism group of .  
+<br>Define  by  , then  is not an one-parameter diffeomorphism group of 
+<br>Define  by , where , then  is an one-parameter diffeomorphism group of 
+<br>Define  by then ..
+<br><br>Remark: Phase flow (or one-parameter diffeomorphism group)  can produce vector field.<br>定义 
+If  is a phase flow with phase space , (or one-parameter diffeomorphism group of ), the vector field  defined by<br>
+is called phase velocity field.
+<br>Example
+Example:For one-parameter diffeomorphism group  of , define by , where  is fixed.
+is a phase velocity field of 
+<br>Example
+Define  by , we claim  is not a phase velocity field of any one-parameter diffeomorphism group  of 
+<br>Lemma:<br>If  is an one-parameter diffeomorphism group of , define , where  is a fixed point. (Note ), Then  is a solution to <br><br>where .<br>
+where .<br>Proof:<br><br>By contradition: If  is a phase velocity field of one-parameter diffeomorphism group , then , we have<br><br>By lemma, , solves above.<br>goes:<br>
+where is the contradition?<br>定义 
+For , if  is an one-parameter diffeomorphism group of , we say  is non-stationary for  if  s.t. 
+<br>推论 
+If  is a non-stationary for a one-parameter diffeomorphism group  of , then 
+<br>proof this.<br>By lemma  is a solution to <br><br>Note <br>By contradiction, if , we have , Note  is a solution to the ODE above. If it has uniqueness property, we have , so  contradition.<br>Let's show the uniqueness now.<br>定理 (Uniqueness of solution for general ODE)
+Assume  is a map,  in ,  in , where , then if  are two solution to Then  on .
+<br>proof:<br>Let , Note <br>然后做了一堆放缩。我x废了。<br>AI 会证我不会证
+
+我们假设  和  是以下初值问题的两个解：
+
+其中  是一个映射，在  上是  的，在  上是  的，。
+我们需要证明  在某个区间  上成立。
+
+定义函数  为：
+
+注意到 。
+
+我们对  求导：
+
+利用向量范数的导数公式：
+
+由于  和  都是初值问题的解，我们有：
+
+因此：
+
+
+假设  满足 Lipschitz 条件，即存在常数 ，使得对于所有  和 ，有：
+
+则：
+
+因此：
+
+
+我们得到不等式：
+
+这是一个一阶线性微分不等式。我们可以通过分离变量法来解这个不等式：
+
+对两边积分：
+
+左边积分结果为 ，右边积分结果为 ，因此：
+
+由于 ，我们有：
+
+取指数：
+
+由于 ，我们得到：
+
+由于  是非负函数，因此  对所有  成立。
+
+因此， 在区间  上成立。
+
+整个证明过程逻辑严密，每一步都合理推导，没有发现错误。
+
+]]></description><link>mathstuff\ode-notes-3.html</link><guid isPermaLink="false">MathStuff/ODE Notes 3.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Fri, 27 Sep 2024 09:05:49 GMT</pubDate></item><item><title><![CDATA[one-point compactification]]></title><description><![CDATA[ 
  <br>one-point compactification(单点紧化) 是一种将非紧致的局部紧致空间转化为紧致空间的技术。具体来说，给定一个局部紧致空间 ，其单点紧化是通过添加一个点（通常称为“无穷远点”或“附加点”）到  中，并将  的拓扑扩展到这个新点，使得整个空间成为紧致的。<br>形式化地，设  是一个局部紧致 Hausdorff 空间。 的单点紧化记作  或 ，其中  是新添加的点。 的拓扑定义如下：<br>
 <br>对于  中的任何开集 ， 也是  中的开集。
 <br>一个包含  的开集是  中的一个紧致闭集的补集。
