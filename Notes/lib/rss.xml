@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[LogseqVault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>LogseqVault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Fri, 27 Sep 2024 09:06:53 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Fri, 27 Sep 2024 09:06:05 GMT</pubDate><copyright><![CDATA[Chengwuming]]></copyright><ttl>60</ttl><dc:creator>Chengwuming</dc:creator><item><title><![CDATA[作业9]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[LogseqVault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>LogseqVault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sun, 29 Sep 2024 09:04:12 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sun, 29 Sep 2024 09:03:24 GMT</pubDate><copyright><![CDATA[Chengwuming]]></copyright><ttl>60</ttl><dc:creator>Chengwuming</dc:creator><item><title><![CDATA[作业9]]></title><description><![CDATA[ 
  <br>
 <br>
 <img alt="Pasted image 20240513205638.png" src="lib\media\pasted-image-20240513205638.png">
@@ -222,7 +222,7 @@ transition<br>
 得到  是  上的线性空间，对任意 ，有映射<br>
 这些  构成  的基，从而<br>
 希望  具有多线性性质，操作：模掉应该为零的运算项<br>
-类似于  这种东西张成的空间。<br>令 ，得到<br> <br>²²<br>以后来搞图片<br>记 , 记为 <br>
+类似于  这种东西张成的空间。<br>令 ，得到<br> <br>        ²        ²                     <br>以后来搞图片<br>记 , 记为 <br>
 显然  是双线性的，称  是  的张量积。<br><br>universal property<br>对任意  上线性空间 ，以及双线性映射 ，存在唯一的线性映射 <br>
 <br>即<br>
 若 $\psi $<br><br> <a data-href="LA Lecture 29" href="代数\高等线性代数2\la-lecture-29.html" class="internal-link" target="_self" rel="noopener">LA Lecture 29</a>]]></description><link>代数\高等线性代数2\la-lecture-28.html</link><guid isPermaLink="false">代数/高等线性代数2/LA Lecture 28.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sun, 15 Sep 2024 15:40:16 GMT</pubDate></item><item><title><![CDATA[张量积]]></title><description><![CDATA[ 
@@ -1535,7 +1535,31 @@ Step 4
 <a data-href="大学物理（2） 笔记 3" href="物理\大学物理（2）-笔记-3.html" class="internal-link" target="_self" rel="noopener">大学物理（2） 笔记 3</a>
 <br><br><br>回顾了静电屏蔽。核心是在导体内部的空腔不包含电荷，又导体是一个等势体。<br>接地之后导体壳完全屏蔽内外影响。<br>
 <br> 的大小，位置都是给定的，然后给出了边界条件的电势，根据唯一性定理，
-<br>看了一个法拉第笼的实验<br><br>就是猜长得一样的电场分布的来源。用了一堆什么阿波罗尼斯圆之类的东西，想起来高中物竞的岁月。<br><br>讲了一些概念，参考ppt。<br><img alt="Pasted image 20240926110200.png" src="lib\media\pasted-image-20240926110200.png"><br><img alt="Pasted image 20240926110215.png" src="lib\media\pasted-image-20240926110215.png"><br><img alt="Pasted image 20240926110742.png" src="lib\media\pasted-image-20240926110742.png"><br><img alt="Pasted image 20240926110750.png" src="lib\media\pasted-image-20240926110750.png"><br><img alt="Pasted image 20240926110846.png" src="lib\media\pasted-image-20240926110846.png"><br><a data-href="大学物理（2） 笔记 5" href="大学物理（2） 笔记 5" class="internal-link" target="_self" rel="noopener">大学物理（2） 笔记 5</a>]]></description><link>物理\大学物理（2）-笔记-4.html</link><guid isPermaLink="false">物理/大学物理（2） 笔记 4.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 26 Sep 2024 03:08:48 GMT</pubDate><enclosure url="lib\media\pasted-image-20240926110200.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240926110200.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[可交换]]></title><description><![CDATA[ 
+<br>看了一个法拉第笼的实验<br><br>就是猜长得一样的电场分布的来源。用了一堆什么阿波罗尼斯圆之类的东西，想起来高中物竞的岁月。<br><br>讲了一些概念，参考ppt。<br><img alt="Pasted image 20240926110200.png" src="lib\media\pasted-image-20240926110200.png"><br><img alt="Pasted image 20240926110215.png" src="lib\media\pasted-image-20240926110215.png"><br><img alt="Pasted image 20240926110742.png" src="lib\media\pasted-image-20240926110742.png"><br><img alt="Pasted image 20240926110750.png" src="lib\media\pasted-image-20240926110750.png"><br><img alt="Pasted image 20240926110846.png" src="lib\media\pasted-image-20240926110846.png"><br><a data-href="大学物理（2） 笔记 5" href="物理\大学物理（2）-笔记-5.html" class="internal-link" target="_self" rel="noopener">大学物理（2） 笔记 5</a>]]></description><link>物理\大学物理（2）-笔记-4.html</link><guid isPermaLink="false">物理/大学物理（2） 笔记 4.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 26 Sep 2024 03:08:48 GMT</pubDate><enclosure url="lib\media\pasted-image-20240926110200.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240926110200.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[大学物理（2） 笔记 5]]></title><description><![CDATA[<a class="tag" href="?query=tag:大学物理" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#大学物理</a> <a class="tag" href="?query=tag:周六" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#周六</a> 
+ <br>@2024-09-29，昨天第一次上习题课，算是还行，就是题目没讲完的有点多，下次不能说太多闲话了@
+ <a href=".?query=tag:大学物理" class="tag" target="_blank" rel="noopener">#大学物理</a> <a href=".?query=tag:周六" class="tag" target="_blank" rel="noopener">#周六</a><br>
+<a data-href="大学物理（2） 笔记 4" href="物理\大学物理（2）-笔记-4.html" class="internal-link" target="_self" rel="noopener">大学物理（2） 笔记 4</a>
+<br><br><br>极化强度 <br><br>极化面电荷密度 <br><br>高斯定理和环路定理依然成立（这不是废话吗）<br><br><img alt="Pasted image 20240929095909.png" src="lib\media\pasted-image-20240929095909.png"><br>
+从而我们有<br>
+<br>我们定义 ，这样的化高斯定理化为 。<br><img alt="Pasted image 20240929103648.png" src="lib\media\pasted-image-20240929103648.png"><br>
+这个没看懂<br>根据定义，我们有下面的转换关系：<br>
+这个背会。<br>
+<br>对于均匀各向同性介质，不论其极化是否均匀，体内自由电荷为 0 处极化电荷也为 0。
+<br>由 所以<br>
+<br>一个小例题，让你熟悉一下这些东西都是什么。去看ppt。<br>思考
+<img alt="Pasted image 20240929105522.png" src="lib\media\pasted-image-20240929105522.png">
+<br>思考3
+<img alt="Pasted image 20240929110945.png" src="lib\media\pasted-image-20240929110945.png">
+<br><br>原理：对孤立带电导体，  是常数。<br>
+<br>电容器的电容只取决于电容器的结构。
+<br>报菜名，背就完了<br>
+<img alt="Pasted image 20240929104316.png" src="lib\media\pasted-image-20240929104316.png"><br>电容器的串并联：类似弹簧。<br>思考2
+<img alt="Pasted image 20240929110814.png" src="lib\media\pasted-image-20240929110814.png">
+<br><br><br>定义：使电容器带电，外接（如电源）所做的功。<br>放电过程：<br>
+我们有<br>
+<br><br>以平行板电容器为例<br>
+得到的能量密度<br>
+总之你需要背会的是<br>能量密度 <br>一道小例题，自己下来去算算。在下面的ppt第27页<br><br><a data-href="大学物理（2） 笔记 6" href="大学物理（2） 笔记 6" class="internal-link" target="_self" rel="noopener">大学物理（2） 笔记 6</a>]]></description><link>物理\大学物理（2）-笔记-5.html</link><guid isPermaLink="false">物理/大学物理（2） 笔记 5.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sun, 29 Sep 2024 03:09:47 GMT</pubDate><enclosure url="lib\media\pasted-image-20240929095909.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240929095909.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[可交换]]></title><description><![CDATA[ 
  <br><br><br><br>
 <br>同时正交对角化
 
@@ -1744,8 +1768,8 @@ Step 4
 <br>这里对唯一的证明是否有不严谨之处？
 ]]></description><link>mathstuff\解的存在性与唯一性-1.html</link><guid isPermaLink="false">MathStuff/解的存在性与唯一性 1.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 21 Sep 2024 04:33:31 GMT</pubDate></item><item><title><![CDATA[你好哇，你这会想看什么？]]></title><description><![CDATA[ 
  <br>二四六11月12月1月2月3月4月5月6月7月8月9月lessmore<br>
-<br>今天是2024年9月27日，2024 年已经过去了 266 天
-<br>今年你总共在 67 天中留下了你的足迹，继续加油！
+<br>今天是2024年9月29日，2024 年已经过去了 270 天
+<br>今年你总共在 68 天中留下了你的足迹，继续加油！
 <br><br>Multi column
 复分析
 暑假期间听刘老师课程的笔记。之后会重置。<br>
@@ -2040,7 +2064,23 @@ Assume  is a map,  in ,  in , where , then if  are two solution to Then  on .
 
 整个证明过程逻辑严密，每一步都合理推导，没有发现错误。
 
-]]></description><link>mathstuff\ode-notes-3.html</link><guid isPermaLink="false">MathStuff/ODE Notes 3.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Fri, 27 Sep 2024 09:05:49 GMT</pubDate></item><item><title><![CDATA[one-point compactification]]></title><description><![CDATA[ 
+<br><a data-href="ODE Notes 4" href="mathstuff\ode-notes-4.html" class="internal-link" target="_self" rel="noopener">ODE Notes 4</a>]]></description><link>mathstuff\ode-notes-3.html</link><guid isPermaLink="false">MathStuff/ODE Notes 3.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sun, 29 Sep 2024 07:24:20 GMT</pubDate></item><item><title><![CDATA[ODE Notes 4]]></title><description><![CDATA[<a class="tag" href="?query=tag:常微分方程" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#常微分方程</a> <a class="tag" href="?query=tag:ODE" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#ODE</a> <a class="tag" href="?query=tag:周六" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#周六</a> 
+ <br>@2024-09-29，落了一整周的作业，希望国庆能补上@
+<a href=".?query=tag:常微分方程" class="tag" target="_blank" rel="noopener">#常微分方程</a> <a href=".?query=tag:ODE" class="tag" target="_blank" rel="noopener">#ODE</a> <a href=".?query=tag:周六" class="tag" target="_blank" rel="noopener">#周六</a><br>
+<a data-href="ODE Notes 3" href="mathstuff\ode-notes-3.html" class="internal-link" target="_self" rel="noopener">ODE Notes 3</a>
+<br><br>最后的一个定理。<br>
+<br><br>定理 (Uniqueness of solution for general ODE)
+Assume  is a map,  in ,  in , where , then if  are two solution to Then  on .
+<br>我们来证明它<br>从今天起不写细节了，除非比较重要的，不过那部分细节我会单独开篇。<br>定义 ，那么有<br>  然后用中值定理放缩，其实就是希望得到<br>徐国义：请在周六晚上睡前看《改变世界的十七个方程》<br><br>定义 
+If  is a diffeomorphism, then  is a symmetry of a vector field , where  is an open domain, if 
+<br>Example: For fixed , we define  by <br><br>Define Euler field <br><br>so ,  is a symmetry of vector field .<br><br>Recall  is a direction field, if  for some ,<br>
+Assume  is a vector field, define the corresponding direction field where  and , .<br>定义 
+Assume  is a diffeomorphism, then we say  is a symmetry of direction field , if 
+<br>Example, <br>拉伸<br>定义 
+Assume  is an OPDG of , then we say it is a OPDSG of vector field , if 
+<br>定理 
+Assume  is a direction field where , and  is an OPDSG of direction field , then for a non-stationary , we can solve on an open interval  with 
+<br>lemma:<br>If  is a non-stationary point of an OPDG  on  , then there is a  neighborhood  of  in  , and a neighborhood  of 0 in , also a diffeomorphism  s.t. ]]></description><link>mathstuff\ode-notes-4.html</link><guid isPermaLink="false">MathStuff/ODE Notes 4.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sun, 29 Sep 2024 08:29:46 GMT</pubDate></item><item><title><![CDATA[one-point compactification]]></title><description><![CDATA[ 
  <br>one-point compactification(单点紧化) 是一种将非紧致的局部紧致空间转化为紧致空间的技术。具体来说，给定一个局部紧致空间 ，其单点紧化是通过添加一个点（通常称为“无穷远点”或“附加点”）到  中，并将  的拓扑扩展到这个新点，使得整个空间成为紧致的。<br>形式化地，设  是一个局部紧致 Hausdorff 空间。 的单点紧化记作  或 ，其中  是新添加的点。 的拓扑定义如下：<br>
 <br>对于  中的任何开集 ， 也是  中的开集。
 <br>一个包含  的开集是  中的一个紧致闭集的补集。
