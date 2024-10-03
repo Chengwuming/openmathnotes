@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[LogseqVault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>LogseqVault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Thu, 03 Oct 2024 12:14:12 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Thu, 03 Oct 2024 12:13:16 GMT</pubDate><copyright><![CDATA[Chengwuming]]></copyright><ttl>60</ttl><dc:creator>Chengwuming</dc:creator><item><title><![CDATA[作业9]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[LogseqVault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>LogseqVault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Thu, 03 Oct 2024 15:01:37 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Thu, 03 Oct 2024 15:00:33 GMT</pubDate><copyright><![CDATA[Chengwuming]]></copyright><ttl>60</ttl><dc:creator>Chengwuming</dc:creator><item><title><![CDATA[作业9]]></title><description><![CDATA[ 
  <br>
 <br>
 <img alt="Pasted image 20240513205638.png" src="lib\media\pasted-image-20240513205638.png">
@@ -1097,195 +1097,9 @@ holo 的  不是常数, 那么  是开映射.
 <br>
  以  为孤立奇点, 留数 这里  是充分大的圆盘边界.
 
-<br>留数的推广和微分形式<br>obsidian://open?vault=%E6%95%B0%E5%AD%A6&amp;file=svg-cache%2F2b2639804f1e69df2f383d5c67ab20f0.svg<br>
-
-
-
-
-T
-K
-X
-×
-Z
-Y
-X
-Y
-Z
-
-
-x
-
-
-y
-
-
-
-(
-x,y
-)
-
-
-p
-
-
-q
-
-
-f
-
-
-g
-A
-
-B
-
-A
-B
-C
-
-D
-
-C
-D
-
-
-f
-
-
-
-a
-
-
-g
-
-
-
-h
-
-
-
-b
-
-
-
-f
-
-
-h
-
-
-k
-
-
-
-c
-
-
-d
-
-
-k
-
-
-
-g
-
-<br><a data-href="CA Lecture 16" href="分析\复分析\ca-lecture-16.html" class="internal-link" target="_self" rel="noopener">CA Lecture 16</a>]]></description><link>分析\复分析\ca-lecture-15.html</link><guid isPermaLink="false">分析/复分析/CA Lecture 15.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sun, 15 Sep 2024 15:37:13 GMT</pubDate></item><item><title><![CDATA[CA Lecture 16]]></title><description><![CDATA[ 
+<br>留数的推广和微分形式<br><a data-href="CA Lecture 16" href="分析\复分析\ca-lecture-16.html" class="internal-link" target="_self" rel="noopener">CA Lecture 16</a>]]></description><link>分析\复分析\ca-lecture-15.html</link><guid isPermaLink="false">分析/复分析/CA Lecture 15.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 03 Oct 2024 14:44:18 GMT</pubDate></item><item><title><![CDATA[CA Lecture 16]]></title><description><![CDATA[ 
  <br>7.13<br>
-<a data-href="CA Lecture 15" href="分析\复分析\ca-lecture-15.html" class="internal-link" target="_self" rel="noopener">CA Lecture 15</a><br><br>
-
-
-
-
-T
-K
-X
-×
-Z
-Y
-X
-Y
-Z
-
-
-xd
-
-
-y
-
-
-
-(
-x,y
-)
-
-
-p
-
-
-q
-
-
-f
-
-
-gk
-A
-
-B
-
-A
-B
-C
-
-D
-
-C
-D
-
-
-f
-
-
-
-a
-
-
-g
-
-
-
-h
-
-
-
-b
-
-
-
-f
-
-
-h
-
-
-k
-
-
-
-c
-
-
-d
-
-
-k
-
-
-
-g
-
-<br>latex -interaction=nonstopmode -halt-on-error -shell-escape "{file-path}" &amp;&amp; dvisvgm --scale=2 --font-format=woff "{file-path}"<br><br><br><br><br>]]></description><link>分析\复分析\ca-lecture-16.html</link><guid isPermaLink="false">分析/复分析/CA Lecture 16.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sun, 15 Sep 2024 15:37:17 GMT</pubDate></item><item><title><![CDATA[这一节我们预热]]></title><description><![CDATA[ 
+<a data-href="CA Lecture 15" href="分析\复分析\ca-lecture-15.html" class="internal-link" target="_self" rel="noopener">CA Lecture 15</a>]]></description><link>分析\复分析\ca-lecture-16.html</link><guid isPermaLink="false">分析/复分析/CA Lecture 16.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 03 Oct 2024 14:44:39 GMT</pubDate></item><item><title><![CDATA[这一节我们预热]]></title><description><![CDATA[ 
  <br>9.2<br><br><br><img alt="Pasted image 20240902161818.png" src="lib\media\pasted-image-20240902161818.png"><br>看不懂，以后来看<br><br>
 <br>Weak zero property<br>
 
@@ -1417,14 +1231,14 @@ Guess 超几何级数
 
 <br>自然要问收敛性。<br>定理 级数 Cauchy 乘积的收敛性
 绝对收敛级数的 Cauchy 乘积收敛。
-<br>以后就管 Cauchy 乘积 叫 乘积 了<br>证明非常简单，直接在对应的三角形乘积里放大到正方形<br><br><br>定理 (Mortens)
+<br>以后就管 Cauchy 乘积 叫 乘积 了<br>证明非常简单，直接在对应的三角形乘积里放大到正方形<br><br><br>定理 (Mertens)
  绝对收敛，  收敛，那么  收敛。
 <br>证明
 下课了，下节课再证明
-<br>我觉得数分的轻松日子不出三周就要结束了，速速复习 Amann 预习 Fourier<br><a data-href="Analysis III Note 3" href="分析\数学分析\analysis-iii-note-3.html" class="internal-link" target="_self" rel="noopener">Analysis III Note 3</a>]]></description><link>分析\数学分析\analysis-iii-note-2.html</link><guid isPermaLink="false">分析/数学分析/Analysis III Note 2.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Mon, 23 Sep 2024 00:03:42 GMT</pubDate></item><item><title><![CDATA[Analysis III Note 3]]></title><description><![CDATA[ 
+<br>我觉得数分的轻松日子不出三周就要结束了，速速复习 Amann 预习 Fourier<br><a data-href="Analysis III Note 3" href="分析\数学分析\analysis-iii-note-3.html" class="internal-link" target="_self" rel="noopener">Analysis III Note 3</a>]]></description><link>分析\数学分析\analysis-iii-note-2.html</link><guid isPermaLink="false">分析/数学分析/Analysis III Note 2.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 03 Oct 2024 14:06:41 GMT</pubDate></item><item><title><![CDATA[Analysis III Note 3]]></title><description><![CDATA[ 
  <br>@2024-09-23，无缝衔接到新的一周@<br><a data-href="Analysis III Note 2" href="分析\数学分析\analysis-iii-note-2.html" class="internal-link" target="_self" rel="noopener">Analysis III Note 2</a><br><br><br>定义 <br><br>定义 级数的乘法（Cauchy 乘积）
 
-<br>如果两个级数绝对收敛，那么乘积级数收敛。<br><br><br>定理 (Mortens)
+<br>如果两个级数绝对收敛，那么乘积级数收敛。<br><br><br>定理 (Mertens)
  绝对收敛，  收敛，那么  收敛。
 <br>我们来证明<br>证明
 假设 ， ， <br>
@@ -1962,8 +1776,13 @@ Abel-Dirichlet 判别法：设  定义在  上，若满足以下任一条件：
 <br>同态，同构 
 <br>同态  的像与核： 
 <br>
-]]></description><link>mathstuff\抽象代数课程定义及记号表.html</link><guid isPermaLink="false">MathStuff/抽象代数课程定义及记号表.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Fri, 27 Sep 2024 06:20:08 GMT</pubDate></item><item><title><![CDATA[分析-收敛]]></title><description><![CDATA[ 
- <br>Cauchy 收敛准则的证明
+]]></description><link>mathstuff\抽象代数课程定义及记号表.html</link><guid isPermaLink="false">MathStuff/抽象代数课程定义及记号表.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 03 Oct 2024 12:42:32 GMT</pubDate></item><item><title><![CDATA[方便查询的记号表]]></title><description><![CDATA[ 
+ <br>
+<br>Amann 记 
+<br>
+]]></description><link>mathstuff\方便查询的记号表.html</link><guid isPermaLink="false">MathStuff/方便查询的记号表.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 03 Oct 2024 14:46:37 GMT</pubDate></item><item><title><![CDATA[分析-收敛]]></title><description><![CDATA[ 
+ <br>我不想谈论过于一般的情形，那些就放到拓扑里面去学习。在分析里面，我们考虑具有范数结构的空间。<br><br>  是一个赋范线性空间，那么对 ，我们定义<br>
+从而我们在有界函数空间  上有自然的范数，称为 supremum norm。具体的细节验证可以参考 Analysis (Amann) Vol.I Proposition 3.5<br>Cauchy 收敛准则的证明
 
 定理内容：一个实数序列  收敛的充分必要条件是：对于任意给定的正数 ，存在一个正整数 ，使得对于所有 ，有 。
 证明：
@@ -1985,7 +1804,7 @@ Abel-Dirichlet 判别法：设  定义在  上，若满足以下任一条件：
 <br>充分性部分通过证明序列是 Cauchy 序列，并利用实数完备性证明了序列收敛。
 
 证明无误。
-]]></description><link>mathstuff\分析-收敛.html</link><guid isPermaLink="false">MathStuff/分析-收敛.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Mon, 30 Sep 2024 00:29:18 GMT</pubDate></item><item><title><![CDATA[级数收敛性的判别 2]]></title><description><![CDATA[ 
+]]></description><link>mathstuff\分析-收敛.html</link><guid isPermaLink="false">MathStuff/分析-收敛.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 03 Oct 2024 12:42:09 GMT</pubDate></item><item><title><![CDATA[级数收敛性的判别 2]]></title><description><![CDATA[ 
  <br>@2024-9-18，作为上一次的补充和心得@<br><a data-href="正项级数收敛判别法" href="mathstuff\正项级数收敛判别法.html" class="internal-link" target="_self" rel="noopener">正项级数收敛判别法</a><br><br>首先增加几种判别法<br><br>Cauchy 凝聚判别法
 正项级数 单调递减。则  和  同敛散。
 <br>马上想到的一件事就是可以对一个数列反复应用这个定理，从而由一个抽象级数得到一系列收敛越来越快的新级数<br>对于那些收敛得比较慢的级数，可以这么操作一下，然后就比较好看出来。<br>
@@ -1997,7 +1816,11 @@ Abel-Dirichlet 判别法：设  定义在  上，若满足以下任一条件：
 只证收敛的情形，可以去谢惠民的习题集找其余的证明。
 充分性：如果已经成立，那么就会有 注意到  单调递减，从而可以对  的每一项放缩之后 scooop
 必要性：记余项 ，令 然后自己写开算一下就可。 
-<br>我不觉得这个东西是一个好用的工具，至少目前没有遇到过好用的使用场景，再说这东西其实就是一个比较判别法，如果你这个方法能做（找到一个对应的级数），那么你其他方法应该也能做。]]></description><link>mathstuff\级数收敛性的判别-2.html</link><guid isPermaLink="false">MathStuff/级数收敛性的判别 2.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 03 Oct 2024 12:08:05 GMT</pubDate></item><item><title><![CDATA[解的存在性与唯一性 1]]></title><description><![CDATA[ 
+<br>我不觉得这个东西是一个好用的工具，至少目前没有遇到过好用的使用场景，再说这东西其实就是一个比较判别法，如果你这个方法能做（找到一个对应的级数），那么你其他方法应该也能做。<br><br>定理 (Toeplitz)
+
+<br>
+<br>搞不动了，明天再搞
+]]></description><link>mathstuff\级数收敛性的判别-2.html</link><guid isPermaLink="false">MathStuff/级数收敛性的判别 2.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 03 Oct 2024 15:00:14 GMT</pubDate></item><item><title><![CDATA[解的存在性与唯一性 1]]></title><description><![CDATA[ 
  <br>@2024-09-13，反正是云里雾里@<br>定理 1
 对于 对任意的初值 ，此方程存在解且唯一。
 <br>习题里面证明此处  不一定要  。但是至少可微。考虑反例<br>
@@ -2108,7 +1931,233 @@ Singular
 
 <br>
 <br>例子：对  中的单位球赋予自然定向，则  的诱导定向是逆时针。]]></description><link>mathstuff\曲面.html</link><guid isPermaLink="false">MathStuff/曲面.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Fri, 13 Sep 2024 06:02:45 GMT</pubDate><enclosure url="lib\media\pasted-image-20240517103127.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240517103127.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[三角级数]]></title><description><![CDATA[ 
- <br>收敛还是发散？]]></description><link>mathstuff\三角级数.html</link><guid isPermaLink="false">MathStuff/三角级数.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 21 Sep 2024 00:03:29 GMT</pubDate></item><item><title><![CDATA[正规子群和商群]]></title><description><![CDATA[<a class="tag" href="?query=tag:抽象代数" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#抽象代数</a> <a class="tag" href="?query=tag:群论" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#群论</a> 
+ <br>收敛还是发散？]]></description><link>mathstuff\三角级数.html</link><guid isPermaLink="false">MathStuff/三角级数.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 21 Sep 2024 00:03:29 GMT</pubDate></item><item><title><![CDATA[文本编辑战术演习]]></title><description><![CDATA[ 
+ <br><br><br><br><br><br>
+<br>关键字保留的颜色
+<br><br>
+<br>你使用的自定义snippet<br>
+选中文本之后 shift + R/G/B/Y
+<br><br><br>用法如上的颜色<br>
+<img alt="Pasted image 20241003223246.png" src="lib\media\pasted-image-20241003223246.png"><br>
+<br>
+箭头
+
+
+<br>
+上方标记
+
+<br>% 使用 \stackrel<br><br>% 示例<br><br>
+<br>
+你使用tto 之后继续tab可以弹出<br>
+
+
+<br>
+示例<br>
+
+
+<br><br>直接去<a data-tooltip-position="top" aria-label="https://detexify.kirelabs.org/symbols.html" rel="noopener" class="external-link" href="https://detexify.kirelabs.org/symbols.html" target="_blank">这个地方</a><br><br><br>NMN=N\Re1M=Re1Re2©¢¢¢©Ren»=<br>对比<br><br>TKX£ZYXYZxy(x;y)pqfgA0B0ABC0D0CDf0ag0h0bfhk0cdkg<br><br>V¬WTV£W9!~f¬f<br><br><br>²²²<br><br>¡202¡202¡0:4¡0:200:20:4<br>
+
+
+
+
+T
+K
+X
+×
+Z
+Y
+X
+Y
+Z
+
+
+xd
+
+
+y
+
+
+
+(
+x,y
+)
+
+
+p
+
+
+q
+
+
+f
+
+
+gk
+A
+
+B
+
+A
+B
+C
+
+D
+
+C
+D
+
+
+f
+
+
+
+a
+
+
+g
+
+
+
+h
+
+
+
+b
+
+
+
+f
+
+
+h
+
+
+k
+
+
+
+c
+
+
+d
+
+
+k
+
+
+
+g
+
+<br>xf(x)f(x)=xf(x)=sinxf(x)=120ex<br>I0¡+V0I0R1i1R2i2<br>TKX£ZYXYZxy(x;y)pqfgA0B0ABC0D0CDf0ag0h0bfhk0cdkg<br>FcGcFc0Gc0Ff®cGf®c0<br><br>&gt;[Note]- Title 减号位置对应的+-可以改变折叠方式。<br><br>AI
+美化 callout 的方式有很多，以下是一些你可以尝试的 CSS 技巧：
+
+.callout[data-callout="proof"] {
+  border-radius: 5px; /* 圆角大小 */
+}
+复制
+
+.callout[data-callout="proof"] {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 阴影效果 */
+}
+复制
+
+.callout[data-callout="proof"] {
+  padding: 10px; /* 内边距 */
+}
+复制
+
+.callout[data-callout="proof"] {
+  background-image: linear-gradient(to right, #e0eafc, #cfdef3); /* 渐变背景 */
+}
+复制
+
+如果你想要添加图标，确保你有图标的 URL 或者使用图标字体库。
+.callout[data-callout="proof"]::before {
+  content: url('path/to/icon.png'); /* 图标路径 */
+  margin-right: 10px; /* 图标与文本的间距 */
+}
+复制
+
+.callout[data-callout="proof"] {
+  font-style: italic; /* 斜体 */
+  text-decoration: underline; /* 下划线 */
+}
+复制
+
+.callout[data-callout="proof"] {
+  background-image: url('path/to/pattern.png'); /* 背景图案 */
+  background-size: cover; /* 覆盖整个元素 */
+}
+复制
+
+使用 :hover 伪类添加鼠标悬停效果。
+.callout[data-callout="proof"]:hover {
+  background-color: #f0f0f0; /* 鼠标悬停时的背景颜色 */
+}
+复制
+
+.callout[data-callout="proof"] {
+  color: #333; /* 文本颜色 */
+  font-family: 'Arial', sans-serif; /* 字体 */
+}
+复制
+结合以上的一些或所有技巧，你可以创建一个独特且美观的 callout。以下是一个结合了多种技巧的例子：
+.callout[data-callout="proof"] {
+  --callout-color: var(--text-normal);
+  background-color: rgba(0, 0, 0, 0);
+  padding: 15px;
+  border-top: 1px solid #888;
+  border-bottom: 1px solid #888;
+  border-left: none;
+  border-right: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  font-style: italic;
+  text-decoration: underline;
+  color: #333;
+  font-family: 'Arial', sans-serif;
+  background-image: linear-gradient(to right, #e0eafc, #cfdef3);
+}
+.callout[data-callout="proof"]::before {
+  content: url('path/to/icon.png');
+  margin-right: 10px;
+}
+.callout[data-callout="proof"]:hover {
+  background-color: #f0f0f0;
+}
+复制
+记得将 url('path/to/icon.png') 替换成你实际的图标路径，并根据你的喜好调整其他属性值。
+<br><br><br>Note
+这是一个Note类型的callout。
+<br>Abstract
+这是一个Abstract类型的callout。
+<br>Info
+这是一个Info类型的callout。
+<br>Todo
+这是一个Todo类型的callout。
+<br>Tip
+这是一个Tip类型的callout。
+<br>Success
+这是一个Success类型的callout。
+<br>Question
+这是一个Question类型的callout。
+<br>Warning
+这是一个Warning类型的callout。
+<br>Failure
+这是一个Failure类型的callout。
+<br>Danger
+这是一个Danger类型的callout。
+<br>Bug
+这是一个Bug类型的callout。
+<br>Example
+这是一个Example类型的callout。
+<br>Quote
+这是一个Quote类型的callout。
+<br><br>Box
+这是一个box类型的callout。
+<br>Proof
+这是一个proof类型的callout。
+]]></description><link>mathstuff\文本编辑战术演习.html</link><guid isPermaLink="false">MathStuff/文本编辑战术演习.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 03 Oct 2024 14:45:12 GMT</pubDate><enclosure url="lib\media\pasted-image-20241003223246.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20241003223246.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[正规子群和商群]]></title><description><![CDATA[<a class="tag" href="?query=tag:抽象代数" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#抽象代数</a> <a class="tag" href="?query=tag:群论" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#群论</a> 
  <br>@这是抽象代数课程中的第一个非平凡的概念@
 <a href=".?query=tag:抽象代数" class="tag" target="_blank" rel="noopener">#抽象代数</a> <a href=".?query=tag:群论" class="tag" target="_blank" rel="noopener">#群论</a> 
 <br>正规子群
@@ -2245,7 +2294,13 @@ Cauchy 根式判别法应该是最先用的
 设正项级数  若<br>
 其中  都是常数， 是一个有界量。则级数的敛散性为：
 
-<br>]]></description><link>mathstuff\正项级数收敛判别法.html</link><guid isPermaLink="false">MathStuff/正项级数收敛判别法.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 18 Sep 2024 06:26:17 GMT</pubDate><enclosure url="lib\media\pasted-image-20240916174049.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240916174049.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Gauss 判别法]]></title><description><![CDATA[ 
+<br>]]></description><link>mathstuff\正项级数收敛判别法.html</link><guid isPermaLink="false">MathStuff/正项级数收敛判别法.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 18 Sep 2024 06:26:17 GMT</pubDate><enclosure url="lib\media\pasted-image-20240916174049.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240916174049.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[自然对数的底 e]]></title><description><![CDATA[ 
+ <br>我第一次见到  是在小学看《可怕的数学》的时候，那会什么都不懂，只知道这玩意似乎和银行利息计算有一些关系，然后被背会了它的名字”自然对数的底“。当初的感觉，一言以蔽之：高大上。<br>如今，关于  的科普和有趣的例子都非常多了，网上可以找到很多。在这里我记录一些关于  的，以及非常重要的映射  的非平凡的，容易忘记但是比较有趣的内容。<br><br><br>或者通过无穷级数定义：<br><br>关于这两者的等价性，那两波极限的放缩我现在也没有很好的理解，也许哪天搞定了会修改这一部分内容。<br>如果直接从级数角度入手，可以得到 ，用到二项式定理和实数的交换性，其实如果有交换性，你就可以定义一些  之类的东西，比如 ,  代表什么呢？为什么良好定义呢？可以思考一下。<br>关于经典定义 ，这里有一些变种，比如  得到单调递减的数列之类。又或者将  的 换成有理数之类，这些细节应该没有那么重要，如果你未来用到，到时候再复习就好了。<br>其实我最开始意识到自己犯了初学者常见的求极限错误的例子时，就是发现自己把这个极限求成了<br>
+这下笑嘻了，没关系，人总有这样的时候。<br>现在我们一般处理  这种东西的时候，首先考虑的肯定是无脑放到指数上<br>
+<br><br>证明用到  的收敛速度非常之快，事实上有<br>
+那么为什么是无理数呢？不妨假设 ，然后考虑 上述的内容。这方面的内容也非常丰富，如果你做不出来，那就参考一下下面的图<br>这里
+<img alt="8078e7551c1bcbe8c635a3b65e1f3a5e_720.jpg" src="lib\media\8078e7551c1bcbe8c635a3b65e1f3a5e_720.jpg">
+]]></description><link>mathstuff\自然对数的底-e.html</link><guid isPermaLink="false">MathStuff/自然对数的底 e.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 03 Oct 2024 14:03:50 GMT</pubDate><enclosure url="lib\media\8078e7551c1bcbe8c635a3b65e1f3a5e_720.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\8078e7551c1bcbe8c635a3b65e1f3a5e_720.jpg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Gauss 判别法]]></title><description><![CDATA[ 
  ]]></description><link>mathstuff\gauss-判别法.html</link><guid isPermaLink="false">MathStuff/Gauss 判别法.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 18 Sep 2024 06:22:41 GMT</pubDate></item><item><title><![CDATA[Guess 超几何级数]]></title><description><![CDATA[ 
  <br><br> 是 Pochhammer 符号，定义为：<br>]]></description><link>mathstuff\guess-超几何级数.html</link><guid isPermaLink="false">MathStuff/Guess 超几何级数.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 18 Sep 2024 06:12:03 GMT</pubDate></item><item><title><![CDATA[one-point compactification]]></title><description><![CDATA[ 
  <br>one-point compactification(单点紧化) 是一种将非紧致的局部紧致空间转化为紧致空间的技术。具体来说，给定一个局部紧致空间 ，其单点紧化是通过添加一个点（通常称为“无穷远点”或“附加点”）到  中，并将  的拓扑扩展到这个新点，使得整个空间成为紧致的。<br>形式化地，设  是一个局部紧致 Hausdorff 空间。 的单点紧化记作  或 ，其中  是新添加的点。 的拓扑定义如下：<br>
