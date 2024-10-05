@@ -1,4 +1,82 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[LogseqVault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>LogseqVault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Thu, 03 Oct 2024 15:01:37 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Thu, 03 Oct 2024 15:00:33 GMT</pubDate><copyright><![CDATA[Chengwuming]]></copyright><ttl>60</ttl><dc:creator>Chengwuming</dc:creator><item><title><![CDATA[作业9]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[LogseqVault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>LogseqVault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sat, 05 Oct 2024 03:49:32 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sat, 05 Oct 2024 03:48:18 GMT</pubDate><copyright><![CDATA[Chengwuming]]></copyright><ttl>60</ttl><dc:creator>Chengwuming</dc:creator><item><title><![CDATA[抽象代数课程定义及记号表]]></title><description><![CDATA[ 
+ <br>
+<br>射影空间 ，其中  是一个 -线性空间，定义为其上一维线性子空间的集合。
+<br>域扩张：  是  的子域，称  是  的扩张，记作ee mathjax 不太支持。
+<br>群  的阶： 
+<br>一般线性群：  上  可逆矩阵的集合，
+<br>集合的对称群 ，即到自身的双射的集合。
+<br>二面体群 ，对正  边形旋转和反射生成的群。元素有  个。
+<br> 是  的子群，记 
+<br>集合  生成的子群 
+<br>中心化子 
+<br>同态，同构 
+<br>同态  的像与核： 
+<br>
+<br>
+]]></description><link>代数\抽象代数\抽象代数课程定义及记号表.html</link><guid isPermaLink="false">代数/抽象代数/抽象代数课程定义及记号表.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Fri, 04 Oct 2024 15:39:58 GMT</pubDate></item><item><title><![CDATA[正规子群和商群]]></title><description><![CDATA[<a class="tag" href="?query=tag:抽象代数" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#抽象代数</a> <a class="tag" href="?query=tag:群论" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#群论</a> 
+ <br>@这是抽象代数课程中的第一个非平凡的概念@
+<a href=".?query=tag:抽象代数" class="tag" target="_blank" rel="noopener">#抽象代数</a> <a href=".?query=tag:群论" class="tag" target="_blank" rel="noopener">#群论</a> 
+<br>正规子群
+ 是群  的正规子群，如果任意的  有 
+<br>当你希望在  上自然的做出一个群结构的时候，换言之希望  乘  能够定义为 ，那么就需要对  有稍微比交换弱一点的条件。]]></description><link>代数\抽象代数\正规子群和商群.html</link><guid isPermaLink="false">代数/抽象代数/正规子群和商群.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 03 Oct 2024 12:06:40 GMT</pubDate></item><item><title><![CDATA[Abstract Algebra Note 3]]></title><description><![CDATA[<a class="tag" href="?query=tag:抽象代数" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#抽象代数</a> 
+ <br>@2024-10-04，这里姑且留下1,2不写，以后可能会补上之前的内容@
+<a href=".?query=tag:抽象代数" class="tag" target="_blank" rel="noopener">#抽象代数</a><br>
+<a data-href="Abstract Algebra Note 2" href="Abstract Algebra Note 2" class="internal-link" target="_self" rel="noopener">Abstract Algebra Note 2</a>
+<br><br>趁着国庆假期补一补群作用的内容，依稀记得最后一节课进度直接起飞。<br><br>群作用
+设  是一个群， 是一个集合。 在  上的作用（或称  作用在  上）是一个映射：
+
+记作 ，满足以下两个条件：
+
+<br>
+对于任意  和 ，有：<br>
+
+
+<br>
+对于任意 ，有：<br>
+其中  是  的单位元。
+
+
+<br>显然群中一个元素作用到  上就是一个变换，  一定是双射，因为群中的元素可逆，所以群中元素的作用是可逆的。<br>所以其实一个给出了一个群作用就等价于给定  到  的群同态 <br>现在我们抓住  中的一个元素疯狂使用  中的所有元素作用它，然后对那些作用出来的东西继续作用（其实作用一次就没事了）得到一串作用出来的集合，显然这个集合在群作用的操作下是封闭的，这个集合其实是  的一个分划。这就是 **轨道分解<br>轨道分解
+
+<br>轨道
+
+对于  中的一个元素 ，定义其轨道为：
+
+即  在  的所有元素作用下生成的集合。
+
+<br>轨道分解
+
+轨道分解是指将集合  分解为若干个不相交的轨道之并：
+
+其中不同的轨道  和  要么完全相同，要么没有交集。
+
+<br>等价关系
+
+轨道分解实际上定义了一个等价关系  在  上：
+
+这个等价关系将  分成了若干个等价类，每个等价类就是一个轨道。
+<br>如果  作用到  上得到的集合仍然是取遍 ，换言之这个作用 ，那么我们说这个作用是 传递 的。<br>对于  中的一个元素 ，定义其稳定化子为：<br><br>即保持  不变的  中元素的集合。<br>群  的作用是 自由 的，如果除了单位元以外，任何的  都没有不动点。<br>
+群  的作用是 忠实 的，如果除了  以外的 ，  中存在”动点“，这说明任意  诱导出来的双射不是 。换言之，一个群作用对应的同态  是单射。<br>给出一个群作用，通过模掉 ，我们得到的群同态<br>
+显然是单射，所以  给出的群作用是忠实的。<br>目前理解的不是很好的东西<img alt="Pasted image 20241004230836.png" src="lib\media\pasted-image-20241004230836.png"><br><br><br>
+<br>
+群表示以及通过群代数  在  上的表示，把  做成一个  -模。
+
+<br>
+一般线性群在射影空间上的作用<br>
+良好定义，因为  中的元素把过原点的直线映乘过原点的直线。现在我们将  诱导的向 的群同态模掉核，这样得到忠实的部分。
+
+<br>把直线映射成原来直线的线性映射只有一种： <br>
+换言之， ，我们有正合列<br>
+定义<br>
+<br>这样，线性空间  里面的映射群模掉纯量映射之后作用在  上就是忠实的，换句话说存在”动点“。<br>
+<br><br>
+我们考虑 ，里面有  个元素，考虑  在其上的作用，可以诱导出单射 ， 有120个元素，而<br>
+ 即视为 ，从而找到了一个  的子群 ，由于大群的作用是传递的，所以这个子群的作用自然是传递的，但是你想到的  的6个自然的子群  的作用都不是传递的（考虑和  的同构）。
+<br>GL(2;F5)SP(F5)PGL(2;F5)¿¼~¿<br><br>
+<br>令 ，那么  作用在左陪集上（通过左乘法），这就给出了一个传递的群作用。
+<br>如果是子群  以相同的方式作用，那么这个作用未必是传递的。
+<br>子群  的稳定化子 给定  能传递地作用于其上的集合  等价于在模掉共轭的关系下给定  的子群。
+<br><br>轨道  的大小与稳定子群  的大小有如下关系：<br><br>即轨道的大小等于  对稳定子群的指数。]]></description><link>代数\抽象代数\abstract-algebra-note-3.html</link><guid isPermaLink="false">代数/抽象代数/Abstract Algebra Note 3.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 05 Oct 2024 02:28:58 GMT</pubDate><enclosure url="lib\media\pasted-image-20241004230836.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20241004230836.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[作业9]]></title><description><![CDATA[ 
  <br>
 <br>
 <img alt="Pasted image 20240513205638.png" src="lib\media\pasted-image-20240513205638.png">
@@ -1471,7 +1549,31 @@ Abel-Dirichlet 判别法：设  定义在  上，若满足以下任一条件：
 
 <br><a data-href="Analysis III Note 6" href="Analysis III Note 6" class="internal-link" target="_self" rel="noopener">Analysis III Note 6</a>]]></description><link>分析\数学分析\analysis-iii-note-5.html</link><guid isPermaLink="false">分析/数学分析/Analysis III Note 5.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 03 Oct 2024 05:49:05 GMT</pubDate></item><item><title><![CDATA[单位分解]]></title><description><![CDATA[ 
  <br><br>对于某个紧集 ，其上的开覆盖  存在有限子覆盖，在每个子覆盖的开集上通过<br>]]></description><link>分析\单位分解.html</link><guid isPermaLink="false">分析/单位分解.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 11 Sep 2024 23:39:15 GMT</pubDate></item><item><title><![CDATA[度量空间的完备化]]></title><description><![CDATA[ 
- ]]></description><link>分析\度量空间的完备化.html</link><guid isPermaLink="false">分析/度量空间的完备化.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 10 Sep 2024 15:37:39 GMT</pubDate></item><item><title><![CDATA[Topology Notes 1]]></title><description><![CDATA[<a class="tag" href="?query=tag:拓扑" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#拓扑</a> <a class="tag" href="?query=tag:点集拓扑" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#点集拓扑</a> <a class="tag" href="?query=tag:Topology" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#Topology</a> 
+ ]]></description><link>分析\度量空间的完备化.html</link><guid isPermaLink="false">分析/度量空间的完备化.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 10 Sep 2024 15:37:39 GMT</pubDate></item><item><title><![CDATA[《概率论教程》读书笔记 1]]></title><description><![CDATA[<a class="tag" href="?query=tag:概率论" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#概率论</a> <a class="tag" href="?query=tag:probobility" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#probobility</a> <a class="tag" href="?query=tag:分布函数" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#分布函数</a> 
+ <br>@2024-10-05，这是第一次接触概率相关的东西，我会把初次学习遇到的东西和感悟写下来@
+<a href=".?query=tag:概率论" class="tag" target="_blank" rel="noopener">#概率论</a> <a href=".?query=tag:probobility" class="tag" target="_blank" rel="noopener">#probobility</a> <a href=".?query=tag:分布函数" class="tag" target="_blank" rel="noopener">#分布函数</a><br>
+<a data-href="《概率论教程》读书笔记 0" href="《概率论教程》读书笔记 0" class="internal-link" target="_self" rel="noopener">《概率论教程》读书笔记 0</a>
+<br><br>第一章是"分布函数”，什么是分布函数？<br><br>复习了一些定义。钟偏向在修饰前面加“严格”的说法。比如  是正数 <br><br>不连续点集  可以不是闭集
+单调函数的连续部分没什么好说的，不连续点只能是  这一种，记不连续点集为 ，显然这给出了一个  的单射，换言之  是可数的。并且  不一定是闭集：  是 的一个极限点。 在  处连续。
+<br>定义点质量 <br>不连续点集  可以是稠密的
+比如所有的有理数：
+将所有的有理数做一个排列 ，那么对于收敛的正项级数 ，考虑<br>
+显然这个级数一致收敛，是良好定义的。简单验证可以知道  是增函数：<br>
+我们对  取极限得到<br>
+这里成立是因为级数一致收敛，从而得到<br>
+换言之，  在  处不连续  ，  在有理点处不连续。
+<br>
+<br>两个在稠密集上一致的增函数，他们的不连续点是一样的。并且最多在一些不连续点处不等（连续点处取值被稠密集上的极限刻画）。
+<br>我现在想到的，就是某种意义上，如果我们不关心在不连续点的取值（比如积分的时候），那么可以模掉在稠密集上取等这个等价关系来讨论。（在实分析里有类似的操作，可积函数类好像就是模掉了等价关系之后讨论的？）<br>钟：这个等价类的代表元选取右连续的函数是合适的<br>
+<br><br>对于有界的非常数的增函数，将其“规范化”<br>
+那么 ，并且这是一个有界的增函数。<br>怎么有一种似曾相识的感觉？<br> 是一个线性变换。<br>分布函数
+设  是   上右连续的增函数，满足 那么称  是一个分布函数。如果分布函数是之前定义的“点质量”，那么称之为退化的。
+<br>函数  是提取出来的  的不连续部分。具体见 p.7。为什么这个定理不平凡？？<br><img alt="Pasted image 20241005113337.png" src="lib\media\pasted-image-20241005113337.png"><br>这样的分解在保持  的形式的意义下是唯一的（定理1.2.2）<br>
+<br>离散分布函数
+如果分布函数  可以表示成<br>
+其中  可数并且  是收敛到1的正项级数，那么称  是一个离散分布函数。
+<br>设分布函数的 分解 令 ，那么  是一个离散分布函数， 是一个连续分布函数，分别记为 ，那么有分布函数的 凸组合<br>
+<br>事实上，这样的凸组合对任意的分布函数存在且唯一。存在性我们已经构造出来了，至于唯一性，由之前的定理1.2.2，如果对  做形如  的分解是唯一的，而分解的系数  是由  唯一决定，从而唯一。<br><a data-tooltip-position="top" aria-label="《概率论教程》讨论班 1" data-href="《概率论教程》讨论班 1" href="《概率论教程》讨论班 1" class="internal-link" target="_self" rel="noopener">本节的习题等相关讨论</a><br><a data-href="《概率论教程》读书笔记 2" href="《概率论教程》读书笔记 2" class="internal-link" target="_self" rel="noopener">《概率论教程》读书笔记 2</a>]]></description><link>概率统计\《概率论教程》读书笔记-1.html</link><guid isPermaLink="false">概率统计/《概率论教程》读书笔记 1.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 05 Oct 2024 03:47:53 GMT</pubDate><enclosure url="lib\media\pasted-image-20241005113337.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20241005113337.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Topology Notes 1]]></title><description><![CDATA[<a class="tag" href="?query=tag:拓扑" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#拓扑</a> <a class="tag" href="?query=tag:点集拓扑" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#点集拓扑</a> <a class="tag" href="?query=tag:Topology" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#Topology</a> 
  <br>@2024-10-03，这是上周五蹭课记的笔记，以后会带电脑@
 <a href=".?query=tag:拓扑" class="tag" target="_blank" rel="noopener">#拓扑</a> <a href=".?query=tag:点集拓扑" class="tag" target="_blank" rel="noopener">#点集拓扑</a> <a href=".?query=tag:Topology" class="tag" target="_blank" rel="noopener">#Topology</a> 
 <br><br><img alt="0dc7a97ca089ac89ac0c9edc29160019_720.jpg" src="lib\media\0dc7a97ca089ac89ac0c9edc29160019_720.jpg" style="width: 962px; max-width: 100%;"><br>
@@ -1762,21 +1864,7 @@ Abel-Dirichlet 判别法：设  定义在  上，若满足以下任一条件：
 
 <br><br><img alt="Pasted image 20240915092331.png" src="lib\media\pasted-image-20240915092331.png"><br>
 <img alt="Pasted image 20240915092339.png" src="lib\media\pasted-image-20240915092339.png"><br>
-<img alt="Pasted image 20240915092346.png" src="lib\media\pasted-image-20240915092346.png">]]></description><link>作业\ode-第一次作业.html</link><guid isPermaLink="false">作业/ODE 第一次作业.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 21 Sep 2024 04:34:14 GMT</pubDate><enclosure url="lib\media\pasted-image-20240915092018.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240915092018.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[抽象代数课程定义及记号表]]></title><description><![CDATA[ 
- <br>
-<br>射影空间 ，其中  是一个 -线性空间，定义为其上一维线性子空间的集合。
-<br>域扩张：  是  的子域，称  是  的扩张，记作ee mathjax 不太支持。
-<br>群  的阶： 
-<br>一般线性群：  上  可逆矩阵的集合，
-<br>集合的对称群 ，即到自身的双射的集合。
-<br>二面体群 ，对正  边形旋转和反射生成的群。元素有  个。
-<br> 是  的子群，记 
-<br>集合  生成的子群 
-<br>中心化子 
-<br>同态，同构 
-<br>同态  的像与核： 
-<br>
-]]></description><link>mathstuff\抽象代数课程定义及记号表.html</link><guid isPermaLink="false">MathStuff/抽象代数课程定义及记号表.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 03 Oct 2024 12:42:32 GMT</pubDate></item><item><title><![CDATA[方便查询的记号表]]></title><description><![CDATA[ 
+<img alt="Pasted image 20240915092346.png" src="lib\media\pasted-image-20240915092346.png">]]></description><link>作业\ode-第一次作业.html</link><guid isPermaLink="false">作业/ODE 第一次作业.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 21 Sep 2024 04:34:14 GMT</pubDate><enclosure url="lib\media\pasted-image-20240915092018.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240915092018.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[方便查询的记号表]]></title><description><![CDATA[ 
  <br>
 <br>Amann 记 
 <br>
@@ -1854,7 +1942,7 @@ Abel-Dirichlet 判别法：设  定义在  上，若满足以下任一条件：
 <br>这里对唯一的证明是否有不严谨之处？
 ]]></description><link>mathstuff\解的存在性与唯一性-1.html</link><guid isPermaLink="false">MathStuff/解的存在性与唯一性 1.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 21 Sep 2024 04:33:31 GMT</pubDate></item><item><title><![CDATA[你好哇，你这会想看什么？]]></title><description><![CDATA[ 
  <br>二四六11月12月1月2月3月4月5月6月7月8月9月10月lessmore<br>
-<br>今天是2024年10月3日，2024 年已经过去了 272 天
+<br>今天是2024年10月5日，2024 年已经过去了 274 天
 <br>今年你总共在 68 天中留下了你的足迹，继续加油！
 <br><br>Multi column
 复分析
@@ -2157,12 +2245,7 @@ g
 这是一个box类型的callout。
 <br>Proof
 这是一个proof类型的callout。
-]]></description><link>mathstuff\文本编辑战术演习.html</link><guid isPermaLink="false">MathStuff/文本编辑战术演习.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 03 Oct 2024 14:45:12 GMT</pubDate><enclosure url="lib\media\pasted-image-20241003223246.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20241003223246.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[正规子群和商群]]></title><description><![CDATA[<a class="tag" href="?query=tag:抽象代数" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#抽象代数</a> <a class="tag" href="?query=tag:群论" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#群论</a> 
- <br>@这是抽象代数课程中的第一个非平凡的概念@
-<a href=".?query=tag:抽象代数" class="tag" target="_blank" rel="noopener">#抽象代数</a> <a href=".?query=tag:群论" class="tag" target="_blank" rel="noopener">#群论</a> 
-<br>正规子群
- 是群  的正规子群，如果任意的  有 
-<br>当你希望在  上自然的做出一个群结构的时候，换言之希望  乘  能够定义为 ，那么就需要对  有稍微比交换弱一点的条件。]]></description><link>mathstuff\正规子群和商群.html</link><guid isPermaLink="false">MathStuff/正规子群和商群.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 03 Oct 2024 12:06:40 GMT</pubDate></item><item><title><![CDATA[正项级数收敛判别法]]></title><description><![CDATA[<a class="tag" href="?query=tag:级数" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#级数</a> <a class="tag" href="?query=tag:收敛" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#收敛</a> 
+]]></description><link>mathstuff\文本编辑战术演习.html</link><guid isPermaLink="false">MathStuff/文本编辑战术演习.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Fri, 04 Oct 2024 16:09:25 GMT</pubDate><enclosure url="lib\media\pasted-image-20241003223246.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20241003223246.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[正项级数收敛判别法]]></title><description><![CDATA[<a class="tag" href="?query=tag:级数" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#级数</a> <a class="tag" href="?query=tag:收敛" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#收敛</a> 
  <br><a href=".?query=tag:级数" class="tag" target="_blank" rel="noopener">#级数</a> <a href=".?query=tag:收敛" class="tag" target="_blank" rel="noopener">#收敛</a> <br><br>
 <br>
 设正项级数 , , 当  充分大时有 .
