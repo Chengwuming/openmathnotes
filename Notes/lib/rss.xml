@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[LogseqVault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>LogseqVault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 08 Oct 2024 13:48:33 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 08 Oct 2024 13:46:57 GMT</pubDate><copyright><![CDATA[Chengwuming]]></copyright><ttl>60</ttl><dc:creator>Chengwuming</dc:creator><item><title><![CDATA[抽象代数课程定义及记号表]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[LogseqVault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>LogseqVault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 08 Oct 2024 13:56:34 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 08 Oct 2024 13:52:07 GMT</pubDate><copyright><![CDATA[Chengwuming]]></copyright><ttl>60</ttl><dc:creator>Chengwuming</dc:creator><item><title><![CDATA[抽象代数课程定义及记号表]]></title><description><![CDATA[ 
  <br>
 <br>射影空间 ，其中  是一个 -线性空间，定义为其上一维线性子空间的集合。
 <br>域扩张：  是  的子域，称  是  的扩张，记作ee mathjax 不太支持。
@@ -21,38 +21,7 @@
 AA
 <br>我们证明当  以如上的方式给定时，  只能由如上方式给出。这是因为从可知 
 <br>我们断言  以如上方式给定时，  只能为 A6 中的 。如果存在  以及对应的唯一的  也满足泛性质，那么我们 令泛性质中的 ，，得到图 
-<br>
-
-
-
-
-A
-1
-×
-A
-2
-A
-i
-A
-1
-×
-A
-2
-
-
-p
-
-i
-
-
-ψ
-
-
-
-π
-i
-
-<br>交换。注意到  可以取 ，但是由泛性质知  唯一，从而 ，由泛性质：<br>
+<br>A1£A2AiA1£A2p0iÃ0¼i<br>交换。注意到  可以取 ，但是由泛性质知  唯一，从而 ，由泛性质：<br>
 故得到  的唯一性。<br>
 <br>最后我们说明  只能为 （同构的意义下），如果存在 ，以及对应的同态  满足泛性质，那么我们知道如下两图交换<br>
 ```tikz<br>
@@ -93,10 +62,10 @@ i
 <br> 是环同态。同上，只需要验证乘法。首先 其次有 从而  是环同态。综上证毕。
 <br>A9<br>
 若 ，则 存在  使得 ，故 ，从而 ，即 。反之， 则  是 ，故以集合的角度， <br>
-从而对任意 ，定义映射 对任意群  以及群同态 ，定义 则有 。由 泛性质知 有群 同构 <br>B1<br>
+从而对任意 ，定义映射 对任意群  以及群同态 ，定义 则有 。由 泛性质知 有群同构 <br>B1<br>
 任意 ，且 ，有存在 ，使得 ，从而  互素，故 同时，对于比  小的每一个与  互素的数 ，都有对应的整数使得 ，故 ，从而 于是 <br>B2<br>
 我们已知环同构 从而其可逆元的乘法群有同构 于是得到左右两式其作为集合的基数相等，即 .<br>
-对于素数 ，我们有 ，这是因为  与  不互素， 与  互素，其中  的取值范围为  到 ，从而有  个小于  的数与其互素。<br>对于 ，有 证毕。<br>B3<br>对于和  互素的整数 ，有上述讨论知 ，故 B4]]></description><link>代数\抽象代数\抽象代数作业-1.html</link><guid isPermaLink="false">代数/抽象代数/抽象代数作业 1.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 08 Oct 2024 13:46:39 GMT</pubDate></item><item><title><![CDATA[正规子群和商群]]></title><description><![CDATA[<a class="tag" href="?query=tag:抽象代数" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#抽象代数</a> <a class="tag" href="?query=tag:群论" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#群论</a> 
+对于素数 ，我们有 ，这是因为  与  不互素， 与  互素，其中  的取值范围为  到 ，从而有  个小于  的数与其互素。<br>对于 ，有 证毕。<br>B3<br>对于和  互素的整数 ，有上述讨论知 ，故 B4]]></description><link>代数\抽象代数\抽象代数作业-1.html</link><guid isPermaLink="false">代数/抽象代数/抽象代数作业 1.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 08 Oct 2024 13:51:51 GMT</pubDate></item><item><title><![CDATA[正规子群和商群]]></title><description><![CDATA[<a class="tag" href="?query=tag:抽象代数" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#抽象代数</a> <a class="tag" href="?query=tag:群论" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#群论</a> 
  <br>@这是抽象代数课程中的第一个非平凡的概念@
 <a href=".?query=tag:抽象代数" class="tag" target="_blank" rel="noopener">#抽象代数</a> <a href=".?query=tag:群论" class="tag" target="_blank" rel="noopener">#群论</a> 
 <br>正规子群
@@ -155,7 +124,7 @@ i
 <br><br>
 我们考虑 ，里面有  个元素，考虑  在其上的作用，可以诱导出单射 ， 有120个元素，而<br>
  即视为 ，从而找到了一个  的子群 ，由于大群的作用是传递的，所以这个子群的作用自然是传递的，但是你想到的  的6个自然的子群  的作用都不是传递的（考虑和  的同构）。
-<br>GL(2;F5)SP(F5)PGL(2;F5)¿¼~¿<br><br>
+<br>        GL(2;F5)        SP(F5)        PGL(2;F5)                      ¿                     ¼                     ~¿       <br><br>
 <br>令 ，那么  作用在左陪集上（通过左乘法），这就给出了一个传递的群作用。
 <br>如果是子群  以相同的方式作用，那么这个作用未必是传递的。
 <br>子群  的稳定化子 
@@ -2248,7 +2217,7 @@ Singular
 示例<br>
 
 
-<br><br>直接去<a data-tooltip-position="top" aria-label="https://detexify.kirelabs.org/symbols.html" rel="noopener" class="external-link" href="https://detexify.kirelabs.org/symbols.html" target="_blank">这个地方</a><br><br><br>        N        M        N=N\Re1        M=Re1        Re2©¢¢¢©Ren                                                                              »=        <br>对比<br><br>        T        K        X£ZY        X        Y        Z                      x                     y                          (x;y)                       p                     q                     f                     g               A0        B0        A        B        C0        D0        C        D                      f0                     a                     g0                     h0                     b                          f                     h                     k0                     c                     d                     k                          g       <br><br>        V¬W        T        V£W                      9!~f                     ¬                     f       <br><br><br><br><br><br>
+<br><br>直接去<a data-tooltip-position="top" aria-label="https://detexify.kirelabs.org/symbols.html" rel="noopener" class="external-link" href="https://detexify.kirelabs.org/symbols.html" target="_blank">这个地方</a><br><br><br>NMN=N\Re1M=Re1Re2©¢¢¢©Ren»=<br>对比<br><br>TKX£ZYXYZxy(x;y)pqfgA0B0ABC0D0CDf0ag0h0bfhk0cdkg<br><br>V¬WTV£W9!~f¬f<br><br><br>²²²<br><br>¡202¡202¡0:4¡0:200:20:4<br>
 
 
 
@@ -2341,7 +2310,7 @@ k
 
 g
 
-<br><br><br><br><br><br>&gt;[Note]- Title 减号位置对应的+-可以改变折叠方式。<br><br>AI
+<br>xf(x)f(x)=xf(x)=sinxf(x)=120ex<br>I0¡+V0I0R1i1R2i2<br>TKX£ZYXYZxy(x;y)pqfgA0B0ABC0D0CDf0ag0h0bfhk0cdkg<br>FcGcFc0Gc0Ff®cGf®c0<br><br>&gt;[Note]- Title 减号位置对应的+-可以改变折叠方式。<br><br>AI
 美化 callout 的方式有很多，以下是一些你可以尝试的 CSS 技巧：
 
 .callout[data-callout="proof"] {
