@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[LogseqVault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>LogseqVault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sat, 05 Oct 2024 03:49:32 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sat, 05 Oct 2024 03:48:18 GMT</pubDate><copyright><![CDATA[Chengwuming]]></copyright><ttl>60</ttl><dc:creator>Chengwuming</dc:creator><item><title><![CDATA[抽象代数课程定义及记号表]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[LogseqVault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>LogseqVault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 08 Oct 2024 11:01:33 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 08 Oct 2024 11:00:36 GMT</pubDate><copyright><![CDATA[Chengwuming]]></copyright><ttl>60</ttl><dc:creator>Chengwuming</dc:creator><item><title><![CDATA[抽象代数课程定义及记号表]]></title><description><![CDATA[ 
  <br>
 <br>射影空间 ，其中  是一个 -线性空间，定义为其上一维线性子空间的集合。
 <br>域扩张：  是  的子域，称  是  的扩张，记作ee mathjax 不太支持。
@@ -13,7 +13,63 @@
 <br>同态  的像与核： 
 <br>
 <br>
-]]></description><link>代数\抽象代数\抽象代数课程定义及记号表.html</link><guid isPermaLink="false">代数/抽象代数/抽象代数课程定义及记号表.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Fri, 04 Oct 2024 15:39:58 GMT</pubDate></item><item><title><![CDATA[正规子群和商群]]></title><description><![CDATA[<a class="tag" href="?query=tag:抽象代数" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#抽象代数</a> <a class="tag" href="?query=tag:群论" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#群论</a> 
+<br>-群，即群的阶为素数  的幂的群。这样的群的中心非平凡。
+]]></description><link>代数\抽象代数\抽象代数课程定义及记号表.html</link><guid isPermaLink="false">代数/抽象代数/抽象代数课程定义及记号表.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 05 Oct 2024 08:50:44 GMT</pubDate></item><item><title><![CDATA[抽象代数作业 1]]></title><description><![CDATA[ 
+ <br>A1<br>A7<br>
+<br>
+我们先证明存在性：令 ， （A6中的），令 ，那么验证得<br>
+且  是环同态是平凡的。从而我们构造出了满足要求的环以及同态。
+
+<br>
+我们证明当  以如上的方式给定时，  只能由如上方式给出。这是因为从可知 
+
+<br>
+我们断言  以如上方式给定时，  只能为 A6 中的 。如果存在  也满足泛性质，那么我们 令泛性质中的 ，，得到图 
+
+
+<br>\begin{document}<br>
+\begin{tikzcd}<br>
+{A{1}\times A{2}} &amp; {A_i} \ {A_i} \arrow["{p_i'}", from=1-1, to=1-2] \arrow["{\psi'}"', from=2-1, to=1-1] \arrow["{\mathrm{Id}_i}"', from=2-1, to=1-2]<br>
+\end{tikzcd}<br>
+\end{document}<br>交换。注意到 $\psi'$ 可以取 $\pi_{i}$，但是由泛性质知 $\psi'$ 唯一，从而 $\psi'=\pi _{i}$，由泛性质：
+$$p_{i}' = \mathrm{Id}_{i}\circ \pi _{i} = \pi _{i}$$故得到 $p_{i}$ 的唯一性。
+
+- 最后我们说明 $A$ 只能为 $A_{1}\times A_{2}$（同构的意义下），如果存在 $A'$，以及对应的同态 $p_{i}',\psi'$ 满足泛性质，那么我们知道如下两图交换
+    ```tikz
+\usepackage{tikz-cd}
+\usepackage{amsfonts}
+
+\begin{document}
+\begin{tikzcd}
+{A'} &amp; {A_i} \\ {A_1 \times A_2} \arrow["{p_i'}", from=1-1, to=1-2] \arrow["{\psi'}"', from=2-1, to=1-1] \arrow["{\mathrm{p}_i}"', from=2-1, to=1-2]
+\end{tikzcd}
+\end{document}
+复制<br><br>也就得到 而  时满足。但是由于下图交换<br><br>从而由  的唯一性得其即为 ，从而  是环同构。换言之，  在环同构的意义下唯一。综上证毕。<br>A4 &amp; A8<br>
+我们希望找到一个群同态 ，使得令   时其满足 A3 中的泛性质中对应的  的性质，即满足<br>
+ 。那么我们自然得到  之间的同构。<br>
+根据中国剩余定理，这样的同态  是存在的。由于  互素，从而存在 ，使得 ，定义  其中  是任意的群，  是自带的群同态 。 断言此为所需。下面我们逐一验证：<br>我们断言群同态 满足为所需同态 。<br>
+<br> 是良好定义的<br>
+这是因为  ，从而 
+<br> 是群同态，这是因为取模操作是线性的。<br>
+这是因为 <br>
+为  中的单位。
+<br>我们断言  是所需同态<br>
+<br> 是群同态：由于  是群同态，所以  
+<br> 满足 ，这是因为 另一侧同理可得。<br>
+综上，由 A3泛性质可得群同构  
+<br>对于 A8，证明环同态的情况类似。这里以  代指 ，由于取模运算是环同态，所以当  是环同态时，如上定义的  也是环同态，并且依旧满足 ，从而由 A7 泛性质得到有环同态<br>
+我们只需要额外验证两点：<br>
+<br>是环同态。<br>
+已知其作为加法群是群同态，只需验证乘法。 首先 <br>
+其次 <br>
+从而是环同态。****
+<br> 是环同态。同上，只需要验证乘法。首先 其次有 从而  是环同态。综上证毕。
+<br>A9<br>
+若 ，则 存在  使得 ，故 ，从而 ，即 。反之， 则  是 ，故以集合的角度， <br>
+从而对任意 ，定义映射 对任意群  以及群同态 ，定义 则有 。由 泛性质知 有群同构 <br>B1<br>
+任意 ，且 ，有存在 ，使得 ，从而  互素，故 同时，对于比  小的每一个与  互素的数 ，都有对应的整数使得 ，故 ，从而 于是 <br>B2<br>
+我们已知环同构 从而其可逆元的乘法群有同构 于是得到左右两式其作为集合的基数相等，即 .<br>
+对于素数 ，我们有 ，这是因为  与  不互素， 与  互素，其中  的取值范围为  到 ，从而有  个小于  的数与其互素。<br>对于 ，有 证毕。<br>B3<br>对于和  互素的整数 ，有上述讨论知 ，故 B4]]></description><link>代数\抽象代数\抽象代数作业-1.html</link><guid isPermaLink="false">代数/抽象代数/抽象代数作业 1.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Mon, 07 Oct 2024 15:59:44 GMT</pubDate></item><item><title><![CDATA[正规子群和商群]]></title><description><![CDATA[<a class="tag" href="?query=tag:抽象代数" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#抽象代数</a> <a class="tag" href="?query=tag:群论" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#群论</a> 
  <br>@这是抽象代数课程中的第一个非平凡的概念@
 <a href=".?query=tag:抽象代数" class="tag" target="_blank" rel="noopener">#抽象代数</a> <a href=".?query=tag:群论" class="tag" target="_blank" rel="noopener">#群论</a> 
 <br>正规子群
@@ -72,11 +128,22 @@
 <br><br>
 我们考虑 ，里面有  个元素，考虑  在其上的作用，可以诱导出单射 ， 有120个元素，而<br>
  即视为 ，从而找到了一个  的子群 ，由于大群的作用是传递的，所以这个子群的作用自然是传递的，但是你想到的  的6个自然的子群  的作用都不是传递的（考虑和  的同构）。
-<br>GL(2;F5)SP(F5)PGL(2;F5)¿¼~¿<br><br>
+<br>        GL(2;F5)        SP(F5)        PGL(2;F5)                      ¿                     ¼                     ~¿       <br><br>
 <br>令 ，那么  作用在左陪集上（通过左乘法），这就给出了一个传递的群作用。
 <br>如果是子群  以相同的方式作用，那么这个作用未必是传递的。
-<br>子群  的稳定化子 给定  能传递地作用于其上的集合  等价于在模掉共轭的关系下给定  的子群。
-<br><br>轨道  的大小与稳定子群  的大小有如下关系：<br><br>即轨道的大小等于  对稳定子群的指数。]]></description><link>代数\抽象代数\abstract-algebra-note-3.html</link><guid isPermaLink="false">代数/抽象代数/Abstract Algebra Note 3.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 05 Oct 2024 02:28:58 GMT</pubDate><enclosure url="lib\media\pasted-image-20241004230836.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20241004230836.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[作业9]]></title><description><![CDATA[ 
+<br>子群  的稳定化子 
+<br>对于  中的 ，其稳定化子  ，我们有<br>所以其实  作用在  上和  左乘作用在  是一样的。<br>我觉得核心在于被 传递 作用的  和  的同构。<br>总结：给定  能传递地作用于其上的集合  等价于在模掉共轭的关系下给定  的子群。<br>
+<br>不是很理解
+<br>  是有限群并且传递地作用在  上，那么  是有限集并且  整除 <br>现在对于轨道分解出来的传递的集合 ，使用上述的结论，我们得到轨道计数公式：<br>
+即轨道的大小等于  对稳定子群的指数。<br>
+或者这样看<br>
+一个推论：<br>
+其中  就是共轭类的代表元。<br>p-群的中心非平凡<br>Proof
+p-群  对自身的共轭作用得到的轨道就是共轭类 ，且作用  上的稳定化子即  中全体与  交换的元素，也就是  的中心化子 ，那么我们有<br>
+换言之，每一个共轭类的元素个数都整除 ，但是同时所有共轭类的元素加起来就是 ，且我们知道 ，所以肯定还有其他的个数为 1 的共轭类。
+<br> 的外自同构非平凡<br>看不懂，来日再干。<br><br>
+<br>双传递的定义
+]]></description><link>代数\抽象代数\abstract-algebra-note-3.html</link><guid isPermaLink="false">代数/抽象代数/Abstract Algebra Note 3.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 05 Oct 2024 09:34:50 GMT</pubDate><enclosure url="lib\media\pasted-image-20241004230836.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20241004230836.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[作业9]]></title><description><![CDATA[ 
  <br>
 <br>
 <img alt="Pasted image 20240513205638.png" src="lib\media\pasted-image-20240513205638.png">
@@ -848,7 +915,7 @@ Assume  is a diffeomorphism, then we say  is a symmetry of direction field , if
 Assume  is an OPDG of , then we say it is a OPDSG of vector field , if 
 <br>定理 
 Assume  is a direction field where , and  is an OPDSG of direction field , then for a non-stationary , we can solve on an open interval  with 
-<br>lemma:<br>If  is a non-stationary point of an OPDG  on  , then there is a  neighborhood  of  in  , and a neighborhood  of 0 in , also a diffeomorphism  s.t. ]]></description><link>分析\常微分方程\ode-notes-4.html</link><guid isPermaLink="false">分析/常微分方程/ODE Notes 4.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sun, 29 Sep 2024 08:29:46 GMT</pubDate></item><item><title><![CDATA[复分析做题日记]]></title><description><![CDATA[ 
+<br>lemma:<br>If  is a non-stationary point of an OPDG  on  , then there is a  neighborhood  of  in  , and a neighborhood  of 0 in , also a diffeomorphism  s.t. <br>感到力不从心，以后还是纸上记录，然后经过消化总结之后再来吧。<br><a data-href="ODE Notes 4.5" href="mathstuff\ode-notes-4.5.html" class="internal-link" target="_self" rel="noopener">ODE Notes 4.5</a>]]></description><link>分析\常微分方程\ode-notes-4.html</link><guid isPermaLink="false">分析/常微分方程/ODE Notes 4.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 08 Oct 2024 03:12:17 GMT</pubDate></item><item><title><![CDATA[复分析做题日记]]></title><description><![CDATA[ 
  <br><br>7.11。一个简洁的写法： 复数  共线的充要条件：<br><br>题目数量统计
 
 <br>
@@ -1716,7 +1783,7 @@ Abel-Dirichlet 判别法：设  定义在  上，若满足以下任一条件：
 我们有<br>
 <br><br>以平行板电容器为例<br>
 得到的能量密度<br>
-总之你需要背会的是<br>能量密度 <br>一道小例题，自己下来去算算。在下面的ppt第27页<br><br><a data-href="大学物理（2） 笔记 6" href="大学物理（2） 笔记 6" class="internal-link" target="_self" rel="noopener">大学物理（2） 笔记 6</a>]]></description><link>物理\大学物理（2）-笔记-5.html</link><guid isPermaLink="false">物理/大学物理（2） 笔记 5.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sun, 29 Sep 2024 03:09:47 GMT</pubDate><enclosure url="lib\media\pasted-image-20240929095909.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240929095909.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[可交换]]></title><description><![CDATA[ 
+总之你需要背会的是<br>能量密度 <br>一道小例题，自己下来去算算。在下面的ppt第27页<br><br><a data-href="大学物理（2） 笔记 6" href="mathstuff\大学物理（2）-笔记-6.html" class="internal-link" target="_self" rel="noopener">大学物理（2） 笔记 6</a>]]></description><link>物理\大学物理（2）-笔记-5.html</link><guid isPermaLink="false">物理/大学物理（2） 笔记 5.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sun, 29 Sep 2024 03:09:47 GMT</pubDate><enclosure url="lib\media\pasted-image-20240929095909.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240929095909.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[可交换]]></title><description><![CDATA[ 
  <br><br><br><br>
 <br>同时正交对角化
 
@@ -1864,13 +1931,23 @@ Abel-Dirichlet 判别法：设  定义在  上，若满足以下任一条件：
 
 <br><br><img alt="Pasted image 20240915092331.png" src="lib\media\pasted-image-20240915092331.png"><br>
 <img alt="Pasted image 20240915092339.png" src="lib\media\pasted-image-20240915092339.png"><br>
-<img alt="Pasted image 20240915092346.png" src="lib\media\pasted-image-20240915092346.png">]]></description><link>作业\ode-第一次作业.html</link><guid isPermaLink="false">作业/ODE 第一次作业.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 21 Sep 2024 04:34:14 GMT</pubDate><enclosure url="lib\media\pasted-image-20240915092018.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240915092018.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[方便查询的记号表]]></title><description><![CDATA[ 
+<img alt="Pasted image 20240915092346.png" src="lib\media\pasted-image-20240915092346.png">]]></description><link>作业\ode-第一次作业.html</link><guid isPermaLink="false">作业/ODE 第一次作业.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 21 Sep 2024 04:34:14 GMT</pubDate><enclosure url="lib\media\pasted-image-20240915092018.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240915092018.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[大学物理（2） 笔记 6]]></title><description><![CDATA[<a class="tag" href="?query=tag:大学物理" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#大学物理</a> <a class="tag" href="?query=tag:周二" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#周二</a> <a class="tag" href="?query=tag:电流" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#电流</a> 
+ <br>@2024-10-08，为什么国庆假期结束了，我什么都没干？@
+<a href=".?query=tag:大学物理" class="tag" target="_blank" rel="noopener">#大学物理</a> <a href=".?query=tag:周二" class="tag" target="_blank" rel="noopener">#周二</a> <a href=".?query=tag:电流" class="tag" target="_blank" rel="noopener">#电流</a><br>
+<a data-href="大学物理（2） 笔记 5" href="物理\大学物理（2）-笔记-5.html" class="internal-link" target="_self" rel="noopener">大学物理（2） 笔记 5</a>
+<br><br>电位移矢量 ，<br>
+ 然后就是  的转化：<br>
+<br>电容的计算。一串要背的东西到现在你也没背<br>电容器储能： <br>有介质的静电场能量密度： <br>
+<br>快去做思考题
+<br><br><br> <br>对于单一载流子， ，这里  是载流子数密度，  是载流子定向运动速度，我们可以定义电荷密度 <br>对于多种载流子，分别求和即可 <img alt="Pasted image 20241008101324.png" src="lib\media\pasted-image-20241008101324.png"><br>这样定义的 电流密度矢量的通量就是电流。<br><br>这里  是封闭曲面。单位时间流出封闭曲面的电量即为曲面内的电荷的减少量，即为电荷守恒。<br><br>即  不随时间变化的电流。所以电荷分布也不变。<br>其条件即为 换言之电流线闭合。如此，服从高斯定理，环路定理。<br><br>积分形式 均匀导体的电阻 ，电导 ，电导率  <br>微分形式<br>
+适用范围。上述的微分形式对非稳恒的电流也是成立的。（显然）<br>有很多材料不服从欧姆定律。强电场会导致  和  的非线性关系。 理想导体的 ，但是超导体不能简单地看做理想导体。<br><br>定义非静电场强 这里  是移动载流子的非静电力。从而我们定义电源电动势 这里积分路径就是看  存在的路径。<br><img alt="2294f8a3d523d858e5f8ee3e8d915206_720.jpg" src="lib\media\2294f8a3d523d858e5f8ee3e8d915206_720.jpg"><br>
+两个电压表的示数是不同的。拓扑意义上两表不同，可以如此理解：感生电动势由变化磁场产生，当把电压表换位时会切割磁场。<br><br><br>导体内部无净电荷分布，净电荷只能分布在导线表面或导体的不均匀处，如电极，导线的表面，交界面，弯折处（为啥？）<br><br> <br><br>节点电流为零，回路电压为零。<br>注意，经过电源时，从负极到正极，减去电动势。<br><br><a data-href="大学物理（2） 笔记 7" href="大学物理（2） 笔记 7" class="internal-link" target="_self" rel="noopener">大学物理（2） 笔记 7</a>]]></description><link>mathstuff\大学物理（2）-笔记-6.html</link><guid isPermaLink="false">MathStuff/大学物理（2） 笔记 6.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 08 Oct 2024 03:10:32 GMT</pubDate><enclosure url="lib\media\pasted-image-20241008101324.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20241008101324.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[方便查询的记号表]]></title><description><![CDATA[ 
  <br>
 <br>Amann 记 
 <br>
 ]]></description><link>mathstuff\方便查询的记号表.html</link><guid isPermaLink="false">MathStuff/方便查询的记号表.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 03 Oct 2024 14:46:37 GMT</pubDate></item><item><title><![CDATA[分析-收敛]]></title><description><![CDATA[ 
- <br>我不想谈论过于一般的情形，那些就放到拓扑里面去学习。在分析里面，我们考虑具有范数结构的空间。<br><br>  是一个赋范线性空间，那么对 ，我们定义<br>
-从而我们在有界函数空间  上有自然的范数，称为 supremum norm。具体的细节验证可以参考 Analysis (Amann) Vol.I Proposition 3.5<br>Cauchy 收敛准则的证明
+ <br>我们的目标是说清楚在度量空间里面序列的收敛是一个什么样的概念，可以用什么样的方式刻画，以及与其相关的一些非平凡的例子。<br>我不想谈论过于一般的情形，那些就放到拓扑里面去学习。在分析里面，我们考虑具有范数结构的空间。<br><br>  是一个赋范线性空间，那么对 ，我们定义<br>
+从而我们在有界函数空间  上有自然的范数，称为 supremum norm。具体的细节验证可以参考 Analysis (Amann) Vol.I Proposition 3.5<br>不同范数诱导的拓扑只有一种。所有的范数都是等价的。<br>Cauchy 收敛准则的证明
 
 定理内容：一个实数序列  收敛的充分必要条件是：对于任意给定的正数 ，存在一个正整数 ，使得对于所有 ，有 。
 证明：
@@ -1892,7 +1969,7 @@ Abel-Dirichlet 判别法：设  定义在  上，若满足以下任一条件：
 <br>充分性部分通过证明序列是 Cauchy 序列，并利用实数完备性证明了序列收敛。
 
 证明无误。
-]]></description><link>mathstuff\分析-收敛.html</link><guid isPermaLink="false">MathStuff/分析-收敛.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 03 Oct 2024 12:42:09 GMT</pubDate></item><item><title><![CDATA[级数收敛性的判别 2]]></title><description><![CDATA[ 
+]]></description><link>mathstuff\分析-收敛.html</link><guid isPermaLink="false">MathStuff/分析-收敛.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 05 Oct 2024 12:12:33 GMT</pubDate></item><item><title><![CDATA[级数收敛性的判别 2]]></title><description><![CDATA[ 
  <br>@2024-9-18，作为上一次的补充和心得@<br><a data-href="正项级数收敛判别法" href="mathstuff\正项级数收敛判别法.html" class="internal-link" target="_self" rel="noopener">正项级数收敛判别法</a><br><br>首先增加几种判别法<br><br>Cauchy 凝聚判别法
 正项级数 单调递减。则  和  同敛散。
 <br>马上想到的一件事就是可以对一个数列反复应用这个定理，从而由一个抽象级数得到一系列收敛越来越快的新级数<br>对于那些收敛得比较慢的级数，可以这么操作一下，然后就比较好看出来。<br>
@@ -1906,9 +1983,71 @@ Abel-Dirichlet 判别法：设  定义在  上，若满足以下任一条件：
 必要性：记余项 ，令 然后自己写开算一下就可。 
 <br>我不觉得这个东西是一个好用的工具，至少目前没有遇到过好用的使用场景，再说这东西其实就是一个比较判别法，如果你这个方法能做（找到一个对应的级数），那么你其他方法应该也能做。<br><br>定理 (Toeplitz)
 
+满足三条
+
+<br>任意一行的绝对值求和有一个一致的界。
+<br>任何一列都趋于 0
+<br>设收敛序列  收敛于 ，记 ，那么我们有 
+
+<br>横向的级数是绝对收敛的，并且收敛到1，纵向的数列是趋于 0 的。<br> AI 
+
+定理内容：设  是一个无穷矩阵，满足以下条件：
+
 <br>
-<br>搞不动了，明天再搞
-]]></description><link>mathstuff\级数收敛性的判别-2.html</link><guid isPermaLink="false">MathStuff/级数收敛性的判别 2.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 03 Oct 2024 15:00:14 GMT</pubDate></item><item><title><![CDATA[解的存在性与唯一性 1]]></title><description><![CDATA[ 
+<br>
+<br>对于任意固定的 ，
+
+如果序列  收敛于 ，则序列  也收敛于 ，其中 。
+证明：
+
+我们需要证明 ，即对于任意 ，存在 ，使得当  时，。
+
+<br>
+定义  和 ：
+
+
+<br>
+考虑 ：
+
+
+<br>
+将  拆分为两部分：
+
+
+<br>
+利用三角不等式：
+
+
+<br>
+分析第一项：
+
+由于  收敛于 ，对于任意 ，存在 ，使得当  时，。因此：
+
+由于  对于 ，我们有：
+
+
+<br>
+分析第二项：
+
+由于 ，我们有：
+
+
+<br>
+结合两项：
+
+由于 ，我们可以选择  使得当  时，。因此：
+
+由于  是有限的，并且  是任意的，我们可以选择足够大的  使得 。
+
+
+
+我们已经证明了 ，即对于任意 ，存在 ，使得当  时，。
+结论：证明正确。
+
+<br>
+<br>Cesaro 求和
+<br>Poisson-Abel 求和
+]]></description><link>mathstuff\级数收敛性的判别-2.html</link><guid isPermaLink="false">MathStuff/级数收敛性的判别 2.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 05 Oct 2024 12:06:51 GMT</pubDate></item><item><title><![CDATA[解的存在性与唯一性 1]]></title><description><![CDATA[ 
  <br>@2024-09-13，反正是云里雾里@<br>定理 1
 对于 对任意的初值 ，此方程存在解且唯一。
 <br>习题里面证明此处  不一定要  。但是至少可微。考虑反例<br>
@@ -1942,8 +2081,8 @@ Abel-Dirichlet 判别法：设  定义在  上，若满足以下任一条件：
 <br>这里对唯一的证明是否有不严谨之处？
 ]]></description><link>mathstuff\解的存在性与唯一性-1.html</link><guid isPermaLink="false">MathStuff/解的存在性与唯一性 1.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 21 Sep 2024 04:33:31 GMT</pubDate></item><item><title><![CDATA[你好哇，你这会想看什么？]]></title><description><![CDATA[ 
  <br>二四六11月12月1月2月3月4月5月6月7月8月9月10月lessmore<br>
-<br>今天是2024年10月5日，2024 年已经过去了 274 天
-<br>今年你总共在 68 天中留下了你的足迹，继续加油！
+<br>今天是2024年10月8日，2024 年已经过去了 277 天
+<br>今年你总共在 69 天中留下了你的足迹，继续加油！
 <br><br>Multi column
 复分析
 暑假期间听刘老师课程的笔记。之后会重置。<br>
@@ -2019,7 +2158,46 @@ Singular
 
 <br>
 <br>例子：对  中的单位球赋予自然定向，则  的诱导定向是逆时针。]]></description><link>mathstuff\曲面.html</link><guid isPermaLink="false">MathStuff/曲面.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Fri, 13 Sep 2024 06:02:45 GMT</pubDate><enclosure url="lib\media\pasted-image-20240517103127.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240517103127.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[三角级数]]></title><description><![CDATA[ 
- <br>收敛还是发散？]]></description><link>mathstuff\三角级数.html</link><guid isPermaLink="false">MathStuff/三角级数.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 21 Sep 2024 00:03:29 GMT</pubDate></item><item><title><![CDATA[文本编辑战术演习]]></title><description><![CDATA[ 
+ <br>收敛还是发散？]]></description><link>mathstuff\三角级数.html</link><guid isPermaLink="false">MathStuff/三角级数.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 21 Sep 2024 00:03:29 GMT</pubDate></item><item><title><![CDATA[孙子兵法pre]]></title><description><![CDATA[ 
+ <br>韩略村伏击战是抗日战争期间中国共产党领导的一次重要战役。这场战斗发生在1943年10月，地点位于山西省洪洞县韩略村。以下是关于韩略村伏击战的详细信息：<br>
+<br>战斗背景：1943年秋，日军对太岳抗日根据地进行疯狂扫荡，国民党反动派也掀起了第三次反共高潮。在这种情况下，八路军第129师386旅16团在王近山的领导下，奉命赶赴延安，支援抗日战争。
+<br>战斗过程：16团在行军过程中，经过韩略村，王近山觉察到可能有战机可寻。根据地下交通站和群众的情报，日军在韩略村附近的公路上活动频繁，且警戒松懈。王近山决定暂缓行军，准备伏击日军。在仔细侦察地形和敌情后，16团在韩略村西南侧的公路上设伏。这段公路两侧是陡壁，便于部队隐蔽。
+<br>战斗结果：10月24日，日军的一个军官中队进入伏击区，16团发起突然袭击。经过3小时的激战，歼灭了日军少将旅团长以下军官120余人，击毁汽车13辆，缴获大量枪支弹药。
+<br>战斗意义：韩略村伏击战对粉碎日军的扫荡起到了重要作用，同时也展示了中国共产党领导下的军队的战斗力和智慧。这场战斗也是电视剧《亮剑》中李云龙角色的成名之战的原型，而李云龙的主要原型人物是王近山。<br>
+这些信息来源于澎湃新闻、搜狐新闻、百度百科以及中国军网。这些资料详细描述了韩略村伏击战的背景、过程、结果及其历史意义。
+<br><br>韩略村伏击战是中国抗日战争时期八路军在山西洪洞县韩略村附近对日军进行的一次成功伏击战。这场战役发生在1943年10月24日，是八路军太岳军区第16团的一次重要战斗。以下是这场战役的详细介绍：<br><br>1943年，日军在华北地区进行了一系列的“扫荡”行动，试图消灭八路军的游击力量。为了提高日军士气和战斗力，日军华北方面军组织了一个由高级军官组成的“战地观战团”，前往前线观摩战斗。这个观战团由180多名军官组成，其中包括一名少将旅团长和六名大佐联队长。<br><br>八路军太岳军区第16团在得知日军观战团将经过韩略村附近的消息后，决定利用地形优势进行伏击。10月24日，日军观战团的车队进入了八路军的伏击圈。八路军迅速发起攻击，利用地形和火力优势，对日军进行了猛烈的打击。<br>战斗持续了约一个小时，八路军成功击毙了大部分日军军官，其中包括少将旅团长和六名大佐联队长。日军观战团几乎被全歼，只有少数人逃脱。<br><br>韩略村伏击战对日军造成了重大打击，极大地鼓舞了八路军的士气。这场战斗不仅消灭了日军的高级军官，还破坏了日军的“扫荡”计划，为八路军在华北地区的游击战提供了有力支持。<br><br>韩略村伏击战是中国抗日战争中的一次重要胜利，展示了八路军在游击战中的灵活性和战斗力。这场战斗不仅打击了日军的士气，还为中国抗日战争的胜利做出了重要贡献。<br>总的来说，韩略村伏击战是一场成功的伏击战，八路军利用地形和战术优势，成功消灭了日军的高级军官，为抗日战争的胜利奠定了基础。<br><br>韩略村伏击战是中国抗日战争时期八路军在山西洪洞县韩略村附近对日军进行的一次成功伏击战。结合《孙子兵法》的思想，这场战役体现了以下几个方面的孙子兵法思想：<br><br>《孙子兵法》强调“知己知彼，百战不殆”。在韩略村伏击战中，八路军太岳军区第16团通过情报工作，准确掌握了日军观战团的行进路线和时间。这使得八路军能够提前做好准备，选择有利地形进行伏击。这种对敌情的准确掌握和对自身实力的清晰认识，正是“知己知彼”思想的体现。<br><br>《孙子兵法》强调“兵贵神速”，即在战争中要迅速行动，不给敌人反应的时间。在韩略村伏击战中，八路军迅速发起攻击，利用地形和火力优势，在短时间内对日军进行了猛烈打击。这种快速、果断的行动，使得日军无法及时组织有效的反击，体现了“兵贵神速”的思想。<br><br>《孙子兵法》中的“以逸待劳”思想强调在战争中要利用有利条件，等待敌人疲惫后再进行攻击。在韩略村伏击战中，八路军选择在有利地形进行伏击，等待日军进入伏击圈后再发起攻击。这种“以逸待劳”的战术，使得八路军能够在战斗中占据主动，有效地打击敌人。<br><br>《孙子兵法》中的“奇正相生”思想强调在战争中要灵活运用战术，出奇制胜。在韩略村伏击战中，八路军利用地形和战术优势，对日军进行了出其不意的攻击。这种“奇正相生”的战术，使得日军无法预料八路军的行动，从而取得了战斗的胜利。<br><br>《孙子兵法》中的“避实击虚”思想强调在战争中要避开敌人的强点，攻击敌人的弱点。在韩略村伏击战中，八路军选择了日军观战团这个弱点进行攻击，成功消灭了日军的高级军官。这种“避实击虚”的战术，使得八路军能够在战斗中取得最大化的战果。<br><br>《孙子兵法》中的“兵不厌诈”思想强调在战争中要善于运用计谋，迷惑敌人。在韩略村伏击战中，八路军通过情报工作和伏击战术，成功迷惑了日军，使得日军观战团进入了八路军的伏击圈。这种“兵不厌诈”的战术，使得八路军能够在战斗中占据主动，有效地打击敌人。<br><br>韩略村伏击战的成功，充分体现了孙子兵法中的“知己知彼”、“兵贵神速”、“以逸待劳”、“奇正相生”、“避实击虚”和“兵不厌诈”等思想。这些思想在八路军的战术运用中得到了充分的体现，使得八路军能够在战斗中占据主动，取得胜利。这场战役不仅是中国抗日战争中的一次重要胜利，也是孙子兵法思想在实战中的成功应用。<br><br>韩略村伏击战在战术运用上体现了孙子兵法的多个原则。以下是这场战役与孙子兵法思想的结合分析：<br>
+<br>知己知彼，百战不殆（《孙子兵法·谋攻篇》）
+
+<br>在韩略村伏击战中，王近山通过地下交通站和群众的情报，了解了日军在韩略村的行动规律和警戒情况。这种对敌人的深入了解，使得伏击战能够顺利进行，体现了“知己知彼”的原则。
+
+
+<br>出其不意，攻其不备（《孙子兵法·计篇》）
+
+<br>王近山选择在日军警戒松懈的地点和时间进行伏击，完全出乎日军的意料，这正是“出其不意，攻其不备”的体现。通过这种方式，八路军能够以较小的代价取得战斗的胜利。
+
+
+<br>兵之情主速，乘人之不及（《孙子兵法·虚实篇》）
+
+<br>在伏击战中，八路军迅速行动，伏击日军车队，并在短时间内完成战斗任务，这反映了孙子“兵之情主速”的思想。快速的行动使得日军没有反应和增援的机会。
+
+
+<br>地形者，兵之助也（《孙子兵法·地形篇》）
+
+<br>王近山在选择伏击地点时，充分利用了韩略村西南侧公路两侧的陡壁地形，这便于部队隐蔽和发动攻击。孙子强调地形对战争的重要性，这场战斗正是这一思想的体现。
+
+
+<br>以逸待劳（《孙子兵法·虚实篇》）
+
+<br>八路军在伏击前已经完成了隐蔽集结，以逸待劳，等待日军的到来。这种战术使得八路军能够在战斗中保持较高的战斗力，而日军则在长途行军后陷入伏击。
+
+
+<br>上兵伐谋（《孙子兵法·谋攻篇》）
+
+<br>王近山在战斗中的决策体现了“上兵伐谋”的思想，即通过巧妙的计划和策略来取得胜利，而不是单纯依靠武力。整个伏击战的计划和执行都是对这一原则的体现。<br>
+韩略村伏击战的胜利，不仅展现了八路军指战员的英勇和智慧，也体现了孙子兵法中关于战争策略和战术运用的深刻思想。通过这些原则的灵活运用，八路军能够在敌强我弱的情况下，取得决定性的胜利。
+
+
+]]></description><link>mathstuff\孙子兵法pre.html</link><guid isPermaLink="false">MathStuff/孙子兵法pre.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 08 Oct 2024 10:41:10 GMT</pubDate></item><item><title><![CDATA[文本编辑战术演习]]></title><description><![CDATA[ 
  <br><br><br><br><br><br>
 <br>关键字保留的颜色
 <br><br>
@@ -2043,7 +2221,7 @@ Singular
 示例<br>
 
 
-<br><br>直接去<a data-tooltip-position="top" aria-label="https://detexify.kirelabs.org/symbols.html" rel="noopener" class="external-link" href="https://detexify.kirelabs.org/symbols.html" target="_blank">这个地方</a><br><br><br>NMN=N\Re1M=Re1Re2©¢¢¢©Ren»=<br>对比<br><br>TKX£ZYXYZxy(x;y)pqfgA0B0ABC0D0CDf0ag0h0bfhk0cdkg<br><br>V¬WTV£W9!~f¬f<br><br><br>²²²<br><br>¡202¡202¡0:4¡0:200:20:4<br>
+<br><br>直接去<a data-tooltip-position="top" aria-label="https://detexify.kirelabs.org/symbols.html" rel="noopener" class="external-link" href="https://detexify.kirelabs.org/symbols.html" target="_blank">这个地方</a><br><br><br>        N        M        N=N\Re1        M=Re1        Re2©¢¢¢©Ren                                                                              »=        <br>对比<br><br>        T        K        X£ZY        X        Y        Z                      x                     y                          (x;y)                       p                     q                     f                     g               A0        B0        A        B        C0        D0        C        D                      f0                     a                     g0                     h0                     b                          f                     h                     k0                     c                     d                     k                          g       <br><br>        V¬W        T        V£W                      9!~f                     ¬                     f       <br><br><br><br><br><br>
 
 
 
@@ -2136,7 +2314,7 @@ k
 
 g
 
-<br>xf(x)f(x)=xf(x)=sinxf(x)=120ex<br>I0¡+V0I0R1i1R2i2<br>TKX£ZYXYZxy(x;y)pqfgA0B0ABC0D0CDf0ag0h0bfhk0cdkg<br>FcGcFc0Gc0Ff®cGf®c0<br><br>&gt;[Note]- Title 减号位置对应的+-可以改变折叠方式。<br><br>AI
+<br><br><br><br><br><br>&gt;[Note]- Title 减号位置对应的+-可以改变折叠方式。<br><br>AI
 美化 callout 的方式有很多，以下是一些你可以尝试的 CSS 技巧：
 
 .callout[data-callout="proof"] {
@@ -2385,7 +2563,12 @@ Cauchy 根式判别法应该是最先用的
 <img alt="8078e7551c1bcbe8c635a3b65e1f3a5e_720.jpg" src="lib\media\8078e7551c1bcbe8c635a3b65e1f3a5e_720.jpg">
 ]]></description><link>mathstuff\自然对数的底-e.html</link><guid isPermaLink="false">MathStuff/自然对数的底 e.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 03 Oct 2024 14:03:50 GMT</pubDate><enclosure url="lib\media\8078e7551c1bcbe8c635a3b65e1f3a5e_720.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\8078e7551c1bcbe8c635a3b65e1f3a5e_720.jpg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Gauss 判别法]]></title><description><![CDATA[ 
  ]]></description><link>mathstuff\gauss-判别法.html</link><guid isPermaLink="false">MathStuff/Gauss 判别法.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 18 Sep 2024 06:22:41 GMT</pubDate></item><item><title><![CDATA[Guess 超几何级数]]></title><description><![CDATA[ 
- <br><br> 是 Pochhammer 符号，定义为：<br>]]></description><link>mathstuff\guess-超几何级数.html</link><guid isPermaLink="false">MathStuff/Guess 超几何级数.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 18 Sep 2024 06:12:03 GMT</pubDate></item><item><title><![CDATA[one-point compactification]]></title><description><![CDATA[ 
+ <br><br> 是 Pochhammer 符号，定义为：<br>]]></description><link>mathstuff\guess-超几何级数.html</link><guid isPermaLink="false">MathStuff/Guess 超几何级数.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 18 Sep 2024 06:12:03 GMT</pubDate></item><item><title><![CDATA[ODE Notes 4.5]]></title><description><![CDATA[ 
+ <br>我们来复习之前的内容。<br><br>The first order autonomous
+可以定义这类方程的“平衡点”： 称  时一个平衡点，如果 
+<br>我们首先证明了如果  是可微的，那么在平衡点处，这个方程有解且唯一，即 。换言之，对于自治的方程，如果存在一个平衡点  ，那么任意定义域中的  都有 。<br>接着我们证明了  是  的情况下（可不可以减弱？），最大延伸解的存在性和唯一性。唯一性是指对于最大延伸区间上的任意子区间上的解，最大延伸解在此区间上的限制与这个解相符合。<br><br>考虑可以无穷延伸的解，研究积分曲线 （ 的像）在趋向于无穷时的行为，我们可以定义 稳定点 的概念。<br>对于自治的方程，我们依赖平衡点来定义稳定点。即  是平衡点，那么对任意 ，存在扰动  使得在此扰动下（初值改为 中的值 ），任意的解  可以被无穷延伸，使得那么  就是一个稳定点。<br>对于自治的方程，我们加强稳定点的条件，渐进稳定，即存在常数 ，使得在此扰动下，任意的解在无穷延伸时满足 <br><br>我们研究  型的方程。<br>首先，我们得到上述方程的解 <br>
+通过类似的方法，我们得到此方程解的唯一性。<br>我们特别提出  是周期函数的情形。此时我们定义 以及拓展 稳定 的定义，得到 “稳定解”，定义非常的类似<br>
+那么将  与 1 做对比，得到三种不同的情形，对应这不同的稳定性。特别的，  时存在着唯一的周期解。<br><br>我们引入了一个非常特别的方法 Green's function ，以及所谓工科做法和 variationo of parameters。<br>]]></description><link>mathstuff\ode-notes-4.5.html</link><guid isPermaLink="false">MathStuff/ODE Notes 4.5.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 08 Oct 2024 04:58:47 GMT</pubDate></item><item><title><![CDATA[one-point compactification]]></title><description><![CDATA[ 
  <br>one-point compactification(单点紧化) 是一种将非紧致的局部紧致空间转化为紧致空间的技术。具体来说，给定一个局部紧致空间 ，其单点紧化是通过添加一个点（通常称为“无穷远点”或“附加点”）到  中，并将  的拓扑扩展到这个新点，使得整个空间成为紧致的。<br>形式化地，设  是一个局部紧致 Hausdorff 空间。 的单点紧化记作  或 ，其中  是新添加的点。 的拓扑定义如下：<br>
 <br>对于  中的任何开集 ， 也是  中的开集。
 <br>一个包含  的开集是  中的一个紧致闭集的补集。
