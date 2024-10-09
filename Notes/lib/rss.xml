@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[LogseqVault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>LogseqVault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 08 Oct 2024 15:36:52 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 08 Oct 2024 15:34:06 GMT</pubDate><copyright><![CDATA[Chengwuming]]></copyright><ttl>60</ttl><dc:creator>Chengwuming</dc:creator><item><title><![CDATA[抽象代数课程定义及记号表]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[LogseqVault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>LogseqVault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 09 Oct 2024 13:11:45 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 09 Oct 2024 13:06:02 GMT</pubDate><copyright><![CDATA[Chengwuming]]></copyright><ttl>60</ttl><dc:creator>Chengwuming</dc:creator><item><title><![CDATA[抽象代数课程定义及记号表]]></title><description><![CDATA[ 
  <br>
 <br>射影空间 ，其中  是一个 -线性空间，定义为其上一维线性子空间的集合。
 <br>域扩张：  是  的子域，称  是  的扩张，记作ee mathjax 不太支持。
@@ -17,44 +17,7 @@
 ]]></description><link>代数\抽象代数\抽象代数课程定义及记号表.html</link><guid isPermaLink="false">代数/抽象代数/抽象代数课程定义及记号表.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 05 Oct 2024 08:50:44 GMT</pubDate></item><item><title><![CDATA[抽象代数作业 1]]></title><description><![CDATA[<a class="tag" href="?query=tag:抽象代数" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#抽象代数</a> <a class="tag" href="?query=tag:作业" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#作业</a> 
  <br>@2024-10-08，不愧是yp，作业就是重量级@
 <a href=".?query=tag:抽象代数" class="tag" target="_blank" rel="noopener">#抽象代数</a> <a href=".?query=tag:作业" class="tag" target="_blank" rel="noopener">#作业</a>
-<br>清华大学2024-2025秋季学期，群与Galois理论，作业1
-请用A4大小的纸张正反面用钢笔，签字笔或者圆珠笔书写，并注明自己的姓名、年级（书院或系） 和作业的总页数。除定理公式所涉及的人名之外，请使用中文。本次作业请扫描并上传至网络学堂， 具体截止日期请查阅网络学堂，逾期视作零分
-<br>A.乘积结构
-A1)  和 是群，在 上如下定义乘法：
-
-证明，在以上乘法下，  是群并且其单位元为 。这个群被称为 与 的乘积A2）证明，投影映射
-
-和
-
-是群同态。它们的核是什么？
-A3）（泛性质）给定群 和 。证明，存在唯一的群 以及唯一的群同态  使得对任意的群 和任意的群同态    ，存在唯一的 ，使得  。
-<img src="https://storage.simpletex.cn/view/fsM1ZgAF4ygroK8cfQtfGGDyg34kz6TZu" referrerpolicy="no-referrer">
-特别地，我们有如下的集合之间的同构
-
-（提示：利用A2）给出 的存在性；利用 的唯一性证明 的唯一性）
-A4）给定互素的正整数 和 。利用A3）证明，
-
-给出了群同构
-
-以上，  表示的是（加法）循环群，
-A5)  和 是两个有限阶的循环群，那么，  是否是循环群？
-
-A6)  和 是环。我们在 上如下定义加法十和乘法·：
-
-证明，选取加法单位元 和乘法单位元,  在以上运算下是环。我们把这个环称作是 与 的乘积。进一步证明，投影映射
-
-和
-
-是环同态。
-A7）（泛性质）给定环 和 。证明，存在唯一的²环 以及唯一的环同态  使得对任意的环 和任意的环同态  ，存在唯一的 ，使得 
-<img src="https://storage.simpletex.cn/view/fbG6etMkMHvPyV8EtMX9bbu5SDTU8iyLi" referrerpolicy="no-referrer">
-A8）给定互素的正整数 和 。证明，我们有环同构
-
-（提示：使用中国剩余定理）
-A9)  和 是环，  和 是它们的乘法可逆元所构成的（乘法）群。证明，我们有群同构
-
-其中，  代表着环的乘积，  代表着群的乘积。
-<br>A1<br>
+<br><br><br><br>
 <br>封闭：
 <br>结合律：对于任意 ，有
 
@@ -64,12 +27,12 @@ A9)  和 是环，  和 是它们的乘法可逆元所构成的（乘法）群�
 
 
 <br>逆元：对于任意 ，可知其在对应群中存在逆元 ，从而  综上证毕。之后的写法中不增歧义地简略掉乘法以及单位的角标。
-<br>A2<br>
+<br><br>
 <br>首先是群同态。这是因为 。<br>
 
 <br>所以是群同态。<br>
 <br>
-<br>A3<br>
+<br><br>
 <br>
 我们先证明存在性：令 ， （A2中的），令 ，那么验证得<br>
 且  是群同态是平凡的。从而我们构造出了满足要求的群以及同态。
@@ -84,12 +47,11 @@ A9)  和 是环，  和 是它们的乘法可逆元所构成的（乘法）群�
 故得到  的唯一性。<br>
 <br>最后我们说明  只能为 （同构的意义下），如果存在 ，以及对应的同态  满足泛性质，那么我们知道如下两图
 <br>G0GiG1£G2p0iÃ0piG1£G2GiG0piÃp0i<br>交换，也就得到 而  时满足。但是由于下图交换<br>G1£G2GiG1£G2piÃ0±Ãpi<br>从而由  的唯一性得其即为 ，从而  是群同构。换言之，  在群同构的意义下唯一。综上证毕。<br>特别的，我们给出同构 如果对任意的群  以及同态 ，我们定义这样的  和 :<br>
-则有 从而由泛性质唯一性知  与  同构。<br>A4 见后<br>A5<br>
-不一定。比如由之后的题目得到  （ 是奇素数）是循环群， 是循环群，而  是循环群。而群  不是循环群，因为  和  的阶都是 2，所以  无法被  生成，且显然无法被  和  生成，从而不是循环群。<br>A6<br>和 A2 几乎一致，  分别在加法和乘法意义下构成含幺半群，所以 A2 中除 可逆 以外的所有证明可以不加变动（只做记号变动）地放在这里，以及  在加法意义下是群，这里只需要额外验证乘法分配律：<br>
+则有 从而由泛性质唯一性知  与  同构。<br><br>见后<br><br>不一定。比如由之后的题目得到  （ 是奇素数）是循环群， 是循环群，而  是循环群。而群  不是循环群，因为  和  的阶都是 2，所以  无法被  生成，且显然无法被  和  生成，从而不是循环群。<br><br>和 A2 几乎一致，  分别在加法和乘法意义下构成含幺半群，所以 A2 中除 可逆 以外的所有证明可以不加变动（只做记号变动）地放在这里，以及  在加法意义下是群，这里只需要额外验证乘法分配律：<br>
 <br>
 
 对于投影映射，由对称性，这里只证明 .理由同之前（加法意义下环退化为群），这里只需要考虑乘法的情形。我们有 从而  是环同态，  同理是环同态。
-<br>A7<br>
+<br><br>
 <br>
 我们先证明存在性：令 ， （A6中的），令 ，那么验证得<br>
 且  是环同态是平凡的。从而我们构造出了满足要求的环以及同态。
@@ -103,8 +65,7 @@ A9)  和 是环，  和 是它们的乘法可逆元所构成的（乘法）群�
 <br>A1£A2AiA1£A2p0iÃ0¼i<br>交换。注意到  可以取 ，但是由泛性质知  唯一，从而 ，由泛性质：<br>
 故得到  的唯一性。<br>
 <br>最后我们说明  只能为 （同构的意义下），如果存在 ，以及对应的同态  满足泛性质，那么我们知道如下两图
-<br>A0AiA1£A2p0iÃ0piA1£A2AiA0piÃp0i<br>交换，也就得到 而  时满足。但是由于下图交换<br>A1£A2AiA1£A2piÃ0±Ãpi<br>从而由  的唯一性得其即为 ，从而  是环同构。换言之，  在环同构的意义下唯一。综上证毕。<br>A4 &amp; A8<br>
-我们希望找到一个群同态 ，使得令   时其满足 A3 中的泛性质中对应的  的性质，即满足<br>
+<br>A0AiA1£A2p0iÃ0piA1£A2AiA0piÃp0i<br>交换，也就得到 而  时满足。但是由于下图交换<br>A1£A2AiA1£A2piÃ0±Ãpi<br>从而由  的唯一性得其即为 ，从而  是环同构。换言之，  在环同构的意义下唯一。综上证毕。<br><br>我们希望找到一个群同态 ，使得令   时其满足 A3 中的泛性质中对应的  的性质，即满足<br>
  。那么我们自然得到  之间的同构。<br>
 根据中国剩余定理，这样的同态  是存在的。由于  互素，从而存在 ，使得 ，定义  其中  是任意的群，  是自带的群同态 。 断言此为所需。下面我们逐一验证：<br>我们断言群同态 满足为所需同态 。<br>
 <br> 是良好定义的<br>
@@ -122,145 +83,43 @@ A9)  和 是环，  和 是它们的乘法可逆元所构成的（乘法）群�
 已知其作为加法群是群同态，只需验证乘法。 首先 <br>
 其次 <br>
 从而是环同态。****
-<br> 是环同态。同上，只需要验证乘法。首先 其次有 从而  是环同态。综上证毕。<br>A9<br>
-若 ，则 存在  使得 ，故 ，从而 ，即 。反之， 则  是 ，故以集合的角度， <br>
-从而对任意 ，定义映射 对任意群  以及群同态 ，定义 则有 。由 泛性质知 有群同构 <br><br>B.域的有限乘法子群是循环群
-给定正整数 ，Euler 的 函数给出 中与 互素的数的个数：
-
-B1）证明，  ，其中，  是环 的可逆元组成的（乘法）子群。
-B2）证明，  具有如下乘性：对任意互素的正整数 和 ，有
-
-进一步，如果 是它的素因子分解，其中，  为不同的素数而指标 均为正整数，证明：
-
-B3）证明，对任意正整数 ，对任意与 互素的整数 ，有 (modn)。特别地，当 为素数时，这给出了Fermat小定理。
-B4）（有限循环群子群的分类）证明，作为加法群，对每个 的因子 ，  恰有一个阶为 的循环子群 。进一步，  的每个子群均形如 ，其中， 
-B5）证明，对任意的正整数 ，我们有公式
-
-B6)  是域，  是有限群，  。对任意的 ，令 为 中阶为 的元素组成的集合。证明，
-
-B7）证明，  是循环群。
-B8）证明，  是循环群，其中，  是素数。
-B9）对于奇素数 和 ，我们证明 是循环群
-－证明，   ，其中 。据此证明 的阶为 －证明，存在 ，其阶为 －证明，存在 ，使得
-B10）对于 ，我们给出 的结构
-－证明，  od  ，其中 。据此证明，  的阶为 －证明，映射（以下左边是加法群，右边是乘法群）
-
-是群同构。
-Bl1）（Gauss）证明，对任意正整数 ，  是循环群当且仅当 形如 或 ，其中，  而 为奇素数。此时，  的每个生成元 都被称为 的原根
-<br>B1<br>
-任意 ，且 ，有存在 ，使得 ，从而  互素，故 同时，对于比  小的每一个与  互素的数 ，都有对应的整数使得 ，故 ，从而 于是 <br>B2<br>
-我们已知环同构 从而其可逆元的乘法群有同构 于是得到左右两式其作为集合的基数相等，即 .<br>
-对于素数 ，我们有 ，这是因为  与  不互素， 与  互素，其中  的取值范围为  到 ，从而有  个小于  的数与其互素。<br>对于 ，有 证毕。<br>B3<br>对于和  互素的整数 ，有上述讨论知 ，故 B4<br><br> C.线性群中元素的阶的几个命题
-C1)令 为整系数的 矩阵的集合，令
- A可逆并且
-－证明， 。－如果 的阶有限，证明， ord
-
-－证明，存在只依赖于 的常数 ，若GL 的阶有限，则
-C2)  是素数，  是 的幂，域 有 个元素。我们已知 共有I(-个元素
-－对任意的GL ，证明，集合 至多有 个元素。以上，对于  ，其中，  ，我们定义
-－证明，对任意的,ord －给定如下的结论：存在 的域扩张 ，使得。证明，存在GL<br>
-
-所以，  中元素的阶的最大值恰好是
-<br><br>D.有限群乘积的消去定理
-我们先证明群论中三个标准的定理
-·（第二同构定理）  是群， ,  ，证明，  并且有自然的群同构
-
-其中，首先说明 是 的子群。
-·(第三同构定理)  是群， ,  并且 。证明，  并且有自然的群同构：
-
-·（子群对应定理）  是满的群同态，我们有如下双射
-
-进一步，假设以上对应把 映射成 ，那么，  是 的正规子群当且仅当 是 的正规子群。下面证明有限群乘积的消去定理。给定有限群 ，以下两个数值是非负整数：
-
-D1）证明如下等式，其中，以下是对所有 的正规子群 来求和：
-
-D2）证明，对每个 的正规子群 存在整数 ，使得
-
-特别地，以上等式中的系数 不依赖于 。
-
-D3）假设 是有限群并且 。证明， 
-D4)（消去定理）证明，若 是有限群并且 ，则 。
-D5）令 和 为有限维 线性空间，  为 -线性空间且其基有可数无限个元素。证明，   。特别地，这一组 不满足消去定理。
-<br><br>练习题（不提交）
-
-<br> 是群，  是有限子集并且对乘法封闭。证明，  是子群。
-
-2.假设 是 的一族正规子群，那么，  也是正规子群。
-3.有限集 上定义了满足结合律的乘法,  。假设以下两点成立：
-·对任意的 ，有   ·对任意的 ，有  。
-证明，  在此乘法下是群。
-4.试给出所有（在同构意义下）阶数不超过5的群
+<br> 是环同态。同上，只需要验证乘法。首先 其次有 从而  是环同态。综上证毕。<br><br>若 ，则 存在  使得 ，故 ，从而 ，即 。反之， 则  是 ，故以集合的角度， <br>
+从而对任意 ，定义映射 对任意群  以及群同态 ，定义 则有 。由 泛性质知 有群同构 <br><br><br>任意 ，且 ，有存在 ，使得 ，从而  互素，故 同时，对于比  小的每一个与  互素的数 ，都有对应的整数使得 ，故 ，从而 于是 <br><br>我们已知环同构 从而其可逆元的乘法群有同构 于是得到左右两式其作为集合的基数相等，即 .<br>
+对于素数 ，我们有 ，这是因为  与  不互素， 与  互素，其中  的取值范围为  到 ，从而有  个小于  的数与其互素。<br>对于 ，有 证毕。<br><br>对于和  互素的整数 ，有上述讨论知 ，故 <br><br>对于因子 ，显然  生成的子群的阶恰好为 ，记这个子群为 ，我们证明这是唯一的阶为  的子群。若另有子群 ,，那么任意的 ，有 ，即 ，从而 ，换言之， ，从而 ，又由 ，从而 。<br><br>设 ，其因数为 ，这里 ，所以有 得证。<br>
+<br>另证：对于 ，加法循环群  以及生成元 ，我们考虑此群中阶为  的元素。<br>
+首先，  的阶为 ，我们断言对于任意的 ， ，我们有 这里设 ，那么首先  是  的最大公倍数，从而 。 。
+<br>其次，设 ，那么 ，其中  是某一整数，从而 ，且由  互素知 ，<br>
+所以 , 综上知断言成立。<br>现在对于 上述的 ，我们考虑其阶取  时可能的  的数量。换言之，考虑<br>
+中  可能的取值。如果  满足上式，那么有 从而  互素（ )，从而满足条件的  有  个。也就是阶  的元素有  个。<br>所以将  拆成阶为  的元素的集合之间的无交并，得到 证毕。<br><br>对比 B5，可知只需要证明  时 <br>
+对于任意的 ，多项式  至多有  个根。从而阶数为  的因数的元至多有  个。如果存在阶数为  的元 ，那么  生成的循环子群的阶为 ，并且其中每一个元素的阶都整除 ，结合  中阶数为  的因数的元至多有  个知  包含了所有阶整除  的元素，且由 B5，这个循环群中阶为  的元素个数已知为 ，从而有 从而如果对于某个 ，不存在阶为  的元，那么 矛盾。所以 时 。得证。<br><br>根据 B6，可知存在  使得 ，从而结合  知  是循环群。<br><br>已知 是域，由 B6,B7 知  是循环群。<br><br><br>显然成立， 时<br>
+由于  是奇素数，从而  是整数，所以  时成立。<br>
+假设对  成立，即<br>
+那么从而 得证。<br>令上述的  为 ，我们得到 从而 ，从而 ，从而 <br><br>对于乘法群  ，如果存在  ，阶是 ，我们有<br>
+那么断言  的阶是 。这是因为 从而 。<br>
+又对任意的  满足 ，有 ，进而 ，从而 ，因为  的阶是 ，所以 ，从而 。<br>当上述  时，我们已经有  是循环群且其生成元的阶即为 ，所以由归纳法，上述得证。<br><br>根据 一二，由 互素（是偶数），且存在 ，使得其阶分别为 。<br>
+所以  的阶为。所以  是循环群。<br><br><br>当  时，即 ，成立。<br>
+假设对  成立，即有 那么 从而 由归纳法得证。<br>由上可知 ，故的阶为 <br><br>
+<br>
+由于 ，从而该映射是良好定义的。
 
 <br>
- 是群，  是子群并且 。证明，  是正规子群。如果 ，其中，  结论是否成立？
+此映射是群同态：<br>
+<br>
+<br>
+这里记此映射为 ，从而验证了此映射是同态。
 
 <br>
- 是群：  是子群并且 ，证明，如果 是唯一的指标为 的子群，那么 是正规子群。
-
-
-7.(循环群的分类)  是循环群。证明，或 ，或有正整数 使得 ，二者必居其一，
+此同态是单射。考虑映射的核，可知 首先，如果 ，那么 ，这里有 ，显然不存在  满足此式。<br>
+所以 ，此时 ，从而 ，从而 ，于是 该映射是单射。
 
 <br>
- 是 阶的交换群，其中，  为互素。如果存在 ，使得其阶分别为 和 ，证明，  为循环群。
+最后，我们说明两个集合基数相等，从而是同构。  的元素个数为 ， 的元素个数 ，从而相等，综上，证毕。
 
-<br>
- 是群并且它只有有限个子群。证明，  是有限群。
-
-<br>
- 是群。对任意的 ，共轭映射 的定义如下：
-
-
-
-证明，以上映射给出群同态：
-
-并且Int 而Int 是正规子群。
-11.试在二面体群 中找到两个子群 ，使得,  ，但是 不是 的正规子群？这表明正规子群的关系并不传递。
-
-<br> 是群，  和 为其子群并且,  。证明，如果 是循环群，那么 。
-
-13.（四元数群）令 ，一共有8个元素。定义1为单位元；对任意的 ，令 ；定义乘法
-
-证明，以上给出群结构。试找出它所有的子群并证明这些子群都是正规子群。Q8与二面体群 是否同构？
-
-14.（Cayley定理：每个（有限）群都同构于（有限）对称群的子群）  是群。令 ，定义映射
-
-证明，  是单的群同态（从而，  )。
-15.证明，  是无限群但是每个元素的阶都是有限的。
-
-<br> 是群，定义映射
-
-
-证明，  是交换群当且仅当Inv 是群同态。
-
-<br>
- 是群，如果对任意的,  ，证明，  是交换群
-
-<br>
- 是 阶加法循环群，其中，  是素数。证明，  是循环群。如果把 替换成6或者8, 结论是否成立？
-
-<br>
- 是群，  为其子群。我们定义 =      。证明，  为子群当且仅当<br>
-
-
-<br>
- 是群，  为其有限子群。证明，
-
-
-
-
-<br> 是群，  为其子群。证明，  并且
-
-
-假设 有限，进一步证明以上等号成立当且仅当 。
-
-<br> 是群，  为其有限指标的子群。证明
-
-
-并且等号成立当且仅当
-
-<br> 是群同态，  是交换群。证明，  中任意的包含 的子群都是正规子群。
-
-]]></description><link>代数\抽象代数\抽象代数作业-1.html</link><guid isPermaLink="false">代数/抽象代数/抽象代数作业 1.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 08 Oct 2024 15:33:16 GMT</pubDate><enclosure url="https://storage.simpletex.cn/view/fsM1ZgAF4ygroK8cfQtfGGDyg34kz6TZu" length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src="https://storage.simpletex.cn/view/fsM1ZgAF4ygroK8cfQtfGGDyg34kz6TZu"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[正规子群和商群]]></title><description><![CDATA[<a class="tag" href="?query=tag:抽象代数" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#抽象代数</a> <a class="tag" href="?query=tag:群论" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#群论</a> 
+<br><br>首先对于  的情形都是平凡的，对于 ，我们有  的生成元 （验证是平凡的），对于 ，前面的题目已经证明。对于 ，注意到 ，所以有 ，我们希望找到群同构 。我们令  是自然的同态，由  知此映射是满射，再加上此两个集合基数相等，所以  是同构，从而  是循环群。<br>接下来说明其余的 ，  不是循环群。将  写为 ，这里  是奇素数。我们只需要说明：<br>
+<br> 时不是循环群
+<br> 时不是循环群<br>
+首先由 A 组题目，有群同构 从而 。我们记 
+<br>对于 ，断言任意元素  阶被  的阶的最小公倍数整除。设  的最小公倍数是 ，那么有 ，所以 ，得证。<br>对于情况一，可知  的阶是偶数，  的阶是偶数（），所以  的阶的最小公倍数  满足 ，从而不存在阶为  的元素。<br>对于情况二，可知  的阶均为偶数，从而其最小公倍数  有 ，从而不存在阶为  的元素。<br>综上，得到  是循环群当且仅当 ,  为奇素数。<br><br><br>]]></description><link>代数\抽象代数\抽象代数作业-1.html</link><guid isPermaLink="false">代数/抽象代数/抽象代数作业 1.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 09 Oct 2024 13:05:42 GMT</pubDate></item><item><title><![CDATA[正规子群和商群]]></title><description><![CDATA[<a class="tag" href="?query=tag:抽象代数" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#抽象代数</a> <a class="tag" href="?query=tag:群论" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#群论</a> 
  <br>@这是抽象代数课程中的第一个非平凡的概念@
 <a href=".?query=tag:抽象代数" class="tag" target="_blank" rel="noopener">#抽象代数</a> <a href=".?query=tag:群论" class="tag" target="_blank" rel="noopener">#群论</a> 
 <br>正规子群
@@ -1805,7 +1664,7 @@ Abel-Dirichlet 判别法：设  定义在  上，若满足以下任一条件：
 
 这表明  在  处是连续的。由于  是  中的任意点， 在  上是连续的。
 
-<br><a data-href="Analysis III Note 6" href="Analysis III Note 6" class="internal-link" target="_self" rel="noopener">Analysis III Note 6</a>]]></description><link>分析\数学分析\analysis-iii-note-5.html</link><guid isPermaLink="false">分析/数学分析/Analysis III Note 5.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 03 Oct 2024 05:49:05 GMT</pubDate></item><item><title><![CDATA[单位分解]]></title><description><![CDATA[ 
+<br><a data-href="Analysis III Note 6" href="mathstuff\analysis-iii-note-6.html" class="internal-link" target="_self" rel="noopener">Analysis III Note 6</a>]]></description><link>分析\数学分析\analysis-iii-note-5.html</link><guid isPermaLink="false">分析/数学分析/Analysis III Note 5.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 03 Oct 2024 05:49:05 GMT</pubDate></item><item><title><![CDATA[单位分解]]></title><description><![CDATA[ 
  <br><br>对于某个紧集 ，其上的开覆盖  存在有限子覆盖，在每个子覆盖的开集上通过<br>]]></description><link>分析\单位分解.html</link><guid isPermaLink="false">分析/单位分解.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 11 Sep 2024 23:39:15 GMT</pubDate></item><item><title><![CDATA[度量空间的完备化]]></title><description><![CDATA[ 
  ]]></description><link>分析\度量空间的完备化.html</link><guid isPermaLink="false">分析/度量空间的完备化.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 10 Sep 2024 15:37:39 GMT</pubDate></item><item><title><![CDATA[《概率论教程》读书笔记 1]]></title><description><![CDATA[<a class="tag" href="?query=tag:概率论" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#概率论</a> <a class="tag" href="?query=tag:probobility" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#probobility</a> <a class="tag" href="?query=tag:分布函数" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#分布函数</a> 
  <br>@2024-10-05，这是第一次接触概率相关的东西，我会把初次学习遇到的东西和感悟写下来@
@@ -1831,7 +1690,7 @@ Abel-Dirichlet 判别法：设  定义在  上，若满足以下任一条件：
 如果分布函数  可以表示成<br>
 其中  可数并且  是收敛到1的正项级数，那么称  是一个离散分布函数。
 <br>设分布函数的 分解 令 ，那么  是一个离散分布函数， 是一个连续分布函数，分别记为 ，那么有分布函数的 凸组合<br>
-<br>事实上，这样的凸组合对任意的分布函数存在且唯一。存在性我们已经构造出来了，至于唯一性，由之前的定理1.2.2，如果对  做形如  的分解是唯一的，而分解的系数  是由  唯一决定，从而唯一。<br><a data-tooltip-position="top" aria-label="《概率论教程》讨论班 1" data-href="《概率论教程》讨论班 1" href="《概率论教程》讨论班 1" class="internal-link" target="_self" rel="noopener">本节的习题等相关讨论</a><br><a data-href="《概率论教程》读书笔记 2" href="《概率论教程》读书笔记 2" class="internal-link" target="_self" rel="noopener">《概率论教程》读书笔记 2</a>]]></description><link>概率统计\《概率论教程》读书笔记-1.html</link><guid isPermaLink="false">概率统计/《概率论教程》读书笔记 1.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 05 Oct 2024 03:47:53 GMT</pubDate><enclosure url="lib\media\pasted-image-20241005113337.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20241005113337.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Topology Notes 1]]></title><description><![CDATA[<a class="tag" href="?query=tag:拓扑" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#拓扑</a> <a class="tag" href="?query=tag:点集拓扑" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#点集拓扑</a> <a class="tag" href="?query=tag:Topology" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#Topology</a> 
+<br>事实上，这样的凸组合对任意的分布函数存在且唯一。存在性我们已经构造出来了，至于唯一性，由之前的定理1.2.2，如果对  做形如  的分解是唯一的，而分解的系数  是由  唯一决定，从而唯一。<br><a data-tooltip-position="top" aria-label="《概率论教程》讨论班 1" data-href="《概率论教程》讨论班 1" href="《概率论教程》讨论班 1" class="internal-link" target="_self" rel="noopener">本节的习题等相关讨论</a><br><a data-href="《概率论教程》读书笔记 2" href="《概率论教程》读书笔记 2" class="internal-link" target="_self" rel="noopener">《概率论教程》读书笔记 2</a>]]></description><link>概率统计\《概率论教程》读书笔记-1.html</link><guid isPermaLink="false">概率统计/《概率论教程》读书笔记 1.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 09 Oct 2024 11:12:07 GMT</pubDate><enclosure url="lib\media\pasted-image-20241005113337.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20241005113337.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Topology Notes 1]]></title><description><![CDATA[<a class="tag" href="?query=tag:拓扑" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#拓扑</a> <a class="tag" href="?query=tag:点集拓扑" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#点集拓扑</a> <a class="tag" href="?query=tag:Topology" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#Topology</a> 
  <br>@2024-10-03，这是上周五蹭课记的笔记，以后会带电脑@
 <a href=".?query=tag:拓扑" class="tag" target="_blank" rel="noopener">#拓扑</a> <a href=".?query=tag:点集拓扑" class="tag" target="_blank" rel="noopener">#点集拓扑</a> <a href=".?query=tag:Topology" class="tag" target="_blank" rel="noopener">#Topology</a> 
 <br><br><img alt="0dc7a97ca089ac89ac0c9edc29160019_720.jpg" src="lib\media\0dc7a97ca089ac89ac0c9edc29160019_720.jpg" style="width: 962px; max-width: 100%;"><br>
@@ -2272,7 +2131,7 @@ Abel-Dirichlet 判别法：设  定义在  上，若满足以下任一条件：
 <br>这里对唯一的证明是否有不严谨之处？
 ]]></description><link>mathstuff\解的存在性与唯一性-1.html</link><guid isPermaLink="false">MathStuff/解的存在性与唯一性 1.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 21 Sep 2024 04:33:31 GMT</pubDate></item><item><title><![CDATA[你好哇，你这会想看什么？]]></title><description><![CDATA[ 
  <br>二四六11月12月1月2月3月4月5月6月7月8月9月10月lessmore<br>
-<br>今天是2024年10月8日，2024 年已经过去了 277 天
+<br>今天是2024年10月9日，2024 年已经过去了 278 天
 <br>今年你总共在 69 天中留下了你的足迹，继续加油！
 <br><br>Multi column
 复分析
@@ -2412,7 +2271,7 @@ Singular
 示例<br>
 
 
-<br><br>直接去<a data-tooltip-position="top" aria-label="https://detexify.kirelabs.org/symbols.html" rel="noopener" class="external-link" href="https://detexify.kirelabs.org/symbols.html" target="_blank">这个地方</a><br><br><br>        N        M        N=N\Re1        M=Re1        Re2©¢¢¢©Ren                                                                              »=        <br>对比<br><br>        T        K        X£ZY        X        Y        Z                      x                     y                          (x;y)                       p                     q                     f                     g               A0        B0        A        B        C0        D0        C        D                      f0                     a                     g0                     h0                     b                          f                     h                     k0                     c                     d                     k                          g       <br><br>        V¬W        T        V£W                      9!~f                     ¬                     f       <br><br><br>        ²        ²        ²                                  <br><br>                          ¡2        0        2        ¡2        0        2                                ¡0:4        ¡0:2        0        0:2        0:4                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     <br>
+<br><br>直接去<a data-tooltip-position="top" aria-label="https://detexify.kirelabs.org/symbols.html" rel="noopener" class="external-link" href="https://detexify.kirelabs.org/symbols.html" target="_blank">这个地方</a><br><br><br>NMN=N\Re1M=Re1Re2©¢¢¢©Ren»=<br>对比<br><br>TKX£ZYXYZxy(x;y)pqfgA0B0ABC0D0CDf0ag0h0bfhk0cdkg<br><br>V¬WTV£W9!~f¬f<br><br><br>²²²<br><br>¡202¡202¡0:4¡0:200:20:4<br>
 
 
 
@@ -2505,7 +2364,7 @@ k
 
 g
 
-<br>                        x                     f(x)          f(x)=x           f(x)=sinx           f(x)=120ex       <br>                              I0        ¡        +        V0                                            I0                         R1                   i1                          R2                   i2                               <br>        T        K        X£ZY        X        Y        Z                      x                     y                          (x;y)                       p                     q                     f                     g               A0        B0        A        B        C0        D0        C        D                      f0                     a                     g0                     h0                     b                          f                     h                     k0                     c                     d                     k                          g       <br>        Fc        Gc        Fc0        Gc0                      Ff                     ®c                     Gf                     ®c0       <br><br>&gt;[Note]- Title 减号位置对应的+-可以改变折叠方式。<br><br>AI
+<br>xf(x)f(x)=xf(x)=sinxf(x)=120ex<br>I0¡+V0I0R1i1R2i2<br>TKX£ZYXYZxy(x;y)pqfgA0B0ABC0D0CDf0ag0h0bfhk0cdkg<br>FcGcFc0Gc0Ff®cGf®c0<br><br>&gt;[Note]- Title 减号位置对应的+-可以改变折叠方式。<br><br>AI
 美化 callout 的方式有很多，以下是一些你可以尝试的 CSS 技巧：
 
 .callout[data-callout="proof"] {
@@ -2752,7 +2611,54 @@ Cauchy 根式判别法应该是最先用的
 <br><br>证明用到  的收敛速度非常之快，事实上有<br>
 那么为什么是无理数呢？不妨假设 ，然后考虑 上述的内容。这方面的内容也非常丰富，如果你做不出来，那就参考一下下面的图<br>这里
 <img alt="8078e7551c1bcbe8c635a3b65e1f3a5e_720.jpg" src="lib\media\8078e7551c1bcbe8c635a3b65e1f3a5e_720.jpg">
-]]></description><link>mathstuff\自然对数的底-e.html</link><guid isPermaLink="false">MathStuff/自然对数的底 e.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 03 Oct 2024 14:03:50 GMT</pubDate><enclosure url="lib\media\8078e7551c1bcbe8c635a3b65e1f3a5e_720.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\8078e7551c1bcbe8c635a3b65e1f3a5e_720.jpg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Gauss 判别法]]></title><description><![CDATA[ 
+]]></description><link>mathstuff\自然对数的底-e.html</link><guid isPermaLink="false">MathStuff/自然对数的底 e.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 03 Oct 2024 14:03:50 GMT</pubDate><enclosure url="lib\media\8078e7551c1bcbe8c635a3b65e1f3a5e_720.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\8078e7551c1bcbe8c635a3b65e1f3a5e_720.jpg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Analysis III Note 6]]></title><description><![CDATA[<a class="tag" href="?query=tag:数分分析" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#数分分析</a> <a class="tag" href="?query=tag:分析" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#分析</a> <a class="tag" href="?query=tag:周三" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#周三</a> 
+ <br>@2024-10-09，@
+<a href=".?query=tag:数分分析" class="tag" target="_blank" rel="noopener">#数分分析</a> <a href=".?query=tag:分析" class="tag" target="_blank" rel="noopener">#分析</a> <a href=".?query=tag:周三" class="tag" target="_blank" rel="noopener">#周三</a><br>
+<a data-href="Analysis III Note 5" href="分析\数学分析\analysis-iii-note-5.html" class="internal-link" target="_self" rel="noopener">Analysis III Note 5</a>
+<br><br>函数一致收敛的定义。<br>一致收敛的连续函数一致收敛到某个函数，则收敛函数连续。<br>讲了一些一致收敛得到连续的例子。<br><br>定理 （Dini)
+ 紧， ，对任意 ，  单调。则  
+<br>Proof
+,存在  使得 由连续性，可知 存在 ，有 于是对任意的 ，我们有 于是  这样的开覆盖，我们得到其有限子覆盖，从而取 ，由 的单调性可知，当  时我们得到 
+<br>推论：   紧，对于正项函数 ，每一项都连续，我们得到 <br>定理
+ 设 ，  定义在  上，且
+
+<br>，满足
+<br> 为  的一个极限点（聚点）
+<br>，存在极限 <br>
+那么得到  收敛于 ，并且有图
+
+Fn(x)GnF(x)Gx!x0n!1n!1x!x0
+交换
+<br>这里的证明基本套路都一样，你可以练习试一试。<br><br>记号保持一致：<br> 是完备的度量空间。<br>这里的度量就是 函数的无穷范数。<br>使用上面最后一个定理，两个交换图分别走一遍得到 对于 ，将其处理成 Riemann 和函数，那么  对应着积分。<br>
+<br>这里应该对应实分析的一些内容，后续补上
+<br>对应 Lebesgue 控制收敛定理。<br>Arzela 有界定理：条件稍稍弱化？<br>对于 （逐点收敛），如果在  上 ，  可积，如果对于这一函数列有一个一致的界 ，那么积分和求序列极限可以交换。<br>Box
+
+Arzela-Ascoli 定理是分析学中的一个重要定理，特别是在泛函分析和实分析中。它提供了一个充分条件，用于判断一个函数族在紧集上是否相对紧。
+
+设  是一个紧度量空间， 是  中的一个函数族，其中  表示在  上连续的实值函数集合。如果  满足以下两个条件：
+
+<br>一致有界性：存在一个常数 ，使得对于所有  和所有 ，有 。
+<br>等度连续性：对于任意 ，存在 ，使得对于所有  和所有 ，只要 ，就有 。
+
+那么， 在  中是相对紧的，即  的闭包是紧的。
+
+
+<br>一致有界性：这意味着  中的所有函数在  上的取值都被限制在一个有限的范围内。
+<br>等度连续性：这意味着  中的所有函数在  上的变化速度是受控的，即对于任意小的距离 ，函数值的变化也可以控制在一个任意小的范围内。
+
+这两个条件共同保证了  中的函数在  上的行为是“一致”的，从而使得  在  中是相对紧的。
+
+Arzela-Ascoli 定理在许多领域中有广泛的应用，例如：
+
+<br>偏微分方程：用于证明解的存在性和唯一性。
+<br>泛函分析：用于研究 Banach 空间中的紧算子。
+<br>概率论：用于证明某些随机过程的紧性。
+
+
+考虑 ，。显然， 是一致有界的。如果  还是等度连续的，那么根据 Arzela-Ascoli 定理， 在  中是相对紧的。
+
+Arzela-Ascoli 定理提供了一个强大的工具，用于判断函数族的紧性。它在分析学中有着广泛的应用，特别是在研究连续函数空间中的紧性问题时。
+<br><br>在闭区间上的函数列 ，每一项都可微，存在  使得  收敛，并且  一致收敛到 ，那么我们断言  可微并且 。<br>由于 从而  一致收敛与 <br>对于可微性，令 这里  取在合适区间，那么我们有 <br><a data-href="Analysis III Note 7" href="Analysis III Note 7" class="internal-link" target="_self" rel="noopener">Analysis III Note 7</a>]]></description><link>mathstuff\analysis-iii-note-6.html</link><guid isPermaLink="false">MathStuff/Analysis III Note 6.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 09 Oct 2024 07:06:25 GMT</pubDate></item><item><title><![CDATA[Gauss 判别法]]></title><description><![CDATA[ 
  ]]></description><link>mathstuff\gauss-判别法.html</link><guid isPermaLink="false">MathStuff/Gauss 判别法.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 18 Sep 2024 06:22:41 GMT</pubDate></item><item><title><![CDATA[Guess 超几何级数]]></title><description><![CDATA[ 
  <br><br> 是 Pochhammer 符号，定义为：<br>]]></description><link>mathstuff\guess-超几何级数.html</link><guid isPermaLink="false">MathStuff/Guess 超几何级数.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 18 Sep 2024 06:12:03 GMT</pubDate></item><item><title><![CDATA[ODE Notes 4.5]]></title><description><![CDATA[ 
  <br>我们来复习之前的内容。<br><br>The first order autonomous
