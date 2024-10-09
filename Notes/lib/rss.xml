@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[LogseqVault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>LogseqVault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 09 Oct 2024 13:11:45 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 09 Oct 2024 13:06:02 GMT</pubDate><copyright><![CDATA[Chengwuming]]></copyright><ttl>60</ttl><dc:creator>Chengwuming</dc:creator><item><title><![CDATA[抽象代数课程定义及记号表]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[LogseqVault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>LogseqVault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 09 Oct 2024 13:23:14 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 09 Oct 2024 13:18:13 GMT</pubDate><copyright><![CDATA[Chengwuming]]></copyright><ttl>60</ttl><dc:creator>Chengwuming</dc:creator><item><title><![CDATA[抽象代数课程定义及记号表]]></title><description><![CDATA[ 
  <br>
 <br>射影空间 ，其中  是一个 -线性空间，定义为其上一维线性子空间的集合。
 <br>域扩张：  是  的子域，称  是  的扩张，记作ee mathjax 不太支持。
@@ -178,7 +178,7 @@
 <br><br>
 我们考虑 ，里面有  个元素，考虑  在其上的作用，可以诱导出单射 ， 有120个元素，而<br>
  即视为 ，从而找到了一个  的子群 ，由于大群的作用是传递的，所以这个子群的作用自然是传递的，但是你想到的  的6个自然的子群  的作用都不是传递的（考虑和  的同构）。
-<br>GL(2;F5)SP(F5)PGL(2;F5)¿¼~¿<br><br>
+<br>        GL(2;F5)        SP(F5)        PGL(2;F5)                      ¿                     ¼                     ~¿       <br><br>
 <br>令 ，那么  作用在左陪集上（通过左乘法），这就给出了一个传递的群作用。
 <br>如果是子群  以相同的方式作用，那么这个作用未必是传递的。
 <br>子群  的稳定化子 
@@ -2271,7 +2271,7 @@ Singular
 示例<br>
 
 
-<br><br>直接去<a data-tooltip-position="top" aria-label="https://detexify.kirelabs.org/symbols.html" rel="noopener" class="external-link" href="https://detexify.kirelabs.org/symbols.html" target="_blank">这个地方</a><br><br><br>NMN=N\Re1M=Re1Re2©¢¢¢©Ren»=<br>对比<br><br>TKX£ZYXYZxy(x;y)pqfgA0B0ABC0D0CDf0ag0h0bfhk0cdkg<br><br>V¬WTV£W9!~f¬f<br><br><br>²²²<br><br>¡202¡202¡0:4¡0:200:20:4<br>
+<br><br>直接去<a data-tooltip-position="top" aria-label="https://detexify.kirelabs.org/symbols.html" rel="noopener" class="external-link" href="https://detexify.kirelabs.org/symbols.html" target="_blank">这个地方</a><br><br><br>        N        M        N=N\Re1        M=Re1        Re2©¢¢¢©Ren                                                                              »=        <br>对比<br><br>        T        K        X£ZY        X        Y        Z                      x                     y                          (x;y)                       p                     q                     f                     g               A0        B0        A        B        C0        D0        C        D                      f0                     a                     g0                     h0                     b                          f                     h                     k0                     c                     d                     k                          g       <br><br>        V¬W        T        V£W                      9!~f                     ¬                     f       <br><br><br><br><br><br>
 
 
 
@@ -2364,7 +2364,7 @@ k
 
 g
 
-<br>xf(x)f(x)=xf(x)=sinxf(x)=120ex<br>I0¡+V0I0R1i1R2i2<br>TKX£ZYXYZxy(x;y)pqfgA0B0ABC0D0CDf0ag0h0bfhk0cdkg<br>FcGcFc0Gc0Ff®cGf®c0<br><br>&gt;[Note]- Title 减号位置对应的+-可以改变折叠方式。<br><br>AI
+<br><br><br><br><br><br>&gt;[Note]- Title 减号位置对应的+-可以改变折叠方式。<br><br>AI
 美化 callout 的方式有很多，以下是一些你可以尝试的 CSS 技巧：
 
 .callout[data-callout="proof"] {
