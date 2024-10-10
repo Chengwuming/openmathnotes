@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[LogseqVault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>LogseqVault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 09 Oct 2024 13:23:14 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 09 Oct 2024 13:18:13 GMT</pubDate><copyright><![CDATA[Chengwuming]]></copyright><ttl>60</ttl><dc:creator>Chengwuming</dc:creator><item><title><![CDATA[抽象代数课程定义及记号表]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[LogseqVault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>LogseqVault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Thu, 10 Oct 2024 14:30:47 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Thu, 10 Oct 2024 14:29:24 GMT</pubDate><copyright><![CDATA[Chengwuming]]></copyright><ttl>60</ttl><dc:creator>Chengwuming</dc:creator><item><title><![CDATA[抽象代数课程定义及记号表]]></title><description><![CDATA[ 
  <br>
 <br>射影空间 ，其中  是一个 -线性空间，定义为其上一维线性子空间的集合。
 <br>域扩张：  是  的子域，称  是  的扩张，记作ee mathjax 不太支持。
@@ -193,7 +193,82 @@ p-群  对自身的共轭作用得到的轨道就是共轭类 ，且作用  上�
 换言之，每一个共轭类的元素个数都整除 ，但是同时所有共轭类的元素加起来就是 ，且我们知道 ，所以肯定还有其他的个数为 1 的共轭类。
 <br> 的外自同构非平凡<br>看不懂，来日再干。<br><br>
 <br>双传递的定义
-]]></description><link>代数\抽象代数\abstract-algebra-note-3.html</link><guid isPermaLink="false">代数/抽象代数/Abstract Algebra Note 3.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 05 Oct 2024 09:34:50 GMT</pubDate><enclosure url="lib\media\pasted-image-20241004230836.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20241004230836.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[作业9]]></title><description><![CDATA[ 
+<br><a data-href="Abstract Algebra Note 4" href="代数\抽象代数\abstract-algebra-note-4.html" class="internal-link" target="_self" rel="noopener">Abstract Algebra Note 4</a>]]></description><link>代数\抽象代数\abstract-algebra-note-3.html</link><guid isPermaLink="false">代数/抽象代数/Abstract Algebra Note 3.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 09 Oct 2024 23:57:34 GMT</pubDate><enclosure url="lib\media\pasted-image-20241004230836.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20241004230836.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Abstract Algebra Note 4]]></title><description><![CDATA[<a class="tag" href="?query=tag:抽象代数" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#抽象代数</a> <a class="tag" href="?query=tag:代数" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#代数</a> <a class="tag" href="?query=tag:AbstractAlgebra" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#AbstractAlgebra</a> 
+ <br>@2024-10-10，第一次尝试在课堂上现场记录，今天的早八明显有不少人翘了@
+<a href=".?query=tag:抽象代数" class="tag" target="_blank" rel="noopener">#抽象代数</a> <a href=".?query=tag:代数" class="tag" target="_blank" rel="noopener">#代数</a> <a href=".?query=tag:AbstractAlgebra" class="tag" target="_blank" rel="noopener">#AbstractAlgebra</a><br>
+<a data-href="Abstract Algebra Note 3" href="代数\抽象代数\abstract-algebra-note-3.html" class="internal-link" target="_self" rel="noopener">Abstract Algebra Note 3</a>
+<br><br>yp：跳过了，后续用不上。<br>yp：假设大家知道了正二十面体的证明。然后这个我们跳过，那个我们跳过，所以群论剩下的东西基本不多了。<br><br>大家总应该学一点难的数学，如果你想学简单的数学，你应该去求真书院。<br><br>现在  是有限群， ，其中  是素数， <br>如果 ，且 ，称  是  的Sylow p 子群（p-Sylow)<br>注记：<br>
+ 是 sylow p 子群：<br>
+<br> 是 p 群 
+<br> 与  互素。
+<br><br>一些例子：<br>
+<br>，，知道环同构 将其视为加法群的同构，我们知道红色部分是p-Sylow，  是一个 p-Sylow，并且是唯一的。你需要证明
+<br>那么  回来到  里面是啥样的？<br>
+回忆这个同构是怎么来的：使用中国剩余定理，取 ，映射到 <br>所以 p-sylow <br>
+<br>
+一般线性群的例子
+  是域， ，我们知道 ，提取因式：  我们同时知道 ，主对角元为 1 的上三角阵是一个子群，比对阶知道这是一个 p-Sylow。
+
+<br>
+<br>
+我们知道 ，红色部分与  互素，我们考虑  循环：<br>
+其生成的元素恰有  个元素，所以  是一个 p-Sylow。
+
+<br>我们想问里面有多少个 p-Sylow，这等价于问里面有多少个循环。答案是 ，这部分的思考 留给你了<br>下面我们证明两个定理<br><br>p-Sylow 的元素个数 <br>（初等数论中的 Wilson 定理）使用在上面的例子，我们得到 <br>Sylow 第一定理
+每个  都有 p-Sylow。
+<br>yp：很多人都是从群环域这种简单到复杂的顺序来讲，但是数学是先去研究复杂的对象，然后太难所以转而去研究相对简单的对象的不断堕落的过程才对。<br>
+<br>
+首先把  做成  的子群。
+（Cayley）
+
+<br>构造线性空间 ，维数是 ，使用  中的元素对基进行标号。我们有映射 容易验证这是  存在且是单射。<br>所以我们现在得到  是一个群同态。<br>
+<br>举一个例子，构造 ，我们希望进行嵌入 ，这里  的维数就应该是 ，
+<br>我们先嵌入 ，通过每一行的第 列放一个 ，注意到<br>命题
+，现在  是 p-Sylow，现在  是子群，那么  也有 p-Sylow。
+<br>如果此命题得证，那么我们通过对一般线性群的嵌入我们就有了证明。<br>想法：令  作用在  上，（左乘法），<br>
+<br> （请验证），特别的，我们有 这个稳定化子群 是  群，那么得到  有  个元素。
+<br>考察此作用的轨道。存在一个轨道  的元素个数与  互素，可知 同时我们知道<br>
+（这是哪个结果来着）
+<br>另外一个证明：<br>(MW)<br>记元素个数是 ， 证明  有 p-Sylow，构造集合 ，是  的所有  个元素的集合的子集<br>可知 <br>左乘法下有  对 的作用。<br>引理：<br><br>
+<br>
+ 的元素个数与  互素（使用引理），从而存在一个轨道 ，   不整除轨道的元素个数。<br>
+
+
+<br>
+
+
+<br>
+，所以可知红色包含  的因子。
+
+<br>取 ，对任意的  落在稳定化子群中，  是显然的，我们有  这样的映射是单射，所以可知 ，从而取等，即 ，从而这个群是一个 p-Sylow。<br>
+<br>推论 (cauchy)，去看讲义。<br>Sylow 第二定理
+
+<br>
+对任意 ，  是  的幂，那么存在 ， ，等价地， 。
+
+<br>
+所有 p-Sylow 的集合是两两共轭，且所有 p-Sylow 给个数 模掉 p 余 1
+
+<br>
+定义 ，那么  利用共轭作用在  上是传递的，并且 
+
+<br>
+（整除）
+
+
+<br>引理，<br>
+ 是一个p 群， ，有限集 ，使用  去作用，记 换言之就是只有一个点的轨道的集合。<br>结论是 证明：将  轨道分解，然后数个数。<br>证明<br>  是 p 子群，  是  的p-sylow<br>
+令  作用在  上（左乘法），我们已知 这里 等价于 ，等价于 ，有  知道  非空，取一个 ，可知 <br>假设  是p sylow，那么推出  和  如果包含一定相等，所以所有的 p-Sylow 都共轭。<br>
+<br>引理29 看讲义。
+<br>注 如果  是正规的p -Sylow，那么  只有一个 p-Sylow。<br><br>
+<br>研究  的 5-Sylow，假设有  个。我们已经知道 ，但是我们这里先不用。
+<br>首先 ，其次  ，最后 。这就足以推出 。<br>我们现在可以举例，手动找到两个 5-sylow，比如  和  生成的子群，说服自己这两个生成的子群不一样，那么  只能是6。<br>或者只有一个正规子群是 ，从而。。。<br>令  作用在  上，其中  是 5-Sylow，作用由共轭给出。<br>换言之我们得到<br>
+断言  是单射，不然 ，且这个核是正规子群，所以 ，这是不可能的，因为 ，但是我们知道  的作用传递，所以其作用在  的轨道上有 6 个元素，所以 ，所以  就是单射，从而  在  中作为一个子群，其在  的作用是传递的，所以得到  不是那些简单的子群。<br><br>正六面体和正八面体同构。<br>我们研究这些东西的对称群。<br>
+<br>正四面体<br>
+
+<br>研究了以下  是啥，这里回忆到高代。。<br>有趣的问题是 两个不同轴的旋转复合之后的旋转是什么？<br>回到正题，这玩意的对称：单位，固定一个点得到的轴，能转两下，8个，一对边的中点连线为轴，旋转，3个，现在总共有12个元素了。<br>事实上有 ，考虑  正四面体的顶点集上的作用<br>
+首先这是一个单射，看看这玩意的像，因为已知已经有了12个元素了，所以  要12个元素，要么24个元素。<br>不能是24个！不然 ，我们取一个  的对换，这将会摧毁这个正四面体。<br>于是 ，注意到  包含了所有三循环，但是三循环又生成 ，所以最终我们得到了<br>
+<br><br>数一数：有多少个旋转？容易数出来24个。<br>我们希望 ，]]></description><link>代数\抽象代数\abstract-algebra-note-4.html</link><guid isPermaLink="false">代数/抽象代数/Abstract Algebra Note 4.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 10 Oct 2024 01:46:36 GMT</pubDate></item><item><title><![CDATA[作业9]]></title><description><![CDATA[ 
  <br>
 <br>
 <img alt="Pasted image 20240513205638.png" src="lib\media\pasted-image-20240513205638.png">
@@ -965,7 +1040,12 @@ Assume  is a diffeomorphism, then we say  is a symmetry of direction field , if
 Assume  is an OPDG of , then we say it is a OPDSG of vector field , if 
 <br>定理 
 Assume  is a direction field where , and  is an OPDSG of direction field , then for a non-stationary , we can solve on an open interval  with 
-<br>lemma:<br>If  is a non-stationary point of an OPDG  on  , then there is a  neighborhood  of  in  , and a neighborhood  of 0 in , also a diffeomorphism  s.t. <br>感到力不从心，以后还是纸上记录，然后经过消化总结之后再来吧。<br><a data-href="ODE Notes 4.5" href="mathstuff\ode-notes-4.5.html" class="internal-link" target="_self" rel="noopener">ODE Notes 4.5</a>]]></description><link>分析\常微分方程\ode-notes-4.html</link><guid isPermaLink="false">分析/常微分方程/ODE Notes 4.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 08 Oct 2024 03:12:17 GMT</pubDate></item><item><title><![CDATA[复分析做题日记]]></title><description><![CDATA[ 
+<br>lemma:<br>If  is a non-stationary point of an OPDG  on  , then there is a  neighborhood  of  in  , and a neighborhood  of 0 in , also a diffeomorphism  s.t. <br>感到力不从心，以后还是纸上记录，然后经过消化总结之后再来吧。<br><a data-href="ODE Notes 4.5" href="分析\常微分方程\ode-notes-4.5.html" class="internal-link" target="_self" rel="noopener">ODE Notes 4.5</a>]]></description><link>分析\常微分方程\ode-notes-4.html</link><guid isPermaLink="false">分析/常微分方程/ODE Notes 4.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 08 Oct 2024 03:12:17 GMT</pubDate></item><item><title><![CDATA[ODE Notes 4.5]]></title><description><![CDATA[ 
+ <br>我们来复习之前的内容。<br><br>The first order autonomous
+可以定义这类方程的“平衡点”： 称  时一个平衡点，如果 
+<br>我们首先证明了如果  是可微的，那么在平衡点处，这个方程有解且唯一，即 。换言之，对于自治的方程，如果存在一个平衡点  ，那么任意定义域中的  都有 。<br>接着我们证明了  是  的情况下（可不可以减弱？），最大延伸解的存在性和唯一性。唯一性是指对于最大延伸区间上的任意子区间上的解，最大延伸解在此区间上的限制与这个解相符合。<br><br>考虑可以无穷延伸的解，研究积分曲线 （ 的像）在趋向于无穷时的行为，我们可以定义 稳定点 的概念。<br>对于自治的方程，我们依赖平衡点来定义稳定点。即  是平衡点，那么对任意 ，存在扰动  使得在此扰动下（初值改为 中的值 ），任意的解  可以被无穷延伸，使得那么  就是一个稳定点。<br>对于自治的方程，我们加强稳定点的条件，渐进稳定，即存在常数 ，使得在此扰动下，任意的解在无穷延伸时满足 <br><br>我们研究  型的方程。<br>首先，我们得到上述方程的解 <br>
+通过类似的方法，我们得到此方程解的唯一性。<br>我们特别提出  是周期函数的情形。此时我们定义 以及拓展 稳定 的定义，得到 “稳定解”，定义非常的类似<br>
+那么将  与 1 做对比，得到三种不同的情形，对应这不同的稳定性。特别的，  时存在着唯一的周期解。<br><br>我们引入了一个非常特别的方法 Green's function ，以及所谓工科做法和 variationo of parameters。<br>]]></description><link>分析\常微分方程\ode-notes-4.5.html</link><guid isPermaLink="false">分析/常微分方程/ODE Notes 4.5.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 08 Oct 2024 04:58:47 GMT</pubDate></item><item><title><![CDATA[复分析做题日记]]></title><description><![CDATA[ 
  <br><br>7.11。一个简洁的写法： 复数  共线的充要条件：<br><br>题目数量统计
 
 <br>
@@ -1332,7 +1412,7 @@ holo 的  不是常数, 那么  是开映射.
 <a data-href="连续映射" href="连续映射" class="internal-link" target="_self" rel="noopener">连续映射</a>和开映射
 
 <br><a data-href="Real Analysis Notes 3" href="Real Analysis Notes 3" class="internal-link" target="_self" rel="noopener">Real Analysis Notes 3</a>]]></description><link>分析\实分析\real-analysis-notes-2.html</link><guid isPermaLink="false">分析/实分析/Real Analysis Notes 2.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sun, 15 Sep 2024 15:42:05 GMT</pubDate></item><item><title><![CDATA[Analysis III Note 1]]></title><description><![CDATA[ 
- <br>@2024/9/18，从今天起课程的教室就换到了经管楼，真是极致的奢华@<br><br><img alt="7F772B8955D379F41C8DB60EFF3CBCF7.jpg" src="lib\media\7f772b8955d379f41c8db60eff3cbcf7.jpg"><br><br><a data-tooltip-position="top" aria-label="正项级数收敛判别法" data-href="正项级数收敛判别法" href="mathstuff\正项级数收敛判别法.html" class="internal-link" target="_self" rel="noopener">一键回顾</a><br>正项级数 ，：<br>
+ <br>@2024/9/18，从今天起课程的教室就换到了经管楼，真是极致的奢华@<br><br><img alt="7F772B8955D379F41C8DB60EFF3CBCF7.jpg" src="lib\media\7f772b8955d379f41c8db60eff3cbcf7.jpg"><br><br><a data-tooltip-position="top" aria-label="正项级数收敛判别法" data-href="正项级数收敛判别法" href="分析\正项级数收敛判别法.html" class="internal-link" target="_self" rel="noopener">一键回顾</a><br>正项级数 ，：<br>
 <br>
 比较判别法 
 
@@ -1358,7 +1438,7 @@ Guess 超几何级数
 
 <br>当  时，收敛，  时，发散，相等时无法判断。
 
-<br><a data-href="Guess 超几何级数" href="mathstuff\guess-超几何级数.html" class="internal-link" target="_self" rel="noopener">Guess 超几何级数</a><br>
+<br><a data-href="Guess 超几何级数" href="分析\guess-超几何级数.html" class="internal-link" target="_self" rel="noopener">Guess 超几何级数</a><br>
 <br>
 <br><br>Gauss 判别法
 设正顶级数  若
@@ -1375,7 +1455,7 @@ Guess 超几何级数
  
 
 <br><br>
-<br><a data-tooltip-position="top" aria-label="级数收敛性的判别 2 > ^3a9a53" data-href="级数收敛性的判别 2#^3a9a53" href="mathstuff\级数收敛性的判别-2.html#^3a9a53" class="internal-link" target="_self" rel="noopener">Cauchy 凝聚判别法</a>
+<br><a data-tooltip-position="top" aria-label="级数收敛性的判别 2 > ^3a9a53" data-href="级数收敛性的判别 2#^3a9a53" href="分析\级数收敛性的判别-2.html#^3a9a53" class="internal-link" target="_self" rel="noopener">Cauchy 凝聚判别法</a>
 <br><br>级数收敛的 Cauchy 判据：<br>判据
 级数  收敛  
 <br>Dirichlet Abel 判别法
@@ -1400,7 +1480,7 @@ Guess 超几何级数
 若  收敛，但是  发散，则称其条件收敛
 <br>然后就结束了，合着一节课就回顾了一下，然后只讲了一个Abel变换、<br><a data-href="Analysis III Note 2" href="分析\数学分析\analysis-iii-note-2.html" class="internal-link" target="_self" rel="noopener">Analysis III Note 2</a>]]></description><link>分析\数学分析\analysis-iii-note-1.html</link><guid isPermaLink="false">分析/数学分析/Analysis III Note 1.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 21 Sep 2024 01:05:25 GMT</pubDate><enclosure url="lib\media\7f772b8955d379f41c8db60eff3cbcf7.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\7f772b8955d379f41c8db60eff3cbcf7.jpg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Analysis III Note 2]]></title><description><![CDATA[ 
  <br>@2024/9/21，今天从高烧中稍稍活过一点来了。又是半马又是第一次下水有点顶不住@<br><a data-href="Analysis III Note 1" href="分析\数学分析\analysis-iii-note-1.html" class="internal-link" target="_self" rel="noopener">Analysis III Note 1</a><br><br>这是用正式上笔记的第二节课，实际上是第四节课，不知道会有什么非平凡的东西。<br>做题中遇到一类问题，就是<br>
-的收敛性。放一个链接<a data-href="三角级数" href="mathstuff\三角级数.html" class="internal-link" target="_self" rel="noopener">三角级数</a>，后续补充。<br><br>我觉得你应该尽快回去复习一下。（A）<br>先回顾了一下<br><br><br>定义 条件收敛 绝对收敛
+的收敛性。放一个链接<a data-href="三角级数" href="分析\三角级数.html" class="internal-link" target="_self" rel="noopener">三角级数</a>，后续补充。<br><br>我觉得你应该尽快回去复习一下。（A）<br>先回顾了一下<br><br><br>定义 条件收敛 绝对收敛
 如果  收敛，那么 成  绝对收敛<br>
 若  收敛，但是  发散，则称其条件收敛
 <br>定理 若级数绝对收敛，则级数收敛<br>平凡的<br>定理：绝对收敛级数的重排不影响收敛性和其值<br>证明
@@ -1419,7 +1499,7 @@ Guess 超几何级数
 
 由 ，故 
 因此，  是  的子列，可知 ，，证毕。
-<br>去了解一下其他的证明方法和思想，这一定理你小学就听过，现在终于可以美美把玩，结论还是很震撼的。<br><a data-href="Riemann Rearrangement 黎曼重排" href="mathstuff\riemann-rearrangement-黎曼重排.html" class="internal-link" target="_self" rel="noopener">Riemann Rearrangement 黎曼重排</a><br>Example
+<br>去了解一下其他的证明方法和思想，这一定理你小学就听过，现在终于可以美美把玩，结论还是很震撼的。<br><a data-href="Riemann Rearrangement 黎曼重排" href="分析\riemann-rearrangement-黎曼重排.html" class="internal-link" target="_self" rel="noopener">Riemann Rearrangement 黎曼重排</a><br>Example
 对于级数 ，按次序取  个正项，  个负项，得到<br>
 
 <br><br>定义 级数的乘法（Cauchy 乘积）
@@ -1609,7 +1689,7 @@ Proof
 我们已经证明了  在  上是连续的，证明过程逻辑严密，没有发现错误。
 
 一致收敛的连续函数列确实收敛到连续函数。
-<br>我们有<a data-tooltip-position="top" aria-label="Weierstrass Uniform Convergence Theorem" data-href="Weierstrass Uniform Convergence Theorem" href="mathstuff\weierstrass-uniform-convergence-theorem.html" class="internal-link" target="_self" rel="noopener">抽象版本</a>。<br>开始举例子了<br>
+<br>我们有<a data-tooltip-position="top" aria-label="Weierstrass Uniform Convergence Theorem" data-href="Weierstrass Uniform Convergence Theorem" href="分析\weierstrass-uniform-convergence-theorem.html" class="internal-link" target="_self" rel="noopener">抽象版本</a>。<br>开始举例子了<br>
 <br> 在任何有界集上都一致收敛。
 <br><br>
 <br>
@@ -1664,9 +1744,375 @@ Abel-Dirichlet 判别法：设  定义在  上，若满足以下任一条件：
 
 这表明  在  处是连续的。由于  是  中的任意点， 在  上是连续的。
 
-<br><a data-href="Analysis III Note 6" href="mathstuff\analysis-iii-note-6.html" class="internal-link" target="_self" rel="noopener">Analysis III Note 6</a>]]></description><link>分析\数学分析\analysis-iii-note-5.html</link><guid isPermaLink="false">分析/数学分析/Analysis III Note 5.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 03 Oct 2024 05:49:05 GMT</pubDate></item><item><title><![CDATA[单位分解]]></title><description><![CDATA[ 
+<br><a data-href="Analysis III Note 6" href="分析\数学分析\analysis-iii-note-6.html" class="internal-link" target="_self" rel="noopener">Analysis III Note 6</a>]]></description><link>分析\数学分析\analysis-iii-note-5.html</link><guid isPermaLink="false">分析/数学分析/Analysis III Note 5.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 03 Oct 2024 05:49:05 GMT</pubDate></item><item><title><![CDATA[Analysis III Note 6]]></title><description><![CDATA[<a class="tag" href="?query=tag:数分分析" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#数分分析</a> <a class="tag" href="?query=tag:分析" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#分析</a> <a class="tag" href="?query=tag:周三" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#周三</a> 
+ <br>@2024-10-09，@
+<a href=".?query=tag:数分分析" class="tag" target="_blank" rel="noopener">#数分分析</a> <a href=".?query=tag:分析" class="tag" target="_blank" rel="noopener">#分析</a> <a href=".?query=tag:周三" class="tag" target="_blank" rel="noopener">#周三</a><br>
+<a data-href="Analysis III Note 5" href="分析\数学分析\analysis-iii-note-5.html" class="internal-link" target="_self" rel="noopener">Analysis III Note 5</a>
+<br><br>函数一致收敛的定义。<br>一致收敛的连续函数一致收敛到某个函数，则收敛函数连续。<br>讲了一些一致收敛得到连续的例子。<br><br>定理 （Dini)
+ 紧， ，对任意 ，  单调。则  
+<br>Proof
+,存在  使得 由连续性，可知 存在 ，有 于是对任意的 ，我们有 于是  这样的开覆盖，我们得到其有限子覆盖，从而取 ，由 的单调性可知，当  时我们得到 
+<br>推论：   紧，对于正项函数 ，每一项都连续，我们得到 <br>定理
+ 设 ，  定义在  上，且
+
+<br>，满足
+<br> 为  的一个极限点（聚点）
+<br>，存在极限 <br>
+那么得到  收敛于 ，并且有图
+
+Fn(x)GnF(x)Gx!x0n!1n!1x!x0
+交换
+<br>这里的证明基本套路都一样，你可以练习试一试。<br><br>记号保持一致：<br> 是完备的度量空间。<br>这里的度量就是 函数的无穷范数。<br>使用上面最后一个定理，两个交换图分别走一遍得到 对于 ，将其处理成 Riemann 和函数，那么  对应着积分。<br>
+<br>这里应该对应实分析的一些内容，后续补上
+<br>对应 Lebesgue 控制收敛定理。<br>Arzela 有界定理：条件稍稍弱化？<br>对于 （逐点收敛），如果在  上 ，  可积，如果对于这一函数列有一个一致的界 ，那么积分和求序列极限可以交换。<br>Box
+
+Arzela-Ascoli 定理是分析学中的一个重要定理，特别是在泛函分析和实分析中。它提供了一个充分条件，用于判断一个函数族在紧集上是否相对紧。
+
+设  是一个紧度量空间， 是  中的一个函数族，其中  表示在  上连续的实值函数集合。如果  满足以下两个条件：
+
+<br>一致有界性：存在一个常数 ，使得对于所有  和所有 ，有 。
+<br>等度连续性：对于任意 ，存在 ，使得对于所有  和所有 ，只要 ，就有 。
+
+那么， 在  中是相对紧的，即  的闭包是紧的。
+
+
+<br>一致有界性：这意味着  中的所有函数在  上的取值都被限制在一个有限的范围内。
+<br>等度连续性：这意味着  中的所有函数在  上的变化速度是受控的，即对于任意小的距离 ，函数值的变化也可以控制在一个任意小的范围内。
+
+这两个条件共同保证了  中的函数在  上的行为是“一致”的，从而使得  在  中是相对紧的。
+
+Arzela-Ascoli 定理在许多领域中有广泛的应用，例如：
+
+<br>偏微分方程：用于证明解的存在性和唯一性。
+<br>泛函分析：用于研究 Banach 空间中的紧算子。
+<br>概率论：用于证明某些随机过程的紧性。
+
+
+考虑 ，。显然， 是一致有界的。如果  还是等度连续的，那么根据 Arzela-Ascoli 定理， 在  中是相对紧的。
+
+Arzela-Ascoli 定理提供了一个强大的工具，用于判断函数族的紧性。它在分析学中有着广泛的应用，特别是在研究连续函数空间中的紧性问题时。
+<br><br>在闭区间上的函数列 ，每一项都可微，存在  使得  收敛，并且  一致收敛到 ，那么我们断言  可微并且 。<br>由于 从而  一致收敛与 <br>对于可微性，令 这里  取在合适区间，那么我们有 <br><a data-href="Analysis III Note 7" href="Analysis III Note 7" class="internal-link" target="_self" rel="noopener">Analysis III Note 7</a>]]></description><link>分析\数学分析\analysis-iii-note-6.html</link><guid isPermaLink="false">分析/数学分析/Analysis III Note 6.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 09 Oct 2024 07:06:25 GMT</pubDate></item><item><title><![CDATA[单位分解]]></title><description><![CDATA[ 
  <br><br>对于某个紧集 ，其上的开覆盖  存在有限子覆盖，在每个子覆盖的开集上通过<br>]]></description><link>分析\单位分解.html</link><guid isPermaLink="false">分析/单位分解.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 11 Sep 2024 23:39:15 GMT</pubDate></item><item><title><![CDATA[度量空间的完备化]]></title><description><![CDATA[ 
- ]]></description><link>分析\度量空间的完备化.html</link><guid isPermaLink="false">分析/度量空间的完备化.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 10 Sep 2024 15:37:39 GMT</pubDate></item><item><title><![CDATA[《概率论教程》读书笔记 1]]></title><description><![CDATA[<a class="tag" href="?query=tag:概率论" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#概率论</a> <a class="tag" href="?query=tag:probobility" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#probobility</a> <a class="tag" href="?query=tag:分布函数" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#分布函数</a> 
+ ]]></description><link>分析\度量空间的完备化.html</link><guid isPermaLink="false">分析/度量空间的完备化.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 10 Sep 2024 15:37:39 GMT</pubDate></item><item><title><![CDATA[分析-收敛]]></title><description><![CDATA[ 
+ <br>我们的目标是说清楚在度量空间里面序列的收敛是一个什么样的概念，可以用什么样的方式刻画，以及与其相关的一些非平凡的例子。<br>我不想谈论过于一般的情形，那些就放到拓扑里面去学习。在分析里面，我们考虑具有范数结构的空间。<br><br>  是一个赋范线性空间，那么对 ，我们定义<br>
+从而我们在有界函数空间  上有自然的范数，称为 supremum norm。具体的细节验证可以参考 Analysis (Amann) Vol.I Proposition 3.5<br>不同范数诱导的拓扑只有一种。所有的范数都是等价的。<br>Cauchy 收敛准则的证明
+
+定理内容：一个实数序列  收敛的充分必要条件是：对于任意给定的正数 ，存在一个正整数 ，使得对于所有 ，有 。
+证明：
+
+假设序列  收敛到某个极限 ，即 。
+根据极限的定义，对于任意 ，存在一个正整数 ，使得对于所有 ，有 。
+现在考虑任意 ，我们有：
+
+因此，对于任意 ，存在 ，使得对于所有 ，有 。这证明了必要性。
+
+假设对于任意 ，存在一个正整数 ，使得对于所有 ，有 。我们需要证明序列  收敛。
+首先，我们证明  是一个基本序列（Cauchy 序列）。根据假设，对于任意 ，存在 ，使得对于所有 ，有 。这正是 Cauchy 序列的定义。
+接下来，我们利用实数完备性的性质，即在实数域中，每个 Cauchy 序列都收敛。因此，序列  收敛。
+
+我们已经证明了 Cauchy 收敛准则的充分性和必要性。因此，Cauchy 收敛准则是正确的。
+验证：
+
+<br>必要性部分通过极限的定义和三角不等式证明了对于任意 ，存在 ，使得 。
+<br>充分性部分通过证明序列是 Cauchy 序列，并利用实数完备性证明了序列收敛。
+
+证明无误。
+]]></description><link>分析\分析-收敛.html</link><guid isPermaLink="false">分析/分析-收敛.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 05 Oct 2024 12:12:33 GMT</pubDate></item><item><title><![CDATA[级数收敛性的判别 2]]></title><description><![CDATA[ 
+ <br>@2024-9-18，作为上一次的补充和心得@<br><a data-href="正项级数收敛判别法" href="分析\正项级数收敛判别法.html" class="internal-link" target="_self" rel="noopener">正项级数收敛判别法</a><br><br>首先增加几种判别法<br><br>Cauchy 凝聚判别法
+正项级数 单调递减。则  和  同敛散。
+<br>马上想到的一件事就是可以对一个数列反复应用这个定理，从而由一个抽象级数得到一系列收敛越来越快的新级数<br>对于那些收敛得比较慢的级数，可以这么操作一下，然后就比较好看出来。<br>
+<br><a data-href="越来越慢的级数" href="越来越慢的级数" class="internal-link" target="_self" rel="noopener">越来越慢的级数</a><br><br>Kummer 判别法
+正项级数  收敛的充分必要条件是，存在正数数列  和 ，使得当  充分大时<br>
+发散的充分必要条件是存在发散的正项级数  使得  充分大时有<br>
+
+<br>证明
+只证收敛的情形，可以去谢惠民的习题集找其余的证明。
+充分性：如果已经成立，那么就会有 注意到  单调递减，从而可以对  的每一项放缩之后 scooop
+必要性：记余项 ，令 然后自己写开算一下就可。 
+<br>我不觉得这个东西是一个好用的工具，至少目前没有遇到过好用的使用场景，再说这东西其实就是一个比较判别法，如果你这个方法能做（找到一个对应的级数），那么你其他方法应该也能做。<br><br>定理 (Toeplitz)
+
+满足三条
+
+<br>任意一行的绝对值求和有一个一致的界。
+<br>任何一列都趋于 0
+<br>设收敛序列  收敛于 ，记 ，那么我们有 
+
+<br>横向的级数是绝对收敛的，并且收敛到1，纵向的数列是趋于 0 的。<br> AI 
+
+定理内容：设  是一个无穷矩阵，满足以下条件：
+
+<br>
+<br>
+<br>对于任意固定的 ，
+
+如果序列  收敛于 ，则序列  也收敛于 ，其中 。
+证明：
+
+我们需要证明 ，即对于任意 ，存在 ，使得当  时，。
+
+<br>
+定义  和 ：
+
+
+<br>
+考虑 ：
+
+
+<br>
+将  拆分为两部分：
+
+
+<br>
+利用三角不等式：
+
+
+<br>
+分析第一项：
+
+由于  收敛于 ，对于任意 ，存在 ，使得当  时，。因此：
+
+由于  对于 ，我们有：
+
+
+<br>
+分析第二项：
+
+由于 ，我们有：
+
+
+<br>
+结合两项：
+
+由于 ，我们可以选择  使得当  时，。因此：
+
+由于  是有限的，并且  是任意的，我们可以选择足够大的  使得 。
+
+
+
+我们已经证明了 ，即对于任意 ，存在 ，使得当  时，。
+结论：证明正确。
+
+<br>
+<br>Cesaro 求和
+<br>Poisson-Abel 求和
+]]></description><link>分析\级数收敛性的判别-2.html</link><guid isPermaLink="false">分析/级数收敛性的判别 2.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 05 Oct 2024 12:06:51 GMT</pubDate></item><item><title><![CDATA[解的存在性与唯一性 1]]></title><description><![CDATA[ 
+ <br>@2024-09-13，反正是云里雾里@<br>定理 1
+对于 对任意的初值 ，此方程存在解且唯一。
+<br>习题里面证明此处  不一定要  。但是至少可微。考虑反例<br>
+则 都是解。<br>证明
+首先是平衡点的情况。 。则对任意的 , 为开区间，则其上存在解 , 使得  。
+我们来证明这一事实，如果存在 , 由于  的连续性，可以看出<br>
+ （不妨就令 <br>
+存在且 ，（为什么存在？RHS的集合是闭集的原像）
+所以  在  上内闭可积。通过积分得到一个时间差 ，这是一个实数，记为 ，但是由于  是 Lipschitz 连续（)，可以将积分放缩<br>
+从而  时黄色部分爆掉，矛盾。
+然后我们来看非平衡点的情况，
+<br>定理 2 最大延伸解
+对于  ，若 ，则存在最大延伸解<br>
+，其中  是开区间，且
+
+<br>
+<br>局部的唯一性，即子区间上的任意解都等于最大延伸解在其上的限制。
+
+<br>证明
+找到保持  的上下界，记为 ，记 
+在  上放心大胆的积分。我们记 ，这是一个严格单调递增函数(对  )。来找  空间对应的 
+ 即为所求。解为 。
+下面我们证第二点。由 以及定理一得到 ，其中 
+从而可以积分，从而证明了其唯一性
+
+<br>最后我们证明它是最大延伸的。
+
+<br>你会翻译证明中  的定义吗？<br>
+<br><br>
+<br>第二点证明中，为什么需要用到定理一？  的定义不是已经有其上  了吗？
+<br>这里对唯一的证明是否有不严谨之处？
+]]></description><link>分析\解的存在性与唯一性-1.html</link><guid isPermaLink="false">分析/解的存在性与唯一性 1.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 21 Sep 2024 04:33:31 GMT</pubDate></item><item><title><![CDATA[曲面的定义]]></title><description><![CDATA[ 
+ <br><br>定义的方式有很多。<br>
+<br>流形在大空间里任意一点的邻域和对应维数的   同胚，  是  中的开集。
+<br>或者先将邻域  和流形做交 ，这个集合与  中的开集  同胚。
+<br>嵌入与浸入（之后再谈）
+<br>
+<br>local chart 是相容的：操作是诱导  之间的微分同胚 ，<img alt="Pasted image 20240517103127.png" src="lib\media\pasted-image-20240517103127.png" style="width: 1035px; max-width: 100%;">
+<br>命题：图像是流形（太显然了），正则值原像是流形（由隐函数定理：满足某种条件的函数的零点的纤维是另一个光滑函数的图像）<br><br>局部坐标系给出了一个定向，atlas 的定向如果相容，则这个曲面可定向。而相容使用  刻画。<br><br><br><br>定义两个向量张出的面积<br>
+后者是<a data-href="Gram 矩阵" href="Gram 矩阵" class="internal-link" target="_self" rel="noopener">Gram 矩阵</a>。<br>后者等于 <br>从而归纳地定义  中张成的面积。<br><br>给出 Riemann 和（每一点用该点的微分变换面积元的体积），去极限为积分（没有说收敛性，怎么说？）<br>证明了和换元法是相容的。<br>算了一堆例子<br><br> 中的  维曲面  上定义连续函数  ，， 是 local chart，则可定义<br><br>算了一个椭圆例子。<br><br><br>
+<br>例子，回顾<br>
+	
+<br><br>  中的闭球不是原来意义上的流形。<br>定义 <br>定义
+设  是  中的集合，称  是  中的一个  维带边曲面，若对任意 ，存在  在  中的一个开邻域  以及  维微分同胚  或 ，其中 
+<br>注意到  刻画了流形在边界处的行为。 的边界定义为满足  的所有  点。<br>
+<br>
+命题，边界非空的  维  光滑带边曲面 ，则  是  维  光滑曲面。
+证明：带边流形的 Atlas 有两类，取与  同胚的一类，做出边界的图册。具体操作：。对  的处理类似。为什么  是 C^m 的？
+
+<br>
+命题，  是  中的一个区域， , 0 是  的正则值，则 ，则  是  维带边  光滑曲面，
+
+<br> 是带边流形，显然。
+<br>用秩定理， 使得 ，有  ，从而在邻域本质上 ，后者对应的  是 。<br>
+从而
+
+
+<br>
+带边曲面的定向。和前无异。
+
+<br>
+定理：  是  中  维  光滑可定向的带边曲面，则边界  是  中可定向的  维的  光滑曲面。
+
+<br>在之后 Stokes 公式中很重要。
+<br>边界上的 local chart   诱导出边界的 local chart 
+<br>已知  (定向相容)。而  是  的子式。在边界处会有 奇怪 的处理，
+<br>
+
+
+<br>
+<br>例子：对  中的单位球赋予自然定向，则  的诱导定向是逆时针。]]></description><link>分析\曲面.html</link><guid isPermaLink="false">分析/曲面.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Fri, 13 Sep 2024 06:02:45 GMT</pubDate><enclosure url="lib\media\pasted-image-20240517103127.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240517103127.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[三角级数]]></title><description><![CDATA[ 
+ <br>收敛还是发散？]]></description><link>分析\三角级数.html</link><guid isPermaLink="false">分析/三角级数.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 21 Sep 2024 00:03:29 GMT</pubDate></item><item><title><![CDATA[正项级数收敛判别法]]></title><description><![CDATA[<a class="tag" href="?query=tag:级数" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#级数</a> <a class="tag" href="?query=tag:收敛" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#收敛</a> 
+ <br><a href=".?query=tag:级数" class="tag" target="_blank" rel="noopener">#级数</a> <a href=".?query=tag:收敛" class="tag" target="_blank" rel="noopener">#收敛</a> <br><br>
+<br>
+设正项级数 , , 当  充分大时有 .
+
+<br>若  收敛, 则  也收敛.
+<br>若  发散, 则  也发散.
+
+
+<br>
+（极限形式）设正项级数 , , 若<br>
+则<br>
+(1) 当  时，级数 ,  同敛散。<br>
+(2) 当  时，若级数  收敛时，则  也收敛。<br>
+(3) 当  时，若级数  次数时，则  也发散。
+
+<br>这个本身比较平凡，没什么好说的。你需要对各种级数的快慢建立一个感觉，实际中采用不同的比较级数。<br>操作上，把比较级数写在分子上，期待比值被控制吧。这是你的个人习惯。<br>想一想为什么这里局限在正项级数？<br><br>比值判别法
+设正项级数  和 <br>
+当  充分大后, 若
+
+则 (1) 当  收敛时,   也收敛.
+(2) 当  发散时,  也发散.
+<br>大项在上<br>注意到比值判别法的通项要求单调。<br><br>积分的几个估计 <a data-tooltip-position="top" aria-label="https://www.bilibili.com/video/BV1GW4y1B7A6/?p=70&amp;spm_id_from=pageDriver" rel="noopener" class="external-link" href="https://www.bilibili.com/video/BV1GW4y1B7A6/?p=70&amp;spm_id_from=pageDriver" target="_blank">有时间搞搞</a><br><br>Cauchy 积分判别法
+设函数  在  上非负且单调递减，则以下无穷级数与无穷积分同级数:<br>
+
+<br>通过这个技术，我们可以做出来一些收敛的非常慢的级数，方便比较。<br><br>通常到这一水平就够了，诸如 在不考虑。<br><br><br>Cauchy 根值判别法
+对于正项级数 , ，<br>
+充分大时，存在  使得 ，则收敛。<br>
+若存在无穷多的  满足 ，则发散
+<br>显然是在和几何级数比较。<br>比较有趣的是发散的判别条件。想想为什么不是<br>Cauchy 根值判别法（极限形式）
+
+(1) 当  时，级数收敛。<br>
+(2) 当  时，级数发散。
+<br><br>对数判别法
+设正项级数 。令<br>
+当  充分大时，<br>
+若存在  使得 ，则级数  收敛。<br>
+若 ，则级数  发散
+核心
+
+
+<br>Proof
+
+<br><br><br>去比值判别法的  为几何级数。<br>对应的极限形式，考虑上下极限，取得的值都小于一即可<br><br>则收敛，均大于一趋于 ，其余无法判断<br>和 Cauchy 根值判别法基本没有区别<br><br>Cauchy 更强一点。<br><br>Raabe 判别法
+正项级数 
+
+当  充分大时，
+(1) 若存在  满足 ，则级数收敛<br>
+(2) 若 ，则级数发散。
+核心
+
+
+<br>证明
+
+简单改写一下
+
+<img alt="Pasted image 20240916174049.png" src="lib\media\pasted-image-20240916174049.png" style="width: 1076px; max-width: 100%;">
+<br>Raabe 判别法（极限形式）
+
+即 则
+(1) 当  时级数收敛。
+(2) 当  时级数发散。
+(3) 当  时无法判断级数的敛散性。
+<br><br>Bertrand 判别法
+
+<br>我懒得说了，懂得都懂。<br>总的来说，这一堆比较判别法比较方便那些比一下可以消掉很多项的级数。<br>练练手看一看<br><img alt="Pasted image 20240916175002.png" src="lib\media\pasted-image-20240916175002.png"><br><br>Gauss 判别法
+设正顶级数  若
+
+其中  都是常数， 是一个有界量。则级数的敛散性为
+
+<br><br>Done
+Cauchy 根值判别法 的发散形式要求无穷多项大于 0
+Raabe 判别法的一般形式 和对数判别法是唯二两个在 1 处 级数能够判断且是发散的。（对应的比较判别法应该基本一致）
+对数判别法没有极限形式
+Cauchy 根式判别法应该是最先用的
+<br><br>
+<br>
+
+设正项级数  和 ，当  充分大时有 。若  收敛，则  也收敛；若  发散，则  也发散。
+
+<br>
+
+设正项级数  和 ，若 ，则：<br>
+(1) 当  时，级数  和  同敛散。<br>
+(2) 当  时，若级数  收敛，则  也收敛。<br>
+(3) 当  时，若级数  发散，则  也发散。
+
+<br>
+
+设正项级数  和 ，当  充分大后，若 ，则：<br>
+(1) 当  收敛时， 也收敛。<br>
+(2) 当  发散时， 也发散。
+
+<br>
+
+设函数  在  上非负且单调递减，则以下无穷级数与无穷积分同敛散：<br>
+
+
+<br>
+
+对于正项级数 ，设 ，若  充分大时，存在  使得 ，则级数收敛；<br>
+若存在无穷多的  满足 ，则级数发散。
+
+<br>
+
+(1) 当  时，级数收敛。<br>
+(2) 当  时，级数发散。
+
+<br>
+
+设正项级数 。令<br>
+当  充分大时，<br>
+若存在  使得 ，则级数  收敛。<br>
+若 ，则级数  发散。
+
+<br>
+
+正项级数  的 Raabe 判别法定义为：<br>
+当  充分大时，<br>
+(1) 若存在  满足 ，则级数收敛。<br>
+(2) 若 ，则级数发散。
+
+<br>
+
+简单改写一下<br>
+因此，级数  收敛。
+
+<br>
+
+设正项级数  若<br>
+其中  都是常数， 是一个有界量。则级数的敛散性为：
+
+<br>]]></description><link>分析\正项级数收敛判别法.html</link><guid isPermaLink="false">分析/正项级数收敛判别法.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 18 Sep 2024 06:26:17 GMT</pubDate><enclosure url="lib\media\pasted-image-20240916174049.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240916174049.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[自然对数的底 e]]></title><description><![CDATA[ 
+ <br>我第一次见到  是在小学看《可怕的数学》的时候，那会什么都不懂，只知道这玩意似乎和银行利息计算有一些关系，然后被背会了它的名字”自然对数的底“。当初的感觉，一言以蔽之：高大上。<br>如今，关于  的科普和有趣的例子都非常多了，网上可以找到很多。在这里我记录一些关于  的，以及非常重要的映射  的非平凡的，容易忘记但是比较有趣的内容。<br><br><br>或者通过无穷级数定义：<br><br>关于这两者的等价性，那两波极限的放缩我现在也没有很好的理解，也许哪天搞定了会修改这一部分内容。<br>如果直接从级数角度入手，可以得到 ，用到二项式定理和实数的交换性，其实如果有交换性，你就可以定义一些  之类的东西，比如 ,  代表什么呢？为什么良好定义呢？可以思考一下。<br>关于经典定义 ，这里有一些变种，比如  得到单调递减的数列之类。又或者将  的 换成有理数之类，这些细节应该没有那么重要，如果你未来用到，到时候再复习就好了。<br>其实我最开始意识到自己犯了初学者常见的求极限错误的例子时，就是发现自己把这个极限求成了<br>
+这下笑嘻了，没关系，人总有这样的时候。<br>现在我们一般处理  这种东西的时候，首先考虑的肯定是无脑放到指数上<br>
+<br><br>证明用到  的收敛速度非常之快，事实上有<br>
+那么为什么是无理数呢？不妨假设 ，然后考虑 上述的内容。这方面的内容也非常丰富，如果你做不出来，那就参考一下下面的图<br>这里
+<img alt="8078e7551c1bcbe8c635a3b65e1f3a5e_720.jpg" src="lib\media\8078e7551c1bcbe8c635a3b65e1f3a5e_720.jpg">
+]]></description><link>分析\自然对数的底-e.html</link><guid isPermaLink="false">分析/自然对数的底 e.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 03 Oct 2024 14:03:50 GMT</pubDate><enclosure url="lib\media\8078e7551c1bcbe8c635a3b65e1f3a5e_720.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\8078e7551c1bcbe8c635a3b65e1f3a5e_720.jpg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Gauss 判别法]]></title><description><![CDATA[ 
+ ]]></description><link>分析\gauss-判别法.html</link><guid isPermaLink="false">分析/Gauss 判别法.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 18 Sep 2024 06:22:41 GMT</pubDate></item><item><title><![CDATA[Guess 超几何级数]]></title><description><![CDATA[ 
+ <br><br> 是 Pochhammer 符号，定义为：<br>]]></description><link>分析\guess-超几何级数.html</link><guid isPermaLink="false">分析/Guess 超几何级数.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 18 Sep 2024 06:12:03 GMT</pubDate></item><item><title><![CDATA[Riemann Rearrangement 黎曼重排]]></title><description><![CDATA[ 
+ ]]></description><link>分析\riemann-rearrangement-黎曼重排.html</link><guid isPermaLink="false">分析/Riemann Rearrangement 黎曼重排.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 21 Sep 2024 01:03:45 GMT</pubDate></item><item><title><![CDATA[Weierstrass Uniform Convergence Theorem]]></title><description><![CDATA[ 
+ <br>在有界函数空间上可以定义度量：<br>
+这里 ，其中  是一拓扑空间，  是一度量空间。<br>注意有界函数的定义：  有界  。<br>（事实上只需要找到一个  使得  即可。<br>Weierstrass Uniform Convergence Theorem
+ 是一拓扑空间， 是一度量空间，，换言之是有界函数列，且每一个  都连续，如果存在  使得 ，则  有界且连续。
+<br>证明非常典，参考<a data-href="Analysis III Note 5" href="分析\数学分析\analysis-iii-note-5.html" class="internal-link" target="_self" rel="noopener">Analysis III Note 5</a>的最后。<br><br>如果我们加强条件，让度量空间  完备，那么我们有  完备。<br>总之，映射到完备度量空间的连续函数空间是完备的，从而任何一串函数列都有收敛子列。<br>当然你需要注意这是在怎么诱导出来的度量上谈论的。]]></description><link>分析\weierstrass-uniform-convergence-theorem.html</link><guid isPermaLink="false">分析/Weierstrass Uniform Convergence Theorem.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 03 Oct 2024 12:00:38 GMT</pubDate></item><item><title><![CDATA[《概率论教程》读书笔记 1]]></title><description><![CDATA[<a class="tag" href="?query=tag:概率论" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#概率论</a> <a class="tag" href="?query=tag:probobility" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#probobility</a> <a class="tag" href="?query=tag:分布函数" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#分布函数</a> 
  <br>@2024-10-05，这是第一次接触概率相关的东西，我会把初次学习遇到的东西和感悟写下来@
 <a href=".?query=tag:概率论" class="tag" target="_blank" rel="noopener">#概率论</a> <a href=".?query=tag:probobility" class="tag" target="_blank" rel="noopener">#probobility</a> <a href=".?query=tag:分布函数" class="tag" target="_blank" rel="noopener">#分布函数</a><br>
 <a data-href="《概率论教程》读书笔记 0" href="《概率论教程》读书笔记 0" class="internal-link" target="_self" rel="noopener">《概率论教程》读书笔记 0</a>
@@ -1698,7 +2144,27 @@ Abel-Dirichlet 判别法：设  定义在  上，若满足以下任一条件：
 <img alt="0ef6ba6d08774adad124fb71e59e6e72_720.jpg" src="lib\media\0ef6ba6d08774adad124fb71e59e6e72_720.jpg"><br>
 <img alt="b1a49546407fa6fb52318dceec1ed374_720.jpg" src="lib\media\b1a49546407fa6fb52318dceec1ed374_720.jpg"><br>
 <img alt="b59302dec9d0f364c16ecaba35b4cbf7_720.jpg" src="lib\media\b59302dec9d0f364c16ecaba35b4cbf7_720.jpg"><br>这一块你今年除夕写的笔记总结挺好，去参考那个吧。在<a data-tooltip-position="top" aria-label="https://chengwuming.github.io/openmathnotes/edited-latex.html" rel="noopener" class="external-link" href="https://chengwuming.github.io/openmathnotes/edited-latex.html" target="_blank">这里</a><br>期待未来能看到 AI 帮我转换成 Markdown 的一天。<br><a data-href="Topology Notes 2" href="拓扑\topology-notes-2.html" class="internal-link" target="_self" rel="noopener">Topology Notes 2</a>]]></description><link>拓扑\topology-notes-1.html</link><guid isPermaLink="false">拓扑/Topology Notes 1.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 03 Oct 2024 11:34:41 GMT</pubDate><enclosure url="lib\media\0dc7a97ca089ac89ac0c9edc29160019_720.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\0dc7a97ca089ac89ac0c9edc29160019_720.jpg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Topology Notes 2]]></title><description><![CDATA[ 
- ]]></description><link>拓扑\topology-notes-2.html</link><guid isPermaLink="false">拓扑/Topology Notes 2.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 03 Oct 2024 11:31:44 GMT</pubDate></item><item><title><![CDATA[简谐波]]></title><description><![CDATA[ 
+ ]]></description><link>拓扑\topology-notes-2.html</link><guid isPermaLink="false">拓扑/Topology Notes 2.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 03 Oct 2024 11:31:44 GMT</pubDate></item><item><title><![CDATA[Topology Space]]></title><description><![CDATA[ 
+ <br>定义 拓扑空间
+设是一个集合，是的子集族。如果满足以下条件：
+
+<br> 且 。
+<br>对于任意中的元素（，为任意指标集），有。
+<br>对于任意中的有限个元素，有。
+
+则称为上的一个拓扑，称为一个拓扑空间。中的元素称为开集。
+<br><br>定义 拓扑基
+设是一个拓扑空间，是的一个子集族。如果满足以下条件：
+
+<br>，使得。
+<br>对于任意和，存在，使得。
+
+则称为拓扑的Base（基）。
+<br>定义 拓扑的子基
+设是一个拓扑空间，是的一个子集族。如果的有限交全体构成的集合是的一个Base，即：
+
+是的一个Base，则称为拓扑的Subbase（子基）。
+<br>拓扑基有等价定义。即  的子集  ，任意  中的元素都可以用  中的元素并出来。]]></description><link>拓扑\topology-space.html</link><guid isPermaLink="false">拓扑/Topology Space.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Fri, 13 Sep 2024 06:28:51 GMT</pubDate></item><item><title><![CDATA[简谐波]]></title><description><![CDATA[ 
  <br>简谐波方程<br><br>行波:  形式的函数：右行波。<br>注意关系：<br><br>从而令  ，则<br><br><br><br>
 <br>能量密度  , 波强  
 <br><br>
@@ -1833,7 +2299,33 @@ Abel-Dirichlet 判别法：设  定义在  上，若满足以下任一条件：
 我们有<br>
 <br><br>以平行板电容器为例<br>
 得到的能量密度<br>
-总之你需要背会的是<br>能量密度 <br>一道小例题，自己下来去算算。在下面的ppt第27页<br><br><a data-href="大学物理（2） 笔记 6" href="mathstuff\大学物理（2）-笔记-6.html" class="internal-link" target="_self" rel="noopener">大学物理（2） 笔记 6</a>]]></description><link>物理\大学物理（2）-笔记-5.html</link><guid isPermaLink="false">物理/大学物理（2） 笔记 5.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sun, 29 Sep 2024 03:09:47 GMT</pubDate><enclosure url="lib\media\pasted-image-20240929095909.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240929095909.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[可交换]]></title><description><![CDATA[ 
+总之你需要背会的是<br>能量密度 <br>一道小例题，自己下来去算算。在下面的ppt第27页<br><br><a data-href="大学物理（2） 笔记 6" href="物理\大学物理（2）-笔记-6.html" class="internal-link" target="_self" rel="noopener">大学物理（2） 笔记 6</a>]]></description><link>物理\大学物理（2）-笔记-5.html</link><guid isPermaLink="false">物理/大学物理（2） 笔记 5.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sun, 29 Sep 2024 03:09:47 GMT</pubDate><enclosure url="lib\media\pasted-image-20240929095909.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240929095909.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[大学物理（2） 笔记 6]]></title><description><![CDATA[<a class="tag" href="?query=tag:大学物理" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#大学物理</a> <a class="tag" href="?query=tag:周二" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#周二</a> <a class="tag" href="?query=tag:电流" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#电流</a> 
+ <br>@2024-10-08，为什么国庆假期结束了，我什么都没干？@
+<a href=".?query=tag:大学物理" class="tag" target="_blank" rel="noopener">#大学物理</a> <a href=".?query=tag:周二" class="tag" target="_blank" rel="noopener">#周二</a> <a href=".?query=tag:电流" class="tag" target="_blank" rel="noopener">#电流</a><br>
+<a data-href="大学物理（2） 笔记 5" href="物理\大学物理（2）-笔记-5.html" class="internal-link" target="_self" rel="noopener">大学物理（2） 笔记 5</a>
+<br><br>电位移矢量 ，<br>
+ 然后就是  的转化：<br>
+<br>电容的计算。一串要背的东西到现在你也没背<br>电容器储能： <br>有介质的静电场能量密度： <br>
+<br>快去做思考题
+<br><br><br> <br>对于单一载流子， ，这里  是载流子数密度，  是载流子定向运动速度，我们可以定义电荷密度 <br>对于多种载流子，分别求和即可 <img alt="Pasted image 20241008101324.png" src="lib\media\pasted-image-20241008101324.png"><br>这样定义的 电流密度矢量的通量就是电流。<br><br>这里  是封闭曲面。单位时间流出封闭曲面的电量即为曲面内的电荷的减少量，即为电荷守恒。<br><br>即  不随时间变化的电流。所以电荷分布也不变。<br>其条件即为 换言之电流线闭合。如此，服从高斯定理，环路定理。<br><br>积分形式 均匀导体的电阻 ，电导 ，电导率  <br>微分形式<br>
+适用范围。上述的微分形式对非稳恒的电流也是成立的。（显然）<br>有很多材料不服从欧姆定律。强电场会导致  和  的非线性关系。 理想导体的 ，但是超导体不能简单地看做理想导体。<br><br>定义非静电场强 这里  是移动载流子的非静电力。从而我们定义电源电动势 这里积分路径就是看  存在的路径。<br><img alt="2294f8a3d523d858e5f8ee3e8d915206_720.jpg" src="lib\media\2294f8a3d523d858e5f8ee3e8d915206_720.jpg"><br>
+两个电压表的示数是不同的。拓扑意义上两表不同，可以如此理解：感生电动势由变化磁场产生，当把电压表换位时会切割磁场。<br><br><br>导体内部无净电荷分布，净电荷只能分布在导线表面或导体的不均匀处，如电极，导线的表面，交界面，弯折处（为啥？）<br><br> <br><br>节点电流为零，回路电压为零。<br>注意，经过电源时，从负极到正极，减去电动势。<br><br><a data-href="大学物理（2） 笔记 7" href="物理\大学物理（2）-笔记-7.html" class="internal-link" target="_self" rel="noopener">大学物理（2） 笔记 7</a>]]></description><link>物理\大学物理（2）-笔记-6.html</link><guid isPermaLink="false">物理/大学物理（2） 笔记 6.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 08 Oct 2024 03:10:32 GMT</pubDate><enclosure url="lib\media\pasted-image-20241008101324.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20241008101324.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[大学物理（2） 笔记 7]]></title><description><![CDATA[<a class="tag" href="?query=tag:大学物理" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#大学物理</a> <a class="tag" href="?query=tag:周四" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#周四</a> <a class="tag" href="?query=tag:电流" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#电流</a> 
+ <br>@2024-10-10，对电流做收尾，开始学习磁@
+<a href=".?query=tag:大学物理" class="tag" target="_blank" rel="noopener">#大学物理</a> <a href=".?query=tag:周四" class="tag" target="_blank" rel="noopener">#周四</a> <a href=".?query=tag:电流" class="tag" target="_blank" rel="noopener">#电流</a><br>
+<a data-href="大学物理（2） 笔记 6" href="物理\大学物理（2）-笔记-6.html" class="internal-link" target="_self" rel="noopener">大学物理（2） 笔记 6</a>
+<br><br><img alt="Pasted image 20241010095524.png" src="lib\media\pasted-image-20241010095524.png"><br><img alt="Pasted image 20241010095649.png" src="lib\media\pasted-image-20241010095649.png"><br><br>基本方程<br>
+<img alt="Pasted image 20241010095805.png" src="lib\media\pasted-image-20241010095805.png"><br>在电介质的界面处有<br>
+<img alt="Pasted image 20241010100014.png" src="lib\media\pasted-image-20241010100014.png"><br><br>
+<br>
+充电<br>
+有 ，从而方程为 解得<img alt="Pasted image 20241010101309.png" src="lib\media\pasted-image-20241010101309.png" style="width: 273px; max-width: 100%;">，从而得到电流和电容器电压的值：<img alt="Pasted image 20241010101322.png" src="lib\media\pasted-image-20241010101322.png">
+
+<br>
+放电<br>
+<img alt="Pasted image 20241010101634.png" src="lib\media\pasted-image-20241010101634.png">
+
+<br>定义时间常数 ，在  是电路基本就不变化了。<br>
+这种电路是非稳恒过程，但是我们  很小的时候可以近似的看成ok。<br><br><br><br><a data-href="大学物理（2） 笔记 8" href="大学物理（2） 笔记 8" class="internal-link" target="_self" rel="noopener">大学物理（2） 笔记 8</a>]]></description><link>物理\大学物理（2）-笔记-7.html</link><guid isPermaLink="false">物理/大学物理（2） 笔记 7.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 10 Oct 2024 02:53:07 GMT</pubDate><enclosure url="lib\media\pasted-image-20241010095524.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20241010095524.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[可交换]]></title><description><![CDATA[ 
  <br><br><br><br>
 <br>同时正交对角化
 
@@ -1957,7 +2449,7 @@ Abel-Dirichlet 判别法：设  定义在  上，若满足以下任一条件：
 <br>这里对唯一的证明是否有不严谨之处？
 <br><br>此时 ，否则在原点处  无界，（为奇点？）<br>扩展到 Projective line, 在无穷远点处做变换  ，得到<br>
 同理，需要 ，综上 <br><br>解 logistic curve<br>
-对于初值 ，有 ，从而根据<a data-tooltip-position="top" aria-label="解的存在性与唯一性 1 > ^6c3c06" data-href="解的存在性与唯一性 1#^6c3c06" href="mathstuff\解的存在性与唯一性-1.html#^6c3c06" class="internal-link" target="_self" rel="noopener">唯一性定理</a>得到所求曲线为 。<br>对于其他的初值，根据其上所在的位置，我们去到对应的区间做积分：<br>
+对于初值 ，有 ，从而根据<a data-tooltip-position="top" aria-label="解的存在性与唯一性 1 > ^6c3c06" data-href="解的存在性与唯一性 1#^6c3c06" href="分析\解的存在性与唯一性-1.html#^6c3c06" class="internal-link" target="_self" rel="noopener">唯一性定理</a>得到所求曲线为 。<br>对于其他的初值，根据其上所在的位置，我们去到对应的区间做积分：<br>
 <br>，则最大延伸区间不能超过 ，有<br>
 可以去掉绝对值，解得 对于 ，一切同上，对于去绝对值的步骤有<br>
 从而结果一致。
@@ -1981,157 +2473,13 @@ Abel-Dirichlet 判别法：设  定义在  上，若满足以下任一条件：
 
 <br><br><img alt="Pasted image 20240915092331.png" src="lib\media\pasted-image-20240915092331.png"><br>
 <img alt="Pasted image 20240915092339.png" src="lib\media\pasted-image-20240915092339.png"><br>
-<img alt="Pasted image 20240915092346.png" src="lib\media\pasted-image-20240915092346.png">]]></description><link>作业\ode-第一次作业.html</link><guid isPermaLink="false">作业/ODE 第一次作业.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 21 Sep 2024 04:34:14 GMT</pubDate><enclosure url="lib\media\pasted-image-20240915092018.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240915092018.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[大学物理（2） 笔记 6]]></title><description><![CDATA[<a class="tag" href="?query=tag:大学物理" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#大学物理</a> <a class="tag" href="?query=tag:周二" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#周二</a> <a class="tag" href="?query=tag:电流" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#电流</a> 
- <br>@2024-10-08，为什么国庆假期结束了，我什么都没干？@
-<a href=".?query=tag:大学物理" class="tag" target="_blank" rel="noopener">#大学物理</a> <a href=".?query=tag:周二" class="tag" target="_blank" rel="noopener">#周二</a> <a href=".?query=tag:电流" class="tag" target="_blank" rel="noopener">#电流</a><br>
-<a data-href="大学物理（2） 笔记 5" href="物理\大学物理（2）-笔记-5.html" class="internal-link" target="_self" rel="noopener">大学物理（2） 笔记 5</a>
-<br><br>电位移矢量 ，<br>
- 然后就是  的转化：<br>
-<br>电容的计算。一串要背的东西到现在你也没背<br>电容器储能： <br>有介质的静电场能量密度： <br>
-<br>快去做思考题
-<br><br><br> <br>对于单一载流子， ，这里  是载流子数密度，  是载流子定向运动速度，我们可以定义电荷密度 <br>对于多种载流子，分别求和即可 <img alt="Pasted image 20241008101324.png" src="lib\media\pasted-image-20241008101324.png"><br>这样定义的 电流密度矢量的通量就是电流。<br><br>这里  是封闭曲面。单位时间流出封闭曲面的电量即为曲面内的电荷的减少量，即为电荷守恒。<br><br>即  不随时间变化的电流。所以电荷分布也不变。<br>其条件即为 换言之电流线闭合。如此，服从高斯定理，环路定理。<br><br>积分形式 均匀导体的电阻 ，电导 ，电导率  <br>微分形式<br>
-适用范围。上述的微分形式对非稳恒的电流也是成立的。（显然）<br>有很多材料不服从欧姆定律。强电场会导致  和  的非线性关系。 理想导体的 ，但是超导体不能简单地看做理想导体。<br><br>定义非静电场强 这里  是移动载流子的非静电力。从而我们定义电源电动势 这里积分路径就是看  存在的路径。<br><img alt="2294f8a3d523d858e5f8ee3e8d915206_720.jpg" src="lib\media\2294f8a3d523d858e5f8ee3e8d915206_720.jpg"><br>
-两个电压表的示数是不同的。拓扑意义上两表不同，可以如此理解：感生电动势由变化磁场产生，当把电压表换位时会切割磁场。<br><br><br>导体内部无净电荷分布，净电荷只能分布在导线表面或导体的不均匀处，如电极，导线的表面，交界面，弯折处（为啥？）<br><br> <br><br>节点电流为零，回路电压为零。<br>注意，经过电源时，从负极到正极，减去电动势。<br><br><a data-href="大学物理（2） 笔记 7" href="大学物理（2） 笔记 7" class="internal-link" target="_self" rel="noopener">大学物理（2） 笔记 7</a>]]></description><link>mathstuff\大学物理（2）-笔记-6.html</link><guid isPermaLink="false">MathStuff/大学物理（2） 笔记 6.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 08 Oct 2024 03:10:32 GMT</pubDate><enclosure url="lib\media\pasted-image-20241008101324.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20241008101324.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[方便查询的记号表]]></title><description><![CDATA[ 
+<img alt="Pasted image 20240915092346.png" src="lib\media\pasted-image-20240915092346.png">]]></description><link>作业\ode-第一次作业.html</link><guid isPermaLink="false">作业/ODE 第一次作业.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 21 Sep 2024 04:34:14 GMT</pubDate><enclosure url="lib\media\pasted-image-20240915092018.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240915092018.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[方便查询的记号表]]></title><description><![CDATA[ 
  <br>
 <br>Amann 记 
 <br>
-]]></description><link>mathstuff\方便查询的记号表.html</link><guid isPermaLink="false">MathStuff/方便查询的记号表.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 03 Oct 2024 14:46:37 GMT</pubDate></item><item><title><![CDATA[分析-收敛]]></title><description><![CDATA[ 
- <br>我们的目标是说清楚在度量空间里面序列的收敛是一个什么样的概念，可以用什么样的方式刻画，以及与其相关的一些非平凡的例子。<br>我不想谈论过于一般的情形，那些就放到拓扑里面去学习。在分析里面，我们考虑具有范数结构的空间。<br><br>  是一个赋范线性空间，那么对 ，我们定义<br>
-从而我们在有界函数空间  上有自然的范数，称为 supremum norm。具体的细节验证可以参考 Analysis (Amann) Vol.I Proposition 3.5<br>不同范数诱导的拓扑只有一种。所有的范数都是等价的。<br>Cauchy 收敛准则的证明
-
-定理内容：一个实数序列  收敛的充分必要条件是：对于任意给定的正数 ，存在一个正整数 ，使得对于所有 ，有 。
-证明：
-
-假设序列  收敛到某个极限 ，即 。
-根据极限的定义，对于任意 ，存在一个正整数 ，使得对于所有 ，有 。
-现在考虑任意 ，我们有：
-
-因此，对于任意 ，存在 ，使得对于所有 ，有 。这证明了必要性。
-
-假设对于任意 ，存在一个正整数 ，使得对于所有 ，有 。我们需要证明序列  收敛。
-首先，我们证明  是一个基本序列（Cauchy 序列）。根据假设，对于任意 ，存在 ，使得对于所有 ，有 。这正是 Cauchy 序列的定义。
-接下来，我们利用实数完备性的性质，即在实数域中，每个 Cauchy 序列都收敛。因此，序列  收敛。
-
-我们已经证明了 Cauchy 收敛准则的充分性和必要性。因此，Cauchy 收敛准则是正确的。
-验证：
-
-<br>必要性部分通过极限的定义和三角不等式证明了对于任意 ，存在 ，使得 。
-<br>充分性部分通过证明序列是 Cauchy 序列，并利用实数完备性证明了序列收敛。
-
-证明无误。
-]]></description><link>mathstuff\分析-收敛.html</link><guid isPermaLink="false">MathStuff/分析-收敛.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 05 Oct 2024 12:12:33 GMT</pubDate></item><item><title><![CDATA[级数收敛性的判别 2]]></title><description><![CDATA[ 
- <br>@2024-9-18，作为上一次的补充和心得@<br><a data-href="正项级数收敛判别法" href="mathstuff\正项级数收敛判别法.html" class="internal-link" target="_self" rel="noopener">正项级数收敛判别法</a><br><br>首先增加几种判别法<br><br>Cauchy 凝聚判别法
-正项级数 单调递减。则  和  同敛散。
-<br>马上想到的一件事就是可以对一个数列反复应用这个定理，从而由一个抽象级数得到一系列收敛越来越快的新级数<br>对于那些收敛得比较慢的级数，可以这么操作一下，然后就比较好看出来。<br>
-<br><a data-href="越来越慢的级数" href="越来越慢的级数" class="internal-link" target="_self" rel="noopener">越来越慢的级数</a><br><br>Kummer 判别法
-正项级数  收敛的充分必要条件是，存在正数数列  和 ，使得当  充分大时<br>
-发散的充分必要条件是存在发散的正项级数  使得  充分大时有<br>
-
-<br>证明
-只证收敛的情形，可以去谢惠民的习题集找其余的证明。
-充分性：如果已经成立，那么就会有 注意到  单调递减，从而可以对  的每一项放缩之后 scooop
-必要性：记余项 ，令 然后自己写开算一下就可。 
-<br>我不觉得这个东西是一个好用的工具，至少目前没有遇到过好用的使用场景，再说这东西其实就是一个比较判别法，如果你这个方法能做（找到一个对应的级数），那么你其他方法应该也能做。<br><br>定理 (Toeplitz)
-
-满足三条
-
-<br>任意一行的绝对值求和有一个一致的界。
-<br>任何一列都趋于 0
-<br>设收敛序列  收敛于 ，记 ，那么我们有 
-
-<br>横向的级数是绝对收敛的，并且收敛到1，纵向的数列是趋于 0 的。<br> AI 
-
-定理内容：设  是一个无穷矩阵，满足以下条件：
-
-<br>
-<br>
-<br>对于任意固定的 ，
-
-如果序列  收敛于 ，则序列  也收敛于 ，其中 。
-证明：
-
-我们需要证明 ，即对于任意 ，存在 ，使得当  时，。
-
-<br>
-定义  和 ：
-
-
-<br>
-考虑 ：
-
-
-<br>
-将  拆分为两部分：
-
-
-<br>
-利用三角不等式：
-
-
-<br>
-分析第一项：
-
-由于  收敛于 ，对于任意 ，存在 ，使得当  时，。因此：
-
-由于  对于 ，我们有：
-
-
-<br>
-分析第二项：
-
-由于 ，我们有：
-
-
-<br>
-结合两项：
-
-由于 ，我们可以选择  使得当  时，。因此：
-
-由于  是有限的，并且  是任意的，我们可以选择足够大的  使得 。
-
-
-
-我们已经证明了 ，即对于任意 ，存在 ，使得当  时，。
-结论：证明正确。
-
-<br>
-<br>Cesaro 求和
-<br>Poisson-Abel 求和
-]]></description><link>mathstuff\级数收敛性的判别-2.html</link><guid isPermaLink="false">MathStuff/级数收敛性的判别 2.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 05 Oct 2024 12:06:51 GMT</pubDate></item><item><title><![CDATA[解的存在性与唯一性 1]]></title><description><![CDATA[ 
- <br>@2024-09-13，反正是云里雾里@<br>定理 1
-对于 对任意的初值 ，此方程存在解且唯一。
-<br>习题里面证明此处  不一定要  。但是至少可微。考虑反例<br>
-则 都是解。<br>证明
-首先是平衡点的情况。 。则对任意的 , 为开区间，则其上存在解 , 使得  。
-我们来证明这一事实，如果存在 , 由于  的连续性，可以看出<br>
- （不妨就令 <br>
-存在且 ，（为什么存在？RHS的集合是闭集的原像）
-所以  在  上内闭可积。通过积分得到一个时间差 ，这是一个实数，记为 ，但是由于  是 Lipschitz 连续（)，可以将积分放缩<br>
-从而  时黄色部分爆掉，矛盾。
-然后我们来看非平衡点的情况，
-<br>定理 2 最大延伸解
-对于  ，若 ，则存在最大延伸解<br>
-，其中  是开区间，且
-
-<br>
-<br>局部的唯一性，即子区间上的任意解都等于最大延伸解在其上的限制。
-
-<br>证明
-找到保持  的上下界，记为 ，记 
-在  上放心大胆的积分。我们记 ，这是一个严格单调递增函数(对  )。来找  空间对应的 
- 即为所求。解为 。
-下面我们证第二点。由 以及定理一得到 ，其中 
-从而可以积分，从而证明了其唯一性
-
-<br>最后我们证明它是最大延伸的。
-
-<br>你会翻译证明中  的定义吗？<br>
-<br><br>
-<br>第二点证明中，为什么需要用到定理一？  的定义不是已经有其上  了吗？
-<br>这里对唯一的证明是否有不严谨之处？
-]]></description><link>mathstuff\解的存在性与唯一性-1.html</link><guid isPermaLink="false">MathStuff/解的存在性与唯一性 1.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 21 Sep 2024 04:33:31 GMT</pubDate></item><item><title><![CDATA[你好哇，你这会想看什么？]]></title><description><![CDATA[ 
+]]></description><link>mathstuff\方便查询的记号表.html</link><guid isPermaLink="false">MathStuff/方便查询的记号表.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 03 Oct 2024 14:46:37 GMT</pubDate></item><item><title><![CDATA[你好哇，你这会想看什么？]]></title><description><![CDATA[ 
  <br>二四六11月12月1月2月3月4月5月6月7月8月9月10月lessmore<br>
-<br>今天是2024年10月9日，2024 年已经过去了 278 天
+<br>今天是2024年10月10日，2024 年已经过去了 279 天
 <br>今年你总共在 69 天中留下了你的足迹，继续加油！
 <br><br>Multi column
 复分析
@@ -2168,86 +2516,79 @@ Singular
 其他
 后续会上传...
 
-]]></description><link>mathstuff\你好哇，你这会想看什么？.html</link><guid isPermaLink="false">MathStuff/你好哇，你这会想看什么？.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 25 Sep 2024 01:37:22 GMT</pubDate></item><item><title><![CDATA[曲面的定义]]></title><description><![CDATA[ 
- <br><br>定义的方式有很多。<br>
-<br>流形在大空间里任意一点的邻域和对应维数的   同胚，  是  中的开集。
-<br>或者先将邻域  和流形做交 ，这个集合与  中的开集  同胚。
-<br>嵌入与浸入（之后再谈）
+]]></description><link>mathstuff\你好哇，你这会想看什么？.html</link><guid isPermaLink="false">MathStuff/你好哇，你这会想看什么？.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 25 Sep 2024 01:37:22 GMT</pubDate></item><item><title><![CDATA[微积分第三次补充题目]]></title><description><![CDATA[ 
+ <br>2.5 6<br>
+总复习 12 13 16 17 18(1,2,3) 19 20(1,2) 21 23<br><br>
+<br>设 ，确定  的间断点。
+<br> ： 和  都趋向于无穷大。  是主导项，有<br>
+<br>： 和  都趋向于 0。  时，函数没有定义，分别计算左右极限可知， 在 0 处是一个第二类间断点（左右极限都不存在）<br>
+ 时， ，从而对比左右极限（都是1）可知此为可去间断点。<br>
+ 时，，且左极限为 ，右极限是 ，所以这里是跳跃间断点。<br><br>
 <br>
-<br>local chart 是相容的：操作是诱导  之间的微分同胚 ，<img alt="Pasted image 20240517103127.png" src="lib\media\pasted-image-20240517103127.png" style="width: 1035px; max-width: 100%;">
-<br>命题：图像是流形（太显然了），正则值原像是流形（由隐函数定理：满足某种条件的函数的零点的纤维是另一个光滑函数的图像）<br><br>局部坐标系给出了一个定向，atlas 的定向如果相容，则这个曲面可定向。而相容使用  刻画。<br><br><br><br>定义两个向量张出的面积<br>
-后者是<a data-href="Gram 矩阵" href="Gram 矩阵" class="internal-link" target="_self" rel="noopener">Gram 矩阵</a>。<br>后者等于 <br>从而归纳地定义  中张成的面积。<br><br>给出 Riemann 和（每一点用该点的微分变换面积元的体积），去极限为积分（没有说收敛性，怎么说？）<br>证明了和换元法是相容的。<br>算了一堆例子<br><br> 中的  维曲面  上定义连续函数  ，， 是 local chart，则可定义<br><br>算了一个椭圆例子。<br><br><br>
-<br>例子，回顾<br>
-	
-<br><br>  中的闭球不是原来意义上的流形。<br>定义 <br>定义
-设  是  中的集合，称  是  中的一个  维带边曲面，若对任意 ，存在  在  中的一个开邻域  以及  维微分同胚  或 ，其中 
-<br>注意到  刻画了流形在边界处的行为。 的边界定义为满足  的所有  点。<br>
+<br>讨论函数 的间断点及类型。<br>在  时，函数在  为整数时分母为 0。<br>  时分子在邻域非零且不变号，通过求左右极限知此为第二类间断点。而当  时，我们利用 ，以及  得到此时左右极限分别为 ，从而是可去间断点。<br>  时取  的左极限为 ，  时 ，且此处右极限也是 0，所以  是跳跃间断点。<br>
+ 时，不连续点为 ，左右极限均不存在， 是第二类间断点。<br>
+<br>设  均为  上的函数,  在  上连续且 ,  有间断点, 讨论  在  上的连续性。
+<br>  可以不连续：取  为Dirichlet 函数， ，则  在有理点处取 ， 在无理点处取 。<br>
+同时也可以连续：取  为Dirichlet 函数，<br> 可以不连续：取  为Dirichlet 函数，，从而复合之后仍然是 DIrichlet 函数。<br>
+可以连续：取  为Dirichlet 函数，<br>  可以不连续：取  为Dirichlet 函数<br>
+可以连续：取  为Dirichlet 函数减去 1，即 ，有 <br> 只能不连续，对于  的间断点 ，存在 ，使得任意小的  的去心邻域 ，其中的  满足 我们取  充分小使得  在此邻域上的取值满足 ，从而有 于是  是  的一个间断点。<br>
+<br>试举一个函数 , 它只在 三点连续, 其余的点均为第二类间断点。
+<br>定义 Dirichlet Function<br><br>我们利用其进行构造，特别地，我们选择一个多项式 ，使得  在  处取值为零，而在其他点不为零。一个合适的选择是：<br><br>那么  即为满足题意的函数。<br>在  处连续：<br>
+<br>当  时，。
+<br>由于  在  处取值为 1（因为 0 是有理数），所以 。
+<br>对于任意 ，存在 ，使得当  时，。因此，。
+<br>因此， 在  处连续。
+<br> 处连续的说明完全一致。<br>接下来说明  在其余点为第二类间断点：此时  不取 0，通过取两侧的有理数序列和无理数序列，分别得到  和  是两个极限点，从而左右极限都不存在，从而是第二类间断点。具体细节的说明和  处连续的说明几乎一致。<br>
+<br>设  只有可去间断点, 令 , 则  为一连续函数.
 <br>
-命题，边界非空的  维  光滑带边曲面 ，则  是  维  光滑曲面。
-证明：带边流形的 Atlas 有两类，取与  同胚的一类，做出边界的图册。具体操作：。对  的处理类似。为什么  是 C^m 的？
+<br>如果  在  处有可去间断点，那么  存在且有限，但不等于 （或者  未定义），从而 良好定义。
+<br>对于任意的 ，对于任意的 ，存在 ，使得  时有 所以对于 ，有 由  的任意性得所求。
+<br>
+<br>设 ，证明：<br>
+
+<br> 连续，这是因为 ，对比  连续的定义立刻得到  的连续性。<br>我们可以写出  的显式表达式：<br><br>其中，、 和  都是连续函数（绝对值函数连续刚刚证明）。因此，两个连续函数的和也是连续的，由此可以得到  是连续的。<br>同样地， 可以写作：<br><br>综上所述，。<br>
+对于（2）<br><br>考虑任意 ，我们利用三角不等式：<br><br>因此，假设对于 ，有<br><br>那么就有<br>
+得到证明。<br>(3)   设 ，我们需要证明 。<br>
+<br>时<br>
+设 ，则存在  使得在  内，。因此在这个邻域内 ，自然连续。
+<br>时<br>
+设 ，由于  在  处连续，对于任意 ，存在  使得当  时，有 。这意味着在  内，。因此，，即 。所以 ， 在  处连续。
+<br>
+<br>设 , 且有  使得 , 求证；存在  使得 .
+<br>用反证法，假设对任意的 ，存在  ，使得对任意的 ，存在 ，成立 记  是  的一个极限点，那么当  充分大时，序列  全部落在  中，对于此时取定的 ，取  充分大，有 这就有了矛盾。<br>(或是使用Bolzano-Weierstrass直接得到)<br>
+<br>设定义在R 上的函数  满足： ，，求证：
+<br>(1) 存在常数 ，使得对任意有理数 ，有 ；<br>(2) 若  在  处连续, 则存在常数 , 使得对任意实数 , 有 .<br>
+<br>
+设 ，由  得：
+
+因此 。
 
 <br>
-命题，  是  中的一个区域， , 0 是  的正则值，则 ，则  是  维带边  光滑曲面，
+对于任意 ，令 ，则有：
 
-<br> 是带边流形，显然。
-<br>用秩定理， 使得 ，有  ，从而在邻域本质上 ，后者对应的  是 。<br>
-从而
+根据已知条件：
 
-
-<br>
-带边曲面的定向。和前无异。
+即  是奇函数。
 
 <br>
-定理：  是  中  维  光滑可定向的带边曲面，则边界  是  中可定向的  维的  光滑曲面。
+通过不断分解，我们有对任意的 ，成立
 
-<br>在之后 Stokes 公式中很重要。
-<br>边界上的 local chart   诱导出边界的 local chart 
-<br>已知  (定向相容)。而  是  的子式。在边界处会有 奇怪 的处理，
+
+<br>取上述  ，我们有<br><br>从而任意有理数 ，我们有：<br><br>因此对于任意有理数 ，有：<br><br>设 ，则：<br><br>这证明了所需结论。<br>
+<br>现在我们假设  在  处连续。我们证明此时  是连续的。对于任意非零的 ，我们有 对于任意的 ，取一列有理数序列 ，满足，则 综上完成了证明。
 <br>
-
-
+<br>设定义在R 上的函数  满足： ，，且  在  处连续，求证： 或者存在 ，使得对任意实数 ，有 
+<br>与 20 题可以使用完全一致的做法。如果建立在20 题的基础上，我们可以：<br>
+<br> 时显然 
+<br>以下讨论 ，，进而 
+<br>如果此时有 ，那么，但是由  在 0 处连续以及  知矛盾，从而 
+<br>令 ，可知其满足 20 题的条件，从而得到 ，即 
 <br>
-<br>例子：对  中的单位球赋予自然定向，则  的诱导定向是逆时针。]]></description><link>mathstuff\曲面.html</link><guid isPermaLink="false">MathStuff/曲面.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Fri, 13 Sep 2024 06:02:45 GMT</pubDate><enclosure url="lib\media\pasted-image-20240517103127.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240517103127.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[三角级数]]></title><description><![CDATA[ 
- <br>收敛还是发散？]]></description><link>mathstuff\三角级数.html</link><guid isPermaLink="false">MathStuff/三角级数.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 21 Sep 2024 00:03:29 GMT</pubDate></item><item><title><![CDATA[孙子兵法pre]]></title><description><![CDATA[ 
- <br>韩略村伏击战是抗日战争期间中国共产党领导的一次重要战役。这场战斗发生在1943年10月，地点位于山西省洪洞县韩略村。以下是关于韩略村伏击战的详细信息：<br>
-<br>战斗背景：1943年秋，日军对太岳抗日根据地进行疯狂扫荡，国民党反动派也掀起了第三次反共高潮。在这种情况下，八路军第129师386旅16团在王近山的领导下，奉命赶赴延安，支援抗日战争。
-<br>战斗过程：16团在行军过程中，经过韩略村，王近山觉察到可能有战机可寻。根据地下交通站和群众的情报，日军在韩略村附近的公路上活动频繁，且警戒松懈。王近山决定暂缓行军，准备伏击日军。在仔细侦察地形和敌情后，16团在韩略村西南侧的公路上设伏。这段公路两侧是陡壁，便于部队隐蔽。
-<br>战斗结果：10月24日，日军的一个军官中队进入伏击区，16团发起突然袭击。经过3小时的激战，歼灭了日军少将旅团长以下军官120余人，击毁汽车13辆，缴获大量枪支弹药。
-<br>战斗意义：韩略村伏击战对粉碎日军的扫荡起到了重要作用，同时也展示了中国共产党领导下的军队的战斗力和智慧。这场战斗也是电视剧《亮剑》中李云龙角色的成名之战的原型，而李云龙的主要原型人物是王近山。<br>
-这些信息来源于澎湃新闻、搜狐新闻、百度百科以及中国军网。这些资料详细描述了韩略村伏击战的背景、过程、结果及其历史意义。
-<br><br>韩略村伏击战是中国抗日战争时期八路军在山西洪洞县韩略村附近对日军进行的一次成功伏击战。这场战役发生在1943年10月24日，是八路军太岳军区第16团的一次重要战斗。以下是这场战役的详细介绍：<br><br>1943年，日军在华北地区进行了一系列的“扫荡”行动，试图消灭八路军的游击力量。为了提高日军士气和战斗力，日军华北方面军组织了一个由高级军官组成的“战地观战团”，前往前线观摩战斗。这个观战团由180多名军官组成，其中包括一名少将旅团长和六名大佐联队长。<br><br>八路军太岳军区第16团在得知日军观战团将经过韩略村附近的消息后，决定利用地形优势进行伏击。10月24日，日军观战团的车队进入了八路军的伏击圈。八路军迅速发起攻击，利用地形和火力优势，对日军进行了猛烈的打击。<br>战斗持续了约一个小时，八路军成功击毙了大部分日军军官，其中包括少将旅团长和六名大佐联队长。日军观战团几乎被全歼，只有少数人逃脱。<br><br>韩略村伏击战对日军造成了重大打击，极大地鼓舞了八路军的士气。这场战斗不仅消灭了日军的高级军官，还破坏了日军的“扫荡”计划，为八路军在华北地区的游击战提供了有力支持。<br><br>韩略村伏击战是中国抗日战争中的一次重要胜利，展示了八路军在游击战中的灵活性和战斗力。这场战斗不仅打击了日军的士气，还为中国抗日战争的胜利做出了重要贡献。<br>总的来说，韩略村伏击战是一场成功的伏击战，八路军利用地形和战术优势，成功消灭了日军的高级军官，为抗日战争的胜利奠定了基础。<br><br>韩略村伏击战是中国抗日战争时期八路军在山西洪洞县韩略村附近对日军进行的一次成功伏击战。结合《孙子兵法》的思想，这场战役体现了以下几个方面的孙子兵法思想：<br><br>《孙子兵法》强调“知己知彼，百战不殆”。在韩略村伏击战中，八路军太岳军区第16团通过情报工作，准确掌握了日军观战团的行进路线和时间。这使得八路军能够提前做好准备，选择有利地形进行伏击。这种对敌情的准确掌握和对自身实力的清晰认识，正是“知己知彼”思想的体现。<br><br>《孙子兵法》强调“兵贵神速”，即在战争中要迅速行动，不给敌人反应的时间。在韩略村伏击战中，八路军迅速发起攻击，利用地形和火力优势，在短时间内对日军进行了猛烈打击。这种快速、果断的行动，使得日军无法及时组织有效的反击，体现了“兵贵神速”的思想。<br><br>《孙子兵法》中的“以逸待劳”思想强调在战争中要利用有利条件，等待敌人疲惫后再进行攻击。在韩略村伏击战中，八路军选择在有利地形进行伏击，等待日军进入伏击圈后再发起攻击。这种“以逸待劳”的战术，使得八路军能够在战斗中占据主动，有效地打击敌人。<br><br>《孙子兵法》中的“奇正相生”思想强调在战争中要灵活运用战术，出奇制胜。在韩略村伏击战中，八路军利用地形和战术优势，对日军进行了出其不意的攻击。这种“奇正相生”的战术，使得日军无法预料八路军的行动，从而取得了战斗的胜利。<br><br>《孙子兵法》中的“避实击虚”思想强调在战争中要避开敌人的强点，攻击敌人的弱点。在韩略村伏击战中，八路军选择了日军观战团这个弱点进行攻击，成功消灭了日军的高级军官。这种“避实击虚”的战术，使得八路军能够在战斗中取得最大化的战果。<br><br>《孙子兵法》中的“兵不厌诈”思想强调在战争中要善于运用计谋，迷惑敌人。在韩略村伏击战中，八路军通过情报工作和伏击战术，成功迷惑了日军，使得日军观战团进入了八路军的伏击圈。这种“兵不厌诈”的战术，使得八路军能够在战斗中占据主动，有效地打击敌人。<br><br>韩略村伏击战的成功，充分体现了孙子兵法中的“知己知彼”、“兵贵神速”、“以逸待劳”、“奇正相生”、“避实击虚”和“兵不厌诈”等思想。这些思想在八路军的战术运用中得到了充分的体现，使得八路军能够在战斗中占据主动，取得胜利。这场战役不仅是中国抗日战争中的一次重要胜利，也是孙子兵法思想在实战中的成功应用。<br><br>韩略村伏击战在战术运用上体现了孙子兵法的多个原则。以下是这场战役与孙子兵法思想的结合分析：<br>
-<br>知己知彼，百战不殆（《孙子兵法·谋攻篇》）
+<br>黎曼函数（Riemann function）
 
-<br>在韩略村伏击战中，王近山通过地下交通站和群众的情报，了解了日军在韩略村的行动规律和警戒情况。这种对敌人的深入了解，使得伏击战能够顺利进行，体现了“知己知彼”的原则。
-
-
-<br>出其不意，攻其不备（《孙子兵法·计篇》）
-
-<br>王近山选择在日军警戒松懈的地点和时间进行伏击，完全出乎日军的意料，这正是“出其不意，攻其不备”的体现。通过这种方式，八路军能够以较小的代价取得战斗的胜利。
-
-
-<br>兵之情主速，乘人之不及（《孙子兵法·虚实篇》）
-
-<br>在伏击战中，八路军迅速行动，伏击日军车队，并在短时间内完成战斗任务，这反映了孙子“兵之情主速”的思想。快速的行动使得日军没有反应和增援的机会。
-
-
-<br>地形者，兵之助也（《孙子兵法·地形篇》）
-
-<br>王近山在选择伏击地点时，充分利用了韩略村西南侧公路两侧的陡壁地形，这便于部队隐蔽和发动攻击。孙子强调地形对战争的重要性，这场战斗正是这一思想的体现。
-
-
-<br>以逸待劳（《孙子兵法·虚实篇》）
-
-<br>八路军在伏击前已经完成了隐蔽集结，以逸待劳，等待日军的到来。这种战术使得八路军能够在战斗中保持较高的战斗力，而日军则在长途行军后陷入伏击。
-
-
-<br>上兵伐谋（《孙子兵法·谋攻篇》）
-
-<br>王近山在战斗中的决策体现了“上兵伐谋”的思想，即通过巧妙的计划和策略来取得胜利，而不是单纯依靠武力。整个伏击战的计划和执行都是对这一原则的体现。<br>
-韩略村伏击战的胜利，不仅展现了八路军指战员的英勇和智慧，也体现了孙子兵法中关于战争策略和战术运用的深刻思想。通过这些原则的灵活运用，八路军能够在敌强我弱的情况下，取得决定性的胜利。
-
-
-]]></description><link>mathstuff\孙子兵法pre.html</link><guid isPermaLink="false">MathStuff/孙子兵法pre.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 08 Oct 2024 10:41:10 GMT</pubDate></item><item><title><![CDATA[文本编辑战术演习]]></title><description><![CDATA[ 
+要证明对于任意的 ，都有 。
+<br>我们证  上此函数的性质，由于这是周期函数，从而得证最终结论。<br>对于实数  和任意的 ，选择一个自然数  使得 。事实上大于  的有理数的取值点是有限的，这是因为我们可以列出这些有理数 ，其中  对于 ，而分子  ，从而也是有限的。<br>现在，对于每一个 ，我们可以找到一个  使得  不包含 。取 。<br>
+对于任意  满足 ， 不可能是  中的任何一个，因此  要么是 0（如果  是无理数），要么是  ，其中 （如果  是有理数）此时我们有 。<br>因此，对于任意的 ，我们找到了一个  使得当  时，。这证明了 ]]></description><link>mathstuff\微积分第三次补充题目.html</link><guid isPermaLink="false">MathStuff/微积分第三次补充题目.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 10 Oct 2024 13:41:18 GMT</pubDate></item><item><title><![CDATA[文本编辑战术演习]]></title><description><![CDATA[ 
  <br><br><br><br><br><br>
 <br>关键字保留的颜色
 <br><br>
@@ -2271,100 +2612,29 @@ Singular
 示例<br>
 
 
-<br><br>直接去<a data-tooltip-position="top" aria-label="https://detexify.kirelabs.org/symbols.html" rel="noopener" class="external-link" href="https://detexify.kirelabs.org/symbols.html" target="_blank">这个地方</a><br><br><br>        N        M        N=N\Re1        M=Re1        Re2©¢¢¢©Ren                                                                              »=        <br>对比<br><br>        T        K        X£ZY        X        Y        Z                      x                     y                          (x;y)                       p                     q                     f                     g               A0        B0        A        B        C0        D0        C        D                      f0                     a                     g0                     h0                     b                          f                     h                     k0                     c                     d                     k                          g       <br><br>        V¬W        T        V£W                      9!~f                     ¬                     f       <br><br><br><br><br><br>
-
-
-
-
+<br><br>直接去<a data-tooltip-position="top" aria-label="https://detexify.kirelabs.org/symbols.html" rel="noopener" class="external-link" href="https://detexify.kirelabs.org/symbols.html" target="_blank">这个地方</a><br><br><br>        N        M        N=N\Re1        M=Re1        Re2©¢¢¢©Ren                                                                              »=        <br>对比<br><br>        T        K        X£ZY        X        Y        Z                      x                     y                          (x;y)                       p                     q                     f                     g               A0        B0        A        B        C0        D0        C        D                      f0                     a                     g0                     h0                     b                          f                     h                     k0                     c                     d                     k                          g       <br><br>        V¬W        T        V£W                      9!~f                     ¬                     f       <br><br><br><br><br><br>\usepackage{tikz-cd}
+\begin{document}
+\begin{tikzcd}
 T
-K
-X
-×
-Z
-Y
-X
-Y
-Z
-
-
-xd
-
-
-y
-
-
-
-(
-x,y
-)
-
-
-p
-
-
-q
-
-
-f
-
-
-gk
-A
-
-B
-
-A
-B
-C
-
-D
-
-C
-D
-
-
-f
-
-
-
-a
-
-
-g
-
-
-
-h
-
-
-
-b
-
-
-
-f
-
-
-h
-
-
-k
-
-
-
-c
-
-
-d
-
-
-k
-
-
-
-g
-
-<br><br><br><br><br><br>&gt;[Note]- Title 减号位置对应的+-可以改变折叠方式。<br><br>AI
+\arrow[drr, bend left, "xd"]
+\arrow[ddr, bend right, "y"]
+\arrow[dr, dotted, "{(x,y)}" description] &amp; &amp; \\
+K &amp; X \times_Z Y \arrow[r, "p"] \arrow[d, "q"]
+&amp; X \arrow[d, "f"] \\
+&amp; Y \arrow[r, "gk"]
+&amp; Z
+\end{tikzcd}
+\quad \quad
+\begin{tikzcd}[row sep=2.5em]
+A' \arrow[rr,"f'"] \arrow[dr,swap,"a"] \arrow[dd,swap,"g'"] &amp;&amp;
+B' \arrow[dd,swap,"h'" near start] \arrow[dr,"b"] \\
+&amp; A \arrow[rr,crossing over,"f" near start] &amp;&amp;
+B \arrow[dd,"h"] \\
+C' \arrow[rr,"k'" near end] \arrow[dr,swap,"c"] &amp;&amp; D' \arrow[dr,swap,"d"] \\
+&amp; C \arrow[rr,"k"] \arrow[uu,&lt;-,crossing over,"g" near end]&amp;&amp; D
+\end{tikzcd}
+\end{document}
+复制<br><br><br><br><br><br>&gt;[Note]- Title 减号位置对应的+-可以改变折叠方式。<br><br>AI
 美化 callout 的方式有很多，以下是一些你可以尝试的 CSS 技巧：
 
 .callout[data-callout="proof"] {
@@ -2473,225 +2743,8 @@ g
 这是一个box类型的callout。
 <br>Proof
 这是一个proof类型的callout。
-]]></description><link>mathstuff\文本编辑战术演习.html</link><guid isPermaLink="false">MathStuff/文本编辑战术演习.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Fri, 04 Oct 2024 16:09:25 GMT</pubDate><enclosure url="lib\media\pasted-image-20241003223246.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20241003223246.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[正项级数收敛判别法]]></title><description><![CDATA[<a class="tag" href="?query=tag:级数" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#级数</a> <a class="tag" href="?query=tag:收敛" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#收敛</a> 
- <br><a href=".?query=tag:级数" class="tag" target="_blank" rel="noopener">#级数</a> <a href=".?query=tag:收敛" class="tag" target="_blank" rel="noopener">#收敛</a> <br><br>
-<br>
-设正项级数 , , 当  充分大时有 .
-
-<br>若  收敛, 则  也收敛.
-<br>若  发散, 则  也发散.
-
-
-<br>
-（极限形式）设正项级数 , , 若<br>
-则<br>
-(1) 当  时，级数 ,  同敛散。<br>
-(2) 当  时，若级数  收敛时，则  也收敛。<br>
-(3) 当  时，若级数  次数时，则  也发散。
-
-<br>这个本身比较平凡，没什么好说的。你需要对各种级数的快慢建立一个感觉，实际中采用不同的比较级数。<br>操作上，把比较级数写在分子上，期待比值被控制吧。这是你的个人习惯。<br>想一想为什么这里局限在正项级数？<br><br>比值判别法
-设正项级数  和 <br>
-当  充分大后, 若
-
-则 (1) 当  收敛时,   也收敛.
-(2) 当  发散时,  也发散.
-<br>大项在上<br>注意到比值判别法的通项要求单调。<br><br>积分的几个估计 <a data-tooltip-position="top" aria-label="https://www.bilibili.com/video/BV1GW4y1B7A6/?p=70&amp;spm_id_from=pageDriver" rel="noopener" class="external-link" href="https://www.bilibili.com/video/BV1GW4y1B7A6/?p=70&amp;spm_id_from=pageDriver" target="_blank">有时间搞搞</a><br><br>Cauchy 积分判别法
-设函数  在  上非负且单调递减，则以下无穷级数与无穷积分同级数:<br>
-
-<br>通过这个技术，我们可以做出来一些收敛的非常慢的级数，方便比较。<br><br>通常到这一水平就够了，诸如 在不考虑。<br><br><br>Cauchy 根值判别法
-对于正项级数 , ，<br>
-充分大时，存在  使得 ，则收敛。<br>
-若存在无穷多的  满足 ，则发散
-<br>显然是在和几何级数比较。<br>比较有趣的是发散的判别条件。想想为什么不是<br>Cauchy 根值判别法（极限形式）
-
-(1) 当  时，级数收敛。<br>
-(2) 当  时，级数发散。
-<br><br>对数判别法
-设正项级数 。令<br>
-当  充分大时，<br>
-若存在  使得 ，则级数  收敛。<br>
-若 ，则级数  发散
-核心
-
-
-<br>Proof
-
-<br><br><br>去比值判别法的  为几何级数。<br>对应的极限形式，考虑上下极限，取得的值都小于一即可<br><br>则收敛，均大于一趋于 ，其余无法判断<br>和 Cauchy 根值判别法基本没有区别<br><br>Cauchy 更强一点。<br><br>Raabe 判别法
-正项级数 
-
-当  充分大时，
-(1) 若存在  满足 ，则级数收敛<br>
-(2) 若 ，则级数发散。
-核心
-
-
-<br>证明
-
-简单改写一下
-
-<img alt="Pasted image 20240916174049.png" src="lib\media\pasted-image-20240916174049.png" style="width: 1076px; max-width: 100%;">
-<br>Raabe 判别法（极限形式）
-
-即 则
-(1) 当  时级数收敛。
-(2) 当  时级数发散。
-(3) 当  时无法判断级数的敛散性。
-<br><br>Bertrand 判别法
-
-<br>我懒得说了，懂得都懂。<br>总的来说，这一堆比较判别法比较方便那些比一下可以消掉很多项的级数。<br>练练手看一看<br><img alt="Pasted image 20240916175002.png" src="lib\media\pasted-image-20240916175002.png"><br><br>Gauss 判别法
-设正顶级数  若
-
-其中  都是常数， 是一个有界量。则级数的敛散性为
-
-<br><br>Done
-Cauchy 根值判别法 的发散形式要求无穷多项大于 0
-Raabe 判别法的一般形式 和对数判别法是唯二两个在 1 处 级数能够判断且是发散的。（对应的比较判别法应该基本一致）
-对数判别法没有极限形式
-Cauchy 根式判别法应该是最先用的
-<br><br>
-<br>
-
-设正项级数  和 ，当  充分大时有 。若  收敛，则  也收敛；若  发散，则  也发散。
-
-<br>
-
-设正项级数  和 ，若 ，则：<br>
-(1) 当  时，级数  和  同敛散。<br>
-(2) 当  时，若级数  收敛，则  也收敛。<br>
-(3) 当  时，若级数  发散，则  也发散。
-
-<br>
-
-设正项级数  和 ，当  充分大后，若 ，则：<br>
-(1) 当  收敛时， 也收敛。<br>
-(2) 当  发散时， 也发散。
-
-<br>
-
-设函数  在  上非负且单调递减，则以下无穷级数与无穷积分同敛散：<br>
-
-
-<br>
-
-对于正项级数 ，设 ，若  充分大时，存在  使得 ，则级数收敛；<br>
-若存在无穷多的  满足 ，则级数发散。
-
-<br>
-
-(1) 当  时，级数收敛。<br>
-(2) 当  时，级数发散。
-
-<br>
-
-设正项级数 。令<br>
-当  充分大时，<br>
-若存在  使得 ，则级数  收敛。<br>
-若 ，则级数  发散。
-
-<br>
-
-正项级数  的 Raabe 判别法定义为：<br>
-当  充分大时，<br>
-(1) 若存在  满足 ，则级数收敛。<br>
-(2) 若 ，则级数发散。
-
-<br>
-
-简单改写一下<br>
-因此，级数  收敛。
-
-<br>
-
-设正项级数  若<br>
-其中  都是常数， 是一个有界量。则级数的敛散性为：
-
-<br>]]></description><link>mathstuff\正项级数收敛判别法.html</link><guid isPermaLink="false">MathStuff/正项级数收敛判别法.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 18 Sep 2024 06:26:17 GMT</pubDate><enclosure url="lib\media\pasted-image-20240916174049.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240916174049.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[自然对数的底 e]]></title><description><![CDATA[ 
- <br>我第一次见到  是在小学看《可怕的数学》的时候，那会什么都不懂，只知道这玩意似乎和银行利息计算有一些关系，然后被背会了它的名字”自然对数的底“。当初的感觉，一言以蔽之：高大上。<br>如今，关于  的科普和有趣的例子都非常多了，网上可以找到很多。在这里我记录一些关于  的，以及非常重要的映射  的非平凡的，容易忘记但是比较有趣的内容。<br><br><br>或者通过无穷级数定义：<br><br>关于这两者的等价性，那两波极限的放缩我现在也没有很好的理解，也许哪天搞定了会修改这一部分内容。<br>如果直接从级数角度入手，可以得到 ，用到二项式定理和实数的交换性，其实如果有交换性，你就可以定义一些  之类的东西，比如 ,  代表什么呢？为什么良好定义呢？可以思考一下。<br>关于经典定义 ，这里有一些变种，比如  得到单调递减的数列之类。又或者将  的 换成有理数之类，这些细节应该没有那么重要，如果你未来用到，到时候再复习就好了。<br>其实我最开始意识到自己犯了初学者常见的求极限错误的例子时，就是发现自己把这个极限求成了<br>
-这下笑嘻了，没关系，人总有这样的时候。<br>现在我们一般处理  这种东西的时候，首先考虑的肯定是无脑放到指数上<br>
-<br><br>证明用到  的收敛速度非常之快，事实上有<br>
-那么为什么是无理数呢？不妨假设 ，然后考虑 上述的内容。这方面的内容也非常丰富，如果你做不出来，那就参考一下下面的图<br>这里
-<img alt="8078e7551c1bcbe8c635a3b65e1f3a5e_720.jpg" src="lib\media\8078e7551c1bcbe8c635a3b65e1f3a5e_720.jpg">
-]]></description><link>mathstuff\自然对数的底-e.html</link><guid isPermaLink="false">MathStuff/自然对数的底 e.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 03 Oct 2024 14:03:50 GMT</pubDate><enclosure url="lib\media\8078e7551c1bcbe8c635a3b65e1f3a5e_720.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\8078e7551c1bcbe8c635a3b65e1f3a5e_720.jpg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Analysis III Note 6]]></title><description><![CDATA[<a class="tag" href="?query=tag:数分分析" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#数分分析</a> <a class="tag" href="?query=tag:分析" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#分析</a> <a class="tag" href="?query=tag:周三" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#周三</a> 
- <br>@2024-10-09，@
-<a href=".?query=tag:数分分析" class="tag" target="_blank" rel="noopener">#数分分析</a> <a href=".?query=tag:分析" class="tag" target="_blank" rel="noopener">#分析</a> <a href=".?query=tag:周三" class="tag" target="_blank" rel="noopener">#周三</a><br>
-<a data-href="Analysis III Note 5" href="分析\数学分析\analysis-iii-note-5.html" class="internal-link" target="_self" rel="noopener">Analysis III Note 5</a>
-<br><br>函数一致收敛的定义。<br>一致收敛的连续函数一致收敛到某个函数，则收敛函数连续。<br>讲了一些一致收敛得到连续的例子。<br><br>定理 （Dini)
- 紧， ，对任意 ，  单调。则  
-<br>Proof
-,存在  使得 由连续性，可知 存在 ，有 于是对任意的 ，我们有 于是  这样的开覆盖，我们得到其有限子覆盖，从而取 ，由 的单调性可知，当  时我们得到 
-<br>推论：   紧，对于正项函数 ，每一项都连续，我们得到 <br>定理
- 设 ，  定义在  上，且
-
-<br>，满足
-<br> 为  的一个极限点（聚点）
-<br>，存在极限 <br>
-那么得到  收敛于 ，并且有图
-
-Fn(x)GnF(x)Gx!x0n!1n!1x!x0
-交换
-<br>这里的证明基本套路都一样，你可以练习试一试。<br><br>记号保持一致：<br> 是完备的度量空间。<br>这里的度量就是 函数的无穷范数。<br>使用上面最后一个定理，两个交换图分别走一遍得到 对于 ，将其处理成 Riemann 和函数，那么  对应着积分。<br>
-<br>这里应该对应实分析的一些内容，后续补上
-<br>对应 Lebesgue 控制收敛定理。<br>Arzela 有界定理：条件稍稍弱化？<br>对于 （逐点收敛），如果在  上 ，  可积，如果对于这一函数列有一个一致的界 ，那么积分和求序列极限可以交换。<br>Box
-
-Arzela-Ascoli 定理是分析学中的一个重要定理，特别是在泛函分析和实分析中。它提供了一个充分条件，用于判断一个函数族在紧集上是否相对紧。
-
-设  是一个紧度量空间， 是  中的一个函数族，其中  表示在  上连续的实值函数集合。如果  满足以下两个条件：
-
-<br>一致有界性：存在一个常数 ，使得对于所有  和所有 ，有 。
-<br>等度连续性：对于任意 ，存在 ，使得对于所有  和所有 ，只要 ，就有 。
-
-那么， 在  中是相对紧的，即  的闭包是紧的。
-
-
-<br>一致有界性：这意味着  中的所有函数在  上的取值都被限制在一个有限的范围内。
-<br>等度连续性：这意味着  中的所有函数在  上的变化速度是受控的，即对于任意小的距离 ，函数值的变化也可以控制在一个任意小的范围内。
-
-这两个条件共同保证了  中的函数在  上的行为是“一致”的，从而使得  在  中是相对紧的。
-
-Arzela-Ascoli 定理在许多领域中有广泛的应用，例如：
-
-<br>偏微分方程：用于证明解的存在性和唯一性。
-<br>泛函分析：用于研究 Banach 空间中的紧算子。
-<br>概率论：用于证明某些随机过程的紧性。
-
-
-考虑 ，。显然， 是一致有界的。如果  还是等度连续的，那么根据 Arzela-Ascoli 定理， 在  中是相对紧的。
-
-Arzela-Ascoli 定理提供了一个强大的工具，用于判断函数族的紧性。它在分析学中有着广泛的应用，特别是在研究连续函数空间中的紧性问题时。
-<br><br>在闭区间上的函数列 ，每一项都可微，存在  使得  收敛，并且  一致收敛到 ，那么我们断言  可微并且 。<br>由于 从而  一致收敛与 <br>对于可微性，令 这里  取在合适区间，那么我们有 <br><a data-href="Analysis III Note 7" href="Analysis III Note 7" class="internal-link" target="_self" rel="noopener">Analysis III Note 7</a>]]></description><link>mathstuff\analysis-iii-note-6.html</link><guid isPermaLink="false">MathStuff/Analysis III Note 6.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 09 Oct 2024 07:06:25 GMT</pubDate></item><item><title><![CDATA[Gauss 判别法]]></title><description><![CDATA[ 
- ]]></description><link>mathstuff\gauss-判别法.html</link><guid isPermaLink="false">MathStuff/Gauss 判别法.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 18 Sep 2024 06:22:41 GMT</pubDate></item><item><title><![CDATA[Guess 超几何级数]]></title><description><![CDATA[ 
- <br><br> 是 Pochhammer 符号，定义为：<br>]]></description><link>mathstuff\guess-超几何级数.html</link><guid isPermaLink="false">MathStuff/Guess 超几何级数.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 18 Sep 2024 06:12:03 GMT</pubDate></item><item><title><![CDATA[ODE Notes 4.5]]></title><description><![CDATA[ 
- <br>我们来复习之前的内容。<br><br>The first order autonomous
-可以定义这类方程的“平衡点”： 称  时一个平衡点，如果 
-<br>我们首先证明了如果  是可微的，那么在平衡点处，这个方程有解且唯一，即 。换言之，对于自治的方程，如果存在一个平衡点  ，那么任意定义域中的  都有 。<br>接着我们证明了  是  的情况下（可不可以减弱？），最大延伸解的存在性和唯一性。唯一性是指对于最大延伸区间上的任意子区间上的解，最大延伸解在此区间上的限制与这个解相符合。<br><br>考虑可以无穷延伸的解，研究积分曲线 （ 的像）在趋向于无穷时的行为，我们可以定义 稳定点 的概念。<br>对于自治的方程，我们依赖平衡点来定义稳定点。即  是平衡点，那么对任意 ，存在扰动  使得在此扰动下（初值改为 中的值 ），任意的解  可以被无穷延伸，使得那么  就是一个稳定点。<br>对于自治的方程，我们加强稳定点的条件，渐进稳定，即存在常数 ，使得在此扰动下，任意的解在无穷延伸时满足 <br><br>我们研究  型的方程。<br>首先，我们得到上述方程的解 <br>
-通过类似的方法，我们得到此方程解的唯一性。<br>我们特别提出  是周期函数的情形。此时我们定义 以及拓展 稳定 的定义，得到 “稳定解”，定义非常的类似<br>
-那么将  与 1 做对比，得到三种不同的情形，对应这不同的稳定性。特别的，  时存在着唯一的周期解。<br><br>我们引入了一个非常特别的方法 Green's function ，以及所谓工科做法和 variationo of parameters。<br>]]></description><link>mathstuff\ode-notes-4.5.html</link><guid isPermaLink="false">MathStuff/ODE Notes 4.5.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 08 Oct 2024 04:58:47 GMT</pubDate></item><item><title><![CDATA[one-point compactification]]></title><description><![CDATA[ 
+]]></description><link>mathstuff\文本编辑战术演习.html</link><guid isPermaLink="false">MathStuff/文本编辑战术演习.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Fri, 04 Oct 2024 16:09:25 GMT</pubDate><enclosure url="lib\media\pasted-image-20241003223246.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20241003223246.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[one-point compactification]]></title><description><![CDATA[ 
  <br>one-point compactification(单点紧化) 是一种将非紧致的局部紧致空间转化为紧致空间的技术。具体来说，给定一个局部紧致空间 ，其单点紧化是通过添加一个点（通常称为“无穷远点”或“附加点”）到  中，并将  的拓扑扩展到这个新点，使得整个空间成为紧致的。<br>形式化地，设  是一个局部紧致 Hausdorff 空间。 的单点紧化记作  或 ，其中  是新添加的点。 的拓扑定义如下：<br>
 <br>对于  中的任何开集 ， 也是  中的开集。
 <br>一个包含  的开集是  中的一个紧致闭集的补集。
-<br>这样定义的  是一个紧致 Hausdorff 空间。单点紧化的一个典型例子是实数直线  的单点紧化，即通过添加一个无穷远点得到的扩充实数直线 ，这实际上与复平面上的单位圆盘同胚。<br>单点紧化的重要性在于它提供了一种将非紧致空间转化为紧致空间的方法，这在许多数学分支中都是非常有用的，尤其是在分析和拓扑学中。]]></description><link>mathstuff\one-point-compactification.html</link><guid isPermaLink="false">MathStuff/one-point compactification.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Mon, 02 Sep 2024 08:28:30 GMT</pubDate></item><item><title><![CDATA[Riemann Rearrangement 黎曼重排]]></title><description><![CDATA[ 
- ]]></description><link>mathstuff\riemann-rearrangement-黎曼重排.html</link><guid isPermaLink="false">MathStuff/Riemann Rearrangement 黎曼重排.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 21 Sep 2024 01:03:45 GMT</pubDate></item><item><title><![CDATA[Topology Space]]></title><description><![CDATA[ 
- <br>定义 拓扑空间
-设是一个集合，是的子集族。如果满足以下条件：
-
-<br> 且 。
-<br>对于任意中的元素（，为任意指标集），有。
-<br>对于任意中的有限个元素，有。
-
-则称为上的一个拓扑，称为一个拓扑空间。中的元素称为开集。
-<br><br>定义 拓扑基
-设是一个拓扑空间，是的一个子集族。如果满足以下条件：
-
-<br>，使得。
-<br>对于任意和，存在，使得。
-
-则称为拓扑的Base（基）。
-<br>定义 拓扑的子基
-设是一个拓扑空间，是的一个子集族。如果的有限交全体构成的集合是的一个Base，即：
-
-是的一个Base，则称为拓扑的Subbase（子基）。
-<br>拓扑基有等价定义。即  的子集  ，任意  中的元素都可以用  中的元素并出来。]]></description><link>mathstuff\topology-space.html</link><guid isPermaLink="false">MathStuff/Topology Space.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Fri, 13 Sep 2024 06:28:51 GMT</pubDate></item><item><title><![CDATA[Weierstrass Uniform Convergence Theorem]]></title><description><![CDATA[ 
- <br>在有界函数空间上可以定义度量：<br>
-这里 ，其中  是一拓扑空间，  是一度量空间。<br>注意有界函数的定义：  有界  。<br>（事实上只需要找到一个  使得  即可。<br>Weierstrass Uniform Convergence Theorem
- 是一拓扑空间， 是一度量空间，，换言之是有界函数列，且每一个  都连续，如果存在  使得 ，则  有界且连续。
-<br>证明非常典，参考<a data-href="Analysis III Note 5" href="分析\数学分析\analysis-iii-note-5.html" class="internal-link" target="_self" rel="noopener">Analysis III Note 5</a>的最后。<br><br>如果我们加强条件，让度量空间  完备，那么我们有  完备。<br>总之，映射到完备度量空间的连续函数空间是完备的，从而任何一串函数列都有收敛子列。<br>当然你需要注意这是在怎么诱导出来的度量上谈论的。]]></description><link>mathstuff\weierstrass-uniform-convergence-theorem.html</link><guid isPermaLink="false">MathStuff/Weierstrass Uniform Convergence Theorem.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 03 Oct 2024 12:00:38 GMT</pubDate></item></channel></rss>
+<br>这样定义的  是一个紧致 Hausdorff 空间。单点紧化的一个典型例子是实数直线  的单点紧化，即通过添加一个无穷远点得到的扩充实数直线 ，这实际上与复平面上的单位圆盘同胚。<br>单点紧化的重要性在于它提供了一种将非紧致空间转化为紧致空间的方法，这在许多数学分支中都是非常有用的，尤其是在分析和拓扑学中。]]></description><link>mathstuff\one-point-compactification.html</link><guid isPermaLink="false">MathStuff/one-point compactification.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Mon, 02 Sep 2024 08:28:30 GMT</pubDate></item></channel></rss>
