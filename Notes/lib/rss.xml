@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[LogseqVault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>LogseqVault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Thu, 10 Oct 2024 14:30:47 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Thu, 10 Oct 2024 14:29:24 GMT</pubDate><copyright><![CDATA[Chengwuming]]></copyright><ttl>60</ttl><dc:creator>Chengwuming</dc:creator><item><title><![CDATA[抽象代数课程定义及记号表]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[LogseqVault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>LogseqVault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 14 Oct 2024 01:39:38 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 14 Oct 2024 01:38:21 GMT</pubDate><copyright><![CDATA[Chengwuming]]></copyright><ttl>60</ttl><dc:creator>Chengwuming</dc:creator><item><title><![CDATA[抽象代数课程定义及记号表]]></title><description><![CDATA[ 
  <br>
 <br>射影空间 ，其中  是一个 -线性空间，定义为其上一维线性子空间的集合。
 <br>域扩张：  是  的子域，称  是  的扩张，记作ee mathjax 不太支持。
@@ -1045,7 +1045,7 @@ Assume  is a direction field where , and  is an OPDSG of direction field , then 
 可以定义这类方程的“平衡点”： 称  时一个平衡点，如果 
 <br>我们首先证明了如果  是可微的，那么在平衡点处，这个方程有解且唯一，即 。换言之，对于自治的方程，如果存在一个平衡点  ，那么任意定义域中的  都有 。<br>接着我们证明了  是  的情况下（可不可以减弱？），最大延伸解的存在性和唯一性。唯一性是指对于最大延伸区间上的任意子区间上的解，最大延伸解在此区间上的限制与这个解相符合。<br><br>考虑可以无穷延伸的解，研究积分曲线 （ 的像）在趋向于无穷时的行为，我们可以定义 稳定点 的概念。<br>对于自治的方程，我们依赖平衡点来定义稳定点。即  是平衡点，那么对任意 ，存在扰动  使得在此扰动下（初值改为 中的值 ），任意的解  可以被无穷延伸，使得那么  就是一个稳定点。<br>对于自治的方程，我们加强稳定点的条件，渐进稳定，即存在常数 ，使得在此扰动下，任意的解在无穷延伸时满足 <br><br>我们研究  型的方程。<br>首先，我们得到上述方程的解 <br>
 通过类似的方法，我们得到此方程解的唯一性。<br>我们特别提出  是周期函数的情形。此时我们定义 以及拓展 稳定 的定义，得到 “稳定解”，定义非常的类似<br>
-那么将  与 1 做对比，得到三种不同的情形，对应这不同的稳定性。特别的，  时存在着唯一的周期解。<br><br>我们引入了一个非常特别的方法 Green's function ，以及所谓工科做法和 variationo of parameters。<br>]]></description><link>分析\常微分方程\ode-notes-4.5.html</link><guid isPermaLink="false">分析/常微分方程/ODE Notes 4.5.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 08 Oct 2024 04:58:47 GMT</pubDate></item><item><title><![CDATA[复分析做题日记]]></title><description><![CDATA[ 
+那么将  与 1 做对比，得到三种不同的情形，对应这不同的稳定性。特别的，  时存在着唯一的周期解。<br><br>我们引入了一个非常特别的方法 Green's function ，以及所谓工科做法和 variationo of parameters。<br><br><a data-href="ODE Notes 5" href="mathstuff\ode-notes-5.html" class="internal-link" target="_self" rel="noopener">ODE Notes 5</a>]]></description><link>分析\常微分方程\ode-notes-4.5.html</link><guid isPermaLink="false">分析/常微分方程/ODE Notes 4.5.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Fri, 11 Oct 2024 07:20:39 GMT</pubDate></item><item><title><![CDATA[复分析做题日记]]></title><description><![CDATA[ 
  <br><br>7.11。一个简洁的写法： 复数  共线的充要条件：<br><br>题目数量统计
 
 <br>
@@ -1791,7 +1791,38 @@ Arzela-Ascoli 定理在许多领域中有广泛的应用，例如：
 考虑 ，。显然， 是一致有界的。如果  还是等度连续的，那么根据 Arzela-Ascoli 定理， 在  中是相对紧的。
 
 Arzela-Ascoli 定理提供了一个强大的工具，用于判断函数族的紧性。它在分析学中有着广泛的应用，特别是在研究连续函数空间中的紧性问题时。
-<br><br>在闭区间上的函数列 ，每一项都可微，存在  使得  收敛，并且  一致收敛到 ，那么我们断言  可微并且 。<br>由于 从而  一致收敛与 <br>对于可微性，令 这里  取在合适区间，那么我们有 <br><a data-href="Analysis III Note 7" href="Analysis III Note 7" class="internal-link" target="_self" rel="noopener">Analysis III Note 7</a>]]></description><link>分析\数学分析\analysis-iii-note-6.html</link><guid isPermaLink="false">分析/数学分析/Analysis III Note 6.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 09 Oct 2024 07:06:25 GMT</pubDate></item><item><title><![CDATA[单位分解]]></title><description><![CDATA[ 
+<br><br>在闭区间上的函数列 ，每一项都可微，存在  使得  收敛，并且  一致收敛到 ，那么我们断言  可微并且 。<br>由于 从而  一致收敛与 <br>对于可微性，令 这里  取在合适区间，那么我们有 <br><a data-href="Analysis III Note 7" href="分析\数学分析\analysis-iii-note-7.html" class="internal-link" target="_self" rel="noopener">Analysis III Note 7</a>]]></description><link>分析\数学分析\analysis-iii-note-6.html</link><guid isPermaLink="false">分析/数学分析/Analysis III Note 6.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 09 Oct 2024 07:06:25 GMT</pubDate></item><item><title><![CDATA[Analysis III Note 7]]></title><description><![CDATA[<a class="tag" href="?query=tag:数学分析" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#数学分析</a> <a class="tag" href="?query=tag:分析" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#分析</a> <a class="tag" href="?query=tag:级数" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#级数</a> <a class="tag" href="?query=tag:周一" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#周一</a> 
+ <br>@2024-10-14，幂级数相关@
+<a href=".?query=tag:数学分析" class="tag" target="_blank" rel="noopener">#数学分析</a> <a href=".?query=tag:分析" class="tag" target="_blank" rel="noopener">#分析</a> <a href=".?query=tag:级数" class="tag" target="_blank" rel="noopener">#级数</a> <a href=".?query=tag:周一" class="tag" target="_blank" rel="noopener">#周一</a><br>
+<a data-href="Analysis III Note 6" href="分析\数学分析\analysis-iii-note-6.html" class="internal-link" target="_self" rel="noopener">Analysis III Note 6</a>
+<br><br>
+<br>一致收敛的函数列收敛到连续函数
+<br>一致收敛的函数列，其原函数在某一点处收敛，则原级数收敛
+<br>一致收敛的可积函数列，收敛到可积函数。
+<br><br>形如 <br>定理 (Abel)
+幂级数  在  处收敛，则  时绝对收敛。
+<br>定义收敛半径<br>定义 收敛半径
+
+<br>Caychy-Hadamard
+幂级数是否收敛和收敛半径的关系
+<br>接下来对幂级数应用上节课的内容：<br>
+<br>
+可以积分，可以求导。
+这里额外需要注意的是对  求导之后收敛半径不变：只要求以此导就可以。
+
+<br>Abel 第二定理
+如果  收敛半径 ，若在  处收敛，那么  在  处左连续
+<br>证明
+ 应用 Abel 第一定理
+<br>没搞懂<br>这个定理在科大的教材上有个变种。<br><br><br>
+<br>Lagrange： 
+<br>Cauchy： 
+<br>积分余项： <br>
+f
+<br>不是所有光滑函数都可以被展开<br>比如 在正半轴  ，负半轴取 <br>可以被展开的充要条件是 <br>若  对任意的  和定义域中的 ，有一个一致的界，那么可以表示成幂级数。<br>
+显然余项趋于 0。<br><br><br><br><br><br><br>特别的， 。<br><br>去尝试自己书写这个的证明！<br>HINT
+使用 Cauchy 余项
+]]></description><link>分析\数学分析\analysis-iii-note-7.html</link><guid isPermaLink="false">分析/数学分析/Analysis III Note 7.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Mon, 14 Oct 2024 01:36:48 GMT</pubDate></item><item><title><![CDATA[单位分解]]></title><description><![CDATA[ 
  <br><br>对于某个紧集 ，其上的开覆盖  存在有限子覆盖，在每个子覆盖的开集上通过<br>]]></description><link>分析\单位分解.html</link><guid isPermaLink="false">分析/单位分解.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 11 Sep 2024 23:39:15 GMT</pubDate></item><item><title><![CDATA[度量空间的完备化]]></title><description><![CDATA[ 
  ]]></description><link>分析\度量空间的完备化.html</link><guid isPermaLink="false">分析/度量空间的完备化.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 10 Sep 2024 15:37:39 GMT</pubDate></item><item><title><![CDATA[分析-收敛]]></title><description><![CDATA[ 
  <br>我们的目标是说清楚在度量空间里面序列的收敛是一个什么样的概念，可以用什么样的方式刻画，以及与其相关的一些非平凡的例子。<br>我不想谈论过于一般的情形，那些就放到拓扑里面去学习。在分析里面，我们考虑具有范数结构的空间。<br><br>  是一个赋范线性空间，那么对 ，我们定义<br>
@@ -1820,8 +1851,8 @@ Arzela-Ascoli 定理提供了一个强大的工具，用于判断函数族的紧
 ]]></description><link>分析\分析-收敛.html</link><guid isPermaLink="false">分析/分析-收敛.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 05 Oct 2024 12:12:33 GMT</pubDate></item><item><title><![CDATA[级数收敛性的判别 2]]></title><description><![CDATA[ 
  <br>@2024-9-18，作为上一次的补充和心得@<br><a data-href="正项级数收敛判别法" href="分析\正项级数收敛判别法.html" class="internal-link" target="_self" rel="noopener">正项级数收敛判别法</a><br><br>首先增加几种判别法<br><br>Cauchy 凝聚判别法
 正项级数 单调递减。则  和  同敛散。
-<br>马上想到的一件事就是可以对一个数列反复应用这个定理，从而由一个抽象级数得到一系列收敛越来越快的新级数<br>对于那些收敛得比较慢的级数，可以这么操作一下，然后就比较好看出来。<br>
-<br><a data-href="越来越慢的级数" href="越来越慢的级数" class="internal-link" target="_self" rel="noopener">越来越慢的级数</a><br><br>Kummer 判别法
+<br>马上想到的一件事就是可以对一个数列反复应用这个定理，从而由一个抽象级数得到一系列收敛越来越慢的新级数。级数每一项越小，收敛越慢，越容易被一些比较级数控制。<br>对于那些收敛得比较慢的级数，可以这么操作一下，然后就比较好看出来。<br>
+<br><a data-href="越来越快的级数" href="越来越快的级数" class="internal-link" target="_self" rel="noopener">越来越快的级数</a><br><br>Kummer 判别法
 正项级数  收敛的充分必要条件是，存在正数数列  和 ，使得当  充分大时<br>
 发散的充分必要条件是存在发散的正项级数  使得  充分大时有<br>
 
@@ -1895,7 +1926,7 @@ Arzela-Ascoli 定理提供了一个强大的工具，用于判断函数族的紧
 <br>
 <br>Cesaro 求和
 <br>Poisson-Abel 求和
-]]></description><link>分析\级数收敛性的判别-2.html</link><guid isPermaLink="false">分析/级数收敛性的判别 2.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 05 Oct 2024 12:06:51 GMT</pubDate></item><item><title><![CDATA[解的存在性与唯一性 1]]></title><description><![CDATA[ 
+]]></description><link>分析\级数收敛性的判别-2.html</link><guid isPermaLink="false">分析/级数收敛性的判别 2.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Mon, 14 Oct 2024 00:52:00 GMT</pubDate></item><item><title><![CDATA[解的存在性与唯一性 1]]></title><description><![CDATA[ 
  <br>@2024-09-13，反正是云里雾里@<br>定理 1
 对于 对任意的初值 ，此方程存在解且唯一。
 <br>习题里面证明此处  不一定要  。但是至少可微。考虑反例<br>
@@ -1967,7 +1998,20 @@ Arzela-Ascoli 定理提供了一个强大的工具，用于判断函数族的紧
 
 <br>
 <br>例子：对  中的单位球赋予自然定向，则  的诱导定向是逆时针。]]></description><link>分析\曲面.html</link><guid isPermaLink="false">分析/曲面.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Fri, 13 Sep 2024 06:02:45 GMT</pubDate><enclosure url="lib\media\pasted-image-20240517103127.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240517103127.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[三角级数]]></title><description><![CDATA[ 
- <br>收敛还是发散？]]></description><link>分析\三角级数.html</link><guid isPermaLink="false">分析/三角级数.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 21 Sep 2024 00:03:29 GMT</pubDate></item><item><title><![CDATA[正项级数收敛判别法]]></title><description><![CDATA[<a class="tag" href="?query=tag:级数" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#级数</a> <a class="tag" href="?query=tag:收敛" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#收敛</a> 
+ <br>收敛还是发散？]]></description><link>分析\三角级数.html</link><guid isPermaLink="false">分析/三角级数.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 21 Sep 2024 00:03:29 GMT</pubDate></item><item><title><![CDATA[收敛越来越快的级数]]></title><description><![CDATA[<a class="tag" href="?query=tag:分析" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#分析</a> <a class="tag" href="?query=tag:级数" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#级数</a> 
+ <br>@2024-10-14，从给出的级数构造不同阶的新级数@
+<a href=".?query=tag:分析" class="tag" target="_blank" rel="noopener">#分析</a> <a href=".?query=tag:级数" class="tag" target="_blank" rel="noopener">#级数</a>
+<br>如果给出一正项级数 那么我们知道对于正数  如果小于 ，那么  也是收敛的。比如如果  是  的高阶小量，那更是收敛的。<br>那么是否存在级数 ，使得  是  的高阶小量？<br>答案是肯定的，这里我们 直接构造出来<br>Du Bois-Reymond
+对于一个给定的收敛正项级数 ，存在一个收敛正项级数  使得 
+<br>我们记  的余项 ，那么  单调递减趋于 0。如果在某一项是 0，这就是说  在某一项之后全是 0，那么任意的收敛正项级数  都是符合题意的。<br>这里就令 ，那么令 ，我们已知 ，那么<br>
+<br> 收敛
+<br> 
+<br>这两个的验证是简单的。<br>这样我们其实就有了一个收敛更快 的新级数。<br>Abel
+对于发散的正项级数  一定存在发散的正项级数  使得 
+<br>换句话说 没有最慢的发散正项级数<br>证明
+令 ，这玩意和  是同敛散的。使用 <a data-href="Sapagof 判别法" href="mathstuff\sapagof-判别法.html" class="internal-link" target="_self" rel="noopener">Sapagof 判别法</a> 可知。
+<br><br>严格的表示：<br>
+如果级数  的余项  ， 余项 ，如果 那么  收敛快于 。]]></description><link>分析\收敛越来越快的级数.html</link><guid isPermaLink="false">分析/收敛越来越快的级数.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Mon, 14 Oct 2024 01:38:14 GMT</pubDate></item><item><title><![CDATA[正项级数收敛判别法]]></title><description><![CDATA[<a class="tag" href="?query=tag:级数" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#级数</a> <a class="tag" href="?query=tag:收敛" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#收敛</a> 
  <br><a href=".?query=tag:级数" class="tag" target="_blank" rel="noopener">#级数</a> <a href=".?query=tag:收敛" class="tag" target="_blank" rel="noopener">#收敛</a> <br><br>
 <br>
 设正项级数 , , 当  充分大时有 .
@@ -2136,15 +2180,44 @@ Cauchy 根式判别法应该是最先用的
 如果分布函数  可以表示成<br>
 其中  可数并且  是收敛到1的正项级数，那么称  是一个离散分布函数。
 <br>设分布函数的 分解 令 ，那么  是一个离散分布函数， 是一个连续分布函数，分别记为 ，那么有分布函数的 凸组合<br>
-<br>事实上，这样的凸组合对任意的分布函数存在且唯一。存在性我们已经构造出来了，至于唯一性，由之前的定理1.2.2，如果对  做形如  的分解是唯一的，而分解的系数  是由  唯一决定，从而唯一。<br><a data-tooltip-position="top" aria-label="《概率论教程》讨论班 1" data-href="《概率论教程》讨论班 1" href="《概率论教程》讨论班 1" class="internal-link" target="_self" rel="noopener">本节的习题等相关讨论</a><br><a data-href="《概率论教程》读书笔记 2" href="《概率论教程》读书笔记 2" class="internal-link" target="_self" rel="noopener">《概率论教程》读书笔记 2</a>]]></description><link>概率统计\《概率论教程》读书笔记-1.html</link><guid isPermaLink="false">概率统计/《概率论教程》读书笔记 1.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 09 Oct 2024 11:12:07 GMT</pubDate><enclosure url="lib\media\pasted-image-20241005113337.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20241005113337.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Topology Notes 1]]></title><description><![CDATA[<a class="tag" href="?query=tag:拓扑" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#拓扑</a> <a class="tag" href="?query=tag:点集拓扑" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#点集拓扑</a> <a class="tag" href="?query=tag:Topology" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#Topology</a> 
+<br>事实上，这样的凸组合对任意的分布函数存在且唯一。存在性我们已经构造出来了，至于唯一性，由之前的定理1.2.2，如果对  做形如  的分解是唯一的，而分解的系数  是由  唯一决定，从而唯一。<br><a data-tooltip-position="top" aria-label="《概率论教程》讨论班 1" data-href="《概率论教程》讨论班 1" href="mathstuff\《概率论教程》讨论班-1.html" class="internal-link" target="_self" rel="noopener">本节的习题等相关讨论</a><br><a data-href="《概率论教程》读书笔记 2" href="《概率论教程》读书笔记 2" class="internal-link" target="_self" rel="noopener">《概率论教程》读书笔记 2</a>]]></description><link>概率统计\《概率论教程》读书笔记-1.html</link><guid isPermaLink="false">概率统计/《概率论教程》读书笔记 1.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 09 Oct 2024 11:12:07 GMT</pubDate><enclosure url="lib\media\pasted-image-20241005113337.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20241005113337.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Topology Notes 1]]></title><description><![CDATA[<a class="tag" href="?query=tag:拓扑" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#拓扑</a> <a class="tag" href="?query=tag:点集拓扑" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#点集拓扑</a> <a class="tag" href="?query=tag:Topology" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#Topology</a> 
  <br>@2024-10-03，这是上周五蹭课记的笔记，以后会带电脑@
 <a href=".?query=tag:拓扑" class="tag" target="_blank" rel="noopener">#拓扑</a> <a href=".?query=tag:点集拓扑" class="tag" target="_blank" rel="noopener">#点集拓扑</a> <a href=".?query=tag:Topology" class="tag" target="_blank" rel="noopener">#Topology</a> 
 <br><br><img alt="0dc7a97ca089ac89ac0c9edc29160019_720.jpg" src="lib\media\0dc7a97ca089ac89ac0c9edc29160019_720.jpg" style="width: 962px; max-width: 100%;"><br>
 <img alt="68c1da26af9a13eab6a568aab9b2c3f1_720.jpg" src="lib\media\68c1da26af9a13eab6a568aab9b2c3f1_720.jpg"><br>
 <img alt="0ef6ba6d08774adad124fb71e59e6e72_720.jpg" src="lib\media\0ef6ba6d08774adad124fb71e59e6e72_720.jpg"><br>
 <img alt="b1a49546407fa6fb52318dceec1ed374_720.jpg" src="lib\media\b1a49546407fa6fb52318dceec1ed374_720.jpg"><br>
-<img alt="b59302dec9d0f364c16ecaba35b4cbf7_720.jpg" src="lib\media\b59302dec9d0f364c16ecaba35b4cbf7_720.jpg"><br>这一块你今年除夕写的笔记总结挺好，去参考那个吧。在<a data-tooltip-position="top" aria-label="https://chengwuming.github.io/openmathnotes/edited-latex.html" rel="noopener" class="external-link" href="https://chengwuming.github.io/openmathnotes/edited-latex.html" target="_blank">这里</a><br>期待未来能看到 AI 帮我转换成 Markdown 的一天。<br><a data-href="Topology Notes 2" href="拓扑\topology-notes-2.html" class="internal-link" target="_self" rel="noopener">Topology Notes 2</a>]]></description><link>拓扑\topology-notes-1.html</link><guid isPermaLink="false">拓扑/Topology Notes 1.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 03 Oct 2024 11:34:41 GMT</pubDate><enclosure url="lib\media\0dc7a97ca089ac89ac0c9edc29160019_720.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\0dc7a97ca089ac89ac0c9edc29160019_720.jpg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Topology Notes 2]]></title><description><![CDATA[ 
- ]]></description><link>拓扑\topology-notes-2.html</link><guid isPermaLink="false">拓扑/Topology Notes 2.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 03 Oct 2024 11:31:44 GMT</pubDate></item><item><title><![CDATA[Topology Space]]></title><description><![CDATA[ 
+<img alt="b59302dec9d0f364c16ecaba35b4cbf7_720.jpg" src="lib\media\b59302dec9d0f364c16ecaba35b4cbf7_720.jpg"><br>这一块你今年除夕写的笔记总结挺好，去参考那个吧。在<a data-tooltip-position="top" aria-label="https://chengwuming.github.io/openmathnotes/edited-latex.html" rel="noopener" class="external-link" href="https://chengwuming.github.io/openmathnotes/edited-latex.html" target="_blank">这里</a><br>期待未来能看到 AI 帮我转换成 Markdown 的一天。<br><a data-href="Topology Notes 2" href="拓扑\topology-notes-2.html" class="internal-link" target="_self" rel="noopener">Topology Notes 2</a>]]></description><link>拓扑\topology-notes-1.html</link><guid isPermaLink="false">拓扑/Topology Notes 1.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 03 Oct 2024 11:34:41 GMT</pubDate><enclosure url="lib\media\0dc7a97ca089ac89ac0c9edc29160019_720.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\0dc7a97ca089ac89ac0c9edc29160019_720.jpg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Topology Notes 2]]></title><description><![CDATA[<a class="tag" href="?query=tag:拓扑" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#拓扑</a> <a class="tag" href="?query=tag:点集拓扑" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#点集拓扑</a> <a class="tag" href="?query=tag:连通" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#连通</a> 
+ <br>@2024-10-11，今天是第一次在课堂上记录@
+<a href=".?query=tag:拓扑" class="tag" target="_blank" rel="noopener">#拓扑</a> <a href=".?query=tag:点集拓扑" class="tag" target="_blank" rel="noopener">#点集拓扑</a> <a href=".?query=tag:连通" class="tag" target="_blank" rel="noopener">#连通</a><br>
+<a data-href="Topology Notes 1" href="拓扑\topology-notes-1.html" class="internal-link" target="_self" rel="noopener">Topology Notes 1</a>
+<br><br>定理 连续映射保持连通性<br>定理 稠密子集连通可得全空间连通<br>定理 
+对于连通的 ，如果 ，那么有
+<br>Remark:   是连通的分支，那么有 ，假设  不是分离的，那么有 ，得到矛盾。<br>例子：连通但不是道路连通的例子<br>拓扑学家的正弦曲线
+令 。<br>
+令 ， 是连通的（ ，，从而 ，进而  也是连通的。
+容易验证  不道路连通。留作练习。
+<br>xy<br>作为总结：道路连通分支一般情况下不是闭的。而且这里两个道路连通分支  不是分离的。<br><br><br>从粘合拓扑的角度考虑圆柱面就是把一个矩形的两边粘起来<br>然后是环面，Torus，Mobius 带，Klein 瓶，以及实射影平面 ，都可以通过矩形的粘合理解。特别的  不是很好直观理解，可以看成二维圆盘模掉对镜点的粘合拓扑。<br><br>定义 
+ 是一个拓扑空间，考虑其上的分划 现在令  和映射 ， 。定义  上的拓扑：
+ 是开集   是开集。那么如此定义的拓扑称为粘合拓扑，空间  为粘合空间。 
+<br>粘合拓扑的泛性质
+  是一个粘合空间， ，对任意的拓扑空间 ，任意的映射  是连续的，当且仅当  是连续的。
+XZYf±¼¼f
+设  是开机，那么  开  开，从而  是连续的当且仅当  是连续的。
+<br>定义 2
+ 是连续的满射，  是开集当且仅当  是开集。 那么我们称  是一个粘合映射。
+<br>注：这两种定义是等价的：<br>此时给予  分划： ，令  是由此分划定义的粘合空间。我们有自然的 映射 则  是同胚且有下图交换<br>XY¤Y¼fh'<br>定理 
+ 是连续的满射，如果  是开映射或者闭映射，那么  是一个粘合映射。
+<br>设  是开映射，令  使得  是开集，由于  是满射，从而 ，从而  是开集。<br>另一方面，如果  是开集，那么  是开集，（因为  连续）<br>从而  是开集    开集，这说明  是一个粘合映射。闭映射的情形类似。<br>推论
+ 是一个连续的满射，如果  是紧空间，且  是 Hausdorff 的，那么  是一个粘合映射。
+<br>这是因为紧空间到 Hausdorff 空间的连续映射是闭映射。<br>具体说说：令  闭   紧   紧   闭 。<br>Recall: <br>
+<br>，  是开集且  使得  连续   连续
+<br>， 是闭集， 使得  连续   连续
+<br>推广：令 ，令 ，赋予  拓扑：  开  对任意的 ， 开。<br> 定义  （canonical map），其在每一个分量上是嵌入映射<br>
+<br>Note
+ 令  是限制在任意的  上都连续的映射，如果  是粘合映射，那么  是连续映射。<br>
+对任意的 ，  
+<br>证明<br>  是粘合映射，从而  连续   是连续的    是连续的，对任意的 ，从而  是连续的。 <br>注：<br>当<br>例子：<br>单位圆盘 ，考虑  把边界圆周粘合成一个点，这样的粘合空间 ，记 ，那么  与  同胚。<br>一般的，练习证明  是同胚。]]></description><link>拓扑\topology-notes-2.html</link><guid isPermaLink="false">拓扑/Topology Notes 2.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Fri, 11 Oct 2024 01:35:36 GMT</pubDate></item><item><title><![CDATA[Topology Space]]></title><description><![CDATA[ 
  <br>定义 拓扑空间
 设是一个集合，是的子集族。如果满足以下条件：
 
@@ -2473,14 +2546,48 @@ Cauchy 根式判别法应该是最先用的
 
 <br><br><img alt="Pasted image 20240915092331.png" src="lib\media\pasted-image-20240915092331.png"><br>
 <img alt="Pasted image 20240915092339.png" src="lib\media\pasted-image-20240915092339.png"><br>
-<img alt="Pasted image 20240915092346.png" src="lib\media\pasted-image-20240915092346.png">]]></description><link>作业\ode-第一次作业.html</link><guid isPermaLink="false">作业/ODE 第一次作业.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 21 Sep 2024 04:34:14 GMT</pubDate><enclosure url="lib\media\pasted-image-20240915092018.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240915092018.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[方便查询的记号表]]></title><description><![CDATA[ 
+<img alt="Pasted image 20240915092346.png" src="lib\media\pasted-image-20240915092346.png">]]></description><link>作业\ode-第一次作业.html</link><guid isPermaLink="false">作业/ODE 第一次作业.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 21 Sep 2024 04:34:14 GMT</pubDate><enclosure url="lib\media\pasted-image-20240915092018.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240915092018.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[《概率论教程》讨论班 1]]></title><description><![CDATA[<a class="tag" href="?query=tag:概率论" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#概率论</a> <a class="tag" href="?query=tag:probobility" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#probobility</a> 
+ <br>@2024-10-12，第一次讨论@
+<a href=".?query=tag:概率论" class="tag" target="_blank" rel="noopener">#概率论</a> <a href=".?query=tag:probobility" class="tag" target="_blank" rel="noopener">#probobility</a><br>
+<a data-href="《概率论教程》读书笔记 1" href="概率统计\《概率论教程》读书笔记-1.html" class="internal-link" target="_self" rel="noopener">《概率论教程》读书笔记 1</a>
+<br><br><br>
+<br>
+至多可数
+
+<br>
+可以有极限点，可不闭
+
+<br>
+点质量
+
+<br>
+在  上跳跃的增函数。
+
+<br>
+两个增函数，如果在稠密集上相等，那么其跳跃点一样的，且跳跃大小相等。<br>
+，记这个稠密集是 ，那么 ，使得 ，换言之  处的左右极限被  刻画，<br>
+，除了在某些跳跃点上可能有例外。
+
+<br>取 ， ，<br><br>
+<br>
+规范化，
+
+<br>
+定义分布函数，在  右连续 增 函数，且 。  
+
+<br>
+退化的分布函数。
+
+<br><a data-href="delta 函数" href="delta 函数" class="internal-link" target="_self" rel="noopener">delta 函数</a><br>
+<br>，
+<br>]]></description><link>mathstuff\《概率论教程》讨论班-1.html</link><guid isPermaLink="false">MathStuff/《概率论教程》讨论班 1.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 12 Oct 2024 00:57:15 GMT</pubDate></item><item><title><![CDATA[方便查询的记号表]]></title><description><![CDATA[ 
  <br>
 <br>Amann 记 
 <br>
 ]]></description><link>mathstuff\方便查询的记号表.html</link><guid isPermaLink="false">MathStuff/方便查询的记号表.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 03 Oct 2024 14:46:37 GMT</pubDate></item><item><title><![CDATA[你好哇，你这会想看什么？]]></title><description><![CDATA[ 
  <br>二四六11月12月1月2月3月4月5月6月7月8月9月10月lessmore<br>
-<br>今天是2024年10月10日，2024 年已经过去了 279 天
-<br>今年你总共在 69 天中留下了你的足迹，继续加油！
+<br>今天是2024年10月14日，2024 年已经过去了 283 天
+<br>今年你总共在 70 天中留下了你的足迹，继续加油！
 <br><br>Multi column
 复分析
 暑假期间听刘老师课程的笔记。之后会重置。<br>
@@ -2743,8 +2850,64 @@ C' \arrow[rr,"k'" near end] \arrow[dr,swap,"c"] &amp;&amp; D' \arrow[dr,swap,"d"
 这是一个box类型的callout。
 <br>Proof
 这是一个proof类型的callout。
-]]></description><link>mathstuff\文本编辑战术演习.html</link><guid isPermaLink="false">MathStuff/文本编辑战术演习.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Fri, 04 Oct 2024 16:09:25 GMT</pubDate><enclosure url="lib\media\pasted-image-20241003223246.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20241003223246.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[one-point compactification]]></title><description><![CDATA[ 
+]]></description><link>mathstuff\文本编辑战术演习.html</link><guid isPermaLink="false">MathStuff/文本编辑战术演习.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Fri, 04 Oct 2024 16:09:25 GMT</pubDate><enclosure url="lib\media\pasted-image-20241003223246.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20241003223246.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[ODE Notes 5]]></title><description><![CDATA[<a class="tag" href="?query=tag:常微分方程" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#常微分方程</a> <a class="tag" href="?query=tag:ODE" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#ODE</a> 
+ <br>@2024-10-11，上次课的笔记会在后续整理@
+<a href=".?query=tag:常微分方程" class="tag" target="_blank" rel="noopener">#常微分方程</a> <a href=".?query=tag:ODE" class="tag" target="_blank" rel="noopener">#ODE</a><br>
+<a data-href="ODE Notes 4.5" href="分析\常微分方程\ode-notes-4.5.html" class="internal-link" target="_self" rel="noopener">ODE Notes 4.5</a>
+<br>定理3.4
+记号: ，设  对  是 的，对  是连续的。
+这里  是指对  求导之后对  是连续的。
+这里有方程 ， ，<br>
+那么存在一个解 ， ，<br>
+并且  是  in  且  in t
+<br>Recall，  是一个完备的度量空间，假定 ，且  满足 那么对任意的 ，那么存在极限 ， <br>证明：留作练习，参考讲义。<br>这样的  难道不是唯一的吗？<br>引理3.2<br>  是一个紧集。并且有 <br>
+ 是一个完备的度量空间， 这里 。度量是无穷范数诱导的。<br>证明<br>设  是Cauchy列，那么由值域的完备性，得到每一点处  是Cauchy 列，从而  良好定义。后续证明参考讲义。<br>xgy：有同学找我聊天，希望建议他做数学，但是我拒绝，因为建议别人学数学是反人性的。<br>引理3.3<br>上面定义的  是  的。<br>现在来证明主定理<br>我们有 引理 3.2中  取 ，注意这里  是紧的。<br>
+定义 ，通过 <br>
+<br>我们证明  是  到  的映射。
+<br> 是  上的收缩映射。
+<br>如果上述成立，根据Lemma 3.1，存在 ，使得 。<br>Fredholm operator<br>Cite
+Fredholm 算子是泛函分析中的一个重要概念，特别是在研究线性算子的谱理论时。Fredholm 算子通常定义在 Banach 空间或 Hilbert 空间上，并且具有一些特殊的性质。
+
+设  和  是 Banach 空间， 是一个有界线性算子。如果存在有界线性算子  使得：
+
+<br>（ 是  上的恒等算子），
+<br>（ 是  上的恒等算子），
+
+则称  是一个 Fredholm 算子。
+
+Fredholm 算子具有以下几个基本性质：
+
+<br>
+Fredholm 算子的指标：对于 Fredholm 算子 ，定义其指标为：
+
+其中， 是  的零空间， 是  的余核。
+
+<br>
+指标的不变性：如果  是 Fredholm 算子，且  是另一个 Fredholm 算子，那么  也是 Fredholm 算子，并且：
+
+
+<br>
+Fredholm 算子的谱性质：Fredholm 算子的谱  只包含有限个离散的点，并且这些点的代数重数都是有限的。
+
+
+
+
+<br>
+紧算子：如果  是一个紧算子，那么  是一个 Fredholm 算子，并且其指标为 0。
+
+<br>
+有限秩算子：如果  是一个有限秩算子（即  是有限维的），那么  是一个 Fredholm 算子，并且其指标为 。
+
+
+
+Fredholm 算子在偏微分方程、积分方程和谱理论中有广泛的应用。例如，在研究偏微分方程的解的存在性和唯一性时，常常会涉及到 Fredholm 算子的性质。
+
+Fredholm 算子是一类具有特殊性质的有界线性算子，其指标是一个重要的不变量。通过对 Fredholm 算子的研究，可以深入理解线性算子的谱理论及其在数学和物理中的应用。
+<br>令 ，那么<br>
+<br>从而  是最开始的方程的解。<br>现在我们证明上述两个论断。<br>对任意的 ，<br>
+<br>这里 <br>下面我们终于来证明最后一步！！<br>]]></description><link>mathstuff\ode-notes-5.html</link><guid isPermaLink="false">MathStuff/ODE Notes 5.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Fri, 11 Oct 2024 08:55:35 GMT</pubDate></item><item><title><![CDATA[one-point compactification]]></title><description><![CDATA[ 
  <br>one-point compactification(单点紧化) 是一种将非紧致的局部紧致空间转化为紧致空间的技术。具体来说，给定一个局部紧致空间 ，其单点紧化是通过添加一个点（通常称为“无穷远点”或“附加点”）到  中，并将  的拓扑扩展到这个新点，使得整个空间成为紧致的。<br>形式化地，设  是一个局部紧致 Hausdorff 空间。 的单点紧化记作  或 ，其中  是新添加的点。 的拓扑定义如下：<br>
 <br>对于  中的任何开集 ， 也是  中的开集。
 <br>一个包含  的开集是  中的一个紧致闭集的补集。
-<br>这样定义的  是一个紧致 Hausdorff 空间。单点紧化的一个典型例子是实数直线  的单点紧化，即通过添加一个无穷远点得到的扩充实数直线 ，这实际上与复平面上的单位圆盘同胚。<br>单点紧化的重要性在于它提供了一种将非紧致空间转化为紧致空间的方法，这在许多数学分支中都是非常有用的，尤其是在分析和拓扑学中。]]></description><link>mathstuff\one-point-compactification.html</link><guid isPermaLink="false">MathStuff/one-point compactification.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Mon, 02 Sep 2024 08:28:30 GMT</pubDate></item></channel></rss>
+<br>这样定义的  是一个紧致 Hausdorff 空间。单点紧化的一个典型例子是实数直线  的单点紧化，即通过添加一个无穷远点得到的扩充实数直线 ，这实际上与复平面上的单位圆盘同胚。<br>单点紧化的重要性在于它提供了一种将非紧致空间转化为紧致空间的方法，这在许多数学分支中都是非常有用的，尤其是在分析和拓扑学中。]]></description><link>mathstuff\one-point-compactification.html</link><guid isPermaLink="false">MathStuff/one-point compactification.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Mon, 02 Sep 2024 08:28:30 GMT</pubDate></item><item><title><![CDATA[Sapagof 判别法]]></title><description><![CDATA[ 
+ ]]></description><link>mathstuff\sapagof-判别法.html</link><guid isPermaLink="false">MathStuff/Sapagof 判别法.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Mon, 14 Oct 2024 00:59:15 GMT</pubDate></item></channel></rss>
