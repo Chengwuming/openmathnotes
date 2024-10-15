@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[LogseqVault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>LogseqVault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 14 Oct 2024 01:39:38 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 14 Oct 2024 01:38:21 GMT</pubDate><copyright><![CDATA[Chengwuming]]></copyright><ttl>60</ttl><dc:creator>Chengwuming</dc:creator><item><title><![CDATA[抽象代数课程定义及记号表]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[LogseqVault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>LogseqVault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 15 Oct 2024 11:31:35 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 15 Oct 2024 11:30:21 GMT</pubDate><copyright><![CDATA[Chengwuming]]></copyright><ttl>60</ttl><dc:creator>Chengwuming</dc:creator><item><title><![CDATA[抽象代数课程定义及记号表]]></title><description><![CDATA[ 
  <br>
 <br>射影空间 ，其中  是一个 -线性空间，定义为其上一维线性子空间的集合。
 <br>域扩张：  是  的子域，称  是  的扩张，记作ee mathjax 不太支持。
@@ -263,12 +263,14 @@ p-群  对自身的共轭作用得到的轨道就是共轭类 ，且作用  上�
 <br>注 如果  是正规的p -Sylow，那么  只有一个 p-Sylow。<br><br>
 <br>研究  的 5-Sylow，假设有  个。我们已经知道 ，但是我们这里先不用。
 <br>首先 ，其次  ，最后 。这就足以推出 。<br>我们现在可以举例，手动找到两个 5-sylow，比如  和  生成的子群，说服自己这两个生成的子群不一样，那么  只能是6。<br>或者只有一个正规子群是 ，从而。。。<br>令  作用在  上，其中  是 5-Sylow，作用由共轭给出。<br>换言之我们得到<br>
-断言  是单射，不然 ，且这个核是正规子群，所以 ，这是不可能的，因为 ，但是我们知道  的作用传递，所以其作用在  的轨道上有 6 个元素，所以 ，所以  就是单射，从而  在  中作为一个子群，其在  的作用是传递的，所以得到  不是那些简单的子群。<br><br>正六面体和正八面体同构。<br>我们研究这些东西的对称群。<br>
-<br>正四面体<br>
-
-<br>研究了以下  是啥，这里回忆到高代。。<br>有趣的问题是 两个不同轴的旋转复合之后的旋转是什么？<br>回到正题，这玩意的对称：单位，固定一个点得到的轴，能转两下，8个，一对边的中点连线为轴，旋转，3个，现在总共有12个元素了。<br>事实上有 ，考虑  正四面体的顶点集上的作用<br>
+断言  是单射，不然 ，且这个核是正规子群，所以 ，这是不可能的，因为 ，但是我们知道  的作用传递，所以其作用在  的轨道上有 6 个元素，所以 ，所以  就是单射，从而  在  中作为一个子群，其在  的作用是传递的，所以得到  不是那些简单的子群。<br><br>正六面体和正八面体同构。<br>我们研究这些东西的对称群。<br><br><br>研究了以下  是啥，这里回忆到高代。。<br>有趣的问题是 两个不同轴的旋转复合之后的旋转是什么？<br>回到正题，这玩意的对称：单位，固定一个点得到的轴，能转两下，8个，一对边的中点连线为轴，旋转，3个，现在总共有12个元素了。<br>事实上有 ，考虑  正四面体的顶点集上的作用<br>
 首先这是一个单射，看看这玩意的像，因为已知已经有了12个元素了，所以  要12个元素，要么24个元素。<br>不能是24个！不然 ，我们取一个  的对换，这将会摧毁这个正四面体。<br>于是 ，注意到  包含了所有三循环，但是三循环又生成 ，所以最终我们得到了<br>
-<br><br>数一数：有多少个旋转？容易数出来24个。<br>我们希望 ，]]></description><link>代数\抽象代数\abstract-algebra-note-4.html</link><guid isPermaLink="false">代数/抽象代数/Abstract Algebra Note 4.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 10 Oct 2024 01:46:36 GMT</pubDate></item><item><title><![CDATA[作业9]]></title><description><![CDATA[ 
+<br><br>数一数：有多少个旋转？容易数出来24个。<br>我们希望 <br>构造映射  ，将对角的四根线进行置换，换言之有群作用 首先  包含所有的三循环，所以 。并且我们可以找到一个对换，所以只能有 ，最后， 是单射，这是因为<br><br>数一数<br>1821067935140<br>有 60 个对称。<br>好好体会一下这样直观的感觉是怎么落实到数学证明上的。参考讲义。<br>
+<br>首先这六十个元素生成 
+<br>其次  作用在  是传递的。从而
+<br>最后 
+<br>然后我们对所有旋转根据角度分类，事实上，如果两个旋转共轭，那么他们的角度是相等的（旋转角度由特征值刻画）。<br>
+所以你经过分类之后发现所有共轭类的并（正规子群只有可能是含单位的共轭类的并），所含元素的个数不能构成非平凡子群，从而  的对称群是单群，而  阶的单群只有一个就是 。<br>我现在希望这个群作用在有 5 个元素的东西上。<br>15条对边可以搞出一个三线组的东西，有五组。去学习这一段<br><a data-href="Notes1014.pdf" href="assets\notes1014.pdf" class="internal-link" target="_self" rel="noopener">Notes1014.pdf</a><br><a data-href="Abstract Algebra Note 5" href="mathstuff\abstract-algebra-note-5.html" class="internal-link" target="_self" rel="noopener">Abstract Algebra Note 5</a>]]></description><link>代数\抽象代数\abstract-algebra-note-4.html</link><guid isPermaLink="false">代数/抽象代数/Abstract Algebra Note 4.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Mon, 14 Oct 2024 08:19:03 GMT</pubDate></item><item><title><![CDATA[作业9]]></title><description><![CDATA[ 
  <br>
 <br>
 <img alt="Pasted image 20240513205638.png" src="lib\media\pasted-image-20240513205638.png">
@@ -880,7 +882,7 @@ cord::绳索<br>
 wagons::马车<br>
 depicted::描绘<br>
 trajectories of the motion of the phase point::相点运动轨迹<br>
-abscissa::横坐标<br>Arnold 你英语真好 :P]]></description><link>分析\常微分方程\ode-notes-1.html</link><guid isPermaLink="false">分析/常微分方程/ODE Notes 1.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 18 Sep 2024 10:10:09 GMT</pubDate></item><item><title><![CDATA[ODE Notes 2]]></title><description><![CDATA[<a class="tag" href="?query=tag:ODE" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#ODE</a> <a class="tag" href="?query=tag:常微分方程" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#常微分方程</a> <a class="tag" href="?query=tag:周二" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#周二</a> 
+abscissa::横坐标<br>Arnold 你英语真好 :P]]></description><link>分析\常微分方程\ode-notes-1.html</link><guid isPermaLink="false">分析/常微分方程/ODE Notes 1.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 15 Oct 2024 02:04:38 GMT</pubDate></item><item><title><![CDATA[ODE Notes 2]]></title><description><![CDATA[<a class="tag" href="?query=tag:ODE" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#ODE</a> <a class="tag" href="?query=tag:常微分方程" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#常微分方程</a> <a class="tag" href="?query=tag:周二" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#周二</a> 
  <br>@2024-09-24，第一次在课堂上记，感觉应该是跟不上，下来慢慢补好了@
 <a href=".?query=tag:ODE" class="tag" target="_blank" rel="noopener">#ODE</a> <a href=".?query=tag:常微分方程" class="tag" target="_blank" rel="noopener">#常微分方程</a> <a href=".?query=tag:周二" class="tag" target="_blank" rel="noopener">#周二</a><br>
 <a data-href="ODE Notes 1" href="分析\常微分方程\ode-notes-1.html" class="internal-link" target="_self" rel="noopener">ODE Notes 1</a>
@@ -1045,7 +1047,62 @@ Assume  is a direction field where , and  is an OPDSG of direction field , then 
 可以定义这类方程的“平衡点”： 称  时一个平衡点，如果 
 <br>我们首先证明了如果  是可微的，那么在平衡点处，这个方程有解且唯一，即 。换言之，对于自治的方程，如果存在一个平衡点  ，那么任意定义域中的  都有 。<br>接着我们证明了  是  的情况下（可不可以减弱？），最大延伸解的存在性和唯一性。唯一性是指对于最大延伸区间上的任意子区间上的解，最大延伸解在此区间上的限制与这个解相符合。<br><br>考虑可以无穷延伸的解，研究积分曲线 （ 的像）在趋向于无穷时的行为，我们可以定义 稳定点 的概念。<br>对于自治的方程，我们依赖平衡点来定义稳定点。即  是平衡点，那么对任意 ，存在扰动  使得在此扰动下（初值改为 中的值 ），任意的解  可以被无穷延伸，使得那么  就是一个稳定点。<br>对于自治的方程，我们加强稳定点的条件，渐进稳定，即存在常数 ，使得在此扰动下，任意的解在无穷延伸时满足 <br><br>我们研究  型的方程。<br>首先，我们得到上述方程的解 <br>
 通过类似的方法，我们得到此方程解的唯一性。<br>我们特别提出  是周期函数的情形。此时我们定义 以及拓展 稳定 的定义，得到 “稳定解”，定义非常的类似<br>
-那么将  与 1 做对比，得到三种不同的情形，对应这不同的稳定性。特别的，  时存在着唯一的周期解。<br><br>我们引入了一个非常特别的方法 Green's function ，以及所谓工科做法和 variationo of parameters。<br><br><a data-href="ODE Notes 5" href="mathstuff\ode-notes-5.html" class="internal-link" target="_self" rel="noopener">ODE Notes 5</a>]]></description><link>分析\常微分方程\ode-notes-4.5.html</link><guid isPermaLink="false">分析/常微分方程/ODE Notes 4.5.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Fri, 11 Oct 2024 07:20:39 GMT</pubDate></item><item><title><![CDATA[复分析做题日记]]></title><description><![CDATA[ 
+那么将  与 1 做对比，得到三种不同的情形，对应这不同的稳定性。特别的，  时存在着唯一的周期解。<br><br>我们引入了一个非常特别的方法 Green's function ，以及所谓工科做法和 variationo of parameters。<br><br><a data-href="ODE Notes 5" href="分析\常微分方程\ode-notes-5.html" class="internal-link" target="_self" rel="noopener">ODE Notes 5</a>]]></description><link>分析\常微分方程\ode-notes-4.5.html</link><guid isPermaLink="false">分析/常微分方程/ODE Notes 4.5.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Fri, 11 Oct 2024 07:20:39 GMT</pubDate></item><item><title><![CDATA[ODE Notes 5]]></title><description><![CDATA[<a class="tag" href="?query=tag:常微分方程" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#常微分方程</a> <a class="tag" href="?query=tag:ODE" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#ODE</a> 
+ <br>@2024-10-11，上次课的笔记会在后续整理@
+<a href=".?query=tag:常微分方程" class="tag" target="_blank" rel="noopener">#常微分方程</a> <a href=".?query=tag:ODE" class="tag" target="_blank" rel="noopener">#ODE</a><br>
+<a data-href="ODE Notes 4.5" href="分析\常微分方程\ode-notes-4.5.html" class="internal-link" target="_self" rel="noopener">ODE Notes 4.5</a>
+<br>定理3.4
+记号: ，设  对  是 的，对  是连续的。
+这里  是指对  求导之后对  是连续的。
+这里有方程 ， ，<br>
+那么存在一个解 ， ，<br>
+并且  是  in  且  in t
+<br>Recall，  是一个完备的度量空间，假定 ，且  满足 那么对任意的 ，那么存在极限 ， <br>证明：留作练习，参考讲义。<br>这样的  难道不是唯一的吗？<br>引理3.2<br>  是一个紧集。并且有 <br>
+ 是一个完备的度量空间， 这里 。度量是无穷范数诱导的。<br>证明<br>设  是Cauchy列，那么由值域的完备性，得到每一点处  是Cauchy 列，从而  良好定义。后续证明参考讲义。<br>xgy：有同学找我聊天，希望建议他做数学，但是我拒绝，因为建议别人学数学是反人性的。<br>引理3.3<br>上面定义的  是  的。<br>现在来证明主定理<br>我们有 引理 3.2中  取 ，注意这里  是紧的。<br>
+定义 ，通过 <br>
+<br>我们证明  是  到  的映射。
+<br> 是  上的收缩映射。
+<br>如果上述成立，根据Lemma 3.1，存在 ，使得 。<br>Fredholm operator<br>Cite
+Fredholm 算子是泛函分析中的一个重要概念，特别是在研究线性算子的谱理论时。Fredholm 算子通常定义在 Banach 空间或 Hilbert 空间上，并且具有一些特殊的性质。
+
+设  和  是 Banach 空间， 是一个有界线性算子。如果存在有界线性算子  使得：
+
+<br>（ 是  上的恒等算子），
+<br>（ 是  上的恒等算子），
+
+则称  是一个 Fredholm 算子。
+
+Fredholm 算子具有以下几个基本性质：
+
+<br>
+Fredholm 算子的指标：对于 Fredholm 算子 ，定义其指标为：
+
+其中， 是  的零空间， 是  的余核。
+
+<br>
+指标的不变性：如果  是 Fredholm 算子，且  是另一个 Fredholm 算子，那么  也是 Fredholm 算子，并且：
+
+
+<br>
+Fredholm 算子的谱性质：Fredholm 算子的谱  只包含有限个离散的点，并且这些点的代数重数都是有限的。
+
+
+
+
+<br>
+紧算子：如果  是一个紧算子，那么  是一个 Fredholm 算子，并且其指标为 0。
+
+<br>
+有限秩算子：如果  是一个有限秩算子（即  是有限维的），那么  是一个 Fredholm 算子，并且其指标为 。
+
+
+
+Fredholm 算子在偏微分方程、积分方程和谱理论中有广泛的应用。例如，在研究偏微分方程的解的存在性和唯一性时，常常会涉及到 Fredholm 算子的性质。
+
+Fredholm 算子是一类具有特殊性质的有界线性算子，其指标是一个重要的不变量。通过对 Fredholm 算子的研究，可以深入理解线性算子的谱理论及其在数学和物理中的应用。
+<br>令 ，那么<br>
+<br>从而  是最开始的方程的解。<br>现在我们证明上述两个论断。<br>对任意的 ，<br>
+<br>这里 <br>下面我们终于来证明最后一步！！<br><br><a data-href="ODE Notes 6" href="mathstuff\ode-notes-6.html" class="internal-link" target="_self" rel="noopener">ODE Notes 6</a>]]></description><link>分析\常微分方程\ode-notes-5.html</link><guid isPermaLink="false">分析/常微分方程/ODE Notes 5.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 15 Oct 2024 07:21:17 GMT</pubDate></item><item><title><![CDATA[复分析做题日记]]></title><description><![CDATA[ 
  <br><br>7.11。一个简洁的写法： 复数  共线的充要条件：<br><br>题目数量统计
 
 <br>
@@ -1822,7 +1879,7 @@ f
 <br>不是所有光滑函数都可以被展开<br>比如 在正半轴  ，负半轴取 <br>可以被展开的充要条件是 <br>若  对任意的  和定义域中的 ，有一个一致的界，那么可以表示成幂级数。<br>
 显然余项趋于 0。<br><br><br><br><br><br><br>特别的， 。<br><br>去尝试自己书写这个的证明！<br>HINT
 使用 Cauchy 余项
-]]></description><link>分析\数学分析\analysis-iii-note-7.html</link><guid isPermaLink="false">分析/数学分析/Analysis III Note 7.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Mon, 14 Oct 2024 01:36:48 GMT</pubDate></item><item><title><![CDATA[单位分解]]></title><description><![CDATA[ 
+<br><a data-href="Analysis III Note 8" href="Analysis III Note 8" class="internal-link" target="_self" rel="noopener">Analysis III Note 8</a>]]></description><link>分析\数学分析\analysis-iii-note-7.html</link><guid isPermaLink="false">分析/数学分析/Analysis III Note 7.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Mon, 14 Oct 2024 07:08:25 GMT</pubDate></item><item><title><![CDATA[单位分解]]></title><description><![CDATA[ 
  <br><br>对于某个紧集 ，其上的开覆盖  存在有限子覆盖，在每个子覆盖的开集上通过<br>]]></description><link>分析\单位分解.html</link><guid isPermaLink="false">分析/单位分解.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 11 Sep 2024 23:39:15 GMT</pubDate></item><item><title><![CDATA[度量空间的完备化]]></title><description><![CDATA[ 
  ]]></description><link>分析\度量空间的完备化.html</link><guid isPermaLink="false">分析/度量空间的完备化.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 10 Sep 2024 15:37:39 GMT</pubDate></item><item><title><![CDATA[分析-收敛]]></title><description><![CDATA[ 
  <br>我们的目标是说清楚在度量空间里面序列的收敛是一个什么样的概念，可以用什么样的方式刻画，以及与其相关的一些非平凡的例子。<br>我不想谈论过于一般的情形，那些就放到拓扑里面去学习。在分析里面，我们考虑具有范数结构的空间。<br><br>  是一个赋范线性空间，那么对 ，我们定义<br>
@@ -2398,7 +2455,7 @@ XZYf±¼¼f
 <img alt="Pasted image 20241010101634.png" src="lib\media\pasted-image-20241010101634.png">
 
 <br>定义时间常数 ，在  是电路基本就不变化了。<br>
-这种电路是非稳恒过程，但是我们  很小的时候可以近似的看成ok。<br><br><br><br><a data-href="大学物理（2） 笔记 8" href="大学物理（2） 笔记 8" class="internal-link" target="_self" rel="noopener">大学物理（2） 笔记 8</a>]]></description><link>物理\大学物理（2）-笔记-7.html</link><guid isPermaLink="false">物理/大学物理（2） 笔记 7.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 10 Oct 2024 02:53:07 GMT</pubDate><enclosure url="lib\media\pasted-image-20241010095524.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20241010095524.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[可交换]]></title><description><![CDATA[ 
+这种电路是非稳恒过程，但是我们  很小的时候可以近似的看成ok。<br><br><br>...<br>洛伦兹力： <br><br><a data-href="大学物理（2） 笔记 8" href="mathstuff\大学物理（2）-笔记-8.html" class="internal-link" target="_self" rel="noopener">大学物理（2） 笔记 8</a>]]></description><link>物理\大学物理（2）-笔记-7.html</link><guid isPermaLink="false">物理/大学物理（2） 笔记 7.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 15 Oct 2024 01:47:05 GMT</pubDate><enclosure url="lib\media\pasted-image-20241010095524.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20241010095524.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[可交换]]></title><description><![CDATA[ 
  <br><br><br><br>
 <br>同时正交对角化
 
@@ -2580,13 +2637,58 @@ XZYf±¼¼f
 
 <br><a data-href="delta 函数" href="delta 函数" class="internal-link" target="_self" rel="noopener">delta 函数</a><br>
 <br>，
-<br>]]></description><link>mathstuff\《概率论教程》讨论班-1.html</link><guid isPermaLink="false">MathStuff/《概率论教程》讨论班 1.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 12 Oct 2024 00:57:15 GMT</pubDate></item><item><title><![CDATA[方便查询的记号表]]></title><description><![CDATA[ 
+<br>]]></description><link>mathstuff\《概率论教程》讨论班-1.html</link><guid isPermaLink="false">MathStuff/《概率论教程》讨论班 1.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 12 Oct 2024 00:57:15 GMT</pubDate></item><item><title><![CDATA[抽象代数作业 2]]></title><description><![CDATA[ 
+ <br><br><br>我们已经知道  这  个对换生成 ，我们下面证明  个对换不能生成 。<br>如果两个对换  能够生成一个新的对换 ，这里只涉及  的对换，并且如果  为空集，那么此两对换只能生成他们自己而不能生成新的对换（平凡的）<br>所以一定有交集非空，为了保证这两个对换不同，可知交集只有一个元素，不妨假设 。<br><br><br>我们已经知道  生成 ，所以我们只需要说明  生成 。我们记 <br>由  递归操作知  可以生成 ， 取合适的值使得  在  到  中。<br>进而，我们由  知  可以生成 <br>
+由于  互素，从而存在  使得 ，不妨假设 ，那么这就说明  生成 ，再结合之前的结论知道生成 。从而证毕。<br><br>对任意三循环  和 ，由于 ，所以存在 ，于是 ，并且有 故  中所有三循环都是共轭的（<br><br>在  中对任意的3-循环 ，有 ，从而<br>
+这里  和  都满足四个元素两两不同。从而  中的所有3-循环可以被题设集合生成，又3-循环生成 ，故题设集合生成 、<br><br><br>三阶元 时三循环<br>如果]]></description><link>mathstuff\抽象代数作业-2.html</link><guid isPermaLink="false">MathStuff/抽象代数作业 2.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 15 Oct 2024 11:29:55 GMT</pubDate></item><item><title><![CDATA[大学物理（2） 笔记 8]]></title><description><![CDATA[<a class="tag" href="?query=tag:大学物理" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#大学物理</a> <a class="tag" href="?query=tag:磁" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#磁</a> 
+ <br>@2024-10-15，磁@
+<a href=".?query=tag:大学物理" class="tag" target="_blank" rel="noopener">#大学物理</a> <a href=".?query=tag:磁" class="tag" target="_blank" rel="noopener">#磁</a><br>
+<a data-href="大学物理（2） 笔记 7" href="物理\大学物理（2）-笔记-7.html" class="internal-link" target="_self" rel="noopener">大学物理（2） 笔记 7</a>
+<br><br> <br>
+<br>相向的导线相吸。
+<br>务必自学：磁偶极矩力矩的推导。<br>
+<br>毕萨定律
+<br><br>
+<br>安培定律
+<br>安培定律的积分形式表述为：<br><br>其中：<br>
+<br> 是磁场强度。
+<br> 是闭合路径  上的线元。
+<br> 是真空磁导率。
+<br> 是通过闭合路径  所包围的电流。
+<br>安培定律的微分形式可以通过麦克斯韦方程组中的一个方程来表示：<br><br>其中：<br>
+<br> 是磁场的旋度。
+<br> 是电流密度。
+<br><br><br>即磁通连续原理。该原理表明，在任何封闭曲面内，磁感应强度  的通量为零。用数学公式表示为：<br><br>其中：<br>
+<br> 表示对封闭曲面  进行积分。
+<br> 是磁感应强度。
+<br> 是曲面  上的面积元矢量。
+<br>这个定理是麦克斯韦方程组的一部分，它反映了自然界中不存在磁单极子（即单独的“磁荷”）的事实。无论在何处，磁场线总是闭合的，没有起点和终点。<br>微分形式：<br>
+<br><br>安培环路定理的积分形式表述为：<br><br>其中：<br>
+<br> 是磁感应强度（磁场强度）。
+<br> 是沿着闭合路径  的线元。
+<br> 是真空磁导率，其值为 。
+<br> 是通过闭合路径  所包围的电流的总和。
+<br>安培环路定理的微分形式可以通过斯托克斯定理（Stokes' Theorem）从积分形式推导出来：<br><br>其中：<br>
+<br> 是磁感应强度的旋度。
+<br> 是电流密度。
+<br><br>安培环路定理在电磁学中有广泛的应用，特别是在计算磁场分布时。例如：<br>
+<br>
+无限长直导线的磁场：对于一根无限长的直导线，通过安培环路定理可以计算出导线周围的磁场分布为：
+
+其中  是距离导线的径向距离。
+
+<br>
+螺线管的磁场：对于一个密绕的螺线管，内部的磁场可以近似为均匀磁场，其大小为：
+
+其中  是单位长度内的匝数。
+
+<br>课下去看B0，得到管内磁场的东西。<br><br><br> <br><br><br><br><br>]]></description><link>mathstuff\大学物理（2）-笔记-8.html</link><guid isPermaLink="false">MathStuff/大学物理（2） 笔记 8.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 15 Oct 2024 03:24:30 GMT</pubDate></item><item><title><![CDATA[方便查询的记号表]]></title><description><![CDATA[ 
  <br>
 <br>Amann 记 
 <br>
 ]]></description><link>mathstuff\方便查询的记号表.html</link><guid isPermaLink="false">MathStuff/方便查询的记号表.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 03 Oct 2024 14:46:37 GMT</pubDate></item><item><title><![CDATA[你好哇，你这会想看什么？]]></title><description><![CDATA[ 
  <br>二四六11月12月1月2月3月4月5月6月7月8月9月10月lessmore<br>
-<br>今天是2024年10月14日，2024 年已经过去了 283 天
+<br>今天是2024年10月15日，2024 年已经过去了 284 天
 <br>今年你总共在 70 天中留下了你的足迹，继续加油！
 <br><br>Multi column
 复分析
@@ -2719,7 +2821,7 @@ Singular
 示例<br>
 
 
-<br><br>直接去<a data-tooltip-position="top" aria-label="https://detexify.kirelabs.org/symbols.html" rel="noopener" class="external-link" href="https://detexify.kirelabs.org/symbols.html" target="_blank">这个地方</a><br><br><br>        N        M        N=N\Re1        M=Re1        Re2©¢¢¢©Ren                                                                              »=        <br>对比<br><br>        T        K        X£ZY        X        Y        Z                      x                     y                          (x;y)                       p                     q                     f                     g               A0        B0        A        B        C0        D0        C        D                      f0                     a                     g0                     h0                     b                          f                     h                     k0                     c                     d                     k                          g       <br><br>        V¬W        T        V£W                      9!~f                     ¬                     f       <br><br><br><br><br><br>\usepackage{tikz-cd}
+<br><br>直接去<a data-tooltip-position="top" aria-label="https://detexify.kirelabs.org/symbols.html" rel="noopener" class="external-link" href="https://detexify.kirelabs.org/symbols.html" target="_blank">这个地方</a><br><br><br>        N        M        N=N\Re1        M=Re1        Re2©¢¢¢©Ren                                                                              »=        <br>对比<br><br>        T        K        X£ZY        X        Y        Z                      x                     y                          (x;y)                       p                     q                     f                     g               A0        B0        A        B        C0        D0        C        D                      f0                     a                     g0                     h0                     b                          f                     h                     k0                     c                     d                     k                          g       <br><br>        V¬W        T        V£W                      9!~f                     ¬                     f       <br><br><br>        ²        ²        ²                                  <br><br><br>\usepackage{tikz-cd}
 \begin{document}
 \begin{tikzcd}
 T
@@ -2850,64 +2952,58 @@ C' \arrow[rr,"k'" near end] \arrow[dr,swap,"c"] &amp;&amp; D' \arrow[dr,swap,"d"
 这是一个box类型的callout。
 <br>Proof
 这是一个proof类型的callout。
-]]></description><link>mathstuff\文本编辑战术演习.html</link><guid isPermaLink="false">MathStuff/文本编辑战术演习.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Fri, 04 Oct 2024 16:09:25 GMT</pubDate><enclosure url="lib\media\pasted-image-20241003223246.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20241003223246.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[ODE Notes 5]]></title><description><![CDATA[<a class="tag" href="?query=tag:常微分方程" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#常微分方程</a> <a class="tag" href="?query=tag:ODE" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#ODE</a> 
- <br>@2024-10-11，上次课的笔记会在后续整理@
-<a href=".?query=tag:常微分方程" class="tag" target="_blank" rel="noopener">#常微分方程</a> <a href=".?query=tag:ODE" class="tag" target="_blank" rel="noopener">#ODE</a><br>
-<a data-href="ODE Notes 4.5" href="分析\常微分方程\ode-notes-4.5.html" class="internal-link" target="_self" rel="noopener">ODE Notes 4.5</a>
-<br>定理3.4
-记号: ，设  对  是 的，对  是连续的。
-这里  是指对  求导之后对  是连续的。
-这里有方程 ， ，<br>
-那么存在一个解 ， ，<br>
-并且  是  in  且  in t
-<br>Recall，  是一个完备的度量空间，假定 ，且  满足 那么对任意的 ，那么存在极限 ， <br>证明：留作练习，参考讲义。<br>这样的  难道不是唯一的吗？<br>引理3.2<br>  是一个紧集。并且有 <br>
- 是一个完备的度量空间， 这里 。度量是无穷范数诱导的。<br>证明<br>设  是Cauchy列，那么由值域的完备性，得到每一点处  是Cauchy 列，从而  良好定义。后续证明参考讲义。<br>xgy：有同学找我聊天，希望建议他做数学，但是我拒绝，因为建议别人学数学是反人性的。<br>引理3.3<br>上面定义的  是  的。<br>现在来证明主定理<br>我们有 引理 3.2中  取 ，注意这里  是紧的。<br>
-定义 ，通过 <br>
-<br>我们证明  是  到  的映射。
-<br> 是  上的收缩映射。
-<br>如果上述成立，根据Lemma 3.1，存在 ，使得 。<br>Fredholm operator<br>Cite
-Fredholm 算子是泛函分析中的一个重要概念，特别是在研究线性算子的谱理论时。Fredholm 算子通常定义在 Banach 空间或 Hilbert 空间上，并且具有一些特殊的性质。
-
-设  和  是 Banach 空间， 是一个有界线性算子。如果存在有界线性算子  使得：
-
-<br>（ 是  上的恒等算子），
-<br>（ 是  上的恒等算子），
-
-则称  是一个 Fredholm 算子。
-
-Fredholm 算子具有以下几个基本性质：
+]]></description><link>mathstuff\文本编辑战术演习.html</link><guid isPermaLink="false">MathStuff/文本编辑战术演习.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Fri, 04 Oct 2024 16:09:25 GMT</pubDate><enclosure url="lib\media\pasted-image-20241003223246.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20241003223246.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Abstract Algebra Note 5]]></title><description><![CDATA[<a class="tag" href="?query=tag:抽象代数" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#抽象代数</a> <a class="tag" href="?query=tag:代数" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#代数</a> <a class="tag" href="?query=tag:对称群" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#对称群</a> <a class="tag" href="?query=tag:正多面体" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#正多面体</a> <a class="tag" href="?query=tag:周一" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#周一</a> 
+ <br>@2024-10-14，正 20 面体的对称群，群的半直积@
+<a href=".?query=tag:抽象代数" class="tag" target="_blank" rel="noopener">#抽象代数</a> <a href=".?query=tag:代数" class="tag" target="_blank" rel="noopener">#代数</a> <a href=".?query=tag:对称群" class="tag" target="_blank" rel="noopener">#对称群</a> <a href=".?query=tag:正多面体" class="tag" target="_blank" rel="noopener">#正多面体</a> <a href=".?query=tag:周一" class="tag" target="_blank" rel="noopener">#周一</a><br>
+<a data-href="Abstract Algebra Note 4" href="代数\抽象代数\abstract-algebra-note-4.html" class="internal-link" target="_self" rel="noopener">Abstract Algebra Note 4</a>
+<br><br>为了完备起见，开头正多面体的内容接到上次讲义的末尾。<br><br>考虑  在  的作用<br>  的情形。首先  有  个元素，我们希望证明<br> 有一个子群同构于 <br>首先将  与  等同起来。<br>定义四则运算<br><br>现在看 <br>考虑 我们令 <br>从而有映射 ，请验证这是一个群同态<br>
+<br>事实上  是一个单射
+<br>可知这是仿射变换。<br>
+<br>
+上述作用是三传递的。<br>
+如果你学过复分析，你可以直接把变换写出来。
 
 <br>
-Fredholm 算子的指标：对于 Fredholm 算子 ，定义其指标为：
+回到这个命题
 
-其中， 是  的零空间， 是  的余核。
+<br> 和   对应起来<br>1821067935140<br>我们考虑单射 ，取 有 <br>
+在  中有 <br><br>这个对应的表示 <br>S12SXA5Sym¤(I)PSL(2;F11)hg1;g2i=:H'µµµµµ<br>我们可以证明 ]]></description><link>mathstuff\abstract-algebra-note-5.html</link><guid isPermaLink="false">MathStuff/Abstract Algebra Note 5.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Mon, 14 Oct 2024 14:12:20 GMT</pubDate></item><item><title><![CDATA[ODE Notes 6]]></title><description><![CDATA[<a class="tag" href="?query=tag:常微分方程" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#常微分方程</a> <a class="tag" href="?query=tag:ODE" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#ODE</a> 
+ <br>@2024-10-15，General local wxistence Theorem@
+<a href=".?query=tag:常微分方程" class="tag" target="_blank" rel="noopener">#常微分方程</a>  <a href=".?query=tag:ODE" class="tag" target="_blank" rel="noopener">#ODE</a><br>
+<a data-href="ODE Notes 5" href="分析\常微分方程\ode-notes-5.html" class="internal-link" target="_self" rel="noopener">ODE Notes 5</a>
+<br>定理 1
+Assume  is  in ,  in , where 
+Then  also there is a solution  to  where Furthermore,  is  in ,  in .
+<br>Proof<br>Recall we define<br>
+for all , define we have proved if  then <br> is a map. (We need to show this)<br>Firstly we need to show ,  is well defined.<br>
+<br>We need to ensure that  , 
+<br> obviously lies in , for , we hope this is lesser than :<br>
+(We used that )<br>
+<br>We need to show that for , we have . That is because 
+<br>We are reduced to show <br>That is, say, , we need the estimation Since we are talking in a convex set, so RHS is in , we have<br>
+Hence we reduce (II) to From the uniformly convergence of  (Since it is defined on a compact set , we have the  is controlled by . So we proved  <br><br>We want to extend the solution on  to . Recall the solution to  has a most extended solution.<br>Lemma
+Assume  is ,  is a constant bigger than 0, 
 
+then 
 <br>
-指标的不变性：如果  是 Fredholm 算子，且  是另一个 Fredholm 算子，那么  也是 Fredholm 算子，并且：
-
-
-<br>
-Fredholm 算子的谱性质：Fredholm 算子的谱  只包含有限个离散的点，并且这些点的代数重数都是有限的。
-
-
-
-
-<br>
-紧算子：如果  是一个紧算子，那么  是一个 Fredholm 算子，并且其指标为 0。
-
-<br>
-有限秩算子：如果  是一个有限秩算子（即  是有限维的），那么  是一个 Fredholm 算子，并且其指标为 。
-
-
-
-Fredholm 算子在偏微分方程、积分方程和谱理论中有广泛的应用。例如，在研究偏微分方程的解的存在性和唯一性时，常常会涉及到 Fredholm 算子的性质。
-
-Fredholm 算子是一类具有特殊性质的有界线性算子，其指标是一个重要的不变量。通过对 Fredholm 算子的研究，可以深入理解线性算子的谱理论及其在数学和物理中的应用。
-<br>令 ，那么<br>
-<br>从而  是最开始的方程的解。<br>现在我们证明上述两个论断。<br>对任意的 ，<br>
-<br>这里 <br>下面我们终于来证明最后一步！！<br>]]></description><link>mathstuff\ode-notes-5.html</link><guid isPermaLink="false">MathStuff/ODE Notes 5.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Fri, 11 Oct 2024 08:55:35 GMT</pubDate></item><item><title><![CDATA[one-point compactification]]></title><description><![CDATA[ 
+<br>We had proved this, Please recall!
+<br>定理 2 (local uniqueness)
+With the same assumption as in theorem<br>
+Assume  is a solution to   on , then  ,  where  is from Thm1 
+<br>Define , notice , we have<br>
+(???????????????????)<br>So by the Lemma, we have , say, .<br><br>Definitions:
+Assume  is  in  and  in , where , and  is a domain, consider (a)   is called phase space of  ,  is called the extended phase space of .
+(b)  If  is a solution to  on , then we define the integral curve of  is 
+(c)  A solution  to  with a initial value on  is a most extended solution if  for any solution  to  with the same initial value. 
+<br>定理 Global Existence
+Assume  is  in  and  in , for any , there is a most extended solution  to .
+Furthermore,<br>
+(a)  If  and  exists, then 
+(b)  For any solution  to  with , we have 
+<br>proof<br>by thm 1, there is a solution  to  with   on  (from the openess of ),<br>
+we define By definition of , for , there exists  is a solution to  on <br>If <br>下一次再补齐<br><a data-href="ODE Notes 8" href="ODE Notes 8" class="internal-link" target="_self" rel="noopener">ODE Notes 8</a>]]></description><link>mathstuff\ode-notes-6.html</link><guid isPermaLink="false">MathStuff/ODE Notes 6.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 15 Oct 2024 09:02:35 GMT</pubDate></item><item><title><![CDATA[one-point compactification]]></title><description><![CDATA[ 
  <br>one-point compactification(单点紧化) 是一种将非紧致的局部紧致空间转化为紧致空间的技术。具体来说，给定一个局部紧致空间 ，其单点紧化是通过添加一个点（通常称为“无穷远点”或“附加点”）到  中，并将  的拓扑扩展到这个新点，使得整个空间成为紧致的。<br>形式化地，设  是一个局部紧致 Hausdorff 空间。 的单点紧化记作  或 ，其中  是新添加的点。 的拓扑定义如下：<br>
 <br>对于  中的任何开集 ， 也是  中的开集。
 <br>一个包含  的开集是  中的一个紧致闭集的补集。
 <br>这样定义的  是一个紧致 Hausdorff 空间。单点紧化的一个典型例子是实数直线  的单点紧化，即通过添加一个无穷远点得到的扩充实数直线 ，这实际上与复平面上的单位圆盘同胚。<br>单点紧化的重要性在于它提供了一种将非紧致空间转化为紧致空间的方法，这在许多数学分支中都是非常有用的，尤其是在分析和拓扑学中。]]></description><link>mathstuff\one-point-compactification.html</link><guid isPermaLink="false">MathStuff/one-point compactification.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Mon, 02 Sep 2024 08:28:30 GMT</pubDate></item><item><title><![CDATA[Sapagof 判别法]]></title><description><![CDATA[ 
- ]]></description><link>mathstuff\sapagof-判别法.html</link><guid isPermaLink="false">MathStuff/Sapagof 判别法.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Mon, 14 Oct 2024 00:59:15 GMT</pubDate></item></channel></rss>
+ ]]></description><link>mathstuff\sapagof-判别法.html</link><guid isPermaLink="false">MathStuff/Sapagof 判别法.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Mon, 14 Oct 2024 07:08:10 GMT</pubDate></item></channel></rss>
