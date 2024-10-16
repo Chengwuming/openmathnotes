@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[LogseqVault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>LogseqVault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 15 Oct 2024 11:31:35 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 15 Oct 2024 11:30:21 GMT</pubDate><copyright><![CDATA[Chengwuming]]></copyright><ttl>60</ttl><dc:creator>Chengwuming</dc:creator><item><title><![CDATA[抽象代数课程定义及记号表]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[LogseqVault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>LogseqVault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Wed, 16 Oct 2024 06:54:00 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Wed, 16 Oct 2024 06:51:21 GMT</pubDate><copyright><![CDATA[Chengwuming]]></copyright><ttl>60</ttl><dc:creator>Chengwuming</dc:creator><item><title><![CDATA[抽象代数课程定义及记号表]]></title><description><![CDATA[ 
  <br>
 <br>射影空间 ，其中  是一个 -线性空间，定义为其上一维线性子空间的集合。
 <br>域扩张：  是  的子域，称  是  的扩张，记作ee mathjax 不太支持。
@@ -265,12 +265,27 @@ p-群  对自身的共轭作用得到的轨道就是共轭类 ，且作用  上�
 <br>首先 ，其次  ，最后 。这就足以推出 。<br>我们现在可以举例，手动找到两个 5-sylow，比如  和  生成的子群，说服自己这两个生成的子群不一样，那么  只能是6。<br>或者只有一个正规子群是 ，从而。。。<br>令  作用在  上，其中  是 5-Sylow，作用由共轭给出。<br>换言之我们得到<br>
 断言  是单射，不然 ，且这个核是正规子群，所以 ，这是不可能的，因为 ，但是我们知道  的作用传递，所以其作用在  的轨道上有 6 个元素，所以 ，所以  就是单射，从而  在  中作为一个子群，其在  的作用是传递的，所以得到  不是那些简单的子群。<br><br>正六面体和正八面体同构。<br>我们研究这些东西的对称群。<br><br><br>研究了以下  是啥，这里回忆到高代。。<br>有趣的问题是 两个不同轴的旋转复合之后的旋转是什么？<br>回到正题，这玩意的对称：单位，固定一个点得到的轴，能转两下，8个，一对边的中点连线为轴，旋转，3个，现在总共有12个元素了。<br>事实上有 ，考虑  正四面体的顶点集上的作用<br>
 首先这是一个单射，看看这玩意的像，因为已知已经有了12个元素了，所以  要12个元素，要么24个元素。<br>不能是24个！不然 ，我们取一个  的对换，这将会摧毁这个正四面体。<br>于是 ，注意到  包含了所有三循环，但是三循环又生成 ，所以最终我们得到了<br>
-<br><br>数一数：有多少个旋转？容易数出来24个。<br>我们希望 <br>构造映射  ，将对角的四根线进行置换，换言之有群作用 首先  包含所有的三循环，所以 。并且我们可以找到一个对换，所以只能有 ，最后， 是单射，这是因为<br><br>数一数<br>1821067935140<br>有 60 个对称。<br>好好体会一下这样直观的感觉是怎么落实到数学证明上的。参考讲义。<br>
+<br><br>数一数：有多少个旋转？容易数出来24个。<br>我们希望 <br>构造映射  ，将对角的四根线进行置换，换言之有群作用 首先  包含所有的三循环，所以 。并且我们可以找到一个对换，所以只能有 ，最后， 是单射，这是因为<br><br>数一数<br>        1        8        2        10        6        7        9        3        5        1        4        0                                                                                                                                                                                                                                                                                                                                                                                                                                      <br>有 60 个对称。<br>好好体会一下这样直观的感觉是怎么落实到数学证明上的。参考讲义。<br>
 <br>首先这六十个元素生成 
 <br>其次  作用在  是传递的。从而
 <br>最后 
 <br>然后我们对所有旋转根据角度分类，事实上，如果两个旋转共轭，那么他们的角度是相等的（旋转角度由特征值刻画）。<br>
-所以你经过分类之后发现所有共轭类的并（正规子群只有可能是含单位的共轭类的并），所含元素的个数不能构成非平凡子群，从而  的对称群是单群，而  阶的单群只有一个就是 。<br>我现在希望这个群作用在有 5 个元素的东西上。<br>15条对边可以搞出一个三线组的东西，有五组。去学习这一段<br><a data-href="Notes1014.pdf" href="assets\notes1014.pdf" class="internal-link" target="_self" rel="noopener">Notes1014.pdf</a><br><a data-href="Abstract Algebra Note 5" href="mathstuff\abstract-algebra-note-5.html" class="internal-link" target="_self" rel="noopener">Abstract Algebra Note 5</a>]]></description><link>代数\抽象代数\abstract-algebra-note-4.html</link><guid isPermaLink="false">代数/抽象代数/Abstract Algebra Note 4.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Mon, 14 Oct 2024 08:19:03 GMT</pubDate></item><item><title><![CDATA[作业9]]></title><description><![CDATA[ 
+所以你经过分类之后发现所有共轭类的并（正规子群只有可能是含单位的共轭类的并），所含元素的个数不能构成非平凡子群，从而  的对称群是单群，而  阶的单群只有一个就是 。<br>我现在希望这个群作用在有 5 个元素的东西上。<br>15条对边可以搞出一个三线组的东西，有五组。去学习这一段<br><a data-href="Notes1014.pdf" href="assets\notes1014.pdf" class="internal-link" target="_self" rel="noopener">Notes1014.pdf</a><br><a data-href="Abstract Algebra Note 5" href="代数\抽象代数\abstract-algebra-note-5.html" class="internal-link" target="_self" rel="noopener">Abstract Algebra Note 5</a>]]></description><link>代数\抽象代数\abstract-algebra-note-4.html</link><guid isPermaLink="false">代数/抽象代数/Abstract Algebra Note 4.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Mon, 14 Oct 2024 08:19:03 GMT</pubDate></item><item><title><![CDATA[Abstract Algebra Note 5]]></title><description><![CDATA[<a class="tag" href="?query=tag:抽象代数" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#抽象代数</a> <a class="tag" href="?query=tag:代数" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#代数</a> <a class="tag" href="?query=tag:对称群" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#对称群</a> <a class="tag" href="?query=tag:正多面体" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#正多面体</a> <a class="tag" href="?query=tag:周一" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#周一</a> 
+ <br>@2024-10-14，正 20 面体的对称群，群的半直积@
+<a href=".?query=tag:抽象代数" class="tag" target="_blank" rel="noopener">#抽象代数</a> <a href=".?query=tag:代数" class="tag" target="_blank" rel="noopener">#代数</a> <a href=".?query=tag:对称群" class="tag" target="_blank" rel="noopener">#对称群</a> <a href=".?query=tag:正多面体" class="tag" target="_blank" rel="noopener">#正多面体</a> <a href=".?query=tag:周一" class="tag" target="_blank" rel="noopener">#周一</a><br>
+<a data-href="Abstract Algebra Note 4" href="代数\抽象代数\abstract-algebra-note-4.html" class="internal-link" target="_self" rel="noopener">Abstract Algebra Note 4</a>
+<br><br>为了完备起见，开头正多面体的内容接到上次讲义的末尾。<br><br>考虑  在  的作用<br>  的情形。首先  有  个元素，我们希望证明<br> 有一个子群同构于 <br>首先将  与  等同起来。<br>定义四则运算<br><br>现在看 <br>考虑 我们令 <br>从而有映射 ，请验证这是一个群同态<br>
+<br>事实上  是一个单射
+<br>可知这是仿射变换。<br>
+<br>
+上述作用是三传递的。<br>
+如果你学过复分析，你可以直接把变换写出来。
+
+<br>
+回到这个命题
+
+<br> 和   对应起来<br>1821067935140<br>我们考虑单射 ，取 有 <br>
+在  中有 <br><br>这个对应的表示 <br><br>我们可以证明 ]]></description><link>代数\抽象代数\abstract-algebra-note-5.html</link><guid isPermaLink="false">代数/抽象代数/Abstract Algebra Note 5.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Mon, 14 Oct 2024 14:12:20 GMT</pubDate></item><item><title><![CDATA[作业9]]></title><description><![CDATA[ 
  <br>
 <br>
 <img alt="Pasted image 20240513205638.png" src="lib\media\pasted-image-20240513205638.png">
@@ -1102,7 +1117,41 @@ Fredholm 算子在偏微分方程、积分方程和谱理论中有广泛的应�
 Fredholm 算子是一类具有特殊性质的有界线性算子，其指标是一个重要的不变量。通过对 Fredholm 算子的研究，可以深入理解线性算子的谱理论及其在数学和物理中的应用。
 <br>令 ，那么<br>
 <br>从而  是最开始的方程的解。<br>现在我们证明上述两个论断。<br>对任意的 ，<br>
-<br>这里 <br>下面我们终于来证明最后一步！！<br><br><a data-href="ODE Notes 6" href="mathstuff\ode-notes-6.html" class="internal-link" target="_self" rel="noopener">ODE Notes 6</a>]]></description><link>分析\常微分方程\ode-notes-5.html</link><guid isPermaLink="false">分析/常微分方程/ODE Notes 5.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 15 Oct 2024 07:21:17 GMT</pubDate></item><item><title><![CDATA[复分析做题日记]]></title><description><![CDATA[ 
+<br>这里 <br>下面我们终于来证明最后一步！！<br><br><a data-href="ODE Notes 6" href="分析\常微分方程\ode-notes-6.html" class="internal-link" target="_self" rel="noopener">ODE Notes 6</a>]]></description><link>分析\常微分方程\ode-notes-5.html</link><guid isPermaLink="false">分析/常微分方程/ODE Notes 5.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 15 Oct 2024 07:21:17 GMT</pubDate></item><item><title><![CDATA[ODE Notes 6]]></title><description><![CDATA[<a class="tag" href="?query=tag:常微分方程" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#常微分方程</a> <a class="tag" href="?query=tag:ODE" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#ODE</a> 
+ <br>@2024-10-15，General local wxistence Theorem@
+<a href=".?query=tag:常微分方程" class="tag" target="_blank" rel="noopener">#常微分方程</a>  <a href=".?query=tag:ODE" class="tag" target="_blank" rel="noopener">#ODE</a><br>
+<a data-href="ODE Notes 5" href="分析\常微分方程\ode-notes-5.html" class="internal-link" target="_self" rel="noopener">ODE Notes 5</a>
+<br>定理 1
+Assume  is  in ,  in , where 
+Then  also there is a solution  to  where Furthermore,  is  in ,  in .
+<br>Proof<br>Recall we define<br>
+for all , define we have proved if  then <br> is a map. (We need to show this)<br>Firstly we need to show ,  is well defined.<br>
+<br>We need to ensure that  , 
+<br> obviously lies in , for , we hope this is lesser than :<br>
+(We used that )<br>
+<br>We need to show that for , we have . That is because 
+<br>We are reduced to show <br>That is, say, , we need the estimation Since we are talking in a convex set, so RHS is in , we have<br>
+Hence we reduce (II) to From the uniformly convergence of  (Since it is defined on a compact set , we have the  is controlled by . So we proved  <br><br>We want to extend the solution on  to . Recall the solution to  has a most extended solution.<br>Lemma
+Assume  is ,  is a constant bigger than 0, 
+
+then 
+<br>
+<br>We had proved this, Please recall!
+<br>定理 2 (local uniqueness)
+With the same assumption as in theorem<br>
+Assume  is a solution to   on , then  ,  where  is from Thm1 
+<br>Define , notice , we have<br>
+(???????????????????)<br>So by the Lemma, we have , say, .<br><br>Definitions:
+Assume  is  in  and  in , where , and  is a domain, consider (a)   is called phase space of  ,  is called the extended phase space of .
+(b)  If  is a solution to  on , then we define the integral curve of  is 
+(c)  A solution  to  with a initial value on  is a most extended solution if  for any solution  to  with the same initial value. 
+<br>定理 Global Existence
+Assume  is  in  and  in , for any , there is a most extended solution  to .
+Furthermore,<br>
+(a)  If  and  exists, then 
+(b)  For any solution  to  with , we have 
+<br>proof<br>by thm 1, there is a solution  to  with   on  (from the openess of ),<br>
+we define By definition of , for , there exists  is a solution to  on <br>If <br>下一次再补齐<br><a data-href="ODE Notes 8" href="ODE Notes 8" class="internal-link" target="_self" rel="noopener">ODE Notes 8</a>]]></description><link>分析\常微分方程\ode-notes-6.html</link><guid isPermaLink="false">分析/常微分方程/ODE Notes 6.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 15 Oct 2024 09:02:35 GMT</pubDate></item><item><title><![CDATA[复分析做题日记]]></title><description><![CDATA[ 
  <br><br>7.11。一个简洁的写法： 复数  共线的充要条件：<br><br>题目数量统计
 
 <br>
@@ -1817,7 +1866,7 @@ Abel-Dirichlet 判别法：设  定义在  上，若满足以下任一条件：
 <br>，存在极限 <br>
 那么得到  收敛于 ，并且有图
 
-Fn(x)GnF(x)Gx!x0n!1n!1x!x0
+
 交换
 <br>这里的证明基本套路都一样，你可以练习试一试。<br><br>记号保持一致：<br> 是完备的度量空间。<br>这里的度量就是 函数的无穷范数。<br>使用上面最后一个定理，两个交换图分别走一遍得到 对于 ，将其处理成 Riemann 和函数，那么  对应着积分。<br>
 <br>这里应该对应实分析的一些内容，后续补上
@@ -1879,7 +1928,17 @@ f
 <br>不是所有光滑函数都可以被展开<br>比如 在正半轴  ，负半轴取 <br>可以被展开的充要条件是 <br>若  对任意的  和定义域中的 ，有一个一致的界，那么可以表示成幂级数。<br>
 显然余项趋于 0。<br><br><br><br><br><br><br>特别的， 。<br><br>去尝试自己书写这个的证明！<br>HINT
 使用 Cauchy 余项
-<br><a data-href="Analysis III Note 8" href="Analysis III Note 8" class="internal-link" target="_self" rel="noopener">Analysis III Note 8</a>]]></description><link>分析\数学分析\analysis-iii-note-7.html</link><guid isPermaLink="false">分析/数学分析/Analysis III Note 7.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Mon, 14 Oct 2024 07:08:25 GMT</pubDate></item><item><title><![CDATA[单位分解]]></title><description><![CDATA[ 
+<br><a data-href="Analysis III Note 8" href="分析\数学分析\analysis-iii-note-8.html" class="internal-link" target="_self" rel="noopener">Analysis III Note 8</a>]]></description><link>分析\数学分析\analysis-iii-note-7.html</link><guid isPermaLink="false">分析/数学分析/Analysis III Note 7.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Mon, 14 Oct 2024 07:08:25 GMT</pubDate></item><item><title><![CDATA[Analysis III Note 8]]></title><description><![CDATA[<a class="tag" href="?query=tag:数学分析" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#数学分析</a> <a class="tag" href="?query=tag:分析" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#分析</a> 
+ <br>@2024-10-16，@
+<a href=".?query=tag:数学分析" class="tag" target="_blank" rel="noopener">#数学分析</a> <a href=".?query=tag:分析" class="tag" target="_blank" rel="noopener">#分析</a><br>
+<a data-href="Analysis III Note 7" href="分析\数学分析\analysis-iii-note-7.html" class="internal-link" target="_self" rel="noopener">Analysis III Note 7</a>
+<br><br>...<br><br>定义 
+在  处解析即意味着在这一点可以被展开成幂级数。
+<br>定理 
+ 在  的某邻域内有定义，在  解析，且 ，则  在  处也解析
+<br>写成 Cauchy 乘积，你可以直接解出来对应的系数。<br>
+<br>Weierstrasss逼近定理，Bernstein证明
+<br>题目：结合课堂讲解，运用马克思主义基本原理分析近代中国从“洋务运动”到“戊戌变法”再到“五四新文化运动”的历史变迁过程。<br>参考标准：<br>（一）有一种观点认为，社会由“器物”“制度”和“观念”构成。（2分）其中，观点是制度的基础，观念决定制度建构；制度是社会秩序和器物的保障，制度决定社会秩序和器物生产。（3分）<br>洋务运动是器物层面的变革，戊戌变法是制度层面的变革，而五四新文化运动则是观念层面的变革。（3分）这是一个由表及里、由浅入深、不断触及社会本质的过程。（2分）<br>这是一种典型的唯心史观。（2分）<br>（二）在唯物史观视域中，社会由经济、政治和文化构成。（2分）<br>经济是生产力和生产关系的统一体。（2分）生产力是在人与自然进行物质能量变换过程中所产生的力量，生产关系则是在物质生产中结成的人与人之间的权力-支配关系，由生产资料的所有权（力）关系和劳动产品的分配权（力）关系构成。（3分）政治是以国家和法律形式存在的暴力机构。（2分）文化则是一种共识性的观念。（2分）<br>在经济中，生产力是内容，生产关系是形式；生产力决定生产关系，生产关系必须与生产力的发展相适应。（3分）经济是政治的内容，经济决定政治，政治必须与经济的发展相适应。（3分）经济和政治是内容，文化是形式，文化必须与经济发展和政治要求相适应。（3分）内容与形式的关系就如同人的身体与衣服的关系。（2分）<br>近代中国从“洋务运动”到“戊戌变法”再到“五四新文化运动”的历史变迁过程，与其说是从现象到本质不断深入的过程，毋宁说是在现代生产力发展要求（这是关乎民族生存的问题）的推动下从各个方面不断展开的过程。<br>（三）落后就要挨打。经过两次鸦片战争，西方工业生产力（坚船利炮和物美价廉的工业产品）战胜了清朝的农业和手工业生产力，由此推动洋务派以官办、官督商办和官商合办等形式兴办西式工业，向西方先进生产技术学习，以推动生产力的发展。（3分）但由于既未触动封建生产关系（农业中的封建土地私有制和工业中封建官僚对生产力的控制），更未触动封建政治关系和文化关系，最终以失败而告终。（3分）<br>在洋务运动后期，在“民富”（前期重点落实“国强”）的变革诉求下，资本主义生产关系（雇佣劳动关系）和民族资产阶级得以形成。戊戌变法提出“开国会、定宪法、兴民权”，以资产阶级君主立宪制度取代封建主义君主专制制度，则是在谋求建立与资本主义经济发展要求相适应的政治关系和政治制度。（3分）但资本主义经济力量的薄弱，决定了资产阶级力量的软弱不堪，难以与封建土地私有制支撑下强大的封建力量相抗衡，最终也以失败而告终。（3分）<br>辛亥革命推翻了两千多年的封建君主专制制度，建立起资产阶级的民主共和国，民族资产阶级以独立的政治力量登上历史舞台。但以君臣父子等级观念为内核的儒家道统（文化形式）严重制约着民族资本主义经济的发展和政治制度的建设。（3分）如果说五四之前的新文化运动倡导“民主、科学”理念，是资产阶级新文化向封建旧文化发起的冲击，是“一战”期间中国民族资产阶级（随着资本主义经济和政治的发展）得以壮大的文化表现；那么，五四新文化运动则带来了马克思主义和社会主义理念，是中国无产阶级（随着资产阶级力量的增强）不断成长壮大的文化表现，也是苏俄十月社会主义革命（道路）影响的结果，更是西方列强在经济上压制中国发展资本主义的产物。（3分）<br>（四）语言与逻辑（8分）<br><a data-href="Analysis III Note 9" href="Analysis III Note 9" class="internal-link" target="_self" rel="noopener">Analysis III Note 9</a>]]></description><link>分析\数学分析\analysis-iii-note-8.html</link><guid isPermaLink="false">分析/数学分析/Analysis III Note 8.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 16 Oct 2024 06:05:09 GMT</pubDate></item><item><title><![CDATA[单位分解]]></title><description><![CDATA[ 
  <br><br>对于某个紧集 ，其上的开覆盖  存在有限子覆盖，在每个子覆盖的开集上通过<br>]]></description><link>分析\单位分解.html</link><guid isPermaLink="false">分析/单位分解.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 11 Sep 2024 23:39:15 GMT</pubDate></item><item><title><![CDATA[度量空间的完备化]]></title><description><![CDATA[ 
  ]]></description><link>分析\度量空间的完备化.html</link><guid isPermaLink="false">分析/度量空间的完备化.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 10 Sep 2024 15:37:39 GMT</pubDate></item><item><title><![CDATA[分析-收敛]]></title><description><![CDATA[ 
  <br>我们的目标是说清楚在度量空间里面序列的收敛是一个什么样的概念，可以用什么样的方式刻画，以及与其相关的一些非平凡的例子。<br>我不想谈论过于一般的情形，那些就放到拓扑里面去学习。在分析里面，我们考虑具有范数结构的空间。<br><br>  是一个赋范线性空间，那么对 ，我们定义<br>
@@ -2237,7 +2296,41 @@ Cauchy 根式判别法应该是最先用的
 如果分布函数  可以表示成<br>
 其中  可数并且  是收敛到1的正项级数，那么称  是一个离散分布函数。
 <br>设分布函数的 分解 令 ，那么  是一个离散分布函数， 是一个连续分布函数，分别记为 ，那么有分布函数的 凸组合<br>
-<br>事实上，这样的凸组合对任意的分布函数存在且唯一。存在性我们已经构造出来了，至于唯一性，由之前的定理1.2.2，如果对  做形如  的分解是唯一的，而分解的系数  是由  唯一决定，从而唯一。<br><a data-tooltip-position="top" aria-label="《概率论教程》讨论班 1" data-href="《概率论教程》讨论班 1" href="mathstuff\《概率论教程》讨论班-1.html" class="internal-link" target="_self" rel="noopener">本节的习题等相关讨论</a><br><a data-href="《概率论教程》读书笔记 2" href="《概率论教程》读书笔记 2" class="internal-link" target="_self" rel="noopener">《概率论教程》读书笔记 2</a>]]></description><link>概率统计\《概率论教程》读书笔记-1.html</link><guid isPermaLink="false">概率统计/《概率论教程》读书笔记 1.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 09 Oct 2024 11:12:07 GMT</pubDate><enclosure url="lib\media\pasted-image-20241005113337.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20241005113337.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Topology Notes 1]]></title><description><![CDATA[<a class="tag" href="?query=tag:拓扑" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#拓扑</a> <a class="tag" href="?query=tag:点集拓扑" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#点集拓扑</a> <a class="tag" href="?query=tag:Topology" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#Topology</a> 
+<br>事实上，这样的凸组合对任意的分布函数存在且唯一。存在性我们已经构造出来了，至于唯一性，由之前的定理1.2.2，如果对  做形如  的分解是唯一的，而分解的系数  是由  唯一决定，从而唯一。<br><a data-tooltip-position="top" aria-label="《概率论教程》讨论班 1" data-href="《概率论教程》讨论班 1" href="概率统计\《概率论教程》讨论班-1.html" class="internal-link" target="_self" rel="noopener">本节的习题等相关讨论</a><br><a data-href="《概率论教程》读书笔记 2" href="《概率论教程》读书笔记 2" class="internal-link" target="_self" rel="noopener">《概率论教程》读书笔记 2</a>]]></description><link>概率统计\《概率论教程》读书笔记-1.html</link><guid isPermaLink="false">概率统计/《概率论教程》读书笔记 1.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 09 Oct 2024 11:12:07 GMT</pubDate><enclosure url="lib\media\pasted-image-20241005113337.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20241005113337.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[《概率论教程》讨论班 1]]></title><description><![CDATA[<a class="tag" href="?query=tag:概率论" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#概率论</a> <a class="tag" href="?query=tag:probobility" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#probobility</a> 
+ <br>@2024-10-12，第一次讨论@
+<a href=".?query=tag:概率论" class="tag" target="_blank" rel="noopener">#概率论</a> <a href=".?query=tag:probobility" class="tag" target="_blank" rel="noopener">#probobility</a><br>
+<a data-href="《概率论教程》读书笔记 1" href="概率统计\《概率论教程》读书笔记-1.html" class="internal-link" target="_self" rel="noopener">《概率论教程》读书笔记 1</a>
+<br><br><br>
+<br>
+至多可数
+
+<br>
+可以有极限点，可不闭
+
+<br>
+点质量
+
+<br>
+在  上跳跃的增函数。
+
+<br>
+两个增函数，如果在稠密集上相等，那么其跳跃点一样的，且跳跃大小相等。<br>
+，记这个稠密集是 ，那么 ，使得 ，换言之  处的左右极限被  刻画，<br>
+，除了在某些跳跃点上可能有例外。
+
+<br>取 ， ，<br><br>
+<br>
+规范化，
+
+<br>
+定义分布函数，在  右连续 增 函数，且 。  
+
+<br>
+退化的分布函数。
+
+<br><a data-href="delta 函数" href="delta 函数" class="internal-link" target="_self" rel="noopener">delta 函数</a><br>
+<br>，
+<br>]]></description><link>概率统计\《概率论教程》讨论班-1.html</link><guid isPermaLink="false">概率统计/《概率论教程》讨论班 1.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 12 Oct 2024 00:57:15 GMT</pubDate></item><item><title><![CDATA[Topology Notes 1]]></title><description><![CDATA[<a class="tag" href="?query=tag:拓扑" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#拓扑</a> <a class="tag" href="?query=tag:点集拓扑" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#点集拓扑</a> <a class="tag" href="?query=tag:Topology" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#Topology</a> 
  <br>@2024-10-03，这是上周五蹭课记的笔记，以后会带电脑@
 <a href=".?query=tag:拓扑" class="tag" target="_blank" rel="noopener">#拓扑</a> <a href=".?query=tag:点集拓扑" class="tag" target="_blank" rel="noopener">#点集拓扑</a> <a href=".?query=tag:Topology" class="tag" target="_blank" rel="noopener">#Topology</a> 
 <br><br><img alt="0dc7a97ca089ac89ac0c9edc29160019_720.jpg" src="lib\media\0dc7a97ca089ac89ac0c9edc29160019_720.jpg" style="width: 962px; max-width: 100%;"><br>
@@ -2455,7 +2548,49 @@ XZYf±¼¼f
 <img alt="Pasted image 20241010101634.png" src="lib\media\pasted-image-20241010101634.png">
 
 <br>定义时间常数 ，在  是电路基本就不变化了。<br>
-这种电路是非稳恒过程，但是我们  很小的时候可以近似的看成ok。<br><br><br>...<br>洛伦兹力： <br><br><a data-href="大学物理（2） 笔记 8" href="mathstuff\大学物理（2）-笔记-8.html" class="internal-link" target="_self" rel="noopener">大学物理（2） 笔记 8</a>]]></description><link>物理\大学物理（2）-笔记-7.html</link><guid isPermaLink="false">物理/大学物理（2） 笔记 7.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 15 Oct 2024 01:47:05 GMT</pubDate><enclosure url="lib\media\pasted-image-20241010095524.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20241010095524.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[可交换]]></title><description><![CDATA[ 
+这种电路是非稳恒过程，但是我们  很小的时候可以近似的看成ok。<br><br><br>...<br>洛伦兹力： <br><br><a data-href="大学物理（2） 笔记 8" href="物理\大学物理（2）-笔记-8.html" class="internal-link" target="_self" rel="noopener">大学物理（2） 笔记 8</a>]]></description><link>物理\大学物理（2）-笔记-7.html</link><guid isPermaLink="false">物理/大学物理（2） 笔记 7.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 15 Oct 2024 01:47:05 GMT</pubDate><enclosure url="lib\media\pasted-image-20241010095524.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20241010095524.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[大学物理（2） 笔记 8]]></title><description><![CDATA[<a class="tag" href="?query=tag:大学物理" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#大学物理</a> <a class="tag" href="?query=tag:磁" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#磁</a> 
+ <br>@2024-10-15，磁@
+<a href=".?query=tag:大学物理" class="tag" target="_blank" rel="noopener">#大学物理</a> <a href=".?query=tag:磁" class="tag" target="_blank" rel="noopener">#磁</a><br>
+<a data-href="大学物理（2） 笔记 7" href="物理\大学物理（2）-笔记-7.html" class="internal-link" target="_self" rel="noopener">大学物理（2） 笔记 7</a>
+<br><br> <br>
+<br>相向的导线相吸。
+<br>务必自学：磁偶极矩力矩的推导。<br>
+<br>毕萨定律
+<br><br>
+<br>安培定律
+<br>安培定律的积分形式表述为：<br><br>其中：<br>
+<br> 是磁场强度。
+<br> 是闭合路径  上的线元。
+<br> 是真空磁导率。
+<br> 是通过闭合路径  所包围的电流。
+<br>安培定律的微分形式可以通过麦克斯韦方程组中的一个方程来表示：<br><br>其中：<br>
+<br> 是磁场的旋度。
+<br> 是电流密度。
+<br><br><br>即磁通连续原理。该原理表明，在任何封闭曲面内，磁感应强度  的通量为零。用数学公式表示为：<br><br>其中：<br>
+<br> 表示对封闭曲面  进行积分。
+<br> 是磁感应强度。
+<br> 是曲面  上的面积元矢量。
+<br>这个定理是麦克斯韦方程组的一部分，它反映了自然界中不存在磁单极子（即单独的“磁荷”）的事实。无论在何处，磁场线总是闭合的，没有起点和终点。<br>微分形式：<br>
+<br><br>安培环路定理的积分形式表述为：<br><br>其中：<br>
+<br> 是磁感应强度（磁场强度）。
+<br> 是沿着闭合路径  的线元。
+<br> 是真空磁导率，其值为 。
+<br> 是通过闭合路径  所包围的电流的总和。
+<br>安培环路定理的微分形式可以通过斯托克斯定理（Stokes' Theorem）从积分形式推导出来：<br><br>其中：<br>
+<br> 是磁感应强度的旋度。
+<br> 是电流密度。
+<br><br>安培环路定理在电磁学中有广泛的应用，特别是在计算磁场分布时。例如：<br>
+<br>
+无限长直导线的磁场：对于一根无限长的直导线，通过安培环路定理可以计算出导线周围的磁场分布为：
+
+其中  是距离导线的径向距离。
+
+<br>
+螺线管的磁场：对于一个密绕的螺线管，内部的磁场可以近似为均匀磁场，其大小为：
+
+其中  是单位长度内的匝数。
+
+<br>课下去看B0，得到管内磁场的东西。<br><br><br> <br><br><br><br><br>]]></description><link>物理\大学物理（2）-笔记-8.html</link><guid isPermaLink="false">物理/大学物理（2） 笔记 8.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 15 Oct 2024 03:24:30 GMT</pubDate></item><item><title><![CDATA[可交换]]></title><description><![CDATA[ 
  <br><br><br><br>
 <br>同时正交对角化
 
@@ -2603,92 +2738,208 @@ XZYf±¼¼f
 
 <br><br><img alt="Pasted image 20240915092331.png" src="lib\media\pasted-image-20240915092331.png"><br>
 <img alt="Pasted image 20240915092339.png" src="lib\media\pasted-image-20240915092339.png"><br>
-<img alt="Pasted image 20240915092346.png" src="lib\media\pasted-image-20240915092346.png">]]></description><link>作业\ode-第一次作业.html</link><guid isPermaLink="false">作业/ODE 第一次作业.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 21 Sep 2024 04:34:14 GMT</pubDate><enclosure url="lib\media\pasted-image-20240915092018.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240915092018.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[《概率论教程》讨论班 1]]></title><description><![CDATA[<a class="tag" href="?query=tag:概率论" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#概率论</a> <a class="tag" href="?query=tag:probobility" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#probobility</a> 
- <br>@2024-10-12，第一次讨论@
-<a href=".?query=tag:概率论" class="tag" target="_blank" rel="noopener">#概率论</a> <a href=".?query=tag:probobility" class="tag" target="_blank" rel="noopener">#probobility</a><br>
-<a data-href="《概率论教程》读书笔记 1" href="概率统计\《概率论教程》读书笔记-1.html" class="internal-link" target="_self" rel="noopener">《概率论教程》读书笔记 1</a>
-<br><br><br>
-<br>
-至多可数
-
-<br>
-可以有极限点，可不闭
-
-<br>
-点质量
-
-<br>
-在  上跳跃的增函数。
-
-<br>
-两个增函数，如果在稠密集上相等，那么其跳跃点一样的，且跳跃大小相等。<br>
-，记这个稠密集是 ，那么 ，使得 ，换言之  处的左右极限被  刻画，<br>
-，除了在某些跳跃点上可能有例外。
-
-<br>取 ， ，<br><br>
-<br>
-规范化，
-
-<br>
-定义分布函数，在  右连续 增 函数，且 。  
-
-<br>
-退化的分布函数。
-
-<br><a data-href="delta 函数" href="delta 函数" class="internal-link" target="_self" rel="noopener">delta 函数</a><br>
-<br>，
-<br>]]></description><link>mathstuff\《概率论教程》讨论班-1.html</link><guid isPermaLink="false">MathStuff/《概率论教程》讨论班 1.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 12 Oct 2024 00:57:15 GMT</pubDate></item><item><title><![CDATA[抽象代数作业 2]]></title><description><![CDATA[ 
+<img alt="Pasted image 20240915092346.png" src="lib\media\pasted-image-20240915092346.png">]]></description><link>作业\ode-第一次作业.html</link><guid isPermaLink="false">作业/ODE 第一次作业.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 21 Sep 2024 04:34:14 GMT</pubDate><enclosure url="lib\media\pasted-image-20240915092018.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240915092018.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[抽象代数作业 2]]></title><description><![CDATA[ 
  <br><br><br>我们已经知道  这  个对换生成 ，我们下面证明  个对换不能生成 。<br>如果两个对换  能够生成一个新的对换 ，这里只涉及  的对换，并且如果  为空集，那么此两对换只能生成他们自己而不能生成新的对换（平凡的）<br>所以一定有交集非空，为了保证这两个对换不同，可知交集只有一个元素，不妨假设 。<br><br><br>我们已经知道  生成 ，所以我们只需要说明  生成 。我们记 <br>由  递归操作知  可以生成 ， 取合适的值使得  在  到  中。<br>进而，我们由  知  可以生成 <br>
 由于  互素，从而存在  使得 ，不妨假设 ，那么这就说明  生成 ，再结合之前的结论知道生成 。从而证毕。<br><br>对任意三循环  和 ，由于 ，所以存在 ，于是 ，并且有 故  中所有三循环都是共轭的（<br><br>在  中对任意的3-循环 ，有 ，从而<br>
-这里  和  都满足四个元素两两不同。从而  中的所有3-循环可以被题设集合生成，又3-循环生成 ，故题设集合生成 、<br><br><br>三阶元 时三循环<br>如果]]></description><link>mathstuff\抽象代数作业-2.html</link><guid isPermaLink="false">MathStuff/抽象代数作业 2.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 15 Oct 2024 11:29:55 GMT</pubDate></item><item><title><![CDATA[大学物理（2） 笔记 8]]></title><description><![CDATA[<a class="tag" href="?query=tag:大学物理" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#大学物理</a> <a class="tag" href="?query=tag:磁" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#磁</a> 
- <br>@2024-10-15，磁@
-<a href=".?query=tag:大学物理" class="tag" target="_blank" rel="noopener">#大学物理</a> <a href=".?query=tag:磁" class="tag" target="_blank" rel="noopener">#磁</a><br>
-<a data-href="大学物理（2） 笔记 7" href="物理\大学物理（2）-笔记-7.html" class="internal-link" target="_self" rel="noopener">大学物理（2） 笔记 7</a>
-<br><br> <br>
-<br>相向的导线相吸。
-<br>务必自学：磁偶极矩力矩的推导。<br>
-<br>毕萨定律
-<br><br>
-<br>安培定律
-<br>安培定律的积分形式表述为：<br><br>其中：<br>
-<br> 是磁场强度。
-<br> 是闭合路径  上的线元。
-<br> 是真空磁导率。
-<br> 是通过闭合路径  所包围的电流。
-<br>安培定律的微分形式可以通过麦克斯韦方程组中的一个方程来表示：<br><br>其中：<br>
-<br> 是磁场的旋度。
-<br> 是电流密度。
-<br><br><br>即磁通连续原理。该原理表明，在任何封闭曲面内，磁感应强度  的通量为零。用数学公式表示为：<br><br>其中：<br>
-<br> 表示对封闭曲面  进行积分。
-<br> 是磁感应强度。
-<br> 是曲面  上的面积元矢量。
-<br>这个定理是麦克斯韦方程组的一部分，它反映了自然界中不存在磁单极子（即单独的“磁荷”）的事实。无论在何处，磁场线总是闭合的，没有起点和终点。<br>微分形式：<br>
-<br><br>安培环路定理的积分形式表述为：<br><br>其中：<br>
-<br> 是磁感应强度（磁场强度）。
-<br> 是沿着闭合路径  的线元。
-<br> 是真空磁导率，其值为 。
-<br> 是通过闭合路径  所包围的电流的总和。
-<br>安培环路定理的微分形式可以通过斯托克斯定理（Stokes' Theorem）从积分形式推导出来：<br><br>其中：<br>
-<br> 是磁感应强度的旋度。
-<br> 是电流密度。
-<br><br>安培环路定理在电磁学中有广泛的应用，特别是在计算磁场分布时。例如：<br>
-<br>
-无限长直导线的磁场：对于一根无限长的直导线，通过安培环路定理可以计算出导线周围的磁场分布为：
-
-其中  是距离导线的径向距离。
-
-<br>
-螺线管的磁场：对于一个密绕的螺线管，内部的磁场可以近似为均匀磁场，其大小为：
-
-其中  是单位长度内的匝数。
-
-<br>课下去看B0，得到管内磁场的东西。<br><br><br> <br><br><br><br><br>]]></description><link>mathstuff\大学物理（2）-笔记-8.html</link><guid isPermaLink="false">MathStuff/大学物理（2） 笔记 8.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 15 Oct 2024 03:24:30 GMT</pubDate></item><item><title><![CDATA[方便查询的记号表]]></title><description><![CDATA[ 
+这里  和  都满足四个元素两两不同。从而  中的所有3-循环可以被题设集合生成，又3-循环生成 ，故题设集合生成 、<br><br><br>三阶元 时三循环<br>我们证明  中的所有 5 阶元素都是5循环。事实上，首先  循环显然是  阶元，其次，任意  可以被写成不交的循环之积。而其阶显然为所有循环的长度的最大公倍数，从而由于  是素数，故  只能为 5 循环。<br>]]></description><link>mathstuff\抽象代数作业-2.html</link><guid isPermaLink="false">MathStuff/抽象代数作业 2.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 16 Oct 2024 02:00:04 GMT</pubDate></item><item><title><![CDATA[方便查询的记号表]]></title><description><![CDATA[ 
  <br>
 <br>Amann 记 
 <br>
-]]></description><link>mathstuff\方便查询的记号表.html</link><guid isPermaLink="false">MathStuff/方便查询的记号表.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 03 Oct 2024 14:46:37 GMT</pubDate></item><item><title><![CDATA[你好哇，你这会想看什么？]]></title><description><![CDATA[ 
+]]></description><link>mathstuff\方便查询的记号表.html</link><guid isPermaLink="false">MathStuff/方便查询的记号表.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 03 Oct 2024 14:46:37 GMT</pubDate></item><item><title><![CDATA[马原]]></title><description><![CDATA[ 
+ <br><br>三、马克思的人生立场和治学态度<br><br>不仰附权贵、关爱（非同情）底层人民、草根意识<br>马克思的自白：幸福=斗争，不幸=屈服，厌恶的缺点=奉迎<br>
+<br>⻘年在选择职业时的思考<br>
+
+<br>莱茵省议会与俾斯⻨政府的高官引诱（并非仇富，主动选择贫困）<br>
+
+<br>对恩格斯的“一次冷”和“终生热”
+
+<br>马克思出名早
+<br>恩格斯：《国民经济学批判大纲》批判私有制，提倡共产主义，受到马克思的赞扬，彻夜长谈，开始合作
+
+
+<br>对工人和工人运动的满腔热情和无私援助
+
+<br>40年代末，建立了“共产主义者同盟”，第一个无产阶级政党
+<br>60年代，建立了_“国际工人协会”_
+
+
+<br>伟大人物的四要件：<br>
+<br>社会担当
+<br>对知识的敬畏
+<br>对问题的敏感
+<br>对现实的关注
+<br><br>
+<br>不为专业而专业
+
+<br>关注问题，专业服从于“问题”的思考与解决
+<br>文艺（爱情诗）→法律→哲学→经济学→历史学、人类学
+
+
+<br>不为理论而理论
+
+<br>以现实问题带动理论研究<br>
+
+<br>批判宗教不够，要批判：尘世、法、政治
+  （自由主义是精英主义，马克思主义为劳工代言）
+  （没有脱离政治的学术）<br>
+
+
+
+<br>不为批判而批判
+
+<br>批判≠批评/站在道德高点审视/...
+<br>批判：剖析，解剖，分析，辩论，概念展开，思想反思……
+<br>思想发展的土壤和条件，灯不拨不亮、理不辨不明
+
+
+<br>不为发表成果而发表成果
+
+<br>主要目的：弄清问题 “留给老鼠的牙齿去批判”
+
+
+<br>]]></description><link>mathstuff\马原.html</link><guid isPermaLink="false">MathStuff/马原.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 16 Oct 2024 06:51:01 GMT</pubDate></item><item><title><![CDATA[马原2]]></title><description><![CDATA[ 
+ <br><br>一、“三个世界”<br>
+<br>动物世界
+<br>鬼神世界
+<br>人的世界（兼具动物世界和鬼神世界的特点）
+<br>【暗号】二元张力结构（人的）<br>
+<br>二元：
+
+<br>事实：合规律性
+<br>价值：合目的性
+
+
+<br>张力：
+
+<br>动态变化的，特定情形下缺失
+  （例：杀人犯是“魔鬼”，缺少了“价值”（好像是吧））<br>
+
+
+
+<br>性症：<br>
+<br>合规律性与合目的性（动物不是合目的性）
+<br>事实存在与价值存在
+<br>“似目的”与“似自然”
+<br><br>
+<br>
+哲学，“概念”或“范畴”
+
+<br>
+文学，“形象”塑造
+
+<br>
+常识，“原”生活
+
+<br>
+哲学为”何“&amp;哲学“何”为
+冯友兰：学哲学的目的是，使人作为人能够成为人，而不是成为某种人。
+
+<br><br>
+<br>
+实证材料
+日工和夜工、换班制度。
+（黑格尔：市场经济在精神上是动物世界）
+
+<br>
+理论表达：劳动异化论
+
+<br>劳动产品的异化
+  生产的财富越多越贫穷，物的世界的增值、人的世界的贬值
+  农民和地主不存在这种关系
+  悖论：被动性贫困【暗号】
+  “文明病”（悖论）
+  劳动贫民<br>
+
+<br>劳动过程的异化<br>
+
+<br>类本质的异化<br>
+
+<br>人与人的异化<br>
+
+
+
+<br>
+马克思主义的主题
+人的自由与人的解放
+贫困问题：前资本主义贫困与资本主义之贫困
+​ 个体与社会的关系，原子化的个人
+
+<br>【暗号】中国是资本强势的社会主义国家美国是社会主义因素不断增多的资本主义国家<br><br>一． &nbsp;&nbsp;人生立场和治学态度<br>a)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 自由主义（精英）强调个人的作用；认为贫困是正常的，少部分人富，多数人穷——自发的秩序，<br>b)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 国家主义（合作主义/社群主义）国家的作用：认为只能靠国家解决（黑格尔的贱民思想：一部分人向贫困低头——无法解决）<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; i.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 公职建立在维持阶级统治之上，如果有矛盾，需要让步<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ii.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 国家是维护阶级利益的工具<br>c)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 马克思；激进主义（革命和改良）。例子：富裕建立在一些人的贫困之上；被动性贫困：生产力越高，劳动者越穷，效率越高劳动者越穷<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; i.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 需要通过改造市民社会来解决，大多数人失去生产资料。解决资本主义私有制，雇佣劳动制。经济关系不能自发演化，需要斗争。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ii.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 只要有剥削就要有分化，私有制——&gt;剥削——&gt;分化<br>d)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 例子：社会担当、敬畏知识、对问题的敏锐<br>二. 例子<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 拉比血统——自觉选择了贫困，<br>《德法年鉴》，《莱茵报》，恩格斯投文章《国民经济学批判大纲》：<br>1.&nbsp;&nbsp;&nbsp;&nbsp; 矛头指向私有财产；2. 推翻私有制，实行共产主义；<br>2.&nbsp;&nbsp;&nbsp;&nbsp; 批判自由意识哲学派，<br>二．李斯特，经济政策具有国民性<br>a)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ——俾斯麦<br>三．确立了底层人民的话语权<br>a)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 生产性劳动和非生产性劳动（消费的）；过去农民并不是生产性劳动者（土地，生产工具都是地主给的），这个层面，地主是生产性劳动者。——土地是重要的<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; i.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 例子：中共土改<br>b)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 农民才是生产者，应当有话语权——观念的改变。<br>四．专业<br>a)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 为了解决问题，吸收各个专业的工具。需要对各个方面都有了解，<br>五．两个极端<br>a)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 学术和政治不分——“同一”，公权不用于学术<br>b)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 学术和政治完全分离<br>好的规律：统一。政治建立在理论之上（思想入党后组织入党）<br>六. 不为批判而批判]]></description><link>mathstuff\马原2.html</link><guid isPermaLink="false">MathStuff/马原2.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 16 Oct 2024 06:51:13 GMT</pubDate></item><item><title><![CDATA[马原3]]></title><description><![CDATA[ 
+ <br><br>计划、工具中介性<br>价值意识：ex.喜好，善恶分辨，<br>客观存在——必有某种载体(substance)(可观察的，具有某些属性的)<br>人，既是事实存在，也是价值存在。有价值追求。合规律性，合目的（计划）性<br>需要区分“似目的”向日葵的向地性和向水性事实上不是目的。<br>比喻——似自然<br>事实和价值——两种关系<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 事实——是什么，<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 价值——人（主体）从自己出发，对他所面对的对象（客体？）的肯定和否定，需要进入一个关系，肯定——正价值，否定——负价值，不肯不否——中立。<br>二元张力（不同时代的人面对的事实存在不一样，价值追求，价值不一样。二者在动态变化中保持平衡）结构<br>结构——事实关系和价值关系耦合形成结构<br>尼采：哲学活动就是对超乎寻常的东西做超乎寻常的发问<br>马克思—<br>1.&nbsp;&nbsp;&nbsp;&nbsp; 背景<br>a)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 工业革命完成<br>b)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 过渡到市场经济<br>2.&nbsp;&nbsp;&nbsp;&nbsp; 问题：贫困、生态、精神<br>a)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 悖论性贫困：劳动效率越高，越贫困；劳动致富只适用于自耕者，劳动越多挣得越多；而工人工资是固定的。“工资决定理论”<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; i.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; （制度约束）绝大多数工人的生活资料不能过多，工资，由市场价值约束（需要看所处的关系，给资本家打工即为工人，工人是不得不劳动的,资本家可以不劳动）——保证生产劳动的延续性——生产效率由工人的生活资料和劳动时间决定<br>1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 资本剥削的隐蔽性——加班，不是多劳多得，仍是打工<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ii.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 悖论性是资本时代的根本特征<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; iii.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 异化劳动——工人创造的越多，自己越贫困，创造的世界越完美，自己越畸形。<br>1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;没有道德的荣誉，没有理性的智慧，没有幸福的快乐<br>2.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 货币拜物教——非理性；精致的结构——理性<br>3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 资本主义经济才是时间经济；资本主义换班制打破了时间的概念<br>b)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<br>马克思是历史地看待资本家，资本本身有难以克服的问题，相较于过去式巨大的进步。需要克服资本主义<br>中国在一定行业，一定领域需要资本。<br>资本当前被当成生产要素了。<br>资本家的钱是抽象财富——钱生钱——无限]]></description><link>mathstuff\马原3.html</link><guid isPermaLink="false">MathStuff/马原3.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 16 Oct 2024 06:50:53 GMT</pubDate></item><item><title><![CDATA[马原4]]></title><description><![CDATA[ 
+ <br><br><br>
+上一讲回顾
+人的世界不成其为人
+人的二元张力结构
+哲学上（抽象）：人的二元张力结构发生问题：个体和社会的矛盾
+现实中（具体）：具体学科有各自具体的问题
+悖论性贫困
+贫困问题涉及人的事实存在问题、平等问题
+<br><br>霍布斯《利维坦》<br>戴维·哈维《新自由主义简史》<br>富有富的问题，穷有穷的问题<br>建国以来30年政策上是按照马克思主义走的，公有制上理解出了问题<br>《资本论逻辑方法与意义》<br><br><br>特点：放任自由的资本主义<br>以个体权利为核心，抵抗公权对个体权利的侵犯<br>（霍布斯：《利维坦》）<br>后果：阶级矛盾激化-》社会矛盾冲突<br><br>强化国家干预，不再绝对抵触国家，在一定程度上承认国家的重要性<br>产物：福利国家、福利政策（例子：北欧：民主社会主义国家）<br>但不是国家想干预就能干预，而且一旦干预，就难以返回<br>开端：30年代罗斯福新政<br>发展：二战后：公有制<br>80年代：里根、撒切尔：自由主义回潮<br><br>马克思、恩格斯设想的社会主义。（社会主义的理论形态）<br><br>实践形态<br>当代资本主义是反思、扬弃、批判古典资本主义而来<br>经典社会主义（马克思主义）也是反思古典资本主义而来<br>因此二者之间有着相同之处<br><br>“市场”与“计划”对立，是按比例分配劳动的两种方式<br><br><br>改革开放为了解决两大问题（初衷）：社会化生产的技术问题和管理问题<br>改革开放20年以来以浓缩的方式出现了资本主义国家300年出现的问题<br><br>（经济表现）资本关系的膨胀、带资性企业的增多<br>（政治）权利要求、资本家入党问题<br>（文化）理论代言人、资本话语<br>​				”教师、行政官员都是资本家、剥削者“<br>​				“六大资本”，当下学术界理论界：无时无处不资本，资本话语满天飞-&gt;但是：当什么东西都是资本的时候，什么东西都不是资本了（差异被抹除了）。这样的话语具有遮蔽性质，把真正的剥削的资本隐藏起来了，把人们对资本有本质性的争论引到了歧路上<br>”不要围绕分配关系兜圈子“<br><br>（经济）<br>对比（三个层次）：<br>
+<br>
+劳动相关的民法无法上升到刑事层面（我国）
+
+<br>
+劳动刑法（法国、日本）
+
+<br>
+我国2002年开始修订劳动保护法，2011年劳动法入刑刑法修正案：恶意欠薪罪
+（入刑却难以落实）恶意欠薪的“恶意”的条件是劳动部门责令支付而不支付，然而现实中劳动部门的执行情况很糟糕，根本不起监督作用
+
+<br>（政治）<br>家族政治<br><br>经济大失衡（收入差距、两极分化）<br>政治大腐败（一把手问题）<br>​	政治民主：<br>- 党内民主
+- 基层民主
+复制<br>思想大混乱（拜金主义、人心不古）<br>环境大破坏（哥本哈根会议）<br>之五：家庭大分裂（兄弟、父子、夫妻）<br><br>
+<br>
+宪法：我们是社会主义
+
+<br>
+生产资料的所有权：是经济基础。土地公有、国有企业的控制力（国有企业承载着社会主义）
+
+<br>
+科学发展观：开始遏制资本强势
+举措：
+
+<br>五个统筹
+<br>和谐社会与新农村建设
+<br>十七大提高劳动收入的比重、十七届三中全会发展集体型经济
+<br>《劳动法》的颁布
+
+
+<br><br>
+<br>如何理解北欧的福利社会主义：
+<br>
+<br>富裕不一定是社会主义，经济不是衡量社会主义的唯一依据
+<br>在资本条件下，生产力的发展守纪律的；而社会主义下，生产力发展是不受限制的
+<br>北欧微观上仍然是资本主义、帝国主义，它的福利是社会主义因素，但不能称其为社会主义
+<br><br><br>1.&nbsp;&nbsp;&nbsp;&nbsp; 四个概念<br>a)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 古典资本主义<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; i.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 以古典自由主义为基础<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ii.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 现实表现为：自由放任，市场原教旨主义——反对公权干预，崇尚看不见的手（价格规律）<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; iii.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 凯恩斯说：现在只有一种劳动价值理论，马克思的理论，但它现在已经臭名昭著了。之后。。。宣告古典自由主义终结。<br>1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 罗斯福新政——&gt;古典资本主义到当代资本主义，不再绝对的否定国家的作用。<br>2.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 国家干预：农业调节法<br>3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 国家产业复兴法<br>b)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 经典社会主义（主动）<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; i.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 设想中的新社会<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ii.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 马克思在当时资本主义的环境下，设想了新的道路，革命<br>c)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 当代社会主义——公有制，计划经济，两大特点——理论问题。现在两个特点都有具体实现形式——实践问题，政策。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; i.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 计划经济——调整控制，不放任市场。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ii.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 事实上由公有制——&gt;高度国家集权——&gt;计划事实上是行政命令（过去）<br>1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 需要分清特定环境下理论的具体实践形式（政策）——调和的，调动所有积极因素。而理论是彻底的。<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; iii.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 改革开放后的中国——口号：不讨论姓资姓社，不讲计划经济——对马克思主义的曲解。完全分裂了经济政策<br>1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 资本强势：带资性企业增多，资本家入党，资本话语权<br>d)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 当代资本主义（被动）<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; i.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 国有化浪潮——&gt;资本主义的黄金时期——&gt;富人的利润受到影响——&gt;政治的代理人 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;《私有化的局限性》《》奥尔曼，<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ii.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 社会主义因素增多的资本主义，计划，抑制资本。<br>1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 结果——资本强势——社会矛盾，官员腐败…全民创收<br><br>一、时代的变迁：四个概念<br>马克思主义的背后是劳工主义<br>古典资本主义→当代资本主义
+     ↓
+经典社会主义→当代社会主义
+复制<br>古典资本主义：自由放任 排斥国家公权干预个人自由；市民社会（商业社会）；亚当斯密的守夜人理论（政府白天不干涉市民的经济活动，只为市民守夜）<br>当代资本主义：理论标志：凯恩斯理论（干预理论，不再排斥国家干预）；政策标志：罗斯福新政；（被动转变）<br>经典社会主义：马克思恩格斯设想的、理论形态的社会主义<br>当代社会主义：实践社会主义<br><br><br>
+<br>表现：
+
+<br>资本关系的膨胀、带资性企业的增多
+<br>政治：权利要求、资本家入党问题
+<br>理论：理论代言人、资本话语（《资本话语与构建社会主义和谐社会》）
+
+
+<br>结果：
+
+<br>经济大失衡
+<br>整治大腐败
+<br>思想大混乱
+<br>环境大破坏
+<br>家庭大分裂
+
+
+<br><br>
+<br>科学发展观（十六届三中全会）的历史意义：抑制资本（孙中山：节制资本）
+<br>举措：
+
+<br>五个统筹、和谐社会与新农村建设、提高劳动收入的比重、发展集体性经济、温家宝：“让劳动者活得有尊严”、《劳动法》的颁布（中小资本纷纷外逃）
+
+
+]]></description><link>mathstuff\马原4.html</link><guid isPermaLink="false">MathStuff/马原4.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 16 Oct 2024 06:50:35 GMT</pubDate></item><item><title><![CDATA[你好哇，你这会想看什么？]]></title><description><![CDATA[ 
  <br>二四六11月12月1月2月3月4月5月6月7月8月9月10月lessmore<br>
-<br>今天是2024年10月15日，2024 年已经过去了 284 天
+<br>今天是2024年10月16日，2024 年已经过去了 285 天
 <br>今年你总共在 70 天中留下了你的足迹，继续加油！
 <br><br>Multi column
 复分析
@@ -2821,7 +3072,7 @@ Singular
 示例<br>
 
 
-<br><br>直接去<a data-tooltip-position="top" aria-label="https://detexify.kirelabs.org/symbols.html" rel="noopener" class="external-link" href="https://detexify.kirelabs.org/symbols.html" target="_blank">这个地方</a><br><br><br>        N        M        N=N\Re1        M=Re1        Re2©¢¢¢©Ren                                                                              »=        <br>对比<br><br>        T        K        X£ZY        X        Y        Z                      x                     y                          (x;y)                       p                     q                     f                     g               A0        B0        A        B        C0        D0        C        D                      f0                     a                     g0                     h0                     b                          f                     h                     k0                     c                     d                     k                          g       <br><br>        V¬W        T        V£W                      9!~f                     ¬                     f       <br><br><br>        ²        ²        ²                                  <br><br><br>\usepackage{tikz-cd}
+<br><br>直接去<a data-tooltip-position="top" aria-label="https://detexify.kirelabs.org/symbols.html" rel="noopener" class="external-link" href="https://detexify.kirelabs.org/symbols.html" target="_blank">这个地方</a><br><br><br>        N        M        N=N\Re1        M=Re1        Re2©¢¢¢©Ren                                                                              »=        <br>对比<br><br>        T        K        X£ZY        X        Y        Z                      x                     y                          (x;y)                       p                     q                     f                     g               A0        B0        A        B        C0        D0        C        D                      f0                     a                     g0                     h0                     b                          f                     h                     k0                     c                     d                     k                          g       <br><br>        V¬W        T        V£W                      9!~f                     ¬                     f       <br><br><br><br><br><br>\usepackage{tikz-cd}
 \begin{document}
 \begin{tikzcd}
 T
@@ -2952,56 +3203,7 @@ C' \arrow[rr,"k'" near end] \arrow[dr,swap,"c"] &amp;&amp; D' \arrow[dr,swap,"d"
 这是一个box类型的callout。
 <br>Proof
 这是一个proof类型的callout。
-]]></description><link>mathstuff\文本编辑战术演习.html</link><guid isPermaLink="false">MathStuff/文本编辑战术演习.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Fri, 04 Oct 2024 16:09:25 GMT</pubDate><enclosure url="lib\media\pasted-image-20241003223246.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20241003223246.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Abstract Algebra Note 5]]></title><description><![CDATA[<a class="tag" href="?query=tag:抽象代数" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#抽象代数</a> <a class="tag" href="?query=tag:代数" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#代数</a> <a class="tag" href="?query=tag:对称群" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#对称群</a> <a class="tag" href="?query=tag:正多面体" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#正多面体</a> <a class="tag" href="?query=tag:周一" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#周一</a> 
- <br>@2024-10-14，正 20 面体的对称群，群的半直积@
-<a href=".?query=tag:抽象代数" class="tag" target="_blank" rel="noopener">#抽象代数</a> <a href=".?query=tag:代数" class="tag" target="_blank" rel="noopener">#代数</a> <a href=".?query=tag:对称群" class="tag" target="_blank" rel="noopener">#对称群</a> <a href=".?query=tag:正多面体" class="tag" target="_blank" rel="noopener">#正多面体</a> <a href=".?query=tag:周一" class="tag" target="_blank" rel="noopener">#周一</a><br>
-<a data-href="Abstract Algebra Note 4" href="代数\抽象代数\abstract-algebra-note-4.html" class="internal-link" target="_self" rel="noopener">Abstract Algebra Note 4</a>
-<br><br>为了完备起见，开头正多面体的内容接到上次讲义的末尾。<br><br>考虑  在  的作用<br>  的情形。首先  有  个元素，我们希望证明<br> 有一个子群同构于 <br>首先将  与  等同起来。<br>定义四则运算<br><br>现在看 <br>考虑 我们令 <br>从而有映射 ，请验证这是一个群同态<br>
-<br>事实上  是一个单射
-<br>可知这是仿射变换。<br>
-<br>
-上述作用是三传递的。<br>
-如果你学过复分析，你可以直接把变换写出来。
-
-<br>
-回到这个命题
-
-<br> 和   对应起来<br>1821067935140<br>我们考虑单射 ，取 有 <br>
-在  中有 <br><br>这个对应的表示 <br>S12SXA5Sym¤(I)PSL(2;F11)hg1;g2i=:H'µµµµµ<br>我们可以证明 ]]></description><link>mathstuff\abstract-algebra-note-5.html</link><guid isPermaLink="false">MathStuff/Abstract Algebra Note 5.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Mon, 14 Oct 2024 14:12:20 GMT</pubDate></item><item><title><![CDATA[ODE Notes 6]]></title><description><![CDATA[<a class="tag" href="?query=tag:常微分方程" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#常微分方程</a> <a class="tag" href="?query=tag:ODE" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#ODE</a> 
- <br>@2024-10-15，General local wxistence Theorem@
-<a href=".?query=tag:常微分方程" class="tag" target="_blank" rel="noopener">#常微分方程</a>  <a href=".?query=tag:ODE" class="tag" target="_blank" rel="noopener">#ODE</a><br>
-<a data-href="ODE Notes 5" href="分析\常微分方程\ode-notes-5.html" class="internal-link" target="_self" rel="noopener">ODE Notes 5</a>
-<br>定理 1
-Assume  is  in ,  in , where 
-Then  also there is a solution  to  where Furthermore,  is  in ,  in .
-<br>Proof<br>Recall we define<br>
-for all , define we have proved if  then <br> is a map. (We need to show this)<br>Firstly we need to show ,  is well defined.<br>
-<br>We need to ensure that  , 
-<br> obviously lies in , for , we hope this is lesser than :<br>
-(We used that )<br>
-<br>We need to show that for , we have . That is because 
-<br>We are reduced to show <br>That is, say, , we need the estimation Since we are talking in a convex set, so RHS is in , we have<br>
-Hence we reduce (II) to From the uniformly convergence of  (Since it is defined on a compact set , we have the  is controlled by . So we proved  <br><br>We want to extend the solution on  to . Recall the solution to  has a most extended solution.<br>Lemma
-Assume  is ,  is a constant bigger than 0, 
-
-then 
-<br>
-<br>We had proved this, Please recall!
-<br>定理 2 (local uniqueness)
-With the same assumption as in theorem<br>
-Assume  is a solution to   on , then  ,  where  is from Thm1 
-<br>Define , notice , we have<br>
-(???????????????????)<br>So by the Lemma, we have , say, .<br><br>Definitions:
-Assume  is  in  and  in , where , and  is a domain, consider (a)   is called phase space of  ,  is called the extended phase space of .
-(b)  If  is a solution to  on , then we define the integral curve of  is 
-(c)  A solution  to  with a initial value on  is a most extended solution if  for any solution  to  with the same initial value. 
-<br>定理 Global Existence
-Assume  is  in  and  in , for any , there is a most extended solution  to .
-Furthermore,<br>
-(a)  If  and  exists, then 
-(b)  For any solution  to  with , we have 
-<br>proof<br>by thm 1, there is a solution  to  with   on  (from the openess of ),<br>
-we define By definition of , for , there exists  is a solution to  on <br>If <br>下一次再补齐<br><a data-href="ODE Notes 8" href="ODE Notes 8" class="internal-link" target="_self" rel="noopener">ODE Notes 8</a>]]></description><link>mathstuff\ode-notes-6.html</link><guid isPermaLink="false">MathStuff/ODE Notes 6.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 15 Oct 2024 09:02:35 GMT</pubDate></item><item><title><![CDATA[one-point compactification]]></title><description><![CDATA[ 
+]]></description><link>mathstuff\文本编辑战术演习.html</link><guid isPermaLink="false">MathStuff/文本编辑战术演习.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Fri, 04 Oct 2024 16:09:25 GMT</pubDate><enclosure url="lib\media\pasted-image-20241003223246.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20241003223246.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[one-point compactification]]></title><description><![CDATA[ 
  <br>one-point compactification(单点紧化) 是一种将非紧致的局部紧致空间转化为紧致空间的技术。具体来说，给定一个局部紧致空间 ，其单点紧化是通过添加一个点（通常称为“无穷远点”或“附加点”）到  中，并将  的拓扑扩展到这个新点，使得整个空间成为紧致的。<br>形式化地，设  是一个局部紧致 Hausdorff 空间。 的单点紧化记作  或 ，其中  是新添加的点。 的拓扑定义如下：<br>
 <br>对于  中的任何开集 ， 也是  中的开集。
 <br>一个包含  的开集是  中的一个紧致闭集的补集。
