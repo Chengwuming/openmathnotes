@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[LogseqVault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>LogseqVault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sat, 19 Oct 2024 14:10:43 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sat, 19 Oct 2024 14:08:31 GMT</pubDate><copyright><![CDATA[Chengwuming]]></copyright><ttl>60</ttl><dc:creator>Chengwuming</dc:creator><item><title><![CDATA[抽象代数课程定义及记号表]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[LogseqVault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>LogseqVault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sat, 19 Oct 2024 14:34:55 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sat, 19 Oct 2024 14:33:28 GMT</pubDate><copyright><![CDATA[Chengwuming]]></copyright><ttl>60</ttl><dc:creator>Chengwuming</dc:creator><item><title><![CDATA[抽象代数课程定义及记号表]]></title><description><![CDATA[ 
  <br>
 <br>射影空间 ，其中  是一个 -线性空间，定义为其上一维线性子空间的集合。
 <br>域扩张：  是  的子域，称  是  的扩张，记作ee mathjax 不太支持。
@@ -43,10 +43,10 @@
 <br>
 我们断言  以如上方式给定时，  只能为 A2 中的 。如果存在  以及对应的唯一的  也满足泛性质，那么我们 令泛性质中的 ，，得到图 
 
-<br>G1£G2GiG1£G2p0iÃ0¼i<br>交换。注意到  可以取 ，但是由泛性质知  唯一，从而 ，由泛性质：<br>
+<br><br>交换。注意到  可以取 ，但是由泛性质知  唯一，从而 ，由泛性质：<br>
 故得到  的唯一性。<br>
 <br>最后我们说明  只能为 （同构的意义下），如果存在 ，以及对应的同态  满足泛性质，那么我们知道如下两图
-<br>G0GiG1£G2p0iÃ0piG1£G2GiG0piÃp0i<br>交换，也就得到 而  时满足。但是由于下图交换<br>G1£G2GiG1£G2piÃ0±Ãpi<br>从而由  的唯一性得其即为 ，从而  是群同构。换言之，  在群同构的意义下唯一。综上证毕。<br>特别的，我们给出同构 如果对任意的群  以及同态 ，我们定义这样的  和 :<br>
+<br><br>交换，也就得到 而  时满足。但是由于下图交换<br><br>从而由  的唯一性得其即为 ，从而  是群同构。换言之，  在群同构的意义下唯一。综上证毕。<br>特别的，我们给出同构 如果对任意的群  以及同态 ，我们定义这样的  和 :<br>
 则有 从而由泛性质唯一性知  与  同构。<br><br>见后<br><br>不一定。比如由之后的题目得到  （ 是奇素数）是循环群， 是循环群，而  是循环群。而群  不是循环群，因为  和  的阶都是 2，所以  无法被  生成，且显然无法被  和  生成，从而不是循环群。<br><br>和 A2 几乎一致，  分别在加法和乘法意义下构成含幺半群，所以 A2 中除 可逆 以外的所有证明可以不加变动（只做记号变动）地放在这里，以及  在加法意义下是群，这里只需要额外验证乘法分配律：<br>
 <br>
 
@@ -62,10 +62,10 @@
 <br>
 我们断言  以如上方式给定时，  只能为 A6 中的 。如果存在  以及对应的唯一的  也满足泛性质，那么我们 令泛性质中的 ，，得到图 
 
-<br>A1£A2AiA1£A2p0iÃ0¼i<br>交换。注意到  可以取 ，但是由泛性质知  唯一，从而 ，由泛性质：<br>
+<br><br>交换。注意到  可以取 ，但是由泛性质知  唯一，从而 ，由泛性质：<br>
 故得到  的唯一性。<br>
 <br>最后我们说明  只能为 （同构的意义下），如果存在 ，以及对应的同态  满足泛性质，那么我们知道如下两图
-<br>A0AiA1£A2p0iÃ0piA1£A2AiA0piÃp0i<br>交换，也就得到 而  时满足。但是由于下图交换<br>A1£A2AiA1£A2piÃ0±Ãpi<br>从而由  的唯一性得其即为 ，从而  是环同构。换言之，  在环同构的意义下唯一。综上证毕。<br><br>我们希望找到一个群同态 ，使得令   时其满足 A3 中的泛性质中对应的  的性质，即满足<br>
+<br><br>交换，也就得到 而  时满足。但是由于下图交换<br><br>从而由  的唯一性得其即为 ，从而  是环同构。换言之，  在环同构的意义下唯一。综上证毕。<br><br>我们希望找到一个群同态 ，使得令   时其满足 A3 中的泛性质中对应的  的性质，即满足<br>
  。那么我们自然得到  之间的同构。<br>
 根据中国剩余定理，这样的同态  是存在的。由于  互素，从而存在 ，使得 ，定义  其中  是任意的群，  是自带的群同态 。 断言此为所需。下面我们逐一验证：<br>我们断言群同态 满足为所需同态 。<br>
 <br> 是良好定义的<br>
@@ -178,7 +178,7 @@
 <br><br>
 我们考虑 ，里面有  个元素，考虑  在其上的作用，可以诱导出单射 ， 有120个元素，而<br>
  即视为 ，从而找到了一个  的子群 ，由于大群的作用是传递的，所以这个子群的作用自然是传递的，但是你想到的  的6个自然的子群  的作用都不是传递的（考虑和  的同构）。
-<br>        GL(2;F5)        SP(F5)        PGL(2;F5)                      ¿                     ¼                     ~¿       <br><br>
+<br><br><br>
 <br>令 ，那么  作用在左陪集上（通过左乘法），这就给出了一个传递的群作用。
 <br>如果是子群  以相同的方式作用，那么这个作用未必是传递的。
 <br>子群  的稳定化子 
@@ -265,7 +265,7 @@ p-群  对自身的共轭作用得到的轨道就是共轭类 ，且作用  上�
 <br>首先 ，其次  ，最后 。这就足以推出 。<br>我们现在可以举例，手动找到两个 5-sylow，比如  和  生成的子群，说服自己这两个生成的子群不一样，那么  只能是6。<br>或者只有一个正规子群是 ，从而。。。<br>令  作用在  上，其中  是 5-Sylow，作用由共轭给出。<br>换言之我们得到<br>
 断言  是单射，不然 ，且这个核是正规子群，所以 ，这是不可能的，因为 ，但是我们知道  的作用传递，所以其作用在  的轨道上有 6 个元素，所以 ，所以  就是单射，从而  在  中作为一个子群，其在  的作用是传递的，所以得到  不是那些简单的子群。<br><br>正六面体和正八面体同构。<br>我们研究这些东西的对称群。<br><br><br>研究了以下  是啥，这里回忆到高代。。<br>有趣的问题是 两个不同轴的旋转复合之后的旋转是什么？<br>回到正题，这玩意的对称：单位，固定一个点得到的轴，能转两下，8个，一对边的中点连线为轴，旋转，3个，现在总共有12个元素了。<br>事实上有 ，考虑  正四面体的顶点集上的作用<br>
 首先这是一个单射，看看这玩意的像，因为已知已经有了12个元素了，所以  要12个元素，要么24个元素。<br>不能是24个！不然 ，我们取一个  的对换，这将会摧毁这个正四面体。<br>于是 ，注意到  包含了所有三循环，但是三循环又生成 ，所以最终我们得到了<br>
-<br><br>数一数：有多少个旋转？容易数出来24个。<br>我们希望 <br>构造映射  ，将对角的四根线进行置换，换言之有群作用 首先  包含所有的三循环，所以 。并且我们可以找到一个对换，所以只能有 ，最后， 是单射，这是因为<br><br>数一数<br>        1        8        2        10        6        7        9        3        5        1        4        0                                                                                                                                                                                                                                                                                                                                                                                                                                      <br>有 60 个对称。<br>好好体会一下这样直观的感觉是怎么落实到数学证明上的。参考讲义。<br>
+<br><br>数一数：有多少个旋转？容易数出来24个。<br>我们希望 <br>构造映射  ，将对角的四根线进行置换，换言之有群作用 首先  包含所有的三循环，所以 。并且我们可以找到一个对换，所以只能有 ，最后， 是单射，这是因为<br><br>数一数<br><br>有 60 个对称。<br>好好体会一下这样直观的感觉是怎么落实到数学证明上的。参考讲义。<br>
 <br>首先这六十个元素生成 
 <br>其次  作用在  是传递的。从而
 <br>最后 
@@ -287,9 +287,9 @@ p-群  对自身的共轭作用得到的轨道就是共轭类 ，且作用  上�
 回到这个命题
 
 <br> 和   对应起来<br>Dictum
-1821067935140
+
 <br>我们考虑单射 ，取 有 <br>
-在  中有 <br><br>这个对应的表示 <br>        S12        SX        A5        Sym¤(I)        PSL(2;F11)        hg1;g2i=:H                                   '                     µ                     µ                     µ                     µ                     µ       <br>我们可以证明 <br><a data-href="Abstract Algebra Note 6" href="mathstuff\abstract-algebra-note-6.html" class="internal-link" target="_self" rel="noopener">Abstract Algebra Note 6</a>]]></description><link>代数\抽象代数\abstract-algebra-note-5.html</link><guid isPermaLink="false">代数/抽象代数/Abstract Algebra Note 5.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 17 Oct 2024 00:00:01 GMT</pubDate></item><item><title><![CDATA[作业9]]></title><description><![CDATA[ 
+在  中有 <br><br>这个对应的表示 <br><br>我们可以证明 <br><a data-href="Abstract Algebra Note 6" href="mathstuff\abstract-algebra-note-6.html" class="internal-link" target="_self" rel="noopener">Abstract Algebra Note 6</a>]]></description><link>代数\抽象代数\abstract-algebra-note-5.html</link><guid isPermaLink="false">代数/抽象代数/Abstract Algebra Note 5.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 17 Oct 2024 00:00:01 GMT</pubDate></item><item><title><![CDATA[作业9]]></title><description><![CDATA[ 
  <br>
 <br>
 <img alt="Pasted image 20240513205638.png" src="lib\media\pasted-image-20240513205638.png">
@@ -513,7 +513,7 @@ transition<br>
 得到  是  上的线性空间，对任意 ，有映射<br>
 这些  构成  的基，从而<br>
 希望  具有多线性性质，操作：模掉应该为零的运算项<br>
-类似于  这种东西张成的空间。<br>令 ，得到<br> <br>²²<br>以后来搞图片<br>记 , 记为 <br>
+类似于  这种东西张成的空间。<br>令 ，得到<br> <br><br>以后来搞图片<br>记 , 记为 <br>
 显然  是双线性的，称  是  的张量积。<br><br>universal property<br>对任意  上线性空间 ，以及双线性映射 ，存在唯一的线性映射 <br>
 <br>即<br>
 若 $\psi $<br><br> <a data-href="LA Lecture 29" href="代数\高等线性代数2\la-lecture-29.html" class="internal-link" target="_self" rel="noopener">LA Lecture 29</a>]]></description><link>代数\高等线性代数2\la-lecture-28.html</link><guid isPermaLink="false">代数/高等线性代数2/LA Lecture 28.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sun, 15 Sep 2024 15:40:16 GMT</pubDate></item><item><title><![CDATA[张量积]]></title><description><![CDATA[ 
@@ -1870,7 +1870,7 @@ Abel-Dirichlet 判别法：设  定义在  上，若满足以下任一条件：
 <br>，存在极限 <br>
 那么得到  收敛于 ，并且有图
 
-Fn(x)GnF(x)Gx!x0n!1n!1x!x0
+
 交换
 <br>这里的证明基本套路都一样，你可以练习试一试。<br><br>记号保持一致：<br> 是完备的度量空间。<br>这里的度量就是 函数的无穷范数。<br>使用上面最后一个定理，两个交换图分别走一遍得到 对于 ，将其处理成 Riemann 和函数，那么  对应着积分。<br>
 <br>这里应该对应实分析的一些内容，后续补上
@@ -2351,7 +2351,7 @@ Cauchy 根式判别法应该是最先用的
 令 。<br>
 令 ， 是连通的（ ，，从而 ，进而  也是连通的。
 容易验证  不道路连通。留作练习。
-<br>                   x                     y                <br>作为总结：道路连通分支一般情况下不是闭的。而且这里两个道路连通分支  不是分离的。<br><br><br>从粘合拓扑的角度考虑圆柱面就是把一个矩形的两边粘起来<br>然后是环面，Torus，Mobius 带，Klein 瓶，以及实射影平面 ，都可以通过矩形的粘合理解。特别的  不是很好直观理解，可以看成二维圆盘模掉对镜点的粘合拓扑。<br><br>定义 
+<br><br>作为总结：道路连通分支一般情况下不是闭的。而且这里两个道路连通分支  不是分离的。<br><br><br>从粘合拓扑的角度考虑圆柱面就是把一个矩形的两边粘起来<br>然后是环面，Torus，Mobius 带，Klein 瓶，以及实射影平面 ，都可以通过矩形的粘合理解。特别的  不是很好直观理解，可以看成二维圆盘模掉对镜点的粘合拓扑。<br><br>定义 
  是一个拓扑空间，考虑其上的分划 现在令  和映射 ， 。定义  上的拓扑：
  是开集   是开集。那么如此定义的拓扑称为粘合拓扑，空间  为粘合空间。 
 <br>粘合拓扑的泛性质
@@ -2781,7 +2781,7 @@ Cauchy 根式判别法应该是最先用的
 这部分函数是连续的，但在某些点上不满足绝对连续性，也不是奇异的。
 
 <br><br>勒贝格分解定理表明，任何分布函数都可以被分解为绝对连续、奇异和连续但既不绝对连续也不奇异的三部分。这种分解在概率论和测度论中具有重要的理论意义。<br>]]></description><link>mathstuff\《概率论教程》讨论班-2.html</link><guid isPermaLink="false">MathStuff/《概率论教程》讨论班 2.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 19 Oct 2024 01:32:14 GMT</pubDate><enclosure url="lib\media\pasted-image-20241019083228.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20241019083228.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[抽象代数作业 2]]></title><description><![CDATA[ 
- <br><br><br>我们已经知道  这  个对换生成 ，我们下面证明  个对换不能生成 。<br>如果两个对换  能够生成一个新的对换 ，这里只涉及  的对换，并且如果  为空集，那么此两对换只能生成他们自己而不能生成新的对换（平凡的）<br>所以一定有交集非空，为了保证这两个对换不同，可知交集只有一个元素，不妨假设 。<br><br><br>我们已经知道  生成 ，所以我们只需要说明  生成 。我们记 <br>由  递归操作知  可以生成 ， 取合适的值使得  在  到  中。<br>进而，我们由  知  可以生成 <br>
+ <br>2023012317 程笛<br><br><br>我们已经知道  这  个对换生成 ，我们下面证明  个对换不能生成 。<br>如果两个对换  能够生成一个新的对换 ，这里只涉及  的对换，并且如果  为空集，那么此两对换只能生成他们自己而不能生成新的对换（平凡的）<br>所以一定有交集非空，为了保证这两个对换不同，可知交集只有一个元素，不妨假设 。<br><br><br>我们已经知道  生成 ，所以我们只需要说明  生成 。我们记 <br>由  递归操作知  可以生成 ， 取合适的值使得  在  到  中。<br>进而，我们由  知  可以生成 <br>
 由于  互素，从而存在  使得 ，不妨假设 ，那么这就说明  生成 ，再结合之前的结论知道生成 。从而证毕。<br><br>对任意三循环  和 ，由于 ，所以存在 ，于是 ，并且有 故  中所有三循环都是共轭的（<br><br>在  中对任意的3-循环 ，有 ，从而<br>
 这里  和  都满足四个元素两两不同。从而  中的所有3-循环可以被题设集合生成，又3-循环生成 ，故题设集合生成 、<br><br><br>注意到一个事实：素数  ，则 -循环是  阶元。这是因为对于循环 ，其  次方为 ，角标是在模  的意义下。从而循环  次等于1 时当且仅当 。有  时 循环的  次不等于 1，故阶是 。<br>我们证明  中的所有 5 阶元素都是5循环：任意  可以被写成不交的循环之积。而其阶显然为所有循环的长度的最大公倍数，从而由于  是素数，故  只能为 5 循环。类似的，其中所有 3 阶元都是 3-循环。<br>如果  是 3 阶元，那么是 3循环，一定有两个不动点。如果这两个不动点不符题意：<br>
 <br>不动点是  或者 ，不妨 ，那么  是 2 阶元。
@@ -2825,7 +2825,7 @@ Cauchy 根式判别法应该是最先用的
 <br>
 考虑  的情况，  有两个元素，而  有3 个元素，不存在单群同态。  时，恰有 ，从而如果  是  的子群，则一定是正规子群，但是可知  的正规子群阶数只能为1，4，12，从而矛盾。
 
-<br>综上，不存在单的群同态 。]]></description><link>mathstuff\抽象代数作业-2.html</link><guid isPermaLink="false">MathStuff/抽象代数作业 2.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 19 Oct 2024 13:54:38 GMT</pubDate></item><item><title><![CDATA[大学物理（2） 笔记 9]]></title><description><![CDATA[<a class="tag" href="?query=tag:大学物理" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#大学物理</a> <a class="tag" href="?query=tag:磁" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#磁</a> 
+<br>综上，不存在单的群同态 。]]></description><link>mathstuff\抽象代数作业-2.html</link><guid isPermaLink="false">MathStuff/抽象代数作业 2.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 19 Oct 2024 14:32:22 GMT</pubDate></item><item><title><![CDATA[大学物理（2） 笔记 9]]></title><description><![CDATA[<a class="tag" href="?query=tag:大学物理" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#大学物理</a> <a class="tag" href="?query=tag:磁" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#磁</a> 
  <br>@2024-10-17，磁场和它的源，磁力@
 <a href=".?query=tag:大学物理" class="tag" target="_blank" rel="noopener">#大学物理</a> <a href=".?query=tag:磁" class="tag" target="_blank" rel="noopener">#磁</a><br>
 <a data-href="大学物理（2） 笔记 8" href="物理\大学物理（2）-笔记-8.html" class="internal-link" target="_self" rel="noopener">大学物理（2） 笔记 8</a>
@@ -3162,7 +3162,7 @@ Singular
 示例<br>
 
 
-<br><br>直接去<a data-tooltip-position="top" aria-label="https://detexify.kirelabs.org/symbols.html" rel="noopener" class="external-link" href="https://detexify.kirelabs.org/symbols.html" target="_blank">这个地方</a><br><br><br>NMN=N\Re1M=Re1Re2©¢¢¢©Ren»=<br>对比<br><br>TKX£ZYXYZxy(x;y)pqfgA0B0ABC0D0CDf0ag0h0bfhk0cdkg<br><br>V¬WTV£W9!~f¬f<br><br><br>²²²<br><br>¡202¡202¡0:4¡0:200:20:4<br>\usepackage{tikz-cd}
+<br><br>直接去<a data-tooltip-position="top" aria-label="https://detexify.kirelabs.org/symbols.html" rel="noopener" class="external-link" href="https://detexify.kirelabs.org/symbols.html" target="_blank">这个地方</a><br><br><br><br>对比<br><br><br><br><br><br><br><br><br><br>\usepackage{tikz-cd}
 \begin{document}
 \begin{tikzcd}
 T
@@ -3184,7 +3184,7 @@ C' \arrow[rr,"k'" near end] \arrow[dr,swap,"c"] &amp;&amp; D' \arrow[dr,swap,"d"
 &amp; C \arrow[rr,"k"] \arrow[uu,&lt;-,crossing over,"g" near end]&amp;&amp; D
 \end{tikzcd}
 \end{document}
-复制<br>xf(x)f(x)=xf(x)=sinxf(x)=120ex<br>I0¡+V0I0R1i1R2i2<br>TKX£ZYXYZxy(x;y)pqfgA0B0ABC0D0CDf0ag0h0bfhk0cdkg<br>FcGcFc0Gc0Ff®cGf®c0<br><br>&gt;[Note]- Title 减号位置对应的+-可以改变折叠方式。<br><br>AI
+复制<br><br><br><br><br><br>&gt;[Note]- Title 减号位置对应的+-可以改变折叠方式。<br><br>AI
 美化 callout 的方式有很多，以下是一些你可以尝试的 CSS 技巧：
 
 .callout[data-callout="proof"] {
