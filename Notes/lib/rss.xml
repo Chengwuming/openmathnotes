@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[LogseqVault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>LogseqVault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Fri, 18 Oct 2024 16:10:15 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Fri, 18 Oct 2024 16:08:46 GMT</pubDate><copyright><![CDATA[Chengwuming]]></copyright><ttl>60</ttl><dc:creator>Chengwuming</dc:creator><item><title><![CDATA[抽象代数课程定义及记号表]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[LogseqVault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>LogseqVault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sat, 19 Oct 2024 14:10:43 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sat, 19 Oct 2024 14:08:31 GMT</pubDate><copyright><![CDATA[Chengwuming]]></copyright><ttl>60</ttl><dc:creator>Chengwuming</dc:creator><item><title><![CDATA[抽象代数课程定义及记号表]]></title><description><![CDATA[ 
  <br>
 <br>射影空间 ，其中  是一个 -线性空间，定义为其上一维线性子空间的集合。
 <br>域扩张：  是  的子域，称  是  的扩张，记作ee mathjax 不太支持。
@@ -289,7 +289,7 @@ p-群  对自身的共轭作用得到的轨道就是共轭类 ，且作用  上�
 <br> 和   对应起来<br>Dictum
 1821067935140
 <br>我们考虑单射 ，取 有 <br>
-在  中有 <br><br>这个对应的表示 <br>S12SXA5Sym¤(I)PSL(2;F11)hg1;g2i=:H'µµµµµ<br>我们可以证明 <br><a data-href="Abstract Algebra Note 6" href="mathstuff\abstract-algebra-note-6.html" class="internal-link" target="_self" rel="noopener">Abstract Algebra Note 6</a>]]></description><link>代数\抽象代数\abstract-algebra-note-5.html</link><guid isPermaLink="false">代数/抽象代数/Abstract Algebra Note 5.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 17 Oct 2024 00:00:01 GMT</pubDate></item><item><title><![CDATA[作业9]]></title><description><![CDATA[ 
+在  中有 <br><br>这个对应的表示 <br>        S12        SX        A5        Sym¤(I)        PSL(2;F11)        hg1;g2i=:H                                   '                     µ                     µ                     µ                     µ                     µ       <br>我们可以证明 <br><a data-href="Abstract Algebra Note 6" href="mathstuff\abstract-algebra-note-6.html" class="internal-link" target="_self" rel="noopener">Abstract Algebra Note 6</a>]]></description><link>代数\抽象代数\abstract-algebra-note-5.html</link><guid isPermaLink="false">代数/抽象代数/Abstract Algebra Note 5.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 17 Oct 2024 00:00:01 GMT</pubDate></item><item><title><![CDATA[作业9]]></title><description><![CDATA[ 
  <br>
 <br>
 <img alt="Pasted image 20240513205638.png" src="lib\media\pasted-image-20240513205638.png">
@@ -1155,7 +1155,7 @@ Furthermore,<br>
 (a)  If  and  exists, then 
 (b)  For any solution  to  with , we have 
 <br>proof<br>by thm 1, there is a solution  to  with   on  (from the openess of ),<br>
-we define By definition of , for , there exists  is a solution to  on <br>If <br>下一次再补齐<br><a data-href="ODE Notes 7" href="mathstuff\ode-notes-7.html" class="internal-link" target="_self" rel="noopener">ODE Notes 7</a>]]></description><link>分析\常微分方程\ode-notes-6.html</link><guid isPermaLink="false">分析/常微分方程/ODE Notes 6.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Fri, 18 Oct 2024 07:39:21 GMT</pubDate></item><item><title><![CDATA[复分析做题日记]]></title><description><![CDATA[ 
+we define By definition of , for , there exists  is a solution to  on <br>If <br>下一次再补齐<br><a data-href="ODE Notes 7" href="mathstuff\ode-notes-7.html" class="internal-link" target="_self" rel="noopener">ODE Notes 7</a>]]></description><link>分析\常微分方程\ode-notes-6.html</link><guid isPermaLink="false">分析/常微分方程/ODE Notes 6.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Fri, 18 Oct 2024 16:16:42 GMT</pubDate></item><item><title><![CDATA[复分析做题日记]]></title><description><![CDATA[ 
  <br><br>7.11。一个简洁的写法： 复数  共线的充要条件：<br><br>题目数量统计
 
 <br>
@@ -2351,12 +2351,12 @@ Cauchy 根式判别法应该是最先用的
 令 。<br>
 令 ， 是连通的（ ，，从而 ，进而  也是连通的。
 容易验证  不道路连通。留作练习。
-<br>xy<br>作为总结：道路连通分支一般情况下不是闭的。而且这里两个道路连通分支  不是分离的。<br><br><br>从粘合拓扑的角度考虑圆柱面就是把一个矩形的两边粘起来<br>然后是环面，Torus，Mobius 带，Klein 瓶，以及实射影平面 ，都可以通过矩形的粘合理解。特别的  不是很好直观理解，可以看成二维圆盘模掉对镜点的粘合拓扑。<br><br>定义 
+<br>                   x                     y                <br>作为总结：道路连通分支一般情况下不是闭的。而且这里两个道路连通分支  不是分离的。<br><br><br>从粘合拓扑的角度考虑圆柱面就是把一个矩形的两边粘起来<br>然后是环面，Torus，Mobius 带，Klein 瓶，以及实射影平面 ，都可以通过矩形的粘合理解。特别的  不是很好直观理解，可以看成二维圆盘模掉对镜点的粘合拓扑。<br><br>定义 
  是一个拓扑空间，考虑其上的分划 现在令  和映射 ， 。定义  上的拓扑：
  是开集   是开集。那么如此定义的拓扑称为粘合拓扑，空间  为粘合空间。 
 <br>粘合拓扑的泛性质
   是一个粘合空间， ，对任意的拓扑空间 ，任意的映射  是连续的，当且仅当  是连续的。
-        X        Z        Y                      f±¼                     ¼                     f       
+
 设  是开机，那么  开  开，从而  是连续的当且仅当  是连续的。
 <br>定义 2
  是连续的满射，  是开集当且仅当  是开集。 那么我们称  是一个粘合映射。
@@ -2742,21 +2742,90 @@ Cauchy 根式判别法应该是最先用的
 
 <br><br><img alt="Pasted image 20240915092331.png" src="lib\media\pasted-image-20240915092331.png"><br>
 <img alt="Pasted image 20240915092339.png" src="lib\media\pasted-image-20240915092339.png"><br>
-<img alt="Pasted image 20240915092346.png" src="lib\media\pasted-image-20240915092346.png">]]></description><link>作业\ode-第一次作业.html</link><guid isPermaLink="false">作业/ODE 第一次作业.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 21 Sep 2024 04:34:14 GMT</pubDate><enclosure url="lib\media\pasted-image-20240915092018.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240915092018.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[抽象代数作业 2]]></title><description><![CDATA[ 
+<img alt="Pasted image 20240915092346.png" src="lib\media\pasted-image-20240915092346.png">]]></description><link>作业\ode-第一次作业.html</link><guid isPermaLink="false">作业/ODE 第一次作业.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 21 Sep 2024 04:34:14 GMT</pubDate><enclosure url="lib\media\pasted-image-20240915092018.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240915092018.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[《概率论教程》讨论班 2]]></title><description><![CDATA[ 
+ <br>@2024-10-19，绝对连续函数@
+<a data-href="《概率论教程》讨论班 1" href="概率统计\《概率论教程》讨论班-1.html" class="internal-link" target="_self" rel="noopener">《概率论教程》讨论班 1</a>
+<br>定义 绝对连续
+<img alt="Pasted image 20241019083228.png" src="lib\media\pasted-image-20241019083228.png"><br>
+<img alt="Pasted image 20241019083306.png" src="lib\media\pasted-image-20241019083306.png">
+<br>定义 奇异<br>定理 
+分布函数可以被分解。
+<br>勒贝格分解### 勒贝格分解定理<br><br>
+<br>
+绝对连续函数：<br>
+设  是一个定义在区间  上的函数。如果对于任意 ，存在 ，使得对于任意有限个互不相交的区间 ，只要 ，就有
+
+则称  是绝对连续的。
+
+<br>
+奇异函数：<br>
+设  是一个定义在区间  上的函数。如果  在  上几乎处处等于一个常数，即存在一个零测集 ，使得  在  上恒为常数，则称  是奇异的。
+
+<br><br>勒贝格分解定理：<br>任何一个分布函数  都可以唯一地分解为三个部分：<br><br>其中：<br>
+<br> 是绝对连续的部分。
+<br> 是奇异的部分。
+<br> 是连续但既不绝对连续也不奇异的部分。
+<br><br>
+<br>
+绝对连续部分 ：<br>
+ 可以表示为：
+
+其中  是  的密度函数。
+
+<br>
+奇异部分 ：<br>
+ 在  上几乎处处等于一个常数。
+
+<br>
+连续但既不绝对连续也不奇异的部分 ：<br>
+这部分函数是连续的，但在某些点上不满足绝对连续性，也不是奇异的。
+
+<br><br>勒贝格分解定理表明，任何分布函数都可以被分解为绝对连续、奇异和连续但既不绝对连续也不奇异的三部分。这种分解在概率论和测度论中具有重要的理论意义。<br>]]></description><link>mathstuff\《概率论教程》讨论班-2.html</link><guid isPermaLink="false">MathStuff/《概率论教程》讨论班 2.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 19 Oct 2024 01:32:14 GMT</pubDate><enclosure url="lib\media\pasted-image-20241019083228.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20241019083228.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[抽象代数作业 2]]></title><description><![CDATA[ 
  <br><br><br>我们已经知道  这  个对换生成 ，我们下面证明  个对换不能生成 。<br>如果两个对换  能够生成一个新的对换 ，这里只涉及  的对换，并且如果  为空集，那么此两对换只能生成他们自己而不能生成新的对换（平凡的）<br>所以一定有交集非空，为了保证这两个对换不同，可知交集只有一个元素，不妨假设 。<br><br><br>我们已经知道  生成 ，所以我们只需要说明  生成 。我们记 <br>由  递归操作知  可以生成 ， 取合适的值使得  在  到  中。<br>进而，我们由  知  可以生成 <br>
 由于  互素，从而存在  使得 ，不妨假设 ，那么这就说明  生成 ，再结合之前的结论知道生成 。从而证毕。<br><br>对任意三循环  和 ，由于 ，所以存在 ，于是 ，并且有 故  中所有三循环都是共轭的（<br><br>在  中对任意的3-循环 ，有 ，从而<br>
-这里  和  都满足四个元素两两不同。从而  中的所有3-循环可以被题设集合生成，又3-循环生成 ，故题设集合生成 、<br><br><br>三阶元 时三循环<br>我们证明  中的所有 5 阶元素都是5循环。事实上，首先  循环显然是  阶元，其次，任意  可以被写成不交的循环之积。而其阶显然为所有循环的长度的最大公倍数，从而由于  是素数，故  只能为 5 循环。<br><br><br><br>对于任意的 群同构 ，任意一个对换 ，有陪集分解 ，则  在  上的限制是  的自同构，记为 ，则 。从而给出映射 。<br>
-<br>这是满射，因为对任意的 ，
-<br>这是单射，因为如果有 ，那么就有<br>
-对任意的 ，一定有 ，从而有
-<br><br><br><br><br><br> 是一个共轭类，1 个元素。<br>
-已经证明了所有 3-循环 是一个共轭类，共有  个元素。<br>对于任意的双对换 ，选取 3-循环  来共轭，得到 ，则我们可以通过共轭调整双对换中的任意一个数，从而生成所有的双对换。而所有的双对换在  中是所有的 2 阶元，由于共轭类中的元素阶数相同，从而所有的 2 阶元是一个共轭类，个数为  个。<br>Error<br><br>  如果是正规子群，那么其共轭不不变，从而其只能是若干包含  的共轭类的并，于是由前文，其个数只能为<br>
+这里  和  都满足四个元素两两不同。从而  中的所有3-循环可以被题设集合生成，又3-循环生成 ，故题设集合生成 、<br><br><br>注意到一个事实：素数  ，则 -循环是  阶元。这是因为对于循环 ，其  次方为 ，角标是在模  的意义下。从而循环  次等于1 时当且仅当 。有  时 循环的  次不等于 1，故阶是 。<br>我们证明  中的所有 5 阶元素都是5循环：任意  可以被写成不交的循环之积。而其阶显然为所有循环的长度的最大公倍数，从而由于  是素数，故  只能为 5 循环。类似的，其中所有 3 阶元都是 3-循环。<br>如果  是 3 阶元，那么是 3循环，一定有两个不动点。如果这两个不动点不符题意：<br>
+<br>不动点是  或者 ，不妨 ，那么  是 2 阶元。
+<br>不动点一个在 中，另一个是 ，不妨 ，那么  是 3 阶元。
+<br>当不动点满足题意时，有  没有不动点，从而是 5-循环：对于  中的 ，如果是  的不动点，有 ，其中  或 。如果  不是  的不动点，不妨记 ，所以如果 ，则 ，故 ，由于 ，所以  不是  的不动点。<br>对于 ，显然 ，故  没有不动点。证毕<br><br>由 a 知， 为双对换，从而有  个，  为  中选择两个不动点的 3-循环，选定  的形况下，两个对换中各选一个不动点，得到 ，则  均满足。有  个 。从而 <br><br>考虑作用 ，这个作用是自由的：<br>
+<br>任取 ，如果有 ，断言所有的 3-循环在  作用下不变，从而由 3-循环生成  可得 ，即任意点的稳定化子群是 ，从而自由。
+<br>有 （因为  是同构）。同理，由  有限乘给出的元素  作用不变。
+<br>不妨取 ，平方得 ，那么 。平方得 ，，平方得到 ，，平方得到 ，，（后续省略平方得新），，，，，。
+<br>从而 均  作用不变。这是  中所有的 3循环。证毕
+<br>由于  是自由的，换言之  是单射  是单射，从而 。<br>对于 ，有 ，从而  （群结构的验证是平凡的），从而由  知 。证毕<br> 阶一定是  的倍数，从而只能是 ， 时是  正规子群，但是  是单群，从而只能是 ，即 <br><br> 中一共有 3 个双对换， ，有八个三循环，为 ，直接计算得到任意一个双对换乘一个 3-循环得到一个 3-循环。从而 ，有  。<br>又 ，，从而 <br><br>由 A6，双对换乘 3-循环只能是 3-循环。想要得到 4 阶元，只有考虑  中除掉双对换的 2 阶元，即全体对换，共有  个，断言  满足其中一个在  中，另一个是  的不动点时  是 4 阶元。<br>
+<br>满足条件时是 4 阶元：不妨 ，那么  ，直接计算可得 4-循环是 4 阶元。
+<br>如果不满足条件，则不是 4 阶元：只有一种情况，即 都在  中。不妨记 ，（ 的情况类似），那么有  是 2 阶元。
+<br>从而  有 ，<br>
+又 ，，从而 <br><br>对于任意的 群同构 ，任意一个对换 ，有陪集分解 ，则  在  上的限制是  的自同构。这是因为 ，且显然  中有不是 1 的元素，但是   的不是  的非平凡正规子群只有 ，所以 。<br>从而给出群同态 。下面说明这个同态是单射，从而由于 ，  得到这是双射，从而 。<br>
+<br>单射：即 ，换言之，对于 如果 ，则 。
+
+<br>对于对换 ，有 ，从而  是对换或者双对换。如果是双对换，比如 ，由于 ，从而 ，而 ，故 ，矛盾。从而  把对换映射到对换。
+<br>证明把对换  映射到 ，假设不这样，不妨  或者 ，对于前者，有  不是对换，对于后者，有 不是对换。从而 。
+<br>由于全体对换生成 ， ，从而，证毕。
+
+
+<br><br><br> ，由  知  只有  和  是正规子群。<br>，有三个角度为  的旋转，有八个角度为  的旋转，从而其正规子群的个数只能为 ，可知  不整除 ，从而只能为 。<br>  包含所有的双对换，对于任意的 ， 使用其共轭  后仍然得到双对换，而任意的  中的元素都可以写成双对换的积，故  是  的正规子群。此外  和  也是正规子群。<br><br><br>故  在  中共轭。计算可得 <br><br>从而共轭，计算可得 <br><br>如果 ，那么一定包含非 1 阶的元，如果 有三循环，对其共轭得到 所有的三循环，而对 　共轭得到　，所以  包含所有的三循环。如果没有 3 循环，如果有 2 阶元，由 1 知将其共轭得到 ，有  且  是三循环。矛盾。如果有5阶元，那么有 2 知  是三循环，矛盾。综上， 包含所有的 3-循环，从而 ，又  是子群，所以  <br><br><br> 是一个共轭类，1 个元素。<br>
+已经证明了所有 3-循环 是一个共轭类，共有  个元素。<br>对于任意的双对换 ，选取 3-循环  来共轭，得到 ，则我们可以通过共轭调整双对换中的任意一个数，从而生成所有的双对换。而所有的双对换在  中是所有的 2 阶元，由于共轭类中的元素阶数相同，从而所有的 2 阶元是一个共轭类，个数为  个。<br>对于 5 阶元素，即所有的 5-循环，比如 ，使用 3-循环对其共轭，相当于得到  这五个数的一个置换。而使用 3-循环共轭保持  的逆序数的奇偶：对于三个需要置换的数，记为 ，置换为 ，显然保持逆序数，而对于其余的 ，可以首先将  全部使用相邻的对换移到  的前面，设对换了  次，接着对  进行置换，此时不影响之后的  对应的逆序数，再将  按原来的对换移动到对应的位置，由于移动只和位置有关，和角标无关，所以依然移动了  次，每一次改变一次逆序数的奇偶性，从而得到逆序数的奇偶性改变了  次，从而不变。<br>由于  中的元素可以写成3-循环的乘积，从而奇偶性不同的置换对应不同的共轭类。换言之24个5阶元至少有两个共轭类。<br>经过直接计算可得  经过全体三循环的共轭可以生成12个元素，从而  有两个 12 个元素的共轭类。<br>综上，共轭类有五个，元素个数 1，12，12，15，20<br><br>  如果是正规子群，那么其共轭不不变，从而其只能是若干包含  的共轭类的并，于是由前文，其个数只能为<br>
 <br>，一个元素
 <br>两个共轭类之并：元素个数可为 
 <br>三个共轭类之并：可为 
 <br>四个共轭类之并：可为 
 <br>所有，即 ，阶为 。
-<br><br> 的指数是正数，由 2 只仅有  成立，从而  是单群。<br><br><br>若 ，则 。对于  的子群  中的任意元素  由 ，从而  是  的正规子群，由  和  是单群得到 。<br>考虑所有的三循环 ，且 ，不妨设 ，那么取与 不同的数字  和，我们有 从而对  取  中的元素的共轭得到  的生成元（即所有的 3-循环），从而 。<br><br>由   得到 ，且  有 ，进而 。将  写成不交的循环之并，由前一问知  含 ，从而对于包含  的一个循环，不妨记为 ，由   知  中包含  的循环为 ，从而  不含  和 ，从而 ，又由  知 。<br> ，由前一小问可知：若有  则另其为 1 的 ，从而得到矛盾。<br><br><br><br>对于正规子群 ，由于对偶数个对换之积做共轭得到偶数个对换之积，从而有  也是  的正规子群 （ 是单群），由 ，故  是一个正规子群并且不存在比它大的，不等于  的子群。从而 <br><br><br>定义  为  的左陪集，从而左乘法的作用给出映射   的]]></description><link>mathstuff\抽象代数作业-2.html</link><guid isPermaLink="false">MathStuff/抽象代数作业 2.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Fri, 18 Oct 2024 05:30:32 GMT</pubDate></item><item><title><![CDATA[大学物理（2） 笔记 9]]></title><description><![CDATA[<a class="tag" href="?query=tag:大学物理" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#大学物理</a> <a class="tag" href="?query=tag:磁" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#磁</a> 
+<br><br> 的指数是正数，由 2 只仅有  成立，从而  是单群。<br><br><br>若 ，则 。对于  的子群  中的任意元素  由 ，从而  是  的正规子群，由  和  是单群得到 。<br>考虑所有的三循环 ，且 ，不妨设 ，那么取与 不同的数字  和，我们有 从而对  取  中的元素的共轭得到  的生成元（即所有的 3-循环），从而 。<br><br>由   得到 ，且  有 ，进而 。将  写成不交的循环之并，由前一问知  含 ，从而对于包含  的一个循环，不妨记为 ，由   知  中包含  的循环为 ，从而  不含  和 ，从而 ，又由  知 。<br> ，由前一小问可知：若有  则另其为 1 的 ，从而得到矛盾。<br><br>感觉这个键盘的手感还可以，不过就是键程太过这个键程比较合适，回弹也很不错<br>假设 ，令 ，取 ，那么 ，这里  不包含 ，从而有  对比可知 ，，从而 ，这与  矛盾。从而一定有 ，此时  可以被写成一些不交的 对换之积。<br>
+对任意的 ，如果 ，不妨设  中含有 ，那么使用  对应的  共轭得到 ，且 ，这与  矛盾。从而只能为<br>
+<br> 中不含 
+<br>中含 。<br>
+从而 
+<br><br>由  知其写成不交循环之积的形式全部为 对换。其中一定有一项 ，并且对任意的 ， ，故若 ，则令 ,，则  ，矛盾。从而仅有 。但是 ，从而不是对换，矛盾。综上  是单群。<br><br>对于正规子群 ，由于对偶数个对换之积做共轭得到偶数个对换之积，从而有  也是  的正规子群 （ 是单群），由 ，故  是一个正规子群并且不存在比它大的，不等于  的子群。从而 <br><br>  包含所有的双对换，对于任意的 ，使用其共轭  后仍然得到双对换，而任意的  中的元素都可以写成对换的积，从而  是  的正规子群。同样的，任意  中的元素同样写成对换积，其共轭后得到  不变，故  是  的正规子群。<br>对于 ，有  个元素。断言 ，注意到  中不含 ，而  中存在 ，所以 ，故  为  的 6 个代表元的集合。故 。<br><br>定义  为  的左陪集，从而左乘法的作用给出映射  ，若 ，则有 ，去  知有 。从而 。<br>若 ，那么  不是正规子群，然而  是  的正规子群，从而由  知 ，那么单射  一定有 ，从而 。<br><br>
+<br>
+，对任意的 ，如果是奇置换，定义 ，如果是偶置换，定义 ，从而得到 单射 ，故 
+
+<br>
+不存在单的群同态 ，首先考虑  的情况，此时  是单群。如果存在  是单射，考虑  左乘法作用在 ，即  那么类似B6 的讨论知道 ，同时结合  和 ，得知 ，换言之，  ，这在  显然矛盾。
+
+<br>
+考虑  的情况，  有两个元素，而  有3 个元素，不存在单群同态。  时，恰有 ，从而如果  是  的子群，则一定是正规子群，但是可知  的正规子群阶数只能为1，4，12，从而矛盾。
+
+<br>综上，不存在单的群同态 。]]></description><link>mathstuff\抽象代数作业-2.html</link><guid isPermaLink="false">MathStuff/抽象代数作业 2.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 19 Oct 2024 13:54:38 GMT</pubDate></item><item><title><![CDATA[大学物理（2） 笔记 9]]></title><description><![CDATA[<a class="tag" href="?query=tag:大学物理" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#大学物理</a> <a class="tag" href="?query=tag:磁" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#磁</a> 
  <br>@2024-10-17，磁场和它的源，磁力@
 <a href=".?query=tag:大学物理" class="tag" target="_blank" rel="noopener">#大学物理</a> <a href=".?query=tag:磁" class="tag" target="_blank" rel="noopener">#磁</a><br>
 <a data-href="大学物理（2） 笔记 8" href="物理\大学物理（2）-笔记-8.html" class="internal-link" target="_self" rel="noopener">大学物理（2） 笔记 8</a>
@@ -2764,7 +2833,8 @@ Cauchy 根式判别法应该是最先用的
  <br>
 <br>Amann 记 
 <br>
-]]></description><link>mathstuff\方便查询的记号表.html</link><guid isPermaLink="false">MathStuff/方便查询的记号表.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 03 Oct 2024 14:46:37 GMT</pubDate></item><item><title><![CDATA[马原]]></title><description><![CDATA[ 
+]]></description><link>mathstuff\方便查询的记号表.html</link><guid isPermaLink="false">MathStuff/方便查询的记号表.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 03 Oct 2024 14:46:37 GMT</pubDate></item><item><title><![CDATA[老子与论语]]></title><description><![CDATA[ 
+ ]]></description><link>mathstuff\老子与论语.html</link><guid isPermaLink="false">MathStuff/老子与论语.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 19 Oct 2024 07:30:22 GMT</pubDate></item><item><title><![CDATA[马原]]></title><description><![CDATA[ 
  <br><br>三、马克思的人生立场和治学态度<br><br>不仰附权贵、关爱（非同情）底层人民、草根意识<br>马克思的自白：幸福=斗争，不幸=屈服，厌恶的缺点=奉迎<br>
 <br>⻘年在选择职业时的思考<br>
 
@@ -3092,7 +3162,7 @@ Singular
 示例<br>
 
 
-<br><br>直接去<a data-tooltip-position="top" aria-label="https://detexify.kirelabs.org/symbols.html" rel="noopener" class="external-link" href="https://detexify.kirelabs.org/symbols.html" target="_blank">这个地方</a><br><br><br>        N        M        N=N\Re1        M=Re1        Re2©¢¢¢©Ren                                                                              »=        <br>对比<br><br>        T        K        X£ZY        X        Y        Z                      x                     y                          (x;y)                       p                     q                     f                     g               A0        B0        A        B        C0        D0        C        D                      f0                     a                     g0                     h0                     b                          f                     h                     k0                     c                     d                     k                          g       <br><br>        V¬W        T        V£W                      9!~f                     ¬                     f       <br><br><br>        ²        ²        ²                                  <br><br>                          ¡2        0        2        ¡2        0        2                                ¡0:4        ¡0:2        0        0:2        0:4                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     <br>\usepackage{tikz-cd}
+<br><br>直接去<a data-tooltip-position="top" aria-label="https://detexify.kirelabs.org/symbols.html" rel="noopener" class="external-link" href="https://detexify.kirelabs.org/symbols.html" target="_blank">这个地方</a><br><br><br>NMN=N\Re1M=Re1Re2©¢¢¢©Ren»=<br>对比<br><br>TKX£ZYXYZxy(x;y)pqfgA0B0ABC0D0CDf0ag0h0bfhk0cdkg<br><br>V¬WTV£W9!~f¬f<br><br><br>²²²<br><br>¡202¡202¡0:4¡0:200:20:4<br>\usepackage{tikz-cd}
 \begin{document}
 \begin{tikzcd}
 T
@@ -3114,7 +3184,7 @@ C' \arrow[rr,"k'" near end] \arrow[dr,swap,"c"] &amp;&amp; D' \arrow[dr,swap,"d"
 &amp; C \arrow[rr,"k"] \arrow[uu,&lt;-,crossing over,"g" near end]&amp;&amp; D
 \end{tikzcd}
 \end{document}
-复制<br>                        x                     f(x)          f(x)=x           f(x)=sinx           f(x)=120ex       <br>                              I0        ¡        +        V0                                            I0                         R1                   i1                          R2                   i2                               <br>        T        K        X£ZY        X        Y        Z                      x                     y                          (x;y)                       p                     q                     f                     g               A0        B0        A        B        C0        D0        C        D                      f0                     a                     g0                     h0                     b                          f                     h                     k0                     c                     d                     k                          g       <br>        Fc        Gc        Fc0        Gc0                      Ff                     ®c                     Gf                     ®c0       <br><br>&gt;[Note]- Title 减号位置对应的+-可以改变折叠方式。<br><br>AI
+复制<br>xf(x)f(x)=xf(x)=sinxf(x)=120ex<br>I0¡+V0I0R1i1R2i2<br>TKX£ZYXYZxy(x;y)pqfgA0B0ABC0D0CDf0ag0h0bfhk0cdkg<br>FcGcFc0Gc0Ff®cGf®c0<br><br>&gt;[Note]- Title 减号位置对应的+-可以改变折叠方式。<br><br>AI
 美化 callout 的方式有很多，以下是一些你可以尝试的 CSS 技巧：
 
 .callout[data-callout="proof"] {
@@ -3263,11 +3333,12 @@ C' \arrow[rr,"k'" near end] \arrow[dr,swap,"c"] &amp;&amp; D' \arrow[dr,swap,"d"
 
 <br>
 我们找到从相等变到不相等的点，记 ，这个点由连续性，有 。这里不妨令  吧。
-
-<br>在 ，附近找一个紧集，上面存在解，而存在解就就有估计 <br>不会！！！
+Chou
 
  
-<br><br>请给出泰勒公式的积分余项！！！<br> 不会！！！
+
+
+<br>在 ，附近找一个紧集，上面存在解，而存在解就就有估计 <br><br>请给出泰勒公式的积分余项！！！<br> 不会！！！
 好吧我猜是 
 <br>.
 
@@ -3282,7 +3353,7 @@ C' \arrow[rr,"k'" near end] \arrow[dr,swap,"c"] &amp;&amp; D' \arrow[dr,swap,"d"
 <br>
 <br>
 <br>
-]]></description><link>mathstuff\ode-notes-7.html</link><guid isPermaLink="false">MathStuff/ODE Notes 7.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Fri, 18 Oct 2024 16:07:10 GMT</pubDate></item><item><title><![CDATA[ODE Notes 8]]></title><description><![CDATA[ 
+]]></description><link>mathstuff\ode-notes-7.html</link><guid isPermaLink="false">MathStuff/ODE Notes 7.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Fri, 18 Oct 2024 16:30:04 GMT</pubDate></item><item><title><![CDATA[ODE Notes 8]]></title><description><![CDATA[ 
  ]]></description><link>mathstuff\ode-notes-8.html</link><guid isPermaLink="false">MathStuff/ODE Notes 8.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Fri, 18 Oct 2024 07:21:49 GMT</pubDate></item><item><title><![CDATA[one-point compactification]]></title><description><![CDATA[ 
  <br>one-point compactification(单点紧化) 是一种将非紧致的局部紧致空间转化为紧致空间的技术。具体来说，给定一个局部紧致空间 ，其单点紧化是通过添加一个点（通常称为“无穷远点”或“附加点”）到  中，并将  的拓扑扩展到这个新点，使得整个空间成为紧致的。<br>形式化地，设  是一个局部紧致 Hausdorff 空间。 的单点紧化记作  或 ，其中  是新添加的点。 的拓扑定义如下：<br>
 <br>对于  中的任何开集 ， 也是  中的开集。
