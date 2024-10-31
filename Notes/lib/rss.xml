@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[LogseqVault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>LogseqVault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sat, 19 Oct 2024 14:34:55 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sat, 19 Oct 2024 14:33:28 GMT</pubDate><copyright><![CDATA[Chengwuming]]></copyright><ttl>60</ttl><dc:creator>Chengwuming</dc:creator><item><title><![CDATA[抽象代数课程定义及记号表]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[LogseqVault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>LogseqVault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Thu, 31 Oct 2024 10:34:58 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Thu, 31 Oct 2024 10:33:05 GMT</pubDate><copyright><![CDATA[Chengwuming]]></copyright><ttl>60</ttl><dc:creator>Chengwuming</dc:creator><item><title><![CDATA[抽象代数课程定义及记号表]]></title><description><![CDATA[ 
  <br>
 <br>射影空间 ，其中  是一个 -线性空间，定义为其上一维线性子空间的集合。
 <br>域扩张：  是  的子域，称  是  的扩张，记作ee mathjax 不太支持。
@@ -43,10 +43,10 @@
 <br>
 我们断言  以如上方式给定时，  只能为 A2 中的 。如果存在  以及对应的唯一的  也满足泛性质，那么我们 令泛性质中的 ，，得到图 
 
-<br><br>交换。注意到  可以取 ，但是由泛性质知  唯一，从而 ，由泛性质：<br>
+<br>G1£G2GiG1£G2p0iÃ0¼i<br>交换。注意到  可以取 ，但是由泛性质知  唯一，从而 ，由泛性质：<br>
 故得到  的唯一性。<br>
 <br>最后我们说明  只能为 （同构的意义下），如果存在 ，以及对应的同态  满足泛性质，那么我们知道如下两图
-<br><br>交换，也就得到 而  时满足。但是由于下图交换<br><br>从而由  的唯一性得其即为 ，从而  是群同构。换言之，  在群同构的意义下唯一。综上证毕。<br>特别的，我们给出同构 如果对任意的群  以及同态 ，我们定义这样的  和 :<br>
+<br>G0GiG1£G2p0iÃ0piG1£G2GiG0piÃp0i<br>交换，也就得到 而  时满足。但是由于下图交换<br>G1£G2GiG1£G2piÃ0±Ãpi<br>从而由  的唯一性得其即为 ，从而  是群同构。换言之，  在群同构的意义下唯一。综上证毕。<br>特别的，我们给出同构 如果对任意的群  以及同态 ，我们定义这样的  和 :<br>
 则有 从而由泛性质唯一性知  与  同构。<br><br>见后<br><br>不一定。比如由之后的题目得到  （ 是奇素数）是循环群， 是循环群，而  是循环群。而群  不是循环群，因为  和  的阶都是 2，所以  无法被  生成，且显然无法被  和  生成，从而不是循环群。<br><br>和 A2 几乎一致，  分别在加法和乘法意义下构成含幺半群，所以 A2 中除 可逆 以外的所有证明可以不加变动（只做记号变动）地放在这里，以及  在加法意义下是群，这里只需要额外验证乘法分配律：<br>
 <br>
 
@@ -62,10 +62,10 @@
 <br>
 我们断言  以如上方式给定时，  只能为 A6 中的 。如果存在  以及对应的唯一的  也满足泛性质，那么我们 令泛性质中的 ，，得到图 
 
-<br><br>交换。注意到  可以取 ，但是由泛性质知  唯一，从而 ，由泛性质：<br>
+<br>A1£A2AiA1£A2p0iÃ0¼i<br>交换。注意到  可以取 ，但是由泛性质知  唯一，从而 ，由泛性质：<br>
 故得到  的唯一性。<br>
 <br>最后我们说明  只能为 （同构的意义下），如果存在 ，以及对应的同态  满足泛性质，那么我们知道如下两图
-<br><br>交换，也就得到 而  时满足。但是由于下图交换<br><br>从而由  的唯一性得其即为 ，从而  是环同构。换言之，  在环同构的意义下唯一。综上证毕。<br><br>我们希望找到一个群同态 ，使得令   时其满足 A3 中的泛性质中对应的  的性质，即满足<br>
+<br>A0AiA1£A2p0iÃ0piA1£A2AiA0piÃp0i<br>交换，也就得到 而  时满足。但是由于下图交换<br>A1£A2AiA1£A2piÃ0±Ãpi<br>从而由  的唯一性得其即为 ，从而  是环同构。换言之，  在环同构的意义下唯一。综上证毕。<br><br>我们希望找到一个群同态 ，使得令   时其满足 A3 中的泛性质中对应的  的性质，即满足<br>
  。那么我们自然得到  之间的同构。<br>
 根据中国剩余定理，这样的同态  是存在的。由于  互素，从而存在 ，使得 ，定义  其中  是任意的群，  是自带的群同态 。 断言此为所需。下面我们逐一验证：<br>我们断言群同态 满足为所需同态 。<br>
 <br> 是良好定义的<br>
@@ -178,7 +178,7 @@
 <br><br>
 我们考虑 ，里面有  个元素，考虑  在其上的作用，可以诱导出单射 ， 有120个元素，而<br>
  即视为 ，从而找到了一个  的子群 ，由于大群的作用是传递的，所以这个子群的作用自然是传递的，但是你想到的  的6个自然的子群  的作用都不是传递的（考虑和  的同构）。
-<br><br><br>
+<br>        GL(2;F5)        SP(F5)        PGL(2;F5)                      ¿                     ¼                     ~¿       <br><br>
 <br>令 ，那么  作用在左陪集上（通过左乘法），这就给出了一个传递的群作用。
 <br>如果是子群  以相同的方式作用，那么这个作用未必是传递的。
 <br>子群  的稳定化子 
@@ -265,7 +265,7 @@ p-群  对自身的共轭作用得到的轨道就是共轭类 ，且作用  上�
 <br>首先 ，其次  ，最后 。这就足以推出 。<br>我们现在可以举例，手动找到两个 5-sylow，比如  和  生成的子群，说服自己这两个生成的子群不一样，那么  只能是6。<br>或者只有一个正规子群是 ，从而。。。<br>令  作用在  上，其中  是 5-Sylow，作用由共轭给出。<br>换言之我们得到<br>
 断言  是单射，不然 ，且这个核是正规子群，所以 ，这是不可能的，因为 ，但是我们知道  的作用传递，所以其作用在  的轨道上有 6 个元素，所以 ，所以  就是单射，从而  在  中作为一个子群，其在  的作用是传递的，所以得到  不是那些简单的子群。<br><br>正六面体和正八面体同构。<br>我们研究这些东西的对称群。<br><br><br>研究了以下  是啥，这里回忆到高代。。<br>有趣的问题是 两个不同轴的旋转复合之后的旋转是什么？<br>回到正题，这玩意的对称：单位，固定一个点得到的轴，能转两下，8个，一对边的中点连线为轴，旋转，3个，现在总共有12个元素了。<br>事实上有 ，考虑  正四面体的顶点集上的作用<br>
 首先这是一个单射，看看这玩意的像，因为已知已经有了12个元素了，所以  要12个元素，要么24个元素。<br>不能是24个！不然 ，我们取一个  的对换，这将会摧毁这个正四面体。<br>于是 ，注意到  包含了所有三循环，但是三循环又生成 ，所以最终我们得到了<br>
-<br><br>数一数：有多少个旋转？容易数出来24个。<br>我们希望 <br>构造映射  ，将对角的四根线进行置换，换言之有群作用 首先  包含所有的三循环，所以 。并且我们可以找到一个对换，所以只能有 ，最后， 是单射，这是因为<br><br>数一数<br><br>有 60 个对称。<br>好好体会一下这样直观的感觉是怎么落实到数学证明上的。参考讲义。<br>
+<br><br>数一数：有多少个旋转？容易数出来24个。<br>我们希望 <br>构造映射  ，将对角的四根线进行置换，换言之有群作用 首先  包含所有的三循环，所以 。并且我们可以找到一个对换，所以只能有 ，最后， 是单射，这是因为<br><br>数一数<br>        1        8        2        10        6        7        9        3        5        1        4        0                                                                                                                                                                                                                                                                                                                                                                                                                                      <br>有 60 个对称。<br>好好体会一下这样直观的感觉是怎么落实到数学证明上的。参考讲义。<br>
 <br>首先这六十个元素生成 
 <br>其次  作用在  是传递的。从而
 <br>最后 
@@ -287,7 +287,7 @@ p-群  对自身的共轭作用得到的轨道就是共轭类 ，且作用  上�
 回到这个命题
 
 <br> 和   对应起来<br>Dictum
-
+1821067935140
 <br>我们考虑单射 ，取 有 <br>
 在  中有 <br><br>这个对应的表示 <br><br>我们可以证明 <br><a data-href="Abstract Algebra Note 6" href="mathstuff\abstract-algebra-note-6.html" class="internal-link" target="_self" rel="noopener">Abstract Algebra Note 6</a>]]></description><link>代数\抽象代数\abstract-algebra-note-5.html</link><guid isPermaLink="false">代数/抽象代数/Abstract Algebra Note 5.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 17 Oct 2024 00:00:01 GMT</pubDate></item><item><title><![CDATA[作业9]]></title><description><![CDATA[ 
  <br>
@@ -513,7 +513,7 @@ transition<br>
 得到  是  上的线性空间，对任意 ，有映射<br>
 这些  构成  的基，从而<br>
 希望  具有多线性性质，操作：模掉应该为零的运算项<br>
-类似于  这种东西张成的空间。<br>令 ，得到<br> <br><br>以后来搞图片<br>记 , 记为 <br>
+类似于  这种东西张成的空间。<br>令 ，得到<br> <br>²²<br>以后来搞图片<br>记 , 记为 <br>
 显然  是双线性的，称  是  的张量积。<br><br>universal property<br>对任意  上线性空间 ，以及双线性映射 ，存在唯一的线性映射 <br>
 <br>即<br>
 若 $\psi $<br><br> <a data-href="LA Lecture 29" href="代数\高等线性代数2\la-lecture-29.html" class="internal-link" target="_self" rel="noopener">LA Lecture 29</a>]]></description><link>代数\高等线性代数2\la-lecture-28.html</link><guid isPermaLink="false">代数/高等线性代数2/LA Lecture 28.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sun, 15 Sep 2024 15:40:16 GMT</pubDate></item><item><title><![CDATA[张量积]]></title><description><![CDATA[ 
@@ -1062,11 +1062,17 @@ Assume  is an OPDG of , then we say it is a OPDSG of vector field , if
 <br>定理 
 Assume  is a direction field where , and  is an OPDSG of direction field , then for a non-stationary , we can solve on an open interval  with 
 <br>lemma:<br>If  is a non-stationary point of an OPDG  on  , then there is a  neighborhood  of  in  , and a neighborhood  of 0 in , also a diffeomorphism  s.t. <br>感到力不从心，以后还是纸上记录，然后经过消化总结之后再来吧。<br><a data-href="ODE Notes 4.5" href="分析\常微分方程\ode-notes-4.5.html" class="internal-link" target="_self" rel="noopener">ODE Notes 4.5</a>]]></description><link>分析\常微分方程\ode-notes-4.html</link><guid isPermaLink="false">分析/常微分方程/ODE Notes 4.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 08 Oct 2024 03:12:17 GMT</pubDate></item><item><title><![CDATA[ODE Notes 4.5]]></title><description><![CDATA[ 
- <br>我们来复习之前的内容。<br><br>The first order autonomous
+ <br>这一节是对之前内容的梳理，以及对后两节课没有记录的笔记内容的补充，对应 xgy notes 的第二章。<br><br>这里就是通过比较简单的例子让你上手耍耍，摸一摸看看手感。<br>The first order autonomous
 可以定义这类方程的“平衡点”： 称  时一个平衡点，如果 
-<br>我们首先证明了如果  是可微的，那么在平衡点处，这个方程有解且唯一，即 。换言之，对于自治的方程，如果存在一个平衡点  ，那么任意定义域中的  都有 。<br>接着我们证明了  是  的情况下（可不可以减弱？），最大延伸解的存在性和唯一性。唯一性是指对于最大延伸区间上的任意子区间上的解，最大延伸解在此区间上的限制与这个解相符合。<br><br>考虑可以无穷延伸的解，研究积分曲线 （ 的像）在趋向于无穷时的行为，我们可以定义 稳定点 的概念。<br>对于自治的方程，我们依赖平衡点来定义稳定点。即  是平衡点，那么对任意 ，存在扰动  使得在此扰动下（初值改为 中的值 ），任意的解  可以被无穷延伸，使得那么  就是一个稳定点。<br>对于自治的方程，我们加强稳定点的条件，渐进稳定，即存在常数 ，使得在此扰动下，任意的解在无穷延伸时满足 <br><br>我们研究  型的方程。<br>首先，我们得到上述方程的解 <br>
+<br>我们首先证明了如果  是可微的，那么在平衡点处，这个方程有解且唯一，即 。换言之，对于自治的方程，如果存在一个平衡点  ，那么任意定义域中的  都有 ，并且 。<br>证明
+存在一个非零解 ，假设  是满足  的最大的点，那么在这一点之后就是可以积分的，再  积分得到 同时，利用  上  连续可微的性质，可知 从而对应积分有不等式  取 ，有 ，上述不等式推出矛盾。
+<br>另一个方法，或者说现在你回过头来的主流方法，这个方程的解  满足 ，如果另有非零解 ，（这里  就当作已经存在的零解），那么令，从而得到  连续函数，并且取正值，从而根据 Gronwall Lemma， 我们在任意包含  的闭区间  上有其中  是   上  的上界，最后的  用到了区间是闭的，从而  有上界。从而 ， 使用 Lemma 得到 ，从而在任意的闭区间上 。<br>这种证明相当可推广。基本上只需要 <br>
+<br>初值相等，这一般都是满足的。
+<br>导数 Lipshitz 连续，或者在紧集上连续都行，主要是在积分的式子里面取一个上界出来。
+<br>讨论的  区间是有限区间。
+<br><br>接着我们证明了  是  的情况下，最大延伸解的存在性和唯一性。唯一性是指对于最大延伸区间上的任意子区间上的解，最大延伸解在此区间上的限制与这个解相符合。<br>这里提一句最大区间的取法，方程给出初值 ，然后给出连续可微函数 ，找到包含  使得  不变号的连通分支，这是一个区间（开的），在这个上面的积分是可以被定义的，并且  不变号可知解单调，所以取  这个关于  的函数，取  趋于开区间的端点，得到的就是对应的  空间上的端点，这就找到了最大延伸的区间。<br>为什么这就是最大延伸区间？如果还能大，那么就要取到  等于 0 的  了，存在  就导致解唯一是常数，而由于已经假设了 ，这就导致了矛盾。<br><br>考虑可以无穷延伸的解，研究积分曲线 （ 的像）在趋向于无穷时的行为，我们可以定义 稳定点 的概念。<br>对于自治的方程，我们依赖平衡点来定义稳定点。即  是平衡点，那么对任意 ，存在扰动  使得在此扰动下（初值改为 中的值 ），任意的解  可以被无穷延伸，使得那么  就是一个稳定点。<br>对于自治的方程，我们加强稳定点的条件，渐进稳定，即存在常数 ，使得在此扰动下，任意的解在无穷延伸时满足 <br><br>我们研究  型的方程。<br>首先，我们得到上述方程的解 <br>
 通过类似的方法，我们得到此方程解的唯一性。<br>我们特别提出  是周期函数的情形。此时我们定义 以及拓展 稳定 的定义，得到 “稳定解”，定义非常的类似<br>
-那么将  与 1 做对比，得到三种不同的情形，对应这不同的稳定性。特别的，  时存在着唯一的周期解。<br><br>我们引入了一个非常特别的方法 Green's function ，以及所谓工科做法和 variationo of parameters。<br><br><a data-href="ODE Notes 5" href="分析\常微分方程\ode-notes-5.html" class="internal-link" target="_self" rel="noopener">ODE Notes 5</a>]]></description><link>分析\常微分方程\ode-notes-4.5.html</link><guid isPermaLink="false">分析/常微分方程/ODE Notes 4.5.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Fri, 11 Oct 2024 07:20:39 GMT</pubDate></item><item><title><![CDATA[ODE Notes 5]]></title><description><![CDATA[<a class="tag" href="?query=tag:常微分方程" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#常微分方程</a> <a class="tag" href="?query=tag:ODE" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#ODE</a> 
+那么将  与 1 做对比，得到三种不同的情形，对应这不同的稳定性。特别的，  时存在着唯一的周期解。<br><br>我们引入了一个非常特别的方法 Green's function ，以及所谓工科做法和 variations of parameters。<br>首先对于初值 ，我们有解 <br>最简单的，两边同时乘  即可。<br><br><a data-href="ODE Notes 5" href="分析\常微分方程\ode-notes-5.html" class="internal-link" target="_self" rel="noopener">ODE Notes 5</a>]]></description><link>分析\常微分方程\ode-notes-4.5.html</link><guid isPermaLink="false">分析/常微分方程/ODE Notes 4.5.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 31 Oct 2024 10:25:23 GMT</pubDate></item><item><title><![CDATA[ODE Notes 5]]></title><description><![CDATA[<a class="tag" href="?query=tag:常微分方程" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#常微分方程</a> <a class="tag" href="?query=tag:ODE" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#ODE</a> 
  <br>@2024-10-11，上次课的笔记会在后续整理@
 <a href=".?query=tag:常微分方程" class="tag" target="_blank" rel="noopener">#常微分方程</a> <a href=".?query=tag:ODE" class="tag" target="_blank" rel="noopener">#ODE</a><br>
 <a data-href="ODE Notes 4.5" href="分析\常微分方程\ode-notes-4.5.html" class="internal-link" target="_self" rel="noopener">ODE Notes 4.5</a>
@@ -1155,7 +1161,45 @@ Furthermore,<br>
 (a)  If  and  exists, then 
 (b)  For any solution  to  with , we have 
 <br>proof<br>by thm 1, there is a solution  to  with   on  (from the openess of ),<br>
-we define By definition of , for , there exists  is a solution to  on <br>If <br>下一次再补齐<br><a data-href="ODE Notes 7" href="mathstuff\ode-notes-7.html" class="internal-link" target="_self" rel="noopener">ODE Notes 7</a>]]></description><link>分析\常微分方程\ode-notes-6.html</link><guid isPermaLink="false">分析/常微分方程/ODE Notes 6.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Fri, 18 Oct 2024 16:16:42 GMT</pubDate></item><item><title><![CDATA[复分析做题日记]]></title><description><![CDATA[ 
+we define By definition of , for , there exists  is a solution to  on <br>If <br>下一次再补齐<br><a data-href="ODE Notes 7" href="分析\常微分方程\ode-notes-7.html" class="internal-link" target="_self" rel="noopener">ODE Notes 7</a>]]></description><link>分析\常微分方程\ode-notes-6.html</link><guid isPermaLink="false">分析/常微分方程/ODE Notes 6.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Fri, 18 Oct 2024 16:16:42 GMT</pubDate></item><item><title><![CDATA[ODE Notes 7]]></title><description><![CDATA[<a class="tag" href="?query=tag:常微分方程" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#常微分方程</a> 
+ <br>@2024-10-18，继续是存在性定理@
+<a href=".?query=tag:常微分方程" class="tag" target="_blank" rel="noopener">#常微分方程</a><br>
+<a data-href="ODE Notes 6" href="分析\常微分方程\ode-notes-6.html" class="internal-link" target="_self" rel="noopener">ODE Notes 6</a>
+<br>回到上节课的开始，我们证明了如果给出一个 （是否需要对称？） 紧集，和其上的初值，那么存在局部的解。<br>Existence Theorem
+这个是开集版本
+图片
+<br>之前的版本是局部的紧集上存在解。对于开集的版本，我们在里面取一个小的紧集，那么就知道才存在对应更小的紧集使得其上的<br>Uniqueness (0.3)
+接着上述的定理，如果对于固定的 ，那么  上的解是唯一的。
+<br>证明：<br>
+<br>
+定义 ，这样  是  的。希望这样的 ，操作上，使用引理放缩： 从而 ，当然是在局部上。<br>
+我们接下来说一说这个黄色的不等号。
+
+<br>
+我们找到从相等变到不相等的点，记 ，这个点由连续性，有 。这里不妨令  吧。
+
+<br>在 ，可以取很小的 ，使得 ，还满足  在  的像都落在  中。由之前的紧集版定理知道上面存在解，而存在解就就有估计 <br>
+<br>然后放缩 ，我们希望套用引理。所以需要存在估计不等式，对于固定的  有 这里  就是
+<br>上节课的证明里有一个漏洞，这了Lemma <a data-href="ODE Notes 6#^dab102" href="分析\常微分方程\ode-notes-6.html#^dab102" class="internal-link" target="_self" rel="noopener">ODE Notes 6 &gt; ^dab102</a> 里面是一定要要求<br>Most extended solution (0.4)
+存在一个最大的延伸解。
+<br>一个直观想法是，如果对于  所在的集合的连通分支上，所有解里面的最大的哪个解是不是呢？<br>但是显然所有解的定义域上没有序关系，进一步，如果你能把两个不同的定义域粘起来就好了。换言之，如果对于解 ，，并且 ，希望存在一个解 。这足够吗？（涉及无穷并）<br>回到定理的证明：接着上节课的定义。首先存在  使得  上面有解。所以下面这个有定义<br>
+当  充分大时，  上面有解。我们可以定义  和   是解。<br>最后我们证明 。记这个极限是 ，那么在  附近取一个紧子集 ，那么在  上面，存在方程的解，，那么当  充分大， 有<br>推论
+紧集上的积分曲线，向前向后延伸和边界相交。
+<br>
+<br>
+<br>
+<br><a data-href="ODE Notes 8" href="分析\常微分方程\ode-notes-8.html" class="internal-link" target="_self" rel="noopener">ODE Notes 8</a>]]></description><link>分析\常微分方程\ode-notes-7.html</link><guid isPermaLink="false">分析/常微分方程/ODE Notes 7.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 22 Oct 2024 07:19:22 GMT</pubDate></item><item><title><![CDATA[ODE Notes 8]]></title><description><![CDATA[<a class="tag" href="?query=tag:常微分方程" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#常微分方程</a> <a class="tag" href="?query=tag:ODE" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#ODE</a> 
+ <br>@2024-10-22，昨天《老子与论语》结课了，每周多出来5个小时时间，赶紧补之前的内容！！@
+<a href=".?query=tag:常微分方程" class="tag" target="_blank" rel="noopener">#常微分方程</a> <a href=".?query=tag:ODE" class="tag" target="_blank" rel="noopener">#ODE</a><br>
+<a data-href="ODE Notes 7" href="分析\常微分方程\ode-notes-7.html" class="internal-link" target="_self" rel="noopener">ODE Notes 7</a>
+<br><br>开集版本的定理<br>接着上次的推论。 <br><br>推论 
+与之前同样的假设，如果 
+<br>定义 ，<br>自治情形下，积分曲线和边界的关系：<br><br><br>假定  关于  连续可微，  连续，这里  是区域。则任取 ，存在 ，使得存在解 ，并且  关于  是连续可微的。<br>直观上，如果  是关于  连续可微，那么  是什么样的？<br>
+希望 一通乱算，假设交换，你大概有 所以你需要解决一个矩阵ODE：证明这个解是连续的。（关于 这个大变量是连续的）· <br>xgy：最近写了一篇文章，使用了弯曲空间的勾股定理，结果审稿人很不高兴，他觉得应该是毕达哥拉斯定理。后来 Editor 也认同我了。<br><a data-href="ODE Notes 9" href="分析\常微分方程\ode-notes-9.html" class="internal-link" target="_self" rel="noopener">ODE Notes 9</a>]]></description><link>分析\常微分方程\ode-notes-8.html</link><guid isPermaLink="false">分析/常微分方程/ODE Notes 8.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Fri, 25 Oct 2024 14:02:06 GMT</pubDate></item><item><title><![CDATA[ODE Notes 9]]></title><description><![CDATA[<a class="tag" href="?query=tag:ODE" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#ODE</a> <a class="tag" href="?query=tag:常微分方程" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#常微分方程</a> 
+ <br>@2024-10-25，继续定理的证明。@
+<a href=".?query=tag:ODE" class="tag" target="_blank" rel="noopener">#ODE</a> <a href=".?query=tag:常微分方程" class="tag" target="_blank" rel="noopener">#常微分方程</a><br>
+<a data-href="ODE Notes 8" href="分析\常微分方程\ode-notes-8.html" class="internal-link" target="_self" rel="noopener">ODE Notes 8</a>
+]]></description><link>分析\常微分方程\ode-notes-9.html</link><guid isPermaLink="false">分析/常微分方程/ODE Notes 9.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Fri, 25 Oct 2024 14:02:51 GMT</pubDate></item><item><title><![CDATA[复分析做题日记]]></title><description><![CDATA[ 
  <br><br>7.11。一个简洁的写法： 复数  共线的充要条件：<br><br>题目数量统计
 
 <br>
@@ -1870,7 +1914,7 @@ Abel-Dirichlet 判别法：设  定义在  上，若满足以下任一条件：
 <br>，存在极限 <br>
 那么得到  收敛于 ，并且有图
 
-
+Fn(x)GnF(x)Gx!x0n!1n!1x!x0
 交换
 <br>这里的证明基本套路都一样，你可以练习试一试。<br><br>记号保持一致：<br> 是完备的度量空间。<br>这里的度量就是 函数的无穷范数。<br>使用上面最后一个定理，两个交换图分别走一遍得到 对于 ，将其处理成 Riemann 和函数，那么  对应着积分。<br>
 <br>这里应该对应实分析的一些内容，后续补上
@@ -1942,7 +1986,75 @@ f
  在  的某邻域内有定义，在  解析，且 ，则  在  处也解析
 <br>写成 Cauchy 乘积，你可以直接解出来对应的系数。<br>
 <br>Weierstrasss逼近定理，Bernstein证明
-<br>题目：结合课堂讲解，运用马克思主义基本原理分析近代中国从“洋务运动”到“戊戌变法”再到“五四新文化运动”的历史变迁过程。<br>参考标准：<br>（一）有一种观点认为，社会由“器物”“制度”和“观念”构成。（2分）其中，观点是制度的基础，观念决定制度建构；制度是社会秩序和器物的保障，制度决定社会秩序和器物生产。（3分）<br>洋务运动是器物层面的变革，戊戌变法是制度层面的变革，而五四新文化运动则是观念层面的变革。（3分）这是一个由表及里、由浅入深、不断触及社会本质的过程。（2分）<br>这是一种典型的唯心史观。（2分）<br>（二）在唯物史观视域中，社会由经济、政治和文化构成。（2分）<br>经济是生产力和生产关系的统一体。（2分）生产力是在人与自然进行物质能量变换过程中所产生的力量，生产关系则是在物质生产中结成的人与人之间的权力-支配关系，由生产资料的所有权（力）关系和劳动产品的分配权（力）关系构成。（3分）政治是以国家和法律形式存在的暴力机构。（2分）文化则是一种共识性的观念。（2分）<br>在经济中，生产力是内容，生产关系是形式；生产力决定生产关系，生产关系必须与生产力的发展相适应。（3分）经济是政治的内容，经济决定政治，政治必须与经济的发展相适应。（3分）经济和政治是内容，文化是形式，文化必须与经济发展和政治要求相适应。（3分）内容与形式的关系就如同人的身体与衣服的关系。（2分）<br>近代中国从“洋务运动”到“戊戌变法”再到“五四新文化运动”的历史变迁过程，与其说是从现象到本质不断深入的过程，毋宁说是在现代生产力发展要求（这是关乎民族生存的问题）的推动下从各个方面不断展开的过程。<br>（三）落后就要挨打。经过两次鸦片战争，西方工业生产力（坚船利炮和物美价廉的工业产品）战胜了清朝的农业和手工业生产力，由此推动洋务派以官办、官督商办和官商合办等形式兴办西式工业，向西方先进生产技术学习，以推动生产力的发展。（3分）但由于既未触动封建生产关系（农业中的封建土地私有制和工业中封建官僚对生产力的控制），更未触动封建政治关系和文化关系，最终以失败而告终。（3分）<br>在洋务运动后期，在“民富”（前期重点落实“国强”）的变革诉求下，资本主义生产关系（雇佣劳动关系）和民族资产阶级得以形成。戊戌变法提出“开国会、定宪法、兴民权”，以资产阶级君主立宪制度取代封建主义君主专制制度，则是在谋求建立与资本主义经济发展要求相适应的政治关系和政治制度。（3分）但资本主义经济力量的薄弱，决定了资产阶级力量的软弱不堪，难以与封建土地私有制支撑下强大的封建力量相抗衡，最终也以失败而告终。（3分）<br>辛亥革命推翻了两千多年的封建君主专制制度，建立起资产阶级的民主共和国，民族资产阶级以独立的政治力量登上历史舞台。但以君臣父子等级观念为内核的儒家道统（文化形式）严重制约着民族资本主义经济的发展和政治制度的建设。（3分）如果说五四之前的新文化运动倡导“民主、科学”理念，是资产阶级新文化向封建旧文化发起的冲击，是“一战”期间中国民族资产阶级（随着资本主义经济和政治的发展）得以壮大的文化表现；那么，五四新文化运动则带来了马克思主义和社会主义理念，是中国无产阶级（随着资产阶级力量的增强）不断成长壮大的文化表现，也是苏俄十月社会主义革命（道路）影响的结果，更是西方列强在经济上压制中国发展资本主义的产物。（3分）<br>（四）语言与逻辑（8分）<br><a data-href="Analysis III Note 9" href="Analysis III Note 9" class="internal-link" target="_self" rel="noopener">Analysis III Note 9</a>]]></description><link>分析\数学分析\analysis-iii-note-8.html</link><guid isPermaLink="false">分析/数学分析/Analysis III Note 8.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 16 Oct 2024 06:05:09 GMT</pubDate></item><item><title><![CDATA[单位分解]]></title><description><![CDATA[ 
+<br>题目：结合课堂讲解，运用马克思主义基本原理分析近代中国从“洋务运动”到“戊戌变法”再到“五四新文化运动”的历史变迁过程。<br>参考标准：<br>（一）有一种观点认为，社会由“器物”“制度”和“观念”构成。（2分）其中，观点是制度的基础，观念决定制度建构；制度是社会秩序和器物的保障，制度决定社会秩序和器物生产。（3分）<br>洋务运动是器物层面的变革，戊戌变法是制度层面的变革，而五四新文化运动则是观念层面的变革。（3分）这是一个由表及里、由浅入深、不断触及社会本质的过程。（2分）<br>这是一种典型的唯心史观。（2分）<br>（二）在唯物史观视域中，社会由经济、政治和文化构成。（2分）<br>经济是生产力和生产关系的统一体。（2分）生产力是在人与自然进行物质能量变换过程中所产生的力量，生产关系则是在物质生产中结成的人与人之间的权力-支配关系，由生产资料的所有权（力）关系和劳动产品的分配权（力）关系构成。（3分）政治是以国家和法律形式存在的暴力机构。（2分）文化则是一种共识性的观念。（2分）<br>在经济中，生产力是内容，生产关系是形式；生产力决定生产关系，生产关系必须与生产力的发展相适应。（3分）经济是政治的内容，经济决定政治，政治必须与经济的发展相适应。（3分）经济和政治是内容，文化是形式，文化必须与经济发展和政治要求相适应。（3分）内容与形式的关系就如同人的身体与衣服的关系。（2分）<br>近代中国从“洋务运动”到“戊戌变法”再到“五四新文化运动”的历史变迁过程，与其说是从现象到本质不断深入的过程，毋宁说是在现代生产力发展要求（这是关乎民族生存的问题）的推动下从各个方面不断展开的过程。<br>（三）落后就要挨打。经过两次鸦片战争，西方工业生产力（坚船利炮和物美价廉的工业产品）战胜了清朝的农业和手工业生产力，由此推动洋务派以官办、官督商办和官商合办等形式兴办西式工业，向西方先进生产技术学习，以推动生产力的发展。（3分）但由于既未触动封建生产关系（农业中的封建土地私有制和工业中封建官僚对生产力的控制），更未触动封建政治关系和文化关系，最终以失败而告终。（3分）<br>在洋务运动后期，在“民富”（前期重点落实“国强”）的变革诉求下，资本主义生产关系（雇佣劳动关系）和民族资产阶级得以形成。戊戌变法提出“开国会、定宪法、兴民权”，以资产阶级君主立宪制度取代封建主义君主专制制度，则是在谋求建立与资本主义经济发展要求相适应的政治关系和政治制度。（3分）但资本主义经济力量的薄弱，决定了资产阶级力量的软弱不堪，难以与封建土地私有制支撑下强大的封建力量相抗衡，最终也以失败而告终。（3分）<br>辛亥革命推翻了两千多年的封建君主专制制度，建立起资产阶级的民主共和国，民族资产阶级以独立的政治力量登上历史舞台。但以君臣父子等级观念为内核的儒家道统（文化形式）严重制约着民族资本主义经济的发展和政治制度的建设。（3分）如果说五四之前的新文化运动倡导“民主、科学”理念，是资产阶级新文化向封建旧文化发起的冲击，是“一战”期间中国民族资产阶级（随着资本主义经济和政治的发展）得以壮大的文化表现；那么，五四新文化运动则带来了马克思主义和社会主义理念，是中国无产阶级（随着资产阶级力量的增强）不断成长壮大的文化表现，也是苏俄十月社会主义革命（道路）影响的结果，更是西方列强在经济上压制中国发展资本主义的产物。（3分）<br>（四）语言与逻辑（8分）<br><a data-href="Analysis III Note 9" href="分析\数学分析\analysis-iii-note-9.html" class="internal-link" target="_self" rel="noopener">Analysis III Note 9</a>]]></description><link>分析\数学分析\analysis-iii-note-8.html</link><guid isPermaLink="false">分析/数学分析/Analysis III Note 8.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 16 Oct 2024 06:05:09 GMT</pubDate></item><item><title><![CDATA[Analysis III Note 9]]></title><description><![CDATA[<a class="tag" href="?query=tag:数学分析" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#数学分析</a> <a class="tag" href="?query=tag:分析" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#分析</a> <a class="tag" href="?query=tag:函数空间" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#函数空间</a> <a class="tag" href="?query=tag:稠密" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#稠密</a> <a class="tag" href="?query=tag:周一" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#周一</a> 
+ <br>@2024-10-21，Weierstrass-Stone，Miinty@
+<a href=".?query=tag:数学分析" class="tag" target="_blank" rel="noopener">#数学分析</a> <a href=".?query=tag:分析" class="tag" target="_blank" rel="noopener">#分析</a> <a href=".?query=tag:函数空间" class="tag" target="_blank" rel="noopener">#函数空间</a> <a href=".?query=tag:稠密" class="tag" target="_blank" rel="noopener">#稠密</a> <a href=".?query=tag:周一" class="tag" target="_blank" rel="noopener">#周一</a><br>
+<a data-href="Analysis III Note 8" href="分析\数学分析\analysis-iii-note-8.html" class="internal-link" target="_self" rel="noopener">Analysis III Note 8</a>
+<br>我们愿意回顾上次课内容。<br>定理 Weierstrass 逼近定理
+闭区间上的连续函数空间中，全体多项式是一个稠密集。
+<br>函数代数。<br>
+<br>可分离的：如果  定义在  上的函数集合，若对任意的 ，则  中存在 ，使得 ，那么  是可分离  的。
+<br>非退化的：设  为定义在  上的函数集合，若对任意的 ，存在 ，使得 ，那么  是非退化的。
+<br>引理
+设  是定义在 集合  上的函数代数，且  是非退化的，可分离  的，则 ，，存在 ，使得 
+<br><br>定理 Weierstrass-Stone 
+设  是定义在紧集合  上的实值连续函数构成的代数，非退化可分离 ，则 在  中是稠密的。一个可能比较方便使用的刻画是<br>
+
+<br>证明
+
+<br>，则 。
+
+设 ，对任意的 ，存在 ，使得 可知 ，其中 ，从而
+
+<br>若，则 。
+
+这是显然的。由 1. 
+
+<br>任给 ，任意  且 ，存在 ，使得 我们来证明。首先显然  也是可分离，非退化的（ ）。对于任意的  ，由引理，存在 ，使得 由连续性，存在一个  的邻域 ，使得 。覆盖  的有限子覆盖对应着一列函数 ，取 ，则 
+<br>相应做法，证明 。
+
+由  以及  的任意性，做开覆盖，找子覆盖，取对应函数列的 ，得到 。这样的  满足 
+<br>这个证明对不等式两半思路是精髓，向下挖掘两层，回一层证明一边的不等式。<br>Chou
+
+
+
+<br>多项式函数代数显然满足可分离  和非退化。<br>dg：我们做了具体化，一般别人证的时候是在不完备度量空间上证明的。<br>Example
+（ 为偶数时 <br>
+ 这两个集合都在  中稠密。<br>
+<br>
+作为一个小推论，如果 ，满足 或者 那么 
+<br><br>定理 Miinty
+ 递增到 ，则 在  中稠密等价于 
+<br>证明
+
+<br>
+投影
+   对于任意的 ，<br>
+设  长成的向量空间。对任意 ,定义 我们断言存在多项式  使得 <br>
+翻译翻译：对于任意的 ，有 <br>
+设 ，我们带进去展开得到 这就是一个线性方程组。左边的系数矩阵好似内积的度量矩阵，你发现 那么你肯定想问这样的内积是良好定义的吗?大抵是可以的，从而度量矩阵就一定是可逆的。下去请思考一下<br>
+现在，我们就解出来这个方程，所以  是可以被取到的。直接计入可得 去验证一下吧。
+
+<br>
+计算 
+
+
+ 现在我们要解的就是 有非零解说明行列式 0，解的 
+
+<br>
+那么 
+
+
+<br>
+逼近
+
+
+由于 ，从而 
+<br><a data-href="Analysis III Note 10" href="分析\数学分析\analysis-iii-note-10.html" class="internal-link" target="_self" rel="noopener">Analysis III Note 10</a>]]></description><link>分析\数学分析\analysis-iii-note-9.html</link><guid isPermaLink="false">分析/数学分析/Analysis III Note 9.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 23 Oct 2024 05:17:44 GMT</pubDate></item><item><title><![CDATA[Analysis III Note 10]]></title><description><![CDATA[<a class="tag" href="?query=tag:数学分析" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#数学分析</a> <a class="tag" href="?query=tag:分析" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#分析</a> 
+ <br>@2024-10-23，@
+<a href=".?query=tag:数学分析" class="tag" target="_blank" rel="noopener">#数学分析</a> <a href=".?query=tag:分析" class="tag" target="_blank" rel="noopener">#分析</a><br>
+<a data-href="Analysis III Note 9" href="分析\数学分析\analysis-iii-note-9.html" class="internal-link" target="_self" rel="noopener">Analysis III Note 9</a>
+]]></description><link>分析\数学分析\analysis-iii-note-10.html</link><guid isPermaLink="false">分析/数学分析/Analysis III Note 10.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 23 Oct 2024 10:55:07 GMT</pubDate></item><item><title><![CDATA[单位分解]]></title><description><![CDATA[ 
  <br><br>对于某个紧集 ，其上的开覆盖  存在有限子覆盖，在每个子覆盖的开集上通过<br>]]></description><link>分析\单位分解.html</link><guid isPermaLink="false">分析/单位分解.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 11 Sep 2024 23:39:15 GMT</pubDate></item><item><title><![CDATA[度量空间的完备化]]></title><description><![CDATA[ 
  ]]></description><link>分析\度量空间的完备化.html</link><guid isPermaLink="false">分析/度量空间的完备化.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 10 Sep 2024 15:37:39 GMT</pubDate></item><item><title><![CDATA[分析-收敛]]></title><description><![CDATA[ 
  <br>我们的目标是说清楚在度量空间里面序列的收敛是一个什么样的概念，可以用什么样的方式刻画，以及与其相关的一些非平凡的例子。<br>我不想谈论过于一般的情形，那些就放到拓扑里面去学习。在分析里面，我们考虑具有范数结构的空间。<br><br>  是一个赋范线性空间，那么对 ，我们定义<br>
@@ -2078,7 +2190,7 @@ f
 <br><br>
 <br>第二点证明中，为什么需要用到定理一？  的定义不是已经有其上  了吗？
 <br>这里对唯一的证明是否有不严谨之处？
-]]></description><link>分析\解的存在性与唯一性-1.html</link><guid isPermaLink="false">分析/解的存在性与唯一性 1.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 21 Sep 2024 04:33:31 GMT</pubDate></item><item><title><![CDATA[曲面的定义]]></title><description><![CDATA[ 
+]]></description><link>分析\解的存在性与唯一性-1.html</link><guid isPermaLink="false">分析/解的存在性与唯一性 1.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 31 Oct 2024 09:44:27 GMT</pubDate></item><item><title><![CDATA[曲面的定义]]></title><description><![CDATA[ 
  <br><br>定义的方式有很多。<br>
 <br>流形在大空间里任意一点的邻域和对应维数的   同胚，  是  中的开集。
 <br>或者先将邻域  和流形做交 ，这个集合与  中的开集  同胚。
@@ -2300,7 +2412,35 @@ Cauchy 根式判别法应该是最先用的
 如果分布函数  可以表示成<br>
 其中  可数并且  是收敛到1的正项级数，那么称  是一个离散分布函数。
 <br>设分布函数的 分解 令 ，那么  是一个离散分布函数， 是一个连续分布函数，分别记为 ，那么有分布函数的 凸组合<br>
-<br>事实上，这样的凸组合对任意的分布函数存在且唯一。存在性我们已经构造出来了，至于唯一性，由之前的定理1.2.2，如果对  做形如  的分解是唯一的，而分解的系数  是由  唯一决定，从而唯一。<br><a data-tooltip-position="top" aria-label="《概率论教程》讨论班 1" data-href="《概率论教程》讨论班 1" href="概率统计\《概率论教程》讨论班-1.html" class="internal-link" target="_self" rel="noopener">本节的习题等相关讨论</a><br><a data-href="《概率论教程》读书笔记 2" href="《概率论教程》读书笔记 2" class="internal-link" target="_self" rel="noopener">《概率论教程》读书笔记 2</a>]]></description><link>概率统计\《概率论教程》读书笔记-1.html</link><guid isPermaLink="false">概率统计/《概率论教程》读书笔记 1.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 09 Oct 2024 11:12:07 GMT</pubDate><enclosure url="lib\media\pasted-image-20241005113337.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20241005113337.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[《概率论教程》讨论班 1]]></title><description><![CDATA[<a class="tag" href="?query=tag:概率论" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#概率论</a> <a class="tag" href="?query=tag:probobility" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#probobility</a> 
+<br>事实上，这样的凸组合对任意的分布函数存在且唯一。存在性我们已经构造出来了，至于唯一性，由之前的定理1.2.2，如果对  做形如  的分解是唯一的，而分解的系数  是由  唯一决定，从而唯一。<br><a data-tooltip-position="top" aria-label="《概率论教程》讨论班 1" data-href="《概率论教程》讨论班 1" href="概率统计\《概率论教程》讨论班-1.html" class="internal-link" target="_self" rel="noopener">本节的习题等相关讨论</a><br><a data-href="《概率论教程》读书笔记 2" href="概率统计\《概率论教程》读书笔记-2.html" class="internal-link" target="_self" rel="noopener">《概率论教程》读书笔记 2</a>]]></description><link>概率统计\《概率论教程》读书笔记-1.html</link><guid isPermaLink="false">概率统计/《概率论教程》读书笔记 1.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 09 Oct 2024 11:12:07 GMT</pubDate><enclosure url="lib\media\pasted-image-20241005113337.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20241005113337.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[《概率论教程》读书笔记 2]]></title><description><![CDATA[<a class="tag" href="?query=tag:概率论" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#概率论</a> <a class="tag" href="?query=tag:probobility" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#probobility</a> 
+ <br>@2024-10-25，概率测度，测度与分布函数一一对应，测度的完备化@
+<a href=".?query=tag:概率论" class="tag" target="_blank" rel="noopener">#概率论</a> <a href=".?query=tag:probobility" class="tag" target="_blank" rel="noopener">#probobility</a><br>
+<a data-href="《概率论教程》读书笔记 1" href="概率统计\《概率论教程》读书笔记-1.html" class="internal-link" target="_self" rel="noopener">《概率论教程》读书笔记 1</a>
+<br>每两周轮到我讲，每两周的笔记写一次笔记，中间的内容看讨论班笔记。<br>
+<a data-href="《概率论教程》讨论班 3" href="《概率论教程》讨论班 3" class="internal-link" target="_self" rel="noopener">《概率论教程》讨论班 3</a><br><br>这部分参考实分析。暂且写两句，后续会链接到实分析的笔记。<br>不知道为什么这本书里管代数叫域<br><br>
+<br>集合的各类操作，这里额外说一句要对 有数
+<br>代数， 代数的定义。这本书里的“波莱尔域”（我猜是Borel Field）和  代数是一个东西。<br>
+需要注意和拓扑定义的区分：这里的无穷操作都是可数的。
+<br>一个显然的命题：一个代数是  代数当且仅当是一个单调类。<br>定理
+代数 ，包含  的最小单调类  同时也是包含它的最小  代数。
+<br>证明
+ 代数显然是单调类，只需要证明单调类  是  代数，由于之前的显然命题，可知只需要证明是一个代数，即任意两集合对并集和补集封闭。
+构造 ，类似考虑交集定义 ，可验证这俩都是单调类，并且有 ，从而由  的最小性得到  关于交集是封闭的。
+类似构造补集版本的集合 ，由  可知  也是单调类，一切仿前。
+<br><br><br>定义 概率测度
+空间  上，  是一个  代数，其上的概率测度  额外满足 。
+<br>一些符合直觉的性质。<br>
+<br>
+连续性公理+有限可加性=可数可加性<br>
+通过拆解 得到 容易得到 。
+  另一方面如果由有限可加性：  如果希望成立可数可加性，那么就需要红色项趋于零。注意到红色项对应集合是趋于  的（这里假设  两两不交，对于任意 ，可知一定存在  使得 ，从而 ），这就是连续性公理。
+
+<br>
+某种意义上的子对象：迹。
+
+<br><br>
+<br>浓厚集和对概率空间的增添。
+<br>]]></description><link>概率统计\《概率论教程》读书笔记-2.html</link><guid isPermaLink="false">概率统计/《概率论教程》读书笔记 2.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 26 Oct 2024 07:56:24 GMT</pubDate></item><item><title><![CDATA[《概率论教程》讨论班 1]]></title><description><![CDATA[<a class="tag" href="?query=tag:概率论" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#概率论</a> <a class="tag" href="?query=tag:probobility" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#probobility</a> 
  <br>@2024-10-12，第一次讨论@
 <a href=".?query=tag:概率论" class="tag" target="_blank" rel="noopener">#概率论</a> <a href=".?query=tag:probobility" class="tag" target="_blank" rel="noopener">#probobility</a><br>
 <a data-href="《概率论教程》读书笔记 1" href="概率统计\《概率论教程》读书笔记-1.html" class="internal-link" target="_self" rel="noopener">《概率论教程》读书笔记 1</a>
@@ -2334,7 +2474,45 @@ Cauchy 根式判别法应该是最先用的
 
 <br><a data-href="delta 函数" href="delta 函数" class="internal-link" target="_self" rel="noopener">delta 函数</a><br>
 <br>，
-<br>]]></description><link>概率统计\《概率论教程》讨论班-1.html</link><guid isPermaLink="false">概率统计/《概率论教程》讨论班 1.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 12 Oct 2024 00:57:15 GMT</pubDate></item><item><title><![CDATA[Topology Notes 1]]></title><description><![CDATA[<a class="tag" href="?query=tag:拓扑" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#拓扑</a> <a class="tag" href="?query=tag:点集拓扑" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#点集拓扑</a> <a class="tag" href="?query=tag:Topology" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#Topology</a> 
+<br>]]></description><link>概率统计\《概率论教程》讨论班-1.html</link><guid isPermaLink="false">概率统计/《概率论教程》讨论班 1.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 12 Oct 2024 00:57:15 GMT</pubDate></item><item><title><![CDATA[《概率论教程》讨论班 2]]></title><description><![CDATA[ 
+ <br>@2024-10-19，绝对连续函数@
+<a data-href="《概率论教程》讨论班 1" href="概率统计\《概率论教程》讨论班-1.html" class="internal-link" target="_self" rel="noopener">《概率论教程》讨论班 1</a>
+<br>定义 绝对连续
+<img alt="Pasted image 20241019083228.png" src="lib\media\pasted-image-20241019083228.png"><br>
+<img alt="Pasted image 20241019083306.png" src="lib\media\pasted-image-20241019083306.png">
+<br>定义 奇异<br>定理 
+分布函数可以被分解。
+<br>勒贝格分解### 勒贝格分解定理<br><br>
+<br>
+绝对连续函数：<br>
+设  是一个定义在区间  上的函数。如果对于任意 ，存在 ，使得对于任意有限个互不相交的区间 ，只要 ，就有
+
+则称  是绝对连续的。
+
+<br>
+奇异函数：<br>
+设  是一个定义在区间  上的函数。如果  在  上几乎处处等于一个常数，即存在一个零测集 ，使得  在  上恒为常数，则称  是奇异的。
+
+<br><br>勒贝格分解定理：<br>任何一个分布函数  都可以唯一地分解为三个部分：<br><br>其中：<br>
+<br> 是绝对连续的部分。
+<br> 是奇异的部分。
+<br> 是连续但既不绝对连续也不奇异的部分。
+<br><br>
+<br>
+绝对连续部分 ：<br>
+ 可以表示为：
+
+其中  是  的密度函数。
+
+<br>
+奇异部分 ：<br>
+ 在  上几乎处处等于一个常数。
+
+<br>
+连续但既不绝对连续也不奇异的部分 ：<br>
+这部分函数是连续的，但在某些点上不满足绝对连续性，也不是奇异的。
+
+<br><br>勒贝格分解定理表明，任何分布函数都可以被分解为绝对连续、奇异和连续但既不绝对连续也不奇异的三部分。这种分解在概率论和测度论中具有重要的理论意义。<br>]]></description><link>概率统计\《概率论教程》讨论班-2.html</link><guid isPermaLink="false">概率统计/《概率论教程》讨论班 2.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 19 Oct 2024 01:32:14 GMT</pubDate><enclosure url="lib\media\pasted-image-20241019083228.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20241019083228.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Topology Notes 1]]></title><description><![CDATA[<a class="tag" href="?query=tag:拓扑" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#拓扑</a> <a class="tag" href="?query=tag:点集拓扑" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#点集拓扑</a> <a class="tag" href="?query=tag:Topology" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#Topology</a> 
  <br>@2024-10-03，这是上周五蹭课记的笔记，以后会带电脑@
 <a href=".?query=tag:拓扑" class="tag" target="_blank" rel="noopener">#拓扑</a> <a href=".?query=tag:点集拓扑" class="tag" target="_blank" rel="noopener">#点集拓扑</a> <a href=".?query=tag:Topology" class="tag" target="_blank" rel="noopener">#Topology</a> 
 <br><br><img alt="0dc7a97ca089ac89ac0c9edc29160019_720.jpg" src="lib\media\0dc7a97ca089ac89ac0c9edc29160019_720.jpg" style="width: 962px; max-width: 100%;"><br>
@@ -2351,7 +2529,7 @@ Cauchy 根式判别法应该是最先用的
 令 。<br>
 令 ， 是连通的（ ，，从而 ，进而  也是连通的。
 容易验证  不道路连通。留作练习。
-<br><br>作为总结：道路连通分支一般情况下不是闭的。而且这里两个道路连通分支  不是分离的。<br><br><br>从粘合拓扑的角度考虑圆柱面就是把一个矩形的两边粘起来<br>然后是环面，Torus，Mobius 带，Klein 瓶，以及实射影平面 ，都可以通过矩形的粘合理解。特别的  不是很好直观理解，可以看成二维圆盘模掉对镜点的粘合拓扑。<br><br>定义 
+<br>xy<br>作为总结：道路连通分支一般情况下不是闭的。而且这里两个道路连通分支  不是分离的。<br><br><br>从粘合拓扑的角度考虑圆柱面就是把一个矩形的两边粘起来<br>然后是环面，Torus，Mobius 带，Klein 瓶，以及实射影平面 ，都可以通过矩形的粘合理解。特别的  不是很好直观理解，可以看成二维圆盘模掉对镜点的粘合拓扑。<br><br>定义 
  是一个拓扑空间，考虑其上的分划 现在令  和映射 ， 。定义  上的拓扑：
  是开集   是开集。那么如此定义的拓扑称为粘合拓扑，空间  为粘合空间。 
 <br>粘合拓扑的泛性质
@@ -2742,46 +2920,9 @@ Cauchy 根式判别法应该是最先用的
 
 <br><br><img alt="Pasted image 20240915092331.png" src="lib\media\pasted-image-20240915092331.png"><br>
 <img alt="Pasted image 20240915092339.png" src="lib\media\pasted-image-20240915092339.png"><br>
-<img alt="Pasted image 20240915092346.png" src="lib\media\pasted-image-20240915092346.png">]]></description><link>作业\ode-第一次作业.html</link><guid isPermaLink="false">作业/ODE 第一次作业.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 21 Sep 2024 04:34:14 GMT</pubDate><enclosure url="lib\media\pasted-image-20240915092018.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240915092018.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[《概率论教程》讨论班 2]]></title><description><![CDATA[ 
- <br>@2024-10-19，绝对连续函数@
-<a data-href="《概率论教程》讨论班 1" href="概率统计\《概率论教程》讨论班-1.html" class="internal-link" target="_self" rel="noopener">《概率论教程》讨论班 1</a>
-<br>定义 绝对连续
-<img alt="Pasted image 20241019083228.png" src="lib\media\pasted-image-20241019083228.png"><br>
-<img alt="Pasted image 20241019083306.png" src="lib\media\pasted-image-20241019083306.png">
-<br>定义 奇异<br>定理 
-分布函数可以被分解。
-<br>勒贝格分解### 勒贝格分解定理<br><br>
-<br>
-绝对连续函数：<br>
-设  是一个定义在区间  上的函数。如果对于任意 ，存在 ，使得对于任意有限个互不相交的区间 ，只要 ，就有
-
-则称  是绝对连续的。
-
-<br>
-奇异函数：<br>
-设  是一个定义在区间  上的函数。如果  在  上几乎处处等于一个常数，即存在一个零测集 ，使得  在  上恒为常数，则称  是奇异的。
-
-<br><br>勒贝格分解定理：<br>任何一个分布函数  都可以唯一地分解为三个部分：<br><br>其中：<br>
-<br> 是绝对连续的部分。
-<br> 是奇异的部分。
-<br> 是连续但既不绝对连续也不奇异的部分。
-<br><br>
-<br>
-绝对连续部分 ：<br>
- 可以表示为：
-
-其中  是  的密度函数。
-
-<br>
-奇异部分 ：<br>
- 在  上几乎处处等于一个常数。
-
-<br>
-连续但既不绝对连续也不奇异的部分 ：<br>
-这部分函数是连续的，但在某些点上不满足绝对连续性，也不是奇异的。
-
-<br><br>勒贝格分解定理表明，任何分布函数都可以被分解为绝对连续、奇异和连续但既不绝对连续也不奇异的三部分。这种分解在概率论和测度论中具有重要的理论意义。<br>]]></description><link>mathstuff\《概率论教程》讨论班-2.html</link><guid isPermaLink="false">MathStuff/《概率论教程》讨论班 2.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 19 Oct 2024 01:32:14 GMT</pubDate><enclosure url="lib\media\pasted-image-20241019083228.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20241019083228.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[抽象代数作业 2]]></title><description><![CDATA[ 
- <br>2023012317 程笛<br><br><br>我们已经知道  这  个对换生成 ，我们下面证明  个对换不能生成 。<br>如果两个对换  能够生成一个新的对换 ，这里只涉及  的对换，并且如果  为空集，那么此两对换只能生成他们自己而不能生成新的对换（平凡的）<br>所以一定有交集非空，为了保证这两个对换不同，可知交集只有一个元素，不妨假设 。<br><br><br>我们已经知道  生成 ，所以我们只需要说明  生成 。我们记 <br>由  递归操作知  可以生成 ， 取合适的值使得  在  到  中。<br>进而，我们由  知  可以生成 <br>
+<img alt="Pasted image 20240915092346.png" src="lib\media\pasted-image-20240915092346.png">]]></description><link>作业\ode-第一次作业.html</link><guid isPermaLink="false">作业/ODE 第一次作业.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 21 Sep 2024 04:34:14 GMT</pubDate><enclosure url="lib\media\pasted-image-20240915092018.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240915092018.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[常微分方程解的唯一性]]></title><description><![CDATA[ 
+ <br>如果 ，方程  存在解 ，那么做 Change of variable：，那么我们有里  是一个微分同胚，对任意的 ，从而原 ODE 的解是   当且仅当  是方程 的解，这里 ，从而 ，从而方程改写为 从而看作 Autonomous，进而知道解的唯一性。  ]]></description><link>mathstuff\常微分方程解的唯一性.html</link><guid isPermaLink="false">MathStuff/常微分方程解的唯一性.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sun, 27 Oct 2024 14:03:07 GMT</pubDate></item><item><title><![CDATA[抽象代数作业 2]]></title><description><![CDATA[ 
+ <br><br><br>我们已经知道  这  个对换生成 ，我们下面证明  个对换不能生成 。<br>如果两个对换  能够生成一个新的对换 ，这里只涉及  的对换，并且如果  为空集，那么此两对换只能生成他们自己而不能生成新的对换（平凡的）<br>所以一定有交集非空，为了保证这两个对换不同，可知交集只有一个元素，不妨假设 。<br><br><br>我们已经知道  生成 ，所以我们只需要说明  生成 。我们记 <br>由  递归操作知  可以生成 ， 取合适的值使得  在  到  中。<br>进而，我们由  知  可以生成 <br>
 由于  互素，从而存在  使得 ，不妨假设 ，那么这就说明  生成 ，再结合之前的结论知道生成 。从而证毕。<br><br>对任意三循环  和 ，由于 ，所以存在 ，于是 ，并且有 故  中所有三循环都是共轭的（<br><br>在  中对任意的3-循环 ，有 ，从而<br>
 这里  和  都满足四个元素两两不同。从而  中的所有3-循环可以被题设集合生成，又3-循环生成 ，故题设集合生成 、<br><br><br>注意到一个事实：素数  ，则 -循环是  阶元。这是因为对于循环 ，其  次方为 ，角标是在模  的意义下。从而循环  次等于1 时当且仅当 。有  时 循环的  次不等于 1，故阶是 。<br>我们证明  中的所有 5 阶元素都是5循环：任意  可以被写成不交的循环之积。而其阶显然为所有循环的长度的最大公倍数，从而由于  是素数，故  只能为 5 循环。类似的，其中所有 3 阶元都是 3-循环。<br>如果  是 3 阶元，那么是 3循环，一定有两个不动点。如果这两个不动点不符题意：<br>
 <br>不动点是  或者 ，不妨 ，那么  是 2 阶元。
@@ -2825,7 +2966,7 @@ Cauchy 根式判别法应该是最先用的
 <br>
 考虑  的情况，  有两个元素，而  有3 个元素，不存在单群同态。  时，恰有 ，从而如果  是  的子群，则一定是正规子群，但是可知  的正规子群阶数只能为1，4，12，从而矛盾。
 
-<br>综上，不存在单的群同态 。]]></description><link>mathstuff\抽象代数作业-2.html</link><guid isPermaLink="false">MathStuff/抽象代数作业 2.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 19 Oct 2024 14:32:22 GMT</pubDate></item><item><title><![CDATA[大学物理（2） 笔记 9]]></title><description><![CDATA[<a class="tag" href="?query=tag:大学物理" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#大学物理</a> <a class="tag" href="?query=tag:磁" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#磁</a> 
+<br>综上，不存在单的群同态 。]]></description><link>mathstuff\抽象代数作业-2.html</link><guid isPermaLink="false">MathStuff/抽象代数作业 2.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Mon, 21 Oct 2024 02:10:59 GMT</pubDate></item><item><title><![CDATA[大学物理（2） 笔记 9]]></title><description><![CDATA[<a class="tag" href="?query=tag:大学物理" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#大学物理</a> <a class="tag" href="?query=tag:磁" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#磁</a> 
  <br>@2024-10-17，磁场和它的源，磁力@
 <a href=".?query=tag:大学物理" class="tag" target="_blank" rel="noopener">#大学物理</a> <a href=".?query=tag:磁" class="tag" target="_blank" rel="noopener">#磁</a><br>
 <a data-href="大学物理（2） 笔记 8" href="物理\大学物理（2）-笔记-8.html" class="internal-link" target="_self" rel="noopener">大学物理（2） 笔记 8</a>
@@ -2833,8 +2974,7 @@ Cauchy 根式判别法应该是最先用的
  <br>
 <br>Amann 记 
 <br>
-]]></description><link>mathstuff\方便查询的记号表.html</link><guid isPermaLink="false">MathStuff/方便查询的记号表.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 03 Oct 2024 14:46:37 GMT</pubDate></item><item><title><![CDATA[老子与论语]]></title><description><![CDATA[ 
- ]]></description><link>mathstuff\老子与论语.html</link><guid isPermaLink="false">MathStuff/老子与论语.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 19 Oct 2024 07:30:22 GMT</pubDate></item><item><title><![CDATA[马原]]></title><description><![CDATA[ 
+]]></description><link>mathstuff\方便查询的记号表.html</link><guid isPermaLink="false">MathStuff/方便查询的记号表.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 03 Oct 2024 14:46:37 GMT</pubDate></item><item><title><![CDATA[马原]]></title><description><![CDATA[ 
  <br><br>三、马克思的人生立场和治学态度<br><br>不仰附权贵、关爱（非同情）底层人民、草根意识<br>马克思的自白：幸福=斗争，不幸=屈服，厌恶的缺点=奉迎<br>
 <br>⻘年在选择职业时的思考<br>
 
@@ -3028,8 +3168,8 @@ Cauchy 根式判别法应该是最先用的
 
 ]]></description><link>mathstuff\马原4.html</link><guid isPermaLink="false">MathStuff/马原4.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 16 Oct 2024 06:50:35 GMT</pubDate></item><item><title><![CDATA[你好哇，你这会想看什么？]]></title><description><![CDATA[ 
  <br>二四六12月1月2月3月4月5月6月7月8月9月10月lessmore<br>
-<br>今天是2024年10月19日，2024 年已经过去了 288 天
-<br>今年你总共在 71 天中留下了你的足迹，继续加油！
+<br>今天是2024年10月31日，2024 年已经过去了 302 天
+<br>今年你总共在 72 天中留下了你的足迹，继续加油！
 <br><br>Multi column
 复分析
 暑假期间听刘老师课程的笔记。之后会重置。<br>
@@ -3138,7 +3278,9 @@ Singular
 
 要证明对于任意的 ，都有 。
 <br>我们证  上此函数的性质，由于这是周期函数，从而得证最终结论。<br>对于实数  和任意的 ，选择一个自然数  使得 。事实上大于  的有理数的取值点是有限的，这是因为我们可以列出这些有理数 ，其中  对于 ，而分子  ，从而也是有限的。<br>现在，对于每一个 ，我们可以找到一个  使得  不包含 。取 。<br>
-对于任意  满足 ， 不可能是  中的任何一个，因此  要么是 0（如果  是无理数），要么是  ，其中 （如果  是有理数）此时我们有 。<br>因此，对于任意的 ，我们找到了一个  使得当  时，。这证明了 ]]></description><link>mathstuff\微积分第三次补充题目.html</link><guid isPermaLink="false">MathStuff/微积分第三次补充题目.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 10 Oct 2024 13:41:18 GMT</pubDate></item><item><title><![CDATA[文本编辑战术演习]]></title><description><![CDATA[ 
+对于任意  满足 ， 不可能是  中的任何一个，因此  要么是 0（如果  是无理数），要么是  ，其中 （如果  是有理数）此时我们有 。<br>因此，对于任意的 ，我们找到了一个  使得当  时，。这证明了 ]]></description><link>mathstuff\微积分第三次补充题目.html</link><guid isPermaLink="false">MathStuff/微积分第三次补充题目.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 10 Oct 2024 13:41:18 GMT</pubDate></item><item><title><![CDATA[微积分期中考试供题]]></title><description><![CDATA[ 
+ <br>给出  在  处  阶带有 Peano 余项的 Taylor 展开<br>解答： ，计算  的展开为 ，进而有 也即 ，从而所求为 <br> 在  上二阶可微，并且 均为有限数，证明  也是有限数，并且满足不等式： <br>由 Taylor 定理， 整理为  再对两边取上确界可得 ]]></description><link>mathstuff\微积分期中考试供题.html</link><guid isPermaLink="false">MathStuff/微积分期中考试供题.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 26 Oct 2024 07:56:32 GMT</pubDate></item><item><title><![CDATA[未命名 1]]></title><description><![CDATA[ 
+ ]]></description><link>mathstuff\未命名-1.html</link><guid isPermaLink="false">MathStuff/未命名 1.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 31 Oct 2024 10:28:22 GMT</pubDate></item><item><title><![CDATA[文本编辑战术演习]]></title><description><![CDATA[ 
  <br><br><br><br><br><br>
 <br>关键字保留的颜色
 <br><br>
@@ -3318,43 +3460,81 @@ C' \arrow[rr,"k'" near end] \arrow[dr,swap,"c"] &amp;&amp; D' \arrow[dr,swap,"d"
 现在取  是 （这有一个这样的群），任取一个 q-Sylow为 ，我们研究这两半直积对应的群作用是什么。
 <br>分类：<br>
 <br> :
-]]></description><link>mathstuff\abstract-algebra-note-6.html</link><guid isPermaLink="false">MathStuff/Abstract Algebra Note 6.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 17 Oct 2024 01:40:39 GMT</pubDate></item><item><title><![CDATA[ODE Notes 7]]></title><description><![CDATA[<a class="tag" href="?query=tag:常微分方程" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#常微分方程</a> 
- <br>@2024-10-18，继续是存在性定理@
-<a href=".?query=tag:常微分方程" class="tag" target="_blank" rel="noopener">#常微分方程</a><br>
-<a data-href="ODE Notes 6" href="分析\常微分方程\ode-notes-6.html" class="internal-link" target="_self" rel="noopener">ODE Notes 6</a>
-<br>回到上节课的开始，我们证明了如果给出一个 （是否需要对称？） 紧集，和其上的初值，那么存在局部的解。<br>Existence Theorem
-这个是开集版本
-图片
-<br>之前的版本是局部的紧急上存在解。对于开集的版本，我们在里面取一个小的紧集，那么就知道才存在对应更小的紧集使得其上的<br>Uniqueness (0.3)
-接着上述的定理，如果对于固定的 ，那么  上的解是唯一的。
-<br>证明：<br>
+<br><a data-href="Abstract Algebra Note 7" href="mathstuff\abstract-algebra-note-7.html" class="internal-link" target="_self" rel="noopener">Abstract Algebra Note 7</a>]]></description><link>mathstuff\abstract-algebra-note-6.html</link><guid isPermaLink="false">MathStuff/Abstract Algebra Note 6.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Mon, 21 Oct 2024 07:17:54 GMT</pubDate></item><item><title><![CDATA[Abstract Algebra Note 7]]></title><description><![CDATA[<a class="tag" href="?query=tag:抽象代数" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#抽象代数</a> <a class="tag" href="?query=tag:代数" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#代数</a> <a class="tag" href="?query=tag:有限生成群" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#有限生成群</a> 
+ <br>@2024-10-21，有限生成交换群的分类@
+<a href=".?query=tag:抽象代数" class="tag" target="_blank" rel="noopener">#抽象代数</a> <a href=".?query=tag:代数" class="tag" target="_blank" rel="noopener">#代数</a> <a href=".?query=tag:有限生成群" class="tag" target="_blank" rel="noopener">#有限生成群</a><br>
+<a data-href="Abstract Algebra Note 6" href="mathstuff\abstract-algebra-note-6.html" class="internal-link" target="_self" rel="noopener">Abstract Algebra Note 6</a>
+<br><br>16 道题目里面选 4 道原题，之后 20 分比较难。<br><br>
+<br> 是交换群：有限生成：存在  使得 。
+<br>几个事实：<br>
 <br>
-定义 ，这样  是  的。
+有限生成的交换群的商群也是有限生成的。显然的。考虑生成元为代表元的等价类。
 
 <br>
-我们找到从相等变到不相等的点，记 ，这个点由连续性，有 。这里不妨令  吧。
-Chou
+ 是交换群  存在  以及 。<br>
+一个方向显然，另一个方向考虑映射为生成元的线性组合。 你                                                                                
 
- 
+<br>
+给出交换群的正合列 若  有限生成，那么  也是有限生成的。
+这个证明不平凡
 
+<br>
+如果  有限生成，那么  的子群也是有限生成的，对  的生成元归纳：  生成时和  同构。如果现在对于  成立，现在在  ，考虑 对于子群  ，我们有（没有那么显然）对应映射的限制  所以  是有限生成的。 交换图
 
-<br>在 ，附近找一个紧集，上面存在解，而存在解就就有估计 <br><br>请给出泰勒公式的积分余项！！！<br> 不会！！！
-好吧我猜是 
-<br>.
+<br>
+ 的生成元个数是小于  的。
 
+<br>习题
+ 是群同态
 
-<br>  <br>
-<br>然后放缩 ，我们希望套用引理。所以需要存在估计不等式，对于固定的  有 这里  就是
-<br>上节课的证明里有一个漏洞，这了Lemma <a data-href="ODE Notes 6#^dab102" href="分析\常微分方程\ode-notes-6.html#^dab102" class="internal-link" target="_self" rel="noopener">ODE Notes 6 &gt; ^dab102</a> 里面是一定要要求<br>Most extended solution (0.4)
-存在一个最大的延伸解。
-<br>一个直观想法是，如果对于  所在的集合的连通分支上，所有解里面的最大的哪个解是不是呢？<br>但是显然所有解的定义域上没有序关系，进一步，如果你能把两个不同的定义域粘起来就好了。换言之，如果对于解 ，，并且 ，希望存在一个解 。这足够吗？（涉及无穷并）<br>回到定理的证明：接着上节课的定义。首先存在  使得  上面有解。所以下面这个有定义<br>
-当  充分大时，  上面有解。我们可以定义  和   是解。<br>最后我们证明 。记这个极限是 ，那么在  附近取一个紧子集 ，那么在  上面，存在方程的解，，那么当  充分大， 有<br>推论
-紧集上的积分曲线，向前向后延伸和边界相交。
+<br> 是单射：
+<br> 是满射：
+
+<br>想法：模  （素数）<br>
+<br>
+<br>交换图
+<br>诱导的 映射 可以看成线性空间之间的同态。从而得到结论
+<br>为什么  有这个同态？<br>最重要的例子：  线性空间  上，取基 ，考虑  是所有整数线性组合，即 。这显然是一个有限生成的交换群。<br>定理 
+
+<br> 加法子群
+<br>
+<br> 是离散子群，即对  是紧集， 
+
+上述成立，那么存在 ，使得 
+<br>yp：非常重要，但是现在找不到合适的能说服你这个的重要性的例子。<br><br>有限生成交换群的分类
+ 是有限生成交换群，则存在整数 ，以及一些整数 ，这里  可以是 0，并且满足 
+(1) <br>
+(2)  且  唯一。
+<br>怎么感觉看上去这么眼熟（<br>
+<a data-href="小学期学分来源的Jordan标准型报告.pdf" href="敲敲latex\小学期学分来源的jordan标准型报告.pdf" class="internal-link" target="_self" rel="noopener">小学期学分来源的Jordan标准型报告.pdf</a><br>证明：参考 P.I.D 上的有限生成模的分类。<br>有限生成交换群就是  这个主理想整环上的有限生成模。<br><br>我还以为马上开干主定理了，结果没开始就结束了。<br>本节课里的理想要求 。<br>yp：理想是一个形容词，比如考入理想的大学——北京大学（台下哄笑）<br>
+<br> 是环，  是双边理想，那么  可以自然地构造环结构。
+<br>命题
+ 是环， 是双边理想，  是环同态。若 ，那么存在唯一的环同态  使得图交换。<br>
+交换图<br>
+进一步，  是环同构。
 <br>
 <br>
+整环 ：若  或 
+
 <br>
-]]></description><link>mathstuff\ode-notes-7.html</link><guid isPermaLink="false">MathStuff/ODE Notes 7.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Fri, 18 Oct 2024 16:30:04 GMT</pubDate></item><item><title><![CDATA[ODE Notes 8]]></title><description><![CDATA[ 
- ]]></description><link>mathstuff\ode-notes-8.html</link><guid isPermaLink="false">MathStuff/ODE Notes 8.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Fri, 18 Oct 2024 07:21:49 GMT</pubDate></item><item><title><![CDATA[one-point compactification]]></title><description><![CDATA[ 
+ 是素理想，若  或 
+
+<br>
+ 是极大理想，如果任意的  是理想，就有 ，注意这和  之间的差别。
+
+<br>例子：  ， ， ，请 验证这是一个极大理想。<br>定理 
+环模掉极大理想得到一个域。
+<br>请去证明！<br><a data-href="Abstract Algebra Note 8" href="mathstuff\abstract-algebra-note-8.html" class="internal-link" target="_self" rel="noopener">Abstract Algebra Note 8</a>]]></description><link>mathstuff\abstract-algebra-note-7.html</link><guid isPermaLink="false">MathStuff/Abstract Algebra Note 7.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 22 Oct 2024 06:15:48 GMT</pubDate></item><item><title><![CDATA[Abstract Algebra Note 8]]></title><description><![CDATA[ 
+ <br>@2024-10-28，理想，欧几里得整环，唯一分解整环@
+
+<a data-href="Abstract Algebra Note 7" href="mathstuff\abstract-algebra-note-7.html" class="internal-link" target="_self" rel="noopener">Abstract Algebra Note 7</a>
+<br><a data-href="Abstract Algebra Note 9" href="Abstract Algebra Note 9" class="internal-link" target="_self" rel="noopener">Abstract Algebra Note 9</a>]]></description><link>mathstuff\abstract-algebra-note-8.html</link><guid isPermaLink="false">MathStuff/Abstract Algebra Note 8.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 29 Oct 2024 09:40:01 GMT</pubDate></item><item><title><![CDATA[Gronwall's Lemma]]></title><description><![CDATA[ 
+ <br>第一次见到这个引理是在 Amann 的数学分析，当初震惊于为什么还能注意到这样的不等式。这学期学了 ODE 之后才对这种技术少了一丝陌生感。<br>定理 <br>定理 2
+区间  包含 ，存在 ，对于一连续函数  满足 那么 
+<br>特别的，在  时我们证明 ，这在构造函数差分以证明唯一性时很有用。<br>证明
+对于  的情况，定义 ， ，对  求导得到 结合  得到 整理一下得到 从而得到最终结论 
+另一个方向， 时定义  即可。
+<br>一般情况下这个版本就够用了。下面给出更复杂的一个版本，涉及一些绝对值的讨论，可以训练一下底力。<br>定理 3]]></description><link>mathstuff\gronwall's-lemma.html</link><guid isPermaLink="false">MathStuff/Gronwall's Lemma.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 31 Oct 2024 09:11:45 GMT</pubDate></item><item><title><![CDATA[one-point compactification]]></title><description><![CDATA[ 
  <br>one-point compactification(单点紧化) 是一种将非紧致的局部紧致空间转化为紧致空间的技术。具体来说，给定一个局部紧致空间 ，其单点紧化是通过添加一个点（通常称为“无穷远点”或“附加点”）到  中，并将  的拓扑扩展到这个新点，使得整个空间成为紧致的。<br>形式化地，设  是一个局部紧致 Hausdorff 空间。 的单点紧化记作  或 ，其中  是新添加的点。 的拓扑定义如下：<br>
 <br>对于  中的任何开集 ， 也是  中的开集。
 <br>一个包含  的开集是  中的一个紧致闭集的补集。
