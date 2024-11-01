@@ -1,6 +1,6 @@
 {
   "vaultName": "LogseqVault",
-  "lastExport": 1730370785779,
+  "lastExport": 1730444296592,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon fancy-code h2-underline top-sidenote-callout-title sidenote-backgound",
   "useCustomHeadContent": true,
@@ -8,10 +8,14 @@
   "files": [
     "代数/抽象代数/抽象代数课程定义及记号表.md",
     "代数/抽象代数/抽象代数作业 1.md",
+    "代数/抽象代数/抽象代数作业 2.md",
     "代数/抽象代数/正规子群和商群.md",
     "代数/抽象代数/Abstract Algebra Note 3.md",
     "代数/抽象代数/Abstract Algebra Note 4.md",
     "代数/抽象代数/Abstract Algebra Note 5.md",
+    "代数/抽象代数/Abstract Algebra Note 6.md",
+    "代数/抽象代数/Abstract Algebra Note 7.md",
+    "代数/抽象代数/Abstract Algebra Note 8.md",
     "代数/抽象代数/Notes0930.pdf",
     "代数/高等线性代数2/高代ppt/Lecture 19 正交相似 I.pdf",
     "代数/高等线性代数2/高代ppt/Lecture 20 正交相似 II.pdf",
@@ -88,9 +92,14 @@
     "分析/收敛越来越快的级数.md",
     "分析/正项级数收敛判别法.md",
     "分析/自然对数的底 e.md",
+    "分析/Change of variables.md",
     "分析/Gauss 判别法.md",
+    "分析/Gronwall's Lemma.md",
     "分析/Guess 超几何级数.md",
+    "分析/Lipschitz 连续.md",
+    "分析/Picard-Lindelöf.md",
     "分析/Riemann Rearrangement 黎曼重排.md",
+    "分析/Sapagof 判别法.md",
     "分析/Weierstrass Uniform Convergence Theorem.md",
     "概率统计/《概率论教程》读书笔记 1.md",
     "概率统计/《概率论教程》读书笔记 2.md",
@@ -124,7 +133,6 @@
     "作业/Analysis III 第一次作业.md",
     "作业/ODE 第一次作业.md",
     "MathStuff/常微分方程解的唯一性.md",
-    "MathStuff/抽象代数作业 2.md",
     "MathStuff/大学物理（2） 笔记 9.md",
     "MathStuff/方便查询的记号表.md",
     "MathStuff/马原.md",
@@ -138,12 +146,7 @@
     "MathStuff/未命名.md",
     "MathStuff/未命名 1.md",
     "MathStuff/文本编辑战术演习.md",
-    "MathStuff/Abstract Algebra Note 6.md",
-    "MathStuff/Abstract Algebra Note 7.md",
-    "MathStuff/Abstract Algebra Note 8.md",
-    "MathStuff/Gronwall's Lemma.md",
     "MathStuff/one-point compactification.md",
-    "MathStuff/Sapagof 判别法.md",
     "lib/media/抽象代数-homework1.pdf",
     "lib/media/pasted-image-20241004230836.png",
     "lib/media/pasted-image-20240513205638.png",
@@ -188,6 +191,7 @@
     "lib/media/pasted-image-20240916174049.png",
     "lib/media/pasted-image-20240916175002.png",
     "lib/media/8078e7551c1bcbe8c635a3b65e1f3a5e_720.jpg",
+    "lib/media/da5b31d40d1ad12effc676e5f42e94f7_720-1.jpg",
     "lib/media/pasted-image-20241005113337.png",
     "lib/media/pasted-image-20241019083228.png",
     "lib/media/pasted-image-20241019083306.png",
@@ -343,55 +347,55 @@
   ],
   "fileInfo": {
     "代数/高等线性代数2/高代ppt/Lecture 19 正交相似 I.pdf": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 159286,
       "exportedPath": "代数/高等线性代数2/高代ppt/lecture-19-正交相似-i.pdf",
       "dependencies": []
     },
     "代数/高等线性代数2/高代ppt/Lecture 20 正交相似 II.pdf": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 168973,
       "exportedPath": "代数/高等线性代数2/高代ppt/lecture-20-正交相似-ii.pdf",
       "dependencies": []
     },
     "代数/高等线性代数2/高代ppt/Lecture 21 酉变换.pdf": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 181989,
       "exportedPath": "代数/高等线性代数2/高代ppt/lecture-21-酉变换.pdf",
       "dependencies": []
     },
     "代数/高等线性代数2/高代ppt/Lecture 22 复正规变换.pdf": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 168224,
       "exportedPath": "代数/高等线性代数2/高代ppt/lecture-22-复正规变换.pdf",
       "dependencies": []
     },
     "代数/高等线性代数2/高代ppt/lecture-19-正交相似-i.pdf": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 159286,
       "exportedPath": "代数/高等线性代数2/高代ppt/lecture-19-正交相似-i.pdf",
       "dependencies": []
     },
     "代数/高等线性代数2/高代ppt/lecture-20-正交相似-ii.pdf": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 168973,
       "exportedPath": "代数/高等线性代数2/高代ppt/lecture-20-正交相似-ii.pdf",
       "dependencies": []
     },
     "代数/高等线性代数2/高代ppt/lecture-21-酉变换.pdf": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 181989,
       "exportedPath": "代数/高等线性代数2/高代ppt/lecture-21-酉变换.pdf",
       "dependencies": []
     },
     "代数/高等线性代数2/高代ppt/lecture-22-复正规变换.pdf": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 168224,
       "exportedPath": "代数/高等线性代数2/高代ppt/lecture-22-复正规变换.pdf",
       "dependencies": []
     },
     "代数/高等线性代数2/作业/作业9.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 6028,
       "exportedPath": "代数/高等线性代数2/作业/作业9.html",
       "dependencies": [
@@ -406,7 +410,7 @@
       ]
     },
     "代数/高等线性代数2/LA Lecture 19.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 1762,
       "exportedPath": "代数/高等线性代数2/la-lecture-19.html",
       "dependencies": [
@@ -415,7 +419,7 @@
       ]
     },
     "代数/高等线性代数2/LA Lecture 20.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 848,
       "exportedPath": "代数/高等线性代数2/la-lecture-20.html",
       "dependencies": [
@@ -423,7 +427,7 @@
       ]
     },
     "代数/高等线性代数2/LA Lecture 21.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 2647,
       "exportedPath": "代数/高等线性代数2/la-lecture-21.html",
       "dependencies": [
@@ -431,7 +435,7 @@
       ]
     },
     "代数/高等线性代数2/LA Lecture 22.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 3827,
       "exportedPath": "代数/高等线性代数2/la-lecture-22.html",
       "dependencies": [
@@ -439,109 +443,109 @@
       ]
     },
     "代数/高等线性代数2/LA Lecture 23.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 4711,
       "exportedPath": "代数/高等线性代数2/la-lecture-23.html",
       "dependencies": []
     },
     "代数/高等线性代数2/LA Lecture 24.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 3412,
       "exportedPath": "代数/高等线性代数2/la-lecture-24.html",
       "dependencies": []
     },
     "代数/高等线性代数2/LA Lecture 25.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 1337,
       "exportedPath": "代数/高等线性代数2/la-lecture-25.html",
       "dependencies": []
     },
     "代数/高等线性代数2/LA Lecture 26.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 1468,
       "exportedPath": "代数/高等线性代数2/la-lecture-26.html",
       "dependencies": []
     },
     "代数/高等线性代数2/LA Lecture 28.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 3034,
       "exportedPath": "代数/高等线性代数2/la-lecture-28.html",
       "dependencies": []
     },
     "代数/高等线性代数2/LA Lecture 29.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 1505,
       "exportedPath": "代数/高等线性代数2/la-lecture-29.html",
       "dependencies": []
     },
     "代数/Singular/Singular Lecture 1.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 2170,
       "exportedPath": "代数/singular/singular-lecture-1.html",
       "dependencies": []
     },
     "代数/Singular/Singular Lecture 2.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 1771,
       "exportedPath": "代数/singular/singular-lecture-2.html",
       "dependencies": []
     },
     "代数/Singular/Singular Lecture 3.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 63,
       "exportedPath": "代数/singular/singular-lecture-3.html",
       "dependencies": []
     },
     "代数/Singular/Singular Lecture 4.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 1684,
       "exportedPath": "代数/singular/singular-lecture-4.html",
       "dependencies": []
     },
     "代数/Singular/Singular Lecture 5.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 4945,
       "exportedPath": "代数/singular/singular-lecture-5.html",
       "dependencies": []
     },
     "分析/常微分方程/ODE Notes 1.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 2040,
       "exportedPath": "分析/常微分方程/ode-notes-1.html",
       "dependencies": []
     },
     "分析/复分析/复分析做题日记.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 1259,
       "exportedPath": "分析/复分析/复分析做题日记.html",
       "dependencies": []
     },
     "分析/复分析/An Introduction to Homological Algebra Second Edition (Joseph J. Rotman) (Z-Library).pdf": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 4056973,
       "exportedPath": "分析/复分析/an-introduction-to-homological-algebra-second-edition-(joseph-j.-rotman)-(z-library).pdf",
       "dependencies": []
     },
     "分析/复分析/an-introduction-to-homological-algebra-second-edition-(joseph-j.-rotman)-(z-library).pdf": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 4056973,
       "exportedPath": "分析/复分析/an-introduction-to-homological-algebra-second-edition-(joseph-j.-rotman)-(z-library).pdf",
       "dependencies": []
     },
     "分析/复分析/CA Lecture 4.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 2321,
       "exportedPath": "分析/复分析/ca-lecture-4.html",
       "dependencies": []
     },
     "分析/复分析/CA Lecture 5.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 3252,
       "exportedPath": "分析/复分析/ca-lecture-5.html",
       "dependencies": []
     },
     "分析/复分析/CA Lecture 6.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 4753,
       "exportedPath": "分析/复分析/ca-lecture-6.html",
       "dependencies": [
@@ -551,13 +555,13 @@
       ]
     },
     "分析/复分析/CA Lecture 7.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 2023,
       "exportedPath": "分析/复分析/ca-lecture-7.html",
       "dependencies": []
     },
     "分析/复分析/CA Lecture 8.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 5003,
       "exportedPath": "分析/复分析/ca-lecture-8.html",
       "dependencies": [
@@ -567,7 +571,7 @@
       ]
     },
     "分析/复分析/CA Lecture 9.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 3704,
       "exportedPath": "分析/复分析/ca-lecture-9.html",
       "dependencies": [
@@ -575,13 +579,13 @@
       ]
     },
     "分析/复分析/CA Lecture 10.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 3426,
       "exportedPath": "分析/复分析/ca-lecture-10.html",
       "dependencies": []
     },
     "分析/复分析/CA Lecture 11.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 4171,
       "exportedPath": "分析/复分析/ca-lecture-11.html",
       "dependencies": [
@@ -598,7 +602,7 @@
       ]
     },
     "分析/复分析/CA Lecture 12.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 2173,
       "exportedPath": "分析/复分析/ca-lecture-12.html",
       "dependencies": [
@@ -607,7 +611,7 @@
       ]
     },
     "分析/复分析/CA Lecture 13.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 2711,
       "exportedPath": "分析/复分析/ca-lecture-13.html",
       "dependencies": [
@@ -617,7 +621,7 @@
       ]
     },
     "分析/复分析/CA Lecture 14.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 1225,
       "exportedPath": "分析/复分析/ca-lecture-14.html",
       "dependencies": [
@@ -629,19 +633,19 @@
       ]
     },
     "分析/复分析/CA Lecture 15.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 546,
       "exportedPath": "分析/复分析/ca-lecture-15.html",
       "dependencies": []
     },
     "分析/复分析/CA Lecture 16.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 24,
       "exportedPath": "分析/复分析/ca-lecture-16.html",
       "dependencies": []
     },
     "分析/实分析/Real Analysis Notes 1.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 1808,
       "exportedPath": "分析/实分析/real-analysis-notes-1.html",
       "dependencies": [
@@ -649,13 +653,13 @@
       ]
     },
     "分析/实分析/Real Analysis Notes 2.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 398,
       "exportedPath": "分析/实分析/real-analysis-notes-2.html",
       "dependencies": []
     },
     "分析/数学分析/Analysis III Note 1.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 3659,
       "exportedPath": "分析/数学分析/analysis-iii-note-1.html",
       "dependencies": [
@@ -663,13 +667,13 @@
       ]
     },
     "分析/数学分析/Analysis III Note 2.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 5188,
       "exportedPath": "分析/数学分析/analysis-iii-note-2.html",
       "dependencies": []
     },
     "分析/数学分析/Analysis III Note 3.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 7720,
       "exportedPath": "分析/数学分析/analysis-iii-note-3.html",
       "dependencies": [
@@ -677,25 +681,25 @@
       ]
     },
     "分析/单位分解.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 743,
       "exportedPath": "分析/单位分解.html",
       "dependencies": []
     },
     "分析/度量空间的完备化.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 0,
       "exportedPath": "分析/度量空间的完备化.html",
       "dependencies": []
     },
     "物理/大雾/简谐波.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 1172,
       "exportedPath": "物理/大雾/简谐波.html",
       "dependencies": []
     },
     "物理/大学物理（2） 笔记 1.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 5781,
       "exportedPath": "物理/大学物理（2）-笔记-1.html",
       "dependencies": [
@@ -703,7 +707,7 @@
       ]
     },
     "物理/大学物理（2） 笔记 2.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 662,
       "exportedPath": "物理/大学物理（2）-笔记-2.html",
       "dependencies": [
@@ -711,7 +715,7 @@
       ]
     },
     "物理/大学物理（2） 笔记 3.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 2498,
       "exportedPath": "物理/大学物理（2）-笔记-3.html",
       "dependencies": [
@@ -723,31 +727,31 @@
       ]
     },
     "想法/可交换.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 293,
       "exportedPath": "想法/可交换.html",
       "dependencies": []
     },
     "想法/如何学习数学.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 150,
       "exportedPath": "想法/如何学习数学.html",
       "dependencies": []
     },
     "想法/作业感悟.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 1029,
       "exportedPath": "想法/作业感悟.html",
       "dependencies": []
     },
     "作业/Analysis III 第一次作业.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 224,
       "exportedPath": "作业/analysis-iii-第一次作业.html",
       "dependencies": []
     },
     "作业/ODE 第一次作业.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 2173,
       "exportedPath": "作业/ode-第一次作业.html",
       "dependencies": [
@@ -760,739 +764,739 @@
       ]
     },
     "MathStuff/one-point compactification.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 1180,
       "exportedPath": "mathstuff/one-point-compactification.html",
       "dependencies": []
     },
     "lib/media/pasted-image-20240513205638.png": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 274674,
       "exportedPath": "lib/media/pasted-image-20240513205638.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20240515224835.png": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 150083,
       "exportedPath": "lib/media/pasted-image-20240515224835.png",
       "dependencies": []
     },
     "lib/media/1715784702462.jpg": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 4412273,
       "exportedPath": "lib/media/1715784702462.jpg",
       "dependencies": []
     },
     "lib/media/pasted-image-20240515222634.png": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 312257,
       "exportedPath": "lib/media/pasted-image-20240515222634.png",
       "dependencies": []
     },
     "lib/media/img_20240515_223734.jpg": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 2839131,
       "exportedPath": "lib/media/img_20240515_223734.jpg",
       "dependencies": []
     },
     "lib/media/pasted-image-20240515230903.png": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 42233,
       "exportedPath": "lib/media/pasted-image-20240515230903.png",
       "dependencies": []
     },
     "lib/media/img_20240515_215510.jpg": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 2577550,
       "exportedPath": "lib/media/img_20240515_215510.jpg",
       "dependencies": []
     },
     "lib/media/img_20240515_213518.jpg": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 2570459,
       "exportedPath": "lib/media/img_20240515_213518.jpg",
       "dependencies": []
     },
     "lib/media/pasted-image-20240511095008.png": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 73166,
       "exportedPath": "lib/media/pasted-image-20240511095008.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20240710114634.png": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 153722,
       "exportedPath": "lib/media/pasted-image-20240710114634.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20240710114835.png": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 37684,
       "exportedPath": "lib/media/pasted-image-20240710114835.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20240710191835.png": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 67341,
       "exportedPath": "lib/media/pasted-image-20240710191835.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20240710193756.png": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 30948,
       "exportedPath": "lib/media/pasted-image-20240710193756.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20240710214710.png": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 49149,
       "exportedPath": "lib/media/pasted-image-20240710214710.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20240711191943.png": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 16557,
       "exportedPath": "lib/media/pasted-image-20240711191943.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20240713103310.png": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 109814,
       "exportedPath": "lib/media/pasted-image-20240713103310.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20240713103436.png": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 128900,
       "exportedPath": "lib/media/pasted-image-20240713103436.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20240713103523.png": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 59205,
       "exportedPath": "lib/media/pasted-image-20240713103523.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20240713104505.png": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 219189,
       "exportedPath": "lib/media/pasted-image-20240713104505.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20240713105230.png": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 11513,
       "exportedPath": "lib/media/pasted-image-20240713105230.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20240713105239.png": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 8576,
       "exportedPath": "lib/media/pasted-image-20240713105239.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20240713105253.png": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 41949,
       "exportedPath": "lib/media/pasted-image-20240713105253.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20240713105403.png": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 39520,
       "exportedPath": "lib/media/pasted-image-20240713105403.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20240713105546.png": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 111326,
       "exportedPath": "lib/media/pasted-image-20240713105546.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20240714083729.png": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 118050,
       "exportedPath": "lib/media/pasted-image-20240714083729.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20240714091706.png": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 59922,
       "exportedPath": "lib/media/pasted-image-20240714091706.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20240715091839.png": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 57130,
       "exportedPath": "lib/media/pasted-image-20240715091839.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20240715091951.png": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 323454,
       "exportedPath": "lib/media/pasted-image-20240715091951.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20240715095820.png": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 93329,
       "exportedPath": "lib/media/pasted-image-20240715095820.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20240716082932.png": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 74354,
       "exportedPath": "lib/media/pasted-image-20240716082932.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20240716083003.png": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 101418,
       "exportedPath": "lib/media/pasted-image-20240716083003.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20240716084109.png": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 390743,
       "exportedPath": "lib/media/pasted-image-20240716084109.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20240716101616.png": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 126022,
       "exportedPath": "lib/media/pasted-image-20240716101616.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20240716102726.png": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 225244,
       "exportedPath": "lib/media/pasted-image-20240716102726.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20240902161818.png": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 82378,
       "exportedPath": "lib/media/pasted-image-20240902161818.png",
       "dependencies": []
     },
     "lib/media/7f772b8955d379f41c8db60eff3cbcf7.jpg": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 7126191,
       "exportedPath": "lib/media/7f772b8955d379f41c8db60eff3cbcf7.jpg",
       "dependencies": []
     },
     "lib/media/pasted-image-20240915092018.png": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 90753,
       "exportedPath": "lib/media/pasted-image-20240915092018.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20240915092040.png": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 20551,
       "exportedPath": "lib/media/pasted-image-20240915092040.png",
       "dependencies": []
     },
     "lib/media/6aa098ad47bb0d7ab226c53bdfcd14d8_720.jpg": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 112656,
       "exportedPath": "lib/media/6aa098ad47bb0d7ab226c53bdfcd14d8_720.jpg",
       "dependencies": []
     },
     "lib/media/pasted-image-20240915092331.png": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 65155,
       "exportedPath": "lib/media/pasted-image-20240915092331.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20240915092339.png": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 78202,
       "exportedPath": "lib/media/pasted-image-20240915092339.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20240915092346.png": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 78769,
       "exportedPath": "lib/media/pasted-image-20240915092346.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20240517103127.png": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 22304,
       "exportedPath": "lib/media/pasted-image-20240517103127.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20240916174049.png": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 125688,
       "exportedPath": "lib/media/pasted-image-20240916174049.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20240916175002.png": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 123180,
       "exportedPath": "lib/media/pasted-image-20240916175002.png",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.wasm": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 23377,
       "exportedPath": "lib/scripts/graph-wasm.wasm",
       "dependencies": []
     },
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/874d8b8e340f75575caa.svg": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 317,
       "exportedPath": "lib/media/874d8b8e340f75575caa.svg",
       "dependencies": []
     },
     "lib/media/3d6c1bdc4d87cde4de67.svg": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 279,
       "exportedPath": "lib/media/3d6c1bdc4d87cde4de67.svg",
       "dependencies": []
     },
     "lib/fonts/mathjax_zero.woff": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 1368,
       "exportedPath": "lib/fonts/mathjax_zero.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-regular.woff": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 34160,
       "exportedPath": "lib/fonts/mathjax_main-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-bold.woff": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 34464,
       "exportedPath": "lib/fonts/mathjax_main-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_math-italic.woff": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 19360,
       "exportedPath": "lib/fonts/mathjax_math-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_main-italic.woff": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 20832,
       "exportedPath": "lib/fonts/mathjax_main-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_math-bolditalic.woff": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 19776,
       "exportedPath": "lib/fonts/mathjax_math-bolditalic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size1-regular.woff": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 5792,
       "exportedPath": "lib/fonts/mathjax_size1-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size2-regular.woff": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 5464,
       "exportedPath": "lib/fonts/mathjax_size2-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size3-regular.woff": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 3244,
       "exportedPath": "lib/fonts/mathjax_size3-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_size4-regular.woff": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 5148,
       "exportedPath": "lib/fonts/mathjax_size4-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_ams-regular.woff": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 40808,
       "exportedPath": "lib/fonts/mathjax_ams-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_calligraphic-regular.woff": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 9600,
       "exportedPath": "lib/fonts/mathjax_calligraphic-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_calligraphic-bold.woff": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 9908,
       "exportedPath": "lib/fonts/mathjax_calligraphic-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_fraktur-regular.woff": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 21480,
       "exportedPath": "lib/fonts/mathjax_fraktur-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_fraktur-bold.woff": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 22340,
       "exportedPath": "lib/fonts/mathjax_fraktur-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-regular.woff": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 12660,
       "exportedPath": "lib/fonts/mathjax_sansserif-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-bold.woff": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 15944,
       "exportedPath": "lib/fonts/mathjax_sansserif-bold.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_sansserif-italic.woff": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 14628,
       "exportedPath": "lib/fonts/mathjax_sansserif-italic.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_script-regular.woff": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 11852,
       "exportedPath": "lib/fonts/mathjax_script-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_typewriter-regular.woff": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 17604,
       "exportedPath": "lib/fonts/mathjax_typewriter-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_vector-regular.woff": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 1136,
       "exportedPath": "lib/fonts/mathjax_vector-regular.woff",
       "dependencies": []
     },
     "lib/fonts/mathjax_vector-bold.woff": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 1116,
       "exportedPath": "lib/fonts/mathjax_vector-bold.woff",
       "dependencies": []
     },
     "lib/html/file-tree.html": {
-      "modifiedTime": 1730370785779,
-      "sourceSize": 58518,
+      "modifiedTime": 1730444296592,
+      "sourceSize": 59473,
       "exportedPath": "lib/html/file-tree.html",
       "dependencies": []
     },
     "lib/scripts/webpage.js": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 47290,
       "exportedPath": "lib/scripts/webpage.js",
       "dependencies": []
     },
     "lib/scripts/graph-view.js": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 15519,
       "exportedPath": "lib/scripts/graph-view.js",
       "dependencies": []
     },
     "lib/scripts/graph-wasm.js": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 14021,
       "exportedPath": "lib/scripts/graph-wasm.js",
       "dependencies": []
     },
     "lib/scripts/graph-render-worker.js": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 5179,
       "exportedPath": "lib/scripts/graph-render-worker.js",
       "dependencies": []
     },
     "lib/scripts/tinycolor.js": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 29832,
       "exportedPath": "lib/scripts/tinycolor.js",
       "dependencies": []
     },
     "lib/scripts/pixi.js": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 449509,
       "exportedPath": "lib/scripts/pixi.js",
       "dependencies": []
     },
     "lib/media/favicon.png": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 1105,
       "exportedPath": "lib/media/favicon.png",
       "dependencies": []
     },
     "lib/html/custom-head-content.html": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 1882,
       "exportedPath": "lib/html/custom-head-content.html",
       "dependencies": []
     },
     "lib/scripts/graph-data.js": {
-      "modifiedTime": 1730370785779,
-      "sourceSize": 6543,
+      "modifiedTime": 1730444296592,
+      "sourceSize": 6681,
       "exportedPath": "lib/scripts/graph-data.js",
       "dependencies": []
     },
     "lib/styles/obsidian.css": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 130471,
       "exportedPath": "lib/styles/obsidian.css",
       "dependencies": []
     },
     "lib/styles/theme.css": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 41426,
       "exportedPath": "lib/styles/theme.css",
       "dependencies": []
     },
     "lib/styles/global-variable-styles.css": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 536,
       "exportedPath": "lib/styles/global-variable-styles.css",
       "dependencies": []
     },
     "lib/styles/supported-plugins.css": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 69,
       "exportedPath": "lib/styles/supported-plugins.css",
       "dependencies": []
     },
     "lib/styles/main-styles.css": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 23130,
       "exportedPath": "lib/styles/main-styles.css",
       "dependencies": []
     },
     "lib/styles/snippets.css": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 35156,
       "exportedPath": "lib/styles/snippets.css",
       "dependencies": []
     },
     "lib/media/38bb7cbe7ec7eb7bf42450048d1b473b_720.jpg": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 118312,
       "exportedPath": "lib/media/38bb7cbe7ec7eb7bf42450048d1b473b_720.jpg",
       "dependencies": []
     },
     "分析/数学分析/Analysis III Note 4.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 4428,
       "exportedPath": "分析/数学分析/analysis-iii-note-4.html",
       "dependencies": []
     },
     "MathStuff/你好哇，你这会想看什么？.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 1901,
       "exportedPath": "mathstuff/你好哇，你这会想看什么？.html",
       "dependencies": []
     },
     "lib/styles/other-plugins.css": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 4809197,
       "exportedPath": "lib/styles/other-plugins.css",
       "dependencies": []
     },
     "lib/media/74b18f6899164d066356e44c9543f9cb_720.jpg": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 120263,
       "exportedPath": "lib/media/74b18f6899164d066356e44c9543f9cb_720.jpg",
       "dependencies": []
     },
     "lib/media/1c8d5e26f2062efdc1e2d979a87404d8_720.jpg": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 118136,
       "exportedPath": "lib/media/1c8d5e26f2062efdc1e2d979a87404d8_720.jpg",
       "dependencies": []
     },
     "lib/media/cb623484499bba0df556e6916317f453_720.jpg": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 120075,
       "exportedPath": "lib/media/cb623484499bba0df556e6916317f453_720.jpg",
       "dependencies": []
     },
     "lib/media/ae28644cf40ff45c16672900b0a736f8_720-1.jpg": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 118931,
       "exportedPath": "lib/media/ae28644cf40ff45c16672900b0a736f8_720-1.jpg",
       "dependencies": []
     },
     "lib/media/361378aba1a300167a6b2d487eb1fbf6_720.jpg": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 89771,
       "exportedPath": "lib/media/361378aba1a300167a6b2d487eb1fbf6_720.jpg",
       "dependencies": []
     },
     "作业/数学分析作业2.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 14155,
       "exportedPath": "作业/数学分析作业2.html",
       "dependencies": []
     },
     "分析/常微分方程/ODE Notes 2.md": {
-      "modifiedTime": 1730370785779,
-      "sourceSize": 9184,
+      "modifiedTime": 1730444296592,
+      "sourceSize": 9188,
       "exportedPath": "分析/常微分方程/ode-notes-2.html",
       "dependencies": []
     },
     "物理/大雾ppt/第二次课.pdf": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 3657319,
       "exportedPath": "物理/大雾ppt/第二次课.pdf",
       "dependencies": []
     },
     "物理/大雾ppt/第三次课.pdf": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 3621279,
       "exportedPath": "物理/大雾ppt/第三次课.pdf",
       "dependencies": []
     },
     "物理/大雾ppt/第四次课.pdf": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 2963328,
       "exportedPath": "物理/大雾ppt/第四次课.pdf",
       "dependencies": []
     },
     "物理/大雾ppt/第五次课.pdf": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 3507456,
       "exportedPath": "物理/大雾ppt/第五次课.pdf",
       "dependencies": []
     },
     "物理/大雾ppt/第一次课.pdf": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 3955475,
       "exportedPath": "物理/大雾ppt/第一次课.pdf",
       "dependencies": []
     },
     "lib/media/pasted-image-20240926110200.png": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 81484,
       "exportedPath": "lib/media/pasted-image-20240926110200.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20240926110215.png": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 48661,
       "exportedPath": "lib/media/pasted-image-20240926110215.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20240926110742.png": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 144792,
       "exportedPath": "lib/media/pasted-image-20240926110742.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20240926110750.png": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 25372,
       "exportedPath": "lib/media/pasted-image-20240926110750.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20240926110846.png": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 75459,
       "exportedPath": "lib/media/pasted-image-20240926110846.png",
       "dependencies": []
     },
     "分析/常微分方程/常微分方程-ODE 3rd week.pdf": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 271105,
       "exportedPath": "分析/常微分方程/常微分方程-ode-3rd-week.pdf",
       "dependencies": []
     },
     "物理/大学物理（2） 笔记 4.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 896,
       "exportedPath": "物理/大学物理（2）-笔记-4.html",
       "dependencies": [
@@ -1504,19 +1508,19 @@
       ]
     },
     "分析/常微分方程/ODE 3rd week.pdf": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 271105,
       "exportedPath": "分析/常微分方程/ode-3rd-week.pdf",
       "dependencies": []
     },
     "物理/大雾ppt/第六次课.pdf": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 3605820,
       "exportedPath": "物理/大雾ppt/第六次课.pdf",
       "dependencies": []
     },
     "物理/大学物理（2） 笔记 5.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 2959,
       "exportedPath": "物理/大学物理（2）-笔记-5.html",
       "dependencies": [
@@ -1530,61 +1534,61 @@
       ]
     },
     "lib/media/pasted-image-20240929095909.png": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 20019,
       "exportedPath": "lib/media/pasted-image-20240929095909.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20240929103648.png": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 13807,
       "exportedPath": "lib/media/pasted-image-20240929103648.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20240929105522.png": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 99514,
       "exportedPath": "lib/media/pasted-image-20240929105522.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20240929110945.png": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 68395,
       "exportedPath": "lib/media/pasted-image-20240929110945.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20240929104316.png": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 169510,
       "exportedPath": "lib/media/pasted-image-20240929104316.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20240929110814.png": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 243390,
       "exportedPath": "lib/media/pasted-image-20240929110814.png",
       "dependencies": []
     },
     "分析/常微分方程/ODE Notes 3.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 12248,
       "exportedPath": "分析/常微分方程/ode-notes-3.html",
       "dependencies": []
     },
     "分析/常微分方程/ODE Notes 4.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 3488,
       "exportedPath": "分析/常微分方程/ode-notes-4.html",
       "dependencies": []
     },
     "分析/数学分析/Analysis III Note 5.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 11119,
       "exportedPath": "分析/数学分析/analysis-iii-note-5.html",
       "dependencies": []
     },
     "拓扑/Topology Notes 1.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 589,
       "exportedPath": "拓扑/topology-notes-1.html",
       "dependencies": [
@@ -1596,49 +1600,49 @@
       ]
     },
     "拓扑/Topology Notes 2.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 6101,
       "exportedPath": "拓扑/topology-notes-2.html",
       "dependencies": []
     },
     "lib/media/0dc7a97ca089ac89ac0c9edc29160019_720.jpg": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 156830,
       "exportedPath": "lib/media/0dc7a97ca089ac89ac0c9edc29160019_720.jpg",
       "dependencies": []
     },
     "lib/media/68c1da26af9a13eab6a568aab9b2c3f1_720.jpg": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 114852,
       "exportedPath": "lib/media/68c1da26af9a13eab6a568aab9b2c3f1_720.jpg",
       "dependencies": []
     },
     "lib/media/0ef6ba6d08774adad124fb71e59e6e72_720.jpg": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 94467,
       "exportedPath": "lib/media/0ef6ba6d08774adad124fb71e59e6e72_720.jpg",
       "dependencies": []
     },
     "lib/media/b1a49546407fa6fb52318dceec1ed374_720.jpg": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 80084,
       "exportedPath": "lib/media/b1a49546407fa6fb52318dceec1ed374_720.jpg",
       "dependencies": []
     },
     "lib/media/b59302dec9d0f364c16ecaba35b4cbf7_720.jpg": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 80907,
       "exportedPath": "lib/media/b59302dec9d0f364c16ecaba35b4cbf7_720.jpg",
       "dependencies": []
     },
     "MathStuff/方便查询的记号表.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 103,
       "exportedPath": "mathstuff/方便查询的记号表.html",
       "dependencies": []
     },
     "MathStuff/文本编辑战术演习.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 11740,
       "exportedPath": "mathstuff/文本编辑战术演习.html",
       "dependencies": [
@@ -1646,31 +1650,31 @@
       ]
     },
     "lib/media/pasted-image-20241003223246.png": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 53963,
       "exportedPath": "lib/media/pasted-image-20241003223246.png",
       "dependencies": []
     },
     "lib/media/8078e7551c1bcbe8c635a3b65e1f3a5e_720.jpg": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 159221,
       "exportedPath": "lib/media/8078e7551c1bcbe8c635a3b65e1f3a5e_720.jpg",
       "dependencies": []
     },
     "代数/抽象代数/抽象代数课程定义及记号表.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 1112,
       "exportedPath": "代数/抽象代数/抽象代数课程定义及记号表.html",
       "dependencies": []
     },
     "代数/抽象代数/正规子群和商群.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 400,
       "exportedPath": "代数/抽象代数/正规子群和商群.html",
       "dependencies": []
     },
     "代数/抽象代数/Abstract Algebra Note 3.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 7377,
       "exportedPath": "代数/抽象代数/abstract-algebra-note-3.html",
       "dependencies": [
@@ -1678,13 +1682,13 @@
       ]
     },
     "代数/抽象代数/Notes0930.pdf": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 870142,
       "exportedPath": "代数/抽象代数/notes0930.pdf",
       "dependencies": []
     },
     "概率统计/《概率论教程》读书笔记 1.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 4540,
       "exportedPath": "概率统计/《概率论教程》读书笔记-1.html",
       "dependencies": [
@@ -1692,25 +1696,25 @@
       ]
     },
     "概率统计/概率论教程 (钟开莱,  吴让泉) (Z-Library).pdf": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 11753767,
       "exportedPath": "概率统计/概率论教程-(钟开莱,-吴让泉)-(z-library).pdf",
       "dependencies": []
     },
     "lib/media/pasted-image-20241004230836.png": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 129926,
       "exportedPath": "lib/media/pasted-image-20241004230836.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20241005113337.png": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 18375,
       "exportedPath": "lib/media/pasted-image-20241005113337.png",
       "dependencies": []
     },
     "代数/抽象代数/抽象代数作业 1.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 27882,
       "exportedPath": "代数/抽象代数/抽象代数作业-1.html",
       "dependencies": [
@@ -1718,73 +1722,73 @@
       ]
     },
     "物理/大雾ppt/第七次课.pdf": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 3088723,
       "exportedPath": "物理/大雾ppt/第七次课.pdf",
       "dependencies": []
     },
     "lib/media/pasted-image-20241008101324.png": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 154721,
       "exportedPath": "lib/media/pasted-image-20241008101324.png",
       "dependencies": []
     },
     "lib/media/2294f8a3d523d858e5f8ee3e8d915206_720.jpg": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 140709,
       "exportedPath": "lib/media/2294f8a3d523d858e5f8ee3e8d915206_720.jpg",
       "dependencies": []
     },
     "lib/media/抽象代数-homework1.pdf": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 181437,
       "exportedPath": "lib/media/抽象代数-homework1.pdf",
       "dependencies": []
     },
     "代数/抽象代数/Abstract Algebra Note 4.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 12259,
       "exportedPath": "代数/抽象代数/abstract-algebra-note-4.html",
       "dependencies": []
     },
     "代数/射影空间.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 0,
       "exportedPath": "代数/射影空间.html",
       "dependencies": []
     },
     "分析/常微分方程/ODE Notes 4.5.md": {
-      "modifiedTime": 1730370785779,
-      "sourceSize": 5613,
+      "modifiedTime": 1730444296592,
+      "sourceSize": 11134,
       "exportedPath": "分析/常微分方程/ode-notes-4.5.html",
       "dependencies": []
     },
     "分析/数学分析/Analysis III Note 6.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 6371,
       "exportedPath": "分析/数学分析/analysis-iii-note-6.html",
       "dependencies": []
     },
     "分析/分析-收敛.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 2744,
       "exportedPath": "分析/分析-收敛.html",
       "dependencies": []
     },
     "分析/级数收敛性的判别 2.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 5799,
       "exportedPath": "分析/级数收敛性的判别-2.html",
       "dependencies": []
     },
     "分析/解的存在性与唯一性 1.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 3036,
       "exportedPath": "分析/解的存在性与唯一性-1.html",
       "dependencies": []
     },
     "分析/曲面.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 4449,
       "exportedPath": "分析/曲面.html",
       "dependencies": [
@@ -1792,13 +1796,13 @@
       ]
     },
     "分析/三角级数.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 57,
       "exportedPath": "分析/三角级数.html",
       "dependencies": []
     },
     "分析/正项级数收敛判别法.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 10616,
       "exportedPath": "分析/正项级数收敛判别法.html",
       "dependencies": [
@@ -1807,7 +1811,7 @@
       ]
     },
     "分析/自然对数的底 e.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 2543,
       "exportedPath": "分析/自然对数的底-e.html",
       "dependencies": [
@@ -1815,43 +1819,43 @@
       ]
     },
     "分析/Gauss 判别法.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 0,
       "exportedPath": "分析/gauss-判别法.html",
       "dependencies": []
     },
     "分析/Guess 超几何级数.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 323,
       "exportedPath": "分析/guess-超几何级数.html",
       "dependencies": []
     },
     "分析/Riemann Rearrangement 黎曼重排.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 0,
       "exportedPath": "分析/riemann-rearrangement-黎曼重排.html",
       "dependencies": []
     },
     "分析/Weierstrass Uniform Convergence Theorem.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 1086,
       "exportedPath": "分析/weierstrass-uniform-convergence-theorem.html",
       "dependencies": []
     },
     "拓扑/Topology Space.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 1622,
       "exportedPath": "拓扑/topology-space.html",
       "dependencies": []
     },
     "物理/大雾ppt/第八次课.pdf": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 4228081,
       "exportedPath": "物理/大雾ppt/第八次课.pdf",
       "dependencies": []
     },
     "物理/大学物理（2） 笔记 6.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 3257,
       "exportedPath": "物理/大学物理（2）-笔记-6.html",
       "dependencies": [
@@ -1861,7 +1865,7 @@
       ]
     },
     "物理/大学物理（2） 笔记 7.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 1087,
       "exportedPath": "物理/大学物理（2）-笔记-7.html",
       "dependencies": [
@@ -1876,219 +1880,201 @@
       ]
     },
     "MathStuff/微积分第三次补充题目.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 12267,
       "exportedPath": "mathstuff/微积分第三次补充题目.html",
       "dependencies": []
     },
     "lib/media/pasted-image-20241010095524.png": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 188258,
       "exportedPath": "lib/media/pasted-image-20241010095524.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20241010095649.png": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 104202,
       "exportedPath": "lib/media/pasted-image-20241010095649.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20241010095805.png": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 90124,
       "exportedPath": "lib/media/pasted-image-20241010095805.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20241010100014.png": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 7785,
       "exportedPath": "lib/media/pasted-image-20241010100014.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20241010101309.png": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 8394,
       "exportedPath": "lib/media/pasted-image-20241010101309.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20241010101322.png": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 26880,
       "exportedPath": "lib/media/pasted-image-20241010101322.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20241010101634.png": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 52633,
       "exportedPath": "lib/media/pasted-image-20241010101634.png",
       "dependencies": []
     },
     "分析/数学分析/Analysis III Note 7.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 3037,
       "exportedPath": "分析/数学分析/analysis-iii-note-7.html",
       "dependencies": []
     },
     "分析/收敛越来越快的级数.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 1717,
       "exportedPath": "分析/收敛越来越快的级数.html",
       "dependencies": []
     },
     "MathStuff/未命名.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 0,
       "exportedPath": "mathstuff/未命名.html",
       "dependencies": []
     },
-    "MathStuff/Sapagof 判别法.md": {
-      "modifiedTime": 1730370785779,
-      "sourceSize": 1,
-      "exportedPath": "mathstuff/sapagof-判别法.html",
-      "dependencies": []
-    },
     "lib/media/recording-20241011165516.webm": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 243468,
       "exportedPath": "lib/media/recording-20241011165516.webm",
       "dependencies": []
     },
     "分析/常微分方程/ODE Notes 5.md": {
-      "modifiedTime": 1730370785779,
-      "sourceSize": 5577,
+      "modifiedTime": 1730444296592,
+      "sourceSize": 5575,
       "exportedPath": "分析/常微分方程/ode-notes-5.html",
       "dependencies": [
         "lib/media/recording-20241011165516.webm"
       ]
     },
-    "MathStuff/抽象代数作业 2.md": {
-      "modifiedTime": 1730370785779,
-      "sourceSize": 20954,
-      "exportedPath": "mathstuff/抽象代数作业-2.html",
-      "dependencies": []
-    },
     "代数/抽象代数/Abstract Algebra Note 5.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 4077,
       "exportedPath": "代数/抽象代数/abstract-algebra-note-5.html",
       "dependencies": []
     },
     "分析/常微分方程/ODE Notes 6.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 6343,
       "exportedPath": "分析/常微分方程/ode-notes-6.html",
       "dependencies": []
     },
     "分析/数学分析/Analysis III Note 8.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 4668,
       "exportedPath": "分析/数学分析/analysis-iii-note-8.html",
       "dependencies": []
     },
     "概率统计/《概率论教程》讨论班 1.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 866,
       "exportedPath": "概率统计/《概率论教程》讨论班-1.html",
       "dependencies": []
     },
     "物理/大学物理（2） 笔记 8.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 3274,
       "exportedPath": "物理/大学物理（2）-笔记-8.html",
       "dependencies": []
     },
     "MathStuff/马原.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 1815,
       "exportedPath": "mathstuff/马原.html",
       "dependencies": []
     },
     "MathStuff/马原2.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 4205,
       "exportedPath": "mathstuff/马原2.html",
       "dependencies": []
     },
     "MathStuff/马原3.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 2587,
       "exportedPath": "mathstuff/马原3.html",
       "dependencies": []
     },
     "MathStuff/马原4.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 8199,
       "exportedPath": "mathstuff/马原4.html",
       "dependencies": []
     },
     "MathStuff/大学物理（2） 笔记 9.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 120,
       "exportedPath": "mathstuff/大学物理（2）-笔记-9.html",
       "dependencies": []
     },
     "MathStuff/马原5.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 0,
       "exportedPath": "mathstuff/马原5.html",
       "dependencies": []
     },
-    "MathStuff/Abstract Algebra Note 6.md": {
-      "modifiedTime": 1730370785779,
-      "sourceSize": 2746,
-      "exportedPath": "mathstuff/abstract-algebra-note-6.html",
-      "dependencies": []
-    },
     "lib/media/pasted-image-20241019083228.png": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 90583,
       "exportedPath": "lib/media/pasted-image-20241019083228.png",
       "dependencies": []
     },
     "lib/media/pasted-image-20241019083306.png": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 106166,
       "exportedPath": "lib/media/pasted-image-20241019083306.png",
       "dependencies": []
     },
     "分析/常微分方程/ODE Notes 7.md": {
-      "modifiedTime": 1730370785779,
-      "sourceSize": 4119,
+      "modifiedTime": 1730444296592,
+      "sourceSize": 5101,
       "exportedPath": "分析/常微分方程/ode-notes-7.html",
       "dependencies": []
     },
     "分析/常微分方程/ODE Notes 8.md": {
-      "modifiedTime": 1730370785779,
-      "sourceSize": 1661,
+      "modifiedTime": 1730444296592,
+      "sourceSize": 3235,
       "exportedPath": "分析/常微分方程/ode-notes-8.html",
       "dependencies": []
     },
     "分析/常微分方程/ODE Notes 9.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 93,
       "exportedPath": "分析/常微分方程/ode-notes-9.html",
       "dependencies": []
     },
     "分析/数学分析/Analysis III Note 9.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 6668,
       "exportedPath": "分析/数学分析/analysis-iii-note-9.html",
       "dependencies": []
     },
     "分析/数学分析/Analysis III Note 10.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 77,
       "exportedPath": "分析/数学分析/analysis-iii-note-10.html",
       "dependencies": []
     },
     "概率统计/《概率论教程》读书笔记 2.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 3196,
       "exportedPath": "概率统计/《概率论教程》读书笔记-2.html",
       "dependencies": []
     },
     "概率统计/《概率论教程》讨论班 2.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 2422,
       "exportedPath": "概率统计/《概率论教程》讨论班-2.html",
       "dependencies": [
@@ -2097,39 +2083,83 @@
       ]
     },
     "MathStuff/常微分方程解的唯一性.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 848,
       "exportedPath": "mathstuff/常微分方程解的唯一性.html",
       "dependencies": []
     },
     "MathStuff/微积分期中考试供题.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 1170,
       "exportedPath": "mathstuff/微积分期中考试供题.html",
       "dependencies": []
     },
     "MathStuff/未命名 1.md": {
-      "modifiedTime": 1730370785779,
+      "modifiedTime": 1730444296592,
       "sourceSize": 0,
       "exportedPath": "mathstuff/未命名-1.html",
       "dependencies": []
     },
-    "MathStuff/Abstract Algebra Note 7.md": {
-      "modifiedTime": 1730370785779,
+    "代数/抽象代数/抽象代数作业 2.md": {
+      "modifiedTime": 1730444296592,
+      "sourceSize": 20954,
+      "exportedPath": "代数/抽象代数/抽象代数作业-2.html",
+      "dependencies": []
+    },
+    "代数/抽象代数/Abstract Algebra Note 6.md": {
+      "modifiedTime": 1730444296592,
+      "sourceSize": 2746,
+      "exportedPath": "代数/抽象代数/abstract-algebra-note-6.html",
+      "dependencies": []
+    },
+    "代数/抽象代数/Abstract Algebra Note 7.md": {
+      "modifiedTime": 1730444296592,
       "sourceSize": 4403,
-      "exportedPath": "mathstuff/abstract-algebra-note-7.html",
+      "exportedPath": "代数/抽象代数/abstract-algebra-note-7.html",
       "dependencies": []
     },
-    "MathStuff/Abstract Algebra Note 8.md": {
-      "modifiedTime": 1730370785779,
+    "代数/抽象代数/Abstract Algebra Note 8.md": {
+      "modifiedTime": 1730444296592,
       "sourceSize": 145,
-      "exportedPath": "mathstuff/abstract-algebra-note-8.html",
+      "exportedPath": "代数/抽象代数/abstract-algebra-note-8.html",
       "dependencies": []
     },
-    "MathStuff/Gronwall's Lemma.md": {
-      "modifiedTime": 1730370785779,
-      "sourceSize": 1908,
-      "exportedPath": "mathstuff/gronwall's-lemma.html",
+    "分析/Change of variables.md": {
+      "modifiedTime": 1730444296592,
+      "sourceSize": 578,
+      "exportedPath": "分析/change-of-variables.html",
+      "dependencies": []
+    },
+    "分析/Gronwall's Lemma.md": {
+      "modifiedTime": 1730444296592,
+      "sourceSize": 2686,
+      "exportedPath": "分析/gronwall's-lemma.html",
+      "dependencies": []
+    },
+    "分析/Lipschitz 连续.md": {
+      "modifiedTime": 1730444296592,
+      "sourceSize": 880,
+      "exportedPath": "分析/lipschitz-连续.html",
+      "dependencies": [
+        "lib/media/da5b31d40d1ad12effc676e5f42e94f7_720-1.jpg"
+      ]
+    },
+    "分析/Picard-Lindelöf.md": {
+      "modifiedTime": 1730444296592,
+      "sourceSize": 5055,
+      "exportedPath": "分析/picard-lindelöf.html",
+      "dependencies": []
+    },
+    "分析/Sapagof 判别法.md": {
+      "modifiedTime": 1730444296592,
+      "sourceSize": 1,
+      "exportedPath": "分析/sapagof-判别法.html",
+      "dependencies": []
+    },
+    "lib/media/da5b31d40d1ad12effc676e5f42e94f7_720-1.jpg": {
+      "modifiedTime": 1730444296592,
+      "sourceSize": 172186,
+      "exportedPath": "lib/media/da5b31d40d1ad12effc676e5f42e94f7_720-1.jpg",
       "dependencies": []
     }
   }
