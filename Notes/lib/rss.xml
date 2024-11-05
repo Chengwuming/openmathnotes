@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[LogseqVault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>LogseqVault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Sun, 03 Nov 2024 14:01:20 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Sun, 03 Nov 2024 13:55:13 GMT</pubDate><copyright><![CDATA[Chengwuming]]></copyright><ttl>60</ttl><dc:creator>Chengwuming</dc:creator><item><title><![CDATA[抽象代数课程定义及记号表]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[LogseqVault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>LogseqVault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 05 Nov 2024 07:13:05 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 05 Nov 2024 07:11:17 GMT</pubDate><copyright><![CDATA[Chengwuming]]></copyright><ttl>60</ttl><dc:creator>Chengwuming</dc:creator><item><title><![CDATA[抽象代数课程定义及记号表]]></title><description><![CDATA[ 
  <br>
 <br>射影空间 ，其中  是一个 -线性空间，定义为其上一维线性子空间的集合。
 <br>域扩张：  是  的子域，称  是  的扩张，记作ee mathjax 不太支持。
@@ -224,7 +224,7 @@
 <br><br>
 我们考虑 ，里面有  个元素，考虑  在其上的作用，可以诱导出单射 ， 有120个元素，而<br>
  即视为 ，从而找到了一个  的子群 ，由于大群的作用是传递的，所以这个子群的作用自然是传递的，但是你想到的  的6个自然的子群  的作用都不是传递的（考虑和  的同构）。
-<br>GL(2;F5)SP(F5)PGL(2;F5)¿¼~¿<br><br>
+<br>        GL(2;F5)        SP(F5)        PGL(2;F5)                      ¿                     ¼                     ~¿       <br><br>
 <br>令 ，那么  作用在左陪集上（通过左乘法），这就给出了一个传递的群作用。
 <br>如果是子群  以相同的方式作用，那么这个作用未必是传递的。
 <br>子群  的稳定化子 
@@ -311,7 +311,7 @@ p-群  对自身的共轭作用得到的轨道就是共轭类 ，且作用  上�
 <br>首先 ，其次  ，最后 。这就足以推出 。<br>我们现在可以举例，手动找到两个 5-sylow，比如  和  生成的子群，说服自己这两个生成的子群不一样，那么  只能是6。<br>或者只有一个正规子群是 ，从而。。。<br>令  作用在  上，其中  是 5-Sylow，作用由共轭给出。<br>换言之我们得到<br>
 断言  是单射，不然 ，且这个核是正规子群，所以 ，这是不可能的，因为 ，但是我们知道  的作用传递，所以其作用在  的轨道上有 6 个元素，所以 ，所以  就是单射，从而  在  中作为一个子群，其在  的作用是传递的，所以得到  不是那些简单的子群。<br><br>正六面体和正八面体同构。<br>我们研究这些东西的对称群。<br><br><br>研究了以下  是啥，这里回忆到高代。。<br>有趣的问题是 两个不同轴的旋转复合之后的旋转是什么？<br>回到正题，这玩意的对称：单位，固定一个点得到的轴，能转两下，8个，一对边的中点连线为轴，旋转，3个，现在总共有12个元素了。<br>事实上有 ，考虑  正四面体的顶点集上的作用<br>
 首先这是一个单射，看看这玩意的像，因为已知已经有了12个元素了，所以  要12个元素，要么24个元素。<br>不能是24个！不然 ，我们取一个  的对换，这将会摧毁这个正四面体。<br>于是 ，注意到  包含了所有三循环，但是三循环又生成 ，所以最终我们得到了<br>
-<br><br>数一数：有多少个旋转？容易数出来24个。<br>我们希望 <br>构造映射  ，将对角的四根线进行置换，换言之有群作用 首先  包含所有的三循环，所以 。并且我们可以找到一个对换，所以只能有 ，最后， 是单射，这是因为<br><br>数一数<br>1821067935140<br>有 60 个对称。<br>好好体会一下这样直观的感觉是怎么落实到数学证明上的。参考讲义。<br>
+<br><br>数一数：有多少个旋转？容易数出来24个。<br>我们希望 <br>构造映射  ，将对角的四根线进行置换，换言之有群作用 首先  包含所有的三循环，所以 。并且我们可以找到一个对换，所以只能有 ，最后， 是单射，这是因为<br><br>数一数<br>        1        8        2        10        6        7        9        3        5        1        4        0                                                                                                                                                                                                                                                                                                                                                                                                                                      <br>有 60 个对称。<br>好好体会一下这样直观的感觉是怎么落实到数学证明上的。参考讲义。<br>
 <br>首先这六十个元素生成 
 <br>其次  作用在  是传递的。从而
 <br>最后 
@@ -335,7 +335,7 @@ p-群  对自身的共轭作用得到的轨道就是共轭类 ，且作用  上�
 <br> 和   对应起来<br>Dictum
 1821067935140
 <br>我们考虑单射 ，取 有 <br>
-在  中有 <br><br>这个对应的表示 <br>S12SXA5Sym¤(I)PSL(2;F11)hg1;g2i=:H'µµµµµ<br>我们可以证明 <br><a data-href="Abstract Algebra Note 6" href="代数\抽象代数\abstract-algebra-note-6.html" class="internal-link" target="_self" rel="noopener">Abstract Algebra Note 6</a>]]></description><link>代数\抽象代数\abstract-algebra-note-5.html</link><guid isPermaLink="false">代数/抽象代数/Abstract Algebra Note 5.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 17 Oct 2024 00:00:01 GMT</pubDate></item><item><title><![CDATA[Abstract Algebra Note 6]]></title><description><![CDATA[<a class="tag" href="?query=tag:抽象代数" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#抽象代数</a> <a class="tag" href="?query=tag:代数" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#代数</a> 
+在  中有 <br><br>这个对应的表示 <br>        S12        SX        A5        Sym¤(I)        PSL(2;F11)        hg1;g2i=:H                                   '                     µ                     µ                     µ                     µ                     µ       <br>我们可以证明 <br><a data-href="Abstract Algebra Note 6" href="代数\抽象代数\abstract-algebra-note-6.html" class="internal-link" target="_self" rel="noopener">Abstract Algebra Note 6</a>]]></description><link>代数\抽象代数\abstract-algebra-note-5.html</link><guid isPermaLink="false">代数/抽象代数/Abstract Algebra Note 5.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 17 Oct 2024 00:00:01 GMT</pubDate></item><item><title><![CDATA[Abstract Algebra Note 6]]></title><description><![CDATA[<a class="tag" href="?query=tag:抽象代数" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#抽象代数</a> <a class="tag" href="?query=tag:代数" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#代数</a> 
  <br>@2024-10-17，@
 <a href=".?query=tag:抽象代数" class="tag" target="_blank" rel="noopener">#抽象代数</a> <a href=".?query=tag:代数" class="tag" target="_blank" rel="noopener">#代数</a><br>
 <a data-href="Abstract Algebra Note 5" href="代数\抽象代数\abstract-algebra-note-5.html" class="internal-link" target="_self" rel="noopener">Abstract Algebra Note 5</a>
@@ -409,12 +409,12 @@ p-群  对自身的共轭作用得到的轨道就是共轭类 ，且作用  上�
 <a data-href="小学期学分来源的Jordan标准型报告.pdf" href="敲敲latex\小学期学分来源的jordan标准型报告.pdf" class="internal-link" target="_self" rel="noopener">小学期学分来源的Jordan标准型报告.pdf</a><br>证明：参考 P.I.D 上的有限生成模的分类。<br>有限生成交换群就是  这个主理想整环上的有限生成模。<br><br>我还以为马上开干主定理了，结果没开始就结束了。<br>本节课里的理想要求 。<br>yp：理想是一个形容词，比如考入理想的大学——北京大学（台下哄笑）<br>
 <br> 是环，  是双边理想，那么  可以自然地构造环结构。
 <br>命题
- 是环， 是双边理想，  是环同态。若 ，那么存在唯一的环同态  使得图交换。<br>
-交换图<br>
+ 是环， 是双边理想，  是环同态。若 ，那么存在唯一的环同态  使得图交换。
+        A        B        A=I                      '                     ¼                     ~'       
 进一步，  是环同构。
 <br>
 <br>
-整环 ：若  或 
+整环 ：若  或  （注意要求是交换环）
 
 <br>
  是素理想，若  或 
@@ -423,12 +423,40 @@ p-群  对自身的共轭作用得到的轨道就是共轭类 ，且作用  上�
  是极大理想，如果任意的  是理想，就有 ，注意这和  之间的差别。
 
 <br>例子：  ， ， ，请 验证这是一个极大理想。<br>定理 
-环模掉极大理想得到一个域。
-<br>请去证明！<br><a data-href="Abstract Algebra Note 8" href="代数\抽象代数\abstract-algebra-note-8.html" class="internal-link" target="_self" rel="noopener">Abstract Algebra Note 8</a>]]></description><link>代数\抽象代数\abstract-algebra-note-7.html</link><guid isPermaLink="false">代数/抽象代数/Abstract Algebra Note 7.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 22 Oct 2024 06:15:48 GMT</pubDate></item><item><title><![CDATA[Abstract Algebra Note 8]]></title><description><![CDATA[ 
- <br>@2024-10-28，理想，欧几里得整环，唯一分解整环@
 
+<br>环模掉素理想是整环
+<br>环模掉极大理想得到一个域。
+
+<br>试想，如果任意任意两个非零元相乘都不是非零元，这就是说明两个不落在素理想的东西乘起来不落在素理想中，所以把素理想模掉自然得到一个整环。另一方面，如果商环是整环，那么  等价于  中 ，所以一定有  或者 。<br>事实上有限元素的整环是域，因为如此的映射一定是单射： 那么其满射说明这存在  使得 ，这就是  的逆元。而配备除法的整环就是域。<br>极大理想的定义，我们随便再找一个 ，从而  是一个包含  的理想，从而得到一个是环本身。这很有用。<br>比如为什么模掉一个极大理想达到域？  里面一定包含 ，如果把  认为是 ，那么 任意  一定存在 这体现着可逆性。<br>极大理想还是素理想，将任取的  写成 ，那么 从而 。<br><br>理想可以加起来，乘起来，而且 理想越乘越小，越加越大。<br>定理 
+ 是主理想整环。
+<br>任取理想  ，设 ，令 ，这里用到了  的本质属性，从而这样的  就生成整个理想。因为对于任意的 ，我们有  只能是 0。所以 。<br>定理 
+任意理想都存在一个包含他的极大理想（不等于 ）
+<br>中国剩余定理
+ 是交换环， ，现在  是两两互素的理想，那么 进一步，自然的环同态  是满射。由于我们显然这样的映射的核是所有理想的交，从而我们得到同构 
+<br>作为常见的应用，我们有 这里 ，两两互素。<br>证明
+使用归纳法。由于 ，我们证明反向的包含关系。
+<br>证明<br><a data-href="Abstract Algebra Note 8" href="代数\抽象代数\abstract-algebra-note-8.html" class="internal-link" target="_self" rel="noopener">Abstract Algebra Note 8</a>]]></description><link>代数\抽象代数\abstract-algebra-note-7.html</link><guid isPermaLink="false">代数/抽象代数/Abstract Algebra Note 7.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Mon, 04 Nov 2024 06:56:43 GMT</pubDate></item><item><title><![CDATA[Abstract Algebra Note 8]]></title><description><![CDATA[<a class="tag" href="?query=tag:抽象代数" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#抽象代数</a> 
+ <br>@2024-10-28，理想，欧几里得整环，唯一分解整环@
+<a href=".?query=tag:抽象代数" class="tag" target="_blank" rel="noopener">#抽象代数</a><br>
 <a data-href="Abstract Algebra Note 7" href="代数\抽象代数\abstract-algebra-note-7.html" class="internal-link" target="_self" rel="noopener">Abstract Algebra Note 7</a>
-<br><a data-href="Abstract Algebra Note 9" href="Abstract Algebra Note 9" class="internal-link" target="_self" rel="noopener">Abstract Algebra Note 9</a>]]></description><link>代数\抽象代数\abstract-algebra-note-8.html</link><guid isPermaLink="false">代数/抽象代数/Abstract Algebra Note 8.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 29 Oct 2024 09:40:01 GMT</pubDate></item><item><title><![CDATA[作业9]]></title><description><![CDATA[ 
+<br><br>我们有这样几类元素：建立在整除关系上的 素元，如果  则说明  或者 ；建立在是否能在乘法意义下继续分解的 不可约元，如果 ，则一定有  或者 。<br>等价的来说，如果  说明 ，也就说明 。元素越细，生成理想越大。<br>
+ 是素元等价于  是素理想。<br>素元一定是不可约的，主理想整环上素元和不可约元等价。<br>主理想整环上素元和不可约元等价
+只需证明不可约元是素元。现在设  是不可约元。我们看 ，我们知道包含他的极大理想是主理想 ，从而存在 ，并且 ，所以 ，从而 ，由于极大理想是素理想，所以  是素元。
+<br>因为  是不可约元，从而其所处的某一个理想中的表示形式是两数乘积，一个数落在  中，一个数落在理想  中，而  里面没有 unit，所以一个是  中的那个元素是 unit，换言之  和极大理想的生成元只相差一个 unit，从而 。<br>
+<br>简单说一下为什么素元不可约：  说明 （不妨），那么 ，只能是  可逆的情况。
+<br><br>我们有这样几类环：唯一分解整环，主理想整环，Euclid 整环。越来越小，性质很好。<br>推论
+主理想整环上的非零素理想是极大理想。
+<br>上述定理证明已经给出。<br>
+<br>做了一个域扩张 
+<br>Euclid 整环
+Euclid 整环是配备了范数的整环 并且满足 
+
+<br>
+<br>任意的 ，存在  使得 ，并且  或者  成立。这里严格小于保证了可以辗转相除。
+
+<br>对任意的 Euclid 整环中的理想  ，考虑  中范数最小的那个非零元素，不妨 ，从而对于任意的 ，存在 ，如果 ，显然有 ，从而由  的最小性可知 ，从而 。也就是 Euclid 整环是主理想整环。<br>唯一分解整环 
+对于任意排除 0 和  后  中的元素 ，存在一些不可约元  使得 ，并且以上的分解再伴随的意义下唯一。
+<br>唯一分解整环中的素元等价于不可约元。因为其中的素元  考虑其生成的理想 ，那么对任意的 ，如果 ，即存在  使得 ，不妨设 ，那么存在他们的分解，<br><a data-href="Abstract Algebra Note 9" href="mathstuff\abstract-algebra-note-9.html" class="internal-link" target="_self" rel="noopener">Abstract Algebra Note 9</a>]]></description><link>代数\抽象代数\abstract-algebra-note-8.html</link><guid isPermaLink="false">代数/抽象代数/Abstract Algebra Note 8.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Mon, 04 Nov 2024 12:14:28 GMT</pubDate></item><item><title><![CDATA[作业9]]></title><description><![CDATA[ 
  <br>
 <br>
 <img alt="Pasted image 20240513205638.png" src="lib\media\pasted-image-20240513205638.png">
@@ -1363,7 +1391,7 @@ we define By definition of , for , there exists  is a solution to  on <br>If <br
 定义 对其求导 因此 这就得到 进一步，我们有 对于任意 ，对上式从  到  积分得 注意到 我们得到 
 <br>感觉无法理解这个证明，这都是怎么想到的？<br>主定理
 假设  关于  连续可微，关于  连续，这里 ，那么定义 其中 那么存在一个解  关于方程 并且  关于  是 ，  是  的。当然以上都是你所熟知（不熟知就去学，不然要寄）的存在性定理，进一步的，我们知道  是一下方程的一个解 并且  是关于  连续，关于  连续可微。
-<br>记 ，我们已经知道存在  上的一个解  并且有光滑性。<br>第一步<br>定义 ，那么 ，我们得到  的估计， 由上次的推论，我们知道存在映射 ，使得满足 <br>第二步<br>我们说明这个解就是 。<br>接下来我们取定  和 ，那么对任意的 ，我们有 从而  是良好定义的。我们定义 那么  光滑，来看 这里 定义 ，注意由于凸性，红色是良好定义的（在  的定义域里）<br> 的一致连续性得， 红色部分和  差不多，进一步由  的一直连续性，知道 。<br>第三步<br>我们把  的不等式估计一下， 从而我们最开始的估计 并且 ，从而我们可以使用引理 令  我们有 ，对比式子就知道这说明对任意的 ，  我们有 这就证明了定理。<br>这个定理中的一些构造依然把握不住。]]></description><link>分析\常微分方程\ode-notes-9.html</link><guid isPermaLink="false">分析/常微分方程/ODE Notes 9.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sun, 03 Nov 2024 04:06:37 GMT</pubDate></item><item><title><![CDATA[复分析做题日记]]></title><description><![CDATA[ 
+<br>记 ，我们已经知道存在  上的一个解  并且有光滑性。<br>第一步<br>定义 ，那么 ，我们得到  的估计， 由上次的推论，我们知道存在映射 ，使得满足 <br>第二步<br>我们说明这个解就是 。<br>接下来我们取定  和 ，那么对任意的 ，我们有 从而  是良好定义的。我们定义 那么  光滑，来看 这里 定义 ，注意由于凸性，红色是良好定义的（在  的定义域里）<br> 的一致连续性得， 红色部分和  差不多，进一步由  的一直连续性，知道 。<br>第三步<br>我们把  的不等式估计一下， 从而我们最开始的估计 并且 ，从而我们可以使用引理 令  我们有 ，对比式子就知道这说明对任意的 ，  我们有 这就证明了定理。<br>这个定理中的一些构造依然把握不住。]]></description><link>分析\常微分方程\ode-notes-9.html</link><guid isPermaLink="false">分析/常微分方程/ODE Notes 9.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 05 Nov 2024 07:12:51 GMT</pubDate></item><item><title><![CDATA[复分析做题日记]]></title><description><![CDATA[ 
  <br><br>7.11。一个简洁的写法： 复数  共线的充要条件：<br><br>题目数量统计
 
 <br>
@@ -2141,17 +2169,22 @@ f
 显然余项趋于 0。<br><br><br><br><br><br><br>特别的， 。<br><br>去尝试自己书写这个的证明！<br>HINT
 使用 Cauchy 余项
 <br><a data-href="Analysis III Note 8" href="分析\数学分析\analysis-iii-note-8.html" class="internal-link" target="_self" rel="noopener">Analysis III Note 8</a>]]></description><link>分析\数学分析\analysis-iii-note-7.html</link><guid isPermaLink="false">分析/数学分析/Analysis III Note 7.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Mon, 14 Oct 2024 07:08:25 GMT</pubDate></item><item><title><![CDATA[Analysis III Note 8]]></title><description><![CDATA[<a class="tag" href="?query=tag:数学分析" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#数学分析</a> <a class="tag" href="?query=tag:分析" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#分析</a> 
- <br>@2024-10-16，@
+ <br>@2024-10-16，幂级数，多项式逼近@
 <a href=".?query=tag:数学分析" class="tag" target="_blank" rel="noopener">#数学分析</a> <a href=".?query=tag:分析" class="tag" target="_blank" rel="noopener">#分析</a><br>
 <a data-href="Analysis III Note 7" href="分析\数学分析\analysis-iii-note-7.html" class="internal-link" target="_self" rel="noopener">Analysis III Note 7</a>
 <br><br>...<br><br>定义 
 在  处解析即意味着在这一点可以被展开成幂级数。
-<br>定理 
+<br>显然解析推出存在任意阶导数。<br>定理 
  在  的某邻域内有定义，在  解析，且 ，则  在  处也解析
-<br>写成 Cauchy 乘积，你可以直接解出来对应的系数。<br>
-<br>Weierstrasss逼近定理，Bernstein证明
-<br>题目：结合课堂讲解，运用马克思主义基本原理分析近代中国从“洋务运动”到“戊戌变法”再到“五四新文化运动”的历史变迁过程。<br>参考标准：<br>（一）有一种观点认为，社会由“器物”“制度”和“观念”构成。（2分）其中，观点是制度的基础，观念决定制度建构；制度是社会秩序和器物的保障，制度决定社会秩序和器物生产。（3分）<br>洋务运动是器物层面的变革，戊戌变法是制度层面的变革，而五四新文化运动则是观念层面的变革。（3分）这是一个由表及里、由浅入深、不断触及社会本质的过程。（2分）<br>这是一种典型的唯心史观。（2分）<br>（二）在唯物史观视域中，社会由经济、政治和文化构成。（2分）<br>经济是生产力和生产关系的统一体。（2分）生产力是在人与自然进行物质能量变换过程中所产生的力量，生产关系则是在物质生产中结成的人与人之间的权力-支配关系，由生产资料的所有权（力）关系和劳动产品的分配权（力）关系构成。（3分）政治是以国家和法律形式存在的暴力机构。（2分）文化则是一种共识性的观念。（2分）<br>在经济中，生产力是内容，生产关系是形式；生产力决定生产关系，生产关系必须与生产力的发展相适应。（3分）经济是政治的内容，经济决定政治，政治必须与经济的发展相适应。（3分）经济和政治是内容，文化是形式，文化必须与经济发展和政治要求相适应。（3分）内容与形式的关系就如同人的身体与衣服的关系。（2分）<br>近代中国从“洋务运动”到“戊戌变法”再到“五四新文化运动”的历史变迁过程，与其说是从现象到本质不断深入的过程，毋宁说是在现代生产力发展要求（这是关乎民族生存的问题）的推动下从各个方面不断展开的过程。<br>（三）落后就要挨打。经过两次鸦片战争，西方工业生产力（坚船利炮和物美价廉的工业产品）战胜了清朝的农业和手工业生产力，由此推动洋务派以官办、官督商办和官商合办等形式兴办西式工业，向西方先进生产技术学习，以推动生产力的发展。（3分）但由于既未触动封建生产关系（农业中的封建土地私有制和工业中封建官僚对生产力的控制），更未触动封建政治关系和文化关系，最终以失败而告终。（3分）<br>在洋务运动后期，在“民富”（前期重点落实“国强”）的变革诉求下，资本主义生产关系（雇佣劳动关系）和民族资产阶级得以形成。戊戌变法提出“开国会、定宪法、兴民权”，以资产阶级君主立宪制度取代封建主义君主专制制度，则是在谋求建立与资本主义经济发展要求相适应的政治关系和政治制度。（3分）但资本主义经济力量的薄弱，决定了资产阶级力量的软弱不堪，难以与封建土地私有制支撑下强大的封建力量相抗衡，最终也以失败而告终。（3分）<br>辛亥革命推翻了两千多年的封建君主专制制度，建立起资产阶级的民主共和国，民族资产阶级以独立的政治力量登上历史舞台。但以君臣父子等级观念为内核的儒家道统（文化形式）严重制约着民族资本主义经济的发展和政治制度的建设。（3分）如果说五四之前的新文化运动倡导“民主、科学”理念，是资产阶级新文化向封建旧文化发起的冲击，是“一战”期间中国民族资产阶级（随着资本主义经济和政治的发展）得以壮大的文化表现；那么，五四新文化运动则带来了马克思主义和社会主义理念，是中国无产阶级（随着资产阶级力量的增强）不断成长壮大的文化表现，也是苏俄十月社会主义革命（道路）影响的结果，更是西方列强在经济上压制中国发展资本主义的产物。（3分）<br>（四）语言与逻辑（8分）<br><a data-href="Analysis III Note 9" href="分析\数学分析\analysis-iii-note-9.html" class="internal-link" target="_self" rel="noopener">Analysis III Note 9</a>]]></description><link>分析\数学分析\analysis-iii-note-8.html</link><guid isPermaLink="false">分析/数学分析/Analysis III Note 8.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 16 Oct 2024 06:05:09 GMT</pubDate></item><item><title><![CDATA[Analysis III Note 9]]></title><description><![CDATA[<a class="tag" href="?query=tag:数学分析" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#数学分析</a> <a class="tag" href="?query=tag:分析" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#分析</a> <a class="tag" href="?query=tag:函数空间" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#函数空间</a> <a class="tag" href="?query=tag:稠密" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#稠密</a> <a class="tag" href="?query=tag:周一" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#周一</a> 
- <br>@2024-10-21，Weierstrass-Stone，Miinty@
+<br>写成 Cauchy 乘积，你可以直接解出来对应的系数。<br>由于解析，我们写 不妨设 ，同时设  的展开对应系数 ，那么我们在  的一个邻域里面有 这就能推出 如此我们就反解出来了 <br>
+<br>
+我们研究收敛性。设原来的收敛半径 ，那么  有一个上界估计 
+
+<br>
+Weierstrasss逼近定理，Bernstein证明
+
+<br><a data-href="Weierstrass-Stone" href="Weierstrass-Stone" class="internal-link" target="_self" rel="noopener">Weierstrass-Stone</a><br><a data-href="Analysis III Note 9" href="分析\数学分析\analysis-iii-note-9.html" class="internal-link" target="_self" rel="noopener">Analysis III Note 9</a>]]></description><link>分析\数学分析\analysis-iii-note-8.html</link><guid isPermaLink="false">分析/数学分析/Analysis III Note 8.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 05 Nov 2024 04:43:57 GMT</pubDate></item><item><title><![CDATA[Analysis III Note 9]]></title><description><![CDATA[<a class="tag" href="?query=tag:数学分析" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#数学分析</a> <a class="tag" href="?query=tag:分析" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#分析</a> <a class="tag" href="?query=tag:函数空间" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#函数空间</a> <a class="tag" href="?query=tag:稠密" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#稠密</a> <a class="tag" href="?query=tag:周一" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#周一</a> 
+ <br>@2024-10-21，Weierstrass-Stone，Munty@
 <a href=".?query=tag:数学分析" class="tag" target="_blank" rel="noopener">#数学分析</a> <a href=".?query=tag:分析" class="tag" target="_blank" rel="noopener">#分析</a> <a href=".?query=tag:函数空间" class="tag" target="_blank" rel="noopener">#函数空间</a> <a href=".?query=tag:稠密" class="tag" target="_blank" rel="noopener">#稠密</a> <a href=".?query=tag:周一" class="tag" target="_blank" rel="noopener">#周一</a><br>
 <a data-href="Analysis III Note 8" href="分析\数学分析\analysis-iii-note-8.html" class="internal-link" target="_self" rel="noopener">Analysis III Note 8</a>
 <br>我们愿意回顾上次课内容。<br>定理 Weierstrass 逼近定理
@@ -2214,11 +2247,40 @@ f
 
 
 由于 ，从而 
-<br><a data-href="Analysis III Note 10" href="分析\数学分析\analysis-iii-note-10.html" class="internal-link" target="_self" rel="noopener">Analysis III Note 10</a>]]></description><link>分析\数学分析\analysis-iii-note-9.html</link><guid isPermaLink="false">分析/数学分析/Analysis III Note 9.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 23 Oct 2024 05:17:44 GMT</pubDate></item><item><title><![CDATA[Analysis III Note 10]]></title><description><![CDATA[<a class="tag" href="?query=tag:数学分析" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#数学分析</a> <a class="tag" href="?query=tag:分析" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#分析</a> 
- <br>@2024-10-23，@
+<br><a data-href="Analysis III Note 10" href="分析\数学分析\analysis-iii-note-10.html" class="internal-link" target="_self" rel="noopener">Analysis III Note 10</a>]]></description><link>分析\数学分析\analysis-iii-note-9.html</link><guid isPermaLink="false">分析/数学分析/Analysis III Note 9.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sun, 03 Nov 2024 15:18:43 GMT</pubDate></item><item><title><![CDATA[Analysis III Note 10]]></title><description><![CDATA[<a class="tag" href="?query=tag:数学分析" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#数学分析</a> <a class="tag" href="?query=tag:分析" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#分析</a> 
+ <br>@2024-10-23，含参积分@
 <a href=".?query=tag:数学分析" class="tag" target="_blank" rel="noopener">#数学分析</a> <a href=".?query=tag:分析" class="tag" target="_blank" rel="noopener">#分析</a><br>
 <a data-href="Analysis III Note 9" href="分析\数学分析\analysis-iii-note-9.html" class="internal-link" target="_self" rel="noopener">Analysis III Note 9</a>
-]]></description><link>分析\数学分析\analysis-iii-note-10.html</link><guid isPermaLink="false">分析/数学分析/Analysis III Note 10.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 23 Oct 2024 10:55:07 GMT</pubDate></item><item><title><![CDATA[常微分方程解的唯一性]]></title><description><![CDATA[ 
+<br><br>对于积分 如果 ，那么由一致连续性，我们知道  是连续函数。<br>换言之，对  求极限  可以求到积分号里面。<br>进一步，如果 关于 是连续可微的，那么再紧集上一致连续，我们由  连续可微，并且微分 例如如上的式子，我们得到以下命题，容易遗忘。 <br>命题
+，  是  上的连续函数，且取值于 ，那么 是 上的连续函数，特别的，如果 ，那么  可微并且 
+<br>作为例子，我们计算 首先计算  得到 使用换元 ，我们得到积分即为 你当然知道 从而 ，所以 <br><br>如果希望 能有一定的连续性，那就要额外要求上述极限  关于参数  一致收敛。<br>以下的定理会很多，请背会。<br>定义 
+ 是定义在  上的函数，对任意的 ，广义积分  收敛，如果对任意 的  使得 则称  关于  在  上一致收敛。
+<br>Cauchy 收敛原理
+定义在集合  上的广义积分  关于  在  上一致收敛当且仅当对任意的 ，存在  在  中的一个邻域  使得  时成立 
+<br>这样就把多个极限拆成了不计算极限的形式。<br>我们证明以下 Cauchy 收敛原理。我们定义 ，这里 ，现在假设定理条件成立，存在这样的邻域 ，那么我们知道有充分大的  使得 ，我们取  充分大，落在  中，则 差不多，又  一致收敛到 ，那么 在  充分大时也差不多，所以 <br>Weierstrass
+如果  被一致收敛的  控制，那么  也是一致收敛。
+<br>DIrichlet &amp; Abel
+积分的一项关于参数一致收敛或者一致有界，单独的那个关于  单调递减的一项关于参数一致趋于 0 或者整个有界。
+<br>证明，对任意的  中的 ，由于  关于  单调，我们使用第二积分中值定理  ，  有界当然后者 ，如果 ，或者说关于  的广义积分一致收敛，并且  有界，那么也有后者 。<br>Example
+ 关于  一致收敛， 关于  一致收敛。
+<br><a data-href="Analysis III Note 11" href="分析\数学分析\analysis-iii-note-11.html" class="internal-link" target="_self" rel="noopener">Analysis III Note 11</a>]]></description><link>分析\数学分析\analysis-iii-note-10.html</link><guid isPermaLink="false">分析/数学分析/Analysis III Note 10.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 05 Nov 2024 04:41:24 GMT</pubDate></item><item><title><![CDATA[Analysis III Note 11]]></title><description><![CDATA[<a class="tag" href="?query=tag:数学分析" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#数学分析</a> <a class="tag" href="?query=tag:分析" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#分析</a> <a class="tag" href="?query=tag:广义积分" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#广义积分</a> 
+ <br>@2024-11-05，今天补一下之前 3 次课的笔记@
+<a href=".?query=tag:数学分析" class="tag" target="_blank" rel="noopener">#数学分析</a> <a href=".?query=tag:分析" class="tag" target="_blank" rel="noopener">#分析</a> <a href=".?query=tag:广义积分" class="tag" target="_blank" rel="noopener">#广义积分</a><br>
+<a data-href="Analysis III Note 10" href="分析\数学分析\analysis-iii-note-10.html" class="internal-link" target="_self" rel="noopener">Analysis III Note 10</a>
+<br>我们之前研究广义积分关于参变量的一致收敛性。<br><br>太多定理，根本记不住。<br>定理 1
+设  关于  内闭可积，  是  的一个极限点并且 那么加上一致收敛性条件：  关于参数  一致收敛，并且对于任意  中的 ， 关于  在  上一致成立，那么我们有  在任意区间  上可积并且广义积分可以求进去 
+<br>所以其实条件比你想象地弱一点点，这里只要求  在任意闭区间上一致就可以了。<br>证明
+我们考虑当  趋近  时下式是否能被控制。<br>
+也就是研究
+ 现在取定 ，由于广义积分是关于参数一致收敛的，所以  两部分的上界和其自带参数  无关，不妨 。
+而  关于  是一致的收敛，从而对任意  附近的 ， 项的取值被  控制。从而命题得证。
+zyj的证明：<br>
+利用  上  的一致性，定义的 Riemann 和也是一致的收敛到对应的积分，换言之， 下式由于  的过程中如何分割无关，从而先取 ，LHS是 ，RHS 是 ，得到 进一步，利用  上广义积分收敛的一致性，我们有 
+<br>在应用层面，首先需要函数的极限在内闭区间上一致收敛，比如  连续那么当然有 闭区间上  是一致的。又或者  对于在任意的闭区间里面一致收敛到 ，都是可以的。<br>其次，需要任意参数下广义积分的收敛是一致的。<br>推论 
+ 在  上连续并且积分  关于  一致收敛，则 在  上连续。
+<br>定理 (Dini)
+ 是定义在  上的非负连续函数列，单调递增地收敛到  上的连续函数 ，并且  收敛，那么 
+<br>使用 Dini 定理可知  在任意闭区间内一致收敛到 ，又  以及 Weierstrass 判别法知任意 ，广义积分收敛，而且关于  是一致收敛。从而结合上述定理得证。<br>比如举一个例子， ，在  上单调递增趋于 ，同时  收敛，从而 ]]></description><link>分析\数学分析\analysis-iii-note-11.html</link><guid isPermaLink="false">分析/数学分析/Analysis III Note 11.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 05 Nov 2024 06:15:55 GMT</pubDate></item><item><title><![CDATA[常微分方程解的唯一性]]></title><description><![CDATA[ 
  <br>如果 ，方程  存在解 ，那么做 Change of variable：，那么我们有里  是一个微分同胚，对任意的 ，从而原 ODE 的解是   当且仅当  是方程 的解，这里 ，从而 ，从而方程改写为 从而看作 Autonomous，进而知道解的唯一性。  ]]></description><link>分析\常微分方程解的唯一性.html</link><guid isPermaLink="false">分析/常微分方程解的唯一性.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sun, 27 Oct 2024 14:03:07 GMT</pubDate></item><item><title><![CDATA[单位分解]]></title><description><![CDATA[ 
  <br><br>对于某个紧集 ，其上的开覆盖  存在有限子覆盖，在每个子覆盖的开集上通过<br>]]></description><link>分析\单位分解.html</link><guid isPermaLink="false">分析/单位分解.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 11 Sep 2024 23:39:15 GMT</pubDate></item><item><title><![CDATA[度量空间的完备化]]></title><description><![CDATA[ 
  ]]></description><link>分析\度量空间的完备化.html</link><guid isPermaLink="false">分析/度量空间的完备化.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 10 Sep 2024 15:37:39 GMT</pubDate></item><item><title><![CDATA[分析-收敛]]></title><description><![CDATA[ 
@@ -2502,8 +2564,10 @@ Cauchy 根式判别法应该是最先用的
 (2) 当  发散时， 也发散。
 
 <br>
-
+请叙述 Cauchy 积分判别法。<br>
+=<br>
 设函数  在  上非负且单调递减，则以下无穷级数与无穷积分同敛散：<br>
+
 
 
 <br>
@@ -2524,11 +2588,13 @@ Cauchy 根式判别法应该是最先用的
 若 ，则级数  发散。
 
 <br>
-
+请叙述 Raabe 判别法的内容。<br>
+=<br>
 正项级数  的 Raabe 判别法定义为：<br>
-当  充分大时，<br>
+   当  充分大时，<br>
 (1) 若存在  满足 ，则级数收敛。<br>
 (2) 若 ，则级数发散。
+
 
 <br>
 
@@ -2540,7 +2606,7 @@ Cauchy 根式判别法应该是最先用的
 设正项级数  若<br>
 其中  都是常数， 是一个有界量。则级数的敛散性为：
 
-<br>]]></description><link>分析\正项级数收敛判别法.html</link><guid isPermaLink="false">分析/正项级数收敛判别法.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 18 Sep 2024 06:26:17 GMT</pubDate><enclosure url="lib\media\pasted-image-20240916174049.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240916174049.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[自然对数的底 e]]></title><description><![CDATA[ 
+<br>]]></description><link>分析\正项级数收敛判别法.html</link><guid isPermaLink="false">分析/正项级数收敛判别法.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Mon, 04 Nov 2024 05:52:24 GMT</pubDate><enclosure url="lib\media\pasted-image-20240916174049.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240916174049.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[自然对数的底 e]]></title><description><![CDATA[ 
  <br>我第一次见到  是在小学看《可怕的数学》的时候，那会什么都不懂，只知道这玩意似乎和银行利息计算有一些关系，然后被背会了它的名字”自然对数的底“。当初的感觉，一言以蔽之：高大上。<br>如今，关于  的科普和有趣的例子都非常多了，网上可以找到很多。在这里我记录一些关于  的，以及非常重要的映射  的非平凡的，容易忘记但是比较有趣的内容。<br><br><br>或者通过无穷级数定义：<br><br>关于这两者的等价性，那两波极限的放缩我现在也没有很好的理解，也许哪天搞定了会修改这一部分内容。<br>如果直接从级数角度入手，可以得到 ，用到二项式定理和实数的交换性，其实如果有交换性，你就可以定义一些  之类的东西，比如 ,  代表什么呢？为什么良好定义呢？可以思考一下。<br>关于经典定义 ，这里有一些变种，比如  得到单调递减的数列之类。又或者将  的 换成有理数之类，这些细节应该没有那么重要，如果你未来用到，到时候再复习就好了。<br>其实我最开始意识到自己犯了初学者常见的求极限错误的例子时，就是发现自己把这个极限求成了<br>
 这下笑嘻了，没关系，人总有这样的时候。<br>现在我们一般处理  这种东西的时候，首先考虑的肯定是无脑放到指数上<br>
 <br><br>证明用到  的收敛速度非常之快，事实上有<br>
@@ -3017,11 +3083,11 @@ XZYf±¼¼f
 
 其中  是单位长度内的匝数。
 
-<br>课下去看B0，得到管内磁场的东西。<br><br><br> <br><br><br><br><br><br><a data-href="大学物理（2） 笔记 9" href="物理\大学物理（2）-笔记-9.html" class="internal-link" target="_self" rel="noopener">大学物理（2） 笔记 9</a>]]></description><link>物理\大学物理（2）-笔记-8.html</link><guid isPermaLink="false">物理/大学物理（2） 笔记 8.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Thu, 17 Oct 2024 01:42:02 GMT</pubDate></item><item><title><![CDATA[大学物理（2） 笔记 9]]></title><description><![CDATA[<a class="tag" href="?query=tag:大学物理" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#大学物理</a> <a class="tag" href="?query=tag:磁" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#磁</a> 
+<br>课下去看B0，得到管内磁场的东西。<br><br><br> <br><br><br><br><br><br><br><br><a data-href="大学物理（2） 笔记 9" href="物理\大学物理（2）-笔记-9.html" class="internal-link" target="_self" rel="noopener">大学物理（2） 笔记 9</a>]]></description><link>物理\大学物理（2）-笔记-8.html</link><guid isPermaLink="false">物理/大学物理（2） 笔记 8.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Mon, 04 Nov 2024 05:51:08 GMT</pubDate></item><item><title><![CDATA[大学物理（2） 笔记 9]]></title><description><![CDATA[<a class="tag" href="?query=tag:大学物理" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#大学物理</a> <a class="tag" href="?query=tag:磁" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#磁</a> 
  <br>@2024-10-17，磁场和它的源，磁力@
 <a href=".?query=tag:大学物理" class="tag" target="_blank" rel="noopener">#大学物理</a> <a href=".?query=tag:磁" class="tag" target="_blank" rel="noopener">#磁</a><br>
 <a data-href="大学物理（2） 笔记 8" href="物理\大学物理（2）-笔记-8.html" class="internal-link" target="_self" rel="noopener">大学物理（2） 笔记 8</a>
-<br><br>现在是11月1日晚上19：19，今天下午刚考完ODE，最近几节物理课基本都在埋头学数学，现在需要赶紧补一补学一学大雾。<br>首先，]]></description><link>物理\大学物理（2）-笔记-9.html</link><guid isPermaLink="false">物理/大学物理（2） 笔记 9.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Fri, 01 Nov 2024 11:21:10 GMT</pubDate></item><item><title><![CDATA[可交换]]></title><description><![CDATA[ 
+<br><br>现在是11月1日晚上19：19，今天下午刚考完ODE，最近几节物理课基本都在埋头学数学，现在需要赶紧补一补学一学大雾。<br>首先，<br><a data-href="大学物理期中复习" href="mathstuff\大学物理期中复习.html" class="internal-link" target="_self" rel="noopener">大学物理期中复习</a>]]></description><link>物理\大学物理（2）-笔记-9.html</link><guid isPermaLink="false">物理/大学物理（2） 笔记 9.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 05 Nov 2024 01:51:22 GMT</pubDate></item><item><title><![CDATA[可交换]]></title><description><![CDATA[ 
  <br><br><br><br>
 <br>同时正交对角化
 
@@ -3169,7 +3235,10 @@ XZYf±¼¼f
 
 <br><br><img alt="Pasted image 20240915092331.png" src="lib\media\pasted-image-20240915092331.png"><br>
 <img alt="Pasted image 20240915092339.png" src="lib\media\pasted-image-20240915092339.png"><br>
-<img alt="Pasted image 20240915092346.png" src="lib\media\pasted-image-20240915092346.png">]]></description><link>作业\ode-第一次作业.html</link><guid isPermaLink="false">作业/ODE 第一次作业.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 21 Sep 2024 04:34:14 GMT</pubDate><enclosure url="lib\media\pasted-image-20240915092018.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240915092018.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[方便查询的记号表]]></title><description><![CDATA[ 
+<img alt="Pasted image 20240915092346.png" src="lib\media\pasted-image-20240915092346.png">]]></description><link>作业\ode-第一次作业.html</link><guid isPermaLink="false">作业/ODE 第一次作业.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 21 Sep 2024 04:34:14 GMT</pubDate><enclosure url="lib\media\pasted-image-20240915092018.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240915092018.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[大学物理期中复习]]></title><description><![CDATA[<a class="tag" href="?query=tag:大学物理" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#大学物理</a> 
+ <br>@2024-11-05，后天早上就要考试，我才开始复习，要寄@
+<a href=".?query=tag:大学物理" class="tag" target="_blank" rel="noopener">#大学物理</a> 
+<br><br>电学的公式里面，你应该不会的就是介质相关的。<br><br>原子，分子的固有磁矩。抗磁和顺磁。<br>分子电流模型。<br>磁化强度，磁化电流<br>  的环路定理。一堆磁质的东西的公式。<br>磁滞回线，<br>电磁感应。s]]></description><link>mathstuff\大学物理期中复习.html</link><guid isPermaLink="false">MathStuff/大学物理期中复习.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 05 Nov 2024 02:43:42 GMT</pubDate></item><item><title><![CDATA[方便查询的记号表]]></title><description><![CDATA[ 
  <br>
 <br>Amann 记 
 <br>
@@ -3225,7 +3294,7 @@ XZYf±¼¼f
 <br>主要目的：弄清问题 “留给老鼠的牙齿去批判”
 
 
-<br>]]></description><link>mathstuff\马原.html</link><guid isPermaLink="false">MathStuff/马原.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 16 Oct 2024 06:51:01 GMT</pubDate></item><item><title><![CDATA[马原2]]></title><description><![CDATA[ 
+<br><br><br>题目：结合课堂讲解，运用马克思主义基本原理分析近代中国从“洋务运动”到“戊戌变法”再到“五四新文化运动”的历史变迁过程。<br>参考标准：<br>（一）有一种观点认为，社会由“器物”“制度”和“观念”构成。（2分）其中，观点是制度的基础，观念决定制度建构；制度是社会秩序和器物的保障，制度决定社会秩序和器物生产。（3分）<br>洋务运动是器物层面的变革，戊戌变法是制度层面的变革，而五四新文化运动则是观念层面的变革。（3分）这是一个由表及里、由浅入深、不断触及社会本质的过程。（2分）<br>这是一种典型的唯心史观。（2分）<br>（二）在唯物史观视域中，社会由经济、政治和文化构成。（2分）<br>经济是生产力和生产关系的统一体。（2分）生产力是在人与自然进行物质能量变换过程中所产生的力量，生产关系则是在物质生产中结成的人与人之间的权力-支配关系，由生产资料的所有权（力）关系和劳动产品的分配权（力）关系构成。（3分）政治是以国家和法律形式存在的暴力机构。（2分）文化则是一种共识性的观念。（2分）<br>在经济中，生产力是内容，生产关系是形式；生产力决定生产关系，生产关系必须与生产力的发展相适应。（3分）经济是政治的内容，经济决定政治，政治必须与经济的发展相适应。（3分）经济和政治是内容，文化是形式，文化必须与经济发展和政治要求相适应。（3分）内容与形式的关系就如同人的身体与衣服的关系。（2分）<br>近代中国从“洋务运动”到“戊戌变法”再到“五四新文化运动”的历史变迁过程，与其说是从现象到本质不断深入的过程，毋宁说是在现代生产力发展要求（这是关乎民族生存的问题）的推动下从各个方面不断展开的过程。<br>（三）落后就要挨打。经过两次鸦片战争，西方工业生产力（坚船利炮和物美价廉的工业产品）战胜了清朝的农业和手工业生产力，由此推动洋务派以官办、官督商办和官商合办等形式兴办西式工业，向西方先进生产技术学习，以推动生产力的发展。（3分）但由于既未触动封建生产关系（农业中的封建土地私有制和工业中封建官僚对生产力的控制），更未触动封建政治关系和文化关系，最终以失败而告终。（3分）<br>在洋务运动后期，在“民富”（前期重点落实“国强”）的变革诉求下，资本主义生产关系（雇佣劳动关系）和民族资产阶级得以形成。戊戌变法提出“开国会、定宪法、兴民权”，以资产阶级君主立宪制度取代封建主义君主专制制度，则是在谋求建立与资本主义经济发展要求相适应的政治关系和政治制度。（3分）但资本主义经济力量的薄弱，决定了资产阶级力量的软弱不堪，难以与封建土地私有制支撑下强大的封建力量相抗衡，最终也以失败而告终。（3分）<br>辛亥革命推翻了两千多年的封建君主专制制度，建立起资产阶级的民主共和国，民族资产阶级以独立的政治力量登上历史舞台。但以君臣父子等级观念为内核的儒家道统（文化形式）严重制约着民族资本主义经济的发展和政治制度的建设。（3分）如果说五四之前的新文化运动倡导“民主、科学”理念，是资产阶级新文化向封建旧文化发起的冲击，是“一战”期间中国民族资产阶级（随着资本主义经济和政治的发展）得以壮大的文化表现；那么，五四新文化运动则带来了马克思主义和社会主义理念，是中国无产阶级（随着资产阶级力量的增强）不断成长壮大的文化表现，也是苏俄十月社会主义革命（道路）影响的结果，更是西方列强在经济上压制中国发展资本主义的产物。（3分）<br>（四）语言与逻辑（8分）]]></description><link>mathstuff\马原.html</link><guid isPermaLink="false">MathStuff/马原.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sun, 03 Nov 2024 15:19:08 GMT</pubDate></item><item><title><![CDATA[马原2]]></title><description><![CDATA[ 
  <br><br>一、“三个世界”<br>
 <br>动物世界
 <br>鬼神世界
@@ -3367,8 +3436,8 @@ XZYf±¼¼f
 
 ]]></description><link>mathstuff\马原4.html</link><guid isPermaLink="false">MathStuff/马原4.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 16 Oct 2024 06:50:35 GMT</pubDate></item><item><title><![CDATA[你好哇，你这会想看什么？]]></title><description><![CDATA[ 
  <br>二四六12月1月2月3月4月5月6月7月8月9月10月11月lessmore<br>
-<br>今天是2024年11月3日，2024 年已经过去了 302 天·
-<br>今年你总共在 72 天中留下了你的足迹，继续加油！
+<br>今天是2024年11月5日，2024 年已经过去了 304 天·
+<br>今年你总共在 73 天中留下了你的足迹，继续加油！
 <br><br>Multi column
 复分析
 暑假期间听刘老师课程的笔记。之后会重置。<br>
@@ -3649,7 +3718,11 @@ C' \arrow[rr,"k'" near end] \arrow[dr,swap,"c"] &amp;&amp; D' \arrow[dr,swap,"d"
 这是一个box类型的callout。
 <br>Proof
 这是一个proof类型的callout。
-]]></description><link>mathstuff\文本编辑战术演习.html</link><guid isPermaLink="false">MathStuff/文本编辑战术演习.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Fri, 04 Oct 2024 16:09:25 GMT</pubDate><enclosure url="lib\media\pasted-image-20241003223246.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20241003223246.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[one-point compactification]]></title><description><![CDATA[ 
+]]></description><link>mathstuff\文本编辑战术演习.html</link><guid isPermaLink="false">MathStuff/文本编辑战术演习.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Fri, 04 Oct 2024 16:09:25 GMT</pubDate><enclosure url="lib\media\pasted-image-20241003223246.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20241003223246.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Abstract Algebra Note 9]]></title><description><![CDATA[<a class="tag" href="?query=tag:抽象代数" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#抽象代数</a> <a class="tag" href="?query=tag:多项式" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#多项式</a> 
+ <br>@2024-11-04，Eisenstein整数，费马的定理，多项式初探@
+<a href=".?query=tag:抽象代数" class="tag" target="_blank" rel="noopener">#抽象代数</a> <a href=".?query=tag:多项式" class="tag" target="_blank" rel="noopener">#多项式</a><br>
+<a data-href="Abstract Algebra Note 8" href="代数\抽象代数\abstract-algebra-note-8.html" class="internal-link" target="_self" rel="noopener">Abstract Algebra Note 8</a>
+<br>今天居然是我的生日！晚上吃一个甜麻花奖励自己。<br>主题是多项式。<br>讲了  上的范数，一个“只能背会”的“覆盖”证明。<br>考虑了方程 根本跟不上，心态略崩。<br>]]></description><link>mathstuff\abstract-algebra-note-9.html</link><guid isPermaLink="false">MathStuff/Abstract Algebra Note 9.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 05 Nov 2024 04:46:23 GMT</pubDate></item><item><title><![CDATA[one-point compactification]]></title><description><![CDATA[ 
  <br>one-point compactification(单点紧化) 是一种将非紧致的局部紧致空间转化为紧致空间的技术。具体来说，给定一个局部紧致空间 ，其单点紧化是通过添加一个点（通常称为“无穷远点”或“附加点”）到  中，并将  的拓扑扩展到这个新点，使得整个空间成为紧致的。<br>形式化地，设  是一个局部紧致 Hausdorff 空间。 的单点紧化记作  或 ，其中  是新添加的点。 的拓扑定义如下：<br>
 <br>对于  中的任何开集 ， 也是  中的开集。
 <br>一个包含  的开集是  中的一个紧致闭集的补集。
