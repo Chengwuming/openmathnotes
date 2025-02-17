@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[LogseqVault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>LogseqVault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 07 Jan 2025 08:50:35 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 07 Jan 2025 08:48:50 GMT</pubDate><copyright><![CDATA[Chengwuming]]></copyright><ttl>60</ttl><dc:creator>Chengwuming</dc:creator><item><title><![CDATA[抽象代数课程定义及记号表]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[LogseqVault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>LogseqVault</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 17 Feb 2025 03:25:01 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 17 Feb 2025 03:22:07 GMT</pubDate><copyright><![CDATA[Chengwuming]]></copyright><ttl>60</ttl><dc:creator>Chengwuming</dc:creator><item><title><![CDATA[抽象代数课程定义及记号表]]></title><description><![CDATA[ 
  <br>
 <br>射影空间 ，其中  是一个 -线性空间，定义为其上一维线性子空间的集合。
 <br>域扩张：  是  的子域，称  是  的扩张，记作ee mathjax 不太支持。
@@ -244,7 +244,7 @@
 <br><br>
 我们考虑 ，里面有  个元素，考虑  在其上的作用，可以诱导出单射 ， 有120个元素，而<br>
  即视为 ，从而找到了一个  的子群 ，由于大群的作用是传递的，所以这个子群的作用自然是传递的，但是你想到的  的6个自然的子群  的作用都不是传递的（考虑和  的同构）。
-<br>GL(2;F5)SP(F5)PGL(2;F5)¿¼~¿<br><br>
+<br>        GL(2;F5)        SP(F5)        PGL(2;F5)                      ¿                     ¼                     ~¿       <br><br>
 <br>令 ，那么  作用在左陪集上（通过左乘法），这就给出了一个传递的群作用。
 <br>如果是子群  以相同的方式作用，那么这个作用未必是传递的。
 <br>子群  的稳定化子 
@@ -3283,7 +3283,114 @@ Weyl准则指出，序列在上等分布的充要条件是对于所有整数，�
 <br>对于任意 ， 表示  小于等于  的概率。
 <br>由于  是  的最大  值， 当且仅当 。
 <br>因为  是  区间上的一致分布，。
-<br>因此， 的分布函数就是 ，即：<br><br><br><br>通过上述推理，我们得出结论： 具有分布函数 。]]></description><link>概率统计\《概率论教程》讨论班-3.html</link><guid isPermaLink="false">概率统计/《概率论教程》讨论班 3.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sun, 03 Nov 2024 13:52:28 GMT</pubDate></item><item><title><![CDATA[Topology Notes 1]]></title><description><![CDATA[<a class="tag" href="?query=tag:拓扑" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#拓扑</a> <a class="tag" href="?query=tag:点集拓扑" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#点集拓扑</a> <a class="tag" href="?query=tag:Topology" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#Topology</a> 
+<br>因此， 的分布函数就是 ，即：<br><br><br><br>通过上述推理，我们得出结论： 具有分布函数 。]]></description><link>概率统计\《概率论教程》讨论班-3.html</link><guid isPermaLink="false">概率统计/《概率论教程》讨论班 3.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sun, 03 Nov 2024 13:52:28 GMT</pubDate></item><item><title><![CDATA[概率论]]></title><description><![CDATA[<a class="tag" href="?query=tag:概率论" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#概率论</a> <a class="tag" href="?query=tag:随机试验" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#随机试验</a> 
+ <br>@2025-02-17，新学期第一天的第一堂早八@
+<a href=".?query=tag:概率论" class="tag" target="_blank" rel="noopener nofollow">#概率论</a> <a href=".?query=tag:随机试验" class="tag" target="_blank" rel="noopener nofollow">#随机试验</a>
+<br>今天是新学期第一天，这学期我一定好好学习！！！<br>进入第一章的学习<br><br><br>定义 随机试验
+(1) 试验前无法预测结果<br>
+(2) 试验出现的所有可能结果已知
+<br>关于第二点缺失的情况，好像叫什么 maximum 模型？。。<br>定义 样本点，样本空间<br><br><br><br>对于一列事件 ，我们定义<br>
+和分析中  类似，事实上我们可以从事件发生的角度理解：如果 ，这意味着存在 ，使得 ，换言之任意  的  都发生，故不发生  的  至多有限个；如果 ，则对于每一个 ， ，也即  存在的  有无限个。<br>那么 不发生的至多有限个 和 有无限个发生 的差别是怎样的？<br>Example
+<img alt="Pasted image 20250217110356.png" src="lib\media\pasted-image-20250217110356.png">
+<br><a data-href="Borel-Cantelli 引理" href="Borel-Cantelli 引理" class="internal-link" target="_self" rel="noopener nofollow">Borel-Cantelli 引理</a><br><br><br><br><br>一些关于集合的基本概念<br>通常情况下，我们已知 ，并在其上选取特定的集类 ，问题在于我们怎么选取这样的类以及如何选取函数？<br>....两个例子：经典，几何<br>注意到概率  满足的条件： ，-可加性<br>以及为了满足这些条件，配套的，  应该： 1. ，2.  , 3. <br>显然下一次课就要把这些往清楚里说了。<br><br>
+<br>上下极限以及对应的理解：什么是至多有限次不发生，什么是无限次发生
+<br>初步熟悉代数和测度的公理。
+<br>你的笔记已经涵盖了概率论的基础概念，以下是对内容的补充、延伸与启发：<br><br>AI
+
+
+<br>
+第二点缺失的模型<br>
+当试验的可能结果无法穷举时（如几何概率中的连续区间），需要引入 σ-代数（σ-field） 来定义可测事件集合。例如，在区间  上，Borel σ-代数由所有开集、闭集及其可数交并生成，而并非包含所有子集（避免不可测集的悖论）。
+
+<br>
+样本空间（Sample Space）的扩展  
+
+<br>离散型：有限或可数无限结果（如抛硬币、骰子）。
+<br>连续型：不可数结果（如测量误差、寿命时间），需用测度论处理。
+
+
+
+
+
+
+
+<br>（下极限）：<br>
+"最终所有事件都发生"。例如， 表示“第  次抛硬币为正面”，则  是“存在某个 ，使得第  次以后全部是正面”（至多有限次反面）。
+<br>（上极限）：<br>
+"事件无限次发生"。如上例， 是“正面出现无限次”（可能存在无限次反面，但正面仍无限次出现）。
+
+
+
+<br>：只有有限个  不包含 。  
+<br>：有无穷个  包含 ，但不排除也有无穷个不包含。
+
+
+
+<br>若 ，则 （几乎不发生无限次）。  
+<br>若  独立且 ，则 （几乎必然无限次发生）。
+
+
+
+
+<br>
+概率与期望的桥梁<br>
+，将概率转化为期望计算，利用线性性简化证明（如容斥原理）。
+
+<br>
+集合运算的代数化  
+
+<br>
+<br>
+<br>
+
+
+<br>
+极限事件的刻画<br>
+ 的指示函数为 ，即  的极限。
+
+
+
+
+
+
+<br>幂集的不可测性：在连续空间（如实数集），若允许所有子集都可测，会导致 Banach-Tarski 悖论等矛盾。
+<br>最小生成 σ-代数：例如由开集生成的 Borel σ-代数是处理连续概率的基础。
+
+
+
+<br>非负性：概率不能为负（与物理世界一致）。
+<br>规范性： 表示“必然发生”的标准化。
+<br>可数可加性：对互斥事件列，概率可无限分解（有限可加性的自然扩展）。
+
+
+
+<br>单位正方形上的均匀分布：。
+<br>挑战：若  是分形（如 Cantor 集），需用 Lebesgue 测度而非传统面积。
+
+
+
+
+<br>
+思考题：若 ，这意味着什么？能否构造这样的序列？<br>
+（答案：此时事件列收敛，记作 ，即最终稳定在某个事件。）
+
+<br>
+测度的唯一性：在  上，若两个概率测度在全体区间上一致，则它们在 Borel σ-代数上一致（Carathéodory 扩展定理）。
+
+<br>
+不可测集的构造：利用选择公理构造 Vitali 集，说明为何需要限制集合类。
+
+
+
+
+
+<br>概率论 vs 测度论：概率是测度为1的特例，但强调独立性、条件概率等独特概念。
+<br>哲学视角：概率公理化将“随机性”转化为数学对象的研究，使概率论成为严谨的分析分支。
+
+建议结合具体定理（如 Kolmogorov 的 0-1 律）和实际问题（如赌徒破产问题）深化理解。下次课可预习概率测度的连续性：<br>
+。
+<br><br>如果允许所有的子集都可测会出现问题？<br>
+<a data-href="Banach-Tarski 悖论" href="Banach-Tarski 悖论" class="internal-link" target="_self" rel="noopener nofollow">Banach-Tarski 悖论</a><br>AI: 不可测集的构造：利用选择公理构造 Vitali 集，说明为何需要限制集合类。<br>这句话怎么理解]]></description><link>概率统计\概率论.html</link><guid isPermaLink="false">概率统计/概率论.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Mon, 17 Feb 2025 03:07:10 GMT</pubDate><enclosure url="lib\media\pasted-image-20250217110356.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20250217110356.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Topology Notes 1]]></title><description><![CDATA[<a class="tag" href="?query=tag:拓扑" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#拓扑</a> <a class="tag" href="?query=tag:点集拓扑" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#点集拓扑</a> <a class="tag" href="?query=tag:Topology" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#Topology</a> 
  <br>@2024-10-03，这是上周五蹭课记的笔记，以后会带电脑@
 <a href=".?query=tag:拓扑" class="tag" target="_blank" rel="noopener nofollow">#拓扑</a> <a href=".?query=tag:点集拓扑" class="tag" target="_blank" rel="noopener nofollow">#点集拓扑</a> <a href=".?query=tag:Topology" class="tag" target="_blank" rel="noopener nofollow">#Topology</a> 
 <br><br><img alt="0dc7a97ca089ac89ac0c9edc29160019_720.jpg" src="lib\media\0dc7a97ca089ac89ac0c9edc29160019_720.jpg" style="width: 962px; max-width: 100%;"><br>
@@ -3733,7 +3840,7 @@ Weyl准则指出，序列在上等分布的充要条件是对于所有整数，�
 
 <br><br>Dirichlet核在傅里叶分析中主要用于研究傅里叶级数的收敛性问题。通过研究Dirichlet核的性质，可以更好地理解傅里叶级数在不同点处的收敛行为，尤其是处理函数的不连续点或奇异点时的行为。<br><br>Dirichlet核是傅里叶分析中的一个重要工具，它通过卷积的方式将函数的傅里叶级数部分和表示出来。其性质和应用在数学分析中具有重要的理论和实际意义。<br>]]></description><link>mathstuff\马原论文e.html</link><guid isPermaLink="false">MathStuff/马原论文e.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Wed, 25 Dec 2024 10:18:30 GMT</pubDate></item><item><title><![CDATA[你好哇，你这会想看什么？]]></title><description><![CDATA[ 
  <br>1234567891011121314151617181920212223242526272829303111月··········································12月2025年1月2月lessmore<br>
-<br>今天是2025年1月7日，2025 年已经过去了 6 天·
+<br>今天是2025年2月17日，2025 年已经过去了 46 天·
 <br>今年你总共在 85 天中留下了你的足迹，继续加油！
 <br><br>Multi column
 复分析
@@ -3772,7 +3879,7 @@ Singular
 后续会上传...
 
 <br><br>8月一二三四五六日9月一二三四五六日10月一二三四五六日11月一二三四五六日·············································lessmore<br><br>今天是2025.1.7，经过五天疯狂地复习，终于考完了所有的试。很高兴虽然复习过程非常折磨，但是也坚持下来了。我可能被考试消灭，但不会被打败！现在迎来假期，我居然一点实感都没有，和上一个暑假刚开始时光是躺着都感到兴奋和满足区别挺大。不过依然轻松不少，真好。接下来就洒扫庭除，准备监考阅卷，告别老师，收拾行李，准备兼职和预习啦。实分析复分析泛函分析线性回归分析分析力学启动！]]></description><link>mathstuff\你好哇，你这会想看什么？.html</link><guid isPermaLink="false">MathStuff/你好哇，你这会想看什么？.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 07 Jan 2025 08:48:39 GMT</pubDate></item><item><title><![CDATA[签到表]]></title><description><![CDATA[ 
- <br>]]></description><link>mathstuff\签到表.html</link><guid isPermaLink="false">MathStuff/签到表.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sat, 30 Nov 2024 06:40:39 GMT</pubDate></item><item><title><![CDATA[任务表]]></title><description><![CDATA[ 
+ <br>]]></description><link>mathstuff\签到表.html</link><guid isPermaLink="false">MathStuff/签到表.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Tue, 07 Jan 2025 12:34:11 GMT</pubDate></item><item><title><![CDATA[任务表]]></title><description><![CDATA[ 
  <br><br><br>笔记<br>所有定理自己来证明一遍。<br><br>光学复（笔记）<br>量子<br>]]></description><link>mathstuff\任务表.html</link><guid isPermaLink="false">MathStuff/任务表.md</guid><dc:creator><![CDATA[Chengwuming]]></dc:creator><pubDate>Sun, 05 Jan 2025 00:40:03 GMT</pubDate></item><item><title><![CDATA[微积分第13次基础习题课新增题目]]></title><description><![CDATA[ 
  <br>7.5 2（1）3（2，9，10，11）4（2，3）<br>
 总复习 1（1） 4（1，2）<br>习题7.5 <br>2 （1）<br>
